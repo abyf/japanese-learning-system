@@ -1,0 +1,58 @@
+{
+  "id": "v017",
+  "title": "Transport",
+  "titleEn": "Transport",
+  "level": "beginner",
+  "difficulty": 0.3,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "word_match",
+      "prompt": "What does 電車 mean?",
+      "prompt_fr": "Que signifie 電車 ?",
+      "word": "電車",
+      "options": ["Train", "Bus", "Car", "Bicycle"],
+      "options_fr": ["Train", "Bus", "Voiture", "Vélo"],
+      "correctAnswer": "Train",
+      "meaning_fr": "Train"
+    },
+    {
+      "id": "q2",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of this kanji?",
+      "prompt_fr": "Quelle est la lecture de ce kanji ?",
+      "kanji": "車",
+      "options": ["くるま/しゃ", "でんしゃ", "じてんしゃ", "バス"],
+      "correctAnswer": "くるま/しゃ",
+      "meaning_en": "car / vehicle",
+      "meaning_fr": "voiture / véhicule"
+    },
+    {
+      "id": "q3",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "毎日＿＿いて学校に行きます。(I walk to school every day)",
+      "sentence_fr": "毎日＿＿いて学校に行きます。(Je vais à l'école à pied tous les jours)",
+      "options": ["歩", "走", "乗", "飛"],
+      "correctAnswer": "歩",
+      "meaning_en": "to walk",
+      "meaning_fr": "marcher"
+    },
+    {
+      "id": "q4",
+      "type": "word_match",
+      "prompt": "What does 自転車 mean?",
+      "prompt_fr": "Que signifie 自転車 ?",
+      "word": "自転車",
+      "options": ["Bicycle", "Motorcycle", "Car", "Taxi"],
+      "options_fr": ["Vélo", "Moto", "Voiture", "Taxi"],
+      "correctAnswer": "Bicycle",
+      "meaning_fr": "Vélo"
+    }
+  ],
+  "translation": {
+    "en": "This lesson covers transportation vocabulary in Japanese.",
+    "fr": "Cette leçon couvre le vocabulaire des transports en japonais."
+  }
+}

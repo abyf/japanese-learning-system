@@ -1,0 +1,50 @@
+{
+  "id": "r083",
+  "title": "JLPT試験について",
+  "titleEn": "About the JLPT Exam",
+  "text": "JLPTは<ruby>日本語能力試験<rt>にほんごのうりょくしけん</rt></ruby>のことです。N5からN1まで<ruby>五<rt>いつ</rt></ruby>つのレベルがあります。N5が<ruby>一番<rt>いちばん</rt></ruby><ruby>易<rt>やさ</rt></ruby>しく、N1が<ruby>一番<rt>いちばん</rt></ruby><ruby>難<rt>むずか</rt></ruby>しいです。<ruby>年<rt>ねん</rt></ruby>に<ruby>二回<rt>にかい</rt></ruby>、<ruby>七月<rt>しちがつ</rt></ruby>と<ruby>十二月<rt>じゅうにがつ</rt></ruby>に<ruby>試験<rt>しけん</rt></ruby>があります。<ruby>世界中<rt>せかいじゅう</rt></ruby>で<ruby>受<rt>う</rt></ruby>けることができます。<ruby>文法<rt>ぶんぽう</rt></ruby>、<ruby>読解<rt>どっかい</rt></ruby>、<ruby>聴解<rt>ちょうかい</rt></ruby>のセクションがあります。N2以上は<ruby>日本<rt>にほん</rt></ruby>での<ruby>就職<rt>しゅうしょく</rt></ruby>に<ruby>役立<rt>やくだ</rt></ruby>ちます。<ruby>毎年<rt>まいとし</rt></ruby><ruby>多<rt>おお</rt></ruby>くの<ruby>人<rt>ひと</rt></ruby>が<ruby>挑戦<rt>ちょうせん</rt></ruby>しています。",
+  "difficulty": 0.72,
+  "level": "beginner",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What is JLPT?",
+      "options": ["日本語学校", "日本語能力試験", "日本語教科書", "日本語アプリ"],
+      "correctAnswer": "日本語能力試験"
+    },
+    {
+      "id": "q2",
+      "question": "How many levels are there?",
+      "options": ["三つ", "四つ", "五つ", "六つ"],
+      "correctAnswer": "五つ"
+    },
+    {
+      "id": "q3",
+      "question": "Which is the easiest level?",
+      "options": ["N1", "N3", "N5", "N4"],
+      "correctAnswer": "N5"
+    },
+    {
+      "id": "q4",
+      "question": "How often is the exam held?",
+      "options": ["年に一回", "年に二回", "年に三回", "毎月"],
+      "correctAnswer": "年に二回"
+    },
+    {
+      "id": "q5",
+      "question": "What sections does the exam have?",
+      "options": ["文法と漢字", "文法・読解・聴解", "会話と作文", "漢字と語彙"],
+      "correctAnswer": "文法・読解・聴解"
+    },
+    {
+      "id": "q6",
+      "question": "What level helps for working in Japan?",
+      "options": ["N5以上", "N4以上", "N3以上", "N2以上"],
+      "correctAnswer": "N2以上"
+    }
+  ],
+  "translation": {
+    "en": "JLPT stands for the Japanese Language Proficiency Test. There are five levels from N5 to N1. N5 is the easiest and N1 is the most difficult. The exam is held twice a year, in July and December. You can take it around the world. There are grammar, reading, and listening sections. N2 or above is useful for working in Japan. Many people challenge it every year.",
+    "fr": "Le JLPT est le Test d'Aptitude en Japonais. Il y a cinq niveaux de N5 à N1. Le N5 est le plus facile et le N1 est le plus difficile. L'examen a lieu deux fois par an, en juillet et décembre. On peut le passer partout dans le monde. Il comprend des sections de grammaire, lecture et écoute. Le N2 ou plus est utile pour travailler au Japon. Beaucoup de personnes le tentent chaque année."
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "id": "r047",
+  "title": "日本の学校生活",
+  "titleEn": "Japanese School Life",
+  "text": "<ruby>日本<rt>にほん</rt></ruby>の<ruby>学校<rt>がっこう</rt></ruby>は<ruby>四月<rt>しがつ</rt></ruby>に<ruby>始<rt>はじ</rt></ruby>まります。<ruby>学生<rt>がくせい</rt></ruby>は<ruby>制服<rt>せいふく</rt></ruby>を<ruby>着<rt>き</rt></ruby>ます。<ruby>教室<rt>きょうしつ</rt></ruby>の<ruby>掃除<rt>そうじ</rt></ruby>は<ruby>生徒<rt>せいと</rt></ruby>がします。<ruby>給食<rt>きゅうしょく</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>はみんなで<ruby>教室<rt>きょうしつ</rt></ruby>で<ruby>食<rt>た</rt></ruby>べます。<ruby>部活動<rt>ぶかつどう</rt></ruby>は<ruby>放課後<rt>ほうかご</rt></ruby>にあります。<ruby>文化祭<rt>ぶんかさい</rt></ruby>や<ruby>体育祭<rt>たいいくさい</rt></ruby>などの<ruby>行事<rt>ぎょうじ</rt></ruby>もあります。<ruby>夏休<rt>なつやす</rt></ruby>みは<ruby>七月<rt>しちがつ</rt></ruby>から<ruby>八月<rt>はちがつ</rt></ruby>です。<ruby>宿題<rt>しゅくだい</rt></ruby>がたくさん<ruby>出<rt>で</rt></ruby>ます。<ruby>日本<rt>にほん</rt></ruby>の<ruby>学校生活<rt>がっこうせいかつ</rt></ruby>は<ruby>忙<rt>いそが</rt></ruby>しいですが、<ruby>楽<rt>たの</rt></ruby>しいです。",
+  "difficulty": 0.51,
+  "level": "beginner",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "When does the Japanese school year start?",
+      "options": ["一月", "四月", "九月", "三月"],
+      "correctAnswer": "四月"
+    },
+    {
+      "id": "q2",
+      "question": "What do students wear?",
+      "options": ["私服", "制服", "ジャージ", "白衣"],
+      "correctAnswer": "制服"
+    },
+    {
+      "id": "q3",
+      "question": "Who cleans the classroom?",
+      "options": ["先生", "清掃員", "生徒", "親"],
+      "correctAnswer": "生徒"
+    },
+    {
+      "id": "q4",
+      "question": "Where do students eat school lunch?",
+      "options": ["食堂", "教室", "校庭", "屋上"],
+      "correctAnswer": "教室"
+    },
+    {
+      "id": "q5",
+      "question": "When are club activities?",
+      "options": ["朝", "昼休み", "放課後", "週末"],
+      "correctAnswer": "放課後"
+    },
+    {
+      "id": "q6",
+      "question": "What school events are mentioned?",
+      "options": ["入学式と卒業式", "文化祭と体育祭", "遠足と修学旅行", "運動会と発表会"],
+      "correctAnswer": "文化祭と体育祭"
+    },
+    {
+      "id": "q7",
+      "question": "When is summer vacation?",
+      "options": ["六月〜七月", "七月〜八月", "八月〜九月", "六月〜八月"],
+      "correctAnswer": "七月〜八月"
+    },
+    {
+      "id": "q8",
+      "question": "How is Japanese school life described?",
+      "options": ["退屈", "簡単", "忙しいけど楽しい", "大変すぎる"],
+      "correctAnswer": "忙しいけど楽しい"
+    }
+  ],
+  "translation": {
+    "en": "Japanese schools start in April. Students wear uniforms. Students clean the classrooms themselves. During lunch time, everyone eats together in the classroom. Club activities are after school. There are also events like cultural festivals and sports days. Summer vacation is from July to August. A lot of homework is assigned. Japanese school life is busy but fun.",
+    "fr": "Les écoles japonaises commencent en avril. Les élèves portent un uniforme. Ce sont les élèves qui nettoient les salles de classe. Pendant le déjeuner, tout le monde mange ensemble dans la salle de classe. Les activités de club ont lieu après les cours. Il y a aussi des événements comme le festival culturel et la fête sportive. Les vacances d'été vont de juillet à août. Beaucoup de devoirs sont donnés. La vie scolaire japonaise est chargée mais amusante."
+  }
+}

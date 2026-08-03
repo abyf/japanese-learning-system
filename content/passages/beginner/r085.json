@@ -1,0 +1,56 @@
+{
+  "id": "r085",
+  "title": "一年間の振り返り",
+  "titleEn": "Looking Back on One Year",
+  "text": "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>勉強<rt>べんきょう</rt></ruby>し<ruby>始<rt>はじ</rt></ruby>めて<ruby>一年<rt>いちねん</rt></ruby>が<ruby>経<rt>た</rt></ruby>ちました。<ruby>最初<rt>さいしょ</rt></ruby>はひらがなとカタカナを<ruby>覚<rt>おぼ</rt></ruby>えました。<ruby>簡単<rt>かんたん</rt></ruby>な<ruby>挨拶<rt>あいさつ</rt></ruby>から<ruby>始<rt>はじ</rt></ruby>めて、<ruby>今<rt>いま</rt></ruby>は<ruby>長<rt>なが</rt></ruby>い<ruby>文章<rt>ぶんしょう</rt></ruby>も<ruby>読<rt>よ</rt></ruby>めるようになりました。<ruby>漢字<rt>かんじ</rt></ruby>は<ruby>約<rt>やく</rt></ruby><ruby>三百<rt>さんびゃく</rt></ruby><ruby>覚<rt>おぼ</rt></ruby>えました。<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>もたくさん<ruby>学<rt>まな</rt></ruby>びました。<ruby>来年<rt>らいねん</rt></ruby>はJLPTのN4に<ruby>挑戦<rt>ちょうせん</rt></ruby>したいです。<ruby>日本語<rt>にほんご</rt></ruby>の<ruby>勉強<rt>べんきょう</rt></ruby>はこれからも<ruby>続<rt>つづ</rt></ruby>けます。<ruby>夢<rt>ゆめ</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>に<ruby>行<rt>い</rt></ruby>くことです。",
+  "difficulty": 0.78,
+  "level": "beginner",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "How long has the speaker been studying?",
+      "options": ["六ヶ月", "一年", "二年", "三年"],
+      "correctAnswer": "一年"
+    },
+    {
+      "id": "q2",
+      "question": "What was learned first?",
+      "options": ["漢字", "ひらがなとカタカナ", "文法", "敬語"],
+      "correctAnswer": "ひらがなとカタカナ"
+    },
+    {
+      "id": "q3",
+      "question": "What can the speaker do now?",
+      "options": ["日本語で話す", "長い文章も読める", "小説を書く", "通訳する"],
+      "correctAnswer": "長い文章も読める"
+    },
+    {
+      "id": "q4",
+      "question": "How many kanji were learned?",
+      "options": ["約百", "約二百", "約三百", "約五百"],
+      "correctAnswer": "約三百"
+    },
+    {
+      "id": "q5",
+      "question": "What does the speaker want to challenge next year?",
+      "options": ["JLPT N5", "JLPT N4", "JLPT N3", "JLPT N2"],
+      "correctAnswer": "JLPT N4"
+    },
+    {
+      "id": "q6",
+      "question": "What is the speaker's dream?",
+      "options": ["日本語の先生になる", "日本に行く", "日本の大学に入る", "日本の会社で働く"],
+      "correctAnswer": "日本に行く"
+    },
+    {
+      "id": "q7",
+      "question": "Will the speaker continue studying?",
+      "options": ["やめる", "これからも続ける", "分からない", "休む"],
+      "correctAnswer": "これからも続ける"
+    }
+  ],
+  "translation": {
+    "en": "One year has passed since I started studying Japanese. First, I learned hiragana and katakana. Starting from simple greetings, I can now read long passages too. I've learned about 300 kanji. I also learned a lot about Japanese culture. Next year, I want to challenge the JLPT N4. I will continue studying Japanese from now on. My dream is to go to Japan.",
+    "fr": "Un an s'est écoulé depuis que j'ai commencé à étudier le japonais. D'abord, j'ai appris les hiragana et katakana. En commençant par des salutations simples, je peux maintenant lire aussi des textes longs. J'ai appris environ 300 kanji. J'ai aussi beaucoup appris sur la culture japonaise. L'année prochaine, je veux tenter le JLPT N4. Je continuerai à étudier le japonais. Mon rêve est d'aller au Japon."
+  }
+}

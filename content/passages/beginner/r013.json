@@ -1,0 +1,38 @@
+{
+  "id": "r013",
+  "title": "日本の季節",
+  "titleEn": "Seasons in Japan",
+  "text": "<ruby>日本<rt>にほん</rt></ruby>の<ruby>季節<rt>きせつ</rt></ruby>はとてもきれいです。<ruby>三月<rt>さんがつ</rt></ruby>から<ruby>五月<rt>ごがつ</rt></ruby>は<ruby>春<rt>はる</rt></ruby>です。<ruby>花<rt>はな</rt></ruby>がたくさん<ruby>咲<rt>さ</rt></ruby>きます。<ruby>六月<rt>ろくがつ</rt></ruby>には<ruby>梅雨<rt>つゆ</rt></ruby>があります。<ruby>雨<rt>あめ</rt></ruby>がたくさん<ruby>降<rt>ふ</rt></ruby>ります。<ruby>七月<rt>しちがつ</rt></ruby>から<ruby>九月<rt>くがつ</rt></ruby>は<ruby>夏<rt>なつ</rt></ruby>です。<ruby>海<rt>うみ</rt></ruby>で<ruby>泳<rt>およ</rt></ruby>ぐことができます。<ruby>十月<rt>じゅうがつ</rt></ruby>から<ruby>十一月<rt>じゅういちがつ</rt></ruby>は<ruby>秋<rt>あき</rt></ruby>です。<ruby>山<rt>やま</rt></ruby>の<ruby>紅葉<rt>こうよう</rt></ruby>がきれいです。<ruby>十二月<rt>じゅうにがつ</rt></ruby>から<ruby>二月<rt>にがつ</rt></ruby>は<ruby>冬<rt>ふゆ</rt></ruby>です。",
+  "difficulty": 0.34,
+  "level": "beginner",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "When is spring in Japan?",
+      "options": ["1月〜3月", "3月〜5月", "4月〜6月", "5月〜7月"],
+      "correctAnswer": "3月〜5月"
+    },
+    {
+      "id": "q2",
+      "question": "What happens in June?",
+      "options": ["雪が降る", "梅雨がある", "桜が咲く", "紅葉がある"],
+      "correctAnswer": "梅雨がある"
+    },
+    {
+      "id": "q3",
+      "question": "What can you do in summer?",
+      "options": ["スキーをする", "海で泳ぐ", "紅葉を見る", "花見をする"],
+      "correctAnswer": "海で泳ぐ"
+    },
+    {
+      "id": "q4",
+      "question": "What is beautiful in autumn?",
+      "options": ["桜", "海", "山の紅葉", "雪"],
+      "correctAnswer": "山の紅葉"
+    }
+  ],
+  "translation": {
+    "en": "The seasons in Japan are very beautiful. March to May is spring. Many flowers bloom. In June, there is the rainy season. It rains a lot. July to September is summer. You can swim in the sea. October to November is autumn. The autumn leaves in the mountains are beautiful. December to February is winter.",
+    "fr": "Les saisons au Japon sont très belles. De mars à mai, c'est le printemps. Beaucoup de fleurs s'épanouissent. En juin, c'est la saison des pluies. Il pleut beaucoup. De juillet à septembre, c'est l'été. On peut nager dans la mer. D'octobre à novembre, c'est l'automne. Les feuilles d'automne dans les montagnes sont magnifiques. De décembre à février, c'est l'hiver."
+  }
+}

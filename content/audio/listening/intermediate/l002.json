@@ -1,0 +1,25 @@
+{
+  "id": "l002",
+  "title": "Restaurant Reservation",
+  "type": "multiple_choice",
+  "audioUrl": "/api/listening/intermediate/l002/audio",
+  "transcript": "はい、さくらレストランでございます。 予約をお願いしたいのですが。 はい、いつのご予約でしょうか。 今週の土曜日、夜七時で四名でお願いします。 かしこまりました。土曜日の七時、四名様ですね。お名前をお願いします。 山本です。あの、窓側の席はありますか。 申し訳ございません、窓側は埋まっておりますが、個室なら空いております。 じゃ、個室でお願いします。",
+  "questions": [
+    {
+      "question": "When is the reservation for?",
+      "options": ["Friday 7pm", "Saturday 7pm", "Saturday 8pm", "Sunday 7pm"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "How many people?",
+      "options": ["2", "3", "4", "5"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "What type of seating did they end up with?",
+      "options": ["Window seat", "Counter seat", "Private room", "Terrace seat"],
+      "correctAnswer": 2
+    }
+  ],
+  "difficulty": 0.55
+}

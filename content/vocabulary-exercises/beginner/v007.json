@@ -1,0 +1,58 @@
+{
+  "id": "v007",
+  "title": "Colors",
+  "titleEn": "Colors",
+  "level": "beginner",
+  "difficulty": 0.15,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "kanji_recognition",
+      "prompt": "What does this kanji mean?",
+      "prompt_fr": "Que signifie ce kanji ?",
+      "kanji": "赤",
+      "options": ["Red", "Blue", "White", "Black"],
+      "options_fr": ["Rouge", "Bleu", "Blanc", "Noir"],
+      "correctAnswer": "Red",
+      "meaning_fr": "Rouge"
+    },
+    {
+      "id": "q2",
+      "type": "word_match",
+      "prompt": "What does 青い mean?",
+      "prompt_fr": "Que signifie 青い ?",
+      "word": "青い",
+      "options": ["Blue", "Green", "Yellow", "Red"],
+      "options_fr": ["Bleu", "Vert", "Jaune", "Rouge"],
+      "correctAnswer": "Blue",
+      "meaning_fr": "Bleu"
+    },
+    {
+      "id": "q3",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "雪は＿＿いです。(Snow is white)",
+      "sentence_fr": "雪は＿＿いです。(La neige est blanche)",
+      "options": ["白", "黒", "赤", "青"],
+      "correctAnswer": "白",
+      "meaning_en": "white",
+      "meaning_fr": "blanc"
+    },
+    {
+      "id": "q4",
+      "type": "word_match",
+      "prompt": "What does 緑 mean?",
+      "prompt_fr": "Que signifie 緑 ?",
+      "word": "緑",
+      "options": ["Green", "Yellow", "Purple", "Orange"],
+      "options_fr": ["Vert", "Jaune", "Violet", "Orange"],
+      "correctAnswer": "Green",
+      "meaning_fr": "Vert"
+    }
+  ],
+  "translation": {
+    "en": "This lesson covers basic color vocabulary in Japanese.",
+    "fr": "Cette leçon couvre le vocabulaire des couleurs de base en japonais."
+  }
+}

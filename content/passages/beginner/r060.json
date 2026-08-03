@@ -1,0 +1,44 @@
+{
+  "id": "r060",
+  "title": "日本の音楽",
+  "titleEn": "Japanese Music",
+  "text": "<ruby>日本<rt>にほん</rt></ruby>の<ruby>音楽<rt>おんがく</rt></ruby>はいろいろな<ruby>種類<rt>しゅるい</rt></ruby>があります。<ruby>伝統的<rt>でんとうてき</rt></ruby>な<ruby>音楽<rt>おんがく</rt></ruby>には<ruby>雅楽<rt>ががく</rt></ruby>や<ruby>民謡<rt>みんよう</rt></ruby>があります。J-POPは<ruby>若<rt>わか</rt></ruby>い<ruby>人<rt>ひと</rt></ruby>にとても<ruby>人気<rt>にんき</rt></ruby>があります。アイドルグループも<ruby>多<rt>おお</rt></ruby>いです。アニメの<ruby>主題歌<rt>しゅだいか</rt></ruby>は<ruby>世界中<rt>せかいじゅう</rt></ruby>で<ruby>知<rt>し</rt></ruby>られています。カラオケで<ruby>日本<rt>にほん</rt></ruby>の<ruby>歌<rt>うた</rt></ruby>を<ruby>歌<rt>うた</rt></ruby>うのは<ruby>楽<rt>たの</rt></ruby>しいです。<ruby>音楽<rt>おんがく</rt></ruby>を<ruby>通<rt>とお</rt></ruby>して<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>勉強<rt>べんきょう</rt></ruby>する<ruby>人<rt>ひと</rt></ruby>もいます。",
+  "difficulty": 0.55,
+  "level": "beginner",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What traditional music is mentioned?",
+      "options": ["ジャズ", "雅楽や民謡", "ロック", "クラシック"],
+      "correctAnswer": "雅楽や民謡"
+    },
+    {
+      "id": "q2",
+      "question": "Who likes J-POP?",
+      "options": ["お年寄り", "若い人", "外国人だけ", "子供だけ"],
+      "correctAnswer": "若い人"
+    },
+    {
+      "id": "q3",
+      "question": "What is known worldwide?",
+      "options": ["雅楽", "民謡", "アニメの主題歌", "演歌"],
+      "correctAnswer": "アニメの主題歌"
+    },
+    {
+      "id": "q4",
+      "question": "What is fun to do at karaoke?",
+      "options": ["踊る", "日本の歌を歌う", "食べる", "寝る"],
+      "correctAnswer": "日本の歌を歌う"
+    },
+    {
+      "id": "q5",
+      "question": "How do some people study Japanese?",
+      "options": ["テレビを見て", "音楽を通して", "映画を見て", "本を読んで"],
+      "correctAnswer": "音楽を通して"
+    }
+  ],
+  "translation": {
+    "en": "Japanese music has many different types. Traditional music includes gagaku and folk songs. J-POP is very popular with young people. There are also many idol groups. Anime theme songs are known around the world. It's fun to sing Japanese songs at karaoke. Some people study Japanese through music.",
+    "fr": "La musique japonaise comprend de nombreux genres différents. La musique traditionnelle inclut le gagaku et les chansons folkloriques. La J-POP est très populaire chez les jeunes. Il y a aussi beaucoup de groupes d'idoles. Les chansons thèmes d'anime sont connues dans le monde entier. C'est amusant de chanter des chansons japonaises au karaoké. Certaines personnes étudient le japonais à travers la musique."
+  }
+}

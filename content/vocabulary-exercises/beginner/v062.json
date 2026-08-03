@@ -1,0 +1,95 @@
+{
+  "id": "v062",
+  "title": "Verbs with に",
+  "titleEn": "Verbs with に",
+  "titleFr": "Verbes avec に",
+  "level": "beginner",
+  "difficulty": 0.45,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "学校＿＿行きます。(I go to school.)",
+      "sentence_fr": "学校＿＿行きます。(Je vais à l'école.)",
+      "options": ["に", "を", "で", "が"],
+      "correctAnswer": "に",
+      "meaning_en": "direction/destination particle",
+      "meaning_fr": "particule de direction/destination"
+    },
+    {
+      "id": "q2",
+      "type": "word_match",
+      "prompt": "What does 家に帰る mean?",
+      "prompt_fr": "Que signifie 家に帰る ?",
+      "word": "家に帰る",
+      "options": ["To go home", "To leave home", "To build a house", "To clean the house"],
+      "options_fr": ["Rentrer à la maison", "Quitter la maison", "Construire une maison", "Nettoyer la maison"],
+      "correctAnswer": "To go home",
+      "meaning_fr": "Rentrer à la maison"
+    },
+    {
+      "id": "q3",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "七時＿＿起きます。(I wake up at 7 o'clock.)",
+      "sentence_fr": "七時＿＿起きます。(Je me réveille à 7 heures.)",
+      "options": ["に", "を", "で", "が"],
+      "correctAnswer": "に",
+      "meaning_en": "time particle",
+      "meaning_fr": "particule de temps"
+    },
+    {
+      "id": "q4",
+      "type": "word_match",
+      "prompt": "What does 友達に会う mean?",
+      "prompt_fr": "Que signifie 友達に会う ?",
+      "word": "友達に会う",
+      "options": ["To meet a friend", "To call a friend", "To help a friend", "To invite a friend"],
+      "options_fr": ["Rencontrer un ami", "Appeler un ami", "Aider un ami", "Inviter un ami"],
+      "correctAnswer": "To meet a friend",
+      "meaning_fr": "Rencontrer un ami"
+    },
+    {
+      "id": "q5",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "椅子＿＿座ります。(I sit on the chair.)",
+      "sentence_fr": "椅子＿＿座ります。(Je m'assieds sur la chaise.)",
+      "options": ["に", "を", "で", "が"],
+      "correctAnswer": "に",
+      "meaning_en": "location/target particle",
+      "meaning_fr": "particule de lieu/cible"
+    },
+    {
+      "id": "q6",
+      "type": "word_match",
+      "prompt": "What does 駅に着く mean?",
+      "prompt_fr": "Que signifie 駅に着く ?",
+      "word": "駅に着く",
+      "options": ["To arrive at the station", "To leave the station", "To pass the station", "To find the station"],
+      "options_fr": ["Arriver à la gare", "Quitter la gare", "Passer la gare", "Trouver la gare"],
+      "correctAnswer": "To arrive at the station",
+      "meaning_fr": "Arriver à la gare"
+    },
+    {
+      "id": "q7",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "先生＿＿質問します。(I ask the teacher a question.)",
+      "sentence_fr": "先生＿＿質問します。(Je pose une question au professeur.)",
+      "options": ["に", "を", "で", "が"],
+      "correctAnswer": "に",
+      "meaning_en": "indirect object particle",
+      "meaning_fr": "particule d'objet indirect"
+    }
+  ],
+  "translation": {
+    "en": "This lesson practices the particle に with verbs indicating direction, time, and targets.",
+    "fr": "Cette leçon pratique la particule に avec des verbes indiquant la direction, le temps et les cibles."
+  }
+}

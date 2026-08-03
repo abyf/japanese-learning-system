@@ -1,0 +1,103 @@
+{
+  "id": "v060",
+  "title": "School Subjects",
+  "titleEn": "School Subjects",
+  "titleFr": "Matières scolaires",
+  "level": "beginner",
+  "difficulty": 0.4,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of 数学?",
+      "prompt_fr": "Quelle est la lecture de 数学 ?",
+      "kanji": "数学",
+      "options": ["すうがく", "えいご", "こくご", "りか"],
+      "correctAnswer": "すうがく",
+      "meaning_en": "mathematics",
+      "meaning_fr": "mathématiques"
+    },
+    {
+      "id": "q2",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of 英語?",
+      "prompt_fr": "Quelle est la lecture de 英語 ?",
+      "kanji": "英語",
+      "options": ["えいご", "にほんご", "すうがく", "おんがく"],
+      "correctAnswer": "えいご",
+      "meaning_en": "English (language)",
+      "meaning_fr": "anglais (langue)"
+    },
+    {
+      "id": "q3",
+      "type": "word_match",
+      "prompt": "What does 国語 mean?",
+      "prompt_fr": "Que signifie 国語 ?",
+      "word": "国語",
+      "options": ["Japanese (subject) / National language", "English", "Science", "History"],
+      "options_fr": ["Japonais (matière) / Langue nationale", "Anglais", "Sciences", "Histoire"],
+      "correctAnswer": "Japanese (subject) / National language",
+      "meaning_fr": "Japonais (matière) / Langue nationale"
+    },
+    {
+      "id": "q4",
+      "type": "word_match",
+      "prompt": "What does 理科 mean?",
+      "prompt_fr": "Que signifie 理科 ?",
+      "word": "理科",
+      "options": ["Science", "Mathematics", "Music", "Art"],
+      "options_fr": ["Sciences", "Mathématiques", "Musique", "Art"],
+      "correctAnswer": "Science",
+      "meaning_fr": "Sciences"
+    },
+    {
+      "id": "q5",
+      "type": "word_match",
+      "prompt": "What does 社会 mean (as a school subject)?",
+      "prompt_fr": "Que signifie 社会 (en tant que matière scolaire) ?",
+      "word": "社会",
+      "options": ["Social studies", "Science", "Japanese", "Physical education"],
+      "options_fr": ["Sciences sociales", "Sciences", "Japonais", "Éducation physique"],
+      "correctAnswer": "Social studies",
+      "meaning_fr": "Sciences sociales"
+    },
+    {
+      "id": "q6",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "＿＿が一番好きです。(I like mathematics the most.)",
+      "sentence_fr": "＿＿が一番好きです。(J'aime le plus les mathématiques.)",
+      "options": ["数学", "英語", "音楽", "体育"],
+      "correctAnswer": "数学",
+      "meaning_en": "mathematics",
+      "meaning_fr": "mathématiques"
+    },
+    {
+      "id": "q7",
+      "type": "word_match",
+      "prompt": "What does 体育 mean?",
+      "prompt_fr": "Que signifie 体育 ?",
+      "word": "体育",
+      "options": ["Physical education", "Art", "Music", "History"],
+      "options_fr": ["Éducation physique", "Art", "Musique", "Histoire"],
+      "correctAnswer": "Physical education",
+      "meaning_fr": "Éducation physique"
+    },
+    {
+      "id": "q8",
+      "type": "word_match",
+      "prompt": "What does 音楽 mean?",
+      "prompt_fr": "Que signifie 音楽 ?",
+      "word": "音楽",
+      "options": ["Music", "Art", "Science", "English"],
+      "options_fr": ["Musique", "Art", "Sciences", "Anglais"],
+      "correctAnswer": "Music",
+      "meaning_fr": "Musique"
+    }
+  ],
+  "translation": {
+    "en": "This lesson covers school subject names commonly used in Japanese education.",
+    "fr": "Cette leçon couvre les noms des matières scolaires couramment utilisés dans l'éducation japonaise."
+  }
+}

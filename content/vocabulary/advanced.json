@@ -1,0 +1,502 @@
+[
+  {
+    "id": "v001",
+    "word": "概念",
+    "reading": "がいねん",
+    "meaning": "concept, notion, idea",
+    "exampleSentence": "この概念を理解するのは難しい。",
+    "mnemonic": "Approximate (概) thought (念) - a general idea in your mind",
+    "level": "advanced",
+    "partOfSpeech": "n"
+  },
+  {
+    "id": "v002",
+    "word": "矛盾",
+    "reading": "むじゅん",
+    "meaning": "contradiction, inconsistency",
+    "exampleSentence": "彼の発言には矛盾がある。",
+    "mnemonic": "A spear (矛) and shield (盾) - from the Chinese story of an unstoppable spear vs impenetrable shield",
+    "level": "advanced",
+    "partOfSpeech": "n"
+  },
+  {
+    "id": "v003",
+    "word": "普遍",
+    "reading": "ふへん",
+    "meaning": "universal, ubiquitous",
+    "exampleSentence": "人権は普遍的な価値である。",
+    "mnemonic": "Spread widely (普) everywhere (遍) - universal truth",
+    "level": "advanced",
+    "partOfSpeech": "adj-na"
+  },
+  {
+    "id": "v004",
+    "word": "抽象",
+    "reading": "ちゅうしょう",
+    "meaning": "abstract, abstraction",
+    "exampleSentence": "抽象的な概念を具体的に説明してください。",
+    "mnemonic": "Pull out (抽) an image/elephant (象) - pulling out the essence",
+    "level": "advanced",
+    "partOfSpeech": "n"
+  },
+  {
+    "id": "v005",
+    "word": "拝見する",
+    "reading": "はいけんする",
+    "meaning": "to look at (humble)",
+    "exampleSentence": "資料を拝見いたしました。",
+    "mnemonic": "Bow (拝) and see (見) - humbly looking at something from a respected person",
+    "level": "advanced",
+    "partOfSpeech": "vs"
+  },
+  {
+    "id": "v006",
+    "word": "申し上げる",
+    "reading": "もうしあげる",
+    "meaning": "to say (humble)",
+    "exampleSentence": "一言申し上げたいことがございます。",
+    "mnemonic": "Humbly state (申し) upward (上げる) - speaking up to a superior",
+    "level": "advanced",
+    "partOfSpeech": "v1"
+  },
+  {
+    "id": "v007",
+    "word": "承知する",
+    "reading": "しょうちする",
+    "meaning": "to understand, to consent (formal)",
+    "exampleSentence": "承知いたしました。すぐに対応します。",
+    "mnemonic": "Receive (承) and know (知) - formally acknowledging you understand",
+    "level": "advanced",
+    "partOfSpeech": "vs"
+  },
+  {
+    "id": "v008",
+    "word": "恐縮",
+    "reading": "きょうしゅく",
+    "meaning": "feeling obliged, feeling grateful/sorry (humble)",
+    "exampleSentence": "お忙しいところ恐縮ですが、お時間をいただけますか。",
+    "mnemonic": "Fear (恐) and shrink (縮) - shrinking with gratitude/apology",
+    "level": "advanced",
+    "partOfSpeech": "n"
+  },
+  {
+    "id": "v009",
+    "word": "懸念",
+    "reading": "けねん",
+    "meaning": "concern, apprehension, fear",
+    "exampleSentence": "安全性に対する懸念が高まっている。",
+    "mnemonic": "Hanging (懸) thoughts (念) - worries that hang over you",
+    "level": "advanced",
+    "partOfSpeech": "n"
+  },
+  {
+    "id": "v010",
+    "word": "顕著",
+    "reading": "けんちょ",
+    "meaning": "remarkable, striking, conspicuous",
+    "exampleSentence": "その傾向は近年顕著になっている。",
+    "mnemonic": "Manifest (顕) and clear (著) - standing out clearly",
+    "level": "advanced",
+    "partOfSpeech": "adj-na"
+  },
+  {
+    "id": "v011",
+    "word": "示唆",
+    "reading": "しさ",
+    "meaning": "suggestion, hint, implication",
+    "exampleSentence": "この研究は重要なことを示唆している。",
+    "mnemonic": "Show (示) and suggest (唆) - pointing toward something indirectly",
+    "level": "advanced",
+    "partOfSpeech": "n"
+  },
+  {
+    "id": "v012",
+    "word": "洞察",
+    "reading": "どうさつ",
+    "meaning": "insight, discernment, perception",
+    "exampleSentence": "彼女は鋭い洞察力を持っている。",
+    "mnemonic": "Cave (洞) observation (察) - seeing deep into the cave of truth",
+    "level": "advanced",
+    "partOfSpeech": "n"
+  },
+  {
+    "id": "v013",
+    "word": "逡巡",
+    "reading": "しゅんじゅん",
+    "meaning": "hesitation, vacillation",
+    "exampleSentence": "彼は逡巡することなく決断した。",
+    "mnemonic": "Retreat (逡) and go around (巡) - going back and forth in indecision",
+    "level": "advanced",
+    "partOfSpeech": "n"
+  },
+  {
+    "id": "v014",
+    "word": "齟齬",
+    "reading": "そご",
+    "meaning": "discrepancy, disagreement",
+    "exampleSentence": "両者の見解に齟齬がある。",
+    "mnemonic": "Teeth (歯) that don't mesh together - things out of alignment",
+    "level": "advanced",
+    "partOfSpeech": "n"
+  },
+  {
+    "id": "v015",
+    "word": "恣意",
+    "reading": "しい",
+    "meaning": "arbitrary, at will",
+    "exampleSentence": "恣意的な判断は避けるべきです。",
+    "mnemonic": "Self-indulgent (恣) will (意) - doing as one pleases without reason",
+    "level": "advanced",
+    "partOfSpeech": "n"
+  },
+  {
+    "id": "v016",
+    "word": "瀟洒",
+    "reading": "しょうしゃ",
+    "meaning": "elegant, sophisticated, refined",
+    "exampleSentence": "瀟洒なデザインのビルが建った。",
+    "mnemonic": "Clear water (瀟) and wash (洒) - clean and refined like clear water",
+    "level": "advanced",
+    "partOfSpeech": "adj-na"
+  },
+  {
+    "id": "v017",
+    "word": "余儀なくされる",
+    "reading": "よぎなくされる",
+    "meaning": "to be forced to, to have no choice but",
+    "exampleSentence": "計画の変更を余儀なくされた。",
+    "mnemonic": "Surplus (余) rituals (儀) without (なく) - no other ceremony possible",
+    "level": "advanced",
+    "partOfSpeech": "v1"
+  },
+  {
+    "id": "v018",
+    "word": "踏まえる",
+    "reading": "ふまえる",
+    "meaning": "to be based on, to take into account",
+    "exampleSentence": "過去の経験を踏まえて判断する。",
+    "mnemonic": "Step on (踏) and base (まえる) - standing on a foundation of evidence",
+    "level": "advanced",
+    "partOfSpeech": "v1"
+  },
+  {
+    "id": "v019",
+    "word": "覆す",
+    "reading": "くつがえす",
+    "meaning": "to overturn, to reverse",
+    "exampleSentence": "判決を覆すことは難しい。",
+    "mnemonic": "Cover (覆) and turn over - flipping something upside down",
+    "level": "advanced",
+    "partOfSpeech": "v5s"
+  },
+  {
+    "id": "v020",
+    "word": "網羅",
+    "reading": "もうら",
+    "meaning": "to cover comprehensively, to encompass",
+    "exampleSentence": "この辞書はすべての分野を網羅している。",
+    "mnemonic": "Net (網) and silk gauze (羅) - casting a wide net to catch everything",
+    "level": "advanced",
+    "partOfSpeech": "n"
+  },
+  {
+    "id": "v021",
+    "word": "台頭",
+    "reading": "たいとう",
+    "meaning": "rise, emergence, gaining power",
+    "exampleSentence": "新しい政党が台頭している。",
+    "mnemonic": "Platform (台) and head (頭) - raising one's head above the platform",
+    "level": "advanced",
+    "partOfSpeech": "n"
+  },
+  {
+    "id": "v022",
+    "word": "醸成",
+    "reading": "じょうせい",
+    "meaning": "to cultivate, to foster, to brew",
+    "exampleSentence": "信頼関係を醸成することが大切です。",
+    "mnemonic": "Brew (醸) and become (成) - fermenting something into existence slowly",
+    "level": "advanced",
+    "partOfSpeech": "n"
+  },
+  {
+    "id": "v023",
+    "word": "乖離",
+    "reading": "かいり",
+    "meaning": "divergence, deviation, gap",
+    "exampleSentence": "理想と現実の乖離が大きい。",
+    "mnemonic": "Separate (乖) and leave (離) - things drifting apart",
+    "level": "advanced",
+    "partOfSpeech": "n"
+  },
+  {
+    "id": "v024",
+    "word": "帰結",
+    "reading": "きけつ",
+    "meaning": "conclusion, consequence",
+    "exampleSentence": "論理的帰結として、この政策は失敗する。",
+    "mnemonic": "Return (帰) to the result (結) - where things end up",
+    "level": "advanced",
+    "partOfSpeech": "n"
+  },
+  {
+    "id": "v025",
+    "word": "俯瞰",
+    "reading": "ふかん",
+    "meaning": "bird's-eye view, overlooking",
+    "exampleSentence": "問題を俯瞰的に捉える必要がある。",
+    "mnemonic": "Look down (俯) and watch (瞰) - viewing from above",
+    "level": "advanced",
+    "partOfSpeech": "n"
+  },
+  {
+    "id": "v026",
+    "word": "逼迫",
+    "reading": "ひっぱく",
+    "meaning": "strain, pressure, tightening",
+    "exampleSentence": "財政が逼迫している。",
+    "mnemonic": "Press close (逼) and press (迫) - pressure closing in from all sides",
+    "level": "advanced",
+    "partOfSpeech": "n"
+  },
+  {
+    "id": "v027",
+    "word": "享受",
+    "reading": "きょうじゅ",
+    "meaning": "to enjoy (benefits), to receive",
+    "exampleSentence": "平和の恩恵を享受している。",
+    "mnemonic": "Receive enjoyment (享) and accept (受) - taking in benefits",
+    "level": "advanced",
+    "partOfSpeech": "n"
+  },
+  {
+    "id": "v028",
+    "word": "凌駕",
+    "reading": "りょうが",
+    "meaning": "to surpass, to outstrip",
+    "exampleSentence": "需要が供給を凌駕している。",
+    "mnemonic": "Cross over (凌) and drive (駕) - driving past and beyond",
+    "level": "advanced",
+    "partOfSpeech": "n"
+  },
+  {
+    "id": "v029",
+    "word": "払拭",
+    "reading": "ふっしょく",
+    "meaning": "to dispel, to wipe away",
+    "exampleSentence": "不安を払拭するために説明会を開いた。",
+    "mnemonic": "Brush away (払) and wipe (拭) - completely clearing away",
+    "level": "advanced",
+    "partOfSpeech": "n"
+  },
+  {
+    "id": "v030",
+    "word": "辟易",
+    "reading": "へきえき",
+    "meaning": "to be fed up with, to shrink back from",
+    "exampleSentence": "彼の態度には辟易している。",
+    "mnemonic": "Avoid (辟) and change/easy (易) - easily wanting to avoid something",
+    "level": "advanced",
+    "partOfSpeech": "n"
+  },
+  {
+    "id": "v031",
+    "word": "憂慮",
+    "reading": "ゆうりょ",
+    "meaning": "concern, anxiety, apprehension",
+    "exampleSentence": "事態の悪化を憂慮している。",
+    "mnemonic": "Grief (憂) and ponder (慮) - deeply worried contemplation",
+    "level": "advanced",
+    "partOfSpeech": "n"
+  },
+  {
+    "id": "v032",
+    "word": "是正",
+    "reading": "ぜせい",
+    "meaning": "correction, rectification",
+    "exampleSentence": "格差の是正が求められている。",
+    "mnemonic": "Right/correct (是) and straight (正) - making things right and straight",
+    "level": "advanced",
+    "partOfSpeech": "n"
+  },
+  {
+    "id": "v033",
+    "word": "遵守",
+    "reading": "じゅんしゅ",
+    "meaning": "compliance, observance",
+    "exampleSentence": "法律を遵守しなければならない。",
+    "mnemonic": "Follow (遵) and guard (守) - following and guarding the rules",
+    "level": "advanced",
+    "partOfSpeech": "n"
+  },
+  {
+    "id": "v034",
+    "word": "喚起",
+    "reading": "かんき",
+    "meaning": "arousal, evocation, calling attention to",
+    "exampleSentence": "注意を喚起する必要がある。",
+    "mnemonic": "Call out (喚) and rise (起) - calling something to attention",
+    "level": "advanced",
+    "partOfSpeech": "n"
+  },
+  {
+    "id": "v035",
+    "word": "施行",
+    "reading": "しこう",
+    "meaning": "enforcement, implementation (of law)",
+    "exampleSentence": "新しい法律が来月施行される。",
+    "mnemonic": "Bestow (施) and carry out (行) - putting into practice",
+    "level": "advanced",
+    "partOfSpeech": "n"
+  },
+  {
+    "id": "v036",
+    "word": "漸進",
+    "reading": "ぜんしん",
+    "meaning": "gradual progress",
+    "exampleSentence": "漸進的な改革が望ましい。",
+    "mnemonic": "Gradually (漸) advance (進) - moving forward step by step",
+    "level": "advanced",
+    "partOfSpeech": "n"
+  },
+  {
+    "id": "v037",
+    "word": "形骸",
+    "reading": "けいがい",
+    "meaning": "mere form, shell without substance",
+    "exampleSentence": "その制度は形骸化している。",
+    "mnemonic": "Form (形) and skeleton (骸) - just the outer form with nothing inside",
+    "level": "advanced",
+    "partOfSpeech": "n"
+  },
+  {
+    "id": "v038",
+    "word": "杞憂",
+    "reading": "きゆう",
+    "meaning": "needless worry, groundless fear",
+    "exampleSentence": "心配は杞憂に終わった。",
+    "mnemonic": "From the Chinese story of a man from Qi (杞) who worried (憂) the sky would fall",
+    "level": "advanced",
+    "partOfSpeech": "n"
+  },
+  {
+    "id": "v039",
+    "word": "萎縮",
+    "reading": "いしゅく",
+    "meaning": "shrinking, atrophy, intimidation",
+    "exampleSentence": "経済が萎縮している。",
+    "mnemonic": "Wilt (萎) and shrink (縮) - withering and getting smaller",
+    "level": "advanced",
+    "partOfSpeech": "n"
+  },
+  {
+    "id": "v040",
+    "word": "蔓延",
+    "reading": "まんえん",
+    "meaning": "spread, proliferation (of disease/problems)",
+    "exampleSentence": "感染症が蔓延している。",
+    "mnemonic": "Vine (蔓) spreading (延) - like vines spreading uncontrollably",
+    "level": "advanced",
+    "partOfSpeech": "n"
+  },
+  {
+    "id": "v041",
+    "word": "潤沢",
+    "reading": "じゅんたく",
+    "meaning": "abundant, ample, plentiful",
+    "exampleSentence": "潤沢な資金がある。",
+    "mnemonic": "Moist/rich (潤) and marsh (沢) - overflowing with water = abundance",
+    "level": "advanced",
+    "partOfSpeech": "adj-na"
+  },
+  {
+    "id": "v042",
+    "word": "厳密",
+    "reading": "げんみつ",
+    "meaning": "strict, rigorous, precise",
+    "exampleSentence": "厳密に言えば、それは正しくない。",
+    "mnemonic": "Strict (厳) and dense/tight (密) - tightly controlled precision",
+    "level": "advanced",
+    "partOfSpeech": "adj-na"
+  },
+  {
+    "id": "v043",
+    "word": "膨大",
+    "reading": "ぼうだい",
+    "meaning": "enormous, vast, immense",
+    "exampleSentence": "膨大なデータを分析した。",
+    "mnemonic": "Swell (膨) and big (大) - swelling to an enormous size",
+    "level": "advanced",
+    "partOfSpeech": "adj-na"
+  },
+  {
+    "id": "v044",
+    "word": "多岐",
+    "reading": "たき",
+    "meaning": "wide-ranging, diverse, manifold",
+    "exampleSentence": "問題は多岐にわたる。",
+    "mnemonic": "Many (多) branches (岐) - branching out in many directions",
+    "level": "advanced",
+    "partOfSpeech": "n"
+  },
+  {
+    "id": "v045",
+    "word": "画一",
+    "reading": "かくいつ",
+    "meaning": "uniform, standardized",
+    "exampleSentence": "画一的な教育では個性が育たない。",
+    "mnemonic": "Draw (画) one (一) - making everything look the same",
+    "level": "advanced",
+    "partOfSpeech": "n"
+  },
+  {
+    "id": "v046",
+    "word": "甚大",
+    "reading": "じんだい",
+    "meaning": "enormous, tremendous (damage/impact)",
+    "exampleSentence": "台風による被害は甚大だった。",
+    "mnemonic": "Extreme (甚) and great (大) - damage of extreme magnitude",
+    "level": "advanced",
+    "partOfSpeech": "adj-na"
+  },
+  {
+    "id": "v047",
+    "word": "暫定",
+    "reading": "ざんてい",
+    "meaning": "provisional, temporary",
+    "exampleSentence": "暫定的な措置として実施する。",
+    "mnemonic": "Temporary (暫) and set (定) - set for now but not permanent",
+    "level": "advanced",
+    "partOfSpeech": "n"
+  },
+  {
+    "id": "v048",
+    "word": "趨勢",
+    "reading": "すうせい",
+    "meaning": "trend, tendency, drift",
+    "exampleSentence": "時代の趨勢に逆らうことはできない。",
+    "mnemonic": "Rush toward (趨) and force (勢) - the powerful flow of trends",
+    "level": "advanced",
+    "partOfSpeech": "n"
+  },
+  {
+    "id": "v049",
+    "word": "相乗",
+    "reading": "そうじょう",
+    "meaning": "synergy, multiplication effect",
+    "exampleSentence": "相乗効果が期待できる。",
+    "mnemonic": "Mutual (相) multiplication (乗) - effects multiplying each other",
+    "level": "advanced",
+    "partOfSpeech": "n"
+  },
+  {
+    "id": "v050",
+    "word": "包括",
+    "reading": "ほうかつ",
+    "meaning": "comprehensive, inclusive, all-encompassing",
+    "exampleSentence": "包括的な対策が求められている。",
+    "mnemonic": "Wrap (包) and tie together (括) - wrapping everything together",
+    "level": "advanced",
+    "partOfSpeech": "n"
+  }
+]

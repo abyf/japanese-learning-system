@@ -1,0 +1,38 @@
+{
+  "id": "r005",
+  "title": "趣味",
+  "titleEn": "Hobbies",
+  "text": "<ruby>私<rt>わたし</rt></ruby>の<ruby>趣味<rt>しゅみ</rt></ruby>は<ruby>写真<rt>しゃしん</rt></ruby>を<ruby>撮<rt>と</rt></ruby>ることです。<ruby>毎週末<rt>まいしゅうまつ</rt></ruby>、カメラを<ruby>持<rt>も</rt></ruby>って<ruby>出<rt>で</rt></ruby>かけます。<ruby>花<rt>はな</rt></ruby>や<ruby>動物<rt>どうぶつ</rt></ruby>の<ruby>写真<rt>しゃしん</rt></ruby>が<ruby>好<rt>す</rt></ruby>きです。<ruby>春<rt>はる</rt></ruby>には<ruby>桜<rt>さくら</rt></ruby>の<ruby>写真<rt>しゃしん</rt></ruby>をたくさん<ruby>撮<rt>と</rt></ruby>ります。<ruby>友達<rt>ともだち</rt></ruby>の<ruby>田中<rt>たなか</rt></ruby>さんの<ruby>趣味<rt>しゅみ</rt></ruby>は<ruby>料理<rt>りょうり</rt></ruby>です。<ruby>毎日<rt>まいにち</rt></ruby><ruby>新<rt>あたら</rt></ruby>しい<ruby>料理<rt>りょうり</rt></ruby>を<ruby>作<rt>つく</rt></ruby>ります。<ruby>山田<rt>やまだ</rt></ruby>さんの<ruby>趣味<rt>しゅみ</rt></ruby>は<ruby>音楽<rt>おんがく</rt></ruby>です。ギターを<ruby>弾<rt>ひ</rt></ruby>きます。<ruby>時々<rt>ときどき</rt></ruby>、<ruby>三人<rt>さんにん</rt></ruby>で<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>出<rt>で</rt></ruby>かけます。<ruby>私<rt>わたし</rt></ruby>が<ruby>写真<rt>しゃしん</rt></ruby>を<ruby>撮<rt>と</rt></ruby>って、<ruby>田中<rt>たなか</rt></ruby>さんがお<ruby>弁当<rt>べんとう</rt></ruby>を<ruby>作<rt>つく</rt></ruby>って、<ruby>山田<rt>やまだ</rt></ruby>さんがギターを<ruby>弾<rt>ひ</rt></ruby>きます。とても<ruby>楽<rt>たの</rt></ruby>しいです。",
+  "difficulty": 0.3,
+  "level": "beginner",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What is the speaker's hobby?",
+      "options": ["料理", "音楽", "写真", "スポーツ"],
+      "correctAnswer": "写真"
+    },
+    {
+      "id": "q2",
+      "question": "What does Tanaka-san like to do?",
+      "options": ["写真を撮る", "料理を作る", "ギターを弾く", "本を読む"],
+      "correctAnswer": "料理を作る"
+    },
+    {
+      "id": "q3",
+      "question": "What does Yamada-san play?",
+      "options": ["ピアノ", "ギター", "バイオリン", "ドラム"],
+      "correctAnswer": "ギター"
+    },
+    {
+      "id": "q4",
+      "question": "What does the speaker photograph in spring?",
+      "options": ["動物", "山", "桜", "海"],
+      "correctAnswer": "桜"
+    }
+  ],
+  "translation": {
+    "en": "My hobby is taking photos. Every weekend, I go out with my camera. I like photos of flowers and animals. In spring, I take many photos of cherry blossoms. My friend Tanaka's hobby is cooking. She makes new dishes every day. Yamada's hobby is music. He plays the guitar. Sometimes, the three of us go out together. I take photos, Tanaka makes a bento lunch box, and Yamada plays the guitar. It is very fun.",
+    "fr": "Mon passe-temps est de prendre des photos. Chaque week-end, je sors avec mon appareil photo. J'aime les photos de fleurs et d'animaux. Au printemps, je prends beaucoup de photos de cerisiers en fleurs. Le passe-temps de mon ami(e) Tanaka est la cuisine. Il/Elle prépare de nouveaux plats chaque jour. Le passe-temps de Yamada est la musique. Il joue de la guitare. Parfois, nous sortons tous les trois ensemble. Je prends des photos, Tanaka prépare un bento, et Yamada joue de la guitare. C'est très amusant."
+  }
+}

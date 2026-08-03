@@ -1,0 +1,25 @@
+{
+  "id": "l004",
+  "title": "Panel Discussion - AI Ethics",
+  "type": "multiple_choice",
+  "audioUrl": "/api/listening/advanced/l004/audio",
+  "transcript": "AIの倫理的課題について議論を始めたいと思います。まず、バイアスの問題です。学習データに偏りがある場合、AIの判断にも差別的な傾向が生じる恐れがあります。次に、説明可能性の問題です。深層学習モデルの判断過程はブラックボックス化しており、なぜそのような結論に至ったかを人間が理解できないケースが増えています。さらに、責任の所在も不明確です。AIが誤った判断を下した場合、開発者、運用者、利用者のうち、誰が責任を負うべきか。これらの課題に対して、国際的なガイドラインの策定が急務であると考えます。",
+  "questions": [
+    {
+      "question": "What causes AI bias according to the discussion?",
+      "options": ["Poor algorithms", "Biased training data", "Hardware limitations", "Lack of computing power"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "What is the 'explainability' problem?",
+      "options": ["AI can't speak", "Users don't read manuals", "Decision processes are black boxes", "AI is too complex to program"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "What solution is proposed?",
+      "options": ["Ban AI development", "International guidelines", "More computing power", "Restrict AI to simple tasks"],
+      "correctAnswer": 1
+    }
+  ],
+  "difficulty": 0.85
+}

@@ -1,0 +1,81 @@
+{
+  "id": "v022",
+  "title": "Classroom Objects",
+  "titleEn": "Classroom Objects",
+  "titleFr": "Objets de la salle de classe",
+  "level": "beginner",
+  "difficulty": 0.2,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of this kanji?",
+      "prompt_fr": "Quelle est la lecture de ce kanji ?",
+      "kanji": "机",
+      "options": ["つくえ", "いす", "まど", "ドア"],
+      "correctAnswer": "つくえ",
+      "meaning_en": "desk",
+      "meaning_fr": "bureau"
+    },
+    {
+      "id": "q2",
+      "type": "word_match",
+      "prompt": "What does 椅子 mean?",
+      "prompt_fr": "Que signifie 椅子 ?",
+      "word": "椅子",
+      "options": ["Chair", "Desk", "Window", "Door"],
+      "options_fr": ["Chaise", "Bureau", "Fenêtre", "Porte"],
+      "correctAnswer": "Chair",
+      "meaning_fr": "Chaise"
+    },
+    {
+      "id": "q3",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of this kanji?",
+      "prompt_fr": "Quelle est la lecture de ce kanji ?",
+      "kanji": "黒板",
+      "options": ["こくばん", "くろいた", "きょうしつ", "ほんだな"],
+      "correctAnswer": "こくばん",
+      "meaning_en": "blackboard",
+      "meaning_fr": "tableau noir"
+    },
+    {
+      "id": "q4",
+      "type": "word_match",
+      "prompt": "What does ノート mean?",
+      "prompt_fr": "Que signifie ノート ?",
+      "word": "ノート",
+      "options": ["Notebook", "Textbook", "Pencil", "Eraser"],
+      "options_fr": ["Cahier", "Manuel", "Crayon", "Gomme"],
+      "correctAnswer": "Notebook",
+      "meaning_fr": "Cahier"
+    },
+    {
+      "id": "q5",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "＿＿の上に本があります。(There is a book on the desk)",
+      "sentence_fr": "＿＿の上に本があります。(Il y a un livre sur le bureau)",
+      "options": ["机", "椅子", "黒板", "窓"],
+      "correctAnswer": "机",
+      "meaning_en": "desk",
+      "meaning_fr": "bureau"
+    },
+    {
+      "id": "q6",
+      "type": "word_match",
+      "prompt": "What does 鉛筆 mean?",
+      "prompt_fr": "Que signifie 鉛筆 ?",
+      "word": "鉛筆",
+      "options": ["Pencil", "Pen", "Eraser", "Ruler"],
+      "options_fr": ["Crayon", "Stylo", "Gomme", "Règle"],
+      "correctAnswer": "Pencil",
+      "meaning_fr": "Crayon"
+    }
+  ],
+  "translation": {
+    "en": "This lesson covers common classroom objects vocabulary.",
+    "fr": "Cette leçon couvre le vocabulaire des objets courants de la salle de classe."
+  }
+}

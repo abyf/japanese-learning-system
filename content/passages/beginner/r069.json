@@ -1,0 +1,50 @@
+{
+  "id": "r069",
+  "title": "日本の技術",
+  "titleEn": "Japanese Technology",
+  "text": "<ruby>日本<rt>にほん</rt></ruby>は<ruby>技術<rt>ぎじゅつ</rt></ruby>の<ruby>国<rt>くに</rt></ruby>として<ruby>有名<rt>ゆうめい</rt></ruby>です。ロボット<ruby>技術<rt>ぎじゅつ</rt></ruby>は<ruby>世界一<rt>せかいいち</rt></ruby>です。<ruby>自動車<rt>じどうしゃ</rt></ruby>もトヨタやホンダなどが<ruby>有名<rt>ゆうめい</rt></ruby>です。<ruby>電子機器<rt>でんしきき</rt></ruby>ではソニーやパナソニックがあります。ウォシュレットは<ruby>日本<rt>にほん</rt></ruby>の<ruby>発明<rt>はつめい</rt></ruby>で、<ruby>外国人<rt>がいこくじん</rt></ruby>を<ruby>驚<rt>おどろ</rt></ruby>かせます。<ruby>最近<rt>さいきん</rt></ruby>はAIやロボットの<ruby>研究<rt>けんきゅう</rt></ruby>が<ruby>進<rt>すす</rt></ruby>んでいます。<ruby>日本<rt>にほん</rt></ruby>の<ruby>技術<rt>ぎじゅつ</rt></ruby>は<ruby>生活<rt>せいかつ</rt></ruby>を<ruby>便利<rt>べんり</rt></ruby>にしています。",
+  "difficulty": 0.63,
+  "level": "beginner",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What is Japan famous for?",
+      "options": ["芸術", "技術", "音楽", "スポーツ"],
+      "correctAnswer": "技術"
+    },
+    {
+      "id": "q2",
+      "question": "What technology is world-leading?",
+      "options": ["宇宙技術", "ロボット技術", "農業技術", "医療技術"],
+      "correctAnswer": "ロボット技術"
+    },
+    {
+      "id": "q3",
+      "question": "Which car companies are mentioned?",
+      "options": ["日産と三菱", "トヨタとホンダ", "マツダとスバル", "スズキとダイハツ"],
+      "correctAnswer": "トヨタとホンダ"
+    },
+    {
+      "id": "q4",
+      "question": "What Japanese invention surprises foreigners?",
+      "options": ["カラオケ", "ウォシュレット", "新幹線", "インスタントラーメン"],
+      "correctAnswer": "ウォシュレット"
+    },
+    {
+      "id": "q5",
+      "question": "What research is advancing recently?",
+      "options": ["宇宙", "AIやロボット", "海洋", "農業"],
+      "correctAnswer": "AIやロボット"
+    },
+    {
+      "id": "q6",
+      "question": "What does Japanese technology do for life?",
+      "options": ["複雑にする", "便利にする", "大変にする", "変えない"],
+      "correctAnswer": "便利にする"
+    }
+  ],
+  "translation": {
+    "en": "Japan is famous as a country of technology. Robot technology is the best in the world. Automobiles are also famous with Toyota and Honda. In electronics, there are Sony and Panasonic. The washlet is a Japanese invention that surprises foreigners. Recently, research in AI and robotics is advancing. Japanese technology makes life more convenient.",
+    "fr": "Le Japon est célèbre comme pays de la technologie. La technologie robotique est la meilleure au monde. L'automobile est aussi célèbre avec Toyota et Honda. En électronique, il y a Sony et Panasonic. Les toilettes japonaises sont une invention qui surprend les étrangers. Récemment, la recherche en IA et robotique progresse. La technologie japonaise rend la vie plus pratique."
+  }
+}

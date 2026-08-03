@@ -1,0 +1,50 @@
+{
+  "id": "r051",
+  "title": "日本の朝ご飯",
+  "titleEn": "Japanese Breakfast",
+  "text": "<ruby>日本<rt>にほん</rt></ruby>の<ruby>朝<rt>あさ</rt></ruby>ご<ruby>飯<rt>はん</rt></ruby>は<ruby>世界<rt>せかい</rt></ruby>でも<ruby>有名<rt>ゆうめい</rt></ruby>です。<ruby>伝統的<rt>でんとうてき</rt></ruby>な<ruby>朝<rt>あさ</rt></ruby>ご<ruby>飯<rt>はん</rt></ruby>には、ご<ruby>飯<rt>はん</rt></ruby>、<ruby>味噌汁<rt>みそしる</rt></ruby>、<ruby>焼<rt>や</rt></ruby>き<ruby>魚<rt>さかな</rt></ruby>、<ruby>漬物<rt>つけもの</rt></ruby>、<ruby>卵焼<rt>たまごや</rt></ruby>きがあります。<ruby>最近<rt>さいきん</rt></ruby>は<ruby>若<rt>わか</rt></ruby>い<ruby>人<rt>ひと</rt></ruby>はパンやシリアルを<ruby>食<rt>た</rt></ruby>べることも<ruby>多<rt>おお</rt></ruby>いです。でも<ruby>和食<rt>わしょく</rt></ruby>の<ruby>朝<rt>あさ</rt></ruby>ご<ruby>飯<rt>はん</rt></ruby>は<ruby>栄養<rt>えいよう</rt></ruby>のバランスがとても<ruby>良<rt>よ</rt></ruby>いと<ruby>言<rt>い</rt></ruby>われています。<ruby>納豆<rt>なっとう</rt></ruby>も<ruby>人気<rt>にんき</rt></ruby>がありますが、<ruby>外国人<rt>がいこくじん</rt></ruby>には<ruby>少<rt>すこ</rt></ruby>し<ruby>難<rt>むずか</rt></ruby>しい<ruby>食<rt>た</rt></ruby>べ<ruby>物<rt>もの</rt></ruby>です。<ruby>朝<rt>あさ</rt></ruby>ご<ruby>飯<rt>はん</rt></ruby>を<ruby>食<rt>た</rt></ruby>べると、<ruby>一日<rt>いちにち</rt></ruby><ruby>元気<rt>げんき</rt></ruby>に<ruby>過<rt>す</rt></ruby>ごせます。",
+  "difficulty": 0.5,
+  "level": "beginner",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What is Japanese breakfast known for?",
+      "options": ["安い", "世界でも有名", "まずい", "量が多い"],
+      "correctAnswer": "世界でも有名"
+    },
+    {
+      "id": "q2",
+      "question": "Which is NOT mentioned as a traditional breakfast item?",
+      "options": ["味噌汁", "焼き魚", "カレー", "漬物"],
+      "correctAnswer": "カレー"
+    },
+    {
+      "id": "q3",
+      "question": "What do young people often eat?",
+      "options": ["和食だけ", "パンやシリアル", "果物だけ", "何も食べない"],
+      "correctAnswer": "パンやシリアル"
+    },
+    {
+      "id": "q4",
+      "question": "What is said about Japanese breakfast nutrition?",
+      "options": ["栄養が少ない", "バランスがとても良い", "カロリーが高い", "ビタミンがない"],
+      "correctAnswer": "バランスがとても良い"
+    },
+    {
+      "id": "q5",
+      "question": "What food is difficult for foreigners?",
+      "options": ["味噌汁", "ご飯", "納豆", "卵焼き"],
+      "correctAnswer": "納豆"
+    },
+    {
+      "id": "q6",
+      "question": "What happens when you eat breakfast?",
+      "options": ["眠くなる", "一日元気に過ごせる", "太る", "遅刻する"],
+      "correctAnswer": "一日元気に過ごせる"
+    }
+  ],
+  "translation": {
+    "en": "Japanese breakfast is famous around the world. A traditional breakfast includes rice, miso soup, grilled fish, pickled vegetables, and rolled omelet. Recently, many young people eat bread or cereal instead. However, it is said that Japanese-style breakfast has very good nutritional balance. Natto is also popular, but it is a somewhat difficult food for foreigners. If you eat breakfast, you can spend the day feeling energetic.",
+    "fr": "Le petit-déjeuner japonais est célèbre dans le monde entier. Un petit-déjeuner traditionnel comprend du riz, de la soupe miso, du poisson grillé, des légumes marinés et une omelette roulée. Récemment, beaucoup de jeunes mangent du pain ou des céréales. Cependant, on dit que le petit-déjeuner japonais a un très bon équilibre nutritionnel. Le natto est aussi populaire, mais c'est un aliment un peu difficile pour les étrangers. Si vous prenez le petit-déjeuner, vous pouvez passer la journée en pleine forme."
+  }
+}

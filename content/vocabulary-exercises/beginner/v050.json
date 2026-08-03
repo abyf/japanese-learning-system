@@ -1,0 +1,104 @@
+{
+  "id": "v050",
+  "title": "Frequency Adverbs",
+  "titleEn": "Frequency Adverbs",
+  "titleFr": "Adverbes de fréquence",
+  "level": "beginner",
+  "difficulty": 0.35,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "word_match",
+      "prompt": "What does いつも mean?",
+      "prompt_fr": "Que signifie いつも ?",
+      "word": "いつも",
+      "options": ["Always", "Sometimes", "Often", "Never"],
+      "options_fr": ["Toujours", "Parfois", "Souvent", "Jamais"],
+      "correctAnswer": "Always",
+      "meaning_fr": "Toujours"
+    },
+    {
+      "id": "q2",
+      "type": "word_match",
+      "prompt": "What does よく mean?",
+      "prompt_fr": "Que signifie よく ?",
+      "word": "よく",
+      "options": ["Often / Well", "Always", "Rarely", "Never"],
+      "options_fr": ["Souvent / Bien", "Toujours", "Rarement", "Jamais"],
+      "correctAnswer": "Often / Well",
+      "meaning_fr": "Souvent / Bien"
+    },
+    {
+      "id": "q3",
+      "type": "word_match",
+      "prompt": "What does 時々 mean?",
+      "prompt_fr": "Que signifie 時々 ?",
+      "word": "時々",
+      "options": ["Sometimes", "Always", "Never", "Often"],
+      "options_fr": ["Parfois", "Toujours", "Jamais", "Souvent"],
+      "correctAnswer": "Sometimes",
+      "meaning_fr": "Parfois"
+    },
+    {
+      "id": "q4",
+      "type": "word_match",
+      "prompt": "What does あまり mean (with negative)?",
+      "prompt_fr": "Que signifie あまり (avec négatif) ?",
+      "word": "あまり",
+      "options": ["Not very / Not much", "Always", "Sometimes", "Very"],
+      "options_fr": ["Pas très / Pas beaucoup", "Toujours", "Parfois", "Très"],
+      "correctAnswer": "Not very / Not much",
+      "meaning_fr": "Pas très / Pas beaucoup"
+    },
+    {
+      "id": "q5",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "私は＿＿朝ごはんを食べます。(I always eat breakfast.)",
+      "sentence_fr": "私は＿＿朝ごはんを食べます。(Je prends toujours le petit-déjeuner.)",
+      "options": ["いつも", "時々", "あまり", "全然"],
+      "correctAnswer": "いつも",
+      "meaning_en": "always",
+      "meaning_fr": "toujours"
+    },
+    {
+      "id": "q6",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "＿＿映画を見ません。(I hardly ever watch movies.)",
+      "sentence_fr": "＿＿映画を見ません。(Je ne regarde presque jamais de films.)",
+      "options": ["あまり", "いつも", "よく", "時々"],
+      "correctAnswer": "あまり",
+      "meaning_en": "not much / hardly",
+      "meaning_fr": "pas beaucoup / presque pas"
+    },
+    {
+      "id": "q7",
+      "type": "word_match",
+      "prompt": "What does 全然 mean (with negative)?",
+      "prompt_fr": "Que signifie 全然 (avec négatif) ?",
+      "word": "全然",
+      "options": ["Not at all", "Sometimes", "Often", "Always"],
+      "options_fr": ["Pas du tout", "Parfois", "Souvent", "Toujours"],
+      "correctAnswer": "Not at all",
+      "meaning_fr": "Pas du tout"
+    },
+    {
+      "id": "q8",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of 時々?",
+      "prompt_fr": "Quelle est la lecture de 時々 ?",
+      "kanji": "時々",
+      "options": ["ときどき", "いつも", "よく", "たまに"],
+      "correctAnswer": "ときどき",
+      "meaning_en": "sometimes",
+      "meaning_fr": "parfois"
+    }
+  ],
+  "translation": {
+    "en": "This lesson covers frequency adverbs from always to never in Japanese.",
+    "fr": "Cette leçon couvre les adverbes de fréquence du toujours au jamais en japonais."
+  }
+}

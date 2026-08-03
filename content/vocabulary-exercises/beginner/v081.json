@@ -1,0 +1,104 @@
+{
+  "id": "v081",
+  "title": "Travel Vocabulary",
+  "titleEn": "Travel Vocabulary",
+  "titleFr": "Vocabulaire de voyage",
+  "level": "beginner",
+  "difficulty": 0.6,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of 旅行?",
+      "prompt_fr": "Quelle est la lecture de 旅行 ?",
+      "kanji": "旅行",
+      "options": ["りょこう", "ひこうき", "よやく", "きっぷ"],
+      "correctAnswer": "りょこう",
+      "meaning_en": "travel / trip",
+      "meaning_fr": "voyage"
+    },
+    {
+      "id": "q2",
+      "type": "word_match",
+      "prompt": "What does 飛行機 mean?",
+      "prompt_fr": "Que signifie 飛行機 ?",
+      "word": "飛行機",
+      "options": ["Airplane", "Train", "Bus", "Ship"],
+      "options_fr": ["Avion", "Train", "Bus", "Bateau"],
+      "correctAnswer": "Airplane",
+      "meaning_fr": "Avion"
+    },
+    {
+      "id": "q3",
+      "type": "word_match",
+      "prompt": "What does ホテル mean?",
+      "prompt_fr": "Que signifie ホテル ?",
+      "word": "ホテル",
+      "options": ["Hotel", "Restaurant", "Airport", "Station"],
+      "options_fr": ["Hôtel", "Restaurant", "Aéroport", "Gare"],
+      "correctAnswer": "Hotel",
+      "meaning_fr": "Hôtel"
+    },
+    {
+      "id": "q4",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of 予約?",
+      "prompt_fr": "Quelle est la lecture de 予約 ?",
+      "kanji": "予約",
+      "options": ["よやく", "りょこう", "しゅっぱつ", "とうちゃく"],
+      "correctAnswer": "よやく",
+      "meaning_en": "reservation / booking",
+      "meaning_fr": "réservation"
+    },
+    {
+      "id": "q5",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "＿＿で日本に行きます。(I go to Japan by airplane.)",
+      "sentence_fr": "＿＿で日本に行きます。(J'y vais au Japon en avion.)",
+      "options": ["飛行機", "電車", "バス", "車"],
+      "correctAnswer": "飛行機",
+      "meaning_en": "airplane",
+      "meaning_fr": "avion"
+    },
+    {
+      "id": "q6",
+      "type": "word_match",
+      "prompt": "What does パスポート mean?",
+      "prompt_fr": "Que signifie パスポート ?",
+      "word": "パスポート",
+      "options": ["Passport", "Ticket", "Luggage", "Map"],
+      "options_fr": ["Passeport", "Billet", "Bagage", "Carte"],
+      "correctAnswer": "Passport",
+      "meaning_fr": "Passeport"
+    },
+    {
+      "id": "q7",
+      "type": "word_match",
+      "prompt": "What does 空港 mean?",
+      "prompt_fr": "Que signifie 空港 ?",
+      "word": "空港",
+      "options": ["Airport", "Harbor", "Station", "Bus stop"],
+      "options_fr": ["Aéroport", "Port", "Gare", "Arrêt de bus"],
+      "correctAnswer": "Airport",
+      "meaning_fr": "Aéroport"
+    },
+    {
+      "id": "q8",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "ホテルを＿＿しました。(I made a hotel reservation.)",
+      "sentence_fr": "ホテルを＿＿しました。(J'ai fait une réservation d'hôtel.)",
+      "options": ["予約", "旅行", "出発", "到着"],
+      "correctAnswer": "予約",
+      "meaning_en": "reservation",
+      "meaning_fr": "réservation"
+    }
+  ],
+  "translation": {
+    "en": "This lesson covers essential travel vocabulary for planning and taking trips.",
+    "fr": "Cette leçon couvre le vocabulaire essentiel du voyage pour planifier et effectuer des voyages."
+  }
+}

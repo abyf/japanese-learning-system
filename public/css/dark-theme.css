@@ -1,0 +1,99 @@
+/* Japanese Learning System - Dark Theme Overrides */
+
+/* Dark mode: WCAG AA compliant contrast ratios (4.5:1 minimum) */
+/* Background #1a1a2e with text #e0e0e0 = ~11.3:1 contrast */
+/* Primary #60a5fa on #1a1a2e = ~6.8:1 contrast */
+/* Accent #a78bfa on #1a1a2e = ~6.2:1 contrast */
+
+[data-theme="dark"] {
+  --bg: #1a1a2e;
+  --text: #e0e0e0;
+  --primary: #60a5fa;
+  --accent: #a78bfa;
+  --surface: #25253e;
+  --border: #3d3d5c;
+
+  --text-secondary: #a1a1b5;
+  --primary-hover: #93c5fd;
+  --accent-hover: #c4b5fd;
+  --success: #34d399;
+  --error: #f87171;
+  --warning: #fbbf24;
+
+  --shadow: 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px 2px rgba(0, 0, 0, 0.2);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.3), 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Dark mode specific adjustments */
+[data-theme="dark"] a {
+  color: var(--primary);
+}
+
+[data-theme="dark"] a:hover {
+  color: var(--primary-hover);
+}
+
+[data-theme="dark"] .btn {
+  color: #1a1a2e;
+  background-color: var(--primary);
+}
+
+[data-theme="dark"] .btn:hover {
+  background-color: var(--primary-hover);
+  color: #1a1a2e;
+}
+
+[data-theme="dark"] .btn--secondary {
+  background-color: transparent;
+  color: var(--primary);
+  border-color: var(--border);
+}
+
+[data-theme="dark"] .btn--secondary:hover {
+  background-color: var(--surface);
+  color: var(--primary-hover);
+}
+
+[data-theme="dark"] .btn--accent {
+  background-color: var(--accent);
+  color: #1a1a2e;
+}
+
+[data-theme="dark"] .btn--accent:hover {
+  background-color: var(--accent-hover);
+}
+
+[data-theme="dark"] .btn--danger {
+  background-color: var(--error);
+  color: #1a1a2e;
+}
+
+[data-theme="dark"] .input {
+  background-color: var(--surface);
+  color: var(--text);
+  border-color: var(--border);
+}
+
+[data-theme="dark"] .input:focus {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(96, 165, 250, 0.2);
+}
+
+[data-theme="dark"] .input::placeholder {
+  color: var(--text-secondary);
+}
+
+[data-theme="dark"] .toast {
+  background-color: var(--surface);
+  color: var(--text);
+  border: 1px solid var(--border);
+}
+
+[data-theme="dark"] .loading--overlay {
+  background-color: rgba(26, 26, 46, 0.85);
+}
+
+[data-theme="dark"] .loading::before {
+  border-color: var(--border);
+  border-top-color: var(--primary);
+}

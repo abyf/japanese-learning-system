@@ -1,0 +1,56 @@
+{
+  "id": "r032",
+  "title": "アルバイト",
+  "titleEn": "Part-time Job",
+  "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学生<rt>だいがくせい</rt></ruby>で、カフェでアルバイトをしています。<ruby>毎週<rt>まいしゅう</rt></ruby><ruby>火曜日<rt>かようび</rt></ruby>と<ruby>木曜日<rt>もくようび</rt></ruby>に<ruby>働<rt>はたら</rt></ruby>きます。<ruby>時給<rt>じきゅう</rt></ruby>は<ruby>千百円<rt>せんひゃくえん</rt></ruby>です。<ruby>仕事<rt>しごと</rt></ruby>は<ruby>注文<rt>ちゅうもん</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いて、コーヒーを<ruby>作<rt>つく</rt></ruby>ることです。<ruby>店長<rt>てんちょう</rt></ruby>はやさしい<ruby>人<rt>ひと</rt></ruby>です。<ruby>忙<rt>いそが</rt></ruby>しい<ruby>時<rt>とき</rt></ruby>は<ruby>大変<rt>たいへん</rt></ruby>ですが、お<ruby>客<rt>きゃく</rt></ruby>さんが「おいしい」と<ruby>言<rt>い</rt></ruby>ってくれると<ruby>嬉<rt>うれ</rt></ruby>しいです。<ruby>来月<rt>らいげつ</rt></ruby>のアルバイト<ruby>代<rt>だい</rt></ruby>で<ruby>新<rt>あたら</rt></ruby>しいかばんを<ruby>買<rt>か</rt></ruby>いたいです。",
+  "difficulty": 0.36,
+  "level": "beginner",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Where does the speaker work part-time?",
+      "options": ["レストラン", "コンビニ", "カフェ", "本屋"],
+      "correctAnswer": "カフェ"
+    },
+    {
+      "id": "q2",
+      "question": "What days does the speaker work?",
+      "options": ["月曜日と水曜日", "火曜日と木曜日", "水曜日と金曜日", "土曜日と日曜日"],
+      "correctAnswer": "火曜日と木曜日"
+    },
+    {
+      "id": "q3",
+      "question": "How much is the hourly wage?",
+      "options": ["九百円", "千円", "千百円", "千二百円"],
+      "correctAnswer": "千百円"
+    },
+    {
+      "id": "q4",
+      "question": "What does the speaker's job involve?",
+      "options": ["料理を作る", "注文を聞いてコーヒーを作る", "掃除する", "レジを打つ"],
+      "correctAnswer": "注文を聞いてコーヒーを作る"
+    },
+    {
+      "id": "q5",
+      "question": "What is the store manager like?",
+      "options": ["厳しい", "やさしい", "面白い", "静か"],
+      "correctAnswer": "やさしい"
+    },
+    {
+      "id": "q6",
+      "question": "When is it tough?",
+      "options": ["朝早い時", "忙しい時", "寒い時", "一人の時"],
+      "correctAnswer": "忙しい時"
+    },
+    {
+      "id": "q7",
+      "question": "What does the speaker want to buy?",
+      "options": ["新しい靴", "新しいかばん", "新しい服", "新しい本"],
+      "correctAnswer": "新しいかばん"
+    }
+  ],
+  "translation": {
+    "en": "I'm a university student and I work part-time at a café. I work every Tuesday and Thursday. The hourly wage is 1,100 yen. My job is taking orders and making coffee. The store manager is a kind person. It's tough when it's busy, but I'm happy when customers say 'delicious.' I want to buy a new bag with next month's pay.",
+    "fr": "Je suis étudiant(e) à l'université et je travaille à temps partiel dans un café. Je travaille tous les mardis et jeudis. Le salaire horaire est de 1 100 yens. Mon travail consiste à prendre les commandes et à préparer le café. Le gérant est une personne gentille. C'est difficile quand c'est occupé, mais je suis content(e) quand les clients disent « c'est délicieux ». Je veux acheter un nouveau sac avec la paye du mois prochain."
+  }
+}

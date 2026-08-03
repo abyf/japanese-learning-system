@@ -1,0 +1,59 @@
+{
+  "id": "v019",
+  "title": "Common Expressions",
+  "titleEn": "Common Expressions",
+  "level": "beginner",
+  "difficulty": 0.2,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "word_match",
+      "prompt": "What does ありがとう mean?",
+      "prompt_fr": "Que signifie ありがとう ?",
+      "word": "ありがとう",
+      "options": ["Thank you", "Sorry", "Please", "Excuse me"],
+      "options_fr": ["Merci", "Désolé", "S'il vous plaît", "Excusez-moi"],
+      "correctAnswer": "Thank you",
+      "meaning_fr": "Merci"
+    },
+    {
+      "id": "q2",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "＿＿、道を教えてください。(Excuse me, please tell me the way)",
+      "sentence_fr": "＿＿、道を教えてください。(Excusez-moi, indiquez-moi le chemin s'il vous plaît)",
+      "options": ["すみません", "ありがとう", "お願いします", "ごめんなさい"],
+      "correctAnswer": "すみません",
+      "meaning_en": "excuse me / sorry",
+      "meaning_fr": "excusez-moi / pardon"
+    },
+    {
+      "id": "q3",
+      "type": "word_match",
+      "prompt": "What does お願いします mean?",
+      "prompt_fr": "Que signifie お願いします ?",
+      "word": "お願いします",
+      "options": ["Please (request)", "Thank you", "I'm sorry", "You're welcome"],
+      "options_fr": ["S'il vous plaît (demande)", "Merci", "Je suis désolé", "De rien"],
+      "correctAnswer": "Please (request)",
+      "meaning_fr": "S'il vous plaît (demande)"
+    },
+    {
+      "id": "q4",
+      "type": "flashcard",
+      "prompt": "What is the meaning of this expression?",
+      "prompt_fr": "Quelle est la signification de cette expression ?",
+      "front": "いただきます",
+      "back": "Expression said before eating (lit. 'I humbly receive')",
+      "options": ["Before eating", "After eating", "Before sleeping", "When leaving"],
+      "options_fr": ["Avant de manger", "Après manger", "Avant de dormir", "En partant"],
+      "correctAnswer": "Before eating",
+      "meaning_fr": "Avant de manger"
+    }
+  ],
+  "translation": {
+    "en": "This lesson covers essential everyday expressions in Japanese.",
+    "fr": "Cette leçon couvre les expressions essentielles du quotidien en japonais."
+  }
+}

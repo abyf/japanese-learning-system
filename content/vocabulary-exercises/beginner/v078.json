@@ -1,0 +1,95 @@
+{
+  "id": "v078",
+  "title": "Giving Reasons",
+  "titleEn": "Giving Reasons",
+  "titleFr": "Donner des raisons",
+  "level": "beginner",
+  "difficulty": 0.6,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "word_match",
+      "prompt": "What does から mean (in giving reasons)?",
+      "prompt_fr": "Que signifie から (pour donner une raison) ?",
+      "word": "から",
+      "options": ["Because / So", "But", "And", "If"],
+      "options_fr": ["Parce que / Donc", "Mais", "Et", "Si"],
+      "correctAnswer": "Because / So",
+      "meaning_fr": "Parce que / Donc"
+    },
+    {
+      "id": "q2",
+      "type": "word_match",
+      "prompt": "What does ので mean?",
+      "prompt_fr": "Que signifie ので ?",
+      "word": "ので",
+      "options": ["Because / Since (polite)", "But", "And then", "If"],
+      "options_fr": ["Parce que / Puisque (poli)", "Mais", "Et puis", "Si"],
+      "correctAnswer": "Because / Since (polite)",
+      "meaning_fr": "Parce que / Puisque (poli)"
+    },
+    {
+      "id": "q3",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "雨が降っている＿＿、傘を持っていきます。(Because it's raining, I'll bring an umbrella.)",
+      "sentence_fr": "雨が降っている＿＿、傘を持っていきます。(Parce qu'il pleut, j'emporte un parapluie.)",
+      "options": ["から", "でも", "そして", "けど"],
+      "correctAnswer": "から",
+      "meaning_en": "because",
+      "meaning_fr": "parce que"
+    },
+    {
+      "id": "q4",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "病気な＿＿、学校を休みます。(Since I'm sick, I'll be absent from school.)",
+      "sentence_fr": "病気な＿＿、学校を休みます。(Puisque je suis malade, je m'absenterai de l'école.)",
+      "options": ["ので", "から", "けど", "のに"],
+      "correctAnswer": "ので",
+      "meaning_en": "since / because (polite)",
+      "meaning_fr": "puisque / parce que (poli)"
+    },
+    {
+      "id": "q5",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "お金がない＿＿、買えません。(I can't buy it because I have no money.)",
+      "sentence_fr": "お金がない＿＿、買えません。(Je ne peux pas l'acheter car je n'ai pas d'argent.)",
+      "options": ["から", "のに", "けど", "し"],
+      "correctAnswer": "から",
+      "meaning_en": "because",
+      "meaning_fr": "parce que"
+    },
+    {
+      "id": "q6",
+      "type": "word_match",
+      "prompt": "Which is more polite/formal: から or ので?",
+      "prompt_fr": "Lequel est plus poli/formel : から ou ので ?",
+      "word": "More polite reason connector",
+      "options": ["ので", "から", "Both the same", "Neither"],
+      "options_fr": ["ので", "から", "Les deux pareils", "Aucun"],
+      "correctAnswer": "ので",
+      "meaning_fr": "ので (plus poli)"
+    },
+    {
+      "id": "q7",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "明日テストがある＿＿、今日勉強します。(Since there's a test tomorrow, I'll study today.)",
+      "sentence_fr": "明日テストがある＿＿、今日勉強します。(Puisqu'il y a un test demain, j'étudie aujourd'hui.)",
+      "options": ["ので", "のに", "けど", "し"],
+      "correctAnswer": "ので",
+      "meaning_en": "since (polite reason)",
+      "meaning_fr": "puisque (raison polie)"
+    }
+  ],
+  "translation": {
+    "en": "This lesson covers giving reasons with から (because) and ので (since, more polite).",
+    "fr": "Cette leçon couvre l'expression de la cause avec から (parce que) et ので (puisque, plus poli)."
+  }
+}

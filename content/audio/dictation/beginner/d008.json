@@ -1,0 +1,10 @@
+{
+  "id": "d008",
+  "title": "Polite Request",
+  "titleFr": "Requête polie",
+  "expectedText": "すみません、駅はどこですか",
+  "audioUrl": "/api/dictation/beginner/d008/audio",
+  "difficulty": 0.3,
+  "hint": "Politely asking for directions to the station",
+  "hintFr": "Demander poliment le chemin vers la gare"
+}

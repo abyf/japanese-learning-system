@@ -1,0 +1,50 @@
+{
+  "id": "r056",
+  "title": "ゴミの分別",
+  "titleEn": "Garbage Sorting",
+  "text": "<ruby>日本<rt>にほん</rt></ruby>ではゴミの<ruby>分別<rt>ぶんべつ</rt></ruby>がとても<ruby>厳<rt>きび</rt></ruby>しいです。<ruby>燃<rt>も</rt></ruby>えるゴミ、<ruby>燃<rt>も</rt></ruby>えないゴミ、プラスチック、<ruby>缶<rt>かん</rt></ruby>、ビン、ペットボトルなどに<ruby>分<rt>わ</rt></ruby>けます。ゴミを<ruby>出<rt>だ</rt></ruby>す<ruby>日<rt>ひ</rt></ruby>は<ruby>決<rt>き</rt></ruby>まっています。<ruby>朝<rt>あさ</rt></ruby>の<ruby>決<rt>き</rt></ruby>まった<ruby>時間<rt>じかん</rt></ruby>に<ruby>決<rt>き</rt></ruby>まった<ruby>場所<rt>ばしょ</rt></ruby>に<ruby>出<rt>だ</rt></ruby>します。<ruby>間違<rt>まちが</rt></ruby>った<ruby>日<rt>ひ</rt></ruby>に<ruby>出<rt>だ</rt></ruby>すと、<ruby>持<rt>も</rt></ruby>って<ruby>行<rt>い</rt></ruby>ってもらえません。<ruby>外国人<rt>がいこくじん</rt></ruby>にとって<ruby>最初<rt>さいしょ</rt></ruby>は<ruby>難<rt>むずか</rt></ruby>しいですが、<ruby>環境<rt>かんきょう</rt></ruby>のために<ruby>大切<rt>たいせつ</rt></ruby>なことです。",
+  "difficulty": 0.55,
+  "level": "beginner",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What is very strict in Japan?",
+      "options": ["学校のルール", "ゴミの分別", "電車のマナー", "仕事の時間"],
+      "correctAnswer": "ゴミの分別"
+    },
+    {
+      "id": "q2",
+      "question": "Which category is NOT mentioned?",
+      "options": ["燃えるゴミ", "プラスチック", "紙", "缶"],
+      "correctAnswer": "紙"
+    },
+    {
+      "id": "q3",
+      "question": "What is fixed about garbage collection?",
+      "options": ["料金", "出す日", "袋の色", "量"],
+      "correctAnswer": "出す日"
+    },
+    {
+      "id": "q4",
+      "question": "What happens if you put garbage out on the wrong day?",
+      "options": ["罰金を払う", "持って行ってもらえない", "警察に言われる", "隣の人が怒る"],
+      "correctAnswer": "持って行ってもらえない"
+    },
+    {
+      "id": "q5",
+      "question": "Who finds it difficult at first?",
+      "options": ["子供", "外国人", "お年寄り", "学生"],
+      "correctAnswer": "外国人"
+    },
+    {
+      "id": "q6",
+      "question": "Why is garbage sorting important?",
+      "options": ["お金のため", "環境のため", "健康のため", "安全のため"],
+      "correctAnswer": "環境のため"
+    }
+  ],
+  "translation": {
+    "en": "Garbage sorting in Japan is very strict. You separate garbage into burnable, non-burnable, plastic, cans, bottles, PET bottles, and more. The days for taking out garbage are fixed. You put it out at a set place at a set time in the morning. If you put it out on the wrong day, they won't take it. It's difficult for foreigners at first, but it's important for the environment.",
+    "fr": "Le tri des déchets au Japon est très strict. On sépare les déchets en combustibles, non-combustibles, plastique, canettes, bouteilles en verre, bouteilles PET, etc. Les jours de collecte sont fixes. On les dépose à un endroit déterminé à une heure précise le matin. Si vous les sortez le mauvais jour, ils ne seront pas ramassés. C'est difficile pour les étrangers au début, mais c'est important pour l'environnement."
+  }
+}

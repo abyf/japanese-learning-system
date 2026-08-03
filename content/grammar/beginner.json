@@ -1,0 +1,112 @@
+[
+  {
+    "id": "g001",
+    "title": "は (topic marker)",
+    "explanation": "The particle は (pronounced 'wa') marks the topic of a sentence — what you are talking about. It often translates to 'as for...' and sets the scene for what follows.",
+    "pattern": "[Topic] は [Comment]",
+    "examples": [
+      { "japanese": "私は学生です。", "translation": "I am a student." },
+      { "japanese": "東京は大きい町です。", "translation": "Tokyo is a big city." },
+      { "japanese": "今日は暑いですね。", "translation": "It's hot today, isn't it?" }
+    ]
+  },
+  {
+    "id": "g002",
+    "title": "が (subject marker)",
+    "explanation": "The particle が marks the grammatical subject, especially when introducing new information, expressing likes/dislikes, or describing abilities. It emphasizes WHAT or WHO does something.",
+    "pattern": "[Subject] が [Predicate]",
+    "examples": [
+      { "japanese": "猫が好きです。", "translation": "I like cats." },
+      { "japanese": "雨が降っています。", "translation": "It is raining." },
+      { "japanese": "誰が来ましたか。", "translation": "Who came?" }
+    ]
+  },
+  {
+    "id": "g003",
+    "title": "を (object marker)",
+    "explanation": "The particle を (pronounced 'o') marks the direct object of a transitive verb — the thing that receives the action. It can also indicate a point of departure or path of movement.",
+    "pattern": "[Object] を [Verb]",
+    "examples": [
+      { "japanese": "水を飲みます。", "translation": "I drink water." },
+      { "japanese": "本を読みます。", "translation": "I read a book." },
+      { "japanese": "公園を歩きます。", "translation": "I walk through the park." }
+    ]
+  },
+  {
+    "id": "g004",
+    "title": "に (target/time marker)",
+    "explanation": "The particle に indicates a target or destination of movement, the time at which something happens, or the indirect object (recipient). It's one of the most versatile particles.",
+    "pattern": "[Place/Time] に [Verb]",
+    "examples": [
+      { "japanese": "学校に行きます。", "translation": "I go to school." },
+      { "japanese": "七時に起きます。", "translation": "I wake up at 7 o'clock." },
+      { "japanese": "友達にプレゼントをあげます。", "translation": "I give a present to my friend." }
+    ]
+  },
+  {
+    "id": "g005",
+    "title": "で (location of action/means)",
+    "explanation": "The particle で marks the location where an action takes place (not existence), or the means/tool used to do something. Compare: に is for existence, で is for actions.",
+    "pattern": "[Place/Means] で [Action Verb]",
+    "examples": [
+      { "japanese": "図書館で勉強します。", "translation": "I study at the library." },
+      { "japanese": "バスで行きます。", "translation": "I go by bus." },
+      { "japanese": "箸で食べます。", "translation": "I eat with chopsticks." }
+    ]
+  },
+  {
+    "id": "g006",
+    "title": "も (also/too)",
+    "explanation": "The particle も replaces は, が, or を to mean 'also' or 'too'. When used with question words and negatives, it means 'nothing/nobody/nowhere'.",
+    "pattern": "[Noun] も [Predicate]",
+    "examples": [
+      { "japanese": "私も学生です。", "translation": "I am also a student." },
+      { "japanese": "猫も犬も好きです。", "translation": "I like both cats and dogs." },
+      { "japanese": "何も食べませんでした。", "translation": "I didn't eat anything." }
+    ]
+  },
+  {
+    "id": "g007",
+    "title": "の (possession/modification)",
+    "explanation": "The particle の connects two nouns, showing possession, description, or relationship. It works like 'of' or 's in English. The modified noun comes after の.",
+    "pattern": "[Noun A] の [Noun B]",
+    "examples": [
+      { "japanese": "私の本です。", "translation": "It's my book." },
+      { "japanese": "日本語の先生です。", "translation": "They're a Japanese language teacher." },
+      { "japanese": "大学の友達に会いました。", "translation": "I met a friend from university." }
+    ]
+  },
+  {
+    "id": "g008",
+    "title": "と (and/with/quotation)",
+    "explanation": "The particle と has three main uses: connecting nouns (and), indicating a companion (with), and marking quotations (that). It creates an exhaustive list when connecting nouns.",
+    "pattern": "[Noun] と [Noun] / [Person] と [Verb] / 〜と思います",
+    "examples": [
+      { "japanese": "パンと牛乳を買います。", "translation": "I buy bread and milk." },
+      { "japanese": "友達と映画を見ました。", "translation": "I watched a movie with a friend." },
+      { "japanese": "明日は雨だと思います。", "translation": "I think it will rain tomorrow." }
+    ]
+  },
+  {
+    "id": "g009",
+    "title": "から (from/because)",
+    "explanation": "The particle から has two uses: marking a starting point in time or space (from), and connecting clauses to show reason (because/since). Context determines which meaning applies.",
+    "pattern": "[Time/Place] から / [Reason] から、[Result]",
+    "examples": [
+      { "japanese": "九時から五時まで働きます。", "translation": "I work from 9 to 5." },
+      { "japanese": "東京から来ました。", "translation": "I came from Tokyo." },
+      { "japanese": "暑いですから、窓を開けてください。", "translation": "Because it's hot, please open the window." }
+    ]
+  },
+  {
+    "id": "g010",
+    "title": "まで (until/to)",
+    "explanation": "The particle まで indicates an endpoint in time or space (until/to/as far as). It often pairs with から to show a range. It can also mean 'even' for emphasis.",
+    "pattern": "[Time/Place] まで",
+    "examples": [
+      { "japanese": "五時まで待ちます。", "translation": "I'll wait until 5 o'clock." },
+      { "japanese": "駅まで歩きます。", "translation": "I walk to the station." },
+      { "japanese": "子供まで知っています。", "translation": "Even children know it." }
+    ]
+  }
+]

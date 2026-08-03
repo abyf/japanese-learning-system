@@ -1,0 +1,95 @@
+{
+  "id": "v063",
+  "title": "Verbs with で",
+  "titleEn": "Verbs with で",
+  "titleFr": "Verbes avec で",
+  "level": "beginner",
+  "difficulty": 0.45,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "電車＿＿行きます。(I go by train.)",
+      "sentence_fr": "電車＿＿行きます。(J'y vais en train.)",
+      "options": ["で", "に", "を", "が"],
+      "correctAnswer": "で",
+      "meaning_en": "means/method particle",
+      "meaning_fr": "particule de moyen/méthode"
+    },
+    {
+      "id": "q2",
+      "type": "word_match",
+      "prompt": "What does 箸で食べる mean?",
+      "prompt_fr": "Que signifie 箸で食べる ?",
+      "word": "箸で食べる",
+      "options": ["To eat with chopsticks", "To buy chopsticks", "To wash chopsticks", "To break chopsticks"],
+      "options_fr": ["Manger avec des baguettes", "Acheter des baguettes", "Laver des baguettes", "Casser des baguettes"],
+      "correctAnswer": "To eat with chopsticks",
+      "meaning_fr": "Manger avec des baguettes"
+    },
+    {
+      "id": "q3",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "図書館＿＿勉強します。(I study at the library.)",
+      "sentence_fr": "図書館＿＿勉強します。(J'étudie à la bibliothèque.)",
+      "options": ["で", "に", "を", "は"],
+      "correctAnswer": "で",
+      "meaning_en": "location of action particle",
+      "meaning_fr": "particule de lieu d'action"
+    },
+    {
+      "id": "q4",
+      "type": "word_match",
+      "prompt": "What does 日本語で話す mean?",
+      "prompt_fr": "Que signifie 日本語で話す ?",
+      "word": "日本語で話す",
+      "options": ["To speak in Japanese", "To study Japanese", "To write Japanese", "To read Japanese"],
+      "options_fr": ["Parler en japonais", "Étudier le japonais", "Écrire le japonais", "Lire le japonais"],
+      "correctAnswer": "To speak in Japanese",
+      "meaning_fr": "Parler en japonais"
+    },
+    {
+      "id": "q5",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "ペン＿＿書きます。(I write with a pen.)",
+      "sentence_fr": "ペン＿＿書きます。(J'écris avec un stylo.)",
+      "options": ["で", "を", "に", "が"],
+      "correctAnswer": "で",
+      "meaning_en": "tool/instrument particle",
+      "meaning_fr": "particule d'outil/instrument"
+    },
+    {
+      "id": "q6",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "公園＿＿遊びます。(I play in the park.)",
+      "sentence_fr": "公園＿＿遊びます。(Je joue dans le parc.)",
+      "options": ["で", "に", "を", "が"],
+      "correctAnswer": "で",
+      "meaning_en": "location of action",
+      "meaning_fr": "lieu de l'action"
+    },
+    {
+      "id": "q7",
+      "type": "word_match",
+      "prompt": "What does バスで来る mean?",
+      "prompt_fr": "Que signifie バスで来る ?",
+      "word": "バスで来る",
+      "options": ["To come by bus", "To wait for the bus", "To get off the bus", "To miss the bus"],
+      "options_fr": ["Venir en bus", "Attendre le bus", "Descendre du bus", "Rater le bus"],
+      "correctAnswer": "To come by bus",
+      "meaning_fr": "Venir en bus"
+    }
+  ],
+  "translation": {
+    "en": "This lesson practices the particle で indicating means, location of action, and tools.",
+    "fr": "Cette leçon pratique la particule で indiquant le moyen, le lieu d'action et les outils."
+  }
+}

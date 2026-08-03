@@ -1,0 +1,93 @@
+{
+  "id": "v040",
+  "title": "Money & Prices",
+  "titleEn": "Money & Prices",
+  "titleFr": "Argent et prix",
+  "level": "beginner",
+  "difficulty": 0.35,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of this kanji?",
+      "prompt_fr": "Quelle est la lecture de ce kanji ?",
+      "kanji": "円",
+      "options": ["えん", "かね", "たか", "やす"],
+      "correctAnswer": "えん",
+      "meaning_en": "yen (Japanese currency)",
+      "meaning_fr": "yen (monnaie japonaise)"
+    },
+    {
+      "id": "q2",
+      "type": "word_match",
+      "prompt": "What does 高い mean?",
+      "prompt_fr": "Que signifie 高い ?",
+      "word": "高い",
+      "options": ["Expensive / Tall", "Cheap / Low", "Big", "Small"],
+      "options_fr": ["Cher / Haut", "Bon marché / Bas", "Grand", "Petit"],
+      "correctAnswer": "Expensive / Tall",
+      "meaning_fr": "Cher / Haut"
+    },
+    {
+      "id": "q3",
+      "type": "word_match",
+      "prompt": "What does 安い mean?",
+      "prompt_fr": "Que signifie 安い ?",
+      "word": "安い",
+      "options": ["Cheap / Inexpensive", "Expensive", "New", "Old"],
+      "options_fr": ["Bon marché / Pas cher", "Cher", "Nouveau", "Vieux"],
+      "correctAnswer": "Cheap / Inexpensive",
+      "meaning_fr": "Bon marché / Pas cher"
+    },
+    {
+      "id": "q4",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of this expression?",
+      "prompt_fr": "Quelle est la lecture de cette expression ?",
+      "kanji": "お金",
+      "options": ["おかね", "おえん", "おさつ", "おつり"],
+      "correctAnswer": "おかね",
+      "meaning_en": "money",
+      "meaning_fr": "argent"
+    },
+    {
+      "id": "q5",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "これは＿＿です。(This is expensive)",
+      "sentence_fr": "これは＿＿です。(C'est cher)",
+      "options": ["高い", "安い", "大きい", "小さい"],
+      "correctAnswer": "高い",
+      "meaning_en": "expensive",
+      "meaning_fr": "cher"
+    },
+    {
+      "id": "q6",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "このりんごは百＿＿です。(This apple is 100 yen)",
+      "sentence_fr": "このりんごは百＿＿です。(Cette pomme coûte 100 yens)",
+      "options": ["円", "個", "本", "枚"],
+      "correctAnswer": "円",
+      "meaning_en": "yen",
+      "meaning_fr": "yen"
+    },
+    {
+      "id": "q7",
+      "type": "word_match",
+      "prompt": "What does おつり mean?",
+      "prompt_fr": "Que signifie おつり ?",
+      "word": "おつり",
+      "options": ["Change (money back)", "Price", "Receipt", "Bill"],
+      "options_fr": ["Monnaie (rendue)", "Prix", "Reçu", "Addition"],
+      "correctAnswer": "Change (money back)",
+      "meaning_fr": "Monnaie (rendue)"
+    }
+  ],
+  "translation": {
+    "en": "This lesson covers money, prices, and shopping-related vocabulary.",
+    "fr": "Cette leçon couvre le vocabulaire de l'argent, des prix et des achats."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "l001",
+  "title": "At the Station",
+  "type": "multiple_choice",
+  "audioUrl": "/api/listening/beginner/l001/audio",
+  "transcript": "すみません、東京駅はどこですか？ まっすぐ行って、二つ目の信号を右に曲がってください。 ありがとうございます。 いいえ、どういたしまして。",
+  "questions": [
+    {
+      "question": "What is the person asking about?",
+      "options": ["Tokyo Station location", "Train time", "Ticket price", "Platform number"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "What direction should they turn?",
+      "options": ["Left at the first light", "Right at the second light", "Straight ahead", "Left at the second light"],
+      "correctAnswer": 1
+    }
+  ],
+  "difficulty": 0.3
+}

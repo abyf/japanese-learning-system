@@ -1,0 +1,50 @@
+{
+  "id": "r062",
+  "title": "日本の歴史",
+  "titleEn": "Brief Japanese History",
+  "text": "<ruby>日本<rt>にほん</rt></ruby>の<ruby>歴史<rt>れきし</rt></ruby>はとても<ruby>長<rt>なが</rt></ruby>いです。<ruby>古<rt>ふる</rt></ruby>い<ruby>時代<rt>じだい</rt></ruby>には<ruby>侍<rt>さむらい</rt></ruby>がいました。<ruby>江戸時代<rt>えどじだい</rt></ruby>は<ruby>約<rt>やく</rt></ruby><ruby>二百六十年<rt>にひゃくろくじゅうねん</rt></ruby><ruby>続<rt>つづ</rt></ruby>きました。<ruby>明治時代<rt>めいじじだい</rt></ruby>に<ruby>日本<rt>にほん</rt></ruby>は<ruby>近代化<rt>きんだいか</rt></ruby>しました。<ruby>第二次世界大戦<rt>だいにじせかいたいせん</rt></ruby>の<ruby>後<rt>あと</rt></ruby>、<ruby>日本<rt>にほん</rt></ruby>は<ruby>経済<rt>けいざい</rt></ruby><ruby>大国<rt>たいこく</rt></ruby>になりました。<ruby>今<rt>いま</rt></ruby>の<ruby>日本<rt>にほん</rt></ruby>は<ruby>伝統<rt>でんとう</rt></ruby>と<ruby>現代<rt>げんだい</rt></ruby>が<ruby>混<rt>ま</rt></ruby>ざった<ruby>面白<rt>おもしろ</rt></ruby>い<ruby>国<rt>くに</rt></ruby>です。<ruby>歴史<rt>れきし</rt></ruby>を<ruby>知<rt>し</rt></ruby>ると、<ruby>日本<rt>にほん</rt></ruby>をもっと<ruby>理解<rt>りかい</rt></ruby>できます。",
+  "difficulty": 0.6,
+  "level": "beginner",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "How is Japanese history described?",
+      "options": ["短い", "とても長い", "新しい", "簡単"],
+      "correctAnswer": "とても長い"
+    },
+    {
+      "id": "q2",
+      "question": "Who existed in old times?",
+      "options": ["忍者", "侍", "将軍", "天皇"],
+      "correctAnswer": "侍"
+    },
+    {
+      "id": "q3",
+      "question": "How long did the Edo period last?",
+      "options": ["約百年", "約二百六十年", "約五百年", "約千年"],
+      "correctAnswer": "約二百六十年"
+    },
+    {
+      "id": "q4",
+      "question": "When did Japan modernize?",
+      "options": ["江戸時代", "明治時代", "昭和時代", "平成時代"],
+      "correctAnswer": "明治時代"
+    },
+    {
+      "id": "q5",
+      "question": "What happened after WWII?",
+      "options": ["日本は小さくなった", "経済大国になった", "侍が戻った", "鎖国した"],
+      "correctAnswer": "経済大国になった"
+    },
+    {
+      "id": "q6",
+      "question": "How is modern Japan described?",
+      "options": ["伝統だけの国", "現代だけの国", "伝統と現代が混ざった国", "古い国"],
+      "correctAnswer": "伝統と現代が混ざった国"
+    }
+  ],
+  "translation": {
+    "en": "Japanese history is very long. In ancient times, there were samurai. The Edo period lasted about 260 years. Japan modernized during the Meiji period. After World War II, Japan became an economic powerhouse. Today's Japan is an interesting country where tradition and modernity are mixed. If you know the history, you can understand Japan better.",
+    "fr": "L'histoire du Japon est très longue. Dans les temps anciens, il y avait des samouraïs. L'époque d'Edo a duré environ 260 ans. Le Japon s'est modernisé pendant l'ère Meiji. Après la Seconde Guerre mondiale, le Japon est devenu une puissance économique. Le Japon d'aujourd'hui est un pays intéressant où tradition et modernité se mélangent. Si vous connaissez l'histoire, vous pouvez mieux comprendre le Japon."
+  }
+}

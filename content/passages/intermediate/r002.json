@@ -1,0 +1,38 @@
+{
+  "id": "r002",
+  "title": "日本の四季",
+  "titleEn": "Seasons in Japan",
+  "text": "<ruby>日本<rt>にほん</rt></ruby>には<ruby>四<rt>よん</rt></ruby>つの<ruby>季節<rt>きせつ</rt></ruby>があり、それぞれに<ruby>特徴<rt>とくちょう</rt></ruby>があります。<ruby>春<rt>はる</rt></ruby>は3<ruby>月<rt>がつ</rt></ruby>から5<ruby>月<rt>がつ</rt></ruby>までです。<ruby>桜<rt>さくら</rt></ruby>が<ruby>咲<rt>さ</rt></ruby>いて、<ruby>多<rt>おお</rt></ruby>くの<ruby>人<rt>ひと</rt></ruby>がお<ruby>花見<rt>はなみ</rt></ruby>を<ruby>楽<rt>たの</rt></ruby>しみます。<ruby>夏<rt>なつ</rt></ruby>は6<ruby>月<rt>がつ</rt></ruby>から8<ruby>月<rt>がつ</rt></ruby>までです。<ruby>暑<rt>あつ</rt></ruby>くて<ruby>湿度<rt>しつど</rt></ruby>が<ruby>高<rt>たか</rt></ruby>いですが、<ruby>花火<rt>はなび</rt></ruby><ruby>大会<rt>たいかい</rt></ruby>や<ruby>夏祭<rt>なつまつ</rt></ruby>りがあります。6<ruby>月<rt>がつ</rt></ruby>には<ruby>梅雨<rt>つゆ</rt></ruby>があり、<ruby>雨<rt>あめ</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>が<ruby>続<rt>つづ</rt></ruby>きます。<ruby>秋<rt>あき</rt></ruby>は9<ruby>月<rt>がつ</rt></ruby>から11<ruby>月<rt>がつ</rt></ruby>までです。<ruby>紅葉<rt>こうよう</rt></ruby>がきれいで、<ruby>涼<rt>すず</rt></ruby>しくて<ruby>過<rt>す</rt></ruby>ごしやすい<ruby>季節<rt>きせつ</rt></ruby>です。<ruby>冬<rt>ふゆ</rt></ruby>は12<ruby>月<rt>がつ</rt></ruby>から2<ruby>月<rt>がつ</rt></ruby>までです。<ruby>寒<rt>さむ</rt></ruby>いですが、<ruby>温泉<rt>おんせん</rt></ruby>に<ruby>入<rt>はい</rt></ruby>ったり、<ruby>雪<rt>ゆき</rt></ruby><ruby>景色<rt>げしき</rt></ruby>を<ruby>楽<rt>たの</rt></ruby>しんだりします。<ruby>日本人<rt>にほんじん</rt></ruby>は<ruby>季節<rt>きせつ</rt></ruby>の<ruby>変化<rt>へんか</rt></ruby>をとても<ruby>大切<rt>たいせつ</rt></ruby>にしています。",
+  "difficulty": 0.5,
+  "level": "intermediate",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What happens during the rainy season (梅雨)?",
+      "options": ["雪が降る", "雨の日が続く", "桜が咲く", "紅葉がきれい"],
+      "correctAnswer": "雨の日が続く"
+    },
+    {
+      "id": "q2",
+      "question": "Which season is described as cool and comfortable?",
+      "options": ["春", "夏", "秋", "冬"],
+      "correctAnswer": "秋"
+    },
+    {
+      "id": "q3",
+      "question": "What do people enjoy in winter?",
+      "options": ["花見とお祭り", "温泉と雪景色", "花火大会", "紅葉狩り"],
+      "correctAnswer": "温泉と雪景色"
+    },
+    {
+      "id": "q4",
+      "question": "When is the rainy season?",
+      "options": ["3月", "6月", "9月", "12月"],
+      "correctAnswer": "6月"
+    }
+  ],
+  "translation": {
+    "en": "Japan has four seasons, each with its own characteristics. Spring is from March to May. Cherry blossoms bloom, and many people enjoy hanami (flower viewing). Summer is from June to August. It is hot and humid, but there are fireworks festivals and summer festivals. In June, there is the rainy season, with consecutive rainy days. Autumn is from September to November. The autumn leaves are beautiful, and it is a cool and comfortable season. Winter is from December to February. It is cold, but people enjoy hot springs and snowy landscapes. Japanese people value the changes of the seasons very much.",
+    "fr": "Le Japon a quatre saisons, chacune avec ses propres caractéristiques. Le printemps va de mars à mai. Les cerisiers fleurissent et beaucoup de gens profitent du hanami (contemplation des fleurs). L'été va de juin à août. Il fait chaud et humide, mais il y a des festivals de feux d'artifice et des festivals d'été. En juin, c'est la saison des pluies, avec des jours de pluie consécutifs. L'automne va de septembre à novembre. Les feuilles d'automne sont belles, et c'est une saison fraîche et agréable. L'hiver va de décembre à février. Il fait froid, mais les gens profitent des sources chaudes et des paysages enneigés. Les Japonais accordent beaucoup d'importance aux changements de saisons."
+  }
+}

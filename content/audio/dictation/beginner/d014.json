@@ -1,0 +1,10 @@
+{
+  "id": "d014",
+  "title": "Opinion",
+  "titleFr": "Opinion",
+  "expectedText": "日本語の勉強は楽しいと思います",
+  "audioUrl": "/api/dictation/beginner/d014/audio",
+  "difficulty": 0.45,
+  "hint": "Expressing an opinion about studying Japanese",
+  "hintFr": "Exprimer une opinion sur l'étude du japonais"
+}

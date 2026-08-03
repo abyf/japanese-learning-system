@@ -1,0 +1,58 @@
+{
+  "id": "v011",
+  "title": "Food & Drink",
+  "titleEn": "Food & Drink",
+  "level": "beginner",
+  "difficulty": 0.25,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "word_match",
+      "prompt": "What does ご飯 mean?",
+      "prompt_fr": "Que signifie ご飯 ?",
+      "word": "ご飯",
+      "options": ["Rice / Meal", "Bread", "Noodles", "Soup"],
+      "options_fr": ["Riz / Repas", "Pain", "Nouilles", "Soupe"],
+      "correctAnswer": "Rice / Meal",
+      "meaning_fr": "Riz / Repas"
+    },
+    {
+      "id": "q2",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of this kanji?",
+      "prompt_fr": "Quelle est la lecture de ce kanji ?",
+      "kanji": "水",
+      "options": ["みず/すい", "ちゃ", "にく", "さかな"],
+      "correctAnswer": "みず/すい",
+      "meaning_en": "water",
+      "meaning_fr": "eau"
+    },
+    {
+      "id": "q3",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "お＿＿を飲みます。(I drink tea)",
+      "sentence_fr": "お＿＿を飲みます。(Je bois du thé)",
+      "options": ["茶", "水", "酒", "湯"],
+      "correctAnswer": "茶",
+      "meaning_en": "tea",
+      "meaning_fr": "thé"
+    },
+    {
+      "id": "q4",
+      "type": "kanji_recognition",
+      "prompt": "What does this kanji mean?",
+      "prompt_fr": "Que signifie ce kanji ?",
+      "kanji": "魚",
+      "options": ["Fish", "Meat", "Vegetable", "Fruit"],
+      "options_fr": ["Poisson", "Viande", "Légume", "Fruit"],
+      "correctAnswer": "Fish",
+      "meaning_fr": "Poisson"
+    }
+  ],
+  "translation": {
+    "en": "This lesson covers food and drink vocabulary in Japanese.",
+    "fr": "Cette leçon couvre le vocabulaire de la nourriture et des boissons en japonais."
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "r049",
+  "title": "日本の夏休み",
+  "titleEn": "Summer Vacation in Japan",
+  "text": "<ruby>日本<rt>にほん</rt></ruby>の<ruby>夏休<rt>なつやす</rt></ruby>みは<ruby>七月<rt>しちがつ</rt></ruby>の<ruby>終<rt>お</rt></ruby>わりから<ruby>八月<rt>はちがつ</rt></ruby>の<ruby>終<rt>お</rt></ruby>わりまでです。<ruby>子供<rt>こども</rt></ruby>たちはプールに<ruby>行<rt>い</rt></ruby>ったり、<ruby>海<rt>うみ</rt></ruby>に<ruby>行<rt>い</rt></ruby>ったりします。<ruby>花火大会<rt>はなびたいかい</rt></ruby>もあります。<ruby>家族<rt>かぞく</rt></ruby>で<ruby>田舎<rt>いなか</rt></ruby>のおじいちゃんの<ruby>家<rt>いえ</rt></ruby>に<ruby>行<rt>い</rt></ruby>く<ruby>人<rt>ひと</rt></ruby>も<ruby>多<rt>おお</rt></ruby>いです。<ruby>宿題<rt>しゅくだい</rt></ruby>もたくさんあります。<ruby>読書感想文<rt>どくしょかんそうぶん</rt></ruby>や<ruby>自由研究<rt>じゆうけんきゅう</rt></ruby>があります。<ruby>八月<rt>はちがつ</rt></ruby>の<ruby>終<rt>お</rt></ruby>わりになると、<ruby>宿題<rt>しゅくだい</rt></ruby>を<ruby>急<rt>いそ</rt></ruby>いでやる<ruby>子供<rt>こども</rt></ruby>がたくさんいます。<ruby>夏休<rt>なつやす</rt></ruby>みは<ruby>楽<rt>たの</rt></ruby>しいですが、<ruby>短<rt>みじか</rt></ruby>く<ruby>感<rt>かん</rt></ruby>じます。",
+  "difficulty": 0.53,
+  "level": "beginner",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "When is summer vacation in Japan?",
+      "options": ["六月〜七月", "七月の終わり〜八月の終わり", "八月〜九月", "六月〜八月"],
+      "correctAnswer": "七月の終わり〜八月の終わり"
+    },
+    {
+      "id": "q2",
+      "question": "What do children do during summer?",
+      "options": ["スキーに行く", "プールや海に行く", "山に登る", "博物館に行く"],
+      "correctAnswer": "プールや海に行く"
+    },
+    {
+      "id": "q3",
+      "question": "What events are there in summer?",
+      "options": ["お正月", "花火大会", "文化祭", "卒業式"],
+      "correctAnswer": "花火大会"
+    },
+    {
+      "id": "q4",
+      "question": "Where do many families go?",
+      "options": ["海外旅行", "テーマパーク", "田舎のおじいちゃんの家", "キャンプ場"],
+      "correctAnswer": "田舎のおじいちゃんの家"
+    },
+    {
+      "id": "q5",
+      "question": "What summer homework is mentioned?",
+      "options": ["計算ドリルと漢字", "読書感想文と自由研究", "英語と数学", "絵日記と作文"],
+      "correctAnswer": "読書感想文と自由研究"
+    },
+    {
+      "id": "q6",
+      "question": "What happens at the end of August?",
+      "options": ["新学期が始まる", "宿題を急いでやる子供が多い", "花火大会がある", "海に行く"],
+      "correctAnswer": "宿題を急いでやる子供が多い"
+    },
+    {
+      "id": "q7",
+      "question": "How does summer vacation feel?",
+      "options": ["長い", "退屈", "短く感じる", "つまらない"],
+      "correctAnswer": "短く感じる"
+    }
+  ],
+  "translation": {
+    "en": "Summer vacation in Japan is from the end of July to the end of August. Children go to the pool and the beach. There are also fireworks festivals. Many families visit grandfather's house in the countryside. There is also a lot of homework. There are book reports and independent research projects. At the end of August, many children rush to finish their homework. Summer vacation is fun, but it feels short.",
+    "fr": "Les vacances d'été au Japon vont de fin juillet à fin août. Les enfants vont à la piscine et à la mer. Il y a aussi des festivals de feux d'artifice. Beaucoup de familles vont chez le grand-père à la campagne. Il y a aussi beaucoup de devoirs. Il y a des comptes rendus de lecture et des projets de recherche libre. À la fin du mois d'août, beaucoup d'enfants se dépêchent de finir leurs devoirs. Les vacances d'été sont amusantes, mais elles semblent courtes."
+  }
+}

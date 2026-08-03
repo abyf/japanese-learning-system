@@ -1,0 +1,62 @@
+{
+  "id": "r042",
+  "title": "温泉",
+  "titleEn": "Hot Springs",
+  "text": "<ruby>週末<rt>しゅうまつ</rt></ruby>に<ruby>家族<rt>かぞく</rt></ruby>で<ruby>温泉<rt>おんせん</rt></ruby>に<ruby>行<rt>い</rt></ruby>きました。<ruby>箱根<rt>はこね</rt></ruby>の<ruby>温泉<rt>おんせん</rt></ruby>旅館<ruby>に<rt></rt></ruby><ruby>泊<rt>と</rt></ruby>まりました。<ruby>温泉<rt>おんせん</rt></ruby>に<ruby>入<rt>はい</rt></ruby>る<ruby>前<rt>まえ</rt></ruby>に、<ruby>体<rt>からだ</rt></ruby>を<ruby>洗<rt>あら</rt></ruby>わなければなりません。タオルを<ruby>湯船<rt>ゆぶね</rt></ruby>に<ruby>入<rt>い</rt></ruby>れてはいけません。お<ruby>湯<rt>ゆ</rt></ruby>はとても<ruby>気持<rt>きも</rt></ruby>ちよかったです。<ruby>露天風呂<rt>ろてんぶろ</rt></ruby>から<ruby>山<rt>やま</rt></ruby>が<ruby>見<rt>み</rt></ruby>えました。<ruby>夕食<rt>ゆうしょく</rt></ruby>は<ruby>部屋<rt>へや</rt></ruby>で<ruby>食<rt>た</rt></ruby>べました。<ruby>日本<rt>にほん</rt></ruby><ruby>料理<rt>りょうり</rt></ruby>がとてもおいしかったです。とてもリラックスできました。",
+  "difficulty": 0.46,
+  "level": "beginner",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Who went to the hot springs?",
+      "options": ["友達と", "一人で", "家族で", "会社の人と"],
+      "correctAnswer": "家族で"
+    },
+    {
+      "id": "q2",
+      "question": "Where is the hot spring?",
+      "options": ["熱海", "箱根", "草津", "別府"],
+      "correctAnswer": "箱根"
+    },
+    {
+      "id": "q3",
+      "question": "What must you do before entering the hot spring?",
+      "options": ["水を飲む", "体を洗う", "着替える", "ストレッチする"],
+      "correctAnswer": "体を洗う"
+    },
+    {
+      "id": "q4",
+      "question": "What must you NOT put in the bath?",
+      "options": ["足", "手", "タオル", "石鹸"],
+      "correctAnswer": "タオル"
+    },
+    {
+      "id": "q5",
+      "question": "What could they see from the outdoor bath?",
+      "options": ["海", "山", "町", "川"],
+      "correctAnswer": "山"
+    },
+    {
+      "id": "q6",
+      "question": "Where did they eat dinner?",
+      "options": ["レストラン", "部屋", "外", "食堂"],
+      "correctAnswer": "部屋"
+    },
+    {
+      "id": "q7",
+      "question": "How was the Japanese food?",
+      "options": ["普通だった", "とてもおいしかった", "辛かった", "量が少なかった"],
+      "correctAnswer": "とてもおいしかった"
+    },
+    {
+      "id": "q8",
+      "question": "How did the speaker feel overall?",
+      "options": ["疲れた", "退屈だった", "リラックスできた", "寒かった"],
+      "correctAnswer": "リラックスできた"
+    }
+  ],
+  "translation": {
+    "en": "On the weekend, I went to a hot spring with my family. We stayed at a hot spring inn in Hakone. Before entering the hot spring, you must wash your body. You must not put your towel in the bath water. The hot water felt very nice. We could see mountains from the outdoor bath. We ate dinner in our room. The Japanese food was very delicious. I was able to relax very much.",
+    "fr": "Le week-end, je suis allé(e) aux sources thermales avec ma famille. Nous avons séjourné dans un ryokan aux sources thermales de Hakone. Avant d'entrer dans les sources thermales, il faut se laver le corps. Il ne faut pas mettre sa serviette dans le bain. L'eau chaude était très agréable. On pouvait voir les montagnes depuis le bain en plein air. Nous avons dîné dans notre chambre. La cuisine japonaise était très bonne. J'ai pu très bien me détendre."
+  }
+}

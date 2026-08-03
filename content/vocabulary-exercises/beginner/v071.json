@@ -1,0 +1,104 @@
+{
+  "id": "v071",
+  "title": "Kanji: Actions",
+  "titleEn": "Kanji: Actions",
+  "titleFr": "Kanji : Actions",
+  "level": "beginner",
+  "difficulty": 0.5,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of 食べる?",
+      "prompt_fr": "Quelle est la lecture de 食べる ?",
+      "kanji": "食べる",
+      "options": ["たべる", "のむ", "いく", "みる"],
+      "correctAnswer": "たべる",
+      "meaning_en": "to eat",
+      "meaning_fr": "manger"
+    },
+    {
+      "id": "q2",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of 飲む?",
+      "prompt_fr": "Quelle est la lecture de 飲む ?",
+      "kanji": "飲む",
+      "options": ["のむ", "たべる", "みる", "きく"],
+      "correctAnswer": "のむ",
+      "meaning_en": "to drink",
+      "meaning_fr": "boire"
+    },
+    {
+      "id": "q3",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of 行く?",
+      "prompt_fr": "Quelle est la lecture de 行く ?",
+      "kanji": "行く",
+      "options": ["いく", "くる", "みる", "きく"],
+      "correctAnswer": "いく",
+      "meaning_en": "to go",
+      "meaning_fr": "aller"
+    },
+    {
+      "id": "q4",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of 来る?",
+      "prompt_fr": "Quelle est la lecture de 来る ?",
+      "kanji": "来る",
+      "options": ["くる", "いく", "みる", "でる"],
+      "correctAnswer": "くる",
+      "meaning_en": "to come",
+      "meaning_fr": "venir"
+    },
+    {
+      "id": "q5",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of 見る?",
+      "prompt_fr": "Quelle est la lecture de 見る ?",
+      "kanji": "見る",
+      "options": ["みる", "きく", "いく", "のむ"],
+      "correctAnswer": "みる",
+      "meaning_en": "to see / to watch",
+      "meaning_fr": "voir / regarder"
+    },
+    {
+      "id": "q6",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of 聞く?",
+      "prompt_fr": "Quelle est la lecture de 聞く ?",
+      "kanji": "聞く",
+      "options": ["きく", "みる", "いく", "かく"],
+      "correctAnswer": "きく",
+      "meaning_en": "to listen / to ask",
+      "meaning_fr": "écouter / demander"
+    },
+    {
+      "id": "q7",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "毎日新聞を＿＿ます。(I read the newspaper every day.)",
+      "sentence_fr": "毎日新聞を＿＿ます。(Je lis le journal tous les jours.)",
+      "options": ["見", "聞き", "食べ", "飲み"],
+      "correctAnswer": "見",
+      "meaning_en": "see/read",
+      "meaning_fr": "voir/lire"
+    },
+    {
+      "id": "q8",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "友達が日本から＿＿ます。(A friend is coming from Japan.)",
+      "sentence_fr": "友達が日本から＿＿ます。(Un ami vient du Japon.)",
+      "options": ["来", "行き", "食べ", "見"],
+      "correctAnswer": "来",
+      "meaning_en": "come",
+      "meaning_fr": "venir"
+    }
+  ],
+  "translation": {
+    "en": "This lesson covers kanji for common actions: eat, drink, go, come, see, and listen.",
+    "fr": "Cette leçon couvre les kanji d'actions courantes : manger, boire, aller, venir, voir et écouter."
+  }
+}

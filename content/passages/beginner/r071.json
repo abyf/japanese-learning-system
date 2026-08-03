@@ -1,0 +1,50 @@
+{
+  "id": "r071",
+  "title": "七夕",
+  "titleEn": "Tanabata",
+  "text": "<ruby>七夕<rt>たなばた</rt></ruby>は<ruby>七月七日<rt>しちがつなのか</rt></ruby>のお<ruby>祭<rt>まつ</rt></ruby>りです。<ruby>織姫<rt>おりひめ</rt></ruby>と<ruby>彦星<rt>ひこぼし</rt></ruby>が<ruby>一年<rt>いちねん</rt></ruby>に<ruby>一度<rt>いちど</rt></ruby>だけ<ruby>会<rt>あ</rt></ruby>える<ruby>日<rt>ひ</rt></ruby>です。<ruby>人々<rt>ひとびと</rt></ruby>は<ruby>短冊<rt>たんざく</rt></ruby>に<ruby>願<rt>ねが</rt></ruby>い<ruby>事<rt>ごと</rt></ruby>を<ruby>書<rt>か</rt></ruby>きます。そして<ruby>笹<rt>ささ</rt></ruby>の<ruby>葉<rt>は</rt></ruby>に<ruby>飾<rt>かざ</rt></ruby>ります。「<ruby>星<rt>ほし</rt></ruby>に<ruby>願<rt>ねが</rt></ruby>いを」というロマンチックなお<ruby>祭<rt>まつ</rt></ruby>りです。<ruby>仙台<rt>せんだい</rt></ruby>の<ruby>七夕祭<rt>たなばたまつ</rt></ruby>りは<ruby>日本<rt>にほん</rt></ruby>で<ruby>一番<rt>いちばん</rt></ruby><ruby>有名<rt>ゆうめい</rt></ruby>です。<ruby>子供<rt>こども</rt></ruby>も<ruby>大人<rt>おとな</rt></ruby>も<ruby>楽<rt>たの</rt></ruby>しむイベントです。",
+  "difficulty": 0.62,
+  "level": "beginner",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "When is Tanabata?",
+      "options": ["六月六日", "七月七日", "八月八日", "九月九日"],
+      "correctAnswer": "七月七日"
+    },
+    {
+      "id": "q2",
+      "question": "Who meets once a year?",
+      "options": ["太陽と月", "織姫と彦星", "天使と人間", "兄と妹"],
+      "correctAnswer": "織姫と彦星"
+    },
+    {
+      "id": "q3",
+      "question": "What do people write on tanzaku?",
+      "options": ["名前", "願い事", "詩", "住所"],
+      "correctAnswer": "願い事"
+    },
+    {
+      "id": "q4",
+      "question": "Where are tanzaku decorated?",
+      "options": ["木の枝", "笹の葉", "壁", "門"],
+      "correctAnswer": "笹の葉"
+    },
+    {
+      "id": "q5",
+      "question": "Where is the most famous Tanabata festival?",
+      "options": ["東京", "大阪", "仙台", "京都"],
+      "correctAnswer": "仙台"
+    },
+    {
+      "id": "q6",
+      "question": "How is Tanabata described?",
+      "options": ["怖い", "ロマンチック", "悲しい", "面白い"],
+      "correctAnswer": "ロマンチック"
+    }
+  ],
+  "translation": {
+    "en": "Tanabata is a festival on July 7th. It is the day when Orihime and Hikoboshi can meet only once a year. People write wishes on tanzaku strips. They decorate bamboo leaves with them. It is a romantic festival of 'wishing upon a star.' Sendai's Tanabata festival is the most famous in Japan. It is an event enjoyed by both children and adults.",
+    "fr": "Tanabata est une fête le 7 juillet. C'est le jour où Orihime et Hikoboshi ne peuvent se rencontrer qu'une fois par an. Les gens écrivent des vœux sur des bandes de papier tanzaku. Ils les accrochent aux branches de bambou. C'est un festival romantique de 'faire un vœu sur une étoile'. Le festival Tanabata de Sendai est le plus célèbre du Japon. C'est un événement apprécié par les enfants comme les adultes."
+  }
+}

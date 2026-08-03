@@ -1,0 +1,104 @@
+{
+  "id": "v039",
+  "title": "Seasons & Months Review",
+  "titleEn": "Seasons & Months Review",
+  "titleFr": "Saisons et mois (révision)",
+  "level": "beginner",
+  "difficulty": 0.25,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of this kanji?",
+      "prompt_fr": "Quelle est la lecture de ce kanji ?",
+      "kanji": "春",
+      "options": ["はる", "なつ", "あき", "ふゆ"],
+      "correctAnswer": "はる",
+      "meaning_en": "spring",
+      "meaning_fr": "printemps"
+    },
+    {
+      "id": "q2",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of this kanji?",
+      "prompt_fr": "Quelle est la lecture de ce kanji ?",
+      "kanji": "夏",
+      "options": ["なつ", "はる", "あき", "ふゆ"],
+      "correctAnswer": "なつ",
+      "meaning_en": "summer",
+      "meaning_fr": "été"
+    },
+    {
+      "id": "q3",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of this kanji?",
+      "prompt_fr": "Quelle est la lecture de ce kanji ?",
+      "kanji": "秋",
+      "options": ["あき", "はる", "なつ", "ふゆ"],
+      "correctAnswer": "あき",
+      "meaning_en": "autumn / fall",
+      "meaning_fr": "automne"
+    },
+    {
+      "id": "q4",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of this kanji?",
+      "prompt_fr": "Quelle est la lecture de ce kanji ?",
+      "kanji": "冬",
+      "options": ["ふゆ", "あき", "はる", "なつ"],
+      "correctAnswer": "ふゆ",
+      "meaning_en": "winter",
+      "meaning_fr": "hiver"
+    },
+    {
+      "id": "q5",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "＿＿に桜が咲きます。(Cherry blossoms bloom in spring)",
+      "sentence_fr": "＿＿に桜が咲きます。(Les cerisiers fleurissent au printemps)",
+      "options": ["春", "夏", "秋", "冬"],
+      "correctAnswer": "春",
+      "meaning_en": "spring",
+      "meaning_fr": "printemps"
+    },
+    {
+      "id": "q6",
+      "type": "word_match",
+      "prompt": "Which season is the hottest in Japan?",
+      "prompt_fr": "Quelle saison est la plus chaude au Japon ?",
+      "word": "夏",
+      "options": ["Summer", "Spring", "Autumn", "Winter"],
+      "options_fr": ["Été", "Printemps", "Automne", "Hiver"],
+      "correctAnswer": "Summer",
+      "meaning_fr": "Été"
+    },
+    {
+      "id": "q7",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "＿＿は寒いです。(Winter is cold)",
+      "sentence_fr": "＿＿は寒いです。(L'hiver est froid)",
+      "options": ["冬", "夏", "春", "秋"],
+      "correctAnswer": "冬",
+      "meaning_en": "winter",
+      "meaning_fr": "hiver"
+    },
+    {
+      "id": "q8",
+      "type": "word_match",
+      "prompt": "In which season do leaves change color?",
+      "prompt_fr": "En quelle saison les feuilles changent-elles de couleur ?",
+      "word": "秋",
+      "options": ["Autumn / Fall", "Summer", "Spring", "Winter"],
+      "options_fr": ["Automne", "Été", "Printemps", "Hiver"],
+      "correctAnswer": "Autumn / Fall",
+      "meaning_fr": "Automne"
+    }
+  ],
+  "translation": {
+    "en": "This lesson reviews the four seasons and their association with months.",
+    "fr": "Cette leçon révise les quatre saisons et leur association avec les mois."
+  }
+}

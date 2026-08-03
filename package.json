@@ -1,0 +1,73 @@
+{
+  "name": "japanese-learning-system",
+  "version": "1.0.0",
+  "description": "A fully offline desktop application for learning Japanese across three progressive levels",
+  "main": "main.js",
+  "scripts": {
+    "start": "node start.js",
+    "start:electron": "electron .",
+    "dev": "electron . --dev",
+    "test": "node --test tests/",
+    "test:pbt": "node --test tests/pbt/",
+    "build": "electron-builder",
+    "build:win": "electron-builder --win",
+    "build:mac": "electron-builder --mac",
+    "build:linux": "electron-builder --linux",
+    "build:all": "electron-builder --win --mac --linux"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cookie-parser": "^1.4.7",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2",
+    "sql.js": "^1.14.1"
+  },
+  "devDependencies": {
+    "electron": "^33.2.0",
+    "electron-builder": "^25.1.8",
+    "fast-check": "^3.23.1"
+  },
+  "build": {
+    "appId": "com.japanese-learning-system.app",
+    "productName": "Japanese Learning System",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "main.js",
+      "server.js",
+      "config.js",
+      "modules/**/*",
+      "middleware/**/*",
+      "routes/**/*",
+      "database/**/*",
+      "public/**/*",
+      "content/**/*",
+      "node_modules/**/*"
+    ],
+    "win": {
+      "target": "nsis",
+      "icon": "build/icon.ico"
+    },
+    "mac": {
+      "target": "dmg",
+      "icon": "build/icon.icns"
+    },
+    "linux": {
+      "target": "AppImage",
+      "icon": "build/icon.png"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
+    },
+    "extraResources": [
+      {
+        "from": "content",
+        "to": "content"
+      }
+    ]
+  },
+  "author": "",
+  "license": "MIT"
+}

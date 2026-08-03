@@ -1,0 +1,38 @@
+{
+  "id": "r005",
+  "title": "伝統的な祭り",
+  "titleEn": "Traditional Festivals",
+  "text": "<ruby>日本<rt>にほん</rt></ruby>には<ruby>一年<rt>いちねん</rt></ruby>を<ruby>通<rt>とお</rt></ruby>して<ruby>多<rt>おお</rt></ruby>くの<ruby>祭<rt>まつ</rt></ruby>りがあります。<ruby>祭<rt>まつ</rt></ruby>りは<ruby>地域<rt>ちいき</rt></ruby>の<ruby>伝統<rt>でんとう</rt></ruby>を<ruby>守<rt>まも</rt></ruby>り、<ruby>人々<rt>ひとびと</rt></ruby>をつなげる<ruby>大切<rt>たいせつ</rt></ruby>な<ruby>行事<rt>ぎょうじ</rt></ruby>です。<ruby>夏<rt>なつ</rt></ruby>の<ruby>祭<rt>まつ</rt></ruby>りが<ruby>特<rt>とく</rt></ruby>に<ruby>有名<rt>ゆうめい</rt></ruby>です。<ruby>京都<rt>きょうと</rt></ruby>の<ruby>祇園祭<rt>ぎおんまつり</rt></ruby>は7<ruby>月<rt>がつ</rt></ruby>に<ruby>行<rt>おこな</rt></ruby>われ、<ruby>約<rt>やく</rt></ruby>1000<ruby>年<rt>ねん</rt></ruby>の<ruby>歴史<rt>れきし</rt></ruby>があります。<ruby>大<rt>おお</rt></ruby>きな<ruby>山鉾<rt>やまぼこ</rt></ruby>が<ruby>町<rt>まち</rt></ruby>を<ruby>練<rt>ね</rt></ruby>り<ruby>歩<rt>ある</rt></ruby>きます。<ruby>東北<rt>とうほく</rt></ruby><ruby>地方<rt>ちほう</rt></ruby>の<ruby>ねぶた<rt></rt></ruby><ruby>祭<rt>まつ</rt></ruby>りでは、<ruby>巨大<rt>きょだい</rt></ruby>な<ruby>灯篭<rt>とうろう</rt></ruby>が<ruby>街<rt>まち</rt></ruby>を<ruby>照<rt>て</rt></ruby>らします。<ruby>祭<rt>まつ</rt></ruby>りでは<ruby>浴衣<rt>ゆかた</rt></ruby>を<ruby>着<rt>き</rt></ruby>て、<ruby>屋台<rt>やたい</rt></ruby>で<ruby>食<rt>た</rt></ruby>べ<ruby>物<rt>もの</rt></ruby>を<ruby>買<rt>か</rt></ruby>って<ruby>楽<rt>たの</rt></ruby>しみます。たこ<ruby>焼<rt>や</rt></ruby>き、<ruby>焼<rt>や</rt></ruby>きそば、かき<ruby>氷<rt>ごおり</rt></ruby>などが<ruby>人気<rt>にんき</rt></ruby>です。<ruby>祭<rt>まつ</rt></ruby>りは<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>を<ruby>体験<rt>たいけん</rt></ruby>する<ruby>良<rt>よ</rt></ruby>い<ruby>機会<rt>きかい</rt></ruby>です。",
+  "difficulty": 0.55,
+  "level": "intermediate",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "When is the Gion Festival held?",
+      "options": ["5月", "6月", "7月", "8月"],
+      "correctAnswer": "7月"
+    },
+    {
+      "id": "q2",
+      "question": "How old is the Gion Festival?",
+      "options": ["約100年", "約500年", "約1000年", "約2000年"],
+      "correctAnswer": "約1000年"
+    },
+    {
+      "id": "q3",
+      "question": "What do people wear at festivals?",
+      "options": ["着物", "浴衣", "スーツ", "制服"],
+      "correctAnswer": "浴衣"
+    },
+    {
+      "id": "q4",
+      "question": "What is the role of festivals according to the passage?",
+      "options": ["お金を集める", "地域の伝統を守り人々をつなげる", "外国人を集める", "食べ物を売る"],
+      "correctAnswer": "地域の伝統を守り人々をつなげる"
+    }
+  ],
+  "translation": {
+    "en": "Japan has many festivals throughout the year. Festivals are important events that preserve regional traditions and connect people. Summer festivals are particularly famous. Kyoto's Gion Festival is held in July and has a history of about 1000 years. Large yamaboko floats parade through the town. In the Tohoku region's Nebuta Festival, giant lanterns illuminate the streets. At festivals, people wear yukata, buy food at stalls, and have fun. Takoyaki, yakisoba, and shaved ice are popular. Festivals are a great opportunity to experience Japanese culture.",
+    "fr": "Le Japon a de nombreux festivals tout au long de l'année. Les festivals sont des événements importants qui préservent les traditions régionales et relient les gens. Les festivals d'été sont particulièrement célèbres. Le festival de Gion à Kyoto a lieu en juillet et a une histoire d'environ 1000 ans. De grands chars yamaboko défilent dans la ville. Lors du festival Nebuta de la région de Tohoku, des lanternes géantes illuminent les rues. Aux festivals, les gens portent des yukata, achètent de la nourriture aux stands et s'amusent. Les takoyaki, yakisoba et glaces pilées sont populaires. Les festivals sont une excellente occasion de découvrir la culture japonaise."
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "r001",
+  "title": "私の家族",
+  "titleEn": "My Family",
+  "text": "<ruby>私<rt>わたし</rt></ruby>の<ruby>家族<rt>かぞく</rt></ruby>は<ruby>五人<rt>ごにん</rt></ruby>です。<ruby>父<rt>ちち</rt></ruby>と<ruby>母<rt>はは</rt></ruby>と<ruby>兄<rt>あに</rt></ruby>と<ruby>妹<rt>いもうと</rt></ruby>と<ruby>私<rt>わたし</rt></ruby>です。<ruby>父<rt>ちち</rt></ruby>は<ruby>会社員<rt>かいしゃいん</rt></ruby>です。<ruby>毎日<rt>まいにち</rt></ruby><ruby>電車<rt>でんしゃ</rt></ruby>で<ruby>会社<rt>かいしゃ</rt></ruby>に<ruby>行<rt>い</rt></ruby>きます。<ruby>母<rt>はは</rt></ruby>は<ruby>看護師<rt>かんごし</rt></ruby>です。<ruby>病院<rt>びょういん</rt></ruby>で<ruby>働<rt>はたら</rt></ruby>いています。<ruby>兄<rt>あに</rt></ruby>は<ruby>大学生<rt>だいがくせい</rt></ruby>です。<ruby>工学<rt>こうがく</rt></ruby>を<ruby>勉強<rt>べんきょう</rt></ruby>しています。<ruby>妹<rt>いもうと</rt></ruby>は<ruby>小学生<rt>しょうがくせい</rt></ruby>です。<ruby>妹<rt>いもうと</rt></ruby>はピアノが<ruby>上手<rt>じょうず</rt></ruby>です。<ruby>私<rt>わたし</rt></ruby>は<ruby>高校生<rt>こうこうせい</rt></ruby>です。<ruby>毎日<rt>まいにち</rt></ruby>、<ruby>家族<rt>かぞく</rt></ruby>で<ruby>晩<rt>ばん</rt></ruby>ご<ruby>飯<rt>はん</rt></ruby>を<ruby>食<rt>た</rt></ruby>べます。<ruby>日曜日<rt>にちようび</rt></ruby>には<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>公園<rt>こうえん</rt></ruby>に<ruby>行<rt>い</rt></ruby>きます。<ruby>家族<rt>かぞく</rt></ruby>が<ruby>大好<rt>だいす</rt></ruby>きです。",
+  "difficulty": 0.2,
+  "level": "beginner",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "How many people are in the family?",
+      "options": ["3人", "4人", "5人", "6人"],
+      "correctAnswer": "5人"
+    },
+    {
+      "id": "q2",
+      "question": "What does the father do for work?",
+      "options": ["先生", "会社員", "医者", "看護師"],
+      "correctAnswer": "会社員"
+    },
+    {
+      "id": "q3",
+      "question": "What is the older brother studying?",
+      "options": ["医学", "工学", "文学", "法学"],
+      "correctAnswer": "工学"
+    },
+    {
+      "id": "q4",
+      "question": "What does the family do on Sundays?",
+      "options": ["映画を見る", "公園に行く", "買い物をする", "レストランに行く"],
+      "correctAnswer": "公園に行く"
+    }
+  ],
+  "translation": {
+    "en": "My family has five people. Father, mother, older brother, younger sister, and me. Father is a company employee. He goes to the company by train every day. Mother is a nurse. She works at a hospital. My older brother is a university student. He studies engineering. My younger sister is an elementary school student. She is good at piano. I am a high school student. Every day, our family eats dinner together. On Sundays, we go to the park together. I love my family.",
+    "fr": "Ma famille compte cinq personnes. Mon père, ma mère, mon frère aîné, ma petite sœur et moi. Mon père est employé de bureau. Il va au bureau en train tous les jours. Ma mère est infirmière. Elle travaille à l'hôpital. Mon frère aîné est étudiant à l'université. Il étudie l'ingénierie. Ma petite sœur est élève à l'école primaire. Elle est douée au piano. Je suis lycéen(ne). Chaque jour, notre famille dîne ensemble. Le dimanche, nous allons au parc ensemble. J'adore ma famille."
+  }
+}

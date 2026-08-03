@@ -1,0 +1,50 @@
+{
+  "id": "r081",
+  "title": "日本の猫カフェ",
+  "titleEn": "Cat Cafes",
+  "text": "<ruby>猫<rt>ねこ</rt></ruby>カフェは<ruby>日本<rt>にほん</rt></ruby>で<ruby>人気<rt>にんき</rt></ruby>のお<ruby>店<rt>みせ</rt></ruby>です。<ruby>猫<rt>ねこ</rt></ruby>と<ruby>触<rt>ふ</rt></ruby>れ<ruby>合<rt>あ</rt></ruby>いながらコーヒーを<ruby>飲<rt>の</rt></ruby>めます。マンションでペットを<ruby>飼<rt>か</rt></ruby>えない<ruby>人<rt>ひと</rt></ruby>にとって<ruby>嬉<rt>うれ</rt></ruby>しい<ruby>場所<rt>ばしょ</rt></ruby>です。<ruby>料金<rt>りょうきん</rt></ruby>は<ruby>時間制<rt>じかんせい</rt></ruby>で、ドリンクが<ruby>付<rt>つ</rt></ruby>くことが<ruby>多<rt>おお</rt></ruby>いです。<ruby>猫<rt>ねこ</rt></ruby>を<ruby>追<rt>お</rt></ruby>いかけたり、<ruby>寝<rt>ね</rt></ruby>ている<ruby>猫<rt>ねこ</rt></ruby>を<ruby>起<rt>お</rt></ruby>こしたりしてはいけません。<ruby>最近<rt>さいきん</rt></ruby>はフクロウカフェやうさぎカフェもあります。<ruby>動物<rt>どうぶつ</rt></ruby>に<ruby>癒<rt>いや</rt></ruby>されたい<ruby>人<rt>ひと</rt></ruby>にぴったりです。",
+  "difficulty": 0.68,
+  "level": "beginner",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What can you do at a cat cafe?",
+      "options": ["猫を買う", "猫と触れ合いながらコーヒーを飲む", "猫の写真を撮るだけ", "猫を連れて帰る"],
+      "correctAnswer": "猫と触れ合いながらコーヒーを飲む"
+    },
+    {
+      "id": "q2",
+      "question": "Who especially enjoys cat cafes?",
+      "options": ["猫を飼っている人", "ペットを飼えない人", "子供だけ", "外国人だけ"],
+      "correctAnswer": "ペットを飼えない人"
+    },
+    {
+      "id": "q3",
+      "question": "How is the fee system?",
+      "options": ["入場料", "時間制", "曲数制", "定額制"],
+      "correctAnswer": "時間制"
+    },
+    {
+      "id": "q4",
+      "question": "What must you NOT do?",
+      "options": ["写真を撮る", "猫を追いかける", "コーヒーを飲む", "猫を撫でる"],
+      "correctAnswer": "猫を追いかける"
+    },
+    {
+      "id": "q5",
+      "question": "What other animal cafes exist?",
+      "options": ["犬カフェ", "フクロウカフェやうさぎカフェ", "魚カフェ", "馬カフェ"],
+      "correctAnswer": "フクロウカフェやうさぎカフェ"
+    },
+    {
+      "id": "q6",
+      "question": "Who are these cafes perfect for?",
+      "options": ["忙しい人", "動物に癒されたい人", "勉強したい人", "食べたい人"],
+      "correctAnswer": "動物に癒されたい人"
+    }
+  ],
+  "translation": {
+    "en": "Cat cafes are popular shops in Japan. You can interact with cats while drinking coffee. They're a great place for people who can't keep pets in their apartments. The fee is time-based and often includes a drink. You must not chase cats or wake sleeping cats. Recently, there are also owl cafes and rabbit cafes. They're perfect for people who want to be healed by animals.",
+    "fr": "Les cafés à chats sont des boutiques populaires au Japon. On peut interagir avec des chats en buvant un café. C'est un endroit formidable pour les gens qui ne peuvent pas avoir d'animaux dans leur appartement. Le tarif est basé sur le temps et inclut souvent une boisson. Il ne faut pas poursuivre les chats ni réveiller les chats endormis. Récemment, il y a aussi des cafés à hiboux et des cafés à lapins. Ils sont parfaits pour les gens qui veulent être apaisés par les animaux."
+  }
+}

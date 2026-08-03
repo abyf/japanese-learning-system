@@ -1,0 +1,95 @@
+{
+  "id": "v074",
+  "title": "Past Tense",
+  "titleEn": "Past Tense",
+  "titleFr": "Temps passé",
+  "level": "beginner",
+  "difficulty": 0.55,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "word_match",
+      "prompt": "What does 食べました mean?",
+      "prompt_fr": "Que signifie 食べました ?",
+      "word": "食べました",
+      "options": ["Ate (polite past)", "Eat (present)", "Will eat", "Didn't eat"],
+      "options_fr": ["A mangé (passé poli)", "Mange (présent)", "Mangera", "N'a pas mangé"],
+      "correctAnswer": "Ate (polite past)",
+      "meaning_fr": "A mangé (passé poli)"
+    },
+    {
+      "id": "q2",
+      "type": "word_match",
+      "prompt": "What does 行きませんでした mean?",
+      "prompt_fr": "Que signifie 行きませんでした ?",
+      "word": "行きませんでした",
+      "options": ["Didn't go (polite past)", "Went", "Won't go", "Don't go"],
+      "options_fr": ["N'est pas allé (passé poli)", "Est allé", "N'ira pas", "Ne va pas"],
+      "correctAnswer": "Didn't go (polite past)",
+      "meaning_fr": "N'est pas allé (passé poli)"
+    },
+    {
+      "id": "q3",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "昨日映画を見＿＿。(I watched a movie yesterday.)",
+      "sentence_fr": "昨日映画を見＿＿。(J'ai regardé un film hier.)",
+      "options": ["ました", "ます", "ません", "ましょう"],
+      "correctAnswer": "ました",
+      "meaning_en": "past tense polite",
+      "meaning_fr": "passé poli"
+    },
+    {
+      "id": "q4",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "先週テストがあり＿＿。(There was a test last week.)",
+      "sentence_fr": "先週テストがあり＿＿。(Il y avait un test la semaine dernière.)",
+      "options": ["ました", "ます", "ません", "ましょう"],
+      "correctAnswer": "ました",
+      "meaning_en": "past tense",
+      "meaning_fr": "passé"
+    },
+    {
+      "id": "q5",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "朝ごはんを食べ＿＿。(I didn't eat breakfast.)",
+      "sentence_fr": "朝ごはんを食べ＿＿。(Je n'ai pas pris le petit-déjeuner.)",
+      "options": ["ませんでした", "ました", "ません", "ます"],
+      "correctAnswer": "ませんでした",
+      "meaning_en": "didn't (polite past negative)",
+      "meaning_fr": "n'a pas (passé négatif poli)"
+    },
+    {
+      "id": "q6",
+      "type": "word_match",
+      "prompt": "What does 買いました mean?",
+      "prompt_fr": "Que signifie 買いました ?",
+      "word": "買いました",
+      "options": ["Bought", "Buy", "Will buy", "Didn't buy"],
+      "options_fr": ["A acheté", "Achète", "Achètera", "N'a pas acheté"],
+      "correctAnswer": "Bought",
+      "meaning_fr": "A acheté"
+    },
+    {
+      "id": "q7",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "去年日本に行き＿＿。(I went to Japan last year.)",
+      "sentence_fr": "去年日本に行き＿＿。(Je suis allé au Japon l'année dernière.)",
+      "options": ["ました", "ます", "たい", "ましょう"],
+      "correctAnswer": "ました",
+      "meaning_en": "went (past)",
+      "meaning_fr": "est allé (passé)"
+    }
+  ],
+  "translation": {
+    "en": "This lesson covers polite past tense forms: ました and ませんでした.",
+    "fr": "Cette leçon couvre les formes passées polies : ました et ませんでした."
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "d010",
+  "title": "Daily Routine",
+  "titleFr": "Routine quotidienne",
+  "expectedText": "毎朝六時に起きます",
+  "audioUrl": "/api/dictation/beginner/d010/audio",
+  "difficulty": 0.35,
+  "hint": "Talking about a morning routine with a specific time",
+  "hintFr": "Parler de sa routine matinale avec une heure précise"
+}

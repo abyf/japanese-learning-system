@@ -1,0 +1,38 @@
+{
+  "id": "r002",
+  "title": "テクノロジーと仕事",
+  "titleEn": "Technology and Work",
+  "text": "人工知能やロボット技術の急速な発展は、労働市場に大きな変革をもたらしつつある。定型的な事務作業や単純な製造業務の多くは、既に自動化されている。今後、AIの進化により、データ分析、法務、医療診断など、従来は高度な専門知識が必要とされてきた分野でも自動化が進むと予想されている。一方で、創造性、共感力、複雑な判断力を必要とする職業は、当面の間、人間にしかできない領域として残るだろう。こうした変化に対応するため、リスキリング（学び直し）の重要性が指摘されている。従来の終身雇用制度は崩壊しつつあり、労働者は生涯にわたって新しいスキルを習得し続ける必要がある。また、テレワークの普及により、働き方そのものも大きく変わった。場所や時間にとらわれない柔軟な働き方が可能になった反面、仕事と私生活の境界が曖昧になるという新たな課題も生まれている。テクノロジーの進歩を脅威と捉えるのではなく、人間の能力を補完し拡張するものとして活用していくことが求められている。",
+  "difficulty": 0.85,
+  "level": "advanced",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "According to the passage, which type of work will remain uniquely human?",
+      "options": ["データ分析", "定型的な事務作業", "創造性や共感力を必要とする仕事", "製造業務"],
+      "correctAnswer": "創造性や共感力を必要とする仕事"
+    },
+    {
+      "id": "q2",
+      "question": "What new problem has telework created?",
+      "options": ["給料の低下", "仕事と私生活の境界が曖昧になること", "失業率の上昇", "通勤時間の増加"],
+      "correctAnswer": "仕事と私生活の境界が曖昧になること"
+    },
+    {
+      "id": "q3",
+      "question": "What is 'reskilling' described as?",
+      "options": ["新しい技術の開発", "生涯にわたるスキル習得", "大学教育の改革", "AI技術の導入"],
+      "correctAnswer": "生涯にわたるスキル習得"
+    },
+    {
+      "id": "q4",
+      "question": "How should technology be viewed according to the passage?",
+      "options": ["脅威として", "人間の能力を補完し拡張するもの", "制限すべきもの", "若者だけのもの"],
+      "correctAnswer": "人間の能力を補完し拡張するもの"
+    }
+  ],
+  "translation": {
+    "en": "The rapid development of artificial intelligence and robot technology is bringing major changes to the labor market. Many routine office tasks and simple manufacturing operations have already been automated. In the future, advances in AI are expected to bring automation to fields that traditionally required high-level expertise, such as data analysis, legal work, and medical diagnosis. On the other hand, occupations requiring creativity, empathy, and complex judgment will remain uniquely human for the time being. To adapt to these changes, the importance of reskilling has been emphasized. The traditional lifetime employment system is collapsing, and workers need to continuously acquire new skills throughout their lives. Additionally, the spread of telework has significantly changed the way we work. While flexible work arrangements free from location and time constraints have become possible, new challenges have emerged, such as the blurring of boundaries between work and personal life. Rather than viewing technological progress as a threat, it is necessary to use it as something that complements and extends human capabilities.",
+    "fr": "Le développement rapide de l'intelligence artificielle et de la technologie robotique apporte des changements majeurs au marché du travail. De nombreuses tâches de bureau routinières et opérations de fabrication simples ont déjà été automatisées. À l'avenir, les progrès de l'IA devraient apporter l'automatisation dans des domaines qui nécessitaient traditionnellement une expertise de haut niveau, comme l'analyse de données, le droit et le diagnostic médical. En revanche, les professions nécessitant créativité, empathie et jugement complexe resteront uniquement humaines pour le moment. Pour s'adapter à ces changements, l'importance de la reconversion professionnelle a été soulignée. Le système traditionnel d'emploi à vie s'effondre, et les travailleurs doivent continuellement acquérir de nouvelles compétences tout au long de leur vie. De plus, la diffusion du télétravail a considérablement changé notre façon de travailler. Si des arrangements de travail flexibles libérés des contraintes de lieu et de temps sont devenus possibles, de nouveaux défis sont apparus, comme l'effacement des frontières entre vie professionnelle et vie privée. Plutôt que de voir le progrès technologique comme une menace, il faut l'utiliser comme quelque chose qui complète et étend les capacités humaines."
+  }
+}

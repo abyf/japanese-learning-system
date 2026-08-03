@@ -1,0 +1,38 @@
+{
+  "id": "r014",
+  "title": "友達と遊ぶ",
+  "titleEn": "Hanging Out with Friends",
+  "text": "<ruby>日曜日<rt>にちようび</rt></ruby>に<ruby>友達<rt>ともだち</rt></ruby>のケンとユミと<ruby>遊<rt>あそ</rt></ruby>びました。<ruby>午前<rt>ごぜん</rt></ruby><ruby>十時<rt>じゅうじ</rt></ruby>に<ruby>駅<rt>えき</rt></ruby>で<ruby>会<rt>あ</rt></ruby>いました。まず、カラオケに<ruby>行<rt>い</rt></ruby>きました。<ruby>二時間<rt>にじかん</rt></ruby>ぐらい<ruby>歌<rt>うた</rt></ruby>いました。それから、<ruby>近<rt>ちか</rt></ruby>くのカフェでお<ruby>昼<rt>ひる</rt></ruby>ご<ruby>飯<rt>はん</rt></ruby>を<ruby>食<rt>た</rt></ruby>べました。<ruby>午後<rt>ごご</rt></ruby>は<ruby>公園<rt>こうえん</rt></ruby>でバドミントンをしました。とても<ruby>楽<rt>たの</rt></ruby>しい<ruby>一日<rt>いちにち</rt></ruby>でした。<ruby>来週<rt>らいしゅう</rt></ruby>もまた<ruby>遊<rt>あそ</rt></ruby>びたいです。",
+  "difficulty": 0.36,
+  "level": "beginner",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Where did they meet?",
+      "options": ["学校", "駅", "公園", "カフェ"],
+      "correctAnswer": "駅"
+    },
+    {
+      "id": "q2",
+      "question": "What did they do first?",
+      "options": ["バドミントン", "カラオケ", "昼ご飯", "買い物"],
+      "correctAnswer": "カラオケ"
+    },
+    {
+      "id": "q3",
+      "question": "How long did they sing?",
+      "options": ["1時間", "2時間", "3時間", "4時間"],
+      "correctAnswer": "2時間"
+    },
+    {
+      "id": "q4",
+      "question": "What did they do in the afternoon at the park?",
+      "options": ["サッカー", "テニス", "バドミントン", "野球"],
+      "correctAnswer": "バドミントン"
+    }
+  ],
+  "translation": {
+    "en": "On Sunday, I hung out with my friends Ken and Yumi. We met at the station at 10 AM. First, we went to karaoke. We sang for about two hours. Then, we ate lunch at a nearby café. In the afternoon, we played badminton at the park. It was a very fun day. I want to hang out again next week.",
+    "fr": "Dimanche, j'ai passé du temps avec mes amis Ken et Yumi. Nous nous sommes retrouvés à la gare à 10 heures. D'abord, nous sommes allés au karaoké. Nous avons chanté pendant environ deux heures. Ensuite, nous avons déjeuné dans un café à proximité. L'après-midi, nous avons joué au badminton au parc. C'était une journée très amusante. Je veux encore sortir la semaine prochaine."
+  }
+}

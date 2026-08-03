@@ -1,0 +1,104 @@
+{
+  "id": "v046",
+  "title": "い-Adjectives Review",
+  "titleEn": "い-Adjectives Review",
+  "titleFr": "Révision des adjectifs en い",
+  "level": "beginner",
+  "difficulty": 0.3,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "word_match",
+      "prompt": "What does 大きい mean?",
+      "prompt_fr": "Que signifie 大きい ?",
+      "word": "大きい",
+      "options": ["Big / Large", "Small / Little", "Tall / High", "Short / Low"],
+      "options_fr": ["Grand / Gros", "Petit", "Haut / Grand", "Bas / Court"],
+      "correctAnswer": "Big / Large",
+      "meaning_fr": "Grand / Gros"
+    },
+    {
+      "id": "q2",
+      "type": "word_match",
+      "prompt": "What does 小さい mean?",
+      "prompt_fr": "Que signifie 小さい ?",
+      "word": "小さい",
+      "options": ["Small / Little", "Big / Large", "Long", "New"],
+      "options_fr": ["Petit", "Grand / Gros", "Long", "Nouveau"],
+      "correctAnswer": "Small / Little",
+      "meaning_fr": "Petit"
+    },
+    {
+      "id": "q3",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of 高い?",
+      "prompt_fr": "Quelle est la lecture de 高い ?",
+      "kanji": "高い",
+      "options": ["たかい", "ひくい", "ながい", "みじかい"],
+      "correctAnswer": "たかい",
+      "meaning_en": "tall / expensive",
+      "meaning_fr": "haut / cher"
+    },
+    {
+      "id": "q4",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "この部屋は＿＿です。(This room is hot.)",
+      "sentence_fr": "この部屋は＿＿です。(Cette pièce est chaude.)",
+      "options": ["暑い", "寒い", "涼しい", "暖かい"],
+      "correctAnswer": "暑い",
+      "meaning_en": "hot (weather/room)",
+      "meaning_fr": "chaud (météo/pièce)"
+    },
+    {
+      "id": "q5",
+      "type": "word_match",
+      "prompt": "What does 安い mean?",
+      "prompt_fr": "Que signifie 安い ?",
+      "word": "安い",
+      "options": ["Cheap / Inexpensive", "Expensive", "Delicious", "Bad"],
+      "options_fr": ["Bon marché / Pas cher", "Cher", "Délicieux", "Mauvais"],
+      "correctAnswer": "Cheap / Inexpensive",
+      "meaning_fr": "Bon marché / Pas cher"
+    },
+    {
+      "id": "q6",
+      "type": "word_match",
+      "prompt": "What does 新しい mean?",
+      "prompt_fr": "Que signifie 新しい ?",
+      "word": "新しい",
+      "options": ["New", "Old", "Young", "Beautiful"],
+      "options_fr": ["Nouveau", "Vieux", "Jeune", "Beau"],
+      "correctAnswer": "New",
+      "meaning_fr": "Nouveau"
+    },
+    {
+      "id": "q7",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "この映画は＿＿です。(This movie is interesting.)",
+      "sentence_fr": "この映画は＿＿です。(Ce film est intéressant.)",
+      "options": ["おもしろい", "つまらない", "こわい", "むずかしい"],
+      "correctAnswer": "おもしろい",
+      "meaning_en": "interesting / funny",
+      "meaning_fr": "intéressant / amusant"
+    },
+    {
+      "id": "q8",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of 古い?",
+      "prompt_fr": "Quelle est la lecture de 古い ?",
+      "kanji": "古い",
+      "options": ["ふるい", "あたらしい", "わるい", "よい"],
+      "correctAnswer": "ふるい",
+      "meaning_en": "old (things)",
+      "meaning_fr": "vieux (objets)"
+    }
+  ],
+  "translation": {
+    "en": "This lesson reviews common い-adjectives used in daily Japanese conversation.",
+    "fr": "Cette leçon révise les adjectifs en い courants utilisés dans la conversation japonaise quotidienne."
+  }
+}

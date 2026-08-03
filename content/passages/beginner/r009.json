@@ -1,0 +1,38 @@
+{
+  "id": "r009",
+  "title": "私の部屋",
+  "titleEn": "My Room",
+  "text": "<ruby>私<rt>わたし</rt></ruby>の<ruby>部屋<rt>へや</rt></ruby>は<ruby>二階<rt>にかい</rt></ruby>にあります。<ruby>部屋<rt>へや</rt></ruby>はあまり<ruby>広<rt>ひろ</rt></ruby>くないですが、<ruby>好<rt>す</rt></ruby>きです。<ruby>窓<rt>まど</rt></ruby>の<ruby>近<rt>ちか</rt></ruby>くに<ruby>机<rt>つくえ</rt></ruby>があります。<ruby>机<rt>つくえ</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>にパソコンと<ruby>本<rt>ほん</rt></ruby>があります。ベッドは<ruby>壁<rt>かべ</rt></ruby>の<ruby>横<rt>よこ</rt></ruby>にあります。<ruby>本棚<rt>ほんだな</rt></ruby>には<ruby>漫画<rt>まんが</rt></ruby>がたくさんあります。<ruby>壁<rt>かべ</rt></ruby>にはポスターが<ruby>三枚<rt>さんまい</rt></ruby>あります。<ruby>毎日<rt>まいにち</rt></ruby><ruby>部屋<rt>へや</rt></ruby>を<ruby>掃除<rt>そうじ</rt></ruby>します。",
+  "difficulty": 0.26,
+  "level": "beginner",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What floor is the room on?",
+      "options": ["1階", "2階", "3階", "4階"],
+      "correctAnswer": "2階"
+    },
+    {
+      "id": "q2",
+      "question": "What is on the desk?",
+      "options": ["テレビと本", "パソコンと本", "電話と本", "ゲームと本"],
+      "correctAnswer": "パソコンと本"
+    },
+    {
+      "id": "q3",
+      "question": "What is on the bookshelf?",
+      "options": ["教科書", "漫画", "辞書", "雑誌"],
+      "correctAnswer": "漫画"
+    },
+    {
+      "id": "q4",
+      "question": "How many posters are on the wall?",
+      "options": ["1枚", "2枚", "3枚", "4枚"],
+      "correctAnswer": "3枚"
+    }
+  ],
+  "translation": {
+    "en": "My room is on the second floor. The room is not very spacious, but I like it. There is a desk near the window. On the desk, there is a computer and books. The bed is next to the wall. There are many manga on the bookshelf. There are three posters on the wall. I clean my room every day.",
+    "fr": "Ma chambre est au deuxième étage. La chambre n'est pas très spacieuse, mais je l'aime bien. Il y a un bureau près de la fenêtre. Sur le bureau, il y a un ordinateur et des livres. Le lit est à côté du mur. Il y a beaucoup de mangas dans la bibliothèque. Il y a trois posters sur le mur. Je nettoie ma chambre tous les jours."
+  }
+}

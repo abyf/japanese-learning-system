@@ -1,0 +1,103 @@
+{
+  "id": "v070",
+  "title": "Kanji: Places",
+  "titleEn": "Kanji: Places",
+  "titleFr": "Kanji : Lieux",
+  "level": "beginner",
+  "difficulty": 0.5,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of 国?",
+      "prompt_fr": "Quelle est la lecture de 国 ?",
+      "kanji": "国",
+      "options": ["くに", "まち", "むら", "みせ"],
+      "correctAnswer": "くに",
+      "meaning_en": "country",
+      "meaning_fr": "pays"
+    },
+    {
+      "id": "q2",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of 町?",
+      "prompt_fr": "Quelle est la lecture de 町 ?",
+      "kanji": "町",
+      "options": ["まち", "むら", "みち", "えき"],
+      "correctAnswer": "まち",
+      "meaning_en": "town",
+      "meaning_fr": "ville / quartier"
+    },
+    {
+      "id": "q3",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of 村?",
+      "prompt_fr": "Quelle est la lecture de 村 ?",
+      "kanji": "村",
+      "options": ["むら", "まち", "くに", "みせ"],
+      "correctAnswer": "むら",
+      "meaning_en": "village",
+      "meaning_fr": "village"
+    },
+    {
+      "id": "q4",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of 店?",
+      "prompt_fr": "Quelle est la lecture de 店 ?",
+      "kanji": "店",
+      "options": ["みせ", "えき", "みち", "まち"],
+      "correctAnswer": "みせ",
+      "meaning_en": "shop / store",
+      "meaning_fr": "magasin / boutique"
+    },
+    {
+      "id": "q5",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of 駅?",
+      "prompt_fr": "Quelle est la lecture de 駅 ?",
+      "kanji": "駅",
+      "options": ["えき", "みせ", "みち", "まち"],
+      "correctAnswer": "えき",
+      "meaning_en": "station",
+      "meaning_fr": "gare"
+    },
+    {
+      "id": "q6",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of 道?",
+      "prompt_fr": "Quelle est la lecture de 道 ?",
+      "kanji": "道",
+      "options": ["みち", "えき", "まち", "くに"],
+      "correctAnswer": "みち",
+      "meaning_en": "road / way",
+      "meaning_fr": "route / chemin"
+    },
+    {
+      "id": "q7",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "＿＿まで歩いて十分です。(It's a 10-minute walk to the station.)",
+      "sentence_fr": "＿＿まで歩いて十分です。(C'est à 10 minutes à pied de la gare.)",
+      "options": ["駅", "店", "国", "村"],
+      "correctAnswer": "駅",
+      "meaning_en": "station",
+      "meaning_fr": "gare"
+    },
+    {
+      "id": "q8",
+      "type": "word_match",
+      "prompt": "Which kanji means 'country'?",
+      "prompt_fr": "Quel kanji signifie 'pays' ?",
+      "word": "country",
+      "options": ["国", "町", "村", "道"],
+      "options_fr": ["国", "町", "村", "道"],
+      "correctAnswer": "国",
+      "meaning_fr": "pays"
+    }
+  ],
+  "translation": {
+    "en": "This lesson covers kanji for places: country, town, village, shop, station, and road.",
+    "fr": "Cette leçon couvre les kanji des lieux : pays, ville, village, magasin, gare et route."
+  }
+}

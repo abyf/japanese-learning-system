@@ -1,0 +1,58 @@
+{
+  "id": "v010",
+  "title": "School Words",
+  "titleEn": "School Words",
+  "level": "beginner",
+  "difficulty": 0.2,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of this kanji?",
+      "prompt_fr": "Quelle est la lecture de ce kanji ?",
+      "kanji": "学",
+      "options": ["がく/まな(ぶ)", "きょう", "せい", "ほん"],
+      "correctAnswer": "がく/まな(ぶ)",
+      "meaning_en": "to learn / study",
+      "meaning_fr": "apprendre / étudier"
+    },
+    {
+      "id": "q2",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "＿＿で日本語を勉強します。(I study Japanese at school)",
+      "sentence_fr": "＿＿で日本語を勉強します。(J'étudie le japonais à l'école)",
+      "options": ["学校", "教室", "図書館", "家"],
+      "correctAnswer": "学校",
+      "meaning_en": "school",
+      "meaning_fr": "école"
+    },
+    {
+      "id": "q3",
+      "type": "word_match",
+      "prompt": "What does 先生 mean?",
+      "prompt_fr": "Que signifie 先生 ?",
+      "word": "先生",
+      "options": ["Teacher", "Student", "Principal", "Friend"],
+      "options_fr": ["Professeur", "Étudiant", "Directeur", "Ami"],
+      "correctAnswer": "Teacher",
+      "meaning_fr": "Professeur"
+    },
+    {
+      "id": "q4",
+      "type": "kanji_recognition",
+      "prompt": "What does this kanji mean?",
+      "prompt_fr": "Que signifie ce kanji ?",
+      "kanji": "本",
+      "options": ["Book", "Desk", "Pen", "Paper"],
+      "options_fr": ["Livre", "Bureau", "Stylo", "Papier"],
+      "correctAnswer": "Book",
+      "meaning_fr": "Livre"
+    }
+  ],
+  "translation": {
+    "en": "This lesson covers school-related vocabulary in Japanese.",
+    "fr": "Cette leçon couvre le vocabulaire lié à l'école en japonais."
+  }
+}

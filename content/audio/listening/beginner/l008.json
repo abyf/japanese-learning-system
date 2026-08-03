@@ -1,0 +1,36 @@
+{
+  "id": "l008",
+  "title": "Phone Conversation",
+  "titleFr": "Conversation téléphonique",
+  "type": "multiple_choice",
+  "audioUrl": "/api/listening/beginner/l008/audio",
+  "transcript": "はい、山田歯科です。 予約をお願いしたいのですが。 はい、いつがよろしいですか？ 来週の水曜日は空いていますか？ 水曜日ですと、午前十時と午後三時がございます。 午後三時でお願いします。 お名前をお願いします。 田中太郎です。 田中様、来週の水曜日、午後三時ですね。お待ちしております。",
+  "questions": [
+    {
+      "question": "Where is the person calling?",
+      "options": ["A hospital", "A dental clinic", "A hair salon", "A restaurant"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "What day do they want to come?",
+      "options": ["Monday", "Tuesday", "Wednesday", "Thursday"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "What times are available?",
+      "options": ["9am and 2pm", "10am and 3pm", "11am and 4pm", "10am and 2pm"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "What time did they choose?",
+      "options": ["10am", "2pm", "3pm", "4pm"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "What is the caller's name?",
+      "options": ["Yamada Taro", "Tanaka Taro", "Suzuki Taro", "Sato Taro"],
+      "correctAnswer": 1
+    }
+  ],
+  "difficulty": 0.4
+}

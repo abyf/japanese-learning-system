@@ -1,0 +1,38 @@
+{
+  "id": "r015",
+  "title": "私のペット",
+  "titleEn": "My Pet",
+  "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>犬<rt>いぬ</rt></ruby>を<ruby>飼<rt>か</rt></ruby>っています。<ruby>名前<rt>なまえ</rt></ruby>はポチです。ポチは<ruby>三歳<rt>さんさい</rt></ruby>の<ruby>柴犬<rt>しばいぬ</rt></ruby>です。<ruby>茶色<rt>ちゃいろ</rt></ruby>くて、とてもかわいいです。<ruby>毎朝<rt>まいあさ</rt></ruby>、<ruby>公園<rt>こうえん</rt></ruby>で<ruby>散歩<rt>さんぽ</rt></ruby>します。ポチはボールで<ruby>遊<rt>あそ</rt></ruby>ぶのが<ruby>大好<rt>だいす</rt></ruby>きです。<ruby>夜<rt>よる</rt></ruby>は<ruby>私<rt>わたし</rt></ruby>のベッドの<ruby>横<rt>よこ</rt></ruby>で<ruby>寝<rt>ね</rt></ruby>ます。ポチは<ruby>私<rt>わたし</rt></ruby>の<ruby>大切<rt>たいせつ</rt></ruby>な<ruby>家族<rt>かぞく</rt></ruby>です。",
+  "difficulty": 0.38,
+  "level": "beginner",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What is the pet's name?",
+      "options": ["タロウ", "ポチ", "シロ", "ハチ"],
+      "correctAnswer": "ポチ"
+    },
+    {
+      "id": "q2",
+      "question": "What kind of dog is it?",
+      "options": ["柴犬", "秋田犬", "プードル", "チワワ"],
+      "correctAnswer": "柴犬"
+    },
+    {
+      "id": "q3",
+      "question": "What does Pochi love to do?",
+      "options": ["泳ぐ", "走る", "ボールで遊ぶ", "寝る"],
+      "correctAnswer": "ボールで遊ぶ"
+    },
+    {
+      "id": "q4",
+      "question": "Where does Pochi sleep at night?",
+      "options": ["庭で", "リビングで", "ベッドの横で", "玄関で"],
+      "correctAnswer": "ベッドの横で"
+    }
+  ],
+  "translation": {
+    "en": "I have a dog. His name is Pochi. Pochi is a three-year-old Shiba Inu. He is brown and very cute. Every morning, we take a walk in the park. Pochi loves playing with a ball. At night, he sleeps next to my bed. Pochi is an important member of my family.",
+    "fr": "J'ai un chien. Il s'appelle Pochi. Pochi est un Shiba Inu de trois ans. Il est brun et très mignon. Chaque matin, nous nous promenons dans le parc. Pochi adore jouer avec une balle. La nuit, il dort à côté de mon lit. Pochi est un membre important de ma famille."
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "id": "v066",
+  "title": "Kanji: Numbers 1-10",
+  "titleEn": "Kanji: Numbers 1-10",
+  "titleFr": "Kanji : Nombres 1-10",
+  "level": "beginner",
+  "difficulty": 0.35,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of 一?",
+      "prompt_fr": "Quelle est la lecture de 一 ?",
+      "kanji": "一",
+      "options": ["いち", "に", "さん", "し"],
+      "correctAnswer": "いち",
+      "meaning_en": "one",
+      "meaning_fr": "un"
+    },
+    {
+      "id": "q2",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of 二?",
+      "prompt_fr": "Quelle est la lecture de 二 ?",
+      "kanji": "二",
+      "options": ["に", "いち", "さん", "ご"],
+      "correctAnswer": "に",
+      "meaning_en": "two",
+      "meaning_fr": "deux"
+    },
+    {
+      "id": "q3",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of 三?",
+      "prompt_fr": "Quelle est la lecture de 三 ?",
+      "kanji": "三",
+      "options": ["さん", "に", "し", "ご"],
+      "correctAnswer": "さん",
+      "meaning_en": "three",
+      "meaning_fr": "trois"
+    },
+    {
+      "id": "q4",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of 五?",
+      "prompt_fr": "Quelle est la lecture de 五 ?",
+      "kanji": "五",
+      "options": ["ご", "し", "ろく", "なな"],
+      "correctAnswer": "ご",
+      "meaning_en": "five",
+      "meaning_fr": "cinq"
+    },
+    {
+      "id": "q5",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of 七?",
+      "prompt_fr": "Quelle est la lecture de 七 ?",
+      "kanji": "七",
+      "options": ["なな/しち", "ろく", "はち", "きゅう"],
+      "correctAnswer": "なな/しち",
+      "meaning_en": "seven",
+      "meaning_fr": "sept"
+    },
+    {
+      "id": "q6",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of 八?",
+      "prompt_fr": "Quelle est la lecture de 八 ?",
+      "kanji": "八",
+      "options": ["はち", "なな", "きゅう", "じゅう"],
+      "correctAnswer": "はち",
+      "meaning_en": "eight",
+      "meaning_fr": "huit"
+    },
+    {
+      "id": "q7",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of 九?",
+      "prompt_fr": "Quelle est la lecture de 九 ?",
+      "kanji": "九",
+      "options": ["きゅう/く", "はち", "じゅう", "ろく"],
+      "correctAnswer": "きゅう/く",
+      "meaning_en": "nine",
+      "meaning_fr": "neuf"
+    },
+    {
+      "id": "q8",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of 十?",
+      "prompt_fr": "Quelle est la lecture de 十 ?",
+      "kanji": "十",
+      "options": ["じゅう", "きゅう", "はち", "いち"],
+      "correctAnswer": "じゅう",
+      "meaning_en": "ten",
+      "meaning_fr": "dix"
+    },
+    {
+      "id": "q9",
+      "type": "word_match",
+      "prompt": "Which kanji represents the number 4?",
+      "prompt_fr": "Quel kanji représente le nombre 4 ?",
+      "word": "4",
+      "options": ["四", "三", "五", "六"],
+      "options_fr": ["四", "三", "五", "六"],
+      "correctAnswer": "四",
+      "meaning_fr": "quatre"
+    },
+    {
+      "id": "q10",
+      "type": "word_match",
+      "prompt": "Which kanji represents the number 6?",
+      "prompt_fr": "Quel kanji représente le nombre 6 ?",
+      "word": "6",
+      "options": ["六", "七", "五", "八"],
+      "options_fr": ["六", "七", "五", "八"],
+      "correctAnswer": "六",
+      "meaning_fr": "six"
+    }
+  ],
+  "translation": {
+    "en": "This lesson covers the kanji for numbers 1 through 10.",
+    "fr": "Cette leçon couvre les kanji des nombres de 1 à 10."
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "id": "v009",
+  "title": "Time & Calendar",
+  "titleEn": "Time & Calendar",
+  "level": "beginner",
+  "difficulty": 0.2,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "word_match",
+      "prompt": "What does 今日 mean?",
+      "prompt_fr": "Que signifie 今日 ?",
+      "word": "今日",
+      "options": ["Today", "Tomorrow", "Yesterday", "This week"],
+      "options_fr": ["Aujourd'hui", "Demain", "Hier", "Cette semaine"],
+      "correctAnswer": "Today",
+      "meaning_fr": "Aujourd'hui"
+    },
+    {
+      "id": "q2",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of this kanji?",
+      "prompt_fr": "Quelle est la lecture de ce kanji ?",
+      "kanji": "明",
+      "options": ["あ(かるい)/めい", "くら(い)", "いま", "きの(う)"],
+      "correctAnswer": "あ(かるい)/めい",
+      "meaning_en": "bright / next (day)",
+      "meaning_fr": "clair / prochain (jour)"
+    },
+    {
+      "id": "q3",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "＿＿は雨でした。(Yesterday was rainy)",
+      "sentence_fr": "＿＿は雨でした。(Hier il a plu)",
+      "options": ["昨日", "今日", "明日", "今週"],
+      "correctAnswer": "昨日",
+      "meaning_en": "yesterday",
+      "meaning_fr": "hier"
+    },
+    {
+      "id": "q4",
+      "type": "word_match",
+      "prompt": "What does 今週 mean?",
+      "prompt_fr": "Que signifie 今週 ?",
+      "word": "今週",
+      "options": ["This week", "Last week", "Next week", "This month"],
+      "options_fr": ["Cette semaine", "La semaine dernière", "La semaine prochaine", "Ce mois-ci"],
+      "correctAnswer": "This week",
+      "meaning_fr": "Cette semaine"
+    }
+  ],
+  "translation": {
+    "en": "This lesson covers time and calendar expressions in Japanese.",
+    "fr": "Cette leçon couvre les expressions de temps et de calendrier en japonais."
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "d009",
+  "title": "Self Introduction",
+  "titleFr": "Présentation personnelle",
+  "expectedText": "私は田中です。日本人です。",
+  "audioUrl": "/api/dictation/beginner/d009/audio",
+  "difficulty": 0.3,
+  "hint": "Introducing yourself with your name and nationality",
+  "hintFr": "Se présenter avec son nom et sa nationalité"
+}

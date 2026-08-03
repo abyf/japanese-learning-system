@@ -1,0 +1,50 @@
+{
+  "id": "r084",
+  "title": "日本語の文法まとめ",
+  "titleEn": "Grammar Summary",
+  "text": "<ruby>日本語<rt>にほんご</rt></ruby>の<ruby>文法<rt>ぶんぽう</rt></ruby>は<ruby>英語<rt>えいご</rt></ruby>と<ruby>違<rt>ちが</rt></ruby>います。<ruby>動詞<rt>どうし</rt></ruby>は<ruby>文<rt>ぶん</rt></ruby>の<ruby>最後<rt>さいご</rt></ruby>に<ruby>来<rt>き</rt></ruby>ます。<ruby>助詞<rt>じょし</rt></ruby>の「は」「が」「を」「に」は<ruby>大切<rt>たいせつ</rt></ruby>です。<ruby>形容詞<rt>けいようし</rt></ruby>には「い<ruby>形容詞<rt>けいようし</rt></ruby>」と「な<ruby>形容詞<rt>けいようし</rt></ruby>」があります。<ruby>動詞<rt>どうし</rt></ruby>の<ruby>活用<rt>かつよう</rt></ruby>は<ruby>複雑<rt>ふくざつ</rt></ruby>ですが、ルールを<ruby>覚<rt>おぼ</rt></ruby>えれば<ruby>使<rt>つか</rt></ruby>えます。<ruby>敬語<rt>けいご</rt></ruby>も<ruby>文法<rt>ぶんぽう</rt></ruby>の<ruby>大事<rt>だいじ</rt></ruby>な<ruby>部分<rt>ぶぶん</rt></ruby>です。<ruby>毎日<rt>まいにち</rt></ruby><ruby>練習<rt>れんしゅう</rt></ruby>すると<ruby>上手<rt>じょうず</rt></ruby>になります。",
+  "difficulty": 0.75,
+  "level": "beginner",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "How is Japanese grammar different from English?",
+      "options": ["同じ", "動詞が文の最後に来る", "助詞がない", "形容詞がない"],
+      "correctAnswer": "動詞が文の最後に来る"
+    },
+    {
+      "id": "q2",
+      "question": "Which particles are mentioned as important?",
+      "options": ["は・が・を・に", "も・で・から・まで", "と・や・か・の", "へ・より・ほど・だけ"],
+      "correctAnswer": "は・が・を・に"
+    },
+    {
+      "id": "q3",
+      "question": "What two types of adjectives exist?",
+      "options": ["大きい・小さい", "い形容詞・な形容詞", "良い・悪い", "多い・少ない"],
+      "correctAnswer": "い形容詞・な形容詞"
+    },
+    {
+      "id": "q4",
+      "question": "How are verb conjugations described?",
+      "options": ["簡単", "複雑", "少ない", "存在しない"],
+      "correctAnswer": "複雑"
+    },
+    {
+      "id": "q5",
+      "question": "What is also an important part of grammar?",
+      "options": ["漢字", "敬語", "カタカナ", "発音"],
+      "correctAnswer": "敬語"
+    },
+    {
+      "id": "q6",
+      "question": "What helps you improve?",
+      "options": ["テストを受ける", "毎日練習する", "教科書を買う", "日本に住む"],
+      "correctAnswer": "毎日練習する"
+    }
+  ],
+  "translation": {
+    "en": "Japanese grammar is different from English. Verbs come at the end of the sentence. The particles 'wa,' 'ga,' 'wo,' and 'ni' are important. There are 'i-adjectives' and 'na-adjectives.' Verb conjugation is complex, but if you learn the rules you can use them. Keigo is also an important part of grammar. If you practice every day, you will get better.",
+    "fr": "La grammaire japonaise est différente de l'anglais. Les verbes viennent à la fin de la phrase. Les particules 'wa', 'ga', 'wo' et 'ni' sont importantes. Il existe les 'adjectifs en i' et les 'adjectifs en na'. La conjugaison des verbes est complexe, mais si vous apprenez les règles, vous pouvez les utiliser. Le keigo est aussi une partie importante de la grammaire. Si vous pratiquez chaque jour, vous vous améliorerez."
+  }
+}

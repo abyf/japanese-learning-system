@@ -1,0 +1,38 @@
+{
+  "id": "r004",
+  "title": "日本の食べ物",
+  "titleEn": "Japanese Food",
+  "text": "<ruby>日本<rt>にほん</rt></ruby>の<ruby>食<rt>た</rt></ruby>べ<ruby>物<rt>もの</rt></ruby>はとてもおいしいです。<ruby>有名<rt>ゆうめい</rt></ruby>な<ruby>料理<rt>りょうり</rt></ruby>がたくさんあります。<ruby>寿司<rt>すし</rt></ruby>は<ruby>一番<rt>いちばん</rt></ruby><ruby>人気<rt>にんき</rt></ruby>があります。<ruby>新鮮<rt>しんせん</rt></ruby>な<ruby>魚<rt>さかな</rt></ruby>とご<ruby>飯<rt>はん</rt></ruby>で<ruby>作<rt>つく</rt></ruby>ります。ラーメンも<ruby>人気<rt>にんき</rt></ruby>です。<ruby>熱<rt>あつ</rt></ruby>いスープと<ruby>麺<rt>めん</rt></ruby>がおいしいです。<ruby>天<rt>てん</rt></ruby>ぷらは<ruby>野菜<rt>やさい</rt></ruby>や<ruby>海老<rt>えび</rt></ruby>を<ruby>油<rt>あぶら</rt></ruby>で<ruby>揚<rt>あ</rt></ruby>げた<ruby>料理<rt>りょうり</rt></ruby>です。<ruby>冬<rt>ふゆ</rt></ruby>は<ruby>鍋<rt>なべ</rt></ruby><ruby>料理<rt>りょうり</rt></ruby>が<ruby>人気<rt>にんき</rt></ruby>です。<ruby>家族<rt>かぞく</rt></ruby>や<ruby>友達<rt>ともだち</rt></ruby>と<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>食<rt>た</rt></ruby>べます。<ruby>夏<rt>なつ</rt></ruby>は<ruby>冷<rt>つめ</rt></ruby>たいそうめんを<ruby>食<rt>た</rt></ruby>べます。<ruby>日本人<rt>にほんじん</rt></ruby>は<ruby>季節<rt>きせつ</rt></ruby>の<ruby>食<rt>た</rt></ruby>べ<ruby>物<rt>もの</rt></ruby>を<ruby>大切<rt>たいせつ</rt></ruby>にします。<ruby>私<rt>わたし</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby><ruby>料理<rt>りょうり</rt></ruby>が<ruby>大好<rt>だいす</rt></ruby>きです。",
+  "difficulty": 0.3,
+  "level": "beginner",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Which food is described as the most popular?",
+      "options": ["ラーメン", "寿司", "天ぷら", "鍋"],
+      "correctAnswer": "寿司"
+    },
+    {
+      "id": "q2",
+      "question": "What season is nabe (hot pot) popular?",
+      "options": ["春", "夏", "秋", "冬"],
+      "correctAnswer": "冬"
+    },
+    {
+      "id": "q3",
+      "question": "What is tempura made with?",
+      "options": ["魚とご飯", "麺とスープ", "野菜や海老を油で揚げる", "肉と野菜"],
+      "correctAnswer": "野菜や海老を油で揚げる"
+    },
+    {
+      "id": "q4",
+      "question": "What do Japanese people eat in summer?",
+      "options": ["鍋料理", "冷たいそうめん", "天ぷら", "寿司"],
+      "correctAnswer": "冷たいそうめん"
+    }
+  ],
+  "translation": {
+    "en": "Japanese food is very delicious. There are many famous dishes. Sushi is the most popular. It is made with fresh fish and rice. Ramen is also popular. The hot soup and noodles are delicious. Tempura is a dish of vegetables and shrimp fried in oil. In winter, hot pot dishes are popular. You eat them together with family and friends. In summer, people eat cold somen noodles. Japanese people value seasonal foods. I love Japanese cuisine.",
+    "fr": "La cuisine japonaise est très délicieuse. Il y a beaucoup de plats célèbres. Les sushis sont les plus populaires. Ils sont préparés avec du poisson frais et du riz. Les ramen sont aussi populaires. La soupe chaude et les nouilles sont délicieuses. Le tempura est un plat de légumes et de crevettes frits dans l'huile. En hiver, les plats en marmite sont populaires. On les mange ensemble en famille ou entre amis. En été, on mange des nouilles somen froides. Les Japonais accordent de l'importance aux aliments de saison. J'adore la cuisine japonaise."
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "l006",
+  "title": "At the Restaurant",
+  "titleFr": "Au restaurant",
+  "type": "multiple_choice",
+  "audioUrl": "/api/listening/beginner/l006/audio",
+  "transcript": "いらっしゃいませ。何名様ですか？ 二人です。 こちらのお席にどうぞ。ご注文はお決まりですか？ すみません、もう少し待ってください。 はい、ごゆっくりどうぞ。 すみません、注文お願いします。ラーメンと餃子をください。 飲み物はいかがですか？ お水をお願いします。 かしこまりました。少々お待ちください。",
+  "questions": [
+    {
+      "question": "How many people are dining?",
+      "options": ["One person", "Two people", "Three people", "Four people"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "What did the customer ask for first?",
+      "options": ["To see the menu", "More time to decide", "The bill", "A different seat"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "What food was ordered?",
+      "options": ["Sushi and miso soup", "Ramen and gyoza", "Tempura and rice", "Curry and salad"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "What drink was ordered?",
+      "options": ["Tea", "Beer", "Water", "Juice"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "What did the staff say at the end?",
+      "options": ["Thank you", "Please wait a moment", "The food is ready", "Please pay here"],
+      "correctAnswer": 1
+    }
+  ],
+  "difficulty": 0.35
+}

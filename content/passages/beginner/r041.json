@@ -1,0 +1,56 @@
+{
+  "id": "r041",
+  "title": "日本のマナー",
+  "titleEn": "Japanese Manners",
+  "text": "<ruby>日本<rt>にほん</rt></ruby>にはいろいろなマナーがあります。<ruby>家<rt>いえ</rt></ruby>に<ruby>入<rt>はい</rt></ruby>る<ruby>時<rt>とき</rt></ruby>は<ruby>靴<rt>くつ</rt></ruby>を<ruby>脱<rt>ぬ</rt></ruby>ぎます。<ruby>食事<rt>しょくじ</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>に「いただきます」と<ruby>言<rt>い</rt></ruby>います。<ruby>食事<rt>しょくじ</rt></ruby>の<ruby>後<rt>あと</rt></ruby>に「ごちそうさまでした」と<ruby>言<rt>い</rt></ruby>います。<ruby>電車<rt>でんしゃ</rt></ruby>の<ruby>中<rt>なか</rt></ruby>では<ruby>電話<rt>でんわ</rt></ruby>をしてはいけません。お<ruby>箸<rt>はし</rt></ruby>で<ruby>食<rt>た</rt></ruby>べ<ruby>物<rt>もの</rt></ruby>を<ruby>人<rt>ひと</rt></ruby>に<ruby>渡<rt>わた</rt></ruby>してはいけません。<ruby>名刺<rt>めいし</rt></ruby>は<ruby>両手<rt>りょうて</rt></ruby>で<ruby>渡<rt>わた</rt></ruby>します。これらのマナーを<ruby>知<rt>し</rt></ruby>っていると、<ruby>日本<rt>にほん</rt></ruby>での<ruby>生活<rt>せいかつ</rt></ruby>がもっと<ruby>楽<rt>たの</rt></ruby>しくなります。",
+  "difficulty": 0.45,
+  "level": "beginner",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What do you do when entering a house?",
+      "options": ["手を洗う", "靴を脱ぐ", "帽子を脱ぐ", "挨拶する"],
+      "correctAnswer": "靴を脱ぐ"
+    },
+    {
+      "id": "q2",
+      "question": "What do you say before a meal?",
+      "options": ["おはようございます", "いただきます", "ごちそうさまでした", "お願いします"],
+      "correctAnswer": "いただきます"
+    },
+    {
+      "id": "q3",
+      "question": "What do you say after a meal?",
+      "options": ["いただきます", "すみません", "ごちそうさまでした", "ありがとう"],
+      "correctAnswer": "ごちそうさまでした"
+    },
+    {
+      "id": "q4",
+      "question": "What is not allowed on the train?",
+      "options": ["本を読むこと", "音楽を聴くこと", "電話をすること", "寝ること"],
+      "correctAnswer": "電話をすること"
+    },
+    {
+      "id": "q5",
+      "question": "What should you not do with chopsticks?",
+      "options": ["ご飯を食べる", "食べ物を人に渡す", "麺を食べる", "魚を食べる"],
+      "correctAnswer": "食べ物を人に渡す"
+    },
+    {
+      "id": "q6",
+      "question": "How should you give a business card?",
+      "options": ["片手で", "両手で", "テーブルに置いて", "投げて"],
+      "correctAnswer": "両手で"
+    },
+    {
+      "id": "q7",
+      "question": "What happens when you know these manners?",
+      "options": ["仕事が見つかる", "日本の生活がもっと楽しくなる", "日本語が上手になる", "友達が増える"],
+      "correctAnswer": "日本の生活がもっと楽しくなる"
+    }
+  ],
+  "translation": {
+    "en": "There are many manners in Japan. You take off your shoes when entering a house. You say 'itadakimasu' before a meal. You say 'gochisousama deshita' after a meal. You must not talk on the phone on the train. You must not pass food to others with chopsticks. Business cards are given with both hands. If you know these manners, life in Japan becomes more enjoyable.",
+    "fr": "Il y a beaucoup de règles de savoir-vivre au Japon. On enlève ses chaussures en entrant dans une maison. On dit « itadakimasu » avant un repas. On dit « gochisousama deshita » après un repas. On ne doit pas téléphoner dans le train. On ne doit pas passer de la nourriture à quelqu'un avec des baguettes. Les cartes de visite se donnent à deux mains. Si vous connaissez ces règles, la vie au Japon devient plus agréable."
+  }
+}

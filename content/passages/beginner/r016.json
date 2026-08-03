@@ -1,0 +1,38 @@
+{
+  "id": "r016",
+  "title": "日本の祝日",
+  "titleEn": "Japanese Holidays",
+  "text": "<ruby>日本<rt>にほん</rt></ruby>にはたくさんの<ruby>祝日<rt>しゅくじつ</rt></ruby>があります。<ruby>一月一日<rt>いちがつついたち</rt></ruby>は<ruby>元日<rt>がんじつ</rt></ruby>です。<ruby>家族<rt>かぞく</rt></ruby>で<ruby>神社<rt>じんじゃ</rt></ruby>に<ruby>行<rt>い</rt></ruby>きます。<ruby>三月<rt>さんがつ</rt></ruby>には<ruby>ひな祭<rt>まつ</rt></ruby>りがあります。<ruby>女<rt>おんな</rt></ruby>の<ruby>子<rt>こ</rt></ruby>のお<ruby>祭<rt>まつ</rt></ruby>りです。<ruby>五月五日<rt>ごがついつか</rt></ruby>は<ruby>子<rt>こ</rt></ruby>どもの<ruby>日<rt>ひ</rt></ruby>です。<ruby>男<rt>おとこ</rt></ruby>の<ruby>子<rt>こ</rt></ruby>のお<ruby>祭<rt>まつ</rt></ruby>りです。<ruby>祝日<rt>しゅくじつ</rt></ruby>は<ruby>学校<rt>がっこう</rt></ruby>が<ruby>休<rt>やす</rt></ruby>みです。<ruby>家族<rt>かぞく</rt></ruby>と<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>過<rt>す</rt></ruby>ごします。",
+  "difficulty": 0.4,
+  "level": "beginner",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What is January 1st called?",
+      "options": ["成人の日", "元日", "建国記念日", "天皇誕生日"],
+      "correctAnswer": "元日"
+    },
+    {
+      "id": "q2",
+      "question": "Where do families go on New Year's Day?",
+      "options": ["公園", "お寺", "神社", "デパート"],
+      "correctAnswer": "神社"
+    },
+    {
+      "id": "q3",
+      "question": "What is Hinamatsuri?",
+      "options": ["男の子の祭り", "女の子の祭り", "花の祭り", "夏の祭り"],
+      "correctAnswer": "女の子の祭り"
+    },
+    {
+      "id": "q4",
+      "question": "When is Children's Day?",
+      "options": ["3月3日", "4月4日", "5月5日", "6月6日"],
+      "correctAnswer": "5月5日"
+    }
+  ],
+  "translation": {
+    "en": "Japan has many holidays. January 1st is New Year's Day. Families go to shrines. In March, there is Hinamatsuri (Doll Festival). It is a festival for girls. May 5th is Children's Day. It is a festival for boys. Schools are closed on holidays. We spend time with our family.",
+    "fr": "Le Japon a beaucoup de jours fériés. Le 1er janvier est le Jour de l'An. Les familles vont au sanctuaire. En mars, il y a Hinamatsuri (la fête des poupées). C'est une fête pour les filles. Le 5 mai est la Journée des enfants. C'est une fête pour les garçons. Les écoles sont fermées les jours fériés. Nous passons du temps en famille."
+  }
+}

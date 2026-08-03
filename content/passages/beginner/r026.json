@@ -1,0 +1,56 @@
+{
+  "id": "r026",
+  "title": "日本のお正月",
+  "titleEn": "Japanese New Year",
+  "text": "<ruby>一月一日<rt>いちがつついたち</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>のお<ruby>正月<rt>しょうがつ</rt></ruby>です。<ruby>家族<rt>かぞく</rt></ruby>みんなで<ruby>集<rt>あつ</rt></ruby>まります。おせち<ruby>料理<rt>りょうり</rt></ruby>を<ruby>食<rt>た</rt></ruby>べます。お<ruby>雑煮<rt>ぞうに</rt></ruby>も<ruby>食<rt>た</rt></ruby>べます。<ruby>子供<rt>こども</rt></ruby>たちはお<ruby>年玉<rt>としだま</rt></ruby>をもらいます。<ruby>私<rt>わたし</rt></ruby>はおじいちゃんから<ruby>五千円<rt>ごせんえん</rt></ruby>もらいました。<ruby>午後<rt>ごご</rt></ruby>は<ruby>神社<rt>じんじゃ</rt></ruby>に<ruby>初詣<rt>はつもうで</rt></ruby>に<ruby>行<rt>い</rt></ruby>きました。<ruby>今年<rt>ことし</rt></ruby>も<ruby>良<rt>よ</rt></ruby>い<ruby>年<rt>とし</rt></ruby>になりますようにとお<ruby>願<rt>ねが</rt></ruby>いしました。",
+  "difficulty": 0.30,
+  "level": "beginner",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "When is Japanese New Year?",
+      "options": ["十二月三十一日", "一月一日", "一月十五日", "二月一日"],
+      "correctAnswer": "一月一日"
+    },
+    {
+      "id": "q2",
+      "question": "What do they eat?",
+      "options": ["寿司とラーメン", "おせち料理とお雑煮", "カレーとサラダ", "うどんとてんぷら"],
+      "correctAnswer": "おせち料理とお雑煮"
+    },
+    {
+      "id": "q3",
+      "question": "What do children receive?",
+      "options": ["プレゼント", "お菓子", "お年玉", "おもちゃ"],
+      "correctAnswer": "お年玉"
+    },
+    {
+      "id": "q4",
+      "question": "How much did the speaker receive from grandfather?",
+      "options": ["三千円", "五千円", "一万円", "二千円"],
+      "correctAnswer": "五千円"
+    },
+    {
+      "id": "q5",
+      "question": "Where did they go in the afternoon?",
+      "options": ["お寺", "神社", "公園", "デパート"],
+      "correctAnswer": "神社"
+    },
+    {
+      "id": "q6",
+      "question": "What is 初詣?",
+      "options": ["新年の最初の神社参拝", "お祭り", "花火大会", "お盆"],
+      "correctAnswer": "新年の最初の神社参拝"
+    },
+    {
+      "id": "q7",
+      "question": "What did the speaker wish for?",
+      "options": ["お金がほしい", "良い年になるように", "テストに受かるように", "旅行に行けるように"],
+      "correctAnswer": "良い年になるように"
+    }
+  ],
+  "translation": {
+    "en": "January 1st is Japanese New Year. The whole family gathers together. We eat osechi cuisine. We also eat ozoni (rice cake soup). Children receive otoshidama (New Year's money). I received 5,000 yen from my grandfather. In the afternoon, we went to the shrine for hatsumode (first shrine visit). I prayed for this year to be a good year too.",
+    "fr": "Le 1er janvier est le Nouvel An japonais. Toute la famille se réunit. Nous mangeons de l'osechi. Nous mangeons aussi de l'ozoni (soupe aux mochi). Les enfants reçoivent de l'otoshidama (étrennes du Nouvel An). J'ai reçu 5 000 yens de mon grand-père. L'après-midi, nous sommes allés au sanctuaire pour le hatsumode (première visite). J'ai prié pour que cette année soit aussi une bonne année."
+  }
+}

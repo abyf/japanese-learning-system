@@ -1,0 +1,56 @@
+{
+  "id": "r035",
+  "title": "料理を作る",
+  "titleEn": "Cooking a Meal",
+  "text": "<ruby>今日<rt>きょう</rt></ruby>は<ruby>母<rt>はは</rt></ruby>の<ruby>誕生日<rt>たんじょうび</rt></ruby>なので、<ruby>私<rt>わたし</rt></ruby>が<ruby>晩<rt>ばん</rt></ruby>ごはんを<ruby>作<rt>つく</rt></ruby>ります。カレーライスを<ruby>作<rt>つく</rt></ruby>ることにしました。スーパーで<ruby>肉<rt>にく</rt></ruby>と<ruby>野菜<rt>やさい</rt></ruby>を<ruby>買<rt>か</rt></ruby>いました。にんじん、じゃがいも、たまねぎを<ruby>切<rt>き</rt></ruby>りました。<ruby>大<rt>おお</rt></ruby>きなお<ruby>鍋<rt>なべ</rt></ruby>で<ruby>煮<rt>に</rt></ruby>ました。<ruby>一時間<rt>いちじかん</rt></ruby>くらいかかりました。<ruby>母<rt>はは</rt></ruby>は「とてもおいしい」と<ruby>言<rt>い</rt></ruby>ってくれました。<ruby>作<rt>つく</rt></ruby>ってよかったです。<ruby>次<rt>つぎ</rt></ruby>はハンバーグに<ruby>挑戦<rt>ちょうせん</rt></ruby>したいです。",
+  "difficulty": 0.39,
+  "level": "beginner",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Why is the speaker cooking?",
+      "options": ["お腹が空いたから", "母の誕生日だから", "料理の練習", "友達が来るから"],
+      "correctAnswer": "母の誕生日だから"
+    },
+    {
+      "id": "q2",
+      "question": "What did the speaker decide to make?",
+      "options": ["ハンバーグ", "シチュー", "カレーライス", "肉じゃが"],
+      "correctAnswer": "カレーライス"
+    },
+    {
+      "id": "q3",
+      "question": "Where did the speaker buy ingredients?",
+      "options": ["コンビニ", "市場", "スーパー", "デパート"],
+      "correctAnswer": "スーパー"
+    },
+    {
+      "id": "q4",
+      "question": "What vegetables were used?",
+      "options": ["トマト、なす、ピーマン", "にんじん、じゃがいも、たまねぎ", "キャベツ、大根、ねぎ", "ほうれん草、もやし、きのこ"],
+      "correctAnswer": "にんじん、じゃがいも、たまねぎ"
+    },
+    {
+      "id": "q5",
+      "question": "How long did it take?",
+      "options": ["三十分", "四十五分", "一時間", "二時間"],
+      "correctAnswer": "一時間"
+    },
+    {
+      "id": "q6",
+      "question": "What did the mother say?",
+      "options": ["まあまあ", "とてもおいしい", "辛すぎる", "もう少し"],
+      "correctAnswer": "とてもおいしい"
+    },
+    {
+      "id": "q7",
+      "question": "What does the speaker want to try next?",
+      "options": ["オムライス", "ハンバーグ", "パスタ", "天ぷら"],
+      "correctAnswer": "ハンバーグ"
+    }
+  ],
+  "translation": {
+    "en": "Today is my mother's birthday, so I'm making dinner. I decided to make curry rice. I bought meat and vegetables at the supermarket. I cut carrots, potatoes, and onions. I cooked them in a big pot. It took about one hour. My mother said, 'It's very delicious.' I'm glad I made it. Next time I want to try making hamburger steak.",
+    "fr": "Aujourd'hui c'est l'anniversaire de ma mère, alors je prépare le dîner. J'ai décidé de faire du riz au curry. J'ai acheté de la viande et des légumes au supermarché. J'ai coupé des carottes, des pommes de terre et des oignons. Je les ai fait cuire dans une grande marmite. Ça a pris environ une heure. Ma mère a dit : « C'est très bon. » Je suis content(e) de l'avoir préparé. La prochaine fois, je veux essayer le steak haché japonais."
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "r063",
+  "title": "富士山",
+  "titleEn": "Mount Fuji",
+  "text": "<ruby>富士山<rt>ふじさん</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>一番<rt>いちばん</rt></ruby><ruby>高<rt>たか</rt></ruby>い<ruby>山<rt>やま</rt></ruby>です。<ruby>高<rt>たか</rt></ruby>さは<ruby>三千七百七十六<rt>さんぜんななひゃくななじゅうろく</rt></ruby>メートルです。<ruby>世界遺産<rt>せかいいさん</rt></ruby>にも<ruby>登録<rt>とうろく</rt></ruby>されています。<ruby>毎年<rt>まいとし</rt></ruby><ruby>夏<rt>なつ</rt></ruby>に<ruby>多<rt>おお</rt></ruby>くの<ruby>人<rt>ひと</rt></ruby>が<ruby>登<rt>のぼ</rt></ruby>ります。<ruby>頂上<rt>ちょうじょう</rt></ruby>からの<ruby>日<rt>ひ</rt></ruby>の<ruby>出<rt>で</rt></ruby>は「ご<ruby>来光<rt>らいこう</rt></ruby>」と<ruby>呼<rt>よ</rt></ruby>ばれます。<ruby>富士山<rt>ふじさん</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>の<ruby>象徴<rt>しょうちょう</rt></ruby>として、<ruby>絵<rt>え</rt></ruby>や<ruby>写真<rt>しゃしん</rt></ruby>にもよく<ruby>使<rt>つか</rt></ruby>われます。<ruby>新幹線<rt>しんかんせん</rt></ruby>から<ruby>見<rt>み</rt></ruby>える<ruby>富士山<rt>ふじさん</rt></ruby>はとても<ruby>美<rt>うつく</rt></ruby>しいです。",
+  "difficulty": 0.58,
+  "level": "beginner",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "How tall is Mount Fuji?",
+      "options": ["2776メートル", "3776メートル", "4776メートル", "3676メートル"],
+      "correctAnswer": "3776メートル"
+    },
+    {
+      "id": "q2",
+      "question": "What status does Mount Fuji have?",
+      "options": ["国立公園", "世界遺産", "国宝", "自然保護区"],
+      "correctAnswer": "世界遺産"
+    },
+    {
+      "id": "q3",
+      "question": "When do many people climb?",
+      "options": ["春", "夏", "秋", "冬"],
+      "correctAnswer": "夏"
+    },
+    {
+      "id": "q4",
+      "question": "What is 'goraiko'?",
+      "options": ["山の名前", "頂上からの日の出", "お祭り", "登山道"],
+      "correctAnswer": "頂上からの日の出"
+    },
+    {
+      "id": "q5",
+      "question": "What is Mount Fuji used as?",
+      "options": ["スキー場", "日本の象徴", "発電所", "観光地だけ"],
+      "correctAnswer": "日本の象徴"
+    },
+    {
+      "id": "q6",
+      "question": "From where can you see a beautiful Fuji?",
+      "options": ["飛行機", "新幹線", "バス", "自転車"],
+      "correctAnswer": "新幹線"
+    }
+  ],
+  "translation": {
+    "en": "Mount Fuji is the tallest mountain in Japan. It is 3,776 meters high. It is also registered as a World Heritage Site. Every summer, many people climb it. The sunrise from the summit is called 'goraiko.' As a symbol of Japan, Mount Fuji is often used in paintings and photographs. Mount Fuji seen from the Shinkansen is very beautiful.",
+    "fr": "Le Mont Fuji est la plus haute montagne du Japon. Il mesure 3 776 mètres de haut. Il est également inscrit au patrimoine mondial. Chaque été, beaucoup de personnes l'escaladent. Le lever du soleil depuis le sommet est appelé 'goraiko'. En tant que symbole du Japon, le Mont Fuji est souvent utilisé dans les peintures et photographies. Le Mont Fuji vu depuis le Shinkansen est très beau."
+  }
+}

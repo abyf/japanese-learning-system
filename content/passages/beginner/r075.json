@@ -1,0 +1,50 @@
+{
+  "id": "r075",
+  "title": "日本の映画",
+  "titleEn": "Japanese Cinema",
+  "text": "<ruby>日本<rt>にほん</rt></ruby>の<ruby>映画<rt>えいが</rt></ruby>は<ruby>世界的<rt>せかいてき</rt></ruby>に<ruby>有名<rt>ゆうめい</rt></ruby>です。<ruby>黒澤明<rt>くろさわあきら</rt></ruby><ruby>監督<rt>かんとく</rt></ruby>の<ruby>作品<rt>さくひん</rt></ruby>は<ruby>多<rt>おお</rt></ruby>くの<ruby>映画<rt>えいが</rt></ruby>に<ruby>影響<rt>えいきょう</rt></ruby>を<ruby>与<rt>あた</rt></ruby>えました。スタジオジブリのアニメ<ruby>映画<rt>えいが</rt></ruby>も<ruby>世界中<rt>せかいじゅう</rt></ruby>で<ruby>愛<rt>あい</rt></ruby>されています。<ruby>日本<rt>にほん</rt></ruby>の<ruby>映画館<rt>えいがかん</rt></ruby>はとてもきれいです。ポップコーンだけでなく、<ruby>和食<rt>わしょく</rt></ruby>のスナックもあります。<ruby>映画<rt>えいが</rt></ruby>のチケットは<ruby>約<rt>やく</rt></ruby><ruby>千八百円<rt>せんはっぴゃくえん</rt></ruby>です。<ruby>水曜日<rt>すいようび</rt></ruby>は<ruby>割引<rt>わりびき</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>が<ruby>多<rt>おお</rt></ruby>いです。",
+  "difficulty": 0.65,
+  "level": "beginner",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Who is the famous director mentioned?",
+      "options": ["宮崎駿", "黒澤明", "北野武", "是枝裕和"],
+      "correctAnswer": "黒澤明"
+    },
+    {
+      "id": "q2",
+      "question": "What studio is loved worldwide?",
+      "options": ["東映", "スタジオジブリ", "東宝", "松竹"],
+      "correctAnswer": "スタジオジブリ"
+    },
+    {
+      "id": "q3",
+      "question": "What are Japanese movie theaters like?",
+      "options": ["古い", "とてもきれい", "小さい", "安い"],
+      "correctAnswer": "とてもきれい"
+    },
+    {
+      "id": "q4",
+      "question": "How much is a movie ticket?",
+      "options": ["約800円", "約1200円", "約1800円", "約2500円"],
+      "correctAnswer": "約1800円"
+    },
+    {
+      "id": "q5",
+      "question": "When are discounts common?",
+      "options": ["月曜日", "水曜日", "金曜日", "日曜日"],
+      "correctAnswer": "水曜日"
+    },
+    {
+      "id": "q6",
+      "question": "What snacks are available besides popcorn?",
+      "options": ["チョコレート", "和食のスナック", "アイスクリーム", "サンドイッチ"],
+      "correctAnswer": "和食のスナック"
+    }
+  ],
+  "translation": {
+    "en": "Japanese cinema is famous worldwide. Director Akira Kurosawa's works influenced many films. Studio Ghibli's animated films are also loved around the world. Japanese movie theaters are very clean. Besides popcorn, Japanese snacks are also available. A movie ticket costs about 1,800 yen. Wednesdays often have discounts.",
+    "fr": "Le cinéma japonais est célèbre dans le monde entier. Les œuvres du réalisateur Akira Kurosawa ont influencé de nombreux films. Les films d'animation du Studio Ghibli sont aussi adorés dans le monde entier. Les cinémas japonais sont très propres. En plus du popcorn, des snacks japonais sont aussi disponibles. Un billet de cinéma coûte environ 1 800 yens. Le mercredi est souvent un jour de réduction."
+  }
+}

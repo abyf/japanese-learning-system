@@ -1,0 +1,44 @@
+{
+  "id": "r053",
+  "title": "日本の制服",
+  "titleEn": "Japanese Uniforms",
+  "text": "<ruby>日本<rt>にほん</rt></ruby>では<ruby>多<rt>おお</rt></ruby>くの<ruby>学校<rt>がっこう</rt></ruby>に<ruby>制服<rt>せいふく</rt></ruby>があります。<ruby>中学校<rt>ちゅうがっこう</rt></ruby>と<ruby>高校<rt>こうこう</rt></ruby>では、ほとんどの<ruby>生徒<rt>せいと</rt></ruby>が<ruby>制服<rt>せいふく</rt></ruby>を<ruby>着<rt>き</rt></ruby>ます。<ruby>男子<rt>だんし</rt></ruby>は<ruby>詰<rt>つ</rt></ruby>め<ruby>襟<rt>えり</rt></ruby>かブレザー、<ruby>女子<rt>じょし</rt></ruby>はセーラー<ruby>服<rt>ふく</rt></ruby>かブレザーが<ruby>一般的<rt>いっぱんてき</rt></ruby>です。<ruby>会社<rt>かいしゃ</rt></ruby>でも<ruby>制服<rt>せいふく</rt></ruby>がある<ruby>場合<rt>ばあい</rt></ruby>があります。<ruby>制服<rt>せいふく</rt></ruby>は<ruby>毎日<rt>まいにち</rt></ruby><ruby>服<rt>ふく</rt></ruby>を<ruby>選<rt>えら</rt></ruby>ぶ<ruby>必要<rt>ひつよう</rt></ruby>がないので<ruby>便利<rt>べんり</rt></ruby>です。しかし、<ruby>自由<rt>じゆう</rt></ruby>に<ruby>服<rt>ふく</rt></ruby>を<ruby>選<rt>えら</rt></ruby>びたいという<ruby>意見<rt>いけん</rt></ruby>もあります。<ruby>最近<rt>さいきん</rt></ruby>は<ruby>制服<rt>せいふく</rt></ruby>のデザインがおしゃれになっています。",
+  "difficulty": 0.53,
+  "level": "beginner",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Where do most students wear uniforms?",
+      "options": ["小学校だけ", "中学校と高校", "大学だけ", "幼稚園だけ"],
+      "correctAnswer": "中学校と高校"
+    },
+    {
+      "id": "q2",
+      "question": "What do boys typically wear?",
+      "options": ["セーラー服", "詰め襟かブレザー", "Tシャツ", "着物"],
+      "correctAnswer": "詰め襟かブレザー"
+    },
+    {
+      "id": "q3",
+      "question": "What is one advantage of uniforms?",
+      "options": ["安い", "毎日服を選ぶ必要がない", "かわいい", "暖かい"],
+      "correctAnswer": "毎日服を選ぶ必要がない"
+    },
+    {
+      "id": "q4",
+      "question": "What opinion do some people have?",
+      "options": ["制服が高い", "自由に服を選びたい", "色を変えたい", "制服がない方がいい"],
+      "correctAnswer": "自由に服を選びたい"
+    },
+    {
+      "id": "q5",
+      "question": "What is happening recently with uniforms?",
+      "options": ["なくなっている", "デザインがおしゃれになっている", "値段が高くなっている", "色が変わっている"],
+      "correctAnswer": "デザインがおしゃれになっている"
+    }
+  ],
+  "translation": {
+    "en": "In Japan, many schools have uniforms. In middle school and high school, most students wear uniforms. Boys typically wear gakuran or blazers, and girls wear sailor uniforms or blazers. Some companies also have uniforms. Uniforms are convenient because you don't need to choose clothes every day. However, some people want the freedom to choose their own clothes. Recently, uniform designs have become more fashionable.",
+    "fr": "Au Japon, beaucoup d'écoles ont des uniformes. Au collège et au lycée, la plupart des élèves portent l'uniforme. Les garçons portent généralement un gakuran ou un blazer, et les filles portent un uniforme marin ou un blazer. Certaines entreprises ont aussi des uniformes. Les uniformes sont pratiques car on n'a pas besoin de choisir ses vêtements chaque jour. Cependant, certaines personnes veulent la liberté de choisir leurs propres vêtements. Récemment, les designs des uniformes sont devenus plus à la mode."
+  }
+}

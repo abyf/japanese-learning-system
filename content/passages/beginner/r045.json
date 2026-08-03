@@ -1,0 +1,62 @@
+{
+  "id": "r045",
+  "title": "お土産を買う",
+  "titleEn": "Buying Souvenirs",
+  "text": "<ruby>京都<rt>きょうと</rt></ruby><ruby>旅行<rt>りょこう</rt></ruby>の<ruby>最後<rt>さいご</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>に、お<ruby>土産<rt>みやげ</rt></ruby>を<ruby>買<rt>か</rt></ruby>いに<ruby>行<rt>い</rt></ruby>きました。<ruby>家族<rt>かぞく</rt></ruby>と<ruby>友達<rt>ともだち</rt></ruby>と<ruby>会社<rt>かいしゃ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>に<ruby>買<rt>か</rt></ruby>います。<ruby>母<rt>はは</rt></ruby>には<ruby>抹茶<rt>まっちゃ</rt></ruby>のお<ruby>菓子<rt>かし</rt></ruby>を<ruby>買<rt>か</rt></ruby>いました。<ruby>父<rt>ちち</rt></ruby>には<ruby>日本酒<rt>にほんしゅ</rt></ruby>を<ruby>買<rt>か</rt></ruby>いました。<ruby>友達<rt>ともだち</rt></ruby>にはかわいいキーホルダーを<ruby>選<rt>えら</rt></ruby>びました。<ruby>会社<rt>かいしゃ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>には<ruby>八<rt>や</rt></ruby>つ<ruby>橋<rt>はし</rt></ruby>を<ruby>買<rt>か</rt></ruby>いました。<ruby>全部<rt>ぜんぶ</rt></ruby>で<ruby>一万円<rt>いちまんえん</rt></ruby>くらい<ruby>使<rt>つか</rt></ruby>いました。みんなが<ruby>喜<rt>よろこ</rt></ruby>んでくれるといいです。",
+  "difficulty": 0.49,
+  "level": "beginner",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Where did the speaker travel?",
+      "options": ["東京", "大阪", "京都", "奈良"],
+      "correctAnswer": "京都"
+    },
+    {
+      "id": "q2",
+      "question": "When did the speaker buy souvenirs?",
+      "options": ["旅行の最初の日", "旅行の二日目", "旅行の最後の日", "旅行の前"],
+      "correctAnswer": "旅行の最後の日"
+    },
+    {
+      "id": "q3",
+      "question": "What did the speaker buy for mother?",
+      "options": ["キーホルダー", "抹茶のお菓子", "日本酒", "八つ橋"],
+      "correctAnswer": "抹茶のお菓子"
+    },
+    {
+      "id": "q4",
+      "question": "What did the speaker buy for father?",
+      "options": ["お菓子", "キーホルダー", "日本酒", "扇子"],
+      "correctAnswer": "日本酒"
+    },
+    {
+      "id": "q5",
+      "question": "What did the speaker choose for friends?",
+      "options": ["お菓子", "キーホルダー", "日本酒", "八つ橋"],
+      "correctAnswer": "キーホルダー"
+    },
+    {
+      "id": "q6",
+      "question": "What did the speaker buy for coworkers?",
+      "options": ["抹茶のお菓子", "チョコレート", "八つ橋", "饅頭"],
+      "correctAnswer": "八つ橋"
+    },
+    {
+      "id": "q7",
+      "question": "How much did the speaker spend in total?",
+      "options": ["五千円", "八千円", "一万円", "二万円"],
+      "correctAnswer": "一万円"
+    },
+    {
+      "id": "q8",
+      "question": "What does the speaker hope?",
+      "options": ["もう一度行きたい", "みんなが喜んでくれること", "安く買えたこと", "たくさん買えたこと"],
+      "correctAnswer": "みんなが喜んでくれること"
+    }
+  ],
+  "translation": {
+    "en": "On the last day of my Kyoto trip, I went to buy souvenirs. I'm buying for my family, friends, and coworkers. I bought matcha sweets for my mother. I bought Japanese sake for my father. I chose cute keychains for my friends. I bought yatsuhashi for my coworkers. I spent about 10,000 yen in total. I hope everyone will be happy.",
+    "fr": "Le dernier jour de mon voyage à Kyoto, je suis allé(e) acheter des souvenirs. J'en achète pour ma famille, mes amis et mes collègues. J'ai acheté des gâteaux au matcha pour ma mère. J'ai acheté du saké pour mon père. J'ai choisi de jolis porte-clés pour mes amis. J'ai acheté des yatsuhashi pour mes collègues. J'ai dépensé environ 10 000 yens au total. J'espère que tout le monde sera content."
+  }
+}

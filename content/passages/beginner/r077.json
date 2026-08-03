@@ -1,0 +1,50 @@
+{
+  "id": "r077",
+  "title": "日本のお風呂文化",
+  "titleEn": "Bathing Culture",
+  "text": "<ruby>日本人<rt>にほんじん</rt></ruby>はお<ruby>風呂<rt>ふろ</rt></ruby>が<ruby>大好<rt>だいす</rt></ruby>きです。シャワーだけでなく、<ruby>湯船<rt>ゆぶね</rt></ruby>に<ruby>浸<rt>つ</rt></ruby>かります。<ruby>体<rt>からだ</rt></ruby>を<ruby>洗<rt>あら</rt></ruby>ってから<ruby>湯船<rt>ゆぶね</rt></ruby>に<ruby>入<rt>はい</rt></ruby>るのがルールです。<ruby>家族<rt>かぞく</rt></ruby>で<ruby>同<rt>おな</rt></ruby>じお<ruby>湯<rt>ゆ</rt></ruby>を<ruby>使<rt>つか</rt></ruby>います。<ruby>温泉<rt>おんせん</rt></ruby>は<ruby>天然<rt>てんねん</rt></ruby>のお<ruby>湯<rt>ゆ</rt></ruby>で、<ruby>旅行先<rt>りょこうさき</rt></ruby>で<ruby>人気<rt>にんき</rt></ruby>です。<ruby>銭湯<rt>せんとう</rt></ruby>は<ruby>公共<rt>こうきょう</rt></ruby>のお<ruby>風呂<rt>ふろ</rt></ruby>です。タトゥーがある<ruby>人<rt>ひと</rt></ruby>は<ruby>入<rt>はい</rt></ruby>れない<ruby>場所<rt>ばしょ</rt></ruby>もあります。お<ruby>風呂<rt>ふろ</rt></ruby>はリラックスの<ruby>時間<rt>じかん</rt></ruby>です。",
+  "difficulty": 0.65,
+  "level": "beginner",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What do Japanese people love?",
+      "options": ["シャワー", "お風呂", "プール", "海"],
+      "correctAnswer": "お風呂"
+    },
+    {
+      "id": "q2",
+      "question": "What is the rule before entering the bath?",
+      "options": ["水を飲む", "体を洗う", "髪を乾かす", "服を畳む"],
+      "correctAnswer": "体を洗う"
+    },
+    {
+      "id": "q3",
+      "question": "What does the family share?",
+      "options": ["タオル", "同じお湯", "シャンプー", "石鹸"],
+      "correctAnswer": "同じお湯"
+    },
+    {
+      "id": "q4",
+      "question": "What is onsen?",
+      "options": ["冷たい水", "天然のお湯", "プール", "シャワー"],
+      "correctAnswer": "天然のお湯"
+    },
+    {
+      "id": "q5",
+      "question": "Who may not be allowed to enter?",
+      "options": ["外国人", "タトゥーがある人", "子供", "お年寄り"],
+      "correctAnswer": "タトゥーがある人"
+    },
+    {
+      "id": "q6",
+      "question": "What is bath time for?",
+      "options": ["運動", "リラックス", "勉強", "仕事"],
+      "correctAnswer": "リラックス"
+    }
+  ],
+  "translation": {
+    "en": "Japanese people love baths. They don't just shower but soak in the bathtub. The rule is to wash your body before entering the tub. Families share the same bath water. Onsen are natural hot springs and popular at travel destinations. Sento are public baths. Some places don't allow people with tattoos. Bath time is a time to relax.",
+    "fr": "Les Japonais adorent le bain. Ils ne se contentent pas de se doucher mais trempent dans la baignoire. La règle est de se laver le corps avant d'entrer dans la baignoire. La famille partage la même eau. Les onsen sont des sources thermales naturelles populaires en voyage. Les sento sont des bains publics. Certains endroits n'acceptent pas les personnes tatouées. Le bain est un moment de détente."
+  }
+}

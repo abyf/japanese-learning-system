@@ -1,0 +1,56 @@
+{
+  "id": "r025",
+  "title": "病院に行く",
+  "titleEn": "Going to the Hospital",
+  "text": "<ruby>昨日<rt>きのう</rt></ruby>から<ruby>頭<rt>あたま</rt></ruby>が<ruby>痛<rt>いた</rt></ruby>いです。<ruby>熱<rt>ねつ</rt></ruby>も<ruby>少<rt>すこ</rt></ruby>しあります。<ruby>今日<rt>きょう</rt></ruby>、<ruby>病院<rt>びょういん</rt></ruby>に<ruby>行<rt>い</rt></ruby>きました。<ruby>受付<rt>うけつけ</rt></ruby>で<ruby>保険証<rt>ほけんしょう</rt></ruby>を<ruby>見<rt>み</rt></ruby>せました。<ruby>三十分<rt>さんじゅっぷん</rt></ruby>くらい<ruby>待<rt>ま</rt></ruby>ちました。<ruby>先生<rt>せんせい</rt></ruby>は「<ruby>風邪<rt>かぜ</rt></ruby>ですね。<ruby>薬<rt>くすり</rt></ruby>を<ruby>出<rt>だ</rt></ruby>します」と<ruby>言<rt>い</rt></ruby>いました。<ruby>薬局<rt>やっきょく</rt></ruby>で<ruby>薬<rt>くすり</rt></ruby>をもらいました。<ruby>家<rt>いえ</rt></ruby>に<ruby>帰<rt>かえ</rt></ruby>って、ゆっくり<ruby>休<rt>やす</rt></ruby>みます。",
+  "difficulty": 0.29,
+  "level": "beginner",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What symptoms does the speaker have?",
+      "options": ["お腹が痛い", "頭が痛くて熱がある", "咳が出る", "足が痛い"],
+      "correctAnswer": "頭が痛くて熱がある"
+    },
+    {
+      "id": "q2",
+      "question": "When did the symptoms start?",
+      "options": ["今日", "昨日", "三日前", "一週間前"],
+      "correctAnswer": "昨日"
+    },
+    {
+      "id": "q3",
+      "question": "What did the speaker show at reception?",
+      "options": ["パスポート", "保険証", "学生証", "運転免許証"],
+      "correctAnswer": "保険証"
+    },
+    {
+      "id": "q4",
+      "question": "How long did the speaker wait?",
+      "options": ["十分", "二十分", "三十分", "一時間"],
+      "correctAnswer": "三十分"
+    },
+    {
+      "id": "q5",
+      "question": "What did the doctor say?",
+      "options": ["インフルエンザです", "風邪です", "アレルギーです", "疲れです"],
+      "correctAnswer": "風邪です"
+    },
+    {
+      "id": "q6",
+      "question": "Where did the speaker get the medicine?",
+      "options": ["病院", "薬局", "コンビニ", "スーパー"],
+      "correctAnswer": "薬局"
+    },
+    {
+      "id": "q7",
+      "question": "What will the speaker do at home?",
+      "options": ["勉強する", "料理する", "ゆっくり休む", "掃除する"],
+      "correctAnswer": "ゆっくり休む"
+    }
+  ],
+  "translation": {
+    "en": "I've had a headache since yesterday. I also have a slight fever. Today, I went to the hospital. I showed my insurance card at the reception. I waited about 30 minutes. The doctor said, 'You have a cold. I'll prescribe some medicine.' I received the medicine at the pharmacy. I'll go home and rest well.",
+    "fr": "J'ai mal à la tête depuis hier. J'ai aussi un peu de fièvre. Aujourd'hui, je suis allé(e) à l'hôpital. J'ai montré ma carte d'assurance à l'accueil. J'ai attendu environ 30 minutes. Le médecin a dit : « Vous avez un rhume. Je vais vous prescrire des médicaments. » J'ai reçu les médicaments à la pharmacie. Je vais rentrer chez moi et bien me reposer."
+  }
+}

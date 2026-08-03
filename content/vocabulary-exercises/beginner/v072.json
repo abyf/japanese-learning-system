@@ -1,0 +1,102 @@
+{
+  "id": "v072",
+  "title": "Kanji: Descriptive",
+  "titleEn": "Kanji: Descriptive",
+  "titleFr": "Kanji : Descriptifs",
+  "level": "beginner",
+  "difficulty": 0.5,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of 大きい?",
+      "prompt_fr": "Quelle est la lecture de 大きい ?",
+      "kanji": "大きい",
+      "options": ["おおきい", "ちいさい", "たかい", "ながい"],
+      "correctAnswer": "おおきい",
+      "meaning_en": "big / large",
+      "meaning_fr": "grand / gros"
+    },
+    {
+      "id": "q2",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of 小さい?",
+      "prompt_fr": "Quelle est la lecture de 小さい ?",
+      "kanji": "小さい",
+      "options": ["ちいさい", "おおきい", "ふるい", "あたらしい"],
+      "correctAnswer": "ちいさい",
+      "meaning_en": "small / little",
+      "meaning_fr": "petit"
+    },
+    {
+      "id": "q3",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of 高い?",
+      "prompt_fr": "Quelle est la lecture de 高い ?",
+      "kanji": "高い",
+      "options": ["たかい", "ながい", "おおきい", "ふるい"],
+      "correctAnswer": "たかい",
+      "meaning_en": "tall / expensive",
+      "meaning_fr": "haut / cher"
+    },
+    {
+      "id": "q4",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of 長い?",
+      "prompt_fr": "Quelle est la lecture de 長い ?",
+      "kanji": "長い",
+      "options": ["ながい", "たかい", "ちいさい", "あたらしい"],
+      "correctAnswer": "ながい",
+      "meaning_en": "long",
+      "meaning_fr": "long"
+    },
+    {
+      "id": "q5",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of 新しい?",
+      "prompt_fr": "Quelle est la lecture de 新しい ?",
+      "kanji": "新しい",
+      "options": ["あたらしい", "ふるい", "ながい", "たかい"],
+      "correctAnswer": "あたらしい",
+      "meaning_en": "new",
+      "meaning_fr": "nouveau"
+    },
+    {
+      "id": "q6",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of 古い?",
+      "prompt_fr": "Quelle est la lecture de 古い ?",
+      "kanji": "古い",
+      "options": ["ふるい", "あたらしい", "おおきい", "ちいさい"],
+      "correctAnswer": "ふるい",
+      "meaning_en": "old (things)",
+      "meaning_fr": "vieux (objets)"
+    },
+    {
+      "id": "q7",
+      "type": "word_match",
+      "prompt": "What is the opposite of 大きい?",
+      "prompt_fr": "Quel est le contraire de 大きい ?",
+      "word": "大きい (opposite)",
+      "options": ["小さい", "高い", "長い", "新しい"],
+      "options_fr": ["小さい (petit)", "高い (haut)", "長い (long)", "新しい (nouveau)"],
+      "correctAnswer": "小さい",
+      "meaning_fr": "petit"
+    },
+    {
+      "id": "q8",
+      "type": "word_match",
+      "prompt": "What is the opposite of 新しい?",
+      "prompt_fr": "Quel est le contraire de 新しい ?",
+      "word": "新しい (opposite)",
+      "options": ["古い", "長い", "高い", "大きい"],
+      "options_fr": ["古い (vieux)", "長い (long)", "高い (haut)", "大きい (grand)"],
+      "correctAnswer": "古い",
+      "meaning_fr": "vieux"
+    }
+  ],
+  "translation": {
+    "en": "This lesson covers descriptive kanji: big, small, tall, long, new, and old.",
+    "fr": "Cette leçon couvre les kanji descriptifs : grand, petit, haut, long, nouveau et vieux."
+  }
+}

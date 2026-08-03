@@ -1,0 +1,94 @@
+{
+  "id": "v033",
+  "title": "Common Adverbs",
+  "titleEn": "Common Adverbs",
+  "titleFr": "Adverbes courants",
+  "level": "beginner",
+  "difficulty": 0.35,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "word_match",
+      "prompt": "What does とても mean?",
+      "prompt_fr": "Que signifie とても ?",
+      "word": "とても",
+      "options": ["Very / Extremely", "A little", "Already", "Still"],
+      "options_fr": ["Très / Extrêmement", "Un peu", "Déjà", "Encore"],
+      "correctAnswer": "Very / Extremely",
+      "meaning_fr": "Très / Extrêmement"
+    },
+    {
+      "id": "q2",
+      "type": "word_match",
+      "prompt": "What does すこし mean?",
+      "prompt_fr": "Que signifie すこし ?",
+      "word": "すこし",
+      "options": ["A little / Slightly", "Very much", "Always", "Never"],
+      "options_fr": ["Un peu / Légèrement", "Beaucoup", "Toujours", "Jamais"],
+      "correctAnswer": "A little / Slightly",
+      "meaning_fr": "Un peu / Légèrement"
+    },
+    {
+      "id": "q3",
+      "type": "word_match",
+      "prompt": "What does もう mean?",
+      "prompt_fr": "Que signifie もう ?",
+      "word": "もう",
+      "options": ["Already / Yet", "Still", "Very", "A little"],
+      "options_fr": ["Déjà / Encore", "Encore (toujours)", "Très", "Un peu"],
+      "correctAnswer": "Already / Yet",
+      "meaning_fr": "Déjà / Encore"
+    },
+    {
+      "id": "q4",
+      "type": "word_match",
+      "prompt": "What does まだ mean?",
+      "prompt_fr": "Que signifie まだ ?",
+      "word": "まだ",
+      "options": ["Still / Not yet", "Already", "Very", "Never"],
+      "options_fr": ["Encore / Pas encore", "Déjà", "Très", "Jamais"],
+      "correctAnswer": "Still / Not yet",
+      "meaning_fr": "Encore / Pas encore"
+    },
+    {
+      "id": "q5",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "この映画は＿＿面白いです。(This movie is very interesting)",
+      "sentence_fr": "この映画は＿＿面白いです。(Ce film est très intéressant)",
+      "options": ["とても", "すこし", "もう", "まだ"],
+      "correctAnswer": "とても",
+      "meaning_en": "very",
+      "meaning_fr": "très"
+    },
+    {
+      "id": "q6",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "＿＿宿題が終わっていません。(The homework is not finished yet)",
+      "sentence_fr": "＿＿宿題が終わっていません。(Les devoirs ne sont pas encore terminés)",
+      "options": ["まだ", "もう", "とても", "すこし"],
+      "correctAnswer": "まだ",
+      "meaning_en": "still / not yet",
+      "meaning_fr": "pas encore"
+    },
+    {
+      "id": "q7",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "＿＿食べました。(I already ate)",
+      "sentence_fr": "＿＿食べました。(J'ai déjà mangé)",
+      "options": ["もう", "まだ", "すこし", "とても"],
+      "correctAnswer": "もう",
+      "meaning_en": "already",
+      "meaning_fr": "déjà"
+    }
+  ],
+  "translation": {
+    "en": "This lesson covers common Japanese adverbs: とても, すこし, もう, and まだ.",
+    "fr": "Cette leçon couvre les adverbes japonais courants : とても, すこし, もう et まだ."
+  }
+}

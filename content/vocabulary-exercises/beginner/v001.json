@@ -1,0 +1,58 @@
+{
+  "id": "v001",
+  "title": "Basic Greetings",
+  "titleEn": "Basic Greetings",
+  "level": "beginner",
+  "difficulty": 0.1,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of this kanji?",
+      "prompt_fr": "Quelle est la lecture de ce kanji ?",
+      "kanji": "日",
+      "options": ["にち/ひ", "つき", "やま", "かわ"],
+      "correctAnswer": "にち/ひ",
+      "meaning_en": "day / sun",
+      "meaning_fr": "jour / soleil"
+    },
+    {
+      "id": "q2",
+      "type": "word_match",
+      "prompt": "What does おはよう mean?",
+      "prompt_fr": "Que signifie おはよう ?",
+      "word": "おはよう",
+      "options": ["Good morning", "Good evening", "Thank you", "Goodbye"],
+      "options_fr": ["Bonjour (matin)", "Bonsoir", "Merci", "Au revoir"],
+      "correctAnswer": "Good morning",
+      "meaning_fr": "Bonjour (matin)"
+    },
+    {
+      "id": "q3",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "＿＿ございます。(Good morning - polite)",
+      "sentence_fr": "＿＿ ございます。(Bonjour - poli)",
+      "options": ["おはよう", "こんにちは", "こんばんは", "さようなら"],
+      "correctAnswer": "おはよう",
+      "meaning_en": "good morning",
+      "meaning_fr": "bonjour (matin)"
+    },
+    {
+      "id": "q4",
+      "type": "word_match",
+      "prompt": "What does さようなら mean?",
+      "prompt_fr": "Que signifie さようなら ?",
+      "word": "さようなら",
+      "options": ["Goodbye", "Hello", "Good night", "See you later"],
+      "options_fr": ["Au revoir", "Bonjour", "Bonne nuit", "À plus tard"],
+      "correctAnswer": "Goodbye",
+      "meaning_fr": "Au revoir"
+    }
+  ],
+  "translation": {
+    "en": "This lesson covers basic greetings and common daily expressions.",
+    "fr": "Cette leçon couvre les salutations de base et les expressions quotidiennes courantes."
+  }
+}

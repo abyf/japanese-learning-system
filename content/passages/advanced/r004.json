@@ -1,0 +1,38 @@
+{
+  "id": "r004",
+  "title": "グローバル化",
+  "titleEn": "Globalization",
+  "text": "グローバル化の進展は、経済、文化、社会のあらゆる側面に影響を及ぼしている。国境を越えた資本、人材、情報の移動が活発化し、世界経済の相互依存性はかつてないほど高まっている。日本においても、グローバル化は二面性を持つ。一方では、海外市場への進出機会の拡大、多様な文化との交流、イノベーションの促進といった恩恵がある。他方では、国内産業の空洞化、格差の拡大、文化的アイデンティティの希薄化といった懸念も指摘されている。言語の問題も重要である。国際ビジネスにおいて英語は事実上の共通語であるが、日本人の英語力は他のアジア諸国と比較して依然として課題が多い。教育改革を通じて、グローバル人材の育成が急務とされている。同時に、日本語や日本文化の価値を維持しながら、いかにして国際社会で存在感を発揮するかという問いも重要である。グローバル化の波に受動的に流されるのではなく、主体的に対応し、自国の強みを活かした戦略を構築することが求められている。",
+  "difficulty": 0.9,
+  "level": "advanced",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What concern about globalization is mentioned regarding Japanese industry?",
+      "options": ["技術革新の停滞", "国内産業の空洞化", "農業の衰退", "観光業の低迷"],
+      "correctAnswer": "国内産業の空洞化"
+    },
+    {
+      "id": "q2",
+      "question": "What is described as a challenge for Japanese people in international business?",
+      "options": ["技術力", "英語力", "資金力", "創造力"],
+      "correctAnswer": "英語力"
+    },
+    {
+      "id": "q3",
+      "question": "What does the passage recommend regarding globalization?",
+      "options": ["全面的に受け入れる", "完全に拒否する", "主体的に対応し自国の強みを活かす", "他国に追従する"],
+      "correctAnswer": "主体的に対応し自国の強みを活かす"
+    },
+    {
+      "id": "q4",
+      "question": "Which is NOT mentioned as a benefit of globalization?",
+      "options": ["海外市場への進出機会", "多様な文化との交流", "軍事力の強化", "イノベーションの促進"],
+      "correctAnswer": "軍事力の強化"
+    }
+  ],
+  "translation": {
+    "en": "The progress of globalization affects every aspect of economy, culture, and society. The movement of capital, talent, and information across borders has become more active, and the interdependence of the world economy has reached unprecedented levels. In Japan as well, globalization has two sides. On one hand, there are benefits such as expanded opportunities for entering overseas markets, exchanges with diverse cultures, and promotion of innovation. On the other hand, concerns such as the hollowing out of domestic industry, widening inequality, and the dilution of cultural identity have also been raised. The language issue is also important. While English is the de facto common language in international business, Japanese people's English proficiency still has many challenges compared to other Asian countries. Through educational reform, developing global human resources is an urgent priority. At the same time, the question of how to maintain a presence in international society while preserving the value of Japanese language and culture is also important. Rather than being passively swept along by the wave of globalization, it is necessary to respond proactively and build strategies that leverage one's own country's strengths.",
+    "fr": "Les progrès de la mondialisation affectent tous les aspects de l'économie, de la culture et de la société. Le mouvement des capitaux, des talents et de l'information à travers les frontières s'est intensifié, et l'interdépendance de l'économie mondiale a atteint des niveaux sans précédent. Au Japon aussi, la mondialisation a deux facettes. D'un côté, il y a des avantages comme l'élargissement des opportunités d'accès aux marchés étrangers, les échanges avec diverses cultures et la promotion de l'innovation. De l'autre, des préoccupations comme la désindustrialisation, le creusement des inégalités et la dilution de l'identité culturelle ont également été soulevées. La question linguistique est aussi importante. Bien que l'anglais soit la langue commune de fait dans les affaires internationales, la maîtrise de l'anglais par les Japonais présente encore de nombreux défis par rapport aux autres pays asiatiques. Par la réforme éducative, le développement de ressources humaines mondiales est une priorité urgente. En même temps, la question de savoir comment maintenir une présence dans la société internationale tout en préservant la valeur de la langue et de la culture japonaises est également importante. Plutôt que d'être passivement emporté par la vague de la mondialisation, il est nécessaire de répondre de manière proactive et de construire des stratégies qui tirent parti des forces de son propre pays."
+  }
+}

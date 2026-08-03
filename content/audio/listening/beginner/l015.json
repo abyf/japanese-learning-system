@@ -1,0 +1,41 @@
+{
+  "id": "l015",
+  "title": "Travel Agency",
+  "titleFr": "Agence de voyage",
+  "type": "multiple_choice",
+  "audioUrl": "/api/listening/beginner/l015/audio",
+  "transcript": "いらっしゃいませ。どちらへの旅行をお考えですか？ 京都に行きたいのですが。 いつ頃のご予定ですか？ 来月の十日から十二日までの二泊三日で。 ご予算はおいくらですか？ 一人五万円くらいで考えています。 二名様ですか？ はい、夫婦二人です。 それでしたら、新幹線と旅館のセットプランがお得ですよ。朝食付きで一人四万八千円です。 いいですね。それでお願いします。",
+  "questions": [
+    {
+      "question": "Where does the customer want to go?",
+      "options": ["Tokyo", "Osaka", "Kyoto", "Nara"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "How long is the trip?",
+      "options": ["1 night 2 days", "2 nights 3 days", "3 nights 4 days", "4 nights 5 days"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "What is the budget per person?",
+      "options": ["30,000 yen", "40,000 yen", "50,000 yen", "60,000 yen"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "How many people are traveling?",
+      "options": ["One", "Two", "Three", "Four"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "What does the recommended plan include?",
+      "options": ["Flight and hotel", "Shinkansen and ryokan", "Bus and hotel", "Car rental and inn"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "How much is the recommended plan per person?",
+      "options": ["45,000 yen", "48,000 yen", "50,000 yen", "52,000 yen"],
+      "correctAnswer": 1
+    }
+  ],
+  "difficulty": 0.5
+}

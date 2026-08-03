@@ -1,0 +1,62 @@
+{
+  "id": "r037",
+  "title": "天気予報",
+  "titleEn": "Weather Forecast",
+  "text": "<ruby>今朝<rt>けさ</rt></ruby>、テレビで<ruby>天気予報<rt>てんきよほう</rt></ruby>を<ruby>見<rt>み</rt></ruby>ました。<ruby>今日<rt>きょう</rt></ruby>は<ruby>午前中<rt>ごぜんちゅう</rt></ruby><ruby>晴<rt>は</rt></ruby>れですが、<ruby>午後<rt>ごご</rt></ruby>から<ruby>雨<rt>あめ</rt></ruby>が<ruby>降<rt>ふ</rt></ruby>るそうです。<ruby>気温<rt>きおん</rt></ruby>は<ruby>最高<rt>さいこう</rt></ruby><ruby>二十五度<rt>にじゅうごど</rt></ruby>です。<ruby>明日<rt>あした</rt></ruby>は<ruby>一日中<rt>いちにちじゅう</rt></ruby><ruby>雨<rt>あめ</rt></ruby>で、<ruby>風<rt>かぜ</rt></ruby>も<ruby>強<rt>つよ</rt></ruby>いそうです。<ruby>傘<rt>かさ</rt></ruby>を<ruby>持<rt>も</rt></ruby>って<ruby>行<rt>い</rt></ruby>かなければなりません。<ruby>週末<rt>しゅうまつ</rt></ruby>はまた<ruby>晴<rt>は</rt></ruby>れるので、<ruby>洗濯<rt>せんたく</rt></ruby>は<ruby>週末<rt>しゅうまつ</rt></ruby>にしようと<ruby>思<rt>おも</rt></ruby>います。<ruby>梅雨<rt>つゆ</rt></ruby>の<ruby>季節<rt>きせつ</rt></ruby>は<ruby>大変<rt>たいへん</rt></ruby>です。",
+  "difficulty": 0.41,
+  "level": "beginner",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Where did the speaker check the weather?",
+      "options": ["ラジオ", "テレビ", "新聞", "インターネット"],
+      "correctAnswer": "テレビ"
+    },
+    {
+      "id": "q2",
+      "question": "What is today's morning weather?",
+      "options": ["雨", "曇り", "晴れ", "雪"],
+      "correctAnswer": "晴れ"
+    },
+    {
+      "id": "q3",
+      "question": "When will it rain today?",
+      "options": ["午前中", "午後から", "夜から", "降らない"],
+      "correctAnswer": "午後から"
+    },
+    {
+      "id": "q4",
+      "question": "What is today's highest temperature?",
+      "options": ["二十度", "二十三度", "二十五度", "三十度"],
+      "correctAnswer": "二十五度"
+    },
+    {
+      "id": "q5",
+      "question": "What is tomorrow's weather?",
+      "options": ["晴れ", "曇り", "一日中雨で風も強い", "雪"],
+      "correctAnswer": "一日中雨で風も強い"
+    },
+    {
+      "id": "q6",
+      "question": "What must the speaker bring?",
+      "options": ["コート", "傘", "帽子", "マフラー"],
+      "correctAnswer": "傘"
+    },
+    {
+      "id": "q7",
+      "question": "When will the speaker do laundry?",
+      "options": ["今日", "明日", "週末", "来週"],
+      "correctAnswer": "週末"
+    },
+    {
+      "id": "q8",
+      "question": "What season is it?",
+      "options": ["春", "梅雨", "夏", "秋"],
+      "correctAnswer": "梅雨"
+    }
+  ],
+  "translation": {
+    "en": "This morning, I watched the weather forecast on TV. Today is sunny in the morning, but it's supposed to rain in the afternoon. The high temperature is 25 degrees. Tomorrow it will rain all day and the wind will be strong too. I have to bring an umbrella. It will be sunny again on the weekend, so I plan to do laundry on the weekend. The rainy season is tough.",
+    "fr": "Ce matin, j'ai regardé les prévisions météo à la télévision. Aujourd'hui il fait beau le matin, mais il devrait pleuvoir l'après-midi. La température maximale est de 25 degrés. Demain il pleuvra toute la journée et le vent sera fort aussi. Je dois prendre un parapluie. Il fera beau à nouveau le week-end, donc je pense faire la lessive ce week-end. La saison des pluies est difficile."
+  }
+}

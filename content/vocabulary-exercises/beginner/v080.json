@@ -1,0 +1,93 @@
+{
+  "id": "v080",
+  "title": "Onomatopoeia Basic",
+  "titleEn": "Onomatopoeia Basic",
+  "titleFr": "Onomatopées de base",
+  "level": "beginner",
+  "difficulty": 0.6,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "word_match",
+      "prompt": "What does わくわく express?",
+      "prompt_fr": "Qu'exprime わくわく ?",
+      "word": "わくわく",
+      "options": ["Excited / Thrilled", "Nervous", "Angry", "Sad"],
+      "options_fr": ["Excité / Enthousiaste", "Nerveux", "En colère", "Triste"],
+      "correctAnswer": "Excited / Thrilled",
+      "meaning_fr": "Excité / Enthousiaste"
+    },
+    {
+      "id": "q2",
+      "type": "word_match",
+      "prompt": "What does どきどき express?",
+      "prompt_fr": "Qu'exprime どきどき ?",
+      "word": "どきどき",
+      "options": ["Heart pounding / Nervous", "Excited", "Sleepy", "Angry"],
+      "options_fr": ["Cœur qui bat / Nerveux", "Excité", "Endormi", "En colère"],
+      "correctAnswer": "Heart pounding / Nervous",
+      "meaning_fr": "Cœur qui bat / Nerveux"
+    },
+    {
+      "id": "q3",
+      "type": "word_match",
+      "prompt": "What does にこにこ express?",
+      "prompt_fr": "Qu'exprime にこにこ ?",
+      "word": "にこにこ",
+      "options": ["Smiling / Beaming", "Crying", "Yelling", "Running"],
+      "options_fr": ["Souriant / Radieux", "Pleurant", "Criant", "Courant"],
+      "correctAnswer": "Smiling / Beaming",
+      "meaning_fr": "Souriant / Radieux"
+    },
+    {
+      "id": "q4",
+      "type": "word_match",
+      "prompt": "What does ぐるぐる express?",
+      "prompt_fr": "Qu'exprime ぐるぐる ?",
+      "word": "ぐるぐる",
+      "options": ["Spinning / Going around", "Sleeping", "Eating", "Jumping"],
+      "options_fr": ["Tourner / Aller en rond", "Dormir", "Manger", "Sauter"],
+      "correctAnswer": "Spinning / Going around",
+      "meaning_fr": "Tourner / Aller en rond"
+    },
+    {
+      "id": "q5",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "旅行の前に＿＿しています。(I'm excited before the trip.)",
+      "sentence_fr": "旅行の前に＿＿しています。(Je suis excité avant le voyage.)",
+      "options": ["わくわく", "どきどき", "にこにこ", "ぐるぐる"],
+      "correctAnswer": "わくわく",
+      "meaning_en": "excited",
+      "meaning_fr": "excité"
+    },
+    {
+      "id": "q6",
+      "type": "word_match",
+      "prompt": "What does ぺらぺら express?",
+      "prompt_fr": "Qu'exprime ぺらぺら ?",
+      "word": "ぺらぺら",
+      "options": ["Fluent (in language)", "Slow (speech)", "Loud", "Quiet"],
+      "options_fr": ["Courant (en langue)", "Lent (parole)", "Fort", "Silencieux"],
+      "correctAnswer": "Fluent (in language)",
+      "meaning_fr": "Courant (en langue)"
+    },
+    {
+      "id": "q7",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "テストの前は＿＿します。(My heart pounds before a test.)",
+      "sentence_fr": "テストの前は＿＿します。(Mon cœur bat avant un test.)",
+      "options": ["どきどき", "わくわく", "にこにこ", "ぺらぺら"],
+      "correctAnswer": "どきどき",
+      "meaning_en": "heart pounding",
+      "meaning_fr": "cœur qui bat"
+    }
+  ],
+  "translation": {
+    "en": "This lesson introduces basic Japanese onomatopoeia expressing feelings and actions.",
+    "fr": "Cette leçon introduit les onomatopées japonaises de base exprimant des sentiments et actions."
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "r076",
+  "title": "カラオケ",
+  "titleEn": "Karaoke",
+  "text": "カラオケは<ruby>日本<rt>にほん</rt></ruby>で<ruby>生<rt>う</rt></ruby>まれた<ruby>文化<rt>ぶんか</rt></ruby>です。<ruby>友達<rt>ともだち</rt></ruby>や<ruby>同僚<rt>どうりょう</rt></ruby>と<ruby>行<rt>い</rt></ruby>くことが<ruby>多<rt>おお</rt></ruby>いです。<ruby>個室<rt>こしつ</rt></ruby>で<ruby>歌<rt>うた</rt></ruby>うので<ruby>恥<rt>は</rt></ruby>ずかしくありません。<ruby>飲<rt>の</rt></ruby>み<ruby>物<rt>もの</rt></ruby>や<ruby>食<rt>た</rt></ruby>べ<ruby>物<rt>もの</rt></ruby>を<ruby>注文<rt>ちゅうもん</rt></ruby>できます。<ruby>料金<rt>りょうきん</rt></ruby>は<ruby>時間制<rt>じかんせい</rt></ruby>です。<ruby>最新<rt>さいしん</rt></ruby>のJ-POPからアニソン、<ruby>洋楽<rt>ようがく</rt></ruby>までいろいろな<ruby>曲<rt>きょく</rt></ruby>があります。「ひとりカラオケ」も<ruby>人気<rt>にんき</rt></ruby>になっています。<ruby>ストレス<ruby>解消<rt>かいしょう</rt></ruby>にもいいです。",
+  "difficulty": 0.63,
+  "level": "beginner",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Where was karaoke born?",
+      "options": ["韓国", "日本", "アメリカ", "中国"],
+      "correctAnswer": "日本"
+    },
+    {
+      "id": "q2",
+      "question": "Who do people often go with?",
+      "options": ["一人で", "友達や同僚", "家族だけ", "先生"],
+      "correctAnswer": "友達や同僚"
+    },
+    {
+      "id": "q3",
+      "question": "Why isn't it embarrassing?",
+      "options": ["暗いから", "個室で歌うから", "上手だから", "マイクがないから"],
+      "correctAnswer": "個室で歌うから"
+    },
+    {
+      "id": "q4",
+      "question": "How is the fee calculated?",
+      "options": ["曲数制", "時間制", "人数制", "定額制"],
+      "correctAnswer": "時間制"
+    },
+    {
+      "id": "q5",
+      "question": "What is becoming popular?",
+      "options": ["グループカラオケ", "ひとりカラオケ", "屋外カラオケ", "カラオケ大会"],
+      "correctAnswer": "ひとりカラオケ"
+    },
+    {
+      "id": "q6",
+      "question": "What is karaoke good for?",
+      "options": ["ダイエット", "ストレス解消", "勉強", "仕事"],
+      "correctAnswer": "ストレス解消"
+    }
+  ],
+  "translation": {
+    "en": "Karaoke is a culture born in Japan. People often go with friends or colleagues. You sing in private rooms so it's not embarrassing. You can order drinks and food. The fee is based on time. There are various songs from the latest J-POP to anime songs and Western music. 'Solo karaoke' is also becoming popular. It's also good for stress relief.",
+    "fr": "Le karaoké est une culture née au Japon. On y va souvent avec des amis ou collègues. On chante dans des salles privées donc ce n'est pas gênant. On peut commander des boissons et de la nourriture. Le tarif est basé sur le temps. Il y a des chansons variées de la dernière J-POP aux chansons d'anime et à la musique occidentale. Le 'karaoké solo' devient aussi populaire. C'est aussi bon pour soulager le stress."
+  }
+}

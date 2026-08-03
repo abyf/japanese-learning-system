@@ -1,0 +1,92 @@
+{
+  "id": "v056",
+  "title": "Family (Polite forms)",
+  "titleEn": "Family (Polite forms)",
+  "titleFr": "Famille (formes polies)",
+  "level": "beginner",
+  "difficulty": 0.35,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "word_match",
+      "prompt": "What does お父さん mean?",
+      "prompt_fr": "Que signifie お父さん ?",
+      "word": "お父さん",
+      "options": ["Father (polite)", "Mother (polite)", "Older brother", "Younger brother"],
+      "options_fr": ["Père (poli)", "Mère (poli)", "Frère aîné", "Frère cadet"],
+      "correctAnswer": "Father (polite)",
+      "meaning_fr": "Père (poli)"
+    },
+    {
+      "id": "q2",
+      "type": "word_match",
+      "prompt": "What does お母さん mean?",
+      "prompt_fr": "Que signifie お母さん ?",
+      "word": "お母さん",
+      "options": ["Mother (polite)", "Father (polite)", "Older sister", "Grandmother"],
+      "options_fr": ["Mère (poli)", "Père (poli)", "Sœur aînée", "Grand-mère"],
+      "correctAnswer": "Mother (polite)",
+      "meaning_fr": "Mère (poli)"
+    },
+    {
+      "id": "q3",
+      "type": "word_match",
+      "prompt": "What does お兄さん mean?",
+      "prompt_fr": "Que signifie お兄さん ?",
+      "word": "お兄さん",
+      "options": ["Older brother (polite)", "Younger brother", "Father", "Uncle"],
+      "options_fr": ["Frère aîné (poli)", "Frère cadet", "Père", "Oncle"],
+      "correctAnswer": "Older brother (polite)",
+      "meaning_fr": "Frère aîné (poli)"
+    },
+    {
+      "id": "q4",
+      "type": "word_match",
+      "prompt": "What does お姉さん mean?",
+      "prompt_fr": "Que signifie お姉さん ?",
+      "word": "お姉さん",
+      "options": ["Older sister (polite)", "Younger sister", "Mother", "Aunt"],
+      "options_fr": ["Sœur aînée (poli)", "Sœur cadette", "Mère", "Tante"],
+      "correctAnswer": "Older sister (polite)",
+      "meaning_fr": "Sœur aînée (poli)"
+    },
+    {
+      "id": "q5",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "＿＿は会社員です。(My father is a company employee.)",
+      "sentence_fr": "＿＿は会社員です。(Mon père est employé de bureau.)",
+      "options": ["お父さん", "お母さん", "お兄さん", "お姉さん"],
+      "correctAnswer": "お父さん",
+      "meaning_en": "father (polite)",
+      "meaning_fr": "père (poli)"
+    },
+    {
+      "id": "q6",
+      "type": "word_match",
+      "prompt": "What does おじいさん mean?",
+      "prompt_fr": "Que signifie おじいさん ?",
+      "word": "おじいさん",
+      "options": ["Grandfather (polite)", "Grandmother (polite)", "Uncle", "Father"],
+      "options_fr": ["Grand-père (poli)", "Grand-mère (poli)", "Oncle", "Père"],
+      "correctAnswer": "Grandfather (polite)",
+      "meaning_fr": "Grand-père (poli)"
+    },
+    {
+      "id": "q7",
+      "type": "word_match",
+      "prompt": "What does おばあさん mean?",
+      "prompt_fr": "Que signifie おばあさん ?",
+      "word": "おばあさん",
+      "options": ["Grandmother (polite)", "Grandfather (polite)", "Aunt", "Mother"],
+      "options_fr": ["Grand-mère (poli)", "Grand-père (poli)", "Tante", "Mère"],
+      "correctAnswer": "Grandmother (polite)",
+      "meaning_fr": "Grand-mère (poli)"
+    }
+  ],
+  "translation": {
+    "en": "This lesson covers polite family terms used when talking about someone else's family.",
+    "fr": "Cette leçon couvre les termes de famille polis utilisés pour parler de la famille d'autrui."
+  }
+}

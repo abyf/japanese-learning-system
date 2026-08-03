@@ -1,0 +1,56 @@
+{
+  "id": "r034",
+  "title": "日本の祭り",
+  "titleEn": "Japanese Festival",
+  "text": "<ruby>先週<rt>せんしゅう</rt></ruby>の<ruby>土曜日<rt>どようび</rt></ruby>、<ruby>町<rt>まち</rt></ruby>のお<ruby>祭<rt>まつ</rt></ruby>りに<ruby>行<rt>い</rt></ruby>きました。<ruby>浴衣<rt>ゆかた</rt></ruby>を<ruby>着<rt>き</rt></ruby>て<ruby>行<rt>い</rt></ruby>きました。<ruby>屋台<rt>やたい</rt></ruby>がたくさんありました。たこ<ruby>焼<rt>や</rt></ruby>きと<ruby>焼<rt>や</rt></ruby>きそばを<ruby>食<rt>た</rt></ruby>べました。<ruby>金魚<rt>きんぎょ</rt></ruby>すくいもしました。でも、<ruby>一匹<rt>いっぴき</rt></ruby>も<ruby>取<rt>と</rt></ruby>れませんでした。<ruby>夜<rt>よる</rt></ruby>は<ruby>花火<rt>はなび</rt></ruby>がありました。<ruby>花火<rt>はなび</rt></ruby>はとてもきれいでした。<ruby>来年<rt>らいねん</rt></ruby>もまた<ruby>行<rt>い</rt></ruby>きたいです。",
+  "difficulty": 0.38,
+  "level": "beginner",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "When was the festival?",
+      "options": ["先週の金曜日", "先週の土曜日", "先週の日曜日", "先月"],
+      "correctAnswer": "先週の土曜日"
+    },
+    {
+      "id": "q2",
+      "question": "What did the speaker wear?",
+      "options": ["着物", "浴衣", "制服", "スーツ"],
+      "correctAnswer": "浴衣"
+    },
+    {
+      "id": "q3",
+      "question": "What food did the speaker eat?",
+      "options": ["寿司と天ぷら", "たこ焼きと焼きそば", "おにぎりとうどん", "ラーメンと餃子"],
+      "correctAnswer": "たこ焼きと焼きそば"
+    },
+    {
+      "id": "q4",
+      "question": "What game did the speaker play?",
+      "options": ["射的", "金魚すくい", "くじ引き", "輪投げ"],
+      "correctAnswer": "金魚すくい"
+    },
+    {
+      "id": "q5",
+      "question": "How many goldfish did the speaker catch?",
+      "options": ["一匹", "二匹", "三匹", "一匹も取れなかった"],
+      "correctAnswer": "一匹も取れなかった"
+    },
+    {
+      "id": "q6",
+      "question": "What happened at night?",
+      "options": ["踊りがあった", "花火があった", "音楽会があった", "映画があった"],
+      "correctAnswer": "花火があった"
+    },
+    {
+      "id": "q7",
+      "question": "How were the fireworks?",
+      "options": ["うるさかった", "短かった", "とてもきれいだった", "怖かった"],
+      "correctAnswer": "とてもきれいだった"
+    }
+  ],
+  "translation": {
+    "en": "Last Saturday, I went to the town festival. I went wearing a yukata. There were many food stalls. I ate takoyaki and yakisoba. I also tried goldfish scooping. But I couldn't catch even one. At night, there were fireworks. The fireworks were very beautiful. I want to go again next year.",
+    "fr": "Samedi dernier, je suis allé(e) au festival de la ville. J'y suis allé(e) en yukata. Il y avait beaucoup de stands de nourriture. J'ai mangé des takoyaki et des yakisoba. J'ai aussi essayé la pêche aux poissons rouges. Mais je n'ai pu en attraper aucun. Le soir, il y avait des feux d'artifice. Les feux d'artifice étaient très beaux. Je veux y retourner l'année prochaine."
+  }
+}

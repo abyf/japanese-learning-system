@@ -1,0 +1,105 @@
+{
+  "id": "v065",
+  "title": "Counting People & Things",
+  "titleEn": "Counting People & Things",
+  "titleFr": "Compter les personnes et les objets",
+  "level": "beginner",
+  "difficulty": 0.45,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "word_match",
+      "prompt": "What does 一人 mean?",
+      "prompt_fr": "Que signifie 一人 ?",
+      "word": "一人",
+      "options": ["One person / Alone", "Two people", "Three people", "One item"],
+      "options_fr": ["Une personne / Seul", "Deux personnes", "Trois personnes", "Un objet"],
+      "correctAnswer": "One person / Alone",
+      "meaning_fr": "Une personne / Seul"
+    },
+    {
+      "id": "q2",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of 二人?",
+      "prompt_fr": "Quelle est la lecture de 二人 ?",
+      "kanji": "二人",
+      "options": ["ふたり", "ににん", "ひとり", "さんにん"],
+      "correctAnswer": "ふたり",
+      "meaning_en": "two people",
+      "meaning_fr": "deux personnes"
+    },
+    {
+      "id": "q3",
+      "type": "word_match",
+      "prompt": "What counter is used for 一個?",
+      "prompt_fr": "Quel compteur est utilisé pour 一個 ?",
+      "word": "一個",
+      "options": ["Small round objects", "Flat objects", "Long objects", "People"],
+      "options_fr": ["Petits objets ronds", "Objets plats", "Objets longs", "Personnes"],
+      "correctAnswer": "Small round objects",
+      "meaning_fr": "Petits objets ronds"
+    },
+    {
+      "id": "q4",
+      "type": "word_match",
+      "prompt": "What counter is used for 一本?",
+      "prompt_fr": "Quel compteur est utilisé pour 一本 ?",
+      "word": "一本",
+      "options": ["Long thin objects", "Flat objects", "Small objects", "People"],
+      "options_fr": ["Objets longs et fins", "Objets plats", "Petits objets", "Personnes"],
+      "correctAnswer": "Long thin objects",
+      "meaning_fr": "Objets longs et fins"
+    },
+    {
+      "id": "q5",
+      "type": "word_match",
+      "prompt": "What counter is used for 一枚?",
+      "prompt_fr": "Quel compteur est utilisé pour 一枚 ?",
+      "word": "一枚",
+      "options": ["Flat thin objects", "Long objects", "Round objects", "Animals"],
+      "options_fr": ["Objets plats et fins", "Objets longs", "Objets ronds", "Animaux"],
+      "correctAnswer": "Flat thin objects",
+      "meaning_fr": "Objets plats et fins"
+    },
+    {
+      "id": "q6",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "りんごを三＿＿ください。(Three apples, please.)",
+      "sentence_fr": "りんごを三＿＿ください。(Trois pommes, s'il vous plaît.)",
+      "options": ["個", "本", "枚", "人"],
+      "correctAnswer": "個",
+      "meaning_en": "counter for small objects",
+      "meaning_fr": "compteur pour petits objets"
+    },
+    {
+      "id": "q7",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "切手を五＿＿買いました。(I bought five stamps.)",
+      "sentence_fr": "切手を五＿＿買いました。(J'ai acheté cinq timbres.)",
+      "options": ["枚", "本", "個", "冊"],
+      "correctAnswer": "枚",
+      "meaning_en": "counter for flat objects",
+      "meaning_fr": "compteur pour objets plats"
+    },
+    {
+      "id": "q8",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "ペンを二＿＿持っています。(I have two pens.)",
+      "sentence_fr": "ペンを二＿＿持っています。(J'ai deux stylos.)",
+      "options": ["本", "個", "枚", "冊"],
+      "correctAnswer": "本",
+      "meaning_en": "counter for long objects",
+      "meaning_fr": "compteur pour objets longs"
+    }
+  ],
+  "translation": {
+    "en": "This lesson covers Japanese counters for people and common objects.",
+    "fr": "Cette leçon couvre les compteurs japonais pour les personnes et les objets courants."
+  }
+}

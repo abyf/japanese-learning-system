@@ -1,0 +1,50 @@
+{
+  "id": "r079",
+  "title": "日本のお土産文化",
+  "titleEn": "Souvenir Culture",
+  "text": "<ruby>日本<rt>にほん</rt></ruby>では<ruby>旅行<rt>りょこう</rt></ruby>に<ruby>行<rt>い</rt></ruby>ったらお<ruby>土産<rt>みやげ</rt></ruby>を<ruby>買<rt>か</rt></ruby>います。<ruby>職場<rt>しょくば</rt></ruby>や<ruby>友達<rt>ともだち</rt></ruby>にも<ruby>配<rt>くば</rt></ruby>ります。お<ruby>菓子<rt>かし</rt></ruby>が<ruby>一番<rt>いちばん</rt></ruby><ruby>人気<rt>にんき</rt></ruby>です。<ruby>個包装<rt>こほうそう</rt></ruby>されているものが<ruby>配<rt>くば</rt></ruby>りやすいです。<ruby>各地<rt>かくち</rt></ruby>に<ruby>名物<rt>めいぶつ</rt></ruby>のお<ruby>土産<rt>みやげ</rt></ruby>があります。<ruby>東京<rt>とうきょう</rt></ruby>バナナや<ruby>京都<rt>きょうと</rt></ruby>の<ruby>八<rt>やつ</rt></ruby>ツ<ruby>橋<rt>はし</rt></ruby>が<ruby>有名<rt>ゆうめい</rt></ruby>です。「おみやげ」は<ruby>日本<rt>にほん</rt></ruby>の<ruby>大切<rt>たいせつ</rt></ruby>なコミュニケーションの<ruby>一<rt>ひと</rt></ruby>つです。",
+  "difficulty": 0.67,
+  "level": "beginner",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "When do Japanese people buy souvenirs?",
+      "options": ["毎日", "旅行に行った時", "誕生日", "お正月"],
+      "correctAnswer": "旅行に行った時"
+    },
+    {
+      "id": "q2",
+      "question": "Who do they give souvenirs to?",
+      "options": ["家族だけ", "職場や友達", "自分だけ", "隣人だけ"],
+      "correctAnswer": "職場や友達"
+    },
+    {
+      "id": "q3",
+      "question": "What is the most popular souvenir?",
+      "options": ["キーホルダー", "お菓子", "Tシャツ", "マグカップ"],
+      "correctAnswer": "お菓子"
+    },
+    {
+      "id": "q4",
+      "question": "What makes them easy to distribute?",
+      "options": ["安いもの", "個包装されているもの", "小さいもの", "軽いもの"],
+      "correctAnswer": "個包装されているもの"
+    },
+    {
+      "id": "q5",
+      "question": "What famous souvenir is mentioned for Tokyo?",
+      "options": ["東京タワーの模型", "東京バナナ", "浅草のお煎餅", "スカイツリーのキーホルダー"],
+      "correctAnswer": "東京バナナ"
+    },
+    {
+      "id": "q6",
+      "question": "What is omiyage considered?",
+      "options": ["無駄な習慣", "大切なコミュニケーション", "高い出費", "面倒なこと"],
+      "correctAnswer": "大切なコミュニケーション"
+    }
+  ],
+  "translation": {
+    "en": "In Japan, when you go on a trip, you buy souvenirs. You distribute them to your workplace and friends. Sweets are the most popular. Individually wrapped items are easy to distribute. Each area has its famous souvenirs. Tokyo Banana and Kyoto's yatsuhashi are famous. 'Omiyage' is one of Japan's important forms of communication.",
+    "fr": "Au Japon, quand on part en voyage, on achète des souvenirs. On les distribue au travail et aux amis. Les sucreries sont les plus populaires. Les articles emballés individuellement sont faciles à distribuer. Chaque région a ses souvenirs célèbres. Le Tokyo Banana et les yatsuhashi de Kyoto sont célèbres. Les 'omiyage' sont une forme importante de communication au Japon."
+  }
+}

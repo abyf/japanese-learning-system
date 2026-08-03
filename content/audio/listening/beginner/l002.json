@@ -1,0 +1,25 @@
+{
+  "id": "l002",
+  "title": "Self-Introduction",
+  "type": "multiple_choice",
+  "audioUrl": "/api/listening/beginner/l002/audio",
+  "transcript": "はじめまして。私は田中みきです。東京から来ました。大学で英語を勉強しています。趣味は映画を見ることです。よろしくお願いします。",
+  "questions": [
+    {
+      "question": "Where is Tanaka-san from?",
+      "options": ["Osaka", "Tokyo", "Kyoto", "Nagoya"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "What is she studying?",
+      "options": ["Japanese", "English", "Math", "Science"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "What is her hobby?",
+      "options": ["Reading books", "Watching movies", "Playing sports", "Cooking"],
+      "correctAnswer": 1
+    }
+  ],
+  "difficulty": 0.2
+}

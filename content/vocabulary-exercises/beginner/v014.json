@@ -1,0 +1,58 @@
+{
+  "id": "v014",
+  "title": "Adjectives 2",
+  "titleEn": "Adjectives 2",
+  "level": "beginner",
+  "difficulty": 0.3,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of this kanji?",
+      "prompt_fr": "Quelle est la lecture de ce kanji ?",
+      "kanji": "高",
+      "options": ["たか(い)", "やす(い)", "なが(い)", "みじか(い)"],
+      "correctAnswer": "たか(い)",
+      "meaning_en": "tall / expensive",
+      "meaning_fr": "haut / cher"
+    },
+    {
+      "id": "q2",
+      "type": "word_match",
+      "prompt": "What does 安い mean?",
+      "prompt_fr": "Que signifie 安い ?",
+      "word": "安い",
+      "options": ["Cheap / Inexpensive", "Expensive", "Safe", "Easy"],
+      "options_fr": ["Bon marché / Pas cher", "Cher", "Sûr", "Facile"],
+      "correctAnswer": "Cheap / Inexpensive",
+      "meaning_fr": "Bon marché / Pas cher"
+    },
+    {
+      "id": "q3",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "この道は＿＿いです。(This road is long)",
+      "sentence_fr": "この道は＿＿いです。(Cette route est longue)",
+      "options": ["長", "短", "高", "安"],
+      "correctAnswer": "長",
+      "meaning_en": "long",
+      "meaning_fr": "long"
+    },
+    {
+      "id": "q4",
+      "type": "kanji_recognition",
+      "prompt": "What does this kanji mean?",
+      "prompt_fr": "Que signifie ce kanji ?",
+      "kanji": "短",
+      "options": ["Short", "Long", "Narrow", "Wide"],
+      "options_fr": ["Court", "Long", "Étroit", "Large"],
+      "correctAnswer": "Short",
+      "meaning_fr": "Court"
+    }
+  ],
+  "translation": {
+    "en": "This lesson covers more adjectives: tall/expensive, cheap, long, short.",
+    "fr": "Cette leçon couvre d'autres adjectifs : haut/cher, bon marché, long, court."
+  }
+}

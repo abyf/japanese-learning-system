@@ -1,0 +1,104 @@
+{
+  "id": "v054",
+  "title": "Daily Routine Verbs",
+  "titleEn": "Daily Routine Verbs",
+  "titleFr": "Verbes de la routine quotidienne",
+  "level": "beginner",
+  "difficulty": 0.35,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of 起きる?",
+      "prompt_fr": "Quelle est la lecture de 起きる ?",
+      "kanji": "起きる",
+      "options": ["おきる", "ねる", "たべる", "でかける"],
+      "correctAnswer": "おきる",
+      "meaning_en": "to wake up / to get up",
+      "meaning_fr": "se réveiller / se lever"
+    },
+    {
+      "id": "q2",
+      "type": "word_match",
+      "prompt": "What does 寝る mean?",
+      "prompt_fr": "Que signifie 寝る ?",
+      "word": "寝る",
+      "options": ["To sleep / To go to bed", "To wake up", "To eat", "To go out"],
+      "options_fr": ["Dormir / Se coucher", "Se réveiller", "Manger", "Sortir"],
+      "correctAnswer": "To sleep / To go to bed",
+      "meaning_fr": "Dormir / Se coucher"
+    },
+    {
+      "id": "q3",
+      "type": "word_match",
+      "prompt": "What does 出かける mean?",
+      "prompt_fr": "Que signifie 出かける ?",
+      "word": "出かける",
+      "options": ["To go out / To leave", "To come back", "To sleep", "To eat"],
+      "options_fr": ["Sortir / Partir", "Revenir", "Dormir", "Manger"],
+      "correctAnswer": "To go out / To leave",
+      "meaning_fr": "Sortir / Partir"
+    },
+    {
+      "id": "q4",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "毎朝六時に＿＿ます。(I wake up at 6 every morning.)",
+      "sentence_fr": "毎朝六時に＿＿ます。(Je me réveille à 6 heures chaque matin.)",
+      "options": ["起き", "寝", "食べ", "出かけ"],
+      "correctAnswer": "起き",
+      "meaning_en": "wake up",
+      "meaning_fr": "se réveiller"
+    },
+    {
+      "id": "q5",
+      "type": "word_match",
+      "prompt": "What does 着替える mean?",
+      "prompt_fr": "Que signifie 着替える ?",
+      "word": "着替える",
+      "options": ["To change clothes", "To take a bath", "To eat", "To brush teeth"],
+      "options_fr": ["Se changer", "Prendre un bain", "Manger", "Se brosser les dents"],
+      "correctAnswer": "To change clothes",
+      "meaning_fr": "Se changer"
+    },
+    {
+      "id": "q6",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "十一時に＿＿ます。(I go to bed at 11.)",
+      "sentence_fr": "十一時に＿＿ます。(Je me couche à 23 heures.)",
+      "options": ["寝", "起き", "出かけ", "食べ"],
+      "correctAnswer": "寝",
+      "meaning_en": "sleep / go to bed",
+      "meaning_fr": "dormir / se coucher"
+    },
+    {
+      "id": "q7",
+      "type": "word_match",
+      "prompt": "What does シャワーを浴びる mean?",
+      "prompt_fr": "Que signifie シャワーを浴びる ?",
+      "word": "シャワーを浴びる",
+      "options": ["To take a shower", "To take a bath", "To wash hands", "To brush teeth"],
+      "options_fr": ["Prendre une douche", "Prendre un bain", "Se laver les mains", "Se brosser les dents"],
+      "correctAnswer": "To take a shower",
+      "meaning_fr": "Prendre une douche"
+    },
+    {
+      "id": "q8",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of 食べる?",
+      "prompt_fr": "Quelle est la lecture de 食べる ?",
+      "kanji": "食べる",
+      "options": ["たべる", "のむ", "おきる", "ねる"],
+      "correctAnswer": "たべる",
+      "meaning_en": "to eat",
+      "meaning_fr": "manger"
+    }
+  ],
+  "translation": {
+    "en": "This lesson covers verbs used to describe daily routines and habits.",
+    "fr": "Cette leçon couvre les verbes utilisés pour décrire les routines et habitudes quotidiennes."
+  }
+}

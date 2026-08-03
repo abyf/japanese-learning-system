@@ -1,0 +1,38 @@
+{
+  "id": "r005",
+  "title": "日本文学",
+  "titleEn": "Japanese Literature",
+  "text": "日本文学は千年以上の歴史を持ち、世界文学において独自の地位を占めている。平安時代に紫式部によって書かれた『源氏物語』は、世界最古の長編小説とされ、当時の貴族社会の心理を繊細に描写している。また、松尾芭蕉に代表される俳句は、わずか十七音で自然の美や人生の機微を表現する、類を見ない文学形式である。近代以降、夏目漱石は西洋文明と日本的価値観の葛藤を描き、川端康成は1968年にノーベル文学賞を受賞した。その後も大江健三郎が1994年に同賞を受賞し、村上春樹は国際的に最も読まれる日本人作家となっている。日本文学の特徴として、自然との調和、「もののあわれ」に代表される繊細な美意識、そして内面世界への深い洞察が挙げられる。現代文学においても、これらの伝統は形を変えながら継承されている。日本文学は、普遍的な人間の感情を独自の美学を通して表現することで、言語や文化の壁を越えて世界中の読者を魅了し続けている。",
+  "difficulty": 0.9,
+  "level": "advanced",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Who wrote 'The Tale of Genji'?",
+      "options": ["清少納言", "紫式部", "松尾芭蕉", "夏目漱石"],
+      "correctAnswer": "紫式部"
+    },
+    {
+      "id": "q2",
+      "question": "When did Kawabata Yasunari receive the Nobel Prize in Literature?",
+      "options": ["1958年", "1968年", "1978年", "1994年"],
+      "correctAnswer": "1968年"
+    },
+    {
+      "id": "q3",
+      "question": "How many syllables/sounds does haiku use?",
+      "options": ["五音", "十二音", "十七音", "三十一音"],
+      "correctAnswer": "十七音"
+    },
+    {
+      "id": "q4",
+      "question": "Which is NOT mentioned as a characteristic of Japanese literature?",
+      "options": ["自然との調和", "繊細な美意識", "内面世界への深い洞察", "社会批判の精神"],
+      "correctAnswer": "社会批判の精神"
+    }
+  ],
+  "translation": {
+    "en": "Japanese literature has a history of over a thousand years and holds a unique position in world literature. 'The Tale of Genji,' written by Murasaki Shikibu in the Heian period, is considered the world's oldest full-length novel and delicately depicts the psychology of aristocratic society at the time. Additionally, haiku, represented by Matsuo Basho, is an unparalleled literary form that expresses the beauty of nature and the subtleties of life in just seventeen syllables. In the modern era, Natsume Soseki depicted the conflict between Western civilization and Japanese values, and Kawabata Yasunari won the Nobel Prize in Literature in 1968. Later, Oe Kenzaburo received the same prize in 1994, and Murakami Haruki has become the most internationally read Japanese author. Characteristics of Japanese literature include harmony with nature, a delicate aesthetic sensibility represented by 'mono no aware,' and deep insight into the inner world. Even in contemporary literature, these traditions continue in changing forms. Japanese literature continues to captivate readers worldwide by expressing universal human emotions through its unique aesthetics, transcending barriers of language and culture.",
+    "fr": "La littérature japonaise a une histoire de plus de mille ans et occupe une place unique dans la littérature mondiale. « Le Dit du Genji », écrit par Murasaki Shikibu à l'époque de Heian, est considéré comme le plus ancien roman long du monde et décrit avec délicatesse la psychologie de la société aristocratique de l'époque. De plus, le haïku, représenté par Matsuo Basho, est une forme littéraire sans pareille qui exprime la beauté de la nature et les subtilités de la vie en seulement dix-sept syllabes. À l'ère moderne, Natsume Soseki a dépeint le conflit entre la civilisation occidentale et les valeurs japonaises, et Kawabata Yasunari a remporté le prix Nobel de littérature en 1968. Plus tard, Oe Kenzaburo a reçu le même prix en 1994, et Murakami Haruki est devenu l'auteur japonais le plus lu à l'international. Les caractéristiques de la littérature japonaise incluent l'harmonie avec la nature, une sensibilité esthétique délicate représentée par le « mono no aware », et une profonde introspection du monde intérieur. Même dans la littérature contemporaine, ces traditions se perpétuent sous des formes changeantes. La littérature japonaise continue de captiver les lecteurs du monde entier en exprimant des émotions humaines universelles à travers son esthétique unique, transcendant les barrières de la langue et de la culture."
+  }
+}

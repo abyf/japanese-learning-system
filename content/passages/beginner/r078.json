@@ -1,0 +1,50 @@
+{
+  "id": "r078",
+  "title": "敬語の基本",
+  "titleEn": "Basic Keigo",
+  "text": "<ruby>敬語<rt>けいご</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>の<ruby>丁寧<rt>ていねい</rt></ruby>な<ruby>言<rt>い</rt></ruby>い<ruby>方<rt>かた</rt></ruby>です。<ruby>三種類<rt>さんしゅるい</rt></ruby>あります：<ruby>尊敬語<rt>そんけいご</rt></ruby>、<ruby>謙譲語<rt>けんじょうご</rt></ruby>、<ruby>丁寧語<rt>ていねいご</rt></ruby>です。<ruby>尊敬語<rt>そんけいご</rt></ruby>は<ruby>相手<rt>あいて</rt></ruby>を<ruby>高<rt>たか</rt></ruby>くする<ruby>言葉<rt>ことば</rt></ruby>です。<ruby>謙譲語<rt>けんじょうご</rt></ruby>は<ruby>自分<rt>じぶん</rt></ruby>を<ruby>低<rt>ひく</rt></ruby>くする<ruby>言葉<rt>ことば</rt></ruby>です。<ruby>丁寧語<rt>ていねいご</rt></ruby>は「です・ます」を<ruby>使<rt>つか</rt></ruby>う<ruby>言葉<rt>ことば</rt></ruby>です。<ruby>仕事<rt>しごと</rt></ruby>では<ruby>敬語<rt>けいご</rt></ruby>を<ruby>使<rt>つか</rt></ruby>うことが<ruby>必要<rt>ひつよう</rt></ruby>です。<ruby>外国人<rt>がいこくじん</rt></ruby>にとって<ruby>敬語<rt>けいご</rt></ruby>は<ruby>難<rt>むずか</rt></ruby>しいですが、<ruby>少<rt>すこ</rt></ruby>しずつ<ruby>覚<rt>おぼ</rt></ruby>えましょう。",
+  "difficulty": 0.7,
+  "level": "beginner",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What is keigo?",
+      "options": ["方言", "丁寧な言い方", "若者言葉", "古い言葉"],
+      "correctAnswer": "丁寧な言い方"
+    },
+    {
+      "id": "q2",
+      "question": "How many types of keigo are there?",
+      "options": ["二種類", "三種類", "四種類", "五種類"],
+      "correctAnswer": "三種類"
+    },
+    {
+      "id": "q3",
+      "question": "What does sonkeigo do?",
+      "options": ["自分を高くする", "相手を高くする", "両方を高くする", "両方を低くする"],
+      "correctAnswer": "相手を高くする"
+    },
+    {
+      "id": "q4",
+      "question": "What does kenjogo do?",
+      "options": ["相手を高くする", "自分を低くする", "自分を高くする", "相手を低くする"],
+      "correctAnswer": "自分を低くする"
+    },
+    {
+      "id": "q5",
+      "question": "Where is keigo necessary?",
+      "options": ["家で", "仕事で", "友達と", "子供と"],
+      "correctAnswer": "仕事で"
+    },
+    {
+      "id": "q6",
+      "question": "What is teineigo?",
+      "options": ["尊敬の言葉", "です・ますを使う言葉", "友達言葉", "方言"],
+      "correctAnswer": "です・ますを使う言葉"
+    }
+  ],
+  "translation": {
+    "en": "Keigo is the polite way of speaking in Japanese. There are three types: sonkeigo (respectful language), kenjogo (humble language), and teineigo (polite language). Sonkeigo elevates the other person. Kenjogo lowers yourself. Teineigo uses 'desu/masu' forms. Using keigo at work is necessary. Keigo is difficult for foreigners, but let's learn it little by little.",
+    "fr": "Le keigo est la manière polie de parler en japonais. Il en existe trois types : sonkeigo (langage respectueux), kenjogo (langage humble) et teineigo (langage poli). Le sonkeigo élève l'interlocuteur. Le kenjogo abaisse soi-même. Le teineigo utilise les formes 'desu/masu'. Utiliser le keigo au travail est nécessaire. Le keigo est difficile pour les étrangers, mais apprenons-le petit à petit."
+  }
+}

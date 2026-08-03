@@ -1,0 +1,38 @@
+{
+  "id": "r001",
+  "title": "茶道",
+  "titleEn": "Tea Ceremony",
+  "text": "<ruby>茶道<rt>さどう</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>の<ruby>伝統的<rt>でんとうてき</rt></ruby>な<ruby>文化<rt>ぶんか</rt></ruby>の一つです。<ruby>約<rt>やく</rt></ruby>500<ruby>年<rt>ねん</rt></ruby>の<ruby>歴史<rt>れきし</rt></ruby>があります。<ruby>茶道<rt>さどう</rt></ruby>では、<ruby>抹茶<rt>まっちゃ</rt></ruby>というお<ruby>茶<rt>ちゃ</rt></ruby>を<ruby>点<rt>た</rt></ruby>てて、お<ruby>客<rt>きゃく</rt></ruby>さんに<ruby>出<rt>だ</rt></ruby>します。しかし、<ruby>茶道<rt>さどう</rt></ruby>は<ruby>単<rt>たん</rt></ruby>にお<ruby>茶<rt>ちゃ</rt></ruby>を<ruby>飲<rt>の</rt></ruby>むだけではありません。「<ruby>和敬清寂<rt>わけいせいじゃく</rt></ruby>」という<ruby>精神<rt>せいしん</rt></ruby>が<ruby>大切<rt>たいせつ</rt></ruby>です。これは、<ruby>調和<rt>ちょうわ</rt></ruby>、<ruby>尊敬<rt>そんけい</rt></ruby>、<ruby>清潔<rt>せいけつ</rt></ruby>、<ruby>静<rt>しず</rt></ruby>けさを<ruby>意味<rt>いみ</rt></ruby>します。<ruby>茶室<rt>ちゃしつ</rt></ruby>は<ruby>小<rt>ちい</rt></ruby>さくて<ruby>簡素<rt>かんそ</rt></ruby>な<ruby>部屋<rt>へや</rt></ruby>です。<ruby>入<rt>はい</rt></ruby>る<ruby>時<rt>とき</rt></ruby>、<ruby>頭<rt>あたま</rt></ruby>を<ruby>下<rt>さ</rt></ruby>げなければなりません。これは<ruby>謙虚<rt>けんきょ</rt></ruby>さを<ruby>表<rt>あらわ</rt></ruby>しています。<ruby>茶道<rt>さどう</rt></ruby>を<ruby>通<rt>とお</rt></ruby>して、<ruby>日本人<rt>にほんじん</rt></ruby>は<ruby>心<rt>こころ</rt></ruby>の<ruby>平和<rt>へいわ</rt></ruby>を<ruby>求<rt>もと</rt></ruby>めてきました。<ruby>現在<rt>げんざい</rt></ruby>も<ruby>多<rt>おお</rt></ruby>くの<ruby>人<rt>ひと</rt></ruby>が<ruby>茶道<rt>さどう</rt></ruby>を<ruby>習<rt>なら</rt></ruby>っています。",
+  "difficulty": 0.5,
+  "level": "intermediate",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "How long is the history of the tea ceremony?",
+      "options": ["約100年", "約300年", "約500年", "約1000年"],
+      "correctAnswer": "約500年"
+    },
+    {
+      "id": "q2",
+      "question": "What does 和敬清寂 mean?",
+      "options": ["美しさ、強さ、知恵、勇気", "調和、尊敬、清潔、静けさ", "愛、友情、努力、成功", "自然、伝統、礼儀、品格"],
+      "correctAnswer": "調和、尊敬、清潔、静けさ"
+    },
+    {
+      "id": "q3",
+      "question": "Why must you bow when entering the tea room?",
+      "options": ["部屋が小さいから", "謙虚さを表すため", "お茶を飲むため", "靴を脱ぐため"],
+      "correctAnswer": "謙虚さを表すため"
+    },
+    {
+      "id": "q4",
+      "question": "What type of tea is used in the tea ceremony?",
+      "options": ["緑茶", "抹茶", "ほうじ茶", "紅茶"],
+      "correctAnswer": "抹茶"
+    }
+  ],
+  "translation": {
+    "en": "The tea ceremony is one of Japan's traditional cultures. It has a history of about 500 years. In the tea ceremony, matcha tea is prepared and served to guests. However, the tea ceremony is not just about drinking tea. The spirit of 'wa-kei-sei-jaku' is important. This means harmony, respect, purity, and tranquility. The tea room is a small and simple room. When entering, you must bow your head. This represents humility. Through the tea ceremony, Japanese people have sought peace of mind. Even today, many people study the tea ceremony.",
+    "fr": "La cérémonie du thé est l'une des cultures traditionnelles du Japon. Elle a une histoire d'environ 500 ans. Lors de la cérémonie du thé, on prépare du thé matcha et on le sert aux invités. Cependant, la cérémonie du thé ne consiste pas simplement à boire du thé. L'esprit du « wa-kei-sei-jaku » est important. Cela signifie harmonie, respect, pureté et tranquillité. La salle de thé est une pièce petite et simple. En entrant, il faut baisser la tête. Cela représente l'humilité. À travers la cérémonie du thé, les Japonais ont cherché la paix intérieure. Aujourd'hui encore, beaucoup de personnes étudient la cérémonie du thé."
+  }
+}

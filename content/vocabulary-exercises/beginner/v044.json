@@ -1,0 +1,83 @@
+{
+  "id": "v044",
+  "title": "Giving & Receiving",
+  "titleEn": "Giving & Receiving",
+  "titleFr": "Donner et recevoir",
+  "level": "beginner",
+  "difficulty": 0.5,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "word_match",
+      "prompt": "What does あげる mean?",
+      "prompt_fr": "Que signifie あげる ?",
+      "word": "あげる",
+      "options": ["To give (to someone)", "To receive", "To give (to me)", "To lend"],
+      "options_fr": ["Donner (à quelqu'un)", "Recevoir", "Donner (à moi)", "Prêter"],
+      "correctAnswer": "To give (to someone)",
+      "meaning_fr": "Donner (à quelqu'un)"
+    },
+    {
+      "id": "q2",
+      "type": "word_match",
+      "prompt": "What does もらう mean?",
+      "prompt_fr": "Que signifie もらう ?",
+      "word": "もらう",
+      "options": ["To receive", "To give", "To lend", "To borrow"],
+      "options_fr": ["Recevoir", "Donner", "Prêter", "Emprunter"],
+      "correctAnswer": "To receive",
+      "meaning_fr": "Recevoir"
+    },
+    {
+      "id": "q3",
+      "type": "word_match",
+      "prompt": "What does くれる mean?",
+      "prompt_fr": "Que signifie くれる ?",
+      "word": "くれる",
+      "options": ["To give (to me/my group)", "To receive from", "To lend to", "To take"],
+      "options_fr": ["Donner (à moi/mon groupe)", "Recevoir de", "Prêter à", "Prendre"],
+      "correctAnswer": "To give (to me/my group)",
+      "meaning_fr": "Donner (à moi/mon groupe)"
+    },
+    {
+      "id": "q4",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "友達にプレゼントを＿＿ました。(I gave a present to my friend)",
+      "sentence_fr": "友達にプレゼントを＿＿ました。(J'ai donné un cadeau à mon ami)",
+      "options": ["あげ", "もらい", "くれ", "かし"],
+      "correctAnswer": "あげ",
+      "meaning_en": "to give (to someone)",
+      "meaning_fr": "donner (à quelqu'un)"
+    },
+    {
+      "id": "q5",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "母から手紙を＿＿ました。(I received a letter from my mother)",
+      "sentence_fr": "母から手紙を＿＿ました。(J'ai reçu une lettre de ma mère)",
+      "options": ["もらい", "あげ", "くれ", "かり"],
+      "correctAnswer": "もらい",
+      "meaning_en": "to receive",
+      "meaning_fr": "recevoir"
+    },
+    {
+      "id": "q6",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "先生が本を＿＿ました。(The teacher gave me a book)",
+      "sentence_fr": "先生が本を＿＿ました。(Le professeur m'a donné un livre)",
+      "options": ["くれ", "あげ", "もらい", "かし"],
+      "correctAnswer": "くれ",
+      "meaning_en": "to give (to me)",
+      "meaning_fr": "donner (à moi)"
+    }
+  ],
+  "translation": {
+    "en": "This lesson covers the verbs of giving and receiving: あげる, もらう, and くれる.",
+    "fr": "Cette leçon couvre les verbes donner et recevoir : あげる, もらう et くれる."
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "id": "v084",
+  "title": "JLPT N5 Essential Phrases",
+  "titleEn": "JLPT N5 Essential Phrases",
+  "titleFr": "Phrases essentielles JLPT N5",
+  "level": "beginner",
+  "difficulty": 0.7,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "word_match",
+      "prompt": "What does すみません mean?",
+      "prompt_fr": "Que signifie すみません ?",
+      "word": "すみません",
+      "options": ["Excuse me / I'm sorry", "Thank you", "Hello", "Goodbye"],
+      "options_fr": ["Excusez-moi / Pardon", "Merci", "Bonjour", "Au revoir"],
+      "correctAnswer": "Excuse me / I'm sorry",
+      "meaning_fr": "Excusez-moi / Pardon"
+    },
+    {
+      "id": "q2",
+      "type": "word_match",
+      "prompt": "What does 大丈夫 mean?",
+      "prompt_fr": "Que signifie 大丈夫 ?",
+      "word": "大丈夫",
+      "options": ["It's okay / I'm fine", "I'm sorry", "Thank you", "Goodbye"],
+      "options_fr": ["C'est bon / Ça va", "Je suis désolé", "Merci", "Au revoir"],
+      "correctAnswer": "It's okay / I'm fine",
+      "meaning_fr": "C'est bon / Ça va"
+    },
+    {
+      "id": "q3",
+      "type": "word_match",
+      "prompt": "What does お疲れ様 mean?",
+      "prompt_fr": "Que signifie お疲れ様 ?",
+      "word": "お疲れ様",
+      "options": ["Good work / Thank you for your effort", "Good morning", "I'm tired", "See you tomorrow"],
+      "options_fr": ["Bon travail / Merci pour votre effort", "Bonjour", "Je suis fatigué", "À demain"],
+      "correctAnswer": "Good work / Thank you for your effort",
+      "meaning_fr": "Bon travail / Merci pour votre effort"
+    },
+    {
+      "id": "q4",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "＿＿、駅はどこですか。(Excuse me, where is the station?)",
+      "sentence_fr": "＿＿、駅はどこですか。(Excusez-moi, où est la gare ?)",
+      "options": ["すみません", "ありがとう", "大丈夫", "お疲れ様"],
+      "correctAnswer": "すみません",
+      "meaning_en": "excuse me",
+      "meaning_fr": "excusez-moi"
+    },
+    {
+      "id": "q5",
+      "type": "word_match",
+      "prompt": "What does お願いします mean?",
+      "prompt_fr": "Que signifie お願いします ?",
+      "word": "お願いします",
+      "options": ["Please / I request", "Thank you", "I'm sorry", "You're welcome"],
+      "options_fr": ["S'il vous plaît / Je vous prie", "Merci", "Pardon", "De rien"],
+      "correctAnswer": "Please / I request",
+      "meaning_fr": "S'il vous plaît / Je vous prie"
+    },
+    {
+      "id": "q6",
+      "type": "word_match",
+      "prompt": "What does いただきます mean?",
+      "prompt_fr": "Que signifie いただきます ?",
+      "word": "いただきます",
+      "options": ["Let's eat (before a meal)", "Thank you for the meal", "I'm full", "It's delicious"],
+      "options_fr": ["Bon appétit (avant le repas)", "Merci pour le repas", "Je suis rassasié", "C'est délicieux"],
+      "correctAnswer": "Let's eat (before a meal)",
+      "meaning_fr": "Bon appétit (avant le repas)"
+    },
+    {
+      "id": "q7",
+      "type": "word_match",
+      "prompt": "What does ごちそうさまでした mean?",
+      "prompt_fr": "Que signifie ごちそうさまでした ?",
+      "word": "ごちそうさまでした",
+      "options": ["Thank you for the meal (after eating)", "Let's eat", "It was delicious", "I'm hungry"],
+      "options_fr": ["Merci pour le repas (après manger)", "Bon appétit", "C'était délicieux", "J'ai faim"],
+      "correctAnswer": "Thank you for the meal (after eating)",
+      "meaning_fr": "Merci pour le repas (après manger)"
+    },
+    {
+      "id": "q8",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "心配しないで、＿＿ですよ。(Don't worry, it's okay.)",
+      "sentence_fr": "心配しないで、＿＿ですよ。(Ne vous inquiétez pas, c'est bon.)",
+      "options": ["大丈夫", "すみません", "お疲れ様", "お願い"],
+      "correctAnswer": "大丈夫",
+      "meaning_en": "it's okay",
+      "meaning_fr": "c'est bon"
+    }
+  ],
+  "translation": {
+    "en": "This lesson covers essential everyday phrases for the JLPT N5 level.",
+    "fr": "Cette leçon couvre les phrases essentielles du quotidien pour le niveau JLPT N5."
+  }
+}

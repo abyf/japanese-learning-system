@@ -1,0 +1,10 @@
+{
+  "id": "d007",
+  "title": "Short Sentence",
+  "titleFr": "Phrase courte",
+  "expectedText": "今日は天気がいいです",
+  "audioUrl": "/api/dictation/beginner/d007/audio",
+  "difficulty": 0.25,
+  "hint": "A comment about today's weather",
+  "hintFr": "Un commentaire sur la météo d'aujourd'hui"
+}

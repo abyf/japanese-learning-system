@@ -1,0 +1,38 @@
+{
+  "id": "r003",
+  "title": "環境問題",
+  "titleEn": "Environmental Issues",
+  "text": "地球温暖化は、人類が直面する最も深刻な環境問題の一つである。産業革命以降、化石燃料の大量消費により、大気中の二酸化炭素濃度は急激に上昇した。その結果、世界の平均気温は約1.1度上昇し、海面上昇、異常気象の頻発、生態系の破壊など、様々な影響が顕在化している。日本も例外ではない。近年、豪雨による水害や猛暑日の増加が深刻な問題となっている。2050年までにカーボンニュートラルを達成するという目標の下、再生可能エネルギーの導入拡大、電気自動車の普及促進、省エネルギー技術の開発などが推進されている。しかし、経済成長と環境保全の両立は容易ではない。特に、製造業を基盤とする日本経済にとって、急激な脱炭素化は産業構造の根本的な転換を意味する。個人レベルでも、プラスチック削減、食品ロスの防止、公共交通機関の利用など、日常生活における行動変容が求められている。環境問題の解決には、政府、企業、市民が一体となった取り組みが不可欠である。",
+  "difficulty": 0.85,
+  "level": "advanced",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "How much has the global average temperature risen?",
+      "options": ["約0.5度", "約1.1度", "約2.0度", "約3.5度"],
+      "correctAnswer": "約1.1度"
+    },
+    {
+      "id": "q2",
+      "question": "What is Japan's carbon neutrality target year?",
+      "options": ["2030年", "2040年", "2050年", "2060年"],
+      "correctAnswer": "2050年"
+    },
+    {
+      "id": "q3",
+      "question": "What challenge does rapid decarbonization pose for Japan?",
+      "options": ["人口減少", "産業構造の根本的な転換", "教育の質の低下", "外交問題"],
+      "correctAnswer": "産業構造の根本的な転換"
+    },
+    {
+      "id": "q4",
+      "question": "What is needed to solve environmental problems?",
+      "options": ["技術開発だけ", "政府の政策だけ", "政府、企業、市民が一体となった取り組み", "国際機関の指導"],
+      "correctAnswer": "政府、企業、市民が一体となった取り組み"
+    }
+  ],
+  "translation": {
+    "en": "Global warming is one of the most serious environmental problems facing humanity. Since the Industrial Revolution, the massive consumption of fossil fuels has caused a rapid increase in atmospheric carbon dioxide concentrations. As a result, the world's average temperature has risen by about 1.1 degrees, and various impacts such as sea level rise, frequent extreme weather events, and ecosystem destruction have become apparent. Japan is no exception. In recent years, flood damage from heavy rains and the increase in extremely hot days have become serious problems. Under the goal of achieving carbon neutrality by 2050, the expansion of renewable energy, promotion of electric vehicles, and development of energy-saving technologies are being pursued. However, balancing economic growth and environmental conservation is not easy. In particular, for the Japanese economy based on manufacturing, rapid decarbonization means a fundamental transformation of the industrial structure. At the individual level as well, behavioral changes in daily life such as reducing plastic, preventing food waste, and using public transportation are required. Solving environmental problems requires efforts by government, businesses, and citizens working together.",
+    "fr": "Le réchauffement climatique est l'un des problèmes environnementaux les plus graves auxquels l'humanité est confrontée. Depuis la révolution industrielle, la consommation massive de combustibles fossiles a provoqué une augmentation rapide des concentrations de dioxyde de carbone dans l'atmosphère. En conséquence, la température moyenne mondiale a augmenté d'environ 1,1 degré, et divers impacts tels que la montée du niveau de la mer, la fréquence des événements météorologiques extrêmes et la destruction des écosystèmes sont devenus apparents. Le Japon ne fait pas exception. Ces dernières années, les dommages causés par les fortes pluies et l'augmentation des jours de chaleur extrême sont devenus des problèmes graves. Sous l'objectif d'atteindre la neutralité carbone d'ici 2050, l'expansion des énergies renouvelables, la promotion des véhicules électriques et le développement de technologies d'économie d'énergie sont poursuivis. Cependant, concilier croissance économique et préservation de l'environnement n'est pas facile. En particulier, pour l'économie japonaise basée sur la fabrication, une décarbonation rapide signifie une transformation fondamentale de la structure industrielle. Au niveau individuel également, des changements de comportement dans la vie quotidienne comme la réduction du plastique, la prévention du gaspillage alimentaire et l'utilisation des transports en commun sont nécessaires. Résoudre les problèmes environnementaux nécessite des efforts conjoints du gouvernement, des entreprises et des citoyens."
+  }
+}

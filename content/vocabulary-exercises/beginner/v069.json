@@ -1,0 +1,102 @@
+{
+  "id": "v069",
+  "title": "Kanji: People",
+  "titleEn": "Kanji: People",
+  "titleFr": "Kanji : Personnes",
+  "level": "beginner",
+  "difficulty": 0.45,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of 人?",
+      "prompt_fr": "Quelle est la lecture de 人 ?",
+      "kanji": "人",
+      "options": ["ひと/じん/にん", "おとこ", "おんな", "こ"],
+      "correctAnswer": "ひと/じん/にん",
+      "meaning_en": "person / people",
+      "meaning_fr": "personne / gens"
+    },
+    {
+      "id": "q2",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of 男?",
+      "prompt_fr": "Quelle est la lecture de 男 ?",
+      "kanji": "男",
+      "options": ["おとこ", "おんな", "こ", "ひと"],
+      "correctAnswer": "おとこ",
+      "meaning_en": "man / male",
+      "meaning_fr": "homme / masculin"
+    },
+    {
+      "id": "q3",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of 女?",
+      "prompt_fr": "Quelle est la lecture de 女 ?",
+      "kanji": "女",
+      "options": ["おんな", "おとこ", "こ", "がく"],
+      "correctAnswer": "おんな",
+      "meaning_en": "woman / female",
+      "meaning_fr": "femme / féminin"
+    },
+    {
+      "id": "q4",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of 子?",
+      "prompt_fr": "Quelle est la lecture de 子 ?",
+      "kanji": "子",
+      "options": ["こ", "ひと", "おとこ", "せい"],
+      "correctAnswer": "こ",
+      "meaning_en": "child",
+      "meaning_fr": "enfant"
+    },
+    {
+      "id": "q5",
+      "type": "word_match",
+      "prompt": "What does 学生 mean?",
+      "prompt_fr": "Que signifie 学生 ?",
+      "word": "学生",
+      "options": ["Student", "Teacher", "Child", "Adult"],
+      "options_fr": ["Étudiant", "Professeur", "Enfant", "Adulte"],
+      "correctAnswer": "Student",
+      "meaning_fr": "Étudiant"
+    },
+    {
+      "id": "q6",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of 先生?",
+      "prompt_fr": "Quelle est la lecture de 先生 ?",
+      "kanji": "先生",
+      "options": ["せんせい", "がくせい", "じんせい", "いしゃ"],
+      "correctAnswer": "せんせい",
+      "meaning_en": "teacher / doctor (honorific)",
+      "meaning_fr": "professeur / docteur (honorifique)"
+    },
+    {
+      "id": "q7",
+      "type": "word_match",
+      "prompt": "What does 男の子 mean?",
+      "prompt_fr": "Que signifie 男の子 ?",
+      "word": "男の子",
+      "options": ["Boy", "Girl", "Man", "Woman"],
+      "options_fr": ["Garçon", "Fille", "Homme", "Femme"],
+      "correctAnswer": "Boy",
+      "meaning_fr": "Garçon"
+    },
+    {
+      "id": "q8",
+      "type": "word_match",
+      "prompt": "What does 女の子 mean?",
+      "prompt_fr": "Que signifie 女の子 ?",
+      "word": "女の子",
+      "options": ["Girl", "Boy", "Woman", "Man"],
+      "options_fr": ["Fille", "Garçon", "Femme", "Homme"],
+      "correctAnswer": "Girl",
+      "meaning_fr": "Fille"
+    }
+  ],
+  "translation": {
+    "en": "This lesson covers kanji related to people: person, man, woman, child, student, and teacher.",
+    "fr": "Cette leçon couvre les kanji liés aux personnes : personne, homme, femme, enfant, étudiant et professeur."
+  }
+}

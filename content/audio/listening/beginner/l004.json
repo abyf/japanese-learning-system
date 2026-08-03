@@ -1,0 +1,25 @@
+{
+  "id": "l004",
+  "title": "Telling Time",
+  "type": "multiple_choice",
+  "audioUrl": "/api/listening/beginner/l004/audio",
+  "transcript": "すみません、今何時ですか。 三時十五分です。 ありがとうございます。映画は三時半からなので、まだ大丈夫ですね。 はい、あと十五分ありますよ。",
+  "questions": [
+    {
+      "question": "What time is it now?",
+      "options": ["3:00", "3:15", "3:30", "3:45"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "What time does the movie start?",
+      "options": ["3:00", "3:15", "3:30", "4:00"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "How much time is left before the movie?",
+      "options": ["5 minutes", "10 minutes", "15 minutes", "30 minutes"],
+      "correctAnswer": 2
+    }
+  ],
+  "difficulty": 0.25
+}

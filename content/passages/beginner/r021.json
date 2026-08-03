@@ -1,0 +1,50 @@
+{
+  "id": "r021",
+  "title": "駅で",
+  "titleEn": "At the Station",
+  "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>駅<rt>えき</rt></ruby>にいます。<ruby>東京<rt>とうきょう</rt></ruby><ruby>行<rt>い</rt></ruby>きの<ruby>電車<rt>でんしゃ</rt></ruby>に<ruby>乗<rt>の</rt></ruby>りたいです。<ruby>駅員<rt>えきいん</rt></ruby>さんに「すみません、<ruby>東京<rt>とうきょう</rt></ruby><ruby>行<rt>い</rt></ruby>きは<ruby>何番線<rt>なんばんせん</rt></ruby>ですか」と<ruby>聞<rt>き</rt></ruby>きました。<ruby>駅員<rt>えきいん</rt></ruby>さんは「<ruby>三番線<rt>さんばんせん</rt></ruby>です」と<ruby>教<rt>おし</rt></ruby>えてくれました。<ruby>切符<rt>きっぷ</rt></ruby>は<ruby>券売機<rt>けんばいき</rt></ruby>で<ruby>買<rt>か</rt></ruby>いました。<ruby>片道<rt>かたみち</rt></ruby>で<ruby>五百円<rt>ごひゃくえん</rt></ruby>でした。<ruby>電車<rt>でんしゃ</rt></ruby>は<ruby>十時<rt>じゅうじ</rt></ruby>に<ruby>来<rt>き</rt></ruby>ます。あと<ruby>五分<rt>ごふん</rt></ruby>です。",
+  "difficulty": 0.25,
+  "level": "beginner",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Where is the speaker?",
+      "options": ["バス停", "駅", "空港", "タクシー乗り場"],
+      "correctAnswer": "駅"
+    },
+    {
+      "id": "q2",
+      "question": "Where does the speaker want to go?",
+      "options": ["大阪", "京都", "東京", "横浜"],
+      "correctAnswer": "東京"
+    },
+    {
+      "id": "q3",
+      "question": "What platform is the train on?",
+      "options": ["一番線", "二番線", "三番線", "四番線"],
+      "correctAnswer": "三番線"
+    },
+    {
+      "id": "q4",
+      "question": "How much was the ticket?",
+      "options": ["三百円", "四百円", "五百円", "六百円"],
+      "correctAnswer": "五百円"
+    },
+    {
+      "id": "q5",
+      "question": "Where did the speaker buy the ticket?",
+      "options": ["窓口", "券売機", "コンビニ", "インターネット"],
+      "correctAnswer": "券売機"
+    },
+    {
+      "id": "q6",
+      "question": "What time does the train come?",
+      "options": ["九時", "十時", "十一時", "十二時"],
+      "correctAnswer": "十時"
+    }
+  ],
+  "translation": {
+    "en": "I am at the station. I want to take the train to Tokyo. I asked the station attendant, 'Excuse me, which platform is the train to Tokyo?' The station attendant told me, 'It's platform 3.' I bought a ticket at the ticket machine. A one-way ticket was 500 yen. The train comes at 10 o'clock. It's 5 more minutes.",
+    "fr": "Je suis à la gare. Je veux prendre le train pour Tokyo. J'ai demandé à l'employé de la gare : « Excusez-moi, le train pour Tokyo est sur quelle voie ? » L'employé m'a dit : « C'est la voie 3. » J'ai acheté un billet au distributeur automatique. Un aller simple coûtait 500 yens. Le train arrive à 10 heures. C'est dans 5 minutes."
+  }
+}

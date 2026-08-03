@@ -1,0 +1,8 @@
+{
+  "id": "d002",
+  "title": "Travel Plans",
+  "expectedText": "来月京都に旅行するつもりです",
+  "audioUrl": "/api/dictation/intermediate/d002/audio",
+  "difficulty": 0.55,
+  "hint": "Talking about a travel plan to Kyoto"
+}

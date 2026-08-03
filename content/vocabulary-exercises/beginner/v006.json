@@ -1,0 +1,58 @@
+{
+  "id": "v006",
+  "title": "Basic Verbs 2",
+  "titleEn": "Basic Verbs 2",
+  "level": "beginner",
+  "difficulty": 0.25,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of this kanji?",
+      "prompt_fr": "Quelle est la lecture de ce kanji ?",
+      "kanji": "読",
+      "options": ["よ(む)", "か(く)", "み(る)", "き(く)"],
+      "correctAnswer": "よ(む)",
+      "meaning_en": "to read",
+      "meaning_fr": "lire"
+    },
+    {
+      "id": "q2",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "音楽を＿＿きます。(I listen to music)",
+      "sentence_fr": "音楽を＿＿きます。(J'écoute de la musique)",
+      "options": ["聞", "見", "読", "書"],
+      "correctAnswer": "聞",
+      "meaning_en": "to listen",
+      "meaning_fr": "écouter"
+    },
+    {
+      "id": "q3",
+      "type": "word_match",
+      "prompt": "What does 見る mean?",
+      "prompt_fr": "Que signifie 見る ?",
+      "word": "見る",
+      "options": ["To see / watch", "To listen", "To read", "To write"],
+      "options_fr": ["Voir / Regarder", "Écouter", "Lire", "Écrire"],
+      "correctAnswer": "To see / watch",
+      "meaning_fr": "Voir / Regarder"
+    },
+    {
+      "id": "q4",
+      "type": "kanji_recognition",
+      "prompt": "What does this kanji mean?",
+      "prompt_fr": "Que signifie ce kanji ?",
+      "kanji": "書",
+      "options": ["To write", "To read", "To speak", "To draw"],
+      "options_fr": ["Écrire", "Lire", "Parler", "Dessiner"],
+      "correctAnswer": "To write",
+      "meaning_fr": "Écrire"
+    }
+  ],
+  "translation": {
+    "en": "This lesson covers verbs of perception and communication: to see, to hear, to read, to write.",
+    "fr": "Cette leçon couvre les verbes de perception et de communication : voir, entendre, lire, écrire."
+  }
+}

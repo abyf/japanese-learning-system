@@ -1,0 +1,50 @@
+{
+  "id": "r074",
+  "title": "クリスマス in Japan",
+  "titleEn": "Christmas in Japan",
+  "text": "<ruby>日本<rt>にほん</rt></ruby>のクリスマスは<ruby>他<rt>ほか</rt></ruby>の<ruby>国<rt>くに</rt></ruby>と<ruby>少<rt>すこ</rt></ruby>し<ruby>違<rt>ちが</rt></ruby>います。<ruby>宗教的<rt>しゅうきょうてき</rt></ruby>な<ruby>意味<rt>いみ</rt></ruby>よりイベントとして<ruby>楽<rt>たの</rt></ruby>しみます。カップルがデートする<ruby>日<rt>ひ</rt></ruby>として<ruby>人気<rt>にんき</rt></ruby>です。フライドチキンを<ruby>食<rt>た</rt></ruby>べる<ruby>習慣<rt>しゅうかん</rt></ruby>があります。クリスマスケーキも<ruby>定番<rt>ていばん</rt></ruby>です。<ruby>街<rt>まち</rt></ruby>はイルミネーションで<ruby>輝<rt>かがや</rt></ruby>きます。プレゼントを<ruby>交換<rt>こうかん</rt></ruby>する<ruby>習慣<rt>しゅうかん</rt></ruby>もあります。<ruby>十二月二十五日<rt>じゅうにがつにじゅうごにち</rt></ruby>が<ruby>過<rt>す</rt></ruby>ぎると、すぐにお<ruby>正月<rt>しょうがつ</rt></ruby>の<ruby>準備<rt>じゅんび</rt></ruby>が<ruby>始<rt>はじ</rt></ruby>まります。",
+  "difficulty": 0.65,
+  "level": "beginner",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "How is Japanese Christmas different?",
+      "options": ["宗教的", "イベントとして楽しむ", "祝わない", "仕事の日"],
+      "correctAnswer": "イベントとして楽しむ"
+    },
+    {
+      "id": "q2",
+      "question": "Who especially celebrates Christmas?",
+      "options": ["家族", "カップル", "子供", "お年寄り"],
+      "correctAnswer": "カップル"
+    },
+    {
+      "id": "q3",
+      "question": "What food is associated with Japanese Christmas?",
+      "options": ["七面鳥", "フライドチキン", "寿司", "すき焼き"],
+      "correctAnswer": "フライドチキン"
+    },
+    {
+      "id": "q4",
+      "question": "What decorates the streets?",
+      "options": ["桜", "イルミネーション", "提灯", "旗"],
+      "correctAnswer": "イルミネーション"
+    },
+    {
+      "id": "q5",
+      "question": "What do people exchange?",
+      "options": ["名刺", "プレゼント", "年賀状", "お金"],
+      "correctAnswer": "プレゼント"
+    },
+    {
+      "id": "q6",
+      "question": "What happens after December 25th?",
+      "options": ["もっとクリスマスを祝う", "お正月の準備が始まる", "何もしない", "休みが続く"],
+      "correctAnswer": "お正月の準備が始まる"
+    }
+  ],
+  "translation": {
+    "en": "Christmas in Japan is a bit different from other countries. People enjoy it as an event rather than a religious occasion. It is popular as a date day for couples. There is a custom of eating fried chicken. Christmas cake is also a staple. Streets shine with illuminations. There is also a custom of exchanging presents. After December 25th passes, preparations for New Year immediately begin.",
+    "fr": "Noël au Japon est un peu différent des autres pays. Les gens en profitent comme un événement plutôt qu'une occasion religieuse. C'est populaire comme jour de rendez-vous pour les couples. Il y a une coutume de manger du poulet frit. Le gâteau de Noël est aussi un classique. Les rues brillent avec des illuminations. Il y a aussi une coutume d'échanger des cadeaux. Après le 25 décembre, les préparatifs du Nouvel An commencent immédiatement."
+  }
+}

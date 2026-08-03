@@ -1,0 +1,94 @@
+{
+  "id": "v075",
+  "title": "Negative Forms",
+  "titleEn": "Negative Forms",
+  "titleFr": "Formes négatives",
+  "level": "beginner",
+  "difficulty": 0.55,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "word_match",
+      "prompt": "What does 食べない mean?",
+      "prompt_fr": "Que signifie 食べない ?",
+      "word": "食べない",
+      "options": ["Don't eat / Won't eat", "Ate", "Eating", "Want to eat"],
+      "options_fr": ["Ne mange pas / Ne mangera pas", "A mangé", "En train de manger", "Veut manger"],
+      "correctAnswer": "Don't eat / Won't eat",
+      "meaning_fr": "Ne mange pas / Ne mangera pas"
+    },
+    {
+      "id": "q2",
+      "type": "word_match",
+      "prompt": "What does 高くない mean?",
+      "prompt_fr": "Que signifie 高くない ?",
+      "word": "高くない",
+      "options": ["Not expensive / Not tall", "Expensive", "Very expensive", "Was expensive"],
+      "options_fr": ["Pas cher / Pas haut", "Cher", "Très cher", "Était cher"],
+      "correctAnswer": "Not expensive / Not tall",
+      "meaning_fr": "Pas cher / Pas haut"
+    },
+    {
+      "id": "q3",
+      "type": "word_match",
+      "prompt": "What does 静かじゃない mean?",
+      "prompt_fr": "Que signifie 静かじゃない ?",
+      "word": "静かじゃない",
+      "options": ["Not quiet", "Quiet", "Very quiet", "Was quiet"],
+      "options_fr": ["Pas calme", "Calme", "Très calme", "Était calme"],
+      "correctAnswer": "Not quiet",
+      "meaning_fr": "Pas calme"
+    },
+    {
+      "id": "q4",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "今日は暑＿＿。(It is not hot today.)",
+      "sentence_fr": "今日は暑＿＿。(Il ne fait pas chaud aujourd'hui.)",
+      "options": ["くない", "い", "かった", "くて"],
+      "correctAnswer": "くない",
+      "meaning_en": "not (い-adjective negative)",
+      "meaning_fr": "pas (négatif adjectif en い)"
+    },
+    {
+      "id": "q5",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "この部屋はきれい＿＿。(This room is not clean.)",
+      "sentence_fr": "この部屋はきれい＿＿。(Cette pièce n'est pas propre.)",
+      "options": ["じゃない", "だ", "な", "くない"],
+      "correctAnswer": "じゃない",
+      "meaning_en": "is not (な-adjective negative)",
+      "meaning_fr": "n'est pas (négatif adjectif en な)"
+    },
+    {
+      "id": "q6",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "明日は学校に行か＿＿。(I won't go to school tomorrow.)",
+      "sentence_fr": "明日は学校に行か＿＿。(Je n'irai pas à l'école demain.)",
+      "options": ["ない", "る", "た", "れる"],
+      "correctAnswer": "ない",
+      "meaning_en": "not (verb negative)",
+      "meaning_fr": "ne pas (négatif verbal)"
+    },
+    {
+      "id": "q7",
+      "type": "word_match",
+      "prompt": "What is the negative of 飲む?",
+      "prompt_fr": "Quel est le négatif de 飲む ?",
+      "word": "飲む → negative",
+      "options": ["飲まない", "飲みない", "飲むない", "飲んない"],
+      "options_fr": ["飲まない", "飲みない", "飲むない", "飲んない"],
+      "correctAnswer": "飲まない",
+      "meaning_fr": "ne pas boire"
+    }
+  ],
+  "translation": {
+    "en": "This lesson covers negative forms for verbs, い-adjectives, and な-adjectives.",
+    "fr": "Cette leçon couvre les formes négatives des verbes, adjectifs en い et adjectifs en な."
+  }
+}

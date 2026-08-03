@@ -1,0 +1,112 @@
+[
+  {
+    "id": "g001",
+    "title": "ようにする (to make an effort to)",
+    "explanation": "ようにする expresses making a conscious effort to do something habitually or to ensure something happens. It implies working toward a goal or changing a behavior.",
+    "pattern": "[Verb dictionary form] ようにする / [Verb ない form] ようにする",
+    "examples": [
+      { "japanese": "毎日運動するようにしています。", "translation": "I make an effort to exercise every day." },
+      { "japanese": "遅刻しないようにしてください。", "translation": "Please make sure not to be late." },
+      { "japanese": "野菜をたくさん食べるようにしている。", "translation": "I try to eat lots of vegetables." }
+    ]
+  },
+  {
+    "id": "g002",
+    "title": "によると (according to)",
+    "explanation": "によると introduces the source of information, similar to 'according to' in English. It's used to report what someone said or what was written somewhere.",
+    "pattern": "[Source] によると、[Information]",
+    "examples": [
+      { "japanese": "天気予報によると、明日は雨だそうです。", "translation": "According to the weather forecast, it will rain tomorrow." },
+      { "japanese": "新聞によると、来年税金が上がるらしい。", "translation": "According to the newspaper, taxes will apparently go up next year." },
+      { "japanese": "先生によると、試験は来週です。", "translation": "According to the teacher, the exam is next week." }
+    ]
+  },
+  {
+    "id": "g003",
+    "title": "ば〜ほど (the more... the more...)",
+    "explanation": "This pattern expresses that as one thing increases, another thing also increases proportionally. It translates to 'the more X, the more Y'.",
+    "pattern": "[Verb ば form] [Verb dictionary form] ほど [Result]",
+    "examples": [
+      { "japanese": "練習すればするほど上手になる。", "translation": "The more you practice, the better you get." },
+      { "japanese": "考えれば考えるほど分からなくなる。", "translation": "The more I think about it, the less I understand." },
+      { "japanese": "この本は読めば読むほど面白い。", "translation": "The more you read this book, the more interesting it gets." }
+    ]
+  },
+  {
+    "id": "g004",
+    "title": "ことになる (it has been decided that)",
+    "explanation": "ことになる expresses that a decision has been made (often by others or by circumstances), or that something has come to be the case. It implies the speaker didn't make the decision.",
+    "pattern": "[Verb dictionary form] ことになる / [Verb ない form] ことになる",
+    "examples": [
+      { "japanese": "来月から大阪に転勤することになりました。", "translation": "It's been decided that I'll transfer to Osaka from next month." },
+      { "japanese": "会議は中止になることになった。", "translation": "It was decided that the meeting would be cancelled." },
+      { "japanese": "日本に留学することになりました。", "translation": "It has been decided that I will study abroad in Japan." }
+    ]
+  },
+  {
+    "id": "g005",
+    "title": "わけではない (it doesn't mean that)",
+    "explanation": "わけではない is used to deny a conclusion that someone might logically draw. It clarifies that although something might seem true, it isn't entirely the case.",
+    "pattern": "[Plain form] わけではない",
+    "examples": [
+      { "japanese": "嫌いなわけではないが、あまり食べない。", "translation": "It's not that I dislike it, but I don't eat it much." },
+      { "japanese": "お金がないわけではありません。", "translation": "It's not that I don't have money." },
+      { "japanese": "日本語が全然分からないわけではない。", "translation": "It's not that I don't understand Japanese at all." }
+    ]
+  },
+  {
+    "id": "g006",
+    "title": "ために (in order to / because of)",
+    "explanation": "ために has two uses: expressing purpose (in order to) with dictionary form verbs, and expressing cause/reason (because of) with past tense or nouns.",
+    "pattern": "[Purpose: Verb dict.] ために / [Cause: Noun/Past verb] ために",
+    "examples": [
+      { "japanese": "日本語を勉強するために日本に来ました。", "translation": "I came to Japan in order to study Japanese." },
+      { "japanese": "健康のために毎日歩いています。", "translation": "I walk every day for my health." },
+      { "japanese": "台風のために電車が止まりました。", "translation": "The trains stopped because of the typhoon." }
+    ]
+  },
+  {
+    "id": "g007",
+    "title": "ようとする (try to / be about to)",
+    "explanation": "ようとする expresses an attempt to do something (trying to) or that something is on the verge of happening (about to). The volitional form + とする.",
+    "pattern": "[Verb volitional form] とする",
+    "examples": [
+      { "japanese": "ドアを開けようとしたが、鍵がかかっていた。", "translation": "I tried to open the door, but it was locked." },
+      { "japanese": "電車が出発しようとしている。", "translation": "The train is about to depart." },
+      { "japanese": "何か言おうとしたが、言葉が出なかった。", "translation": "I tried to say something, but the words wouldn't come out." }
+    ]
+  },
+  {
+    "id": "g008",
+    "title": "にとって (for / to someone)",
+    "explanation": "にとって expresses a perspective or standpoint — 'from the viewpoint of' or 'for (someone)'. It shows who is being affected or who holds an opinion.",
+    "pattern": "[Person/Group] にとって [Evaluation]",
+    "examples": [
+      { "japanese": "私にとって日本語は難しいです。", "translation": "Japanese is difficult for me." },
+      { "japanese": "学生にとって一番大切なことは何ですか。", "translation": "What is the most important thing for students?" },
+      { "japanese": "子供にとって遊ぶことは学ぶことです。", "translation": "For children, playing is learning." }
+    ]
+  },
+  {
+    "id": "g009",
+    "title": "として (as / in the capacity of)",
+    "explanation": "として indicates a role, capacity, or status in which someone or something functions. It translates to 'as' or 'in the role of'.",
+    "pattern": "[Noun] として [Action/Description]",
+    "examples": [
+      { "japanese": "彼は医者として働いています。", "translation": "He works as a doctor." },
+      { "japanese": "留学生として日本に来ました。", "translation": "I came to Japan as an exchange student." },
+      { "japanese": "この公園は観光地として有名です。", "translation": "This park is famous as a tourist spot." }
+    ]
+  },
+  {
+    "id": "g010",
+    "title": "について (about / concerning)",
+    "explanation": "について indicates the topic or subject matter being discussed, written about, or researched. It's equivalent to 'about', 'concerning', or 'regarding'.",
+    "pattern": "[Topic] について [Verb of communication/thought]",
+    "examples": [
+      { "japanese": "日本の文化について研究しています。", "translation": "I am researching about Japanese culture." },
+      { "japanese": "この問題について話し合いましょう。", "translation": "Let's discuss this problem." },
+      { "japanese": "環境問題について作文を書きました。", "translation": "I wrote an essay about environmental issues." }
+    ]
+  }
+]

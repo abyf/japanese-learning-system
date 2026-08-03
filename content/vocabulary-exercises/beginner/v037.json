@@ -1,0 +1,93 @@
+{
+  "id": "v037",
+  "title": "Hobbies & Interests",
+  "titleEn": "Hobbies & Interests",
+  "titleFr": "Loisirs et intérêts",
+  "level": "beginner",
+  "difficulty": 0.3,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of this kanji?",
+      "prompt_fr": "Quelle est la lecture de ce kanji ?",
+      "kanji": "趣味",
+      "options": ["しゅみ", "きょうみ", "あそび", "うんどう"],
+      "correctAnswer": "しゅみ",
+      "meaning_en": "hobby",
+      "meaning_fr": "passe-temps / loisir"
+    },
+    {
+      "id": "q2",
+      "type": "word_match",
+      "prompt": "What does スポーツ mean?",
+      "prompt_fr": "Que signifie スポーツ ?",
+      "word": "スポーツ",
+      "options": ["Sports", "Music", "Movie", "Cooking"],
+      "options_fr": ["Sport", "Musique", "Film", "Cuisine"],
+      "correctAnswer": "Sports",
+      "meaning_fr": "Sport"
+    },
+    {
+      "id": "q3",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of this kanji?",
+      "prompt_fr": "Quelle est la lecture de ce kanji ?",
+      "kanji": "音楽",
+      "options": ["おんがく", "えいが", "しゅみ", "どくしょ"],
+      "correctAnswer": "おんがく",
+      "meaning_en": "music",
+      "meaning_fr": "musique"
+    },
+    {
+      "id": "q4",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of this kanji?",
+      "prompt_fr": "Quelle est la lecture de ce kanji ?",
+      "kanji": "映画",
+      "options": ["えいが", "おんがく", "りょこう", "りょうり"],
+      "correctAnswer": "えいが",
+      "meaning_en": "movie / film",
+      "meaning_fr": "film / cinéma"
+    },
+    {
+      "id": "q5",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "私の＿＿は読書です。(My hobby is reading)",
+      "sentence_fr": "私の＿＿は読書です。(Mon passe-temps est la lecture)",
+      "options": ["趣味", "映画", "音楽", "スポーツ"],
+      "correctAnswer": "趣味",
+      "meaning_en": "hobby",
+      "meaning_fr": "passe-temps"
+    },
+    {
+      "id": "q6",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "週末に＿＿を見ます。(I watch movies on weekends)",
+      "sentence_fr": "週末に＿＿を見ます。(Je regarde des films le week-end)",
+      "options": ["映画", "音楽", "スポーツ", "趣味"],
+      "correctAnswer": "映画",
+      "meaning_en": "movie",
+      "meaning_fr": "film"
+    },
+    {
+      "id": "q7",
+      "type": "word_match",
+      "prompt": "What does 読書 mean?",
+      "prompt_fr": "Que signifie 読書 ?",
+      "word": "読書",
+      "options": ["Reading (books)", "Writing", "Drawing", "Cooking"],
+      "options_fr": ["Lecture (livres)", "Écriture", "Dessin", "Cuisine"],
+      "correctAnswer": "Reading (books)",
+      "meaning_fr": "Lecture (livres)"
+    }
+  ],
+  "translation": {
+    "en": "This lesson covers hobbies and interests vocabulary.",
+    "fr": "Cette leçon couvre le vocabulaire des loisirs et des intérêts."
+  }
+}

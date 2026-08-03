@@ -1,0 +1,50 @@
+{
+  "id": "r070",
+  "title": "お盆",
+  "titleEn": "Obon Festival",
+  "text": "お<ruby>盆<rt>ぼん</rt></ruby>は<ruby>八月<rt>はちがつ</rt></ruby><ruby>十三日<rt>じゅうさんにち</rt></ruby>から<ruby>十六日<rt>じゅうろくにち</rt></ruby>ごろの<ruby>行事<rt>ぎょうじ</rt></ruby>です。<ruby>先祖<rt>せんぞ</rt></ruby>の<ruby>霊<rt>れい</rt></ruby>が<ruby>家<rt>いえ</rt></ruby>に<ruby>帰<rt>かえ</rt></ruby>ってくると<ruby>言<rt>い</rt></ruby>われています。<ruby>多<rt>おお</rt></ruby>くの<ruby>人<rt>ひと</rt></ruby>が<ruby>故郷<rt>こきょう</rt></ruby>に<ruby>帰<rt>かえ</rt></ruby>ります。お<ruby>墓参<rt>はかまい</rt></ruby>りをして、<ruby>盆踊<rt>ぼんおど</rt></ruby>りを<ruby>踊<rt>おど</rt></ruby>ります。<ruby>会社<rt>かいしゃ</rt></ruby>も<ruby>休<rt>やす</rt></ruby>みになることが<ruby>多<rt>おお</rt></ruby>いです。<ruby>送<rt>おく</rt></ruby>り<ruby>火<rt>び</rt></ruby>で<ruby>先祖<rt>せんぞ</rt></ruby>の<ruby>霊<rt>れい</rt></ruby>をお<ruby>送<rt>おく</rt></ruby>りします。<ruby>京都<rt>きょうと</rt></ruby>の<ruby>大文字焼<rt>だいもんじや</rt></ruby>きが<ruby>有名<rt>ゆうめい</rt></ruby>です。",
+  "difficulty": 0.64,
+  "level": "beginner",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "When is Obon?",
+      "options": ["七月", "八月十三日から十六日ごろ", "九月", "十月"],
+      "correctAnswer": "八月十三日から十六日ごろ"
+    },
+    {
+      "id": "q2",
+      "question": "What is believed to happen during Obon?",
+      "options": ["神様が来る", "先祖の霊が家に帰ってくる", "天使が来る", "動物が集まる"],
+      "correctAnswer": "先祖の霊が家に帰ってくる"
+    },
+    {
+      "id": "q3",
+      "question": "What do many people do?",
+      "options": ["外国に行く", "故郷に帰る", "買い物する", "仕事する"],
+      "correctAnswer": "故郷に帰る"
+    },
+    {
+      "id": "q4",
+      "question": "What do people do at graves?",
+      "options": ["お墓参り", "お花見", "散歩", "写真を撮る"],
+      "correctAnswer": "お墓参り"
+    },
+    {
+      "id": "q5",
+      "question": "What sends off the spirits?",
+      "options": ["花火", "送り火", "お祈り", "音楽"],
+      "correctAnswer": "送り火"
+    },
+    {
+      "id": "q6",
+      "question": "What is famous in Kyoto during Obon?",
+      "options": ["祇園祭", "大文字焼き", "花火大会", "盆踊り"],
+      "correctAnswer": "大文字焼き"
+    }
+  ],
+  "translation": {
+    "en": "Obon is an event around August 13th to 16th. It is believed that the spirits of ancestors return home. Many people go back to their hometowns. They visit graves and dance the Bon dance. Many companies also take holidays. The spirits are sent off with fires. Kyoto's Daimonji burning is famous.",
+    "fr": "Obon est un événement autour du 13 au 16 août. On croit que les esprits des ancêtres reviennent à la maison. Beaucoup de gens retournent dans leur ville natale. Ils visitent les tombes et dansent le Bon Odori. Beaucoup d'entreprises sont aussi en vacances. Les esprits sont raccompagnés avec des feux. Le Daimonji de Kyoto est célèbre."
+  }
+}

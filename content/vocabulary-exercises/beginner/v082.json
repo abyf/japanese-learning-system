@@ -1,0 +1,104 @@
+{
+  "id": "v082",
+  "title": "Technology Basic",
+  "titleEn": "Technology Basic",
+  "titleFr": "Technologie de base",
+  "level": "beginner",
+  "difficulty": 0.55,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of 電話?",
+      "prompt_fr": "Quelle est la lecture de 電話 ?",
+      "kanji": "電話",
+      "options": ["でんわ", "でんき", "でんしゃ", "でんち"],
+      "correctAnswer": "でんわ",
+      "meaning_en": "telephone",
+      "meaning_fr": "téléphone"
+    },
+    {
+      "id": "q2",
+      "type": "word_match",
+      "prompt": "What does コンピュータ mean?",
+      "prompt_fr": "Que signifie コンピュータ ?",
+      "word": "コンピュータ",
+      "options": ["Computer", "Television", "Radio", "Camera"],
+      "options_fr": ["Ordinateur", "Télévision", "Radio", "Appareil photo"],
+      "correctAnswer": "Computer",
+      "meaning_fr": "Ordinateur"
+    },
+    {
+      "id": "q3",
+      "type": "word_match",
+      "prompt": "What does インターネット mean?",
+      "prompt_fr": "Que signifie インターネット ?",
+      "word": "インターネット",
+      "options": ["Internet", "Television", "Telephone", "Game"],
+      "options_fr": ["Internet", "Télévision", "Téléphone", "Jeu"],
+      "correctAnswer": "Internet",
+      "meaning_fr": "Internet"
+    },
+    {
+      "id": "q4",
+      "type": "word_match",
+      "prompt": "What does メール mean?",
+      "prompt_fr": "Que signifie メール ?",
+      "word": "メール",
+      "options": ["Email", "Mail (postal)", "Message", "Letter"],
+      "options_fr": ["Email / Courriel", "Courrier (postal)", "Message", "Lettre"],
+      "correctAnswer": "Email",
+      "meaning_fr": "Email / Courriel"
+    },
+    {
+      "id": "q5",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "＿＿で調べました。(I looked it up on the internet.)",
+      "sentence_fr": "＿＿で調べました。(J'ai cherché sur internet.)",
+      "options": ["インターネット", "電話", "テレビ", "ラジオ"],
+      "correctAnswer": "インターネット",
+      "meaning_en": "internet",
+      "meaning_fr": "internet"
+    },
+    {
+      "id": "q6",
+      "type": "word_match",
+      "prompt": "What does 写真 mean?",
+      "prompt_fr": "Que signifie 写真 ?",
+      "word": "写真",
+      "options": ["Photo / Photograph", "Video", "Drawing", "Painting"],
+      "options_fr": ["Photo / Photographie", "Vidéo", "Dessin", "Peinture"],
+      "correctAnswer": "Photo / Photograph",
+      "meaning_fr": "Photo / Photographie"
+    },
+    {
+      "id": "q7",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "友達に＿＿を送ります。(I send an email to a friend.)",
+      "sentence_fr": "友達に＿＿を送ります。(J'envoie un email à un ami.)",
+      "options": ["メール", "電話", "手紙", "写真"],
+      "correctAnswer": "メール",
+      "meaning_en": "email",
+      "meaning_fr": "email"
+    },
+    {
+      "id": "q8",
+      "type": "word_match",
+      "prompt": "What does スマホ mean?",
+      "prompt_fr": "Que signifie スマホ ?",
+      "word": "スマホ",
+      "options": ["Smartphone", "Smart TV", "Computer", "Tablet"],
+      "options_fr": ["Smartphone", "Smart TV", "Ordinateur", "Tablette"],
+      "correctAnswer": "Smartphone",
+      "meaning_fr": "Smartphone"
+    }
+  ],
+  "translation": {
+    "en": "This lesson covers basic technology vocabulary used in daily life.",
+    "fr": "Cette leçon couvre le vocabulaire technologique de base utilisé dans la vie quotidienne."
+  }
+}

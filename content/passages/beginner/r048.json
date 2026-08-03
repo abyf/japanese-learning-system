@@ -1,0 +1,62 @@
+{
+  "id": "r048",
+  "title": "初めてのデパート",
+  "titleEn": "First Time at Department Store",
+  "text": "<ruby>今日<rt>きょう</rt></ruby>、<ruby>初<rt>はじ</rt></ruby>めて<ruby>日本<rt>にほん</rt></ruby>のデパートに<ruby>行<rt>い</rt></ruby>きました。デパートは<ruby>十階建<rt>じゅっかいだ</rt></ruby>てです。<ruby>一階<rt>いっかい</rt></ruby>は<ruby>化粧品<rt>けしょうひん</rt></ruby>と<ruby>食品<rt>しょくひん</rt></ruby>があります。<ruby>二階<rt>にかい</rt></ruby>と<ruby>三階<rt>さんがい</rt></ruby>は<ruby>女性<rt>じょせい</rt></ruby>の<ruby>服<rt>ふく</rt></ruby>です。<ruby>四階<rt>よんかい</rt></ruby>は<ruby>男性<rt>だんせい</rt></ruby>の<ruby>服<rt>ふく</rt></ruby>です。<ruby>地下<rt>ちか</rt></ruby>にはデパ<ruby>地下<rt>ちか</rt></ruby>という<ruby>食品売<rt>しょくひんう</rt></ruby>り<ruby>場<rt>ば</rt></ruby>があります。お<ruby>弁当<rt>べんとう</rt></ruby>やケーキがたくさんありました。<ruby>店員<rt>てんいん</rt></ruby>さんはとても<ruby>丁寧<rt>ていねい</rt></ruby>でした。<ruby>母<rt>はは</rt></ruby>の<ruby>誕生日<rt>たんじょうび</rt></ruby>プレゼントにスカーフを<ruby>買<rt>か</rt></ruby>いました。<ruby>包装<rt>ほうそう</rt></ruby>もきれいにしてくれました。",
+  "difficulty": 0.52,
+  "level": "beginner",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "How many floors does the department store have?",
+      "options": ["五階", "八階", "十階", "十二階"],
+      "correctAnswer": "十階"
+    },
+    {
+      "id": "q2",
+      "question": "What is on the first floor?",
+      "options": ["服と靴", "化粧品と食品", "おもちゃと本", "家電と家具"],
+      "correctAnswer": "化粧品と食品"
+    },
+    {
+      "id": "q3",
+      "question": "Where are women's clothes?",
+      "options": ["一階と二階", "二階と三階", "三階と四階", "四階と五階"],
+      "correctAnswer": "二階と三階"
+    },
+    {
+      "id": "q4",
+      "question": "What is 'デパ地下'?",
+      "options": ["駐車場", "食品売り場", "レストラン", "映画館"],
+      "correctAnswer": "食品売り場"
+    },
+    {
+      "id": "q5",
+      "question": "How were the store clerks?",
+      "options": ["忙しそうだった", "とても丁寧だった", "不親切だった", "若かった"],
+      "correctAnswer": "とても丁寧だった"
+    },
+    {
+      "id": "q6",
+      "question": "What did the speaker buy?",
+      "options": ["ハンカチ", "バッグ", "スカーフ", "ネックレス"],
+      "correctAnswer": "スカーフ"
+    },
+    {
+      "id": "q7",
+      "question": "Who is the gift for?",
+      "options": ["父", "母", "友達", "姉"],
+      "correctAnswer": "母"
+    },
+    {
+      "id": "q8",
+      "question": "What did the store do with the gift?",
+      "options": ["配達してくれた", "包装してくれた", "名前を入れてくれた", "割引してくれた"],
+      "correctAnswer": "包装してくれた"
+    }
+  ],
+  "translation": {
+    "en": "Today I went to a Japanese department store for the first time. The department store has ten floors. The first floor has cosmetics and food. The second and third floors have women's clothing. The fourth floor has men's clothing. In the basement, there is a food hall called 'depachika.' There were many bento boxes and cakes. The store clerks were very polite. I bought a scarf as a birthday present for my mother. They wrapped it beautifully for me.",
+    "fr": "Aujourd'hui, je suis allé(e) dans un grand magasin japonais pour la première fois. Le grand magasin a dix étages. Le premier étage a des cosmétiques et de l'alimentation. Les deuxième et troisième étages ont des vêtements pour femmes. Le quatrième étage a des vêtements pour hommes. Au sous-sol, il y a un rayon alimentaire appelé « depachika ». Il y avait beaucoup de bentos et de gâteaux. Les vendeurs(euses) étaient très poli(e)s. J'ai acheté un foulard comme cadeau d'anniversaire pour ma mère. Ils l'ont emballé joliment pour moi."
+  }
+}

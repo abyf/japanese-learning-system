@@ -1,0 +1,502 @@
+[
+  {
+    "id": "v001",
+    "word": "食べる",
+    "reading": "たべる",
+    "meaning": "to eat",
+    "exampleSentence": "毎日ご飯を食べます。",
+    "mnemonic": "The kanji 食 looks like a person sitting at a table eating",
+    "level": "beginner",
+    "partOfSpeech": "v1"
+  },
+  {
+    "id": "v002",
+    "word": "飲む",
+    "reading": "のむ",
+    "meaning": "to drink",
+    "exampleSentence": "朝、コーヒーを飲みます。",
+    "mnemonic": "The kanji 飲 has the food radical 食 plus a mouth opening wide to swallow",
+    "level": "beginner",
+    "partOfSpeech": "v5m"
+  },
+  {
+    "id": "v003",
+    "word": "行く",
+    "reading": "いく",
+    "meaning": "to go",
+    "exampleSentence": "明日、学校に行きます。",
+    "mnemonic": "Think of a person walking forward on a road",
+    "level": "beginner",
+    "partOfSpeech": "v5k"
+  },
+  {
+    "id": "v004",
+    "word": "来る",
+    "reading": "くる",
+    "meaning": "to come",
+    "exampleSentence": "友達が家に来ます。",
+    "mnemonic": "Irregular verb - just memorize く・る",
+    "level": "beginner",
+    "partOfSpeech": "vk"
+  },
+  {
+    "id": "v005",
+    "word": "見る",
+    "reading": "みる",
+    "meaning": "to see, to watch",
+    "exampleSentence": "テレビを見ます。",
+    "mnemonic": "An eye (目) on legs walking around looking at things",
+    "level": "beginner",
+    "partOfSpeech": "v1"
+  },
+  {
+    "id": "v006",
+    "word": "聞く",
+    "reading": "きく",
+    "meaning": "to hear, to listen, to ask",
+    "exampleSentence": "音楽を聞きます。",
+    "mnemonic": "An ear (耳) at a gate (門) listening to what's outside",
+    "level": "beginner",
+    "partOfSpeech": "v5k"
+  },
+  {
+    "id": "v007",
+    "word": "読む",
+    "reading": "よむ",
+    "meaning": "to read",
+    "exampleSentence": "毎晩、本を読みます。",
+    "mnemonic": "The speech radical (言) plus selling (売) - reading words being 'sold' in books",
+    "level": "beginner",
+    "partOfSpeech": "v5m"
+  },
+  {
+    "id": "v008",
+    "word": "書く",
+    "reading": "かく",
+    "meaning": "to write",
+    "exampleSentence": "手紙を書きます。",
+    "mnemonic": "A hand holding a brush writing on paper",
+    "level": "beginner",
+    "partOfSpeech": "v5k"
+  },
+  {
+    "id": "v009",
+    "word": "話す",
+    "reading": "はなす",
+    "meaning": "to speak, to talk",
+    "exampleSentence": "日本語を話します。",
+    "mnemonic": "Words (言) come from a tongue (舌) when you speak",
+    "level": "beginner",
+    "partOfSpeech": "v5s"
+  },
+  {
+    "id": "v010",
+    "word": "買う",
+    "reading": "かう",
+    "meaning": "to buy",
+    "exampleSentence": "スーパーで野菜を買います。",
+    "mnemonic": "A net (罒) catches a shell (貝) - shells were ancient money",
+    "level": "beginner",
+    "partOfSpeech": "v5u"
+  },
+  {
+    "id": "v011",
+    "word": "作る",
+    "reading": "つくる",
+    "meaning": "to make, to create",
+    "exampleSentence": "母は料理を作ります。",
+    "mnemonic": "A person (亻) doing work - making something",
+    "level": "beginner",
+    "partOfSpeech": "v5r"
+  },
+  {
+    "id": "v012",
+    "word": "使う",
+    "reading": "つかう",
+    "meaning": "to use",
+    "exampleSentence": "パソコンを使います。",
+    "mnemonic": "A person (亻) being an official (吏) uses tools for work",
+    "level": "beginner",
+    "partOfSpeech": "v5u"
+  },
+  {
+    "id": "v013",
+    "word": "待つ",
+    "reading": "まつ",
+    "meaning": "to wait",
+    "exampleSentence": "バス停でバスを待ちます。",
+    "mnemonic": "Standing at a temple (寺) waiting patiently",
+    "level": "beginner",
+    "partOfSpeech": "v5t"
+  },
+  {
+    "id": "v014",
+    "word": "寝る",
+    "reading": "ねる",
+    "meaning": "to sleep, to go to bed",
+    "exampleSentence": "毎日十一時に寝ます。",
+    "mnemonic": "Under a roof (宀) lying down to sleep",
+    "level": "beginner",
+    "partOfSpeech": "v1"
+  },
+  {
+    "id": "v015",
+    "word": "起きる",
+    "reading": "おきる",
+    "meaning": "to get up, to wake up",
+    "exampleSentence": "朝六時に起きます。",
+    "mnemonic": "Running (走) and self (己) - getting yourself up and moving",
+    "level": "beginner",
+    "partOfSpeech": "v1"
+  },
+  {
+    "id": "v016",
+    "word": "入る",
+    "reading": "はいる",
+    "meaning": "to enter",
+    "exampleSentence": "部屋に入ります。",
+    "mnemonic": "The kanji looks like an arrow pointing down into something",
+    "level": "beginner",
+    "partOfSpeech": "v5r"
+  },
+  {
+    "id": "v017",
+    "word": "出る",
+    "reading": "でる",
+    "meaning": "to go out, to leave",
+    "exampleSentence": "家を出ます。",
+    "mnemonic": "A mountain (山) pushing out from the ground",
+    "level": "beginner",
+    "partOfSpeech": "v1"
+  },
+  {
+    "id": "v018",
+    "word": "会う",
+    "reading": "あう",
+    "meaning": "to meet",
+    "exampleSentence": "友達に会います。",
+    "mnemonic": "Two people coming together under a roof",
+    "level": "beginner",
+    "partOfSpeech": "v5u"
+  },
+  {
+    "id": "v019",
+    "word": "大きい",
+    "reading": "おおきい",
+    "meaning": "big, large",
+    "exampleSentence": "あの建物は大きいです。",
+    "mnemonic": "A person (大) stretching arms wide to show something is big",
+    "level": "beginner",
+    "partOfSpeech": "adj-i"
+  },
+  {
+    "id": "v020",
+    "word": "小さい",
+    "reading": "ちいさい",
+    "meaning": "small, little",
+    "exampleSentence": "この猫は小さいです。",
+    "mnemonic": "Small divisions (八) of something tiny",
+    "level": "beginner",
+    "partOfSpeech": "adj-i"
+  },
+  {
+    "id": "v021",
+    "word": "新しい",
+    "reading": "あたらしい",
+    "meaning": "new",
+    "exampleSentence": "新しい靴を買いました。",
+    "mnemonic": "Standing (立) tree (木) with an axe (斤) - freshly cut = new",
+    "level": "beginner",
+    "partOfSpeech": "adj-i"
+  },
+  {
+    "id": "v022",
+    "word": "古い",
+    "reading": "ふるい",
+    "meaning": "old (things)",
+    "exampleSentence": "この寺は古いです。",
+    "mnemonic": "Ten (十) mouths (口) have spoken about it - it's been around a long time",
+    "level": "beginner",
+    "partOfSpeech": "adj-i"
+  },
+  {
+    "id": "v023",
+    "word": "高い",
+    "reading": "たかい",
+    "meaning": "high, tall, expensive",
+    "exampleSentence": "この山は高いです。",
+    "mnemonic": "A tall building with a tower on top - high up",
+    "level": "beginner",
+    "partOfSpeech": "adj-i"
+  },
+  {
+    "id": "v024",
+    "word": "安い",
+    "reading": "やすい",
+    "meaning": "cheap, inexpensive",
+    "exampleSentence": "このレストランは安いです。",
+    "mnemonic": "A woman (女) under a roof (宀) feels safe/peaceful = at ease = cheap",
+    "level": "beginner",
+    "partOfSpeech": "adj-i"
+  },
+  {
+    "id": "v025",
+    "word": "良い",
+    "reading": "よい",
+    "meaning": "good",
+    "exampleSentence": "天気が良いです。",
+    "mnemonic": "Also written いい in speech - means good or fine",
+    "level": "beginner",
+    "partOfSpeech": "adj-i"
+  },
+  {
+    "id": "v026",
+    "word": "悪い",
+    "reading": "わるい",
+    "meaning": "bad",
+    "exampleSentence": "天気が悪いです。",
+    "mnemonic": "A heart (心) under pressure from above - a bad situation",
+    "level": "beginner",
+    "partOfSpeech": "adj-i"
+  },
+  {
+    "id": "v027",
+    "word": "暑い",
+    "reading": "あつい",
+    "meaning": "hot (weather)",
+    "exampleSentence": "今日は暑いです。",
+    "mnemonic": "The sun (日) on a person (者) - hot weather",
+    "level": "beginner",
+    "partOfSpeech": "adj-i"
+  },
+  {
+    "id": "v028",
+    "word": "寒い",
+    "reading": "さむい",
+    "meaning": "cold (weather)",
+    "exampleSentence": "冬は寒いです。",
+    "mnemonic": "Under a roof (宀) shivering - it's cold outside",
+    "level": "beginner",
+    "partOfSpeech": "adj-i"
+  },
+  {
+    "id": "v029",
+    "word": "学校",
+    "reading": "がっこう",
+    "meaning": "school",
+    "exampleSentence": "学校は八時半に始まります。",
+    "mnemonic": "A place of learning (学) with a building/structure (校)",
+    "level": "beginner",
+    "partOfSpeech": "n"
+  },
+  {
+    "id": "v030",
+    "word": "先生",
+    "reading": "せんせい",
+    "meaning": "teacher",
+    "exampleSentence": "田中先生は数学を教えます。",
+    "mnemonic": "One who was born (生) before (先) you in knowledge",
+    "level": "beginner",
+    "partOfSpeech": "n"
+  },
+  {
+    "id": "v031",
+    "word": "学生",
+    "reading": "がくせい",
+    "meaning": "student",
+    "exampleSentence": "私は大学の学生です。",
+    "mnemonic": "One who is alive (生) for learning (学)",
+    "level": "beginner",
+    "partOfSpeech": "n"
+  },
+  {
+    "id": "v032",
+    "word": "水",
+    "reading": "みず",
+    "meaning": "water",
+    "exampleSentence": "水を一杯ください。",
+    "mnemonic": "The kanji shows flowing streams of water",
+    "level": "beginner",
+    "partOfSpeech": "n"
+  },
+  {
+    "id": "v033",
+    "word": "本",
+    "reading": "ほん",
+    "meaning": "book",
+    "exampleSentence": "図書館で本を借ります。",
+    "mnemonic": "A tree (木) with a line at the root - the root/origin of knowledge",
+    "level": "beginner",
+    "partOfSpeech": "n"
+  },
+  {
+    "id": "v034",
+    "word": "電車",
+    "reading": "でんしゃ",
+    "meaning": "train",
+    "exampleSentence": "電車で会社に行きます。",
+    "mnemonic": "Electric (電) vehicle (車) - an electric train",
+    "level": "beginner",
+    "partOfSpeech": "n"
+  },
+  {
+    "id": "v035",
+    "word": "駅",
+    "reading": "えき",
+    "meaning": "station",
+    "exampleSentence": "駅まで歩きます。",
+    "mnemonic": "A horse (馬) relay point (尺) - where horses used to stop",
+    "level": "beginner",
+    "partOfSpeech": "n"
+  },
+  {
+    "id": "v036",
+    "word": "家",
+    "reading": "いえ",
+    "meaning": "house, home",
+    "exampleSentence": "私の家は駅の近くです。",
+    "mnemonic": "A pig (豕) under a roof (宀) - livestock meant prosperity at home",
+    "level": "beginner",
+    "partOfSpeech": "n"
+  },
+  {
+    "id": "v037",
+    "word": "友達",
+    "reading": "ともだち",
+    "meaning": "friend",
+    "exampleSentence": "友達と映画を見ました。",
+    "mnemonic": "A companion (友) who reaches (達) out to you",
+    "level": "beginner",
+    "partOfSpeech": "n"
+  },
+  {
+    "id": "v038",
+    "word": "時間",
+    "reading": "じかん",
+    "meaning": "time",
+    "exampleSentence": "時間がありません。",
+    "mnemonic": "Time (時) between (間) events",
+    "level": "beginner",
+    "partOfSpeech": "n"
+  },
+  {
+    "id": "v039",
+    "word": "天気",
+    "reading": "てんき",
+    "meaning": "weather",
+    "exampleSentence": "明日の天気はどうですか。",
+    "mnemonic": "Sky/heaven (天) spirit/energy (気) - the mood of the sky",
+    "level": "beginner",
+    "partOfSpeech": "n"
+  },
+  {
+    "id": "v040",
+    "word": "食べ物",
+    "reading": "たべもの",
+    "meaning": "food",
+    "exampleSentence": "日本の食べ物が好きです。",
+    "mnemonic": "Eat (食べ) thing (物) - things you eat",
+    "level": "beginner",
+    "partOfSpeech": "n"
+  },
+  {
+    "id": "v041",
+    "word": "飲み物",
+    "reading": "のみもの",
+    "meaning": "drink, beverage",
+    "exampleSentence": "冷たい飲み物をください。",
+    "mnemonic": "Drink (飲み) thing (物) - things you drink",
+    "level": "beginner",
+    "partOfSpeech": "n"
+  },
+  {
+    "id": "v042",
+    "word": "映画",
+    "reading": "えいが",
+    "meaning": "movie, film",
+    "exampleSentence": "週末に映画を見ます。",
+    "mnemonic": "Reflected (映) pictures (画) - projected images",
+    "level": "beginner",
+    "partOfSpeech": "n"
+  },
+  {
+    "id": "v043",
+    "word": "音楽",
+    "reading": "おんがく",
+    "meaning": "music",
+    "exampleSentence": "音楽を聞くのが好きです。",
+    "mnemonic": "Sound (音) pleasure (楽) - the pleasure of sounds",
+    "level": "beginner",
+    "partOfSpeech": "n"
+  },
+  {
+    "id": "v044",
+    "word": "今日",
+    "reading": "きょう",
+    "meaning": "today",
+    "exampleSentence": "今日は何曜日ですか。",
+    "mnemonic": "Now (今) + day (日) = this day",
+    "level": "beginner",
+    "partOfSpeech": "n"
+  },
+  {
+    "id": "v045",
+    "word": "明日",
+    "reading": "あした",
+    "meaning": "tomorrow",
+    "exampleSentence": "明日は日曜日です。",
+    "mnemonic": "Bright (明) day (日) - the bright new day coming",
+    "level": "beginner",
+    "partOfSpeech": "n"
+  },
+  {
+    "id": "v046",
+    "word": "昨日",
+    "reading": "きのう",
+    "meaning": "yesterday",
+    "exampleSentence": "昨日は雨でした。",
+    "mnemonic": "Past/ago (昨) day (日) - the day that has passed",
+    "level": "beginner",
+    "partOfSpeech": "n"
+  },
+  {
+    "id": "v047",
+    "word": "毎日",
+    "reading": "まいにち",
+    "meaning": "every day",
+    "exampleSentence": "毎日日本語を勉強します。",
+    "mnemonic": "Every (毎) day (日) - each and every day",
+    "level": "beginner",
+    "partOfSpeech": "n"
+  },
+  {
+    "id": "v048",
+    "word": "好き",
+    "reading": "すき",
+    "meaning": "like, fond of",
+    "exampleSentence": "猫が好きです。",
+    "mnemonic": "A woman (女) and child (子) - the love between them",
+    "level": "beginner",
+    "partOfSpeech": "adj-na"
+  },
+  {
+    "id": "v049",
+    "word": "嫌い",
+    "reading": "きらい",
+    "meaning": "dislike, hate",
+    "exampleSentence": "野菜が嫌いです。",
+    "mnemonic": "The opposite of 好き - something a woman (女) dislikes",
+    "level": "beginner",
+    "partOfSpeech": "adj-na"
+  },
+  {
+    "id": "v050",
+    "word": "元気",
+    "reading": "げんき",
+    "meaning": "healthy, energetic, lively",
+    "exampleSentence": "お元気ですか。",
+    "mnemonic": "Origin (元) energy (気) - your fundamental life energy",
+    "level": "beginner",
+    "partOfSpeech": "adj-na"
+  }
+]

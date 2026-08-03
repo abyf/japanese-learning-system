@@ -1,0 +1,8 @@
+{
+  "id": "d005",
+  "title": "Going to School",
+  "expectedText": "がっこうにいきます",
+  "audioUrl": "/api/dictation/beginner/d005/audio",
+  "difficulty": 0.3,
+  "hint": "Saying 'I go to school'"
+}

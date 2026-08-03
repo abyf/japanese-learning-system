@@ -1,0 +1,41 @@
+{
+  "id": "l010",
+  "title": "Convenience Store",
+  "titleFr": "À la supérette",
+  "type": "multiple_choice",
+  "audioUrl": "/api/listening/beginner/l010/audio",
+  "transcript": "いらっしゃいませ。 すみません、おにぎりはどこですか？ おにぎりはあちらの棚の二段目にあります。 あ、ありがとうございます。それから、お弁当を温めてもらえますか？ はい、もちろんです。少々お待ちください。 お会計は全部で六百五十円です。袋はいりますか？ いいえ、大丈夫です。 ポイントカードはお持ちですか？ はい、これです。",
+  "questions": [
+    {
+      "question": "What did the customer ask about first?",
+      "options": ["Drinks", "Onigiri", "Bento", "Snacks"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Where are the onigiri?",
+      "options": ["First shelf", "Second shelf", "Third shelf", "Near the register"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "What did the customer ask to have done?",
+      "options": ["Cut the bento", "Warm up the bento", "Add sauce", "Wrap it"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "How much was the total?",
+      "options": ["550 yen", "600 yen", "650 yen", "700 yen"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Did the customer want a bag?",
+      "options": ["Yes", "No", "They didn't answer", "They wanted two bags"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Did the customer have a point card?",
+      "options": ["No", "Yes", "They forgot it", "They don't have one"],
+      "correctAnswer": 1
+    }
+  ],
+  "difficulty": 0.4
+}

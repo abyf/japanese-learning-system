@@ -1,0 +1,103 @@
+{
+  "id": "v068",
+  "title": "Kanji: Nature",
+  "titleEn": "Kanji: Nature",
+  "titleFr": "Kanji : Nature",
+  "level": "beginner",
+  "difficulty": 0.4,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of 山?",
+      "prompt_fr": "Quelle est la lecture de 山 ?",
+      "kanji": "山",
+      "options": ["やま", "かわ", "うみ", "そら"],
+      "correctAnswer": "やま",
+      "meaning_en": "mountain",
+      "meaning_fr": "montagne"
+    },
+    {
+      "id": "q2",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of 川?",
+      "prompt_fr": "Quelle est la lecture de 川 ?",
+      "kanji": "川",
+      "options": ["かわ", "やま", "うみ", "はな"],
+      "correctAnswer": "かわ",
+      "meaning_en": "river",
+      "meaning_fr": "rivière"
+    },
+    {
+      "id": "q3",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of 海?",
+      "prompt_fr": "Quelle est la lecture de 海 ?",
+      "kanji": "海",
+      "options": ["うみ", "かわ", "そら", "もり"],
+      "correctAnswer": "うみ",
+      "meaning_en": "sea / ocean",
+      "meaning_fr": "mer / océan"
+    },
+    {
+      "id": "q4",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of 空?",
+      "prompt_fr": "Quelle est la lecture de 空 ?",
+      "kanji": "空",
+      "options": ["そら", "うみ", "やま", "き"],
+      "correctAnswer": "そら",
+      "meaning_en": "sky",
+      "meaning_fr": "ciel"
+    },
+    {
+      "id": "q5",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of 花?",
+      "prompt_fr": "Quelle est la lecture de 花 ?",
+      "kanji": "花",
+      "options": ["はな", "き", "もり", "かわ"],
+      "correctAnswer": "はな",
+      "meaning_en": "flower",
+      "meaning_fr": "fleur"
+    },
+    {
+      "id": "q6",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of 木?",
+      "prompt_fr": "Quelle est la lecture de 木 ?",
+      "kanji": "木",
+      "options": ["き", "はな", "もり", "はやし"],
+      "correctAnswer": "き",
+      "meaning_en": "tree / wood",
+      "meaning_fr": "arbre / bois"
+    },
+    {
+      "id": "q7",
+      "type": "word_match",
+      "prompt": "Which kanji means 'forest'?",
+      "prompt_fr": "Quel kanji signifie 'forêt' ?",
+      "word": "forest",
+      "options": ["森", "林", "山", "川"],
+      "options_fr": ["森", "林", "山", "川"],
+      "correctAnswer": "森",
+      "meaning_fr": "forêt"
+    },
+    {
+      "id": "q8",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "富士＿＿は日本で一番高いです。(Mt. Fuji is the tallest in Japan.)",
+      "sentence_fr": "富士＿＿は日本で一番高いです。(Le Mont Fuji est le plus haut du Japon.)",
+      "options": ["山", "川", "海", "空"],
+      "correctAnswer": "山",
+      "meaning_en": "mountain",
+      "meaning_fr": "montagne"
+    }
+  ],
+  "translation": {
+    "en": "This lesson covers kanji related to nature: mountains, rivers, sea, sky, flowers, and trees.",
+    "fr": "Cette leçon couvre les kanji liés à la nature : montagnes, rivières, mer, ciel, fleurs et arbres."
+  }
+}

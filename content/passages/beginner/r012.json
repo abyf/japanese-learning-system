@@ -1,0 +1,38 @@
+{
+  "id": "r012",
+  "title": "週末の予定",
+  "titleEn": "Weekend Plans",
+  "text": "<ruby>今週<rt>こんしゅう</rt></ruby>の<ruby>週末<rt>しゅうまつ</rt></ruby>は<ruby>忙<rt>いそが</rt></ruby>しいです。<ruby>土曜日<rt>どようび</rt></ruby>の<ruby>午前中<rt>ごぜんちゅう</rt></ruby>は<ruby>図書館<rt>としょかん</rt></ruby>で<ruby>勉強<rt>べんきょう</rt></ruby>します。<ruby>午後<rt>ごご</rt></ruby>は<ruby>友達<rt>ともだち</rt></ruby>と<ruby>映画<rt>えいが</rt></ruby>を<ruby>見<rt>み</rt></ruby>ます。<ruby>新<rt>あたら</rt></ruby>しい<ruby>映画<rt>えいが</rt></ruby>がとても<ruby>面白<rt>おもしろ</rt></ruby>そうです。<ruby>日曜日<rt>にちようび</rt></ruby>は<ruby>家族<rt>かぞく</rt></ruby>と<ruby>買<rt>か</rt></ruby>い<ruby>物<rt>もの</rt></ruby>に<ruby>行<rt>い</rt></ruby>きます。<ruby>新<rt>あたら</rt></ruby>しい<ruby>靴<rt>くつ</rt></ruby>が<ruby>欲<rt>ほ</rt></ruby>しいです。<ruby>夜<rt>よる</rt></ruby>は<ruby>家<rt>いえ</rt></ruby>でゲームをします。<ruby>楽<rt>たの</rt></ruby>しい<ruby>週末<rt>しゅうまつ</rt></ruby>になりそうです。",
+  "difficulty": 0.32,
+  "level": "beginner",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What will the narrator do on Saturday morning?",
+      "options": ["買い物", "図書館で勉強", "映画を見る", "ゲームをする"],
+      "correctAnswer": "図書館で勉強"
+    },
+    {
+      "id": "q2",
+      "question": "Who will the narrator watch a movie with?",
+      "options": ["家族", "先生", "友達", "一人で"],
+      "correctAnswer": "友達"
+    },
+    {
+      "id": "q3",
+      "question": "What does the narrator want to buy?",
+      "options": ["服", "靴", "本", "バッグ"],
+      "correctAnswer": "靴"
+    },
+    {
+      "id": "q4",
+      "question": "What will the narrator do on Sunday night?",
+      "options": ["勉強する", "映画を見る", "ゲームをする", "本を読む"],
+      "correctAnswer": "ゲームをする"
+    }
+  ],
+  "translation": {
+    "en": "This weekend is busy. On Saturday morning, I will study at the library. In the afternoon, I will watch a movie with friends. The new movie looks very interesting. On Sunday, I will go shopping with my family. I want new shoes. In the evening, I will play games at home. It looks like it will be a fun weekend.",
+    "fr": "Ce week-end est chargé. Samedi matin, j'étudierai à la bibliothèque. L'après-midi, je regarderai un film avec des amis. Le nouveau film a l'air très intéressant. Dimanche, j'irai faire du shopping avec ma famille. Je veux de nouvelles chaussures. Le soir, je jouerai aux jeux vidéo à la maison. Ça promet d'être un week-end amusant."
+  }
+}

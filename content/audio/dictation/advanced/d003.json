@@ -1,0 +1,8 @@
+{
+  "id": "d003",
+  "title": "Business Formal",
+  "expectedText": "本件につきまして、早急にご検討いただけますようお願い申し上げます",
+  "audioUrl": "/api/dictation/advanced/d003/audio",
+  "difficulty": 0.85,
+  "hint": "A formal business request for urgent consideration"
+}

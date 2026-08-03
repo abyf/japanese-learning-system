@@ -1,0 +1,8 @@
+{
+  "id": "d002",
+  "title": "Thank You",
+  "expectedText": "ありがとうございます",
+  "audioUrl": "/api/dictation/beginner/d002/audio",
+  "difficulty": 0.15,
+  "hint": "A polite way to say thank you"
+}

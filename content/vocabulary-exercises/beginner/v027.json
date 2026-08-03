@@ -1,0 +1,93 @@
+{
+  "id": "v027",
+  "title": "Animals 1",
+  "titleEn": "Animals 1",
+  "titleFr": "Animaux 1",
+  "level": "beginner",
+  "difficulty": 0.15,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of this kanji?",
+      "prompt_fr": "Quelle est la lecture de ce kanji ?",
+      "kanji": "犬",
+      "options": ["いぬ", "ねこ", "とり", "さかな"],
+      "correctAnswer": "いぬ",
+      "meaning_en": "dog",
+      "meaning_fr": "chien"
+    },
+    {
+      "id": "q2",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of this kanji?",
+      "prompt_fr": "Quelle est la lecture de ce kanji ?",
+      "kanji": "猫",
+      "options": ["ねこ", "いぬ", "うま", "うし"],
+      "correctAnswer": "ねこ",
+      "meaning_en": "cat",
+      "meaning_fr": "chat"
+    },
+    {
+      "id": "q3",
+      "type": "word_match",
+      "prompt": "What does 鳥 mean?",
+      "prompt_fr": "Que signifie 鳥 ?",
+      "word": "鳥",
+      "options": ["Bird", "Fish", "Dog", "Cat"],
+      "options_fr": ["Oiseau", "Poisson", "Chien", "Chat"],
+      "correctAnswer": "Bird",
+      "meaning_fr": "Oiseau"
+    },
+    {
+      "id": "q4",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of this kanji?",
+      "prompt_fr": "Quelle est la lecture de ce kanji ?",
+      "kanji": "魚",
+      "options": ["さかな", "とり", "むし", "ねこ"],
+      "correctAnswer": "さかな",
+      "meaning_en": "fish",
+      "meaning_fr": "poisson"
+    },
+    {
+      "id": "q5",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "公園で＿＿が走っています。(A dog is running in the park)",
+      "sentence_fr": "公園で＿＿が走っています。(Un chien court dans le parc)",
+      "options": ["犬", "猫", "鳥", "魚"],
+      "correctAnswer": "犬",
+      "meaning_en": "dog",
+      "meaning_fr": "chien"
+    },
+    {
+      "id": "q6",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "＿＿が木の上にいます。(A bird is on the tree)",
+      "sentence_fr": "＿＿が木の上にいます。(Un oiseau est sur l'arbre)",
+      "options": ["鳥", "魚", "犬", "猫"],
+      "correctAnswer": "鳥",
+      "meaning_en": "bird",
+      "meaning_fr": "oiseau"
+    },
+    {
+      "id": "q7",
+      "type": "word_match",
+      "prompt": "What does 猫 mean?",
+      "prompt_fr": "Que signifie 猫 ?",
+      "word": "猫",
+      "options": ["Cat", "Dog", "Rabbit", "Mouse"],
+      "options_fr": ["Chat", "Chien", "Lapin", "Souris"],
+      "correctAnswer": "Cat",
+      "meaning_fr": "Chat"
+    }
+  ],
+  "translation": {
+    "en": "This lesson covers common animals: dog, cat, bird, and fish.",
+    "fr": "Cette leçon couvre les animaux courants : chien, chat, oiseau et poisson."
+  }
+}

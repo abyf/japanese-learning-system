@@ -1,0 +1,104 @@
+{
+  "id": "v073",
+  "title": "Kanji: Time",
+  "titleEn": "Kanji: Time",
+  "titleFr": "Kanji : Temps",
+  "level": "beginner",
+  "difficulty": 0.5,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of 年?",
+      "prompt_fr": "Quelle est la lecture de 年 ?",
+      "kanji": "年",
+      "options": ["ねん/とし", "つき/がつ", "ひ/にち", "じ"],
+      "correctAnswer": "ねん/とし",
+      "meaning_en": "year",
+      "meaning_fr": "année"
+    },
+    {
+      "id": "q2",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of 月 (as month)?",
+      "prompt_fr": "Quelle est la lecture de 月 (en tant que mois) ?",
+      "kanji": "月",
+      "options": ["がつ/げつ", "ねん", "にち", "じ"],
+      "correctAnswer": "がつ/げつ",
+      "meaning_en": "month / moon",
+      "meaning_fr": "mois / lune"
+    },
+    {
+      "id": "q3",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of 日 (as day)?",
+      "prompt_fr": "Quelle est la lecture de 日 (en tant que jour) ?",
+      "kanji": "日",
+      "options": ["にち/ひ", "がつ", "ねん", "じ"],
+      "correctAnswer": "にち/ひ",
+      "meaning_en": "day / sun",
+      "meaning_fr": "jour / soleil"
+    },
+    {
+      "id": "q4",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of 時?",
+      "prompt_fr": "Quelle est la lecture de 時 ?",
+      "kanji": "時",
+      "options": ["じ/とき", "ふん", "びょう", "ねん"],
+      "correctAnswer": "じ/とき",
+      "meaning_en": "hour / time",
+      "meaning_fr": "heure / temps"
+    },
+    {
+      "id": "q5",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of 分?",
+      "prompt_fr": "Quelle est la lecture de 分 ?",
+      "kanji": "分",
+      "options": ["ふん/ぶん", "じ", "びょう", "にち"],
+      "correctAnswer": "ふん/ぶん",
+      "meaning_en": "minute / part",
+      "meaning_fr": "minute / partie"
+    },
+    {
+      "id": "q6",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of 秒?",
+      "prompt_fr": "Quelle est la lecture de 秒 ?",
+      "kanji": "秒",
+      "options": ["びょう", "ふん", "じ", "ねん"],
+      "correctAnswer": "びょう",
+      "meaning_en": "second",
+      "meaning_fr": "seconde"
+    },
+    {
+      "id": "q7",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "今何＿＿ですか。(What time is it now?)",
+      "sentence_fr": "今何＿＿ですか。(Quelle heure est-il ?)",
+      "options": ["時", "分", "年", "日"],
+      "correctAnswer": "時",
+      "meaning_en": "time/hour",
+      "meaning_fr": "heure"
+    },
+    {
+      "id": "q8",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "二千二十四＿＿です。(It is the year 2024.)",
+      "sentence_fr": "二千二十四＿＿です。(C'est l'année 2024.)",
+      "options": ["年", "月", "日", "時"],
+      "correctAnswer": "年",
+      "meaning_en": "year",
+      "meaning_fr": "année"
+    }
+  ],
+  "translation": {
+    "en": "This lesson covers kanji for time units: year, month, day, hour, minute, and second.",
+    "fr": "Cette leçon couvre les kanji des unités de temps : année, mois, jour, heure, minute et seconde."
+  }
+}

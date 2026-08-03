@@ -1,0 +1,38 @@
+{
+  "id": "r004",
+  "title": "日本の教育",
+  "titleEn": "Japanese Education",
+  "text": "<ruby>日本<rt>にほん</rt></ruby>の<ruby>教育<rt>きょういく</rt></ruby><ruby>制度<rt>せいど</rt></ruby>は6-3-3-4<ruby>制<rt>せい</rt></ruby>です。<ruby>小学校<rt>しょうがっこう</rt></ruby>が6<ruby>年<rt>ねん</rt></ruby>、<ruby>中学校<rt>ちゅうがっこう</rt></ruby>が3<ruby>年<rt>ねん</rt></ruby>、<ruby>高校<rt>こうこう</rt></ruby>が3<ruby>年<rt>ねん</rt></ruby>、<ruby>大学<rt>だいがく</rt></ruby>が4<ruby>年<rt>ねん</rt></ruby>です。<ruby>小学校<rt>しょうがっこう</rt></ruby>と<ruby>中学校<rt>ちゅうがっこう</rt></ruby>は<ruby>義務<rt>ぎむ</rt></ruby><ruby>教育<rt>きょういく</rt></ruby>です。<ruby>日本<rt>にほん</rt></ruby>の<ruby>学校<rt>がっこう</rt></ruby>では<ruby>勉強<rt>べんきょう</rt></ruby>だけでなく、<ruby>掃除<rt>そうじ</rt></ruby>や<ruby>給食<rt>きゅうしょく</rt></ruby>の<ruby>準備<rt>じゅんび</rt></ruby>も<ruby>生徒<rt>せいと</rt></ruby>がします。これは<ruby>責任感<rt>せきにんかん</rt></ruby>や<ruby>協力<rt>きょうりょく</rt></ruby>の<ruby>精神<rt>せいしん</rt></ruby>を<ruby>育<rt>そだ</rt></ruby>てるためです。<ruby>部活動<rt>ぶかつどう</rt></ruby>も<ruby>重要<rt>じゅうよう</rt></ruby>な<ruby>役割<rt>やくわり</rt></ruby>を<ruby>果<rt>は</rt></ruby>たしています。<ruby>放課後<rt>ほうかご</rt></ruby>にスポーツや<ruby>文化<rt>ぶんか</rt></ruby><ruby>活動<rt>かつどう</rt></ruby>をします。<ruby>高校<rt>こうこう</rt></ruby>や<ruby>大学<rt>だいがく</rt></ruby>に<ruby>入<rt>はい</rt></ruby>るためには<ruby>入学<rt>にゅうがく</rt></ruby><ruby>試験<rt>しけん</rt></ruby>に<ruby>合格<rt>ごうかく</rt></ruby>しなければなりません。そのため、<ruby>多<rt>おお</rt></ruby>くの<ruby>生徒<rt>せいと</rt></ruby>が<ruby>塾<rt>じゅく</rt></ruby>に<ruby>通<rt>かよ</rt></ruby>っています。<ruby>日本<rt>にほん</rt></ruby>の<ruby>教育<rt>きょういく</rt></ruby>は<ruby>学力<rt>がくりょく</rt></ruby>だけでなく、<ruby>人間性<rt>にんげんせい</rt></ruby>の<ruby>育成<rt>いくせい</rt></ruby>も<ruby>目指<rt>めざ</rt></ruby>しています。",
+  "difficulty": 0.6,
+  "level": "intermediate",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "How many years is compulsory education in Japan?",
+      "options": ["6年", "9年", "12年", "16年"],
+      "correctAnswer": "9年"
+    },
+    {
+      "id": "q2",
+      "question": "Why do students clean the school themselves?",
+      "options": ["お金がないから", "責任感と協力の精神を育てるため", "先生が忙しいから", "罰として"],
+      "correctAnswer": "責任感と協力の精神を育てるため"
+    },
+    {
+      "id": "q3",
+      "question": "Why do many students go to 塾 (cram school)?",
+      "options": ["友達に会うため", "スポーツをするため", "入学試験に合格するため", "先生になるため"],
+      "correctAnswer": "入学試験に合格するため"
+    },
+    {
+      "id": "q4",
+      "question": "What does Japanese education aim to develop besides academic ability?",
+      "options": ["お金を稼ぐ力", "人間性", "外国語能力", "芸術的才能"],
+      "correctAnswer": "人間性"
+    }
+  ],
+  "translation": {
+    "en": "Japan's education system follows a 6-3-3-4 structure. Elementary school is 6 years, middle school is 3 years, high school is 3 years, and university is 4 years. Elementary and middle school are compulsory education. In Japanese schools, students not only study but also clean and prepare school lunches themselves. This is to develop a sense of responsibility and a spirit of cooperation. Club activities also play an important role. After school, students do sports or cultural activities. To enter high school or university, students must pass entrance exams. For this reason, many students attend cram schools. Japanese education aims not only at academic ability but also at developing character.",
+    "fr": "Le système éducatif japonais suit une structure 6-3-3-4. L'école primaire dure 6 ans, le collège 3 ans, le lycée 3 ans et l'université 4 ans. L'école primaire et le collège constituent l'éducation obligatoire. Dans les écoles japonaises, les élèves ne font pas que étudier, ils nettoient aussi et préparent les repas scolaires eux-mêmes. C'est pour développer le sens des responsabilités et l'esprit de coopération. Les activités de club jouent également un rôle important. Après l'école, les élèves font du sport ou des activités culturelles. Pour entrer au lycée ou à l'université, les élèves doivent réussir des examens d'entrée. C'est pourquoi beaucoup d'élèves fréquentent des écoles de soutien scolaire. L'éducation japonaise vise non seulement la capacité académique mais aussi le développement du caractère."
+  }
+}

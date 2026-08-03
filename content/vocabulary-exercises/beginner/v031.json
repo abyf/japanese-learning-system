@@ -1,0 +1,93 @@
+{
+  "id": "v031",
+  "title": "Basic Counters",
+  "titleEn": "Basic Counters",
+  "titleFr": "Compteurs de base",
+  "level": "beginner",
+  "difficulty": 0.35,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "word_match",
+      "prompt": "What does 一つ mean?",
+      "prompt_fr": "Que signifie 一つ ?",
+      "word": "一つ",
+      "options": ["One (thing)", "Two (things)", "Three (things)", "Four (things)"],
+      "options_fr": ["Un (objet)", "Deux (objets)", "Trois (objets)", "Quatre (objets)"],
+      "correctAnswer": "One (thing)",
+      "meaning_fr": "Un (objet)"
+    },
+    {
+      "id": "q2",
+      "type": "word_match",
+      "prompt": "What does 二つ mean?",
+      "prompt_fr": "Que signifie 二つ ?",
+      "word": "二つ",
+      "options": ["Two (things)", "One (thing)", "Five (things)", "Ten (things)"],
+      "options_fr": ["Deux (objets)", "Un (objet)", "Cinq (objets)", "Dix (objets)"],
+      "correctAnswer": "Two (things)",
+      "meaning_fr": "Deux (objets)"
+    },
+    {
+      "id": "q3",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of this counter?",
+      "prompt_fr": "Quelle est la lecture de ce compteur ?",
+      "kanji": "一人",
+      "options": ["ひとり", "ふたり", "いちにん", "さんにん"],
+      "correctAnswer": "ひとり",
+      "meaning_en": "one person",
+      "meaning_fr": "une personne"
+    },
+    {
+      "id": "q4",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of this counter?",
+      "prompt_fr": "Quelle est la lecture de ce compteur ?",
+      "kanji": "二人",
+      "options": ["ふたり", "ひとり", "ににん", "さんにん"],
+      "correctAnswer": "ふたり",
+      "meaning_en": "two people",
+      "meaning_fr": "deux personnes"
+    },
+    {
+      "id": "q5",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "りんごを＿＿ください。(Please give me three apples)",
+      "sentence_fr": "りんごを＿＿ ください。(Donnez-moi trois pommes s'il vous plaît)",
+      "options": ["三つ", "一つ", "五つ", "四つ"],
+      "correctAnswer": "三つ",
+      "meaning_en": "three (things)",
+      "meaning_fr": "trois (objets)"
+    },
+    {
+      "id": "q6",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "家族は＿＿です。(My family is four people)",
+      "sentence_fr": "家族は＿＿です。(Ma famille est composée de quatre personnes)",
+      "options": ["四人", "三人", "二人", "五人"],
+      "correctAnswer": "四人",
+      "meaning_en": "four people",
+      "meaning_fr": "quatre personnes"
+    },
+    {
+      "id": "q7",
+      "type": "word_match",
+      "prompt": "How do you say 'five things' in Japanese?",
+      "prompt_fr": "Comment dit-on 'cinq objets' en japonais ?",
+      "word": "五つ",
+      "options": ["いつつ", "みっつ", "よっつ", "むっつ"],
+      "correctAnswer": "いつつ",
+      "meaning_en": "five things",
+      "meaning_fr": "cinq objets"
+    }
+  ],
+  "translation": {
+    "en": "This lesson covers basic Japanese counters for things (つ) and people (人).",
+    "fr": "Cette leçon couvre les compteurs de base japonais pour les objets (つ) et les personnes (人)."
+  }
+}

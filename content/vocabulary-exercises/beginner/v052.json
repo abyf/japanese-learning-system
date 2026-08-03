@@ -1,0 +1,105 @@
+{
+  "id": "v052",
+  "title": "Verbs of Motion",
+  "titleEn": "Verbs of Motion",
+  "titleFr": "Verbes de mouvement",
+  "level": "beginner",
+  "difficulty": 0.4,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of 歩く?",
+      "prompt_fr": "Quelle est la lecture de 歩く ?",
+      "kanji": "歩く",
+      "options": ["あるく", "はしる", "とぶ", "およぐ"],
+      "correctAnswer": "あるく",
+      "meaning_en": "to walk",
+      "meaning_fr": "marcher"
+    },
+    {
+      "id": "q2",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of 走る?",
+      "prompt_fr": "Quelle est la lecture de 走る ?",
+      "kanji": "走る",
+      "options": ["はしる", "あるく", "とぶ", "のぼる"],
+      "correctAnswer": "はしる",
+      "meaning_en": "to run",
+      "meaning_fr": "courir"
+    },
+    {
+      "id": "q3",
+      "type": "word_match",
+      "prompt": "What does 飛ぶ mean?",
+      "prompt_fr": "Que signifie 飛ぶ ?",
+      "word": "飛ぶ",
+      "options": ["To fly / To jump", "To run", "To walk", "To swim"],
+      "options_fr": ["Voler / Sauter", "Courir", "Marcher", "Nager"],
+      "correctAnswer": "To fly / To jump",
+      "meaning_fr": "Voler / Sauter"
+    },
+    {
+      "id": "q4",
+      "type": "word_match",
+      "prompt": "What does 泳ぐ mean?",
+      "prompt_fr": "Que signifie 泳ぐ ?",
+      "word": "泳ぐ",
+      "options": ["To swim", "To fly", "To run", "To climb"],
+      "options_fr": ["Nager", "Voler", "Courir", "Grimper"],
+      "correctAnswer": "To swim",
+      "meaning_fr": "Nager"
+    },
+    {
+      "id": "q5",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "毎朝公園を＿＿います。(I run in the park every morning.)",
+      "sentence_fr": "毎朝公園を＿＿います。(Je cours dans le parc chaque matin.)",
+      "options": ["走って", "歩いて", "泳いで", "飛んで"],
+      "correctAnswer": "走って",
+      "meaning_en": "running",
+      "meaning_fr": "courir (forme en て)"
+    },
+    {
+      "id": "q6",
+      "type": "word_match",
+      "prompt": "What does 登る mean?",
+      "prompt_fr": "Que signifie 登る ?",
+      "word": "登る",
+      "options": ["To climb", "To descend", "To walk", "To swim"],
+      "options_fr": ["Grimper / Monter", "Descendre", "Marcher", "Nager"],
+      "correctAnswer": "To climb",
+      "meaning_fr": "Grimper / Monter"
+    },
+    {
+      "id": "q7",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "鳥が空を＿＿います。(The bird is flying in the sky.)",
+      "sentence_fr": "鳥が空を＿＿います。(L'oiseau vole dans le ciel.)",
+      "options": ["飛んで", "走って", "歩いて", "泳いで"],
+      "correctAnswer": "飛んで",
+      "meaning_en": "flying",
+      "meaning_fr": "voler (forme en て)"
+    },
+    {
+      "id": "q8",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "プールで＿＿ます。(I swim in the pool.)",
+      "sentence_fr": "プールで＿＿ます。(Je nage dans la piscine.)",
+      "options": ["泳ぎ", "走り", "歩き", "飛び"],
+      "correctAnswer": "泳ぎ",
+      "meaning_en": "swim",
+      "meaning_fr": "nager"
+    }
+  ],
+  "translation": {
+    "en": "This lesson covers verbs of motion including walking, running, flying, and swimming.",
+    "fr": "Cette leçon couvre les verbes de mouvement : marcher, courir, voler et nager."
+  }
+}

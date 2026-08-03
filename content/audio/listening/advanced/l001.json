@@ -1,0 +1,30 @@
+{
+  "id": "l001",
+  "title": "Business Meeting - Project Proposal",
+  "type": "multiple_choice",
+  "audioUrl": "/api/listening/advanced/l001/audio",
+  "transcript": "それでは、新規プロジェクトの提案について説明させていただきます。市場調査の結果、二十代から三十代の若年層をターゲットにしたサブスクリプション型サービスに需要があることが分かりました。初期投資は約三千万円を見込んでおり、二年目には黒字化を目指しております。ただし、競合他社も同様のサービスを検討しているとの情報があり、スピード感を持って進める必要があります。リスクとしては、顧客獲得コストが想定以上にかかる可能性がございます。つきましては、来月末までに企画書をまとめ、役員会に諮りたいと考えております。",
+  "questions": [
+    {
+      "question": "What is the target demographic?",
+      "options": ["Teenagers", "People in their 20s-30s", "People in their 40s-50s", "Seniors"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "How much is the initial investment?",
+      "options": ["About 10 million yen", "About 30 million yen", "About 50 million yen", "About 100 million yen"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "When do they aim to become profitable?",
+      "options": ["First year", "Second year", "Third year", "Fifth year"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "What is identified as a risk?",
+      "options": ["Technology failure", "Customer acquisition costs", "Regulatory issues", "Staff shortage"],
+      "correctAnswer": 1
+    }
+  ],
+  "difficulty": 0.8
+}

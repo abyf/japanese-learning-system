@@ -1,0 +1,50 @@
+{
+  "id": "r068",
+  "title": "就職活動",
+  "titleEn": "Job Hunting",
+  "text": "<ruby>日本<rt>にほん</rt></ruby>の<ruby>就職活動<rt>しゅうしょくかつどう</rt></ruby>は「<ruby>就活<rt>しゅうかつ</rt></ruby>」と<ruby>呼<rt>よ</rt></ruby>ばれます。<ruby>大学<rt>だいがく</rt></ruby><ruby>三年生<rt>さんねんせい</rt></ruby>の<ruby>時<rt>とき</rt></ruby>から<ruby>始<rt>はじ</rt></ruby>まります。みんな<ruby>黒<rt>くろ</rt></ruby>いスーツを<ruby>着<rt>き</rt></ruby>ます。<ruby>説明会<rt>せつめいかい</rt></ruby>に<ruby>参加<rt>さんか</rt></ruby>して、エントリーシートを<ruby>書<rt>か</rt></ruby>きます。<ruby>面接<rt>めんせつ</rt></ruby>は<ruby>何回<rt>なんかい</rt></ruby>もあります。<ruby>内定<rt>ないてい</rt></ruby>をもらうまで<ruby>大変<rt>たいへん</rt></ruby>です。<ruby>四月<rt>しがつ</rt></ruby>に<ruby>入社<rt>にゅうしゃ</rt></ruby>するのが<ruby>普通<rt>ふつう</rt></ruby>です。<ruby>最近<rt>さいきん</rt></ruby>は<ruby>外国人<rt>がいこくじん</rt></ruby>も<ruby>日本<rt>にほん</rt></ruby>で<ruby>就活<rt>しゅうかつ</rt></ruby>しています。",
+  "difficulty": 0.65,
+  "level": "beginner",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What is shukatsu?",
+      "options": ["結婚活動", "就職活動", "部活動", "勉強活動"],
+      "correctAnswer": "就職活動"
+    },
+    {
+      "id": "q2",
+      "question": "What does everyone wear?",
+      "options": ["白いスーツ", "黒いスーツ", "カジュアルな服", "制服"],
+      "correctAnswer": "黒いスーツ"
+    },
+    {
+      "id": "q3",
+      "question": "What do students participate in?",
+      "options": ["パーティー", "説明会", "旅行", "ボランティア"],
+      "correctAnswer": "説明会"
+    },
+    {
+      "id": "q4",
+      "question": "How many interviews are there?",
+      "options": ["一回", "二回", "何回も", "面接はない"],
+      "correctAnswer": "何回も"
+    },
+    {
+      "id": "q5",
+      "question": "When do people usually join a company?",
+      "options": ["一月", "四月", "七月", "十月"],
+      "correctAnswer": "四月"
+    },
+    {
+      "id": "q6",
+      "question": "What is a recent trend?",
+      "options": ["就活がなくなった", "外国人も日本で就活している", "スーツを着ない", "面接がなくなった"],
+      "correctAnswer": "外国人も日本で就活している"
+    }
+  ],
+  "translation": {
+    "en": "Job hunting in Japan is called 'shukatsu.' It starts from the third year of university. Everyone wears black suits. Students attend information sessions and write entry sheets. There are many rounds of interviews. It's tough until you receive a job offer. Joining a company in April is normal. Recently, foreigners are also doing shukatsu in Japan.",
+    "fr": "La recherche d'emploi au Japon est appelée 'shukatsu'. Elle commence dès la troisième année d'université. Tout le monde porte des costumes noirs. Les étudiants participent à des séances d'information et rédigent des fiches de candidature. Il y a de nombreux entretiens. C'est difficile jusqu'à recevoir une offre d'emploi. Rejoindre une entreprise en avril est normal. Récemment, des étrangers font aussi le shukatsu au Japon."
+  }
+}

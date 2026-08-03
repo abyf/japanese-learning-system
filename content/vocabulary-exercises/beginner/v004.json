@@ -1,0 +1,58 @@
+{
+  "id": "v004",
+  "title": "Family Members",
+  "titleEn": "Family Members",
+  "level": "beginner",
+  "difficulty": 0.2,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of this kanji?",
+      "prompt_fr": "Quelle est la lecture de ce kanji ?",
+      "kanji": "母",
+      "options": ["はは", "ちち", "あに", "あね"],
+      "correctAnswer": "はは",
+      "meaning_en": "mother",
+      "meaning_fr": "mère"
+    },
+    {
+      "id": "q2",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "私の＿＿は会社員です。(My father is an office worker)",
+      "sentence_fr": "私の＿＿は会社員です。(Mon père est employé de bureau)",
+      "options": ["父", "母", "兄", "姉"],
+      "correctAnswer": "父",
+      "meaning_en": "father",
+      "meaning_fr": "père"
+    },
+    {
+      "id": "q3",
+      "type": "word_match",
+      "prompt": "What does 妹 mean?",
+      "prompt_fr": "Que signifie 妹 ?",
+      "word": "妹",
+      "options": ["Younger sister", "Older sister", "Younger brother", "Mother"],
+      "options_fr": ["Petite sœur", "Grande sœur", "Petit frère", "Mère"],
+      "correctAnswer": "Younger sister",
+      "meaning_fr": "Petite sœur"
+    },
+    {
+      "id": "q4",
+      "type": "kanji_recognition",
+      "prompt": "What does this kanji mean?",
+      "prompt_fr": "Que signifie ce kanji ?",
+      "kanji": "兄",
+      "options": ["Older brother", "Younger brother", "Father", "Uncle"],
+      "options_fr": ["Frère aîné", "Petit frère", "Père", "Oncle"],
+      "correctAnswer": "Older brother",
+      "meaning_fr": "Frère aîné"
+    }
+  ],
+  "translation": {
+    "en": "This lesson covers family member vocabulary in Japanese.",
+    "fr": "Cette leçon couvre le vocabulaire des membres de la famille en japonais."
+  }
+}

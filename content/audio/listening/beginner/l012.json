@@ -1,0 +1,36 @@
+{
+  "id": "l012",
+  "title": "Meeting Someone New",
+  "titleFr": "Rencontrer quelqu'un de nouveau",
+  "type": "multiple_choice",
+  "audioUrl": "/api/listening/beginner/l012/audio",
+  "transcript": "初めまして。田中さくらです。フランスから来ました。 初めまして。山田健太です。日本人です。田中さんはいつ日本に来ましたか？ 先月来ました。まだ一ヶ月です。 日本語がお上手ですね。 いいえ、まだまだです。大学で二年間勉強しました。 何を勉強していますか？ 東京大学で経済学を勉強しています。 そうですか。頑張ってください。何かあったら言ってくださいね。",
+  "questions": [
+    {
+      "question": "Where is Tanaka from?",
+      "options": ["America", "France", "England", "Germany"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "When did Tanaka come to Japan?",
+      "options": ["Last week", "Last month", "Last year", "Two months ago"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "How long did Tanaka study Japanese?",
+      "options": ["One year", "Two years", "Three years", "Six months"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Where is Tanaka studying?",
+      "options": ["Kyoto University", "Waseda University", "Tokyo University", "Keio University"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "What is Tanaka studying?",
+      "options": ["Literature", "Economics", "Engineering", "Medicine"],
+      "correctAnswer": 1
+    }
+  ],
+  "difficulty": 0.35
+}

@@ -1,0 +1,502 @@
+[
+  {
+    "id": "v001",
+    "word": "経験",
+    "reading": "けいけん",
+    "meaning": "experience",
+    "exampleSentence": "海外で働いた経験があります。",
+    "mnemonic": "Pass through (経) and test (験) - what you gain by going through tests",
+    "level": "intermediate",
+    "partOfSpeech": "n"
+  },
+  {
+    "id": "v002",
+    "word": "関係",
+    "reading": "かんけい",
+    "meaning": "relationship, connection",
+    "exampleSentence": "彼とは仕事の関係です。",
+    "mnemonic": "Gate (関) ties (係) - connections that link things together",
+    "level": "intermediate",
+    "partOfSpeech": "n"
+  },
+  {
+    "id": "v003",
+    "word": "社会",
+    "reading": "しゃかい",
+    "meaning": "society, community",
+    "exampleSentence": "現代社会は複雑です。",
+    "mnemonic": "A gathering place (社) where people meet (会) - society",
+    "level": "intermediate",
+    "partOfSpeech": "n"
+  },
+  {
+    "id": "v004",
+    "word": "文化",
+    "reading": "ぶんか",
+    "meaning": "culture, civilization",
+    "exampleSentence": "日本の文化に興味があります。",
+    "mnemonic": "Written patterns (文) that transform (化) a people",
+    "level": "intermediate",
+    "partOfSpeech": "n"
+  },
+  {
+    "id": "v005",
+    "word": "教育",
+    "reading": "きょういく",
+    "meaning": "education, training",
+    "exampleSentence": "教育は国の未来にとって大切です。",
+    "mnemonic": "Teaching (教) and nurturing (育) - growing minds",
+    "level": "intermediate",
+    "partOfSpeech": "n"
+  },
+  {
+    "id": "v006",
+    "word": "環境",
+    "reading": "かんきょう",
+    "meaning": "environment, surroundings",
+    "exampleSentence": "環境問題について考えるべきです。",
+    "mnemonic": "Ring/circle (環) boundary (境) - the world around you",
+    "level": "intermediate",
+    "partOfSpeech": "n"
+  },
+  {
+    "id": "v007",
+    "word": "政治",
+    "reading": "せいじ",
+    "meaning": "politics, government",
+    "exampleSentence": "政治に関心を持つことは大切です。",
+    "mnemonic": "Correct governing (政) and order (治) - managing the state",
+    "level": "intermediate",
+    "partOfSpeech": "n"
+  },
+  {
+    "id": "v008",
+    "word": "経済",
+    "reading": "けいざい",
+    "meaning": "economy, economics",
+    "exampleSentence": "日本の経済は回復しています。",
+    "mnemonic": "Managing (経) resources to help (済) people - the economy",
+    "level": "intermediate",
+    "partOfSpeech": "n"
+  },
+  {
+    "id": "v009",
+    "word": "技術",
+    "reading": "ぎじゅつ",
+    "meaning": "technology, technique, skill",
+    "exampleSentence": "新しい技術が開発されました。",
+    "mnemonic": "Skill (技) and art (術) - technical expertise",
+    "level": "intermediate",
+    "partOfSpeech": "n"
+  },
+  {
+    "id": "v010",
+    "word": "情報",
+    "reading": "じょうほう",
+    "meaning": "information, news",
+    "exampleSentence": "インターネットで情報を集めます。",
+    "mnemonic": "Feelings/situation (情) reported (報) - information",
+    "level": "intermediate",
+    "partOfSpeech": "n"
+  },
+  {
+    "id": "v011",
+    "word": "影響",
+    "reading": "えいきょう",
+    "meaning": "influence, effect",
+    "exampleSentence": "天気は気分に影響を与えます。",
+    "mnemonic": "Shadow (影) echoing (響) - the shadow of influence spreading",
+    "level": "intermediate",
+    "partOfSpeech": "n"
+  },
+  {
+    "id": "v012",
+    "word": "原因",
+    "reading": "げんいん",
+    "meaning": "cause, origin, reason",
+    "exampleSentence": "事故の原因を調べています。",
+    "mnemonic": "The original (原) basis (因) of something happening",
+    "level": "intermediate",
+    "partOfSpeech": "n"
+  },
+  {
+    "id": "v013",
+    "word": "結果",
+    "reading": "けっか",
+    "meaning": "result, outcome",
+    "exampleSentence": "試験の結果を待っています。",
+    "mnemonic": "Tying up (結) the fruit (果) - the final product",
+    "level": "intermediate",
+    "partOfSpeech": "n"
+  },
+  {
+    "id": "v014",
+    "word": "目的",
+    "reading": "もくてき",
+    "meaning": "purpose, objective, goal",
+    "exampleSentence": "旅行の目的は何ですか。",
+    "mnemonic": "Eye (目) target (的) - what you're aiming for",
+    "level": "intermediate",
+    "partOfSpeech": "n"
+  },
+  {
+    "id": "v015",
+    "word": "意見",
+    "reading": "いけん",
+    "meaning": "opinion, view",
+    "exampleSentence": "皆さんの意見を聞かせてください。",
+    "mnemonic": "Meaning/mind (意) seeing (見) - how you see things",
+    "level": "intermediate",
+    "partOfSpeech": "n"
+  },
+  {
+    "id": "v016",
+    "word": "引っ越す",
+    "reading": "ひっこす",
+    "meaning": "to move (residence)",
+    "exampleSentence": "来月、東京に引っ越します。",
+    "mnemonic": "Pull (引) and cross over (越) - pulling your belongings to a new place",
+    "level": "intermediate",
+    "partOfSpeech": "v5s"
+  },
+  {
+    "id": "v017",
+    "word": "片付ける",
+    "reading": "かたづける",
+    "meaning": "to tidy up, to put in order",
+    "exampleSentence": "部屋を片付けてください。",
+    "mnemonic": "One side (片) attached/settled (付) - putting things in their place",
+    "level": "intermediate",
+    "partOfSpeech": "v1"
+  },
+  {
+    "id": "v018",
+    "word": "取り消す",
+    "reading": "とりけす",
+    "meaning": "to cancel, to revoke",
+    "exampleSentence": "予約を取り消しました。",
+    "mnemonic": "Take (取り) and erase (消す) - taking something back",
+    "level": "intermediate",
+    "partOfSpeech": "v5s"
+  },
+  {
+    "id": "v019",
+    "word": "申し込む",
+    "reading": "もうしこむ",
+    "meaning": "to apply for, to request",
+    "exampleSentence": "コンサートのチケットを申し込みました。",
+    "mnemonic": "State/say (申し) and put in (込む) - putting in a formal request",
+    "level": "intermediate",
+    "partOfSpeech": "v5m"
+  },
+  {
+    "id": "v020",
+    "word": "見つける",
+    "reading": "みつける",
+    "meaning": "to find, to discover",
+    "exampleSentence": "新しいレストランを見つけました。",
+    "mnemonic": "See (見) and attach (つける) - your eyes attach to something found",
+    "level": "intermediate",
+    "partOfSpeech": "v1"
+  },
+  {
+    "id": "v021",
+    "word": "間に合う",
+    "reading": "まにあう",
+    "meaning": "to be in time, to make it",
+    "exampleSentence": "電車に間に合いました。",
+    "mnemonic": "Between (間) meeting (合う) - meeting the time gap",
+    "level": "intermediate",
+    "partOfSpeech": "v5u"
+  },
+  {
+    "id": "v022",
+    "word": "慣れる",
+    "reading": "なれる",
+    "meaning": "to get used to, to become accustomed",
+    "exampleSentence": "日本の生活に慣れました。",
+    "mnemonic": "Heart (忄) and pierce/penetrate (貫) - something piercing into your habits",
+    "level": "intermediate",
+    "partOfSpeech": "v1"
+  },
+  {
+    "id": "v023",
+    "word": "届ける",
+    "reading": "とどける",
+    "meaning": "to deliver, to report",
+    "exampleSentence": "荷物を届けます。",
+    "mnemonic": "Reaching (届) the destination - delivering something",
+    "level": "intermediate",
+    "partOfSpeech": "v1"
+  },
+  {
+    "id": "v024",
+    "word": "集める",
+    "reading": "あつめる",
+    "meaning": "to gather, to collect",
+    "exampleSentence": "データを集めています。",
+    "mnemonic": "Birds (隹) gathering on a tree (木) - collecting together",
+    "level": "intermediate",
+    "partOfSpeech": "v1"
+  },
+  {
+    "id": "v025",
+    "word": "伝える",
+    "reading": "つたえる",
+    "meaning": "to convey, to communicate",
+    "exampleSentence": "彼にメッセージを伝えてください。",
+    "mnemonic": "Person (亻) passing along (専) - person-to-person communication",
+    "level": "intermediate",
+    "partOfSpeech": "v1"
+  },
+  {
+    "id": "v026",
+    "word": "複雑",
+    "reading": "ふくざつ",
+    "meaning": "complex, complicated",
+    "exampleSentence": "この問題は複雑です。",
+    "mnemonic": "Repeated (複) and mixed (雑) - many things mixed together",
+    "level": "intermediate",
+    "partOfSpeech": "adj-na"
+  },
+  {
+    "id": "v027",
+    "word": "正確",
+    "reading": "せいかく",
+    "meaning": "accurate, precise, exact",
+    "exampleSentence": "正確な情報が必要です。",
+    "mnemonic": "Correct (正) and certain (確) - doubly right",
+    "level": "intermediate",
+    "partOfSpeech": "adj-na"
+  },
+  {
+    "id": "v028",
+    "word": "必要",
+    "reading": "ひつよう",
+    "meaning": "necessary, essential",
+    "exampleSentence": "パスポートが必要です。",
+    "mnemonic": "Certainly (必) needed (要) - absolutely essential",
+    "level": "intermediate",
+    "partOfSpeech": "adj-na"
+  },
+  {
+    "id": "v029",
+    "word": "重要",
+    "reading": "じゅうよう",
+    "meaning": "important, significant",
+    "exampleSentence": "これは重要な会議です。",
+    "mnemonic": "Heavy (重) and essential (要) - carries great weight",
+    "level": "intermediate",
+    "partOfSpeech": "adj-na"
+  },
+  {
+    "id": "v030",
+    "word": "適当",
+    "reading": "てきとう",
+    "meaning": "suitable, appropriate; random",
+    "exampleSentence": "適当な答えを選んでください。",
+    "mnemonic": "Fitting (適) and proper (当) - hitting the right mark",
+    "level": "intermediate",
+    "partOfSpeech": "adj-na"
+  },
+  {
+    "id": "v031",
+    "word": "十分",
+    "reading": "じゅうぶん",
+    "meaning": "enough, sufficient",
+    "exampleSentence": "時間は十分ありますか。",
+    "mnemonic": "Ten (十) parts (分) - having all ten parts means complete/enough",
+    "level": "intermediate",
+    "partOfSpeech": "adj-na"
+  },
+  {
+    "id": "v032",
+    "word": "不便",
+    "reading": "ふべん",
+    "meaning": "inconvenient",
+    "exampleSentence": "車がないと不便です。",
+    "mnemonic": "Not (不) convenient (便) - the opposite of handy",
+    "level": "intermediate",
+    "partOfSpeech": "adj-na"
+  },
+  {
+    "id": "v033",
+    "word": "素晴らしい",
+    "reading": "すばらしい",
+    "meaning": "wonderful, magnificent",
+    "exampleSentence": "素晴らしい景色ですね。",
+    "mnemonic": "Plain/raw (素) and clear weather (晴) - so clear and pure it's wonderful",
+    "level": "intermediate",
+    "partOfSpeech": "adj-i"
+  },
+  {
+    "id": "v034",
+    "word": "珍しい",
+    "reading": "めずらしい",
+    "meaning": "rare, unusual",
+    "exampleSentence": "珍しい鳥を見ました。",
+    "mnemonic": "A jewel (珍) that is precious because it's rare",
+    "level": "intermediate",
+    "partOfSpeech": "adj-i"
+  },
+  {
+    "id": "v035",
+    "word": "恥ずかしい",
+    "reading": "はずかしい",
+    "meaning": "embarrassing, ashamed",
+    "exampleSentence": "間違えて恥ずかしかったです。",
+    "mnemonic": "Heart (心) and ear (耳) - your heart pounds and ears turn red",
+    "level": "intermediate",
+    "partOfSpeech": "adj-i"
+  },
+  {
+    "id": "v036",
+    "word": "交通",
+    "reading": "こうつう",
+    "meaning": "traffic, transportation",
+    "exampleSentence": "東京の交通は便利です。",
+    "mnemonic": "Crossing (交) and passing through (通) - things moving and crossing",
+    "level": "intermediate",
+    "partOfSpeech": "n"
+  },
+  {
+    "id": "v037",
+    "word": "事故",
+    "reading": "じこ",
+    "meaning": "accident, incident",
+    "exampleSentence": "交通事故に気をつけてください。",
+    "mnemonic": "Matter (事) that is old/past (故) - an unfortunate event",
+    "level": "intermediate",
+    "partOfSpeech": "n"
+  },
+  {
+    "id": "v038",
+    "word": "予定",
+    "reading": "よてい",
+    "meaning": "plan, schedule",
+    "exampleSentence": "来週の予定を確認しましょう。",
+    "mnemonic": "In advance (予) decided (定) - predetermined plan",
+    "level": "intermediate",
+    "partOfSpeech": "n"
+  },
+  {
+    "id": "v039",
+    "word": "習慣",
+    "reading": "しゅうかん",
+    "meaning": "habit, custom",
+    "exampleSentence": "早起きは良い習慣です。",
+    "mnemonic": "Learn (習) and accustomed (慣) - learned behavior that sticks",
+    "level": "intermediate",
+    "partOfSpeech": "n"
+  },
+  {
+    "id": "v040",
+    "word": "連絡",
+    "reading": "れんらく",
+    "meaning": "contact, communication",
+    "exampleSentence": "後で連絡してください。",
+    "mnemonic": "Connected (連) threads (絡) - linked communication",
+    "level": "intermediate",
+    "partOfSpeech": "n"
+  },
+  {
+    "id": "v041",
+    "word": "準備",
+    "reading": "じゅんび",
+    "meaning": "preparation",
+    "exampleSentence": "旅行の準備をしています。",
+    "mnemonic": "Standard (準) equipped (備) - getting everything up to standard",
+    "level": "intermediate",
+    "partOfSpeech": "n"
+  },
+  {
+    "id": "v042",
+    "word": "相談",
+    "reading": "そうだん",
+    "meaning": "consultation, discussion",
+    "exampleSentence": "先生に相談しました。",
+    "mnemonic": "Mutual (相) talk (談) - talking things over together",
+    "level": "intermediate",
+    "partOfSpeech": "n"
+  },
+  {
+    "id": "v043",
+    "word": "約束",
+    "reading": "やくそく",
+    "meaning": "promise, appointment",
+    "exampleSentence": "友達と約束があります。",
+    "mnemonic": "Bind (約) and bundle (束) - binding yourself to a promise",
+    "level": "intermediate",
+    "partOfSpeech": "n"
+  },
+  {
+    "id": "v044",
+    "word": "趣味",
+    "reading": "しゅみ",
+    "meaning": "hobby, interest",
+    "exampleSentence": "趣味は写真を撮ることです。",
+    "mnemonic": "Running toward (趣) flavor/taste (味) - what you run toward for pleasure",
+    "level": "intermediate",
+    "partOfSpeech": "n"
+  },
+  {
+    "id": "v045",
+    "word": "将来",
+    "reading": "しょうらい",
+    "meaning": "future, prospects",
+    "exampleSentence": "将来、医者になりたいです。",
+    "mnemonic": "Lead (将) what comes (来) - what's coming ahead",
+    "level": "intermediate",
+    "partOfSpeech": "n"
+  },
+  {
+    "id": "v046",
+    "word": "機会",
+    "reading": "きかい",
+    "meaning": "opportunity, chance",
+    "exampleSentence": "いい機会を逃さないでください。",
+    "mnemonic": "Machine/mechanism (機) meeting (会) - when the gears align",
+    "level": "intermediate",
+    "partOfSpeech": "n"
+  },
+  {
+    "id": "v047",
+    "word": "割合",
+    "reading": "わりあい",
+    "meaning": "ratio, proportion, relatively",
+    "exampleSentence": "女性の割合が増えています。",
+    "mnemonic": "Divide (割) and combine (合) - how parts fit together",
+    "level": "intermediate",
+    "partOfSpeech": "n"
+  },
+  {
+    "id": "v048",
+    "word": "状況",
+    "reading": "じょうきょう",
+    "meaning": "situation, circumstances",
+    "exampleSentence": "現在の状況を説明してください。",
+    "mnemonic": "Condition (状) and state (況) - how things stand",
+    "level": "intermediate",
+    "partOfSpeech": "n"
+  },
+  {
+    "id": "v049",
+    "word": "比較",
+    "reading": "ひかく",
+    "meaning": "comparison",
+    "exampleSentence": "二つの製品を比較しました。",
+    "mnemonic": "Compare (比) and check (較) - putting side by side",
+    "level": "intermediate",
+    "partOfSpeech": "n"
+  },
+  {
+    "id": "v050",
+    "word": "対策",
+    "reading": "たいさく",
+    "meaning": "countermeasure, strategy",
+    "exampleSentence": "地震の対策を考えましょう。",
+    "mnemonic": "Facing (対) a plan (策) - a plan to face problems",
+    "level": "intermediate",
+    "partOfSpeech": "n"
+  }
+]

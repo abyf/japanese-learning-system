@@ -1,0 +1,8 @@
+{
+  "id": "d001",
+  "title": "Weather Report",
+  "expectedText": "明日は雨が降るかもしれません",
+  "audioUrl": "/api/dictation/intermediate/d001/audio",
+  "difficulty": 0.5,
+  "hint": "A sentence about tomorrow's weather possibility"
+}

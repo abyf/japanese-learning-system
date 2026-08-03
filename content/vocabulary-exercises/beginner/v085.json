@@ -1,0 +1,129 @@
+{
+  "id": "v085",
+  "title": "JLPT N5 Final Review",
+  "titleEn": "JLPT N5 Final Review",
+  "titleFr": "Révision finale JLPT N5",
+  "level": "beginner",
+  "difficulty": 0.8,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of 食べ物?",
+      "prompt_fr": "Quelle est la lecture de 食べ物 ?",
+      "kanji": "食べ物",
+      "options": ["たべもの", "のみもの", "かいもの", "やきもの"],
+      "correctAnswer": "たべもの",
+      "meaning_en": "food",
+      "meaning_fr": "nourriture"
+    },
+    {
+      "id": "q2",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "昨日友達＿＿映画を見ました。(I watched a movie with a friend yesterday.)",
+      "sentence_fr": "昨日友達＿＿映画を見ました。(J'ai regardé un film avec un ami hier.)",
+      "options": ["と", "が", "を", "に"],
+      "correctAnswer": "と",
+      "meaning_en": "with (companion)",
+      "meaning_fr": "avec (compagnon)"
+    },
+    {
+      "id": "q3",
+      "type": "word_match",
+      "prompt": "What does 天気がいい mean?",
+      "prompt_fr": "Que signifie 天気がいい ?",
+      "word": "天気がいい",
+      "options": ["The weather is good", "The weather is bad", "It's hot", "It's cold"],
+      "options_fr": ["Le temps est beau", "Le temps est mauvais", "Il fait chaud", "Il fait froid"],
+      "correctAnswer": "The weather is good",
+      "meaning_fr": "Le temps est beau"
+    },
+    {
+      "id": "q4",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "日本語は英語＿＿難しいです。(Japanese is harder than English.)",
+      "sentence_fr": "日本語は英語＿＿難しいです。(Le japonais est plus difficile que l'anglais.)",
+      "options": ["より", "ほど", "一番", "くらい"],
+      "correctAnswer": "より",
+      "meaning_en": "more than",
+      "meaning_fr": "plus que"
+    },
+    {
+      "id": "q5",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of 買い物?",
+      "prompt_fr": "Quelle est la lecture de 買い物 ?",
+      "kanji": "買い物",
+      "options": ["かいもの", "たべもの", "のみもの", "きもの"],
+      "correctAnswer": "かいもの",
+      "meaning_en": "shopping",
+      "meaning_fr": "courses / shopping"
+    },
+    {
+      "id": "q6",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "来週の金曜日＿＿パーティーがあります。(There is a party next Friday.)",
+      "sentence_fr": "来週の金曜日＿＿パーティーがあります。(Il y a une fête vendredi prochain.)",
+      "options": ["に", "で", "を", "が"],
+      "correctAnswer": "に",
+      "meaning_en": "on (time)",
+      "meaning_fr": "le (temps)"
+    },
+    {
+      "id": "q7",
+      "type": "word_match",
+      "prompt": "What does まだ mean?",
+      "prompt_fr": "Que signifie まだ ?",
+      "word": "まだ",
+      "options": ["Still / Not yet", "Already", "Always", "Never"],
+      "options_fr": ["Encore / Pas encore", "Déjà", "Toujours", "Jamais"],
+      "correctAnswer": "Still / Not yet",
+      "meaning_fr": "Encore / Pas encore"
+    },
+    {
+      "id": "q8",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "この本は＿＿おもしろいです。(This book is very interesting.)",
+      "sentence_fr": "この本は＿＿おもしろいです。(Ce livre est très intéressant.)",
+      "options": ["とても", "あまり", "全然", "まだ"],
+      "correctAnswer": "とても",
+      "meaning_en": "very",
+      "meaning_fr": "très"
+    },
+    {
+      "id": "q9",
+      "type": "word_match",
+      "prompt": "What does もう mean?",
+      "prompt_fr": "Que signifie もう ?",
+      "word": "もう",
+      "options": ["Already / Anymore", "Still", "Never", "Sometimes"],
+      "options_fr": ["Déjà / Plus", "Encore", "Jamais", "Parfois"],
+      "correctAnswer": "Already / Anymore",
+      "meaning_fr": "Déjà / Plus"
+    },
+    {
+      "id": "q10",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "日本語を話すこと＿＿できますか。(Can you speak Japanese?)",
+      "sentence_fr": "日本語を話すこと＿＿できますか。(Pouvez-vous parler japonais ?)",
+      "options": ["が", "を", "は", "に"],
+      "correctAnswer": "が",
+      "meaning_en": "subject marker (with できる)",
+      "meaning_fr": "marqueur de sujet (avec できる)"
+    }
+  ],
+  "translation": {
+    "en": "This final review covers mixed content from all JLPT N5 categories including vocabulary, grammar, and kanji.",
+    "fr": "Cette révision finale couvre un contenu mixte de toutes les catégories JLPT N5 : vocabulaire, grammaire et kanji."
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "id": "v034",
+  "title": "Question Words",
+  "titleEn": "Question Words",
+  "titleFr": "Mots interrogatifs",
+  "level": "beginner",
+  "difficulty": 0.3,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of this kanji?",
+      "prompt_fr": "Quelle est la lecture de ce kanji ?",
+      "kanji": "何",
+      "options": ["なに/なん", "どこ", "いつ", "だれ"],
+      "correctAnswer": "なに/なん",
+      "meaning_en": "what",
+      "meaning_fr": "quoi / que"
+    },
+    {
+      "id": "q2",
+      "type": "word_match",
+      "prompt": "What does どこ mean?",
+      "prompt_fr": "Que signifie どこ ?",
+      "word": "どこ",
+      "options": ["Where", "When", "What", "Who"],
+      "options_fr": ["Où", "Quand", "Quoi", "Qui"],
+      "correctAnswer": "Where",
+      "meaning_fr": "Où"
+    },
+    {
+      "id": "q3",
+      "type": "word_match",
+      "prompt": "What does いつ mean?",
+      "prompt_fr": "Que signifie いつ ?",
+      "word": "いつ",
+      "options": ["When", "Where", "Who", "How"],
+      "options_fr": ["Quand", "Où", "Qui", "Comment"],
+      "correctAnswer": "When",
+      "meaning_fr": "Quand"
+    },
+    {
+      "id": "q4",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of this kanji?",
+      "prompt_fr": "Quelle est la lecture de ce kanji ?",
+      "kanji": "誰",
+      "options": ["だれ", "なに", "どこ", "いつ"],
+      "correctAnswer": "だれ",
+      "meaning_en": "who",
+      "meaning_fr": "qui"
+    },
+    {
+      "id": "q5",
+      "type": "word_match",
+      "prompt": "What does どう mean?",
+      "prompt_fr": "Que signifie どう ?",
+      "word": "どう",
+      "options": ["How", "What", "When", "Where"],
+      "options_fr": ["Comment", "Quoi", "Quand", "Où"],
+      "correctAnswer": "How",
+      "meaning_fr": "Comment"
+    },
+    {
+      "id": "q6",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "＿＿に行きますか。(Where are you going?)",
+      "sentence_fr": "＿＿に行きますか。(Où allez-vous ?)",
+      "options": ["どこ", "いつ", "何", "誰"],
+      "correctAnswer": "どこ",
+      "meaning_en": "where",
+      "meaning_fr": "où"
+    },
+    {
+      "id": "q7",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "＿＿が来ますか。(Who is coming?)",
+      "sentence_fr": "＿＿が来ますか。(Qui vient ?)",
+      "options": ["誰", "何", "どこ", "いつ"],
+      "correctAnswer": "誰",
+      "meaning_en": "who",
+      "meaning_fr": "qui"
+    },
+    {
+      "id": "q8",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "これは＿＿ですか。(What is this?)",
+      "sentence_fr": "これは＿＿ですか。(Qu'est-ce que c'est ?)",
+      "options": ["何", "誰", "どこ", "どう"],
+      "correctAnswer": "何",
+      "meaning_en": "what",
+      "meaning_fr": "quoi"
+    }
+  ],
+  "translation": {
+    "en": "This lesson covers essential question words: what, where, when, who, and how.",
+    "fr": "Cette leçon couvre les mots interrogatifs essentiels : quoi, où, quand, qui et comment."
+  }
+}

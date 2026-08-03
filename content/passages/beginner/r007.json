@@ -1,0 +1,38 @@
+{
+  "id": "r007",
+  "title": "日本の天気",
+  "titleEn": "Weather in Japan",
+  "text": "<ruby>日本<rt>にほん</rt></ruby>には<ruby>四<rt>よっ</rt></ruby>つの<ruby>季節<rt>きせつ</rt></ruby>があります。<ruby>春<rt>はる</rt></ruby>は<ruby>暖<rt>あたた</rt></ruby>かいです。<ruby>桜<rt>さくら</rt></ruby>がきれいに<ruby>咲<rt>さ</rt></ruby>きます。<ruby>夏<rt>なつ</rt></ruby>はとても<ruby>暑<rt>あつ</rt></ruby>いです。<ruby>毎日<rt>まいにち</rt></ruby><ruby>三十五度<rt>さんじゅうごど</rt></ruby>ぐらいになります。<ruby>秋<rt>あき</rt></ruby>は<ruby>涼<rt>すず</rt></ruby>しくて、<ruby>紅葉<rt>こうよう</rt></ruby>がきれいです。<ruby>冬<rt>ふゆ</rt></ruby>は<ruby>寒<rt>さむ</rt></ruby>いです。<ruby>北<rt>きた</rt></ruby>の<ruby>地方<rt>ちほう</rt></ruby>では<ruby>雪<rt>ゆき</rt></ruby>がたくさん<ruby>降<rt>ふ</rt></ruby>ります。<ruby>私<rt>わたし</rt></ruby>は<ruby>春<rt>はる</rt></ruby>が<ruby>一番<rt>いちばん</rt></ruby><ruby>好<rt>す</rt></ruby>きです。",
+  "difficulty": 0.22,
+  "level": "beginner",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "How many seasons does Japan have?",
+      "options": ["2つ", "3つ", "4つ", "5つ"],
+      "correctAnswer": "4つ"
+    },
+    {
+      "id": "q2",
+      "question": "What is the temperature in summer?",
+      "options": ["25度ぐらい", "30度ぐらい", "35度ぐらい", "40度ぐらい"],
+      "correctAnswer": "35度ぐらい"
+    },
+    {
+      "id": "q3",
+      "question": "What happens in the northern regions in winter?",
+      "options": ["雨が降る", "雪が降る", "風が吹く", "暑くなる"],
+      "correctAnswer": "雪が降る"
+    },
+    {
+      "id": "q4",
+      "question": "Which season does the narrator like the most?",
+      "options": ["春", "夏", "秋", "冬"],
+      "correctAnswer": "春"
+    }
+  ],
+  "translation": {
+    "en": "Japan has four seasons. Spring is warm. Cherry blossoms bloom beautifully. Summer is very hot. It reaches about 35 degrees every day. Autumn is cool, and the autumn leaves are beautiful. Winter is cold. In the northern regions, a lot of snow falls. I like spring the best.",
+    "fr": "Le Japon a quatre saisons. Le printemps est chaud. Les cerisiers fleurissent magnifiquement. L'été est très chaud. La température atteint environ 35 degrés chaque jour. L'automne est frais et les feuilles d'automne sont belles. L'hiver est froid. Dans les régions du nord, il neige beaucoup. Je préfère le printemps."
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "l005",
+  "title": "Weather Conversation",
+  "type": "multiple_choice",
+  "audioUrl": "/api/listening/beginner/l005/audio",
+  "transcript": "今日はいい天気ですね。 はい、とても暖かいです。 明日の天気を知っていますか。 明日は雨が降るそうですよ。 そうですか。じゃ、傘を持って行かなきゃ。",
+  "questions": [
+    {
+      "question": "How is today's weather?",
+      "options": ["Rainy", "Cold", "Warm and nice", "Windy"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "What will tomorrow's weather be?",
+      "options": ["Sunny", "Rainy", "Snowy", "Cloudy"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "What does the person plan to bring?",
+      "options": ["A jacket", "An umbrella", "Sunglasses", "A hat"],
+      "correctAnswer": 1
+    }
+  ],
+  "difficulty": 0.3
+}

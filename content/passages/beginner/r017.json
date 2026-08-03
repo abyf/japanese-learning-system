@@ -1,0 +1,38 @@
+{
+  "id": "r017",
+  "title": "朝の準備",
+  "titleEn": "Morning Routine",
+  "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>毎朝<rt>まいあさ</rt></ruby><ruby>六時<rt>ろくじ</rt></ruby>に<ruby>起<rt>お</rt></ruby>きます。まず、<ruby>顔<rt>かお</rt></ruby>を<ruby>洗<rt>あら</rt></ruby>って、<ruby>歯<rt>は</rt></ruby>を<ruby>磨<rt>みが</rt></ruby>きます。それから、<ruby>制服<rt>せいふく</rt></ruby>に<ruby>着替<rt>きが</rt></ruby>えます。<ruby>朝<rt>あさ</rt></ruby>ご<ruby>飯<rt>はん</rt></ruby>はパンと<ruby>卵<rt>たまご</rt></ruby>とサラダを<ruby>食<rt>た</rt></ruby>べます。<ruby>七時半<rt>しちじはん</rt></ruby>に<ruby>家<rt>いえ</rt></ruby>を<ruby>出<rt>で</rt></ruby>ます。<ruby>学校<rt>がっこう</rt></ruby>まで<ruby>自転車<rt>じてんしゃ</rt></ruby>で<ruby>十五分<rt>じゅうごふん</rt></ruby>かかります。<ruby>八時<rt>はちじ</rt></ruby>に<ruby>学校<rt>がっこう</rt></ruby>に<ruby>着<rt>つ</rt></ruby>きます。<ruby>朝<rt>あさ</rt></ruby>はいつも<ruby>忙<rt>いそが</rt></ruby>しいです。",
+  "difficulty": 0.42,
+  "level": "beginner",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What time does the narrator wake up?",
+      "options": ["5時", "6時", "7時", "8時"],
+      "correctAnswer": "6時"
+    },
+    {
+      "id": "q2",
+      "question": "What does the narrator eat for breakfast?",
+      "options": ["ご飯と味噌汁", "パンと卵とサラダ", "シリアルと牛乳", "おにぎりと魚"],
+      "correctAnswer": "パンと卵とサラダ"
+    },
+    {
+      "id": "q3",
+      "question": "How does the narrator get to school?",
+      "options": ["バス", "電車", "自転車", "歩いて"],
+      "correctAnswer": "自転車"
+    },
+    {
+      "id": "q4",
+      "question": "How long does it take to get to school?",
+      "options": ["10分", "15分", "20分", "30分"],
+      "correctAnswer": "15分"
+    }
+  ],
+  "translation": {
+    "en": "I wake up at six o'clock every morning. First, I wash my face and brush my teeth. Then, I change into my school uniform. For breakfast, I eat bread, eggs, and salad. I leave home at seven thirty. It takes fifteen minutes to school by bicycle. I arrive at school at eight o'clock. Mornings are always busy.",
+    "fr": "Je me lève à six heures chaque matin. D'abord, je me lave le visage et je me brosse les dents. Ensuite, je me change en uniforme scolaire. Pour le petit-déjeuner, je mange du pain, des œufs et de la salade. Je quitte la maison à sept heures et demie. Il faut quinze minutes pour aller à l'école à vélo. J'arrive à l'école à huit heures. Les matins sont toujours chargés."
+  }
+}

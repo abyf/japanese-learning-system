@@ -1,0 +1,41 @@
+{
+  "id": "l009",
+  "title": "Train Announcement",
+  "titleFr": "Annonce de train",
+  "type": "multiple_choice",
+  "audioUrl": "/api/listening/beginner/l009/audio",
+  "transcript": "お客様にお知らせいたします。中央線は信号故障のため、約十五分遅れて運行しております。東京方面行きの電車は、三番線から二番線に変更になりました。次の東京行きは十時二十五分に発車いたします。ご迷惑をおかけして申し訳ございません。山手線は通常通り運行しております。",
+  "questions": [
+    {
+      "question": "What line is delayed?",
+      "options": ["Yamanote Line", "Chuo Line", "Sobu Line", "Keio Line"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "What caused the delay?",
+      "options": ["An accident", "A signal malfunction", "Bad weather", "Overcrowding"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "How long is the delay?",
+      "options": ["5 minutes", "10 minutes", "15 minutes", "20 minutes"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "What platform change was announced?",
+      "options": ["Platform 1 to 3", "Platform 3 to 2", "Platform 2 to 4", "Platform 5 to 1"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "What time will the next train to Tokyo depart?",
+      "options": ["10:15", "10:20", "10:25", "10:30"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "What is the status of the Yamanote Line?",
+      "options": ["Also delayed", "Operating normally", "Suspended", "Running express only"],
+      "correctAnswer": 1
+    }
+  ],
+  "difficulty": 0.45
+}

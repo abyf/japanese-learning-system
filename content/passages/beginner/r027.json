@@ -1,0 +1,56 @@
+{
+  "id": "r027",
+  "title": "学校の一日",
+  "titleEn": "A Day at School",
+  "text": "<ruby>朝<rt>あさ</rt></ruby><ruby>八時<rt>はちじ</rt></ruby>に<ruby>学校<rt>がっこう</rt></ruby>に<ruby>着<rt>つ</rt></ruby>きます。<ruby>一時間目<rt>いちじかんめ</rt></ruby>は<ruby>数学<rt>すうがく</rt></ruby>です。<ruby>二時間目<rt>にじかんめ</rt></ruby>は<ruby>英語<rt>えいご</rt></ruby>です。<ruby>三時間目<rt>さんじかんめ</rt></ruby>は<ruby>体育<rt>たいいく</rt></ruby>で、バスケットボールをしました。<ruby>昼休<rt>ひるやす</rt></ruby>みに<ruby>友達<rt>ともだち</rt></ruby>と<ruby>教室<rt>きょうしつ</rt></ruby>でお<ruby>弁当<rt>べんとう</rt></ruby>を<ruby>食<rt>た</rt></ruby>べました。<ruby>午後<rt>ごご</rt></ruby>は<ruby>理科<rt>りか</rt></ruby>と<ruby>音楽<rt>おんがく</rt></ruby>がありました。<ruby>放課後<rt>ほうかご</rt></ruby>はサッカー<ruby>部<rt>ぶ</rt></ruby>の<ruby>練習<rt>れんしゅう</rt></ruby>があります。<ruby>五時<rt>ごじ</rt></ruby>に<ruby>家<rt>いえ</rt></ruby>に<ruby>帰<rt>かえ</rt></ruby>ります。",
+  "difficulty": 0.31,
+  "level": "beginner",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What time does the speaker arrive at school?",
+      "options": ["七時", "七時半", "八時", "八時半"],
+      "correctAnswer": "八時"
+    },
+    {
+      "id": "q2",
+      "question": "What is the first class?",
+      "options": ["英語", "数学", "理科", "国語"],
+      "correctAnswer": "数学"
+    },
+    {
+      "id": "q3",
+      "question": "What sport did they do in PE class?",
+      "options": ["サッカー", "テニス", "バスケットボール", "バレーボール"],
+      "correctAnswer": "バスケットボール"
+    },
+    {
+      "id": "q4",
+      "question": "Where did they eat lunch?",
+      "options": ["食堂", "教室", "校庭", "図書館"],
+      "correctAnswer": "教室"
+    },
+    {
+      "id": "q5",
+      "question": "What club does the speaker belong to?",
+      "options": ["野球部", "テニス部", "サッカー部", "バスケ部"],
+      "correctAnswer": "サッカー部"
+    },
+    {
+      "id": "q6",
+      "question": "What time does the speaker go home?",
+      "options": ["三時", "四時", "五時", "六時"],
+      "correctAnswer": "五時"
+    },
+    {
+      "id": "q7",
+      "question": "What subjects were in the afternoon?",
+      "options": ["数学と英語", "理科と音楽", "国語と社会", "体育と美術"],
+      "correctAnswer": "理科と音楽"
+    }
+  ],
+  "translation": {
+    "en": "I arrive at school at 8 AM. First period is math. Second period is English. Third period is PE, and we played basketball. During lunch break, I ate a bento with my friends in the classroom. In the afternoon, we had science and music. After school, there is soccer club practice. I go home at 5 o'clock.",
+    "fr": "J'arrive à l'école à 8 heures. La première heure, c'est les mathématiques. La deuxième heure, c'est l'anglais. La troisième heure, c'est l'éducation physique, et nous avons joué au basketball. Pendant la pause déjeuner, j'ai mangé un bento avec mes amis dans la salle de classe. L'après-midi, nous avions sciences et musique. Après l'école, il y a l'entraînement du club de football. Je rentre chez moi à 17 heures."
+  }
+}

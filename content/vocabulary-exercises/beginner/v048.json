@@ -1,0 +1,94 @@
+{
+  "id": "v048",
+  "title": "Comparative Expressions",
+  "titleEn": "Comparative Expressions",
+  "titleFr": "Expressions comparatives",
+  "level": "beginner",
+  "difficulty": 0.35,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "word_match",
+      "prompt": "What does より mean in a comparison?",
+      "prompt_fr": "Que signifie より dans une comparaison ?",
+      "word": "より",
+      "options": ["More than / Compared to", "The most", "As much as", "Less than"],
+      "options_fr": ["Plus que / Comparé à", "Le plus", "Autant que", "Moins que"],
+      "correctAnswer": "More than / Compared to",
+      "meaning_fr": "Plus que / Comparé à"
+    },
+    {
+      "id": "q2",
+      "type": "word_match",
+      "prompt": "What does 一番 mean?",
+      "prompt_fr": "Que signifie 一番 ?",
+      "word": "一番",
+      "options": ["The most / Number one", "More than", "Not as much as", "A little"],
+      "options_fr": ["Le plus / Numéro un", "Plus que", "Pas autant que", "Un peu"],
+      "correctAnswer": "The most / Number one",
+      "meaning_fr": "Le plus / Numéro un"
+    },
+    {
+      "id": "q3",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "東京は大阪＿＿大きいです。(Tokyo is bigger than Osaka.)",
+      "sentence_fr": "東京は大阪＿＿大きいです。(Tokyo est plus grand qu'Osaka.)",
+      "options": ["より", "一番", "ほど", "くらい"],
+      "correctAnswer": "より",
+      "meaning_en": "more than",
+      "meaning_fr": "plus que"
+    },
+    {
+      "id": "q4",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "日本で＿＿高い山は富士山です。(The tallest mountain in Japan is Mt. Fuji.)",
+      "sentence_fr": "日本で＿＿高い山は富士山です。(La montagne la plus haute du Japon est le Mont Fuji.)",
+      "options": ["一番", "より", "ほど", "もっと"],
+      "correctAnswer": "一番",
+      "meaning_en": "the most",
+      "meaning_fr": "le plus"
+    },
+    {
+      "id": "q5",
+      "type": "word_match",
+      "prompt": "What does ほど mean in comparison?",
+      "prompt_fr": "Que signifie ほど dans une comparaison ?",
+      "word": "ほど",
+      "options": ["Not as ~ as", "More than", "The most", "Equally"],
+      "options_fr": ["Pas aussi ~ que", "Plus que", "Le plus", "Également"],
+      "correctAnswer": "Not as ~ as",
+      "meaning_fr": "Pas aussi ~ que"
+    },
+    {
+      "id": "q6",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "大阪は東京＿＿大きくないです。(Osaka is not as big as Tokyo.)",
+      "sentence_fr": "大阪は東京＿＿大きくないです。(Osaka n'est pas aussi grand que Tokyo.)",
+      "options": ["ほど", "より", "一番", "もっと"],
+      "correctAnswer": "ほど",
+      "meaning_en": "not as much as",
+      "meaning_fr": "pas autant que"
+    },
+    {
+      "id": "q7",
+      "type": "word_match",
+      "prompt": "What does もっと mean?",
+      "prompt_fr": "Que signifie もっと ?",
+      "word": "もっと",
+      "options": ["More / Further", "The most", "Less", "A little"],
+      "options_fr": ["Plus / Davantage", "Le plus", "Moins", "Un peu"],
+      "correctAnswer": "More / Further",
+      "meaning_fr": "Plus / Davantage"
+    }
+  ],
+  "translation": {
+    "en": "This lesson covers comparative and superlative expressions using より, 一番, and ほど.",
+    "fr": "Cette leçon couvre les expressions comparatives et superlatives avec より, 一番 et ほど."
+  }
+}

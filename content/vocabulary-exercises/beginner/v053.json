@@ -1,0 +1,104 @@
+{
+  "id": "v053",
+  "title": "Cooking Verbs",
+  "titleEn": "Cooking Verbs",
+  "titleFr": "Verbes de cuisine",
+  "level": "beginner",
+  "difficulty": 0.4,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of 切る?",
+      "prompt_fr": "Quelle est la lecture de 切る ?",
+      "kanji": "切る",
+      "options": ["きる", "やく", "にる", "まぜる"],
+      "correctAnswer": "きる",
+      "meaning_en": "to cut",
+      "meaning_fr": "couper"
+    },
+    {
+      "id": "q2",
+      "type": "word_match",
+      "prompt": "What does 焼く mean?",
+      "prompt_fr": "Que signifie 焼く ?",
+      "word": "焼く",
+      "options": ["To grill / To bake", "To cut", "To boil", "To mix"],
+      "options_fr": ["Griller / Cuire au four", "Couper", "Bouillir", "Mélanger"],
+      "correctAnswer": "To grill / To bake",
+      "meaning_fr": "Griller / Cuire au four"
+    },
+    {
+      "id": "q3",
+      "type": "word_match",
+      "prompt": "What does 煮る mean?",
+      "prompt_fr": "Que signifie 煮る ?",
+      "word": "煮る",
+      "options": ["To boil / To simmer", "To grill", "To fry", "To cut"],
+      "options_fr": ["Bouillir / Mijoter", "Griller", "Frire", "Couper"],
+      "correctAnswer": "To boil / To simmer",
+      "meaning_fr": "Bouillir / Mijoter"
+    },
+    {
+      "id": "q4",
+      "type": "word_match",
+      "prompt": "What does 混ぜる mean?",
+      "prompt_fr": "Que signifie 混ぜる ?",
+      "word": "混ぜる",
+      "options": ["To mix / To stir", "To boil", "To cut", "To grill"],
+      "options_fr": ["Mélanger / Remuer", "Bouillir", "Couper", "Griller"],
+      "correctAnswer": "To mix / To stir",
+      "meaning_fr": "Mélanger / Remuer"
+    },
+    {
+      "id": "q5",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "野菜を＿＿ください。(Please cut the vegetables.)",
+      "sentence_fr": "野菜を＿＿ください。(Coupez les légumes, s'il vous plaît.)",
+      "options": ["切って", "焼いて", "煮て", "混ぜて"],
+      "correctAnswer": "切って",
+      "meaning_en": "cut (te-form)",
+      "meaning_fr": "couper (forme en て)"
+    },
+    {
+      "id": "q6",
+      "type": "word_match",
+      "prompt": "What does 揚げる mean?",
+      "prompt_fr": "Que signifie 揚げる ?",
+      "word": "揚げる",
+      "options": ["To deep-fry", "To boil", "To grill", "To steam"],
+      "options_fr": ["Frire (dans l'huile)", "Bouillir", "Griller", "Cuire à la vapeur"],
+      "correctAnswer": "To deep-fry",
+      "meaning_fr": "Frire (dans l'huile)"
+    },
+    {
+      "id": "q7",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "肉を＿＿ます。(I grill the meat.)",
+      "sentence_fr": "肉を＿＿ます。(Je grille la viande.)",
+      "options": ["焼き", "切り", "煮", "混ぜ"],
+      "correctAnswer": "焼き",
+      "meaning_en": "grill",
+      "meaning_fr": "griller"
+    },
+    {
+      "id": "q8",
+      "type": "word_match",
+      "prompt": "What does 蒸す mean?",
+      "prompt_fr": "Que signifie 蒸す ?",
+      "word": "蒸す",
+      "options": ["To steam", "To fry", "To cut", "To mix"],
+      "options_fr": ["Cuire à la vapeur", "Frire", "Couper", "Mélanger"],
+      "correctAnswer": "To steam",
+      "meaning_fr": "Cuire à la vapeur"
+    }
+  ],
+  "translation": {
+    "en": "This lesson covers essential cooking verbs used in Japanese kitchens.",
+    "fr": "Cette leçon couvre les verbes de cuisine essentiels utilisés dans les cuisines japonaises."
+  }
+}

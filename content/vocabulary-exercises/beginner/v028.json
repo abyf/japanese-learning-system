@@ -1,0 +1,82 @@
+{
+  "id": "v028",
+  "title": "Animals 2",
+  "titleEn": "Animals 2",
+  "titleFr": "Animaux 2",
+  "level": "beginner",
+  "difficulty": 0.2,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of this kanji?",
+      "prompt_fr": "Quelle est la lecture de ce kanji ?",
+      "kanji": "馬",
+      "options": ["うま", "うし", "ぶた", "ひつじ"],
+      "correctAnswer": "うま",
+      "meaning_en": "horse",
+      "meaning_fr": "cheval"
+    },
+    {
+      "id": "q2",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of this kanji?",
+      "prompt_fr": "Quelle est la lecture de ce kanji ?",
+      "kanji": "牛",
+      "options": ["うし", "うま", "ぶた", "とり"],
+      "correctAnswer": "うし",
+      "meaning_en": "cow",
+      "meaning_fr": "vache"
+    },
+    {
+      "id": "q3",
+      "type": "word_match",
+      "prompt": "What does 豚 mean?",
+      "prompt_fr": "Que signifie 豚 ?",
+      "word": "豚",
+      "options": ["Pig", "Horse", "Sheep", "Chicken"],
+      "options_fr": ["Cochon", "Cheval", "Mouton", "Poulet"],
+      "correctAnswer": "Pig",
+      "meaning_fr": "Cochon"
+    },
+    {
+      "id": "q4",
+      "type": "word_match",
+      "prompt": "What does 羊 mean?",
+      "prompt_fr": "Que signifie 羊 ?",
+      "word": "羊",
+      "options": ["Sheep", "Goat", "Cow", "Pig"],
+      "options_fr": ["Mouton", "Chèvre", "Vache", "Cochon"],
+      "correctAnswer": "Sheep",
+      "meaning_fr": "Mouton"
+    },
+    {
+      "id": "q5",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "牧場に＿＿がいます。(There is a horse at the farm)",
+      "sentence_fr": "牧場に＿＿がいます。(Il y a un cheval à la ferme)",
+      "options": ["馬", "魚", "鳥", "犬"],
+      "correctAnswer": "馬",
+      "meaning_en": "horse",
+      "meaning_fr": "cheval"
+    },
+    {
+      "id": "q6",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "＿＿の肉は「ぎゅうにく」です。(Cow meat is 'gyuuniku')",
+      "sentence_fr": "＿＿の肉は「ぎゅうにく」です。(La viande de vache est 'gyuuniku')",
+      "options": ["牛", "豚", "馬", "羊"],
+      "correctAnswer": "牛",
+      "meaning_en": "cow",
+      "meaning_fr": "vache"
+    }
+  ],
+  "translation": {
+    "en": "This lesson covers farm animals: horse, cow, pig, and sheep.",
+    "fr": "Cette leçon couvre les animaux de la ferme : cheval, vache, cochon et mouton."
+  }
+}

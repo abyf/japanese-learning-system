@@ -1,0 +1,38 @@
+{
+  "id": "r003",
+  "title": "公共交通機関",
+  "titleEn": "Public Transportation",
+  "text": "<ruby>日本<rt>にほん</rt></ruby>の<ruby>公共<rt>こうきょう</rt></ruby><ruby>交通<rt>こうつう</rt></ruby><ruby>機関<rt>きかん</rt></ruby>は<ruby>世界<rt>せかい</rt></ruby>でも<ruby>有名<rt>ゆうめい</rt></ruby>です。<ruby>特<rt>とく</rt></ruby>に<ruby>電車<rt>でんしゃ</rt></ruby>は<ruby>時間<rt>じかん</rt></ruby>に<ruby>正確<rt>せいかく</rt></ruby>で、<ruby>安全<rt>あんぜん</rt></ruby>で、きれいです。<ruby>新幹線<rt>しんかんせん</rt></ruby>は<ruby>最高<rt>さいこう</rt></ruby><ruby>時速<rt>じそく</rt></ruby>320キロで<ruby>走<rt>はし</rt></ruby>り、<ruby>東京<rt>とうきょう</rt></ruby>から<ruby>大阪<rt>おおさか</rt></ruby>まで<ruby>約<rt>やく</rt></ruby>2<ruby>時間<rt>じかん</rt></ruby>半で<ruby>着<rt>つ</rt></ruby>きます。<ruby>都市<rt>とし</rt></ruby><ruby>部<rt>ぶ</rt></ruby>では<ruby>地下鉄<rt>ちかてつ</rt></ruby>が<ruby>便利<rt>べんり</rt></ruby>です。<ruby>路線<rt>ろせん</rt></ruby>が<ruby>多<rt>おお</rt></ruby>く、<ruby>数分<rt>すうふん</rt></ruby>おきに<ruby>電車<rt>でんしゃ</rt></ruby>が<ruby>来<rt>き</rt></ruby>ます。ただし、<ruby>朝<rt>あさ</rt></ruby>のラッシュアワーは<ruby>非常<rt>ひじょう</rt></ruby>に<ruby>混<rt>こ</rt></ruby>みます。ICカードを<ruby>使<rt>つか</rt></ruby>えば、<ruby>切符<rt>きっぷ</rt></ruby>を<ruby>買<rt>か</rt></ruby>わなくてもいいので<ruby>便利<rt>べんり</rt></ruby>です。バスも<ruby>全国<rt>ぜんこく</rt></ruby>で<ruby>利用<rt>りよう</rt></ruby>できます。<ruby>地方<rt>ちほう</rt></ruby>では<ruby>電車<rt>でんしゃ</rt></ruby>より<ruby>バス<rt></rt></ruby>の<ruby>方<rt>ほう</rt></ruby>が<ruby>便利<rt>べんり</rt></ruby>なこともあります。<ruby>日本<rt>にほん</rt></ruby>を<ruby>旅行<rt>りょこう</rt></ruby>する<ruby>時<rt>とき</rt></ruby>は、<ruby>公共<rt>こうきょう</rt></ruby><ruby>交通<rt>こうつう</rt></ruby><ruby>機関<rt>きかん</rt></ruby>を<ruby>上手<rt>じょうず</rt></ruby>に<ruby>使<rt>つか</rt></ruby>いましょう。",
+  "difficulty": 0.55,
+  "level": "intermediate",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "How long does it take to go from Tokyo to Osaka by Shinkansen?",
+      "options": ["約1時間", "約2時間半", "約4時間", "約5時間"],
+      "correctAnswer": "約2時間半"
+    },
+    {
+      "id": "q2",
+      "question": "What is the maximum speed of the Shinkansen?",
+      "options": ["200km/h", "280km/h", "320km/h", "400km/h"],
+      "correctAnswer": "320km/h"
+    },
+    {
+      "id": "q3",
+      "question": "What is a problem with morning trains?",
+      "options": ["遅れる", "高い", "非常に混む", "少ない"],
+      "correctAnswer": "非常に混む"
+    },
+    {
+      "id": "q4",
+      "question": "What makes riding trains convenient without buying tickets?",
+      "options": ["定期券", "ICカード", "回数券", "フリーパス"],
+      "correctAnswer": "ICカード"
+    }
+  ],
+  "translation": {
+    "en": "Japan's public transportation is famous worldwide. Trains in particular are punctual, safe, and clean. The Shinkansen runs at a maximum speed of 320 km/h and reaches Osaka from Tokyo in about two and a half hours. In urban areas, the subway is convenient. There are many lines, and trains come every few minutes. However, the morning rush hour is extremely crowded. If you use an IC card, you don't need to buy tickets, which is convenient. Buses are also available nationwide. In rural areas, buses can be more convenient than trains. When traveling in Japan, make good use of public transportation.",
+    "fr": "Les transports en commun japonais sont célèbres dans le monde entier. Les trains en particulier sont ponctuels, sûrs et propres. Le Shinkansen roule à une vitesse maximale de 320 km/h et arrive à Osaka depuis Tokyo en environ deux heures et demie. Dans les zones urbaines, le métro est pratique. Il y a de nombreuses lignes et les trains arrivent toutes les quelques minutes. Cependant, l'heure de pointe du matin est extrêmement bondée. Si vous utilisez une carte IC, vous n'avez pas besoin d'acheter de billets, ce qui est pratique. Les bus sont également disponibles dans tout le pays. Dans les zones rurales, les bus peuvent être plus pratiques que les trains. Lorsque vous voyagez au Japon, utilisez bien les transports en commun."
+  }
+}

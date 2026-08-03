@@ -1,0 +1,8 @@
+{
+  "id": "d004",
+  "title": "Daily Routine",
+  "expectedText": "毎朝六時に起きて、ジョギングをしています",
+  "audioUrl": "/api/dictation/intermediate/d004/audio",
+  "difficulty": 0.6,
+  "hint": "Describing a morning exercise routine"
+}

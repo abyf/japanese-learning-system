@@ -1,0 +1,104 @@
+{
+  "id": "v049",
+  "title": "Time Expressions 2",
+  "titleEn": "Time Expressions 2",
+  "titleFr": "Expressions temporelles 2",
+  "level": "beginner",
+  "difficulty": 0.3,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of 午前?",
+      "prompt_fr": "Quelle est la lecture de 午前 ?",
+      "kanji": "午前",
+      "options": ["ごぜん", "ごご", "あさ", "ひる"],
+      "correctAnswer": "ごぜん",
+      "meaning_en": "morning / AM",
+      "meaning_fr": "matin / AM"
+    },
+    {
+      "id": "q2",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of 午後?",
+      "prompt_fr": "Quelle est la lecture de 午後 ?",
+      "kanji": "午後",
+      "options": ["ごご", "ごぜん", "よる", "ひる"],
+      "correctAnswer": "ごご",
+      "meaning_en": "afternoon / PM",
+      "meaning_fr": "après-midi / PM"
+    },
+    {
+      "id": "q3",
+      "type": "word_match",
+      "prompt": "What does 朝 mean?",
+      "prompt_fr": "Que signifie 朝 ?",
+      "word": "朝",
+      "options": ["Morning", "Afternoon", "Evening", "Night"],
+      "options_fr": ["Matin", "Après-midi", "Soir", "Nuit"],
+      "correctAnswer": "Morning",
+      "meaning_fr": "Matin"
+    },
+    {
+      "id": "q4",
+      "type": "word_match",
+      "prompt": "What does 昼 mean?",
+      "prompt_fr": "Que signifie 昼 ?",
+      "word": "昼",
+      "options": ["Noon / Daytime", "Morning", "Night", "Evening"],
+      "options_fr": ["Midi / Journée", "Matin", "Nuit", "Soir"],
+      "correctAnswer": "Noon / Daytime",
+      "meaning_fr": "Midi / Journée"
+    },
+    {
+      "id": "q5",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of 夜?",
+      "prompt_fr": "Quelle est la lecture de 夜 ?",
+      "kanji": "夜",
+      "options": ["よる", "あさ", "ひる", "ゆう"],
+      "correctAnswer": "よる",
+      "meaning_en": "night / evening",
+      "meaning_fr": "nuit / soir"
+    },
+    {
+      "id": "q6",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "＿＿七時に起きます。(I wake up at 7 in the morning.)",
+      "sentence_fr": "＿＿七時に起きます。(Je me réveille à 7 heures du matin.)",
+      "options": ["朝", "夜", "昼", "午後"],
+      "correctAnswer": "朝",
+      "meaning_en": "morning",
+      "meaning_fr": "matin"
+    },
+    {
+      "id": "q7",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "＿＿十一時に寝ます。(I go to bed at 11 at night.)",
+      "sentence_fr": "＿＿十一時に寝ます。(Je me couche à 23 heures.)",
+      "options": ["夜", "朝", "昼", "午前"],
+      "correctAnswer": "夜",
+      "meaning_en": "night",
+      "meaning_fr": "nuit"
+    },
+    {
+      "id": "q8",
+      "type": "word_match",
+      "prompt": "What does 夕方 mean?",
+      "prompt_fr": "Que signifie 夕方 ?",
+      "word": "夕方",
+      "options": ["Evening / Dusk", "Morning", "Midnight", "Noon"],
+      "options_fr": ["Soir / Crépuscule", "Matin", "Minuit", "Midi"],
+      "correctAnswer": "Evening / Dusk",
+      "meaning_fr": "Soir / Crépuscule"
+    }
+  ],
+  "translation": {
+    "en": "This lesson covers time-of-day expressions including morning, afternoon, and night.",
+    "fr": "Cette leçon couvre les expressions liées aux moments de la journée : matin, après-midi et nuit."
+  }
+}

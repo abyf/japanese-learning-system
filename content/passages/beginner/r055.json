@@ -1,0 +1,50 @@
+{
+  "id": "r055",
+  "title": "日本の四季",
+  "titleEn": "Four Seasons Details",
+  "text": "<ruby>日本<rt>にほん</rt></ruby>には<ruby>四<rt>よっ</rt></ruby>つの<ruby>季節<rt>きせつ</rt></ruby>があります。<ruby>春<rt>はる</rt></ruby>は<ruby>三月<rt>さんがつ</rt></ruby>から<ruby>五月<rt>ごがつ</rt></ruby>で、<ruby>桜<rt>さくら</rt></ruby>が<ruby>咲<rt>さ</rt></ruby>きます。<ruby>夏<rt>なつ</rt></ruby>は<ruby>六月<rt>ろくがつ</rt></ruby>から<ruby>八月<rt>はちがつ</rt></ruby>で、<ruby>暑<rt>あつ</rt></ruby>くて<ruby>花火<rt>はなび</rt></ruby><ruby>大会<rt>たいかい</rt></ruby>があります。<ruby>秋<rt>あき</rt></ruby>は<ruby>九月<rt>くがつ</rt></ruby>から<ruby>十一月<rt>じゅういちがつ</rt></ruby>で、<ruby>紅葉<rt>こうよう</rt></ruby>がきれいです。<ruby>冬<rt>ふゆ</rt></ruby>は<ruby>十二月<rt>じゅうにがつ</rt></ruby>から<ruby>二月<rt>にがつ</rt></ruby>で、<ruby>雪<rt>ゆき</rt></ruby>が<ruby>降<rt>ふ</rt></ruby>ります。<ruby>日本人<rt>にほんじん</rt></ruby>は<ruby>季節<rt>きせつ</rt></ruby>の<ruby>変<rt>か</rt></ruby>わりをとても<ruby>大切<rt>たいせつ</rt></ruby>にします。<ruby>季節<rt>きせつ</rt></ruby>ごとに<ruby>特別<rt>とくべつ</rt></ruby>な<ruby>食<rt>た</rt></ruby>べ<ruby>物<rt>もの</rt></ruby>や<ruby>行事<rt>ぎょうじ</rt></ruby>があります。",
+  "difficulty": 0.5,
+  "level": "beginner",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "When is spring in Japan?",
+      "options": ["一月から三月", "三月から五月", "四月から六月", "二月から四月"],
+      "correctAnswer": "三月から五月"
+    },
+    {
+      "id": "q2",
+      "question": "What happens in spring?",
+      "options": ["雪が降る", "桜が咲く", "紅葉がきれい", "花火がある"],
+      "correctAnswer": "桜が咲く"
+    },
+    {
+      "id": "q3",
+      "question": "What event happens in summer?",
+      "options": ["お正月", "花火大会", "紅葉祭り", "雪まつり"],
+      "correctAnswer": "花火大会"
+    },
+    {
+      "id": "q4",
+      "question": "What is beautiful in autumn?",
+      "options": ["桜", "雪", "紅葉", "花"],
+      "correctAnswer": "紅葉"
+    },
+    {
+      "id": "q5",
+      "question": "What do Japanese people value?",
+      "options": ["お金", "季節の変わり", "仕事", "休み"],
+      "correctAnswer": "季節の変わり"
+    },
+    {
+      "id": "q6",
+      "question": "What exists for each season?",
+      "options": ["特別な食べ物や行事", "特別な仕事", "特別な服", "特別な音楽"],
+      "correctAnswer": "特別な食べ物や行事"
+    }
+  ],
+  "translation": {
+    "en": "Japan has four seasons. Spring is from March to May, when cherry blossoms bloom. Summer is from June to August, when it's hot and there are fireworks festivals. Autumn is from September to November, when the fall colors are beautiful. Winter is from December to February, when snow falls. Japanese people highly value the changing of seasons. Each season has its own special foods and events.",
+    "fr": "Le Japon a quatre saisons. Le printemps va de mars à mai, quand les cerisiers fleurissent. L'été va de juin à août, quand il fait chaud et qu'il y a des festivals de feux d'artifice. L'automne va de septembre à novembre, quand les feuilles d'automne sont belles. L'hiver va de décembre à février, quand la neige tombe. Les Japonais accordent beaucoup d'importance au changement des saisons. Chaque saison a ses propres aliments et événements spéciaux."
+  }
+}

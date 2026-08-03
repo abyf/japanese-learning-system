@@ -1,0 +1,56 @@
+{
+  "id": "r029",
+  "title": "引っ越し",
+  "titleEn": "Moving House",
+  "text": "<ruby>来週<rt>らいしゅう</rt></ruby>、<ruby>新<rt>あたら</rt></ruby>しいアパートに<ruby>引<rt>ひ</rt></ruby>っ<ruby>越<rt>こ</rt></ruby>します。<ruby>今<rt>いま</rt></ruby>の<ruby>部屋<rt>へや</rt></ruby>は<ruby>狭<rt>せま</rt></ruby>いので、もっと<ruby>広<rt>ひろ</rt></ruby>い<ruby>部屋<rt>へや</rt></ruby>に<ruby>住<rt>す</rt></ruby>みたいです。<ruby>新<rt>あたら</rt></ruby>しいアパートは<ruby>駅<rt>えき</rt></ruby>から<ruby>五分<rt>ごふん</rt></ruby>です。<ruby>家賃<rt>やちん</rt></ruby>は<ruby>月<rt>つき</rt></ruby><ruby>七万円<rt>ななまんえん</rt></ruby>です。<ruby>今日<rt>きょう</rt></ruby>は<ruby>段<rt>だん</rt></ruby>ボール<ruby>箱<rt>ばこ</rt></ruby>に<ruby>荷物<rt>にもつ</rt></ruby>を<ruby>入<rt>い</rt></ruby>れています。<ruby>本<rt>ほん</rt></ruby>がたくさんあるので<ruby>大変<rt>たいへん</rt></ruby>です。<ruby>友達<rt>ともだち</rt></ruby>が<ruby>手伝<rt>てつだ</rt></ruby>いに<ruby>来<rt>き</rt></ruby>てくれます。<ruby>新<rt>あたら</rt></ruby>しい<ruby>生活<rt>せいかつ</rt></ruby>が<ruby>楽<rt>たの</rt></ruby>しみです。",
+  "difficulty": 0.33,
+  "level": "beginner",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "When is the speaker moving?",
+      "options": ["今週", "来週", "来月", "来年"],
+      "correctAnswer": "来週"
+    },
+    {
+      "id": "q2",
+      "question": "Why is the speaker moving?",
+      "options": ["仕事のため", "部屋が狭いから", "学校に近いから", "家賃が高いから"],
+      "correctAnswer": "部屋が狭いから"
+    },
+    {
+      "id": "q3",
+      "question": "How far is the new apartment from the station?",
+      "options": ["三分", "五分", "十分", "十五分"],
+      "correctAnswer": "五分"
+    },
+    {
+      "id": "q4",
+      "question": "How much is the monthly rent?",
+      "options": ["五万円", "六万円", "七万円", "八万円"],
+      "correctAnswer": "七万円"
+    },
+    {
+      "id": "q5",
+      "question": "What is the speaker packing today?",
+      "options": ["服", "荷物", "食べ物", "おもちゃ"],
+      "correctAnswer": "荷物"
+    },
+    {
+      "id": "q6",
+      "question": "Why is packing difficult?",
+      "options": ["箱がないから", "本がたくさんあるから", "時間がないから", "一人だから"],
+      "correctAnswer": "本がたくさんあるから"
+    },
+    {
+      "id": "q7",
+      "question": "Who will come to help?",
+      "options": ["家族", "友達", "引っ越し業者", "隣の人"],
+      "correctAnswer": "友達"
+    }
+  ],
+  "translation": {
+    "en": "Next week, I'm moving to a new apartment. My current room is small, so I want to live in a bigger room. The new apartment is 5 minutes from the station. The rent is 70,000 yen per month. Today I'm putting my belongings in cardboard boxes. I have many books so it's tough. My friend is coming to help. I'm looking forward to my new life.",
+    "fr": "La semaine prochaine, je déménage dans un nouvel appartement. Ma chambre actuelle est petite, donc je veux habiter dans une plus grande chambre. Le nouvel appartement est à 5 minutes de la gare. Le loyer est de 70 000 yens par mois. Aujourd'hui, je mets mes affaires dans des cartons. J'ai beaucoup de livres, donc c'est difficile. Mon ami(e) vient m'aider. J'ai hâte de commencer ma nouvelle vie."
+  }
+}

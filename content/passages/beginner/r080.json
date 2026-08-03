@@ -1,0 +1,50 @@
+{
+  "id": "r080",
+  "title": "日本の自動販売機",
+  "titleEn": "Vending Machines",
+  "text": "<ruby>日本<rt>にほん</rt></ruby>には<ruby>約<rt>やく</rt></ruby><ruby>五百万台<rt>ごひゃくまんだい</rt></ruby>の<ruby>自動販売機<rt>じどうはんばいき</rt></ruby>があります。<ruby>世界<rt>せかい</rt></ruby>で<ruby>一番<rt>いちばん</rt></ruby><ruby>多<rt>おお</rt></ruby>いです。<ruby>飲<rt>の</rt></ruby>み<ruby>物<rt>もの</rt></ruby>だけでなく、<ruby>食<rt>た</rt></ruby>べ<ruby>物<rt>もの</rt></ruby>やお<ruby>菓子<rt>かし</rt></ruby>も<ruby>売<rt>う</rt></ruby>っています。<ruby>冬<rt>ふゆ</rt></ruby>は<ruby>温<rt>あたた</rt></ruby>かい<ruby>飲<rt>の</rt></ruby>み<ruby>物<rt>もの</rt></ruby>も<ruby>買<rt>か</rt></ruby>えます。<ruby>田舎<rt>いなか</rt></ruby>の<ruby>山<rt>やま</rt></ruby>の<ruby>中<rt>なか</rt></ruby>にもあります。<ruby>二十四時間<rt>にじゅうよじかん</rt></ruby><ruby>使<rt>つか</rt></ruby>えるので<ruby>便利<rt>べんり</rt></ruby>です。<ruby>最近<rt>さいきん</rt></ruby>は<ruby>災害時<rt>さいがいじ</rt></ruby>に<ruby>無料<rt>むりょう</rt></ruby>で<ruby>飲<rt>の</rt></ruby>み<ruby>物<rt>もの</rt></ruby>が<ruby>出<rt>で</rt></ruby>る<ruby>自動販売機<rt>じどうはんばいき</rt></ruby>もあります。",
+  "difficulty": 0.68,
+  "level": "beginner",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "How many vending machines are in Japan?",
+      "options": ["約百万台", "約三百万台", "約五百万台", "約千万台"],
+      "correctAnswer": "約五百万台"
+    },
+    {
+      "id": "q2",
+      "question": "What ranking does Japan hold?",
+      "options": ["世界で三番目", "世界で一番多い", "アジアで一番", "二番目"],
+      "correctAnswer": "世界で一番多い"
+    },
+    {
+      "id": "q3",
+      "question": "What can you buy in winter?",
+      "options": ["冷たい飲み物だけ", "温かい飲み物", "アイスクリーム", "かき氷"],
+      "correctAnswer": "温かい飲み物"
+    },
+    {
+      "id": "q4",
+      "question": "Where can you find them?",
+      "options": ["駅だけ", "街だけ", "田舎の山の中にも", "コンビニの中だけ"],
+      "correctAnswer": "田舎の山の中にも"
+    },
+    {
+      "id": "q5",
+      "question": "When can you use them?",
+      "options": ["朝から夜まで", "二十四時間", "昼だけ", "夜だけ"],
+      "correctAnswer": "二十四時間"
+    },
+    {
+      "id": "q6",
+      "question": "What do some machines do during disasters?",
+      "options": ["閉まる", "無料で飲み物が出る", "警報を出す", "電気を消す"],
+      "correctAnswer": "無料で飲み物が出る"
+    }
+  ],
+  "translation": {
+    "en": "Japan has about 5 million vending machines. That's the most in the world. They sell not only drinks but also food and snacks. In winter, you can buy warm drinks too. They're even found in mountains in the countryside. They're convenient because they can be used 24 hours. Recently, there are also vending machines that provide free drinks during disasters.",
+    "fr": "Le Japon compte environ 5 millions de distributeurs automatiques. C'est le plus grand nombre au monde. Ils vendent non seulement des boissons mais aussi de la nourriture et des snacks. En hiver, on peut aussi acheter des boissons chaudes. On les trouve même dans les montagnes à la campagne. Ils sont pratiques car utilisables 24h/24. Récemment, il existe aussi des distributeurs qui fournissent des boissons gratuites lors de catastrophes."
+  }
+}

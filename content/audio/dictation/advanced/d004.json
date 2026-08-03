@@ -1,0 +1,8 @@
+{
+  "id": "d004",
+  "title": "Academic Statement",
+  "expectedText": "この研究は従来の学説を根本的に覆す可能性を示唆している",
+  "audioUrl": "/api/dictation/advanced/d004/audio",
+  "difficulty": 0.9,
+  "hint": "An academic sentence about research overturning established theory"
+}

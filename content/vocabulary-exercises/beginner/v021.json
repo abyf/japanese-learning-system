@@ -1,0 +1,93 @@
+{
+  "id": "v021",
+  "title": "Months of the Year",
+  "titleEn": "Months of the Year",
+  "titleFr": "Les mois de l'année",
+  "level": "beginner",
+  "difficulty": 0.2,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of this month?",
+      "prompt_fr": "Quelle est la lecture de ce mois ?",
+      "kanji": "一月",
+      "options": ["いちがつ", "にがつ", "さんがつ", "しがつ"],
+      "correctAnswer": "いちがつ",
+      "meaning_en": "January",
+      "meaning_fr": "Janvier"
+    },
+    {
+      "id": "q2",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of this month?",
+      "prompt_fr": "Quelle est la lecture de ce mois ?",
+      "kanji": "四月",
+      "options": ["しがつ", "よんがつ", "しげつ", "よげつ"],
+      "correctAnswer": "しがつ",
+      "meaning_en": "April",
+      "meaning_fr": "Avril"
+    },
+    {
+      "id": "q3",
+      "type": "word_match",
+      "prompt": "What month is しちがつ?",
+      "prompt_fr": "Quel mois est しちがつ ?",
+      "word": "七月",
+      "options": ["July", "June", "August", "September"],
+      "options_fr": ["Juillet", "Juin", "Août", "Septembre"],
+      "correctAnswer": "July",
+      "meaning_fr": "Juillet"
+    },
+    {
+      "id": "q4",
+      "type": "word_match",
+      "prompt": "What month is くがつ?",
+      "prompt_fr": "Quel mois est くがつ ?",
+      "word": "九月",
+      "options": ["September", "October", "November", "August"],
+      "options_fr": ["Septembre", "Octobre", "Novembre", "Août"],
+      "correctAnswer": "September",
+      "meaning_fr": "Septembre"
+    },
+    {
+      "id": "q5",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "私の誕生日は＿＿です。(My birthday is in March)",
+      "sentence_fr": "私の誕生日は＿＿です。(Mon anniversaire est en mars)",
+      "options": ["三月", "五月", "八月", "十月"],
+      "correctAnswer": "三月",
+      "meaning_en": "March",
+      "meaning_fr": "Mars"
+    },
+    {
+      "id": "q6",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of this month?",
+      "prompt_fr": "Quelle est la lecture de ce mois ?",
+      "kanji": "十二月",
+      "options": ["じゅうにがつ", "じゅういちがつ", "じゅうがつ", "にがつ"],
+      "correctAnswer": "じゅうにがつ",
+      "meaning_en": "December",
+      "meaning_fr": "Décembre"
+    },
+    {
+      "id": "q7",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "＿＿に学校が始まります。(School starts in April)",
+      "sentence_fr": "＿＿に学校が始まります。(L'école commence en avril)",
+      "options": ["四月", "一月", "九月", "六月"],
+      "correctAnswer": "四月",
+      "meaning_en": "April",
+      "meaning_fr": "Avril"
+    }
+  ],
+  "translation": {
+    "en": "This lesson covers the months of the year in Japanese (一月 through 十二月).",
+    "fr": "Cette leçon couvre les mois de l'année en japonais (一月 à 十二月)."
+  }
+}

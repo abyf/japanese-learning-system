@@ -1,0 +1,58 @@
+{
+  "id": "v016",
+  "title": "Shopping",
+  "titleEn": "Shopping",
+  "level": "beginner",
+  "difficulty": 0.3,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of this kanji?",
+      "prompt_fr": "Quelle est la lecture de ce kanji ?",
+      "kanji": "買",
+      "options": ["か(う)", "う(る)", "み(せ)", "もの"],
+      "correctAnswer": "か(う)",
+      "meaning_en": "to buy",
+      "meaning_fr": "acheter"
+    },
+    {
+      "id": "q2",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "この＿＿で本を買います。(I buy books at this store)",
+      "sentence_fr": "この＿＿で本を買います。(J'achète des livres dans ce magasin)",
+      "options": ["店", "駅", "家", "学校"],
+      "correctAnswer": "店",
+      "meaning_en": "store / shop",
+      "meaning_fr": "magasin"
+    },
+    {
+      "id": "q3",
+      "type": "word_match",
+      "prompt": "What does 売る mean?",
+      "prompt_fr": "Que signifie 売る ?",
+      "word": "売る",
+      "options": ["To sell", "To buy", "To give", "To take"],
+      "options_fr": ["Vendre", "Acheter", "Donner", "Prendre"],
+      "correctAnswer": "To sell",
+      "meaning_fr": "Vendre"
+    },
+    {
+      "id": "q4",
+      "type": "kanji_recognition",
+      "prompt": "What does this kanji mean?",
+      "prompt_fr": "Que signifie ce kanji ?",
+      "kanji": "安",
+      "options": ["Cheap / Peace", "Expensive", "Buy", "Sell"],
+      "options_fr": ["Bon marché / Paix", "Cher", "Acheter", "Vendre"],
+      "correctAnswer": "Cheap / Peace",
+      "meaning_fr": "Bon marché / Paix"
+    }
+  ],
+  "translation": {
+    "en": "This lesson covers shopping vocabulary: to buy, to sell, store, prices.",
+    "fr": "Cette leçon couvre le vocabulaire du shopping : acheter, vendre, magasin, prix."
+  }
+}

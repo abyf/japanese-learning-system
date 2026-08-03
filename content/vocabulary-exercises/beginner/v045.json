@@ -1,0 +1,95 @@
+{
+  "id": "v045",
+  "title": "Permission & Obligation",
+  "titleEn": "Permission & Obligation",
+  "titleFr": "Permission et obligation",
+  "level": "beginner",
+  "difficulty": 0.55,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "word_match",
+      "prompt": "What does てもいい mean?",
+      "prompt_fr": "Que signifie てもいい ?",
+      "word": "てもいい",
+      "options": ["It's okay to / May I", "Must not", "Have to", "Should not"],
+      "options_fr": ["C'est permis de / Puis-je", "Il ne faut pas", "Il faut", "On ne devrait pas"],
+      "correctAnswer": "It's okay to / May I",
+      "meaning_fr": "C'est permis de / Puis-je"
+    },
+    {
+      "id": "q2",
+      "type": "word_match",
+      "prompt": "What does なければならない mean?",
+      "prompt_fr": "Que signifie なければならない ?",
+      "word": "なければならない",
+      "options": ["Must / Have to", "May / It's okay to", "Must not", "Don't have to"],
+      "options_fr": ["Il faut / Devoir", "C'est permis de", "Il ne faut pas", "Ce n'est pas nécessaire"],
+      "correctAnswer": "Must / Have to",
+      "meaning_fr": "Il faut / Devoir"
+    },
+    {
+      "id": "q3",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "ここで写真を撮っ＿＿。(May I take photos here?)",
+      "sentence_fr": "ここで写真を撮っ＿＿。(Puis-je prendre des photos ici ?)",
+      "options": ["てもいいですか", "てはいけません", "なければなりません", "たいです"],
+      "correctAnswer": "てもいいですか",
+      "meaning_en": "is it okay to",
+      "meaning_fr": "est-ce permis de"
+    },
+    {
+      "id": "q4",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "宿題をし＿＿。(I must do homework)",
+      "sentence_fr": "宿題をし＿＿。(Je dois faire mes devoirs)",
+      "options": ["なければなりません", "てもいいです", "てはいけません", "たくないです"],
+      "correctAnswer": "なければなりません",
+      "meaning_en": "must do",
+      "meaning_fr": "il faut faire"
+    },
+    {
+      "id": "q5",
+      "type": "word_match",
+      "prompt": "What does てはいけない mean?",
+      "prompt_fr": "Que signifie てはいけない ?",
+      "word": "てはいけない",
+      "options": ["Must not / Not allowed to", "May / It's okay to", "Must / Have to", "Want to"],
+      "options_fr": ["Il ne faut pas / Interdit de", "C'est permis de", "Il faut", "Vouloir"],
+      "correctAnswer": "Must not / Not allowed to",
+      "meaning_fr": "Il ne faut pas / Interdit de"
+    },
+    {
+      "id": "q6",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "ここでたばこを吸っ＿＿。(You must not smoke here)",
+      "sentence_fr": "ここでたばこを吸っ＿＿。(Il est interdit de fumer ici)",
+      "options": ["てはいけません", "てもいいです", "なければなりません", "てください"],
+      "correctAnswer": "てはいけません",
+      "meaning_en": "must not",
+      "meaning_fr": "il ne faut pas"
+    },
+    {
+      "id": "q7",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "毎日日本語を勉強し＿＿。(I have to study Japanese every day)",
+      "sentence_fr": "毎日日本語を勉強し＿＿。(Je dois étudier le japonais tous les jours)",
+      "options": ["なければなりません", "てもいいです", "てはいけません", "ません"],
+      "correctAnswer": "なければなりません",
+      "meaning_en": "must / have to",
+      "meaning_fr": "il faut / devoir"
+    }
+  ],
+  "translation": {
+    "en": "This lesson covers permission (てもいい), prohibition (てはいけない), and obligation (なければならない).",
+    "fr": "Cette leçon couvre la permission (てもいい), l'interdiction (てはいけない) et l'obligation (なければならない)."
+  }
+}

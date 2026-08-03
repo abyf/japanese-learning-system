@@ -1,0 +1,93 @@
+{
+  "id": "v051",
+  "title": "Locations in Town 2",
+  "titleEn": "Locations in Town 2",
+  "titleFr": "Lieux en ville 2",
+  "level": "beginner",
+  "difficulty": 0.35,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of 郵便局?",
+      "prompt_fr": "Quelle est la lecture de 郵便局 ?",
+      "kanji": "郵便局",
+      "options": ["ゆうびんきょく", "こうばん", "としょかん", "びょういん"],
+      "correctAnswer": "ゆうびんきょく",
+      "meaning_en": "post office",
+      "meaning_fr": "bureau de poste"
+    },
+    {
+      "id": "q2",
+      "type": "word_match",
+      "prompt": "What does 交番 mean?",
+      "prompt_fr": "Que signifie 交番 ?",
+      "word": "交番",
+      "options": ["Police box", "Post office", "Library", "Hospital"],
+      "options_fr": ["Poste de police", "Bureau de poste", "Bibliothèque", "Hôpital"],
+      "correctAnswer": "Police box",
+      "meaning_fr": "Poste de police"
+    },
+    {
+      "id": "q3",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of 図書館?",
+      "prompt_fr": "Quelle est la lecture de 図書館 ?",
+      "kanji": "図書館",
+      "options": ["としょかん", "ゆうびんきょく", "こうえん", "えき"],
+      "correctAnswer": "としょかん",
+      "meaning_en": "library",
+      "meaning_fr": "bibliothèque"
+    },
+    {
+      "id": "q4",
+      "type": "word_match",
+      "prompt": "What does 公園 mean?",
+      "prompt_fr": "Que signifie 公園 ?",
+      "word": "公園",
+      "options": ["Park", "School", "Station", "Temple"],
+      "options_fr": ["Parc", "École", "Gare", "Temple"],
+      "correctAnswer": "Park",
+      "meaning_fr": "Parc"
+    },
+    {
+      "id": "q5",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "切手は＿＿で買えます。(You can buy stamps at the post office.)",
+      "sentence_fr": "切手は＿＿で買えます。(On peut acheter des timbres au bureau de poste.)",
+      "options": ["郵便局", "交番", "図書館", "公園"],
+      "correctAnswer": "郵便局",
+      "meaning_en": "post office",
+      "meaning_fr": "bureau de poste"
+    },
+    {
+      "id": "q6",
+      "type": "word_match",
+      "prompt": "What does 薬局 mean?",
+      "prompt_fr": "Que signifie 薬局 ?",
+      "word": "薬局",
+      "options": ["Pharmacy", "Hospital", "Police box", "Library"],
+      "options_fr": ["Pharmacie", "Hôpital", "Poste de police", "Bibliothèque"],
+      "correctAnswer": "Pharmacy",
+      "meaning_fr": "Pharmacie"
+    },
+    {
+      "id": "q7",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "本を借りに＿＿に行きます。(I go to the library to borrow books.)",
+      "sentence_fr": "本を借りに＿＿に行きます。(Je vais à la bibliothèque pour emprunter des livres.)",
+      "options": ["図書館", "郵便局", "交番", "薬局"],
+      "correctAnswer": "図書館",
+      "meaning_en": "library",
+      "meaning_fr": "bibliothèque"
+    }
+  ],
+  "translation": {
+    "en": "This lesson covers public facilities and locations commonly found in Japanese towns.",
+    "fr": "Cette leçon couvre les équipements publics et les lieux que l'on trouve couramment dans les villes japonaises."
+  }
+}

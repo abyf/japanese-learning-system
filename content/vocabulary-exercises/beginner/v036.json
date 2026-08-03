@@ -1,0 +1,94 @@
+{
+  "id": "v036",
+  "title": "て-form Verbs",
+  "titleEn": "て-form Verbs",
+  "titleFr": "Verbes en forme て",
+  "level": "beginner",
+  "difficulty": 0.45,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "word_match",
+      "prompt": "What is the て-form of 食べる (to eat)?",
+      "prompt_fr": "Quelle est la forme て de 食べる (manger) ?",
+      "word": "食べて",
+      "options": ["食べて", "食べた", "食べない", "食べます"],
+      "correctAnswer": "食べて",
+      "meaning_en": "eating / please eat (te-form)",
+      "meaning_fr": "mangeant / mangez s'il vous plaît (forme て)"
+    },
+    {
+      "id": "q2",
+      "type": "word_match",
+      "prompt": "What is the て-form of 飲む (to drink)?",
+      "prompt_fr": "Quelle est la forme て de 飲む (boire) ?",
+      "word": "飲んで",
+      "options": ["飲んで", "飲んだ", "飲まない", "飲みます"],
+      "correctAnswer": "飲んで",
+      "meaning_en": "drinking / please drink (te-form)",
+      "meaning_fr": "buvant / buvez s'il vous plaît (forme て)"
+    },
+    {
+      "id": "q3",
+      "type": "word_match",
+      "prompt": "What is the て-form of 行く (to go)?",
+      "prompt_fr": "Quelle est la forme て de 行く (aller) ?",
+      "word": "行って",
+      "options": ["行って", "行いて", "行くて", "行った"],
+      "correctAnswer": "行って",
+      "meaning_en": "going / please go (te-form)",
+      "meaning_fr": "allant / allez s'il vous plaît (forme て)"
+    },
+    {
+      "id": "q4",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "本を＿＿ください。(Please read the book)",
+      "sentence_fr": "本を＿＿ ください。(Veuillez lire le livre)",
+      "options": ["読んで", "書いて", "食べて", "見て"],
+      "correctAnswer": "読んで",
+      "meaning_en": "reading (te-form)",
+      "meaning_fr": "lisant (forme て)"
+    },
+    {
+      "id": "q5",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "ここに＿＿ ください。(Please write here)",
+      "sentence_fr": "ここに＿＿ ください。(Veuillez écrire ici)",
+      "options": ["書いて", "読んで", "行って", "食べて"],
+      "correctAnswer": "書いて",
+      "meaning_en": "writing (te-form)",
+      "meaning_fr": "écrivant (forme て)"
+    },
+    {
+      "id": "q6",
+      "type": "word_match",
+      "prompt": "What is the て-form of 見る (to see)?",
+      "prompt_fr": "Quelle est la forme て de 見る (voir) ?",
+      "word": "見て",
+      "options": ["見て", "見た", "見ない", "見ます"],
+      "correctAnswer": "見て",
+      "meaning_en": "seeing / please look (te-form)",
+      "meaning_fr": "voyant / regardez s'il vous plaît (forme て)"
+    },
+    {
+      "id": "q7",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "窓を＿＿ ください。(Please open the window)",
+      "sentence_fr": "窓を＿＿ ください。(Veuillez ouvrir la fenêtre)",
+      "options": ["開けて", "閉めて", "見て", "読んで"],
+      "correctAnswer": "開けて",
+      "meaning_en": "opening (te-form)",
+      "meaning_fr": "ouvrant (forme て)"
+    }
+  ],
+  "translation": {
+    "en": "This lesson covers the て-form of common verbs used in requests and connections.",
+    "fr": "Cette leçon couvre la forme て des verbes courants utilisés dans les demandes et les liaisons."
+  }
+}

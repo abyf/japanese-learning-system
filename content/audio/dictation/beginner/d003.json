@@ -1,0 +1,8 @@
+{
+  "id": "d003",
+  "title": "Excuse Me",
+  "expectedText": "すみません",
+  "audioUrl": "/api/dictation/beginner/d003/audio",
+  "difficulty": 0.15,
+  "hint": "Used to apologize or get someone's attention"
+}

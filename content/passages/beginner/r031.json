@@ -1,0 +1,62 @@
+{
+  "id": "r031",
+  "title": "手紙を読む",
+  "titleEn": "Reading a Letter",
+  "text": "<ruby>今日<rt>きょう</rt></ruby>、ポストに<ruby>手紙<rt>てがみ</rt></ruby>が<ruby>入<rt>はい</rt></ruby>っていました。フランスの<ruby>友達<rt>ともだち</rt></ruby>のマリーさんからです。マリーさんは<ruby>去年<rt>きょねん</rt></ruby><ruby>日本<rt>にほん</rt></ruby>に<ruby>来<rt>き</rt></ruby>ました。<ruby>手紙<rt>てがみ</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>で<ruby>書<rt>か</rt></ruby>いてありました。「<ruby>元気<rt>げんき</rt></ruby>ですか。パリはもう<ruby>寒<rt>さむ</rt></ruby>いです。<ruby>来年<rt>らいねん</rt></ruby>の<ruby>春<rt>はる</rt></ruby>にまた<ruby>日本<rt>にほん</rt></ruby>に<ruby>行<rt>い</rt></ruby>きたいです」と<ruby>書<rt>か</rt></ruby>いてありました。<ruby>私<rt>わたし</rt></ruby>はとても<ruby>嬉<rt>うれ</rt></ruby>しかったです。<ruby>明日<rt>あした</rt></ruby>、<ruby>返事<rt>へんじ</rt></ruby>を<ruby>書<rt>か</rt></ruby>きます。",
+  "difficulty": 0.35,
+  "level": "beginner",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Where was the letter?",
+      "options": ["机の上", "ポスト", "玄関", "かばんの中"],
+      "correctAnswer": "ポスト"
+    },
+    {
+      "id": "q2",
+      "question": "Who is the letter from?",
+      "options": ["おばあちゃん", "先生", "マリーさん", "田中さん"],
+      "correctAnswer": "マリーさん"
+    },
+    {
+      "id": "q3",
+      "question": "Where does Marie live?",
+      "options": ["ロンドン", "パリ", "ニューヨーク", "ベルリン"],
+      "correctAnswer": "パリ"
+    },
+    {
+      "id": "q4",
+      "question": "What language was the letter written in?",
+      "options": ["英語", "フランス語", "日本語", "中国語"],
+      "correctAnswer": "日本語"
+    },
+    {
+      "id": "q5",
+      "question": "When did Marie come to Japan?",
+      "options": ["今年", "去年", "二年前", "三年前"],
+      "correctAnswer": "去年"
+    },
+    {
+      "id": "q6",
+      "question": "When does Marie want to come to Japan again?",
+      "options": ["今年の冬", "来年の春", "来年の夏", "来年の秋"],
+      "correctAnswer": "来年の春"
+    },
+    {
+      "id": "q7",
+      "question": "How did the speaker feel?",
+      "options": ["悲しかった", "嬉しかった", "びっくりした", "心配した"],
+      "correctAnswer": "嬉しかった"
+    },
+    {
+      "id": "q8",
+      "question": "What will the speaker do tomorrow?",
+      "options": ["電話をかける", "返事を書く", "プレゼントを送る", "メールを送る"],
+      "correctAnswer": "返事を書く"
+    }
+  ],
+  "translation": {
+    "en": "Today, there was a letter in the mailbox. It's from my French friend Marie. Marie came to Japan last year. The letter was written in Japanese. It said, 'How are you? It's already cold in Paris. I want to go to Japan again next spring.' I was very happy. Tomorrow, I will write a reply.",
+    "fr": "Aujourd'hui, il y avait une lettre dans la boîte aux lettres. C'est de mon amie française Marie. Marie est venue au Japon l'année dernière. La lettre était écrite en japonais. Elle disait : « Comment allez-vous ? Il fait déjà froid à Paris. Je voudrais retourner au Japon au printemps prochain. » J'étais très content(e). Demain, j'écrirai une réponse."
+  }
+}

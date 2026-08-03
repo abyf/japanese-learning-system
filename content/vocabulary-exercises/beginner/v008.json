@@ -1,0 +1,58 @@
+{
+  "id": "v008",
+  "title": "Body Parts",
+  "titleEn": "Body Parts",
+  "level": "beginner",
+  "difficulty": 0.2,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of this kanji?",
+      "prompt_fr": "Quelle est la lecture de ce kanji ?",
+      "kanji": "目",
+      "options": ["め", "みみ", "くち", "て"],
+      "correctAnswer": "め",
+      "meaning_en": "eye",
+      "meaning_fr": "œil"
+    },
+    {
+      "id": "q2",
+      "type": "word_match",
+      "prompt": "What does 耳 mean?",
+      "prompt_fr": "Que signifie 耳 ?",
+      "word": "耳",
+      "options": ["Ear", "Eye", "Nose", "Mouth"],
+      "options_fr": ["Oreille", "Œil", "Nez", "Bouche"],
+      "correctAnswer": "Ear",
+      "meaning_fr": "Oreille"
+    },
+    {
+      "id": "q3",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "＿＿が痛いです。(My head hurts)",
+      "sentence_fr": "＿＿が痛いです。(J'ai mal à la tête)",
+      "options": ["頭", "足", "手", "口"],
+      "correctAnswer": "頭",
+      "meaning_en": "head",
+      "meaning_fr": "tête"
+    },
+    {
+      "id": "q4",
+      "type": "kanji_recognition",
+      "prompt": "What does this kanji mean?",
+      "prompt_fr": "Que signifie ce kanji ?",
+      "kanji": "手",
+      "options": ["Hand", "Foot", "Finger", "Arm"],
+      "options_fr": ["Main", "Pied", "Doigt", "Bras"],
+      "correctAnswer": "Hand",
+      "meaning_fr": "Main"
+    }
+  ],
+  "translation": {
+    "en": "This lesson covers body part vocabulary in Japanese.",
+    "fr": "Cette leçon couvre le vocabulaire des parties du corps en japonais."
+  }
+}

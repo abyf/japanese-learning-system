@@ -1,0 +1,10 @@
+{
+  "id": "d013",
+  "title": "Past Tense",
+  "titleFr": "Passé",
+  "expectedText": "昨日デパートで買い物をしました",
+  "audioUrl": "/api/dictation/beginner/d013/audio",
+  "difficulty": 0.4,
+  "hint": "Talking about something you did yesterday at a store",
+  "hintFr": "Parler de quelque chose que vous avez fait hier dans un magasin"
+}

@@ -1,0 +1,56 @@
+{
+  "id": "r043",
+  "title": "電車の中で",
+  "titleEn": "On the Train",
+  "text": "<ruby>毎朝<rt>まいあさ</rt></ruby>、<ruby>電車<rt>でんしゃ</rt></ruby>で<ruby>会社<rt>かいしゃ</rt></ruby>に<ruby>行<rt>い</rt></ruby>きます。<ruby>朝<rt>あさ</rt></ruby>の<ruby>電車<rt>でんしゃ</rt></ruby>はとても<ruby>混<rt>こ</rt></ruby>んでいます。<ruby>座<rt>すわ</rt></ruby>れないことが<ruby>多<rt>おお</rt></ruby>いです。<ruby>電車<rt>でんしゃ</rt></ruby>の<ruby>中<rt>なか</rt></ruby>ではスマホを<ruby>見<rt>み</rt></ruby>たり、<ruby>音楽<rt>おんがく</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いたりします。<ruby>優先席<rt>ゆうせんせき</rt></ruby>にはお<ruby>年寄<rt>としよ</rt></ruby>りや<ruby>体<rt>からだ</rt></ruby>が<ruby>不自由<rt>ふじゆう</rt></ruby>な<ruby>人<rt>ひと</rt></ruby>が<ruby>座<rt>すわ</rt></ruby>ります。<ruby>電車<rt>でんしゃ</rt></ruby>が<ruby>駅<rt>えき</rt></ruby>に<ruby>着<rt>つ</rt></ruby>いたら、<ruby>降<rt>お</rt></ruby>りる<ruby>人<rt>ひと</rt></ruby>を<ruby>先<rt>さき</rt></ruby>に<ruby>通<rt>とお</rt></ruby>します。<ruby>会社<rt>かいしゃ</rt></ruby>まで<ruby>四十分<rt>よんじゅっぷん</rt></ruby>かかります。<ruby>帰<rt>かえ</rt></ruby>りの<ruby>電車<rt>でんしゃ</rt></ruby>は<ruby>少<rt>すこ</rt></ruby>し<ruby>空<rt>す</rt></ruby>いています。",
+  "difficulty": 0.47,
+  "level": "beginner",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "How does the speaker go to work?",
+      "options": ["バスで", "車で", "電車で", "自転車で"],
+      "correctAnswer": "電車で"
+    },
+    {
+      "id": "q2",
+      "question": "How is the morning train?",
+      "options": ["空いている", "とても混んでいる", "普通", "止まっている"],
+      "correctAnswer": "とても混んでいる"
+    },
+    {
+      "id": "q3",
+      "question": "What does the speaker do on the train?",
+      "options": ["本を読む", "寝る", "スマホを見たり音楽を聞いたりする", "勉強する"],
+      "correctAnswer": "スマホを見たり音楽を聞いたりする"
+    },
+    {
+      "id": "q4",
+      "question": "Who uses the priority seats?",
+      "options": ["子供", "学生", "お年寄りや体が不自由な人", "サラリーマン"],
+      "correctAnswer": "お年寄りや体が不自由な人"
+    },
+    {
+      "id": "q5",
+      "question": "What should you do when the train arrives at a station?",
+      "options": ["すぐ乗る", "走る", "降りる人を先に通す", "ドアの前に立つ"],
+      "correctAnswer": "降りる人を先に通す"
+    },
+    {
+      "id": "q6",
+      "question": "How long does the commute take?",
+      "options": ["二十分", "三十分", "四十分", "一時間"],
+      "correctAnswer": "四十分"
+    },
+    {
+      "id": "q7",
+      "question": "How is the train on the way home?",
+      "options": ["もっと混んでいる", "少し空いている", "とても空いている", "同じくらい混んでいる"],
+      "correctAnswer": "少し空いている"
+    }
+  ],
+  "translation": {
+    "en": "Every morning, I go to work by train. The morning train is very crowded. I often can't get a seat. On the train, I look at my smartphone or listen to music. Priority seats are for elderly people and people with disabilities. When the train arrives at a station, let people getting off go first. It takes 40 minutes to get to work. The train on the way home is a little less crowded.",
+    "fr": "Chaque matin, je vais au travail en train. Le train du matin est très bondé. Je ne peux souvent pas m'asseoir. Dans le train, je regarde mon smartphone ou j'écoute de la musique. Les sièges prioritaires sont pour les personnes âgées et les personnes handicapées. Quand le train arrive en gare, on laisse d'abord sortir les personnes qui descendent. Il faut 40 minutes pour aller au travail. Le train du retour est un peu moins bondé."
+  }
+}

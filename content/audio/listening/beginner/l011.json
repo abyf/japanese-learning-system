@@ -1,0 +1,41 @@
+{
+  "id": "l011",
+  "title": "Doctor's Visit",
+  "titleFr": "Visite chez le médecin",
+  "type": "multiple_choice",
+  "audioUrl": "/api/listening/beginner/l011/audio",
+  "transcript": "今日はどうされましたか？ 昨日から頭が痛くて、熱もあります。 熱はどのくらいですか？ 三十八度五分です。 喉は痛いですか？ はい、少し痛いです。咳も出ます。 風邪ですね。お薬を出しますので、三日分飲んでください。 食後に飲みますか？ はい、一日三回、食後に飲んでください。お大事に。",
+  "questions": [
+    {
+      "question": "What are the patient's symptoms?",
+      "options": ["Stomachache", "Headache and fever", "Back pain", "Leg pain"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "What is the patient's temperature?",
+      "options": ["37.5°C", "38.0°C", "38.5°C", "39.0°C"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Does the patient have a sore throat?",
+      "options": ["No", "Yes, a little", "Very painful", "Not mentioned"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "What is the diagnosis?",
+      "options": ["Flu", "Cold", "Allergy", "Food poisoning"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "How many days of medicine was prescribed?",
+      "options": ["2 days", "3 days", "5 days", "7 days"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "When should the medicine be taken?",
+      "options": ["Before meals", "After meals", "Before bed", "In the morning"],
+      "correctAnswer": 1
+    }
+  ],
+  "difficulty": 0.45
+}

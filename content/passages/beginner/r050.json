@@ -1,0 +1,62 @@
+{
+  "id": "r050",
+  "title": "ホームステイ",
+  "titleEn": "Homestay Experience",
+  "text": "<ruby>私<rt>わたし</rt></ruby>はフランスから<ruby>来<rt>き</rt></ruby>た<ruby>留学生<rt>りゅうがくせい</rt></ruby>です。<ruby>東京<rt>とうきょう</rt></ruby>の<ruby>田中<rt>たなか</rt></ruby>さんの<ruby>家<rt>いえ</rt></ruby>にホームステイしています。<ruby>田中<rt>たなか</rt></ruby>さんの<ruby>家族<rt>かぞく</rt></ruby>はお<ruby>父<rt>とう</rt></ruby>さん、お<ruby>母<rt>かあ</rt></ruby>さん、<ruby>高校生<rt>こうこうせい</rt></ruby>の<ruby>妹<rt>いもうと</rt></ruby>の<ruby>三人<rt>さんにん</rt></ruby>です。<ruby>毎朝<rt>まいあさ</rt></ruby>、お<ruby>母<rt>かあ</rt></ruby>さんが<ruby>朝<rt>あさ</rt></ruby>ごはんを<ruby>作<rt>つく</rt></ruby>ってくれます。<ruby>妹<rt>いもうと</rt></ruby>のさくらさんは<ruby>英語<rt>えいご</rt></ruby>を<ruby>教<rt>おし</rt></ruby>えてほしいと<ruby>言<rt>い</rt></ruby>います。<ruby>私<rt>わたし</rt></ruby>はさくらさんに<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教<rt>おし</rt></ruby>えてもらいます。<ruby>週末<rt>しゅうまつ</rt></ruby>は<ruby>家族<rt>かぞく</rt></ruby>と<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>出<rt>で</rt></ruby>かけます。<ruby>日本<rt>にほん</rt></ruby>の<ruby>生活<rt>せいかつ</rt></ruby>や<ruby>文化<rt>ぶんか</rt></ruby>を<ruby>毎日<rt>まいにち</rt></ruby><ruby>学<rt>まな</rt></ruby>んでいます。ホームステイはとても<ruby>良<rt>よ</rt></ruby>い<ruby>経験<rt>けいけん</rt></ruby>です。",
+  "difficulty": 0.55,
+  "level": "beginner",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Where is the speaker from?",
+      "options": ["アメリカ", "イギリス", "フランス", "ドイツ"],
+      "correctAnswer": "フランス"
+    },
+    {
+      "id": "q2",
+      "question": "Where is the speaker staying?",
+      "options": ["大阪の山田さんの家", "東京の田中さんの家", "京都の佐藤さんの家", "名古屋の鈴木さんの家"],
+      "correctAnswer": "東京の田中さんの家"
+    },
+    {
+      "id": "q3",
+      "question": "How many people are in the Tanaka family?",
+      "options": ["二人", "三人", "四人", "五人"],
+      "correctAnswer": "三人"
+    },
+    {
+      "id": "q4",
+      "question": "Who makes breakfast?",
+      "options": ["お父さん", "お母さん", "妹", "留学生"],
+      "correctAnswer": "お母さん"
+    },
+    {
+      "id": "q5",
+      "question": "What does Sakura want to learn?",
+      "options": ["フランス語", "英語", "料理", "ダンス"],
+      "correctAnswer": "英語"
+    },
+    {
+      "id": "q6",
+      "question": "What does the speaker learn from Sakura?",
+      "options": ["英語", "フランス語", "日本語", "料理"],
+      "correctAnswer": "日本語"
+    },
+    {
+      "id": "q7",
+      "question": "What does the speaker do on weekends?",
+      "options": ["一人で勉強する", "家族と一緒に出かける", "友達と遊ぶ", "アルバイトする"],
+      "correctAnswer": "家族と一緒に出かける"
+    },
+    {
+      "id": "q8",
+      "question": "How does the speaker describe the homestay?",
+      "options": ["大変な経験", "とても良い経験", "普通の経験", "短い経験"],
+      "correctAnswer": "とても良い経験"
+    }
+  ],
+  "translation": {
+    "en": "I am an exchange student from France. I am doing a homestay at the Tanaka family's house in Tokyo. The Tanaka family consists of the father, mother, and a high school sister — three people. Every morning, the mother makes breakfast for me. The younger sister Sakura says she wants me to teach her English. I have Sakura teach me Japanese. On weekends, I go out with the family. I learn about Japanese life and culture every day. The homestay is a very good experience.",
+    "fr": "Je suis un(e) étudiant(e) d'échange venant de France. Je fais un séjour en famille chez les Tanaka à Tokyo. La famille Tanaka se compose du père, de la mère et d'une petite sœur lycéenne — trois personnes. Chaque matin, la mère prépare le petit-déjeuner pour moi. La petite sœur Sakura dit qu'elle veut que je lui enseigne l'anglais. En échange, Sakura m'apprend le japonais. Le week-end, je sors avec la famille. J'apprends la vie et la culture japonaises chaque jour. Le séjour en famille est une très bonne expérience."
+  }
+}

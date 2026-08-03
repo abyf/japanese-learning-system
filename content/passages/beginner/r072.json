@@ -1,0 +1,50 @@
+{
+  "id": "r072",
+  "title": "ひな祭り",
+  "titleEn": "Doll Festival",
+  "text": "ひな<ruby>祭<rt>まつ</rt></ruby>りは<ruby>三月三日<rt>さんがつみっか</rt></ruby>の<ruby>女<rt>おんな</rt></ruby>の<ruby>子<rt>こ</rt></ruby>のお<ruby>祭<rt>まつ</rt></ruby>りです。ひな<ruby>人形<rt>にんぎょう</rt></ruby>を<ruby>飾<rt>かざ</rt></ruby>ります。<ruby>人形<rt>にんぎょう</rt></ruby>は<ruby>天皇<rt>てんのう</rt></ruby>と<ruby>皇后<rt>こうごう</rt></ruby>をあらわしています。ちらし<ruby>寿司<rt>ずし</rt></ruby>やひなあられを<ruby>食<rt>た</rt></ruby>べます。<ruby>桃<rt>もも</rt></ruby>の<ruby>花<rt>はな</rt></ruby>を<ruby>飾<rt>かざ</rt></ruby>るので「<ruby>桃<rt>もも</rt></ruby>の<ruby>節句<rt>せっく</rt></ruby>」とも<ruby>呼<rt>よ</rt></ruby>ばれます。<ruby>女<rt>おんな</rt></ruby>の<ruby>子<rt>こ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>と<ruby>幸<rt>しあわ</rt></ruby>せを<ruby>願<rt>ねが</rt></ruby>います。<ruby>祭<rt>まつ</rt></ruby>りが<ruby>終<rt>お</rt></ruby>わったら<ruby>早<rt>はや</rt></ruby>く<ruby>人形<rt>にんぎょう</rt></ruby>を<ruby>片付<rt>かたづ</rt></ruby>けないといけません。",
+  "difficulty": 0.63,
+  "level": "beginner",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "When is Hina Matsuri?",
+      "options": ["一月一日", "三月三日", "五月五日", "七月七日"],
+      "correctAnswer": "三月三日"
+    },
+    {
+      "id": "q2",
+      "question": "Who is this festival for?",
+      "options": ["男の子", "女の子", "大人", "お年寄り"],
+      "correctAnswer": "女の子"
+    },
+    {
+      "id": "q3",
+      "question": "What do the dolls represent?",
+      "options": ["侍と忍者", "天皇と皇后", "父と母", "兄と妹"],
+      "correctAnswer": "天皇と皇后"
+    },
+    {
+      "id": "q4",
+      "question": "What is eaten during this festival?",
+      "options": ["お餅", "ちらし寿司やひなあられ", "ケーキ", "おせち"],
+      "correctAnswer": "ちらし寿司やひなあられ"
+    },
+    {
+      "id": "q5",
+      "question": "Why is it called Momo no Sekku?",
+      "options": ["桃を食べるから", "桃の花を飾るから", "桃色だから", "桃の木があるから"],
+      "correctAnswer": "桃の花を飾るから"
+    },
+    {
+      "id": "q6",
+      "question": "What must be done after the festival?",
+      "options": ["人形を買う", "早く人形を片付ける", "人形を捨てる", "人形を友達にあげる"],
+      "correctAnswer": "早く人形を片付ける"
+    }
+  ],
+  "translation": {
+    "en": "Hina Matsuri is a festival for girls on March 3rd. Hina dolls are displayed. The dolls represent the Emperor and Empress. People eat chirashi sushi and hina arare. Because peach flowers are displayed, it is also called 'Momo no Sekku' (Peach Festival). It is a wish for girls' health and happiness. After the festival ends, you must put the dolls away quickly.",
+    "fr": "Hina Matsuri est une fête pour les filles le 3 mars. On expose des poupées hina. Les poupées représentent l'Empereur et l'Impératrice. On mange du chirashi sushi et des hina arare. Comme on décore avec des fleurs de pêcher, on l'appelle aussi 'Momo no Sekku' (Fête des pêchers). C'est un vœu pour la santé et le bonheur des filles. Après la fête, il faut ranger les poupées rapidement."
+  }
+}

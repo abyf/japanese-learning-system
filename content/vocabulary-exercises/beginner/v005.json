@@ -1,0 +1,58 @@
+{
+  "id": "v005",
+  "title": "Basic Verbs 1",
+  "titleEn": "Basic Verbs 1",
+  "level": "beginner",
+  "difficulty": 0.2,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "word_match",
+      "prompt": "What does 食べる mean?",
+      "prompt_fr": "Que signifie 食べる ?",
+      "word": "食べる",
+      "options": ["To eat", "To drink", "To go", "To come"],
+      "options_fr": ["Manger", "Boire", "Aller", "Venir"],
+      "correctAnswer": "To eat",
+      "meaning_fr": "Manger"
+    },
+    {
+      "id": "q2",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of this kanji?",
+      "prompt_fr": "Quelle est la lecture de ce kanji ?",
+      "kanji": "飲",
+      "options": ["の(む)", "た(べる)", "い(く)", "く(る)"],
+      "correctAnswer": "の(む)",
+      "meaning_en": "to drink",
+      "meaning_fr": "boire"
+    },
+    {
+      "id": "q3",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "学校に＿＿きます。(I go to school)",
+      "sentence_fr": "学校に＿＿きます。(Je vais à l'école)",
+      "options": ["行", "来", "食べ", "飲み"],
+      "correctAnswer": "行",
+      "meaning_en": "to go",
+      "meaning_fr": "aller"
+    },
+    {
+      "id": "q4",
+      "type": "word_match",
+      "prompt": "What does 来る mean?",
+      "prompt_fr": "Que signifie 来る ?",
+      "word": "来る",
+      "options": ["To come", "To go", "To return", "To leave"],
+      "options_fr": ["Venir", "Aller", "Retourner", "Partir"],
+      "correctAnswer": "To come",
+      "meaning_fr": "Venir"
+    }
+  ],
+  "translation": {
+    "en": "This lesson covers basic verbs: to eat, to drink, to go, and to come.",
+    "fr": "Cette leçon couvre les verbes de base : manger, boire, aller et venir."
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "id": "v012",
+  "title": "Weather",
+  "titleEn": "Weather",
+  "level": "beginner",
+  "difficulty": 0.25,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of this kanji?",
+      "prompt_fr": "Quelle est la lecture de ce kanji ?",
+      "kanji": "雨",
+      "options": ["あめ", "ゆき", "かぜ", "くも"],
+      "correctAnswer": "あめ",
+      "meaning_en": "rain",
+      "meaning_fr": "pluie"
+    },
+    {
+      "id": "q2",
+      "type": "word_match",
+      "prompt": "What does 天気 mean?",
+      "prompt_fr": "Que signifie 天気 ?",
+      "word": "天気",
+      "options": ["Weather", "Temperature", "Season", "Cloud"],
+      "options_fr": ["Temps (météo)", "Température", "Saison", "Nuage"],
+      "correctAnswer": "Weather",
+      "meaning_fr": "Temps (météo)"
+    },
+    {
+      "id": "q3",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "今日は＿＿いです。(Today is hot)",
+      "sentence_fr": "今日は＿＿いです。(Aujourd'hui il fait chaud)",
+      "options": ["暑", "寒", "涼し", "暖か"],
+      "correctAnswer": "暑",
+      "meaning_en": "hot",
+      "meaning_fr": "chaud"
+    },
+    {
+      "id": "q4",
+      "type": "word_match",
+      "prompt": "What does 雪 mean?",
+      "prompt_fr": "Que signifie 雪 ?",
+      "word": "雪",
+      "options": ["Snow", "Rain", "Wind", "Ice"],
+      "options_fr": ["Neige", "Pluie", "Vent", "Glace"],
+      "correctAnswer": "Snow",
+      "meaning_fr": "Neige"
+    }
+  ],
+  "translation": {
+    "en": "This lesson covers weather-related vocabulary in Japanese.",
+    "fr": "Cette leçon couvre le vocabulaire lié à la météo en japonais."
+  }
+}

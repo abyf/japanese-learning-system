@@ -1,0 +1,93 @@
+{
+  "id": "v057",
+  "title": "Telephone Expressions",
+  "titleEn": "Telephone Expressions",
+  "titleFr": "Expressions téléphoniques",
+  "level": "beginner",
+  "difficulty": 0.4,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "word_match",
+      "prompt": "What does もしもし mean?",
+      "prompt_fr": "Que signifie もしもし ?",
+      "word": "もしもし",
+      "options": ["Hello (on phone)", "Goodbye", "Thank you", "Excuse me"],
+      "options_fr": ["Allô (au téléphone)", "Au revoir", "Merci", "Excusez-moi"],
+      "correctAnswer": "Hello (on phone)",
+      "meaning_fr": "Allô (au téléphone)"
+    },
+    {
+      "id": "q2",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of 電話?",
+      "prompt_fr": "Quelle est la lecture de 電話 ?",
+      "kanji": "電話",
+      "options": ["でんわ", "でんき", "ばんごう", "れんらく"],
+      "correctAnswer": "でんわ",
+      "meaning_en": "telephone",
+      "meaning_fr": "téléphone"
+    },
+    {
+      "id": "q3",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of 番号?",
+      "prompt_fr": "Quelle est la lecture de 番号 ?",
+      "kanji": "番号",
+      "options": ["ばんごう", "でんわ", "じゅうしょ", "なまえ"],
+      "correctAnswer": "ばんごう",
+      "meaning_en": "number",
+      "meaning_fr": "numéro"
+    },
+    {
+      "id": "q4",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "＿＿、田中ですが。(Hello, this is Tanaka.)",
+      "sentence_fr": "＿＿、田中ですが。(Allô, c'est Tanaka.)",
+      "options": ["もしもし", "すみません", "こんにちは", "ありがとう"],
+      "correctAnswer": "もしもし",
+      "meaning_en": "hello (phone)",
+      "meaning_fr": "allô (téléphone)"
+    },
+    {
+      "id": "q5",
+      "type": "word_match",
+      "prompt": "What does 電話をかける mean?",
+      "prompt_fr": "Que signifie 電話をかける ?",
+      "word": "電話をかける",
+      "options": ["To make a phone call", "To receive a call", "To hang up", "To send a message"],
+      "options_fr": ["Passer un appel", "Recevoir un appel", "Raccrocher", "Envoyer un message"],
+      "correctAnswer": "To make a phone call",
+      "meaning_fr": "Passer un appel"
+    },
+    {
+      "id": "q6",
+      "type": "word_match",
+      "prompt": "What does 携帯電話 mean?",
+      "prompt_fr": "Que signifie 携帯電話 ?",
+      "word": "携帯電話",
+      "options": ["Mobile phone", "Landline", "Public phone", "Fax machine"],
+      "options_fr": ["Téléphone portable", "Téléphone fixe", "Téléphone public", "Fax"],
+      "correctAnswer": "Mobile phone",
+      "meaning_fr": "Téléphone portable"
+    },
+    {
+      "id": "q7",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "電話＿＿を教えてください。(Please tell me your phone number.)",
+      "sentence_fr": "電話＿＿を教えてください。(Donnez-moi votre numéro de téléphone, s'il vous plaît.)",
+      "options": ["番号", "住所", "名前", "メール"],
+      "correctAnswer": "番号",
+      "meaning_en": "number",
+      "meaning_fr": "numéro"
+    }
+  ],
+  "translation": {
+    "en": "This lesson covers telephone-related vocabulary and common phone expressions.",
+    "fr": "Cette leçon couvre le vocabulaire téléphonique et les expressions courantes au téléphone."
+  }
+}

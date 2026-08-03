@@ -1,0 +1,8 @@
+{
+  "id": "d005",
+  "title": "Policy Discussion",
+  "expectedText": "経済成長と環境保全の両立は容易ではないが、避けては通れない課題である",
+  "audioUrl": "/api/dictation/advanced/d005/audio",
+  "difficulty": 0.9,
+  "hint": "A statement about the challenge of balancing economic growth and environmental protection"
+}

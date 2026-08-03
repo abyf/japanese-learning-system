@@ -1,0 +1,25 @@
+{
+  "id": "l004",
+  "title": "Train Announcement",
+  "type": "multiple_choice",
+  "audioUrl": "/api/listening/intermediate/l004/audio",
+  "transcript": "お客様にお知らせいたします。中央線は、人身事故の影響により、現在運転を見合わせております。振替輸送をご利用の方は、改札で駅員にお申し出ください。運転再開は午後三時頃を予定しております。お急ぎのお客様には大変ご迷惑をおかけいたします。",
+  "questions": [
+    {
+      "question": "Which line is affected?",
+      "options": ["Yamanote Line", "Chuo Line", "Tokaido Line", "Sobu Line"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "What caused the disruption?",
+      "options": ["Typhoon", "Personal injury accident", "Equipment failure", "Earthquake"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "When is service expected to resume?",
+      "options": ["Around 1pm", "Around 2pm", "Around 3pm", "Around 4pm"],
+      "correctAnswer": 2
+    }
+  ],
+  "difficulty": 0.6
+}

@@ -1,0 +1,94 @@
+{
+  "id": "v041",
+  "title": "Feelings & Emotions",
+  "titleEn": "Feelings & Emotions",
+  "titleFr": "Sentiments et émotions",
+  "level": "beginner",
+  "difficulty": 0.35,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "word_match",
+      "prompt": "What does 嬉しい mean?",
+      "prompt_fr": "Que signifie 嬉しい ?",
+      "word": "嬉しい",
+      "options": ["Happy / Glad", "Sad", "Fun", "Scary"],
+      "options_fr": ["Content / Heureux", "Triste", "Amusant", "Effrayant"],
+      "correctAnswer": "Happy / Glad",
+      "meaning_fr": "Content / Heureux"
+    },
+    {
+      "id": "q2",
+      "type": "word_match",
+      "prompt": "What does 悲しい mean?",
+      "prompt_fr": "Que signifie 悲しい ?",
+      "word": "悲しい",
+      "options": ["Sad", "Happy", "Angry", "Lonely"],
+      "options_fr": ["Triste", "Heureux", "En colère", "Seul"],
+      "correctAnswer": "Sad",
+      "meaning_fr": "Triste"
+    },
+    {
+      "id": "q3",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of this kanji?",
+      "prompt_fr": "Quelle est la lecture de ce kanji ?",
+      "kanji": "楽",
+      "options": ["たの(しい)", "かな(しい)", "うれ(しい)", "こわ(い)"],
+      "correctAnswer": "たの(しい)",
+      "meaning_en": "fun / enjoyable",
+      "meaning_fr": "amusant / agréable"
+    },
+    {
+      "id": "q4",
+      "type": "word_match",
+      "prompt": "What does 怖い mean?",
+      "prompt_fr": "Que signifie 怖い ?",
+      "word": "怖い",
+      "options": ["Scary / Frightening", "Happy", "Sad", "Angry"],
+      "options_fr": ["Effrayant / Qui fait peur", "Heureux", "Triste", "En colère"],
+      "correctAnswer": "Scary / Frightening",
+      "meaning_fr": "Effrayant / Qui fait peur"
+    },
+    {
+      "id": "q5",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "プレゼントをもらって＿＿です。(I'm happy to receive a present)",
+      "sentence_fr": "プレゼントをもらって＿＿です。(Je suis content de recevoir un cadeau)",
+      "options": ["嬉しい", "悲しい", "怖い", "楽しい"],
+      "correctAnswer": "嬉しい",
+      "meaning_en": "happy",
+      "meaning_fr": "content"
+    },
+    {
+      "id": "q6",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "パーティーは＿＿かったです。(The party was fun)",
+      "sentence_fr": "パーティーは＿＿かったです。(La fête était amusante)",
+      "options": ["楽し", "悲し", "怖", "嬉し"],
+      "correctAnswer": "楽し",
+      "meaning_en": "fun",
+      "meaning_fr": "amusant"
+    },
+    {
+      "id": "q7",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "あの映画は＿＿です。(That movie is scary)",
+      "sentence_fr": "あの映画は＿＿です。(Ce film est effrayant)",
+      "options": ["怖い", "楽しい", "嬉しい", "悲しい"],
+      "correctAnswer": "怖い",
+      "meaning_en": "scary",
+      "meaning_fr": "effrayant"
+    }
+  ],
+  "translation": {
+    "en": "This lesson covers feelings and emotions vocabulary: happy, sad, fun, and scary.",
+    "fr": "Cette leçon couvre le vocabulaire des sentiments et émotions : heureux, triste, amusant et effrayant."
+  }
+}

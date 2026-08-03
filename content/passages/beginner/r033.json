@@ -1,0 +1,62 @@
+{
+  "id": "r033",
+  "title": "旅行の計画",
+  "titleEn": "Travel Plans",
+  "text": "<ruby>夏休<rt>なつやす</rt></ruby>みに<ruby>京都<rt>きょうと</rt></ruby>に<ruby>旅行<rt>りょこう</rt></ruby>に<ruby>行<rt>い</rt></ruby>きます。<ruby>友達<rt>ともだち</rt></ruby>と<ruby>二人<rt>ふたり</rt></ruby>で<ruby>行<rt>い</rt></ruby>きます。<ruby>新幹線<rt>しんかんせん</rt></ruby>で<ruby>行<rt>い</rt></ruby>く<ruby>予定<rt>よてい</rt></ruby>です。ホテルはインターネットで<ruby>予約<rt>よやく</rt></ruby>しました。<ruby>二泊三日<rt>にはくみっか</rt></ruby>の<ruby>旅行<rt>りょこう</rt></ruby>です。<ruby>金閣寺<rt>きんかくじ</rt></ruby>と<ruby>嵐山<rt>あらしやま</rt></ruby>に<ruby>行<rt>い</rt></ruby>きたいです。おいしい<ruby>抹茶<rt>まっちゃ</rt></ruby>のスイーツも<ruby>食<rt>た</rt></ruby>べたいです。ガイドブックを<ruby>買<rt>か</rt></ruby>って、<ruby>計画<rt>けいかく</rt></ruby>を<ruby>立<rt>た</rt></ruby>てています。とても<ruby>楽<rt>たの</rt></ruby>しみです。",
+  "difficulty": 0.37,
+  "level": "beginner",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Where is the speaker going?",
+      "options": ["東京", "大阪", "京都", "奈良"],
+      "correctAnswer": "京都"
+    },
+    {
+      "id": "q2",
+      "question": "When are they going?",
+      "options": ["春休み", "夏休み", "冬休み", "ゴールデンウィーク"],
+      "correctAnswer": "夏休み"
+    },
+    {
+      "id": "q3",
+      "question": "How will they get there?",
+      "options": ["飛行機", "バス", "車", "新幹線"],
+      "correctAnswer": "新幹線"
+    },
+    {
+      "id": "q4",
+      "question": "How long is the trip?",
+      "options": ["一泊二日", "二泊三日", "三泊四日", "日帰り"],
+      "correctAnswer": "二泊三日"
+    },
+    {
+      "id": "q5",
+      "question": "Where do they want to visit?",
+      "options": ["東大寺と奈良公園", "金閣寺と嵐山", "清水寺と伏見稲荷", "二条城と銀閣寺"],
+      "correctAnswer": "金閣寺と嵐山"
+    },
+    {
+      "id": "q6",
+      "question": "How many people are going?",
+      "options": ["一人", "二人", "三人", "四人"],
+      "correctAnswer": "二人"
+    },
+    {
+      "id": "q7",
+      "question": "How did they book the hotel?",
+      "options": ["電話で", "インターネットで", "旅行会社で", "直接行って"],
+      "correctAnswer": "インターネットで"
+    },
+    {
+      "id": "q8",
+      "question": "What food do they want to eat?",
+      "options": ["寿司", "ラーメン", "抹茶のスイーツ", "うどん"],
+      "correctAnswer": "抹茶のスイーツ"
+    }
+  ],
+  "translation": {
+    "en": "I'm going on a trip to Kyoto during summer vacation. I'm going with a friend, just the two of us. We plan to go by bullet train. We booked the hotel on the internet. It's a two-night, three-day trip. I want to visit Kinkakuji Temple and Arashiyama. I also want to eat delicious matcha sweets. I bought a guidebook and am making plans. I'm really looking forward to it.",
+    "fr": "Je pars en voyage à Kyoto pendant les vacances d'été. J'y vais avec un(e) ami(e), à deux. Nous prévoyons d'y aller en Shinkansen. Nous avons réservé l'hôtel sur internet. C'est un voyage de trois jours et deux nuits. Je veux visiter le Kinkakuji et Arashiyama. Je veux aussi manger de délicieux desserts au matcha. J'ai acheté un guide et je fais des plans. J'ai vraiment hâte."
+  }
+}

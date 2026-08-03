@@ -1,0 +1,8 @@
+{
+  "id": "d001",
+  "title": "Environmental Concern",
+  "expectedText": "地球温暖化の影響により、異常気象が頻発している",
+  "audioUrl": "/api/dictation/advanced/d001/audio",
+  "difficulty": 0.8,
+  "hint": "A formal statement about global warming effects"
+}

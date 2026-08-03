@@ -1,0 +1,38 @@
+{
+  "id": "r006",
+  "title": "私の学校",
+  "titleEn": "My School",
+  "text": "<ruby>私<rt>わたし</rt></ruby>の<ruby>学校<rt>がっこう</rt></ruby>は<ruby>大<rt>おお</rt></ruby>きいです。<ruby>毎朝<rt>まいあさ</rt></ruby><ruby>八時<rt>はちじ</rt></ruby>に<ruby>学校<rt>がっこう</rt></ruby>に<ruby>行<rt>い</rt></ruby>きます。<ruby>教室<rt>きょうしつ</rt></ruby>は<ruby>三階<rt>さんがい</rt></ruby>にあります。<ruby>私<rt>わたし</rt></ruby>のクラスには<ruby>三十人<rt>さんじゅうにん</rt></ruby>の<ruby>生徒<rt>せいと</rt></ruby>がいます。<ruby>数学<rt>すうがく</rt></ruby>と<ruby>英語<rt>えいご</rt></ruby>と<ruby>国語<rt>こくご</rt></ruby>を<ruby>勉強<rt>べんきょう</rt></ruby>します。<ruby>昼休<rt>ひるやす</rt></ruby>みには<ruby>友達<rt>ともだち</rt></ruby>と<ruby>一緒<rt>いっしょ</rt></ruby>にお<ruby>弁当<rt>べんとう</rt></ruby>を<ruby>食<rt>た</rt></ruby>べます。<ruby>放課後<rt>ほうかご</rt></ruby>はサッカー<ruby>部<rt>ぶ</rt></ruby>で<ruby>練習<rt>れんしゅう</rt></ruby>します。<ruby>学校<rt>がっこう</rt></ruby>が<ruby>好<rt>す</rt></ruby>きです。",
+  "difficulty": 0.2,
+  "level": "beginner",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What time does the narrator go to school?",
+      "options": ["7時", "8時", "9時", "10時"],
+      "correctAnswer": "8時"
+    },
+    {
+      "id": "q2",
+      "question": "What floor is the classroom on?",
+      "options": ["1階", "2階", "3階", "4階"],
+      "correctAnswer": "3階"
+    },
+    {
+      "id": "q3",
+      "question": "How many students are in the class?",
+      "options": ["20人", "25人", "30人", "35人"],
+      "correctAnswer": "30人"
+    },
+    {
+      "id": "q4",
+      "question": "What club does the narrator participate in after school?",
+      "options": ["野球部", "サッカー部", "テニス部", "バスケ部"],
+      "correctAnswer": "サッカー部"
+    }
+  ],
+  "translation": {
+    "en": "My school is big. I go to school at eight o'clock every morning. My classroom is on the third floor. There are thirty students in my class. I study math, English, and Japanese. During lunch break, I eat my bento with my friends. After school, I practice in the soccer club. I like school.",
+    "fr": "Mon école est grande. Je vais à l'école à huit heures chaque matin. Ma salle de classe est au troisième étage. Il y a trente élèves dans ma classe. J'étudie les mathématiques, l'anglais et le japonais. Pendant la pause déjeuner, je mange mon bento avec mes amis. Après l'école, je m'entraîne au club de football. J'aime l'école."
+  }
+}

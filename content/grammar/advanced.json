@@ -1,0 +1,112 @@
+[
+  {
+    "id": "g001",
+    "title": "を余儀なくされる (to be forced to)",
+    "explanation": "を余儀なくされる is a formal expression meaning 'to be forced/compelled to do something' due to circumstances beyond one's control. It conveys that there was no other choice.",
+    "pattern": "[Noun] を余儀なくされる",
+    "examples": [
+      { "japanese": "台風のため、計画の変更を余儀なくされた。", "translation": "Due to the typhoon, we were forced to change our plans." },
+      { "japanese": "経営難により、大規模なリストラを余儀なくされた。", "translation": "Due to financial difficulties, they were forced to carry out large-scale restructuring." },
+      { "japanese": "感染拡大により、営業自粛を余儀なくされている。", "translation": "Due to the spread of infection, businesses are being forced to suspend operations." }
+    ]
+  },
+  {
+    "id": "g002",
+    "title": "をもって (by means of / as of)",
+    "explanation": "をもって has two uses: indicating means or method (by means of, with), and indicating a specific time or condition for an action to take effect (as of). Very formal.",
+    "pattern": "[Noun] をもって [Action/Conclusion]",
+    "examples": [
+      { "japanese": "本日をもって閉店いたします。", "translation": "We will be closing as of today." },
+      { "japanese": "誠意をもって対応いたします。", "translation": "We will respond with sincerity." },
+      { "japanese": "これをもちまして本日の会議を終了します。", "translation": "With this, we conclude today's meeting." }
+    ]
+  },
+  {
+    "id": "g003",
+    "title": "ないものでもない (it's not that... can't)",
+    "explanation": "ないものでもない is a double-negative expression suggesting something is possible but unlikely or difficult. It shows reluctant possibility — 'it's not impossible that...'",
+    "pattern": "[Verb ない form] ものでもない",
+    "examples": [
+      { "japanese": "努力すればできないものでもない。", "translation": "If you try hard, it's not that you can't do it." },
+      { "japanese": "条件次第では、引き受けられないものでもない。", "translation": "Depending on the conditions, it's not that I couldn't accept." },
+      { "japanese": "理解できないものでもないが、賛成はしかねる。", "translation": "It's not that I can't understand, but I can't agree." }
+    ]
+  },
+  {
+    "id": "g004",
+    "title": "にほかならない (nothing other than / precisely because)",
+    "explanation": "にほかならない emphasizes that something is the one and only reason or explanation. It means 'nothing other than' or 'precisely because of'. Used for strong assertions.",
+    "pattern": "[Noun/Plain form clause] にほかならない",
+    "examples": [
+      { "japanese": "これは努力の結果にほかならない。", "translation": "This is nothing other than the result of hard work." },
+      { "japanese": "成功したのは、チームワークの良さにほかならない。", "translation": "The success was due to nothing other than good teamwork." },
+      { "japanese": "彼が辞任したのは、責任を感じたからにほかならない。", "translation": "His resignation was for no reason other than feeling responsible." }
+    ]
+  },
+  {
+    "id": "g005",
+    "title": "をおいて (apart from / other than)",
+    "explanation": "をおいて(ほかにない) means 'there is no one/nothing other than' — expressing that something or someone is uniquely qualified or suitable. Often used with ほかにない.",
+    "pattern": "[Noun] をおいてほかにない / [Noun] をおいて〜ない",
+    "examples": [
+      { "japanese": "この仕事を任せられるのは彼をおいてほかにいない。", "translation": "There is no one other than him to entrust this job to." },
+      { "japanese": "この問題を解決できるのは、あなたをおいていない。", "translation": "There is no one but you who can solve this problem." },
+      { "japanese": "今をおいてチャンスはない。", "translation": "There is no chance other than now." }
+    ]
+  },
+  {
+    "id": "g006",
+    "title": "ともなると (when it comes to / once it reaches)",
+    "explanation": "ともなると indicates that when a situation reaches a certain level or status, certain consequences naturally follow. It implies 'given that level' or 'once it becomes that significant'.",
+    "pattern": "[Noun] ともなると [Natural consequence]",
+    "examples": [
+      { "japanese": "社長ともなると、責任は非常に重い。", "translation": "When it comes to being a company president, the responsibility is extremely heavy." },
+      { "japanese": "大学生ともなると、自分で考えて行動すべきだ。", "translation": "Once you're a university student, you should think and act for yourself." },
+      { "japanese": "十年ともなると、この街も大きく変わるだろう。", "translation": "After as much as ten years, this town will probably change significantly." }
+    ]
+  },
+  {
+    "id": "g007",
+    "title": "にたえない (cannot bear / unbearable)",
+    "explanation": "にたえない (に堪えない) expresses that something is so intense it cannot be endured, or that something doesn't warrant a certain action. Can express both positive and negative intensity.",
+    "pattern": "[Noun] にたえない / [Verb dictionary form] にたえない",
+    "examples": [
+      { "japanese": "感謝の念にたえません。", "translation": "I cannot express enough gratitude. (Formal)" },
+      { "japanese": "見るにたえない光景だった。", "translation": "It was a sight too terrible to watch." },
+      { "japanese": "彼の行為は許すにたえない。", "translation": "His actions are unforgivable." }
+    ]
+  },
+  {
+    "id": "g008",
+    "title": "とあって (given that / because of)",
+    "explanation": "とあって states a reason or situation that naturally leads to a particular result. It's used when the situation makes the result obvious or expected. Written/formal style.",
+    "pattern": "[Situation] とあって、[Expected result]",
+    "examples": [
+      { "japanese": "連休とあって、観光地はどこも混んでいた。", "translation": "Given that it was a holiday weekend, all tourist spots were crowded." },
+      { "japanese": "人気歌手のコンサートとあって、チケットは即完売した。", "translation": "Being a concert by a popular singer, tickets sold out immediately." },
+      { "japanese": "初めての海外旅行とあって、彼女は興奮していた。", "translation": "It being her first overseas trip, she was excited." }
+    ]
+  },
+  {
+    "id": "g009",
+    "title": "ならでは (unique to / only possible with)",
+    "explanation": "ならでは expresses that something is unique to or only possible with a particular person, place, or thing. It highlights distinctive qualities that can't be found elsewhere.",
+    "pattern": "[Noun] ならではの [Unique quality]",
+    "examples": [
+      { "japanese": "京都ならではの美しい景色を楽しんだ。", "translation": "I enjoyed the beautiful scenery unique to Kyoto." },
+      { "japanese": "母の手料理は、母ならではの味がする。", "translation": "Mother's home cooking has a taste that only she can create." },
+      { "japanese": "日本ならではのおもてなしに感動した。", "translation": "I was moved by the hospitality unique to Japan." }
+    ]
+  },
+  {
+    "id": "g010",
+    "title": "いかんによらず (regardless of)",
+    "explanation": "いかんによらず (如何によらず) means 'regardless of' or 'irrespective of'. It's a very formal expression used in official documents, announcements, and formal speech.",
+    "pattern": "[Noun] のいかんによらず / いかんにかかわらず",
+    "examples": [
+      { "japanese": "理由のいかんによらず、遅刻は認められない。", "translation": "Regardless of the reason, lateness is not permitted." },
+      { "japanese": "結果のいかんにかかわらず、全力を尽くすべきだ。", "translation": "Regardless of the outcome, one should give it their all." },
+      { "japanese": "国籍のいかんを問わず、すべての人に平等な権利がある。", "translation": "Regardless of nationality, all people have equal rights." }
+    ]
+  }
+]

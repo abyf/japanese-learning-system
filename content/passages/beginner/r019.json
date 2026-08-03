@@ -1,0 +1,38 @@
+{
+  "id": "r019",
+  "title": "スポーツ",
+  "titleEn": "Sports",
+  "text": "<ruby>私<rt>わたし</rt></ruby>はスポーツが<ruby>大好<rt>だいす</rt></ruby>きです。<ruby>一番<rt>いちばん</rt></ruby><ruby>好<rt>す</rt></ruby>きなスポーツはサッカーです。<ruby>毎週<rt>まいしゅう</rt></ruby><ruby>水曜日<rt>すいようび</rt></ruby>と<ruby>金曜日<rt>きんようび</rt></ruby>に<ruby>練習<rt>れんしゅう</rt></ruby>があります。チームには<ruby>十一人<rt>じゅういちにん</rt></ruby>の<ruby>選手<rt>せんしゅ</rt></ruby>がいます。<ruby>私<rt>わたし</rt></ruby>のポジションはフォワードです。<ruby>先月<rt>せんげつ</rt></ruby>の<ruby>試合<rt>しあい</rt></ruby>で<ruby>二点<rt>にてん</rt></ruby>を<ruby>取<rt>と</rt></ruby>りました。<ruby>来月<rt>らいげつ</rt></ruby>は<ruby>大<rt>おお</rt></ruby>きな<ruby>大会<rt>たいかい</rt></ruby>があります。<ruby>毎日<rt>まいにち</rt></ruby><ruby>走<rt>はし</rt></ruby>って<ruby>体力<rt>たいりょく</rt></ruby>をつけています。<ruby>優勝<rt>ゆうしょう</rt></ruby>したいです。",
+  "difficulty": 0.46,
+  "level": "beginner",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What is the narrator's favorite sport?",
+      "options": ["野球", "テニス", "サッカー", "バスケ"],
+      "correctAnswer": "サッカー"
+    },
+    {
+      "id": "q2",
+      "question": "When does the narrator have practice?",
+      "options": ["月曜と木曜", "火曜と木曜", "水曜と金曜", "毎日"],
+      "correctAnswer": "水曜と金曜"
+    },
+    {
+      "id": "q3",
+      "question": "How many points did the narrator score last month?",
+      "options": ["1点", "2点", "3点", "4点"],
+      "correctAnswer": "2点"
+    },
+    {
+      "id": "q4",
+      "question": "What is the narrator's goal?",
+      "options": ["プロになる", "優勝する", "10点取る", "キャプテンになる"],
+      "correctAnswer": "優勝する"
+    }
+  ],
+  "translation": {
+    "en": "I love sports. My favorite sport is soccer. There is practice every Wednesday and Friday. There are eleven players on the team. My position is forward. I scored two goals in last month's match. There is a big tournament next month. I run every day to build my stamina. I want to win the championship.",
+    "fr": "J'adore le sport. Mon sport préféré est le football. Il y a entraînement chaque mercredi et vendredi. L'équipe compte onze joueurs. Mon poste est attaquant. J'ai marqué deux buts lors du match du mois dernier. Il y a un grand tournoi le mois prochain. Je cours tous les jours pour renforcer mon endurance. Je veux gagner le championnat."
+  }
+}

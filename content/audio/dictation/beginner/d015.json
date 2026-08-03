@@ -1,0 +1,10 @@
+{
+  "id": "d015",
+  "title": "Compound Sentence",
+  "titleFr": "Phrase composée",
+  "expectedText": "朝ご飯を食べてから学校に行きます",
+  "audioUrl": "/api/dictation/beginner/d015/audio",
+  "difficulty": 0.5,
+  "hint": "A compound sentence using て-form to describe a sequence of actions",
+  "hintFr": "Une phrase composée utilisant la forme en て pour décrire une séquence d'actions"
+}

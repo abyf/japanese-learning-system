@@ -1,0 +1,102 @@
+{
+  "id": "v067",
+  "title": "Kanji: Days of Week",
+  "titleEn": "Kanji: Days of Week",
+  "titleFr": "Kanji : Jours de la semaine",
+  "level": "beginner",
+  "difficulty": 0.4,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "kanji_recognition",
+      "prompt": "What day does 月曜日 represent?",
+      "prompt_fr": "Quel jour représente 月曜日 ?",
+      "kanji": "月曜日",
+      "options": ["げつようび (Monday)", "かようび (Tuesday)", "すいようび (Wednesday)", "にちようび (Sunday)"],
+      "correctAnswer": "げつようび (Monday)",
+      "meaning_en": "Monday",
+      "meaning_fr": "lundi"
+    },
+    {
+      "id": "q2",
+      "type": "kanji_recognition",
+      "prompt": "What day does 火曜日 represent?",
+      "prompt_fr": "Quel jour représente 火曜日 ?",
+      "kanji": "火曜日",
+      "options": ["かようび (Tuesday)", "すいようび (Wednesday)", "もくようび (Thursday)", "げつようび (Monday)"],
+      "correctAnswer": "かようび (Tuesday)",
+      "meaning_en": "Tuesday",
+      "meaning_fr": "mardi"
+    },
+    {
+      "id": "q3",
+      "type": "kanji_recognition",
+      "prompt": "What day does 水曜日 represent?",
+      "prompt_fr": "Quel jour représente 水曜日 ?",
+      "kanji": "水曜日",
+      "options": ["すいようび (Wednesday)", "かようび (Tuesday)", "もくようび (Thursday)", "きんようび (Friday)"],
+      "correctAnswer": "すいようび (Wednesday)",
+      "meaning_en": "Wednesday",
+      "meaning_fr": "mercredi"
+    },
+    {
+      "id": "q4",
+      "type": "kanji_recognition",
+      "prompt": "What day does 木曜日 represent?",
+      "prompt_fr": "Quel jour représente 木曜日 ?",
+      "kanji": "木曜日",
+      "options": ["もくようび (Thursday)", "すいようび (Wednesday)", "きんようび (Friday)", "どようび (Saturday)"],
+      "correctAnswer": "もくようび (Thursday)",
+      "meaning_en": "Thursday",
+      "meaning_fr": "jeudi"
+    },
+    {
+      "id": "q5",
+      "type": "kanji_recognition",
+      "prompt": "What day does 金曜日 represent?",
+      "prompt_fr": "Quel jour représente 金曜日 ?",
+      "kanji": "金曜日",
+      "options": ["きんようび (Friday)", "もくようび (Thursday)", "どようび (Saturday)", "にちようび (Sunday)"],
+      "correctAnswer": "きんようび (Friday)",
+      "meaning_en": "Friday",
+      "meaning_fr": "vendredi"
+    },
+    {
+      "id": "q6",
+      "type": "kanji_recognition",
+      "prompt": "What day does 土曜日 represent?",
+      "prompt_fr": "Quel jour représente 土曜日 ?",
+      "kanji": "土曜日",
+      "options": ["どようび (Saturday)", "きんようび (Friday)", "にちようび (Sunday)", "げつようび (Monday)"],
+      "correctAnswer": "どようび (Saturday)",
+      "meaning_en": "Saturday",
+      "meaning_fr": "samedi"
+    },
+    {
+      "id": "q7",
+      "type": "kanji_recognition",
+      "prompt": "What day does 日曜日 represent?",
+      "prompt_fr": "Quel jour représente 日曜日 ?",
+      "kanji": "日曜日",
+      "options": ["にちようび (Sunday)", "どようび (Saturday)", "げつようび (Monday)", "かようび (Tuesday)"],
+      "correctAnswer": "にちようび (Sunday)",
+      "meaning_en": "Sunday",
+      "meaning_fr": "dimanche"
+    },
+    {
+      "id": "q8",
+      "type": "word_match",
+      "prompt": "Which element represents fire (Tuesday)?",
+      "prompt_fr": "Quel élément représente le feu (mardi) ?",
+      "word": "火 (Tuesday element)",
+      "options": ["火 (fire)", "水 (water)", "木 (wood)", "金 (gold)"],
+      "options_fr": ["火 (feu)", "水 (eau)", "木 (bois)", "金 (or)"],
+      "correctAnswer": "火 (fire)",
+      "meaning_fr": "火 (feu)"
+    }
+  ],
+  "translation": {
+    "en": "This lesson covers kanji used in the days of the week and their associated elements.",
+    "fr": "Cette leçon couvre les kanji utilisés dans les jours de la semaine et leurs éléments associés."
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "l014",
+  "title": "Weather Report",
+  "titleFr": "Bulletin météo",
+  "type": "multiple_choice",
+  "audioUrl": "/api/listening/beginner/l014/audio",
+  "transcript": "週末の天気予報です。土曜日は朝から晴れて、気温は最高二十五度になるでしょう。午後から風が強くなります。日曜日は午前中は曇りですが、午後から雨が降るでしょう。最高気温は二十度です。月曜日は一日中雨の予報です。傘を忘れずにお持ちください。来週の火曜日からまた晴れる予定です。",
+  "questions": [
+    {
+      "question": "What will Saturday's weather be like?",
+      "options": ["Rainy", "Cloudy", "Sunny from morning", "Snowy"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "What is Saturday's high temperature?",
+      "options": ["20°C", "23°C", "25°C", "28°C"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "What happens on Saturday afternoon?",
+      "options": ["It rains", "Wind gets stronger", "It gets cloudy", "Temperature drops"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "When will it rain on Sunday?",
+      "options": ["Morning", "Afternoon", "Evening", "All day"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "What is Monday's forecast?",
+      "options": ["Sunny", "Cloudy", "Rain all day", "Windy"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "When will the weather improve?",
+      "options": ["Monday evening", "Tuesday", "Wednesday", "Thursday"],
+      "correctAnswer": 1
+    }
+  ],
+  "difficulty": 0.5
+}

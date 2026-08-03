@@ -1,0 +1,104 @@
+{
+  "id": "v047",
+  "title": "な-Adjectives",
+  "titleEn": "な-Adjectives",
+  "titleFr": "Adjectifs en な",
+  "level": "beginner",
+  "difficulty": 0.3,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "word_match",
+      "prompt": "What does きれい mean?",
+      "prompt_fr": "Que signifie きれい ?",
+      "word": "きれい",
+      "options": ["Beautiful / Clean", "Dirty", "Quiet", "Energetic"],
+      "options_fr": ["Beau / Propre", "Sale", "Calme", "Énergique"],
+      "correctAnswer": "Beautiful / Clean",
+      "meaning_fr": "Beau / Propre"
+    },
+    {
+      "id": "q2",
+      "type": "word_match",
+      "prompt": "What does 静か mean?",
+      "prompt_fr": "Que signifie 静か ?",
+      "word": "静か",
+      "options": ["Quiet / Calm", "Noisy", "Lively", "Famous"],
+      "options_fr": ["Calme / Silencieux", "Bruyant", "Animé", "Célèbre"],
+      "correctAnswer": "Quiet / Calm",
+      "meaning_fr": "Calme / Silencieux"
+    },
+    {
+      "id": "q3",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of 元気?",
+      "prompt_fr": "Quelle est la lecture de 元気 ?",
+      "kanji": "元気",
+      "options": ["げんき", "しずか", "ゆうめい", "すき"],
+      "correctAnswer": "げんき",
+      "meaning_en": "energetic / healthy",
+      "meaning_fr": "énergique / en bonne santé"
+    },
+    {
+      "id": "q4",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "この町は＿＿です。(This town is quiet.)",
+      "sentence_fr": "この町は＿＿です。(Cette ville est calme.)",
+      "options": ["静か", "にぎやか", "有名", "きれい"],
+      "correctAnswer": "静か",
+      "meaning_en": "quiet",
+      "meaning_fr": "calme"
+    },
+    {
+      "id": "q5",
+      "type": "word_match",
+      "prompt": "What does 有名 mean?",
+      "prompt_fr": "Que signifie 有名 ?",
+      "word": "有名",
+      "options": ["Famous", "Quiet", "Beautiful", "Healthy"],
+      "options_fr": ["Célèbre", "Calme", "Beau", "En bonne santé"],
+      "correctAnswer": "Famous",
+      "meaning_fr": "Célèbre"
+    },
+    {
+      "id": "q6",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "田中さんは＿＿な人です。(Tanaka-san is an energetic person.)",
+      "sentence_fr": "田中さんは＿＿な人です。(Tanaka-san est une personne énergique.)",
+      "options": ["元気", "静か", "有名", "きれい"],
+      "correctAnswer": "元気",
+      "meaning_en": "energetic",
+      "meaning_fr": "énergique"
+    },
+    {
+      "id": "q7",
+      "type": "word_match",
+      "prompt": "What does にぎやか mean?",
+      "prompt_fr": "Que signifie にぎやか ?",
+      "word": "にぎやか",
+      "options": ["Lively / Bustling", "Quiet", "Clean", "Famous"],
+      "options_fr": ["Animé / Vivant", "Calme", "Propre", "Célèbre"],
+      "correctAnswer": "Lively / Bustling",
+      "meaning_fr": "Animé / Vivant"
+    },
+    {
+      "id": "q8",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of 有名?",
+      "prompt_fr": "Quelle est la lecture de 有名 ?",
+      "kanji": "有名",
+      "options": ["ゆうめい", "げんき", "しずか", "べんり"],
+      "correctAnswer": "ゆうめい",
+      "meaning_en": "famous",
+      "meaning_fr": "célèbre"
+    }
+  ],
+  "translation": {
+    "en": "This lesson introduces な-adjectives and how they modify nouns in Japanese.",
+    "fr": "Cette leçon introduit les adjectifs en な et comment ils modifient les noms en japonais."
+  }
+}

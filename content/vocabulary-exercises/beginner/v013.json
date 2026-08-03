@@ -1,0 +1,58 @@
+{
+  "id": "v013",
+  "title": "Adjectives 1",
+  "titleEn": "Adjectives 1",
+  "level": "beginner",
+  "difficulty": 0.3,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "word_match",
+      "prompt": "What does 大きい mean?",
+      "prompt_fr": "Que signifie 大きい ?",
+      "word": "大きい",
+      "options": ["Big", "Small", "Long", "Wide"],
+      "options_fr": ["Grand", "Petit", "Long", "Large"],
+      "correctAnswer": "Big",
+      "meaning_fr": "Grand"
+    },
+    {
+      "id": "q2",
+      "type": "kanji_recognition",
+      "prompt": "What does this kanji mean?",
+      "prompt_fr": "Que signifie ce kanji ?",
+      "kanji": "小",
+      "options": ["Small", "Big", "Few", "Short"],
+      "options_fr": ["Petit", "Grand", "Peu", "Court"],
+      "correctAnswer": "Small",
+      "meaning_fr": "Petit"
+    },
+    {
+      "id": "q3",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "この車は＿＿しいです。(This car is new)",
+      "sentence_fr": "この車は＿＿しいです。(Cette voiture est neuve)",
+      "options": ["新", "古", "大き", "小さ"],
+      "correctAnswer": "新",
+      "meaning_en": "new",
+      "meaning_fr": "nouveau"
+    },
+    {
+      "id": "q4",
+      "type": "word_match",
+      "prompt": "What does 古い mean?",
+      "prompt_fr": "Que signifie 古い ?",
+      "word": "古い",
+      "options": ["Old (things)", "New", "Expensive", "Cheap"],
+      "options_fr": ["Ancien / Vieux", "Nouveau", "Cher", "Bon marché"],
+      "correctAnswer": "Old (things)",
+      "meaning_fr": "Ancien / Vieux"
+    }
+  ],
+  "translation": {
+    "en": "This lesson covers basic i-adjectives: big, small, new, old.",
+    "fr": "Cette leçon couvre les adjectifs en -i de base : grand, petit, nouveau, ancien."
+  }
+}

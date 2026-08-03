@@ -1,0 +1,56 @@
+{
+  "id": "r028",
+  "title": "電話をかける",
+  "titleEn": "Making a Phone Call",
+  "text": "<ruby>今日<rt>きょう</rt></ruby>、レストランに<ruby>電話<rt>でんわ</rt></ruby>をかけました。<ruby>明日<rt>あした</rt></ruby>の<ruby>夜<rt>よる</rt></ruby>、<ruby>家族<rt>かぞく</rt></ruby>で<ruby>食事<rt>しょくじ</rt></ruby>に<ruby>行<rt>い</rt></ruby>きたいからです。「もしもし、<ruby>予約<rt>よやく</rt></ruby>をお<ruby>願<rt>ねが</rt></ruby>いしたいのですが」と<ruby>言<rt>い</rt></ruby>いました。<ruby>店<rt>みせ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は「<ruby>何名様<rt>なんめいさま</rt></ruby>ですか」と<ruby>聞<rt>き</rt></ruby>きました。「<ruby>四人<rt>よにん</rt></ruby>です」と<ruby>答<rt>こた</rt></ruby>えました。<ruby>時間<rt>じかん</rt></ruby>は<ruby>七時<rt>しちじ</rt></ruby>にしました。<ruby>店<rt>みせ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は「かしこまりました」と<ruby>言<rt>い</rt></ruby>いました。<ruby>予約<rt>よやく</rt></ruby>ができてよかったです。",
+  "difficulty": 0.32,
+  "level": "beginner",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Where did the speaker call?",
+      "options": ["病院", "レストラン", "ホテル", "美容院"],
+      "correctAnswer": "レストラン"
+    },
+    {
+      "id": "q2",
+      "question": "Why did the speaker call?",
+      "options": ["キャンセルするため", "予約するため", "場所を聞くため", "メニューを聞くため"],
+      "correctAnswer": "予約するため"
+    },
+    {
+      "id": "q3",
+      "question": "Who is going to eat together?",
+      "options": ["友達", "家族", "同僚", "先生"],
+      "correctAnswer": "家族"
+    },
+    {
+      "id": "q4",
+      "question": "How many people?",
+      "options": ["二人", "三人", "四人", "五人"],
+      "correctAnswer": "四人"
+    },
+    {
+      "id": "q5",
+      "question": "When is the reservation?",
+      "options": ["今日の昼", "今日の夜", "明日の昼", "明日の夜"],
+      "correctAnswer": "明日の夜"
+    },
+    {
+      "id": "q6",
+      "question": "What time is the reservation?",
+      "options": ["六時", "七時", "八時", "九時"],
+      "correctAnswer": "七時"
+    },
+    {
+      "id": "q7",
+      "question": "What does 'かしこまりました' mean?",
+      "options": ["すみません", "分かりました（丁寧）", "ありがとう", "お待ちください"],
+      "correctAnswer": "分かりました（丁寧）"
+    }
+  ],
+  "translation": {
+    "en": "Today I called a restaurant. It's because I want to go out for dinner with my family tomorrow night. I said, 'Hello, I'd like to make a reservation.' The staff asked, 'How many people?' I answered, 'Four people.' We set the time for 7 o'clock. The staff said, 'Certainly.' I'm glad I was able to make a reservation.",
+    "fr": "Aujourd'hui, j'ai appelé un restaurant. C'est parce que je veux aller dîner avec ma famille demain soir. J'ai dit : « Allô, je voudrais faire une réservation. » L'employé(e) a demandé : « Pour combien de personnes ? » J'ai répondu : « Quatre personnes. » Nous avons fixé l'heure à 19 heures. L'employé(e) a dit : « Bien entendu. » Je suis content(e) d'avoir pu réserver."
+  }
+}

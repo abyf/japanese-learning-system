@@ -1,0 +1,94 @@
+{
+  "id": "v064",
+  "title": "Polite Requests",
+  "titleEn": "Polite Requests",
+  "titleFr": "Requêtes polies",
+  "level": "beginner",
+  "difficulty": 0.45,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "word_match",
+      "prompt": "What does ください mean?",
+      "prompt_fr": "Que signifie ください ?",
+      "word": "ください",
+      "options": ["Please (give me / do)", "Thank you", "Sorry", "Excuse me"],
+      "options_fr": ["S'il vous plaît (donnez-moi / faites)", "Merci", "Désolé", "Excusez-moi"],
+      "correctAnswer": "Please (give me / do)",
+      "meaning_fr": "S'il vous plaît (donnez-moi / faites)"
+    },
+    {
+      "id": "q2",
+      "type": "word_match",
+      "prompt": "What does お願いします mean?",
+      "prompt_fr": "Que signifie お願いします ?",
+      "word": "お願いします",
+      "options": ["Please (formal request)", "Thank you very much", "I'm sorry", "Nice to meet you"],
+      "options_fr": ["S'il vous plaît (requête formelle)", "Merci beaucoup", "Je suis désolé", "Enchanté"],
+      "correctAnswer": "Please (formal request)",
+      "meaning_fr": "S'il vous plaît (requête formelle)"
+    },
+    {
+      "id": "q3",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "窓を開けて＿＿。(Please open the window.)",
+      "sentence_fr": "窓を開けて＿＿。(Ouvrez la fenêtre, s'il vous plaît.)",
+      "options": ["ください", "います", "ありません", "でした"],
+      "correctAnswer": "ください",
+      "meaning_en": "please (do)",
+      "meaning_fr": "s'il vous plaît (faites)"
+    },
+    {
+      "id": "q4",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "水を＿＿。(Water, please.)",
+      "sentence_fr": "水を＿＿。(De l'eau, s'il vous plaît.)",
+      "options": ["お願いします", "ありがとう", "すみません", "ごめんなさい"],
+      "correctAnswer": "お願いします",
+      "meaning_en": "please (I request)",
+      "meaning_fr": "s'il vous plaît (je demande)"
+    },
+    {
+      "id": "q5",
+      "type": "word_match",
+      "prompt": "What does 見せてください mean?",
+      "prompt_fr": "Que signifie 見せてください ?",
+      "word": "見せてください",
+      "options": ["Please show me", "Please look", "Please wait", "Please come"],
+      "options_fr": ["Montrez-moi s'il vous plaît", "Regardez s'il vous plaît", "Attendez s'il vous plaît", "Venez s'il vous plaît"],
+      "correctAnswer": "Please show me",
+      "meaning_fr": "Montrez-moi s'il vous plaît"
+    },
+    {
+      "id": "q6",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "もう一度言って＿＿。(Please say it one more time.)",
+      "sentence_fr": "もう一度言って＿＿。(Dites-le encore une fois, s'il vous plaît.)",
+      "options": ["ください", "ます", "ません", "でしょう"],
+      "correctAnswer": "ください",
+      "meaning_en": "please",
+      "meaning_fr": "s'il vous plaît"
+    },
+    {
+      "id": "q7",
+      "type": "word_match",
+      "prompt": "What does 待ってください mean?",
+      "prompt_fr": "Que signifie 待ってください ?",
+      "word": "待ってください",
+      "options": ["Please wait", "Please go", "Please sit", "Please stand"],
+      "options_fr": ["Attendez s'il vous plaît", "Allez s'il vous plaît", "Asseyez-vous s'il vous plaît", "Levez-vous s'il vous plaît"],
+      "correctAnswer": "Please wait",
+      "meaning_fr": "Attendez s'il vous plaît"
+    }
+  ],
+  "translation": {
+    "en": "This lesson covers polite request forms using ください and お願いします.",
+    "fr": "Cette leçon couvre les formes de requêtes polies avec ください et お願いします."
+  }
+}

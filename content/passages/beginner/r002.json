@@ -1,0 +1,38 @@
+{
+  "id": "r002",
+  "title": "毎日の生活",
+  "titleEn": "Daily Routine",
+  "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>毎朝<rt>まいあさ</rt></ruby><ruby>六時<rt>ろくじ</rt></ruby>に<ruby>起<rt>お</rt></ruby>きます。<ruby>顔<rt>かお</rt></ruby>を<ruby>洗<rt>あら</rt></ruby>って、<ruby>朝<rt>あさ</rt></ruby>ご<ruby>飯<rt>はん</rt></ruby>を<ruby>食<rt>た</rt></ruby>べます。<ruby>朝<rt>あさ</rt></ruby>ご<ruby>飯<rt>はん</rt></ruby>はいつもパンと<ruby>卵<rt>たまご</rt></ruby>とコーヒーです。<ruby>七時半<rt>しちじはん</rt></ruby>に<ruby>家<rt>いえ</rt></ruby>を<ruby>出<rt>で</rt></ruby>ます。<ruby>駅<rt>えき</rt></ruby>まで<ruby>十分<rt>じゅっぷん</rt></ruby><ruby>歩<rt>ある</rt></ruby>きます。<ruby>電車<rt>でんしゃ</rt></ruby>で<ruby>学校<rt>がっこう</rt></ruby>に<ruby>行<rt>い</rt></ruby>きます。<ruby>学校<rt>がっこう</rt></ruby>は<ruby>八時半<rt>はちじはん</rt></ruby>に<ruby>始<rt>はじ</rt></ruby>まります。<ruby>午前中<rt>ごぜんちゅう</rt></ruby>は<ruby>四<rt>よん</rt></ruby>つの<ruby>授業<rt>じゅぎょう</rt></ruby>があります。<ruby>昼<rt>ひる</rt></ruby>ご<ruby>飯<rt>はん</rt></ruby>は<ruby>友達<rt>ともだち</rt></ruby>と<ruby>食堂<rt>しょくどう</rt></ruby>で<ruby>食<rt>た</rt></ruby>べます。<ruby>午後<rt>ごご</rt></ruby>は<ruby>二<rt>ふた</rt></ruby>つの<ruby>授業<rt>じゅぎょう</rt></ruby>があります。<ruby>三時<rt>さんじ</rt></ruby>に<ruby>学校<rt>がっこう</rt></ruby>が<ruby>終<rt>お</rt></ruby>わります。<ruby>放課後<rt>ほうかご</rt></ruby>はテニス<ruby>部<rt>ぶ</rt></ruby>で<ruby>練習<rt>れんしゅう</rt></ruby>します。<ruby>六時<rt>ろくじ</rt></ruby>に<ruby>家<rt>いえ</rt></ruby>に<ruby>帰<rt>かえ</rt></ruby>ります。<ruby>晩<rt>ばん</rt></ruby>ご<ruby>飯<rt>はん</rt></ruby>の<ruby>後<rt>あと</rt></ruby>で<ruby>宿題<rt>しゅくだい</rt></ruby>をします。<ruby>十一時<rt>じゅういちじ</rt></ruby>に<ruby>寝<rt>ね</rt></ruby>ます。",
+  "difficulty": 0.3,
+  "level": "beginner",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What time does the speaker wake up?",
+      "options": ["5時", "6時", "7時", "8時"],
+      "correctAnswer": "6時"
+    },
+    {
+      "id": "q2",
+      "question": "How does the speaker get to school?",
+      "options": ["バス", "自転車", "電車", "車"],
+      "correctAnswer": "電車"
+    },
+    {
+      "id": "q3",
+      "question": "What club activity does the speaker do?",
+      "options": ["サッカー部", "テニス部", "野球部", "水泳部"],
+      "correctAnswer": "テニス部"
+    },
+    {
+      "id": "q4",
+      "question": "What time does school end?",
+      "options": ["2時", "3時", "4時", "5時"],
+      "correctAnswer": "3時"
+    }
+  ],
+  "translation": {
+    "en": "I wake up at six every morning. I wash my face and eat breakfast. Breakfast is always bread, eggs, and coffee. I leave the house at seven thirty. I walk ten minutes to the station. I go to school by train. School starts at eight thirty. In the morning, there are four classes. I eat lunch with friends in the cafeteria. In the afternoon, there are two classes. School ends at three. After school, I practice in the tennis club. I go home at six. After dinner, I do homework. I go to bed at eleven.",
+    "fr": "Je me réveille à six heures chaque matin. Je me lave le visage et je prends le petit-déjeuner. Le petit-déjeuner est toujours du pain, des œufs et du café. Je quitte la maison à sept heures et demie. Je marche dix minutes jusqu'à la gare. Je vais à l'école en train. L'école commence à huit heures et demie. Le matin, il y a quatre cours. Je déjeune avec des amis à la cafétéria. L'après-midi, il y a deux cours. L'école se termine à trois heures. Après l'école, je m'entraîne au club de tennis. Je rentre à la maison à six heures. Après le dîner, je fais mes devoirs. Je me couche à onze heures."
+  }
+}

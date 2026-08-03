@@ -1,0 +1,36 @@
+{
+  "id": "l007",
+  "title": "Asking for Help",
+  "titleFr": "Demander de l'aide",
+  "type": "multiple_choice",
+  "audioUrl": "/api/listening/beginner/l007/audio",
+  "transcript": "すみません、道に迷ってしまいました。東京駅に行きたいのですが。 東京駅ですか。ここからまっすぐ行って、二つ目の交差点を左に曲がってください。 左ですね。どのくらいかかりますか？ 歩いて十分くらいです。 バスはありますか？ はい、あのバス停から出ています。五番のバスに乗ってください。 ありがとうございます。助かりました。",
+  "questions": [
+    {
+      "question": "What is the person's problem?",
+      "options": ["Lost their wallet", "Got lost", "Missed the train", "Can't find their hotel"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Where do they want to go?",
+      "options": ["Shibuya Station", "Tokyo Station", "Shinjuku Station", "Ueno Station"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Which direction should they turn?",
+      "options": ["Right at the first intersection", "Left at the second intersection", "Right at the second intersection", "Straight ahead"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "How long does it take on foot?",
+      "options": ["5 minutes", "10 minutes", "15 minutes", "20 minutes"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "What bus number should they take?",
+      "options": ["Bus number 3", "Bus number 5", "Bus number 7", "Bus number 10"],
+      "correctAnswer": 1
+    }
+  ],
+  "difficulty": 0.35
+}

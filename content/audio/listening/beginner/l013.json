@@ -1,0 +1,41 @@
+{
+  "id": "l013",
+  "title": "Planning a Party",
+  "titleFr": "Organiser une fête",
+  "type": "multiple_choice",
+  "audioUrl": "/api/listening/beginner/l013/audio",
+  "transcript": "来週の土曜日、佐藤さんの誕生日パーティーをしない？ いいね！どこでする？ 私の家はどう？広いから。 いいね。何人くらい来る？ 十人くらいかな。 料理はどうする？ みんなで少しずつ持ってこない？ そうしよう。私はケーキを作るね。 じゃ、私はサラダを作る。飲み物は田中君に頼もう。 プレゼントは何がいいかな？ 佐藤さんは本が好きだから、本はどう？",
+  "questions": [
+    {
+      "question": "Whose birthday party is being planned?",
+      "options": ["Tanaka", "Yamada", "Sato", "Suzuki"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "When is the party?",
+      "options": ["This Saturday", "Next Saturday", "Next Sunday", "This Friday"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "How many people will come?",
+      "options": ["5 people", "8 people", "10 people", "15 people"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "What will the first speaker make?",
+      "options": ["Salad", "Cake", "Sushi", "Pizza"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Who will bring drinks?",
+      "options": ["Sato", "Yamada", "Tanaka", "Suzuki"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "What present idea was suggested?",
+      "options": ["Clothes", "A game", "A book", "Music"],
+      "correctAnswer": 2
+    }
+  ],
+  "difficulty": 0.45
+}

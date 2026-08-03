@@ -1,0 +1,38 @@
+{
+  "id": "r011",
+  "title": "レストランで",
+  "titleEn": "At a Restaurant",
+  "text": "<ruby>昨日<rt>きのう</rt></ruby>、<ruby>家族<rt>かぞく</rt></ruby>とレストランに<ruby>行<rt>い</rt></ruby>きました。<ruby>日本料理<rt>にほんりょうり</rt></ruby>のレストランでした。<ruby>私<rt>わたし</rt></ruby>はラーメンを<ruby>注文<rt>ちゅうもん</rt></ruby>しました。<ruby>父<rt>ちち</rt></ruby>は<ruby>天<rt>てん</rt></ruby>ぷらを<ruby>食<rt>た</rt></ruby>べました。<ruby>母<rt>はは</rt></ruby>は<ruby>寿司<rt>すし</rt></ruby>を<ruby>選<rt>えら</rt></ruby>びました。<ruby>料理<rt>りょうり</rt></ruby>はとてもおいしかったです。<ruby>食事<rt>しょくじ</rt></ruby>の<ruby>後<rt>あと</rt></ruby>で、お<ruby>茶<rt>ちゃ</rt></ruby>を<ruby>飲<rt>の</rt></ruby>みました。<ruby>全部<rt>ぜんぶ</rt></ruby>で<ruby>五千円<rt>ごせんえん</rt></ruby>でした。",
+  "difficulty": 0.3,
+  "level": "beginner",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What kind of restaurant did they go to?",
+      "options": ["イタリア料理", "中華料理", "日本料理", "フランス料理"],
+      "correctAnswer": "日本料理"
+    },
+    {
+      "id": "q2",
+      "question": "What did the narrator order?",
+      "options": ["寿司", "天ぷら", "ラーメン", "うどん"],
+      "correctAnswer": "ラーメン"
+    },
+    {
+      "id": "q3",
+      "question": "What did they drink after the meal?",
+      "options": ["コーヒー", "ジュース", "お茶", "水"],
+      "correctAnswer": "お茶"
+    },
+    {
+      "id": "q4",
+      "question": "How much was the total bill?",
+      "options": ["3000円", "4000円", "5000円", "6000円"],
+      "correctAnswer": "5000円"
+    }
+  ],
+  "translation": {
+    "en": "Yesterday, I went to a restaurant with my family. It was a Japanese food restaurant. I ordered ramen. My father ate tempura. My mother chose sushi. The food was very delicious. After the meal, we drank tea. The total was 5000 yen.",
+    "fr": "Hier, je suis allé(e) au restaurant avec ma famille. C'était un restaurant de cuisine japonaise. J'ai commandé des ramens. Mon père a mangé des tempuras. Ma mère a choisi des sushis. La nourriture était très délicieuse. Après le repas, nous avons bu du thé. Le total était de 5000 yens."
+  }
+}

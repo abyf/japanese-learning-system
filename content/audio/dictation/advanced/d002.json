@@ -1,0 +1,8 @@
+{
+  "id": "d002",
+  "title": "Social Issue",
+  "expectedText": "少子高齢化が社会保障制度の持続可能性を脅かしている",
+  "audioUrl": "/api/dictation/advanced/d002/audio",
+  "difficulty": 0.85,
+  "hint": "About demographic changes threatening social security"
+}

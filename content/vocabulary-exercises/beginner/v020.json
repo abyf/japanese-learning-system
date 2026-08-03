@@ -1,0 +1,59 @@
+{
+  "id": "v020",
+  "title": "Particles",
+  "titleEn": "Particles",
+  "level": "beginner",
+  "difficulty": 0.35,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "私＿＿学生です。(I am a student — topic marker)",
+      "sentence_fr": "私＿＿学生です。(Je suis étudiant — marqueur de thème)",
+      "options": ["は", "が", "を", "に"],
+      "correctAnswer": "は",
+      "meaning_en": "topic marker particle",
+      "meaning_fr": "particule de thème"
+    },
+    {
+      "id": "q2",
+      "type": "word_match",
+      "prompt": "Which particle marks the direct object?",
+      "prompt_fr": "Quelle particule marque le complément d'objet direct ?",
+      "word": "を",
+      "options": ["Direct object marker", "Topic marker", "Location marker", "Direction marker"],
+      "options_fr": ["Marqueur d'objet direct", "Marqueur de thème", "Marqueur de lieu", "Marqueur de direction"],
+      "correctAnswer": "Direct object marker",
+      "meaning_fr": "Marqueur d'objet direct"
+    },
+    {
+      "id": "q3",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "学校＿＿行きます。(I go to school — direction)",
+      "sentence_fr": "学校＿＿行きます。(Je vais à l'école — direction)",
+      "options": ["に", "は", "を", "で"],
+      "correctAnswer": "に",
+      "meaning_en": "direction/destination particle",
+      "meaning_fr": "particule de direction/destination"
+    },
+    {
+      "id": "q4",
+      "type": "word_match",
+      "prompt": "What does the particle で indicate?",
+      "prompt_fr": "Qu'indique la particule で ?",
+      "word": "で",
+      "options": ["Location of action / means", "Topic", "Subject", "Object"],
+      "options_fr": ["Lieu d'action / moyen", "Thème", "Sujet", "Objet"],
+      "correctAnswer": "Location of action / means",
+      "meaning_fr": "Lieu d'action / moyen"
+    }
+  ],
+  "translation": {
+    "en": "This lesson covers essential Japanese particles: は, が, を, に, で, と, も.",
+    "fr": "Cette leçon couvre les particules essentielles japonaises : は, が, を, に, で, と, も."
+  }
+}

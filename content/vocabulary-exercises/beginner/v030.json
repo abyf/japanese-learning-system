@@ -1,0 +1,93 @@
+{
+  "id": "v030",
+  "title": "Drinks & Beverages",
+  "titleEn": "Drinks & Beverages",
+  "titleFr": "Boissons",
+  "level": "beginner",
+  "difficulty": 0.15,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of this kanji?",
+      "prompt_fr": "Quelle est la lecture de ce kanji ?",
+      "kanji": "水",
+      "options": ["みず", "ちゃ", "さけ", "ゆ"],
+      "correctAnswer": "みず",
+      "meaning_en": "water",
+      "meaning_fr": "eau"
+    },
+    {
+      "id": "q2",
+      "type": "word_match",
+      "prompt": "What does お茶 mean?",
+      "prompt_fr": "Que signifie お茶 ?",
+      "word": "お茶",
+      "options": ["Tea", "Coffee", "Juice", "Milk"],
+      "options_fr": ["Thé", "Café", "Jus", "Lait"],
+      "correctAnswer": "Tea",
+      "meaning_fr": "Thé"
+    },
+    {
+      "id": "q3",
+      "type": "word_match",
+      "prompt": "What does コーヒー mean?",
+      "prompt_fr": "Que signifie コーヒー ?",
+      "word": "コーヒー",
+      "options": ["Coffee", "Tea", "Cola", "Cocoa"],
+      "options_fr": ["Café", "Thé", "Cola", "Cacao"],
+      "correctAnswer": "Coffee",
+      "meaning_fr": "Café"
+    },
+    {
+      "id": "q4",
+      "type": "word_match",
+      "prompt": "What does ジュース mean?",
+      "prompt_fr": "Que signifie ジュース ?",
+      "word": "ジュース",
+      "options": ["Juice", "Beer", "Wine", "Water"],
+      "options_fr": ["Jus", "Bière", "Vin", "Eau"],
+      "correctAnswer": "Juice",
+      "meaning_fr": "Jus"
+    },
+    {
+      "id": "q5",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "＿＿を飲みたいです。(I want to drink water)",
+      "sentence_fr": "＿＿を飲みたいです。(Je veux boire de l'eau)",
+      "options": ["水", "お茶", "コーヒー", "ジュース"],
+      "correctAnswer": "水",
+      "meaning_en": "water",
+      "meaning_fr": "eau"
+    },
+    {
+      "id": "q6",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "朝は＿＿を飲みます。(I drink coffee in the morning)",
+      "sentence_fr": "朝は＿＿を飲みます。(Je bois du café le matin)",
+      "options": ["コーヒー", "水", "ジュース", "お茶"],
+      "correctAnswer": "コーヒー",
+      "meaning_en": "coffee",
+      "meaning_fr": "café"
+    },
+    {
+      "id": "q7",
+      "type": "word_match",
+      "prompt": "What does 牛乳 mean?",
+      "prompt_fr": "Que signifie 牛乳 ?",
+      "word": "牛乳",
+      "options": ["Milk", "Juice", "Water", "Yogurt"],
+      "options_fr": ["Lait", "Jus", "Eau", "Yaourt"],
+      "correctAnswer": "Milk",
+      "meaning_fr": "Lait"
+    }
+  ],
+  "translation": {
+    "en": "This lesson covers common drinks and beverages vocabulary.",
+    "fr": "Cette leçon couvre le vocabulaire des boissons courantes."
+  }
+}

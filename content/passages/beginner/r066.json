@@ -1,0 +1,44 @@
+{
+  "id": "r066",
+  "title": "和食と洋食",
+  "titleEn": "Japanese vs Western Food",
+  "text": "<ruby>日本<rt>にほん</rt></ruby>には<ruby>和食<rt>わしょく</rt></ruby>と<ruby>洋食<rt>ようしょく</rt></ruby>があります。<ruby>和食<rt>わしょく</rt></ruby>は<ruby>寿司<rt>すし</rt></ruby>、<ruby>天<rt>てん</rt></ruby>ぷら、ラーメンなどです。<ruby>洋食<rt>ようしょく</rt></ruby>はハンバーグ、カレーライス、オムライスなどです。<ruby>洋食<rt>ようしょく</rt></ruby>は<ruby>西洋<rt>せいよう</rt></ruby>の<ruby>料理<rt>りょうり</rt></ruby>を<ruby>日本風<rt>にほんふう</rt></ruby>にアレンジしたものです。<ruby>家庭<rt>かてい</rt></ruby>では<ruby>両方<rt>りょうほう</rt></ruby>を<ruby>食<rt>た</rt></ruby>べます。<ruby>和食<rt>わしょく</rt></ruby>は<ruby>二千十三年<rt>にせんじゅうさんねん</rt></ruby>にユネスコの<ruby>無形文化遺産<rt>むけいぶんかいさん</rt></ruby>になりました。<ruby>健康<rt>けんこう</rt></ruby>に<ruby>良<rt>よ</rt></ruby>い<ruby>食事<rt>しょくじ</rt></ruby>として<ruby>世界<rt>せかい</rt></ruby>で<ruby>注目<rt>ちゅうもく</rt></ruby>されています。",
+  "difficulty": 0.62,
+  "level": "beginner",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Which is an example of washoku?",
+      "options": ["ハンバーグ", "寿司", "オムライス", "カレーライス"],
+      "correctAnswer": "寿司"
+    },
+    {
+      "id": "q2",
+      "question": "What is yoshoku?",
+      "options": ["中国料理", "西洋料理を日本風にアレンジしたもの", "伝統的な和食", "韓国料理"],
+      "correctAnswer": "西洋料理を日本風にアレンジしたもの"
+    },
+    {
+      "id": "q3",
+      "question": "What do families eat at home?",
+      "options": ["和食だけ", "洋食だけ", "両方", "外食だけ"],
+      "correctAnswer": "両方"
+    },
+    {
+      "id": "q4",
+      "question": "When did washoku become an Intangible Cultural Heritage?",
+      "options": ["2003年", "2013年", "2018年", "2020年"],
+      "correctAnswer": "2013年"
+    },
+    {
+      "id": "q5",
+      "question": "Why is washoku getting attention worldwide?",
+      "options": ["安いから", "健康に良いから", "早いから", "きれいだから"],
+      "correctAnswer": "健康に良いから"
+    }
+  ],
+  "translation": {
+    "en": "In Japan, there is washoku (Japanese food) and yoshoku (Western-style food). Washoku includes sushi, tempura, ramen, etc. Yoshoku includes hamburger steak, curry rice, omurice, etc. Yoshoku is Western cuisine arranged in Japanese style. At home, people eat both. Washoku became a UNESCO Intangible Cultural Heritage in 2013. It is getting attention worldwide as a healthy diet.",
+    "fr": "Au Japon, il y a le washoku (cuisine japonaise) et le yoshoku (cuisine de style occidental). Le washoku comprend les sushi, tempura, ramen, etc. Le yoshoku comprend le steak haché, le riz au curry, l'omurice, etc. Le yoshoku est la cuisine occidentale adaptée au style japonais. À la maison, on mange les deux. Le washoku est devenu patrimoine culturel immatériel de l'UNESCO en 2013. Il attire l'attention mondiale comme alimentation saine."
+  }
+}

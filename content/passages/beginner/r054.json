@@ -1,0 +1,50 @@
+{
+  "id": "r054",
+  "title": "携帯電話",
+  "titleEn": "Mobile Phones",
+  "text": "<ruby>日本<rt>にほん</rt></ruby>では<ruby>携帯電話<rt>けいたいでんわ</rt></ruby>がとても<ruby>普及<rt>ふきゅう</rt></ruby>しています。スマートフォンを<ruby>使<rt>つか</rt></ruby>う<ruby>人<rt>ひと</rt></ruby>がほとんどです。<ruby>電車<rt>でんしゃ</rt></ruby>の<ruby>中<rt>なか</rt></ruby>では<ruby>通話<rt>つうわ</rt></ruby>をしてはいけません。マナーモードにするのがルールです。<ruby>日本<rt>にほん</rt></ruby>の<ruby>携帯電話<rt>けいたいでんわ</rt></ruby>には<ruby>電子<rt>でんし</rt></ruby>マネーの<ruby>機能<rt>きのう</rt></ruby>があります。<ruby>買<rt>か</rt></ruby>い<ruby>物<rt>もの</rt></ruby>や<ruby>電車<rt>でんしゃ</rt></ruby>の<ruby>支払<rt>しはら</rt></ruby>いに<ruby>使<rt>つか</rt></ruby>えます。<ruby>若<rt>わか</rt></ruby>い<ruby>人<rt>ひと</rt></ruby>はLINEでメッセージを<ruby>送<rt>おく</rt></ruby>ります。<ruby>写真<rt>しゃしん</rt></ruby>を<ruby>撮<rt>と</rt></ruby>ったり、<ruby>動画<rt>どうが</rt></ruby>を<ruby>見<rt>み</rt></ruby>たりすることも<ruby>多<rt>おお</rt></ruby>いです。",
+  "difficulty": 0.54,
+  "level": "beginner",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What is widespread in Japan?",
+      "options": ["パソコン", "携帯電話", "テレビ", "ラジオ"],
+      "correctAnswer": "携帯電話"
+    },
+    {
+      "id": "q2",
+      "question": "What is not allowed on trains?",
+      "options": ["音楽を聴く", "本を読む", "通話をする", "ゲームをする"],
+      "correctAnswer": "通話をする"
+    },
+    {
+      "id": "q3",
+      "question": "What feature do Japanese phones have?",
+      "options": ["ラジオ", "電子マネー", "テレビ", "GPS"],
+      "correctAnswer": "電子マネー"
+    },
+    {
+      "id": "q4",
+      "question": "What can electronic money be used for?",
+      "options": ["買い物や電車の支払い", "映画を見る", "音楽を聴く", "電話をかける"],
+      "correctAnswer": "買い物や電車の支払い"
+    },
+    {
+      "id": "q5",
+      "question": "What app do young people use for messaging?",
+      "options": ["Facebook", "LINE", "Twitter", "Instagram"],
+      "correctAnswer": "LINE"
+    },
+    {
+      "id": "q6",
+      "question": "What else do people use phones for?",
+      "options": ["料理する", "写真や動画", "掃除する", "運動する"],
+      "correctAnswer": "写真や動画"
+    }
+  ],
+  "translation": {
+    "en": "Mobile phones are very widespread in Japan. Most people use smartphones. You must not make phone calls on trains. Setting your phone to silent mode is the rule. Japanese mobile phones have electronic money functions. You can use them for shopping and paying for train rides. Young people send messages using LINE. Taking photos and watching videos is also very common.",
+    "fr": "Les téléphones portables sont très répandus au Japon. La plupart des gens utilisent des smartphones. Il est interdit de passer des appels dans les trains. Mettre son téléphone en mode silencieux est la règle. Les téléphones japonais ont des fonctions de monnaie électronique. On peut les utiliser pour faire des achats et payer le train. Les jeunes envoient des messages via LINE. Prendre des photos et regarder des vidéos est aussi très courant."
+  }
+}

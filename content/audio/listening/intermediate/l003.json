@@ -1,0 +1,25 @@
+{
+  "id": "l003",
+  "title": "Phone Call - Doctor's Appointment",
+  "type": "multiple_choice",
+  "audioUrl": "/api/listening/intermediate/l003/audio",
+  "transcript": "はい、山田クリニックです。 あの、予約を取りたいのですが。今週中に診ていただけますか。 どうされましたか。 二日前から熱があって、咳も出ます。 それは大変ですね。明日の午後二時はいかがですか。 午前中は空いていませんか。仕事があるので。 午前でしたら、十時半にキャンセルが出ています。 では、十時半でお願いします。保険証を忘れずにお持ちください。",
+  "questions": [
+    {
+      "question": "What are the patient's symptoms?",
+      "options": ["Headache and stomach pain", "Fever and cough", "Back pain and dizziness", "Sore throat and runny nose"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "What time is the appointment?",
+      "options": ["10:00am", "10:30am", "2:00pm", "2:30pm"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "What should the patient bring?",
+      "options": ["Medicine", "X-ray results", "Insurance card", "Referral letter"],
+      "correctAnswer": 2
+    }
+  ],
+  "difficulty": 0.55
+}

@@ -1,0 +1,50 @@
+{
+  "id": "r057",
+  "title": "日本の住所",
+  "titleEn": "Japanese Addresses",
+  "text": "<ruby>日本<rt>にほん</rt></ruby>の<ruby>住所<rt>じゅうしょ</rt></ruby>は<ruby>他<rt>ほか</rt></ruby>の<ruby>国<rt>くに</rt></ruby>と<ruby>違<rt>ちが</rt></ruby>います。<ruby>大<rt>おお</rt></ruby>きい<ruby>区域<rt>くいき</rt></ruby>から<ruby>小<rt>ちい</rt></ruby>さい<ruby>区域<rt>くいき</rt></ruby>の<ruby>順番<rt>じゅんばん</rt></ruby>で<ruby>書<rt>か</rt></ruby>きます。まず<ruby>都道府県<rt>とどうふけん</rt></ruby>、<ruby>次<rt>つぎ</rt></ruby>に<ruby>市区町村<rt>しくちょうそん</rt></ruby>、そして<ruby>番地<rt>ばんち</rt></ruby>です。<ruby>通<rt>とお</rt></ruby>りの<ruby>名前<rt>なまえ</rt></ruby>はあまり<ruby>使<rt>つか</rt></ruby>いません。<ruby>郵便番号<rt>ゆうびんばんごう</rt></ruby>は<ruby>七桁<rt>ななけた</rt></ruby>で、「〒」のマークを<ruby>使<rt>つか</rt></ruby>います。<ruby>外国人<rt>がいこくじん</rt></ruby>にとって<ruby>日本<rt>にほん</rt></ruby>の<ruby>住所<rt>じゅうしょ</rt></ruby>は<ruby>分<rt>わ</rt></ruby>かりにくいことがあります。ナビアプリを<ruby>使<rt>つか</rt></ruby>うと<ruby>便利<rt>べんり</rt></ruby>です。",
+  "difficulty": 0.56,
+  "level": "beginner",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "How are Japanese addresses written?",
+      "options": ["小さい区域から大きい区域", "大きい区域から小さい区域", "アルファベット順", "番号順"],
+      "correctAnswer": "大きい区域から小さい区域"
+    },
+    {
+      "id": "q2",
+      "question": "What comes first in a Japanese address?",
+      "options": ["番地", "市区町村", "都道府県", "通りの名前"],
+      "correctAnswer": "都道府県"
+    },
+    {
+      "id": "q3",
+      "question": "What is not commonly used?",
+      "options": ["番地", "都道府県", "通りの名前", "郵便番号"],
+      "correctAnswer": "通りの名前"
+    },
+    {
+      "id": "q4",
+      "question": "How many digits is a Japanese postal code?",
+      "options": ["五桁", "六桁", "七桁", "八桁"],
+      "correctAnswer": "七桁"
+    },
+    {
+      "id": "q5",
+      "question": "What symbol is used for postal codes?",
+      "options": ["＃", "〒", "＊", "＠"],
+      "correctAnswer": "〒"
+    },
+    {
+      "id": "q6",
+      "question": "What is useful for finding addresses?",
+      "options": ["地図を買う", "人に聞く", "ナビアプリ", "タクシーに乗る"],
+      "correctAnswer": "ナビアプリ"
+    }
+  ],
+  "translation": {
+    "en": "Japanese addresses are different from other countries. They are written from the largest area to the smallest area. First the prefecture, then the city/ward/town/village, and then the block number. Street names are not commonly used. Postal codes have seven digits and use the 〒 symbol. Japanese addresses can be confusing for foreigners. Using a navigation app is convenient.",
+    "fr": "Les adresses japonaises sont différentes des autres pays. Elles sont écrites de la plus grande zone à la plus petite. D'abord la préfecture, puis la ville/arrondissement/village, et ensuite le numéro de bloc. Les noms de rues ne sont pas couramment utilisés. Les codes postaux ont sept chiffres et utilisent le symbole 〒. Les adresses japonaises peuvent être déroutantes pour les étrangers. Utiliser une application de navigation est pratique."
+  }
+}

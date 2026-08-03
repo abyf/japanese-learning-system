@@ -1,0 +1,93 @@
+{
+  "id": "v038",
+  "title": "Jobs & Occupations",
+  "titleEn": "Jobs & Occupations",
+  "titleFr": "Métiers et professions",
+  "level": "beginner",
+  "difficulty": 0.3,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of this kanji?",
+      "prompt_fr": "Quelle est la lecture de ce kanji ?",
+      "kanji": "先生",
+      "options": ["せんせい", "いしゃ", "がくせい", "かいしゃいん"],
+      "correctAnswer": "せんせい",
+      "meaning_en": "teacher",
+      "meaning_fr": "professeur"
+    },
+    {
+      "id": "q2",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of this kanji?",
+      "prompt_fr": "Quelle est la lecture de ce kanji ?",
+      "kanji": "医者",
+      "options": ["いしゃ", "せんせい", "かんごし", "けいさつ"],
+      "correctAnswer": "いしゃ",
+      "meaning_en": "doctor",
+      "meaning_fr": "médecin"
+    },
+    {
+      "id": "q3",
+      "type": "word_match",
+      "prompt": "What does 看護師 mean?",
+      "prompt_fr": "Que signifie 看護師 ?",
+      "word": "看護師",
+      "options": ["Nurse", "Doctor", "Pharmacist", "Dentist"],
+      "options_fr": ["Infirmier(ère)", "Médecin", "Pharmacien(ne)", "Dentiste"],
+      "correctAnswer": "Nurse",
+      "meaning_fr": "Infirmier(ère)"
+    },
+    {
+      "id": "q4",
+      "type": "word_match",
+      "prompt": "What does 会社員 mean?",
+      "prompt_fr": "Que signifie 会社員 ?",
+      "word": "会社員",
+      "options": ["Office worker / Company employee", "Student", "Police officer", "Chef"],
+      "options_fr": ["Employé(e) de bureau", "Étudiant(e)", "Policier", "Chef cuisinier"],
+      "correctAnswer": "Office worker / Company employee",
+      "meaning_fr": "Employé(e) de bureau"
+    },
+    {
+      "id": "q5",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "山田さんは＿＿です。(Mr. Yamada is a teacher)",
+      "sentence_fr": "山田さんは＿＿です。(M. Yamada est professeur)",
+      "options": ["先生", "医者", "会社員", "看護師"],
+      "correctAnswer": "先生",
+      "meaning_en": "teacher",
+      "meaning_fr": "professeur"
+    },
+    {
+      "id": "q6",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "病院で＿＿が働いています。(A doctor works at the hospital)",
+      "sentence_fr": "病院で＿＿が働いています。(Un médecin travaille à l'hôpital)",
+      "options": ["医者", "先生", "会社員", "店員"],
+      "correctAnswer": "医者",
+      "meaning_en": "doctor",
+      "meaning_fr": "médecin"
+    },
+    {
+      "id": "q7",
+      "type": "word_match",
+      "prompt": "What does 店員 mean?",
+      "prompt_fr": "Que signifie 店員 ?",
+      "word": "店員",
+      "options": ["Shop clerk / Sales person", "Manager", "Chef", "Driver"],
+      "options_fr": ["Vendeur / Employé de magasin", "Directeur", "Chef cuisinier", "Chauffeur"],
+      "correctAnswer": "Shop clerk / Sales person",
+      "meaning_fr": "Vendeur / Employé de magasin"
+    }
+  ],
+  "translation": {
+    "en": "This lesson covers common jobs and occupations vocabulary.",
+    "fr": "Cette leçon couvre le vocabulaire des métiers et professions courants."
+  }
+}

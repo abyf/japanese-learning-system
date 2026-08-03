@@ -1,0 +1,62 @@
+{
+  "id": "r039",
+  "title": "お花見",
+  "titleEn": "Cherry Blossom Viewing",
+  "text": "<ruby>四月<rt>しがつ</rt></ruby>になりました。<ruby>桜<rt>さくら</rt></ruby>がきれいに<ruby>咲<rt>さ</rt></ruby>いています。<ruby>今日<rt>きょう</rt></ruby>は<ruby>会社<rt>かいしゃ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>たちとお<ruby>花見<rt>はなみ</rt></ruby>をします。<ruby>公園<rt>こうえん</rt></ruby>に<ruby>朝<rt>あさ</rt></ruby><ruby>早<rt>はや</rt></ruby>く<ruby>行<rt>い</rt></ruby>って、<ruby>場所<rt>ばしょ</rt></ruby>を<ruby>取<rt>と</rt></ruby>りました。ブルーシートを<ruby>敷<rt>し</rt></ruby>きました。みんなでお<ruby>弁当<rt>べんとう</rt></ruby>を<ruby>食<rt>た</rt></ruby>べて、<ruby>飲<rt>の</rt></ruby>み<ruby>物<rt>もの</rt></ruby>を<ruby>飲<rt>の</rt></ruby>みます。<ruby>桜<rt>さくら</rt></ruby>の<ruby>下<rt>した</rt></ruby>で<ruby>歌<rt>うた</rt></ruby>を<ruby>歌<rt>うた</rt></ruby>う<ruby>人<rt>ひと</rt></ruby>もいます。<ruby>桜<rt>さくら</rt></ruby>の<ruby>花<rt>はな</rt></ruby>びらが<ruby>風<rt>かぜ</rt></ruby>で<ruby>飛<rt>と</rt></ruby>んでいます。<ruby>日本<rt>にほん</rt></ruby>の<ruby>春<rt>はる</rt></ruby>は<ruby>本当<rt>ほんとう</rt></ruby>にすばらしいです。",
+  "difficulty": 0.43,
+  "level": "beginner",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What month is it?",
+      "options": ["三月", "四月", "五月", "六月"],
+      "correctAnswer": "四月"
+    },
+    {
+      "id": "q2",
+      "question": "Who is the speaker doing hanami with?",
+      "options": ["家族", "友達", "会社の人たち", "一人で"],
+      "correctAnswer": "会社の人たち"
+    },
+    {
+      "id": "q3",
+      "question": "What did the speaker do in the morning?",
+      "options": ["料理を作った", "場所を取った", "花を買った", "掃除をした"],
+      "correctAnswer": "場所を取った"
+    },
+    {
+      "id": "q4",
+      "question": "What did they spread on the ground?",
+      "options": ["毛布", "タオル", "ブルーシート", "マット"],
+      "correctAnswer": "ブルーシート"
+    },
+    {
+      "id": "q5",
+      "question": "What do they eat and drink?",
+      "options": ["レストランの料理", "お弁当と飲み物", "ケーキと紅茶", "ラーメンとビール"],
+      "correctAnswer": "お弁当と飲み物"
+    },
+    {
+      "id": "q6",
+      "question": "What do some people do under the cherry trees?",
+      "options": ["踊る", "歌を歌う", "寝る", "写真を撮る"],
+      "correctAnswer": "歌を歌う"
+    },
+    {
+      "id": "q7",
+      "question": "What is flying in the wind?",
+      "options": ["鳥", "凧", "桜の花びら", "葉っぱ"],
+      "correctAnswer": "桜の花びら"
+    },
+    {
+      "id": "q8",
+      "question": "How is Japanese spring described?",
+      "options": ["寒い", "短い", "すばらしい", "退屈"],
+      "correctAnswer": "すばらしい"
+    }
+  ],
+  "translation": {
+    "en": "It's April now. The cherry blossoms are blooming beautifully. Today I'm going cherry blossom viewing with my coworkers. I went to the park early in the morning to secure a spot. I spread out a blue tarp. Everyone eats bento and drinks beverages together. Some people sing songs under the cherry trees. Cherry blossom petals are flying in the wind. Spring in Japan is truly wonderful.",
+    "fr": "C'est le mois d'avril. Les cerisiers sont magnifiquement en fleur. Aujourd'hui, je vais faire le hanami avec mes collègues. Je suis allé(e) au parc tôt le matin pour réserver une place. J'ai étalé une bâche bleue. Tout le monde mange des bentos et boit des boissons ensemble. Certaines personnes chantent sous les cerisiers. Les pétales de cerisier volent dans le vent. Le printemps au Japon est vraiment merveilleux."
+  }
+}

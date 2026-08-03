@@ -1,0 +1,38 @@
+{
+  "id": "r020",
+  "title": "手紙を書く",
+  "titleEn": "Writing a Letter",
+  "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>今日<rt>きょう</rt></ruby>、おばあちゃんに<ruby>手紙<rt>てがみ</rt></ruby>を<ruby>書<rt>か</rt></ruby>きます。おばあちゃんは<ruby>北海道<rt>ほっかいどう</rt></ruby>に<ruby>住<rt>す</rt></ruby>んでいます。<ruby>遠<rt>とお</rt></ruby>いので、なかなか<ruby>会<rt>あ</rt></ruby>えません。<ruby>手紙<rt>てがみ</rt></ruby>に<ruby>学校<rt>がっこう</rt></ruby>のことを<ruby>書<rt>か</rt></ruby>きます。<ruby>新<rt>あたら</rt></ruby>しい<ruby>友達<rt>ともだち</rt></ruby>ができたことも<ruby>書<rt>か</rt></ruby>きます。おばあちゃんは<ruby>手紙<rt>てがみ</rt></ruby>をもらうと、とても<ruby>喜<rt>よろこ</rt></ruby>びます。<ruby>来月<rt>らいげつ</rt></ruby>、おばあちゃんが<ruby>東京<rt>とうきょう</rt></ruby>に<ruby>来<rt>き</rt></ruby>ます。<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>動物園<rt>どうぶつえん</rt></ruby>に<ruby>行<rt>い</rt></ruby>きたいです。<ruby>手紙<rt>てがみ</rt></ruby>の<ruby>最後<rt>さいご</rt></ruby>に「<ruby>会<rt>あ</rt></ruby>えるのを<ruby>楽<rt>たの</rt></ruby>しみにしています」と<ruby>書<rt>か</rt></ruby>きました。",
+  "difficulty": 0.5,
+  "level": "beginner",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Who is the letter for?",
+      "options": ["お母さん", "おばあちゃん", "友達", "先生"],
+      "correctAnswer": "おばあちゃん"
+    },
+    {
+      "id": "q2",
+      "question": "Where does grandma live?",
+      "options": ["東京", "大阪", "北海道", "京都"],
+      "correctAnswer": "北海道"
+    },
+    {
+      "id": "q3",
+      "question": "What does the writer write about in the letter?",
+      "options": ["料理のこと", "学校のこと", "天気のこと", "旅行のこと"],
+      "correctAnswer": "学校のこと"
+    },
+    {
+      "id": "q4",
+      "question": "Where do they want to go with grandma?",
+      "options": ["水族館", "動物園", "映画館", "公園"],
+      "correctAnswer": "動物園"
+    }
+  ],
+  "translation": {
+    "en": "Today I'm writing a letter to my grandmother. Grandma lives in Hokkaido. It's far away, so I can't see her often. I write about school in my letter. I also write about making new friends. Grandma is very happy when she receives my letters. Next month, grandma is coming to Tokyo. I want to go to the zoo together. At the end of my letter, I wrote 'I'm looking forward to seeing you.'",
+    "fr": "Aujourd'hui, j'écris une lettre à ma grand-mère. Mamie habite à Hokkaido. C'est loin, donc je ne peux pas la voir souvent. J'écris sur l'école dans ma lettre. J'écris aussi que je me suis fait de nouveaux amis. Mamie est très contente quand elle reçoit mes lettres. Le mois prochain, mamie vient à Tokyo. Je voudrais aller au zoo ensemble. À la fin de ma lettre, j'ai écrit « J'ai hâte de te voir »."
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "id": "v032",
+  "title": "Position Words",
+  "titleEn": "Position Words",
+  "titleFr": "Mots de position",
+  "level": "beginner",
+  "difficulty": 0.3,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of this kanji?",
+      "prompt_fr": "Quelle est la lecture de ce kanji ?",
+      "kanji": "上",
+      "options": ["うえ", "した", "なか", "まえ"],
+      "correctAnswer": "うえ",
+      "meaning_en": "above / on top",
+      "meaning_fr": "dessus / au-dessus"
+    },
+    {
+      "id": "q2",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of this kanji?",
+      "prompt_fr": "Quelle est la lecture de ce kanji ?",
+      "kanji": "下",
+      "options": ["した", "うえ", "よこ", "そと"],
+      "correctAnswer": "した",
+      "meaning_en": "below / under",
+      "meaning_fr": "dessous / en-dessous"
+    },
+    {
+      "id": "q3",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of this kanji?",
+      "prompt_fr": "Quelle est la lecture de ce kanji ?",
+      "kanji": "中",
+      "options": ["なか", "うえ", "そと", "まえ"],
+      "correctAnswer": "なか",
+      "meaning_en": "inside / middle",
+      "meaning_fr": "intérieur / milieu"
+    },
+    {
+      "id": "q4",
+      "type": "word_match",
+      "prompt": "What does 前 mean?",
+      "prompt_fr": "Que signifie 前 ?",
+      "word": "前",
+      "options": ["Front / Before", "Back / Behind", "Left", "Right"],
+      "options_fr": ["Devant / Avant", "Derrière / Après", "Gauche", "Droite"],
+      "correctAnswer": "Front / Before",
+      "meaning_fr": "Devant / Avant"
+    },
+    {
+      "id": "q5",
+      "type": "word_match",
+      "prompt": "What does 後ろ mean?",
+      "prompt_fr": "Que signifie 後ろ ?",
+      "word": "後ろ",
+      "options": ["Behind / Back", "Front", "Side", "Top"],
+      "options_fr": ["Derrière / Arrière", "Devant", "Côté", "Dessus"],
+      "correctAnswer": "Behind / Back",
+      "meaning_fr": "Derrière / Arrière"
+    },
+    {
+      "id": "q6",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "机の＿＿に本があります。(There is a book on the desk)",
+      "sentence_fr": "机の＿＿に本があります。(Il y a un livre sur le bureau)",
+      "options": ["上", "下", "中", "前"],
+      "correctAnswer": "上",
+      "meaning_en": "on top / above",
+      "meaning_fr": "dessus"
+    },
+    {
+      "id": "q7",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "猫はテーブルの＿＿にいます。(The cat is under the table)",
+      "sentence_fr": "猫はテーブルの＿＿にいます。(Le chat est sous la table)",
+      "options": ["下", "上", "中", "後ろ"],
+      "correctAnswer": "下",
+      "meaning_en": "under / below",
+      "meaning_fr": "dessous"
+    },
+    {
+      "id": "q8",
+      "type": "word_match",
+      "prompt": "What does 横 mean?",
+      "prompt_fr": "Que signifie 横 ?",
+      "word": "横",
+      "options": ["Beside / Next to", "Above", "Below", "Inside"],
+      "options_fr": ["À côté", "Au-dessus", "En-dessous", "À l'intérieur"],
+      "correctAnswer": "Beside / Next to",
+      "meaning_fr": "À côté"
+    }
+  ],
+  "translation": {
+    "en": "This lesson covers position and location words in Japanese.",
+    "fr": "Cette leçon couvre les mots de position et de localisation en japonais."
+  }
+}

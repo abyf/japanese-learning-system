@@ -1,0 +1,104 @@
+{
+  "id": "v055",
+  "title": "Weather Expressions",
+  "titleEn": "Weather Expressions",
+  "titleFr": "Expressions météorologiques",
+  "level": "beginner",
+  "difficulty": 0.35,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "word_match",
+      "prompt": "What does 晴れ mean?",
+      "prompt_fr": "Que signifie 晴れ ?",
+      "word": "晴れ",
+      "options": ["Sunny / Clear", "Cloudy", "Rainy", "Snowy"],
+      "options_fr": ["Ensoleillé / Dégagé", "Nuageux", "Pluvieux", "Neigeux"],
+      "correctAnswer": "Sunny / Clear",
+      "meaning_fr": "Ensoleillé / Dégagé"
+    },
+    {
+      "id": "q2",
+      "type": "word_match",
+      "prompt": "What does 曇り mean?",
+      "prompt_fr": "Que signifie 曇り ?",
+      "word": "曇り",
+      "options": ["Cloudy", "Sunny", "Rainy", "Windy"],
+      "options_fr": ["Nuageux", "Ensoleillé", "Pluvieux", "Venteux"],
+      "correctAnswer": "Cloudy",
+      "meaning_fr": "Nuageux"
+    },
+    {
+      "id": "q3",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of 雨?",
+      "prompt_fr": "Quelle est la lecture de 雨 ?",
+      "kanji": "雨",
+      "options": ["あめ", "ゆき", "かぜ", "くもり"],
+      "correctAnswer": "あめ",
+      "meaning_en": "rain",
+      "meaning_fr": "pluie"
+    },
+    {
+      "id": "q4",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of 雪?",
+      "prompt_fr": "Quelle est la lecture de 雪 ?",
+      "kanji": "雪",
+      "options": ["ゆき", "あめ", "かぜ", "はれ"],
+      "correctAnswer": "ゆき",
+      "meaning_en": "snow",
+      "meaning_fr": "neige"
+    },
+    {
+      "id": "q5",
+      "type": "word_match",
+      "prompt": "What does 風 mean?",
+      "prompt_fr": "Que signifie 風 ?",
+      "word": "風",
+      "options": ["Wind", "Rain", "Snow", "Cloud"],
+      "options_fr": ["Vent", "Pluie", "Neige", "Nuage"],
+      "correctAnswer": "Wind",
+      "meaning_fr": "Vent"
+    },
+    {
+      "id": "q6",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "今日は＿＿が降っています。(It is raining today.)",
+      "sentence_fr": "今日は＿＿が降っています。(Il pleut aujourd'hui.)",
+      "options": ["雨", "雪", "風", "晴れ"],
+      "correctAnswer": "雨",
+      "meaning_en": "rain",
+      "meaning_fr": "pluie"
+    },
+    {
+      "id": "q7",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "明日は＿＿でしょう。(Tomorrow will probably be sunny.)",
+      "sentence_fr": "明日は＿＿でしょう。(Demain il fera probablement beau.)",
+      "options": ["晴れ", "雨", "曇り", "雪"],
+      "correctAnswer": "晴れ",
+      "meaning_en": "sunny",
+      "meaning_fr": "ensoleillé"
+    },
+    {
+      "id": "q8",
+      "type": "word_match",
+      "prompt": "What does 天気 mean?",
+      "prompt_fr": "Que signifie 天気 ?",
+      "word": "天気",
+      "options": ["Weather", "Temperature", "Season", "Climate"],
+      "options_fr": ["Météo / Temps", "Température", "Saison", "Climat"],
+      "correctAnswer": "Weather",
+      "meaning_fr": "Météo / Temps"
+    }
+  ],
+  "translation": {
+    "en": "This lesson covers weather-related vocabulary and expressions.",
+    "fr": "Cette leçon couvre le vocabulaire et les expressions liés à la météo."
+  }
+}

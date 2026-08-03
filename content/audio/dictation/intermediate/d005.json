@@ -1,0 +1,8 @@
+{
+  "id": "d005",
+  "title": "Making Comparisons",
+  "expectedText": "日本語は英語より文法が難しいと思います",
+  "audioUrl": "/api/dictation/intermediate/d005/audio",
+  "difficulty": 0.6,
+  "hint": "Comparing Japanese and English grammar difficulty"
+}

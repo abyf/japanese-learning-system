@@ -1,0 +1,30 @@
+{
+  "id": "l003",
+  "title": "News Report - Economy",
+  "type": "multiple_choice",
+  "audioUrl": "/api/listening/advanced/l003/audio",
+  "transcript": "日本銀行は本日の金融政策決定会合において、大規模な金融緩和策を維持することを決定しました。長期金利の誘導目標はゼロパーセント程度に据え置かれます。植田総裁は記者会見で、物価上昇率が安定的に二パーセントに達するまでは現行の政策を継続する方針を示しました。一方で、円安の進行による輸入物価の上昇が家計を圧迫しているとの指摘もあり、今後の政策運営の難しさが浮き彫りになっています。市場関係者の間では、年内の政策修正の可能性について見方が分かれています。",
+  "questions": [
+    {
+      "question": "What did the Bank of Japan decide?",
+      "options": ["Raise interest rates", "Maintain monetary easing", "Reduce monetary base", "Introduce new policy"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "What is the target inflation rate?",
+      "options": ["1%", "2%", "3%", "5%"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "What concern is raised about the weak yen?",
+      "options": ["Exports declining", "Import prices burdening households", "Tourism decreasing", "Investment falling"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "What is the market view on policy changes?",
+      "options": ["Unanimous agreement", "Opinions are divided", "All expect change", "Nobody expects change"],
+      "correctAnswer": 1
+    }
+  ],
+  "difficulty": 0.9
+}

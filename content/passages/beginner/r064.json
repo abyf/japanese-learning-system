@@ -1,0 +1,50 @@
+{
+  "id": "r064",
+  "title": "東京タワー",
+  "titleEn": "Tokyo Tower",
+  "text": "<ruby>東京<rt>とうきょう</rt></ruby>タワーは<ruby>千九百五十八年<rt>せんきゅうひゃくごじゅうはちねん</rt></ruby>に<ruby>建<rt>た</rt></ruby>てられました。<ruby>高<rt>たか</rt></ruby>さは<ruby>三百三十三<rt>さんびゃくさんじゅうさん</rt></ruby>メートルです。<ruby>赤<rt>あか</rt></ruby>と<ruby>白<rt>しろ</rt></ruby>の<ruby>色<rt>いろ</rt></ruby>が<ruby>特徴的<rt>とくちょうてき</rt></ruby>です。<ruby>展望台<rt>てんぼうだい</rt></ruby>から<ruby>東京<rt>とうきょう</rt></ruby>の<ruby>街<rt>まち</rt></ruby>を<ruby>見<rt>み</rt></ruby>ることができます。<ruby>夜<rt>よる</rt></ruby>はライトアップされてとてもきれいです。<ruby>今<rt>いま</rt></ruby>はスカイツリーがありますが、<ruby>東京<rt>とうきょう</rt></ruby>タワーは<ruby>今<rt>いま</rt></ruby>でも<ruby>人気<rt>にんき</rt></ruby>があります。<ruby>多<rt>おお</rt></ruby>くの<ruby>観光客<rt>かんこうきゃく</rt></ruby>が<ruby>訪<rt>おとず</rt></ruby>れます。",
+  "difficulty": 0.58,
+  "level": "beginner",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "When was Tokyo Tower built?",
+      "options": ["1948年", "1958年", "1968年", "1978年"],
+      "correctAnswer": "1958年"
+    },
+    {
+      "id": "q2",
+      "question": "How tall is Tokyo Tower?",
+      "options": ["233メートル", "333メートル", "433メートル", "533メートル"],
+      "correctAnswer": "333メートル"
+    },
+    {
+      "id": "q3",
+      "question": "What colors is it?",
+      "options": ["青と白", "赤と白", "黄色と黒", "緑と白"],
+      "correctAnswer": "赤と白"
+    },
+    {
+      "id": "q4",
+      "question": "What can you see from the observation deck?",
+      "options": ["富士山だけ", "東京の街", "海", "山"],
+      "correctAnswer": "東京の街"
+    },
+    {
+      "id": "q5",
+      "question": "What happens at night?",
+      "options": ["閉まる", "ライトアップされる", "花火がある", "音楽が流れる"],
+      "correctAnswer": "ライトアップされる"
+    },
+    {
+      "id": "q6",
+      "question": "Is Tokyo Tower still popular?",
+      "options": ["いいえ", "はい、今でも人気がある", "スカイツリーだけ人気", "分からない"],
+      "correctAnswer": "はい、今でも人気がある"
+    }
+  ],
+  "translation": {
+    "en": "Tokyo Tower was built in 1958. It is 333 meters tall. Its red and white colors are distinctive. You can see the city of Tokyo from the observation deck. At night, it is lit up and very beautiful. Although Tokyo Skytree exists now, Tokyo Tower is still popular. Many tourists visit it.",
+    "fr": "La Tour de Tokyo a été construite en 1958. Elle mesure 333 mètres de haut. Ses couleurs rouge et blanche sont distinctives. On peut voir la ville de Tokyo depuis la plateforme d'observation. La nuit, elle est illuminée et très belle. Bien que le Tokyo Skytree existe maintenant, la Tour de Tokyo est toujours populaire. De nombreux touristes la visitent."
+  }
+}

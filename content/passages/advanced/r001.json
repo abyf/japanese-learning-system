@@ -1,0 +1,38 @@
+{
+  "id": "r001",
+  "title": "高齢化社会",
+  "titleEn": "Aging Society",
+  "text": "日本は世界で最も高齢化が進んだ国の一つである。2023年現在、65歳以上の人口が全体の約29%を占めており、この割合は今後も上昇すると予測されている。高齢化の主な原因は、出生率の低下と平均寿命の延伸である。合計特殊出生率は1.2前後で推移しており、人口を維持するために必要な2.1を大きく下回っている。高齢化社会は様々な課題をもたらしている。まず、社会保障費の増大である。年金、医療、介護にかかる費用は年々増加し、現役世代の負担が重くなっている。次に、労働力不足の問題がある。生産年齢人口の減少により、多くの産業で人手不足が深刻化している。政府はこれらの課題に対し、定年延長の推進、外国人労働者の受け入れ拡大、AIやロボットの活用など、様々な対策を講じている。しかし、根本的な解決には、少子化対策と経済成長戦略の両立が不可欠である。高齢化社会への対応は、日本だけでなく、多くの先進国が直面する共通の課題となっている。",
+  "difficulty": 0.8,
+  "level": "advanced",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What percentage of Japan's population is over 65?",
+      "options": ["約19%", "約24%", "約29%", "約35%"],
+      "correctAnswer": "約29%"
+    },
+    {
+      "id": "q2",
+      "question": "What is Japan's total fertility rate approximately?",
+      "options": ["0.8", "1.2", "1.8", "2.1"],
+      "correctAnswer": "1.2"
+    },
+    {
+      "id": "q3",
+      "question": "Which is NOT mentioned as a government countermeasure?",
+      "options": ["定年延長", "外国人労働者の受け入れ", "教育改革", "AIやロボットの活用"],
+      "correctAnswer": "教育改革"
+    },
+    {
+      "id": "q4",
+      "question": "What does the passage say is essential for a fundamental solution?",
+      "options": ["移民政策の強化", "少子化対策と経済成長戦略の両立", "社会保障費の削減", "定年の廃止"],
+      "correctAnswer": "少子化対策と経済成長戦略の両立"
+    }
+  ],
+  "translation": {
+    "en": "Japan is one of the most aged societies in the world. As of 2023, people aged 65 and over account for approximately 29% of the total population, and this ratio is projected to continue rising. The main causes of aging are declining birth rates and increasing life expectancy. The total fertility rate has been hovering around 1.2, far below the 2.1 needed to maintain the population. An aging society brings various challenges. First, there is the increase in social security costs. Expenses for pensions, healthcare, and nursing care are increasing year by year, placing a heavy burden on the working generation. Second, there is the problem of labor shortages. Due to the decline in the working-age population, labor shortages are becoming severe in many industries. The government is implementing various measures such as promoting retirement age extension, expanding acceptance of foreign workers, and utilizing AI and robots. However, fundamental solutions require the simultaneous pursuit of measures against declining birthrates and economic growth strategies. Responding to an aging society has become a common challenge faced not only by Japan but by many developed countries.",
+    "fr": "Le Japon est l'une des sociétés les plus vieillissantes au monde. En 2023, les personnes de 65 ans et plus représentent environ 29 % de la population totale, et ce ratio devrait continuer à augmenter. Les principales causes du vieillissement sont la baisse du taux de natalité et l'allongement de l'espérance de vie. Le taux de fécondité total se maintient autour de 1,2, bien en dessous du 2,1 nécessaire pour maintenir la population. Une société vieillissante apporte divers défis. Premièrement, l'augmentation des coûts de sécurité sociale. Les dépenses pour les retraites, les soins de santé et les soins infirmiers augmentent d'année en année, imposant un lourd fardeau à la génération active. Deuxièmement, il y a le problème de la pénurie de main-d'œuvre. En raison du déclin de la population en âge de travailler, les pénuries de main-d'œuvre deviennent graves dans de nombreuses industries. Le gouvernement met en œuvre diverses mesures telles que la promotion de l'extension de l'âge de la retraite, l'élargissement de l'accueil des travailleurs étrangers et l'utilisation de l'IA et des robots. Cependant, les solutions fondamentales nécessitent la poursuite simultanée de mesures contre la baisse de la natalité et de stratégies de croissance économique. Répondre à une société vieillissante est devenu un défi commun auquel sont confrontés non seulement le Japon mais aussi de nombreux pays développés."
+  }
+}

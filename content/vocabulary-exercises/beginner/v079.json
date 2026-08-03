@@ -1,0 +1,94 @@
+{
+  "id": "v079",
+  "title": "Conjunctions",
+  "titleEn": "Conjunctions",
+  "titleFr": "Conjonctions",
+  "level": "beginner",
+  "difficulty": 0.55,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "word_match",
+      "prompt": "What does そして mean?",
+      "prompt_fr": "Que signifie そして ?",
+      "word": "そして",
+      "options": ["And / And then", "But", "Therefore", "Or"],
+      "options_fr": ["Et / Et puis", "Mais", "Donc", "Ou"],
+      "correctAnswer": "And / And then",
+      "meaning_fr": "Et / Et puis"
+    },
+    {
+      "id": "q2",
+      "type": "word_match",
+      "prompt": "What does でも mean?",
+      "prompt_fr": "Que signifie でも ?",
+      "word": "でも",
+      "options": ["But / However", "And", "Therefore", "Because"],
+      "options_fr": ["Mais / Cependant", "Et", "Donc", "Parce que"],
+      "correctAnswer": "But / However",
+      "meaning_fr": "Mais / Cependant"
+    },
+    {
+      "id": "q3",
+      "type": "word_match",
+      "prompt": "What does それから mean?",
+      "prompt_fr": "Que signifie それから ?",
+      "word": "それから",
+      "options": ["After that / And then", "But", "Because", "Before that"],
+      "options_fr": ["Après cela / Et puis", "Mais", "Parce que", "Avant cela"],
+      "correctAnswer": "After that / And then",
+      "meaning_fr": "Après cela / Et puis"
+    },
+    {
+      "id": "q4",
+      "type": "word_match",
+      "prompt": "What does だから mean?",
+      "prompt_fr": "Que signifie だから ?",
+      "word": "だから",
+      "options": ["Therefore / So", "But", "And", "Because"],
+      "options_fr": ["Donc / C'est pourquoi", "Mais", "Et", "Parce que"],
+      "correctAnswer": "Therefore / So",
+      "meaning_fr": "Donc / C'est pourquoi"
+    },
+    {
+      "id": "q5",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "雨です。＿＿、出かけません。(It's raining. Therefore, I won't go out.)",
+      "sentence_fr": "雨です。＿＿、出かけません。(Il pleut. Donc, je ne sors pas.)",
+      "options": ["だから", "でも", "そして", "それから"],
+      "correctAnswer": "だから",
+      "meaning_en": "therefore",
+      "meaning_fr": "donc"
+    },
+    {
+      "id": "q6",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "高いです。＿＿、買います。(It's expensive. But, I'll buy it.)",
+      "sentence_fr": "高いです。＿＿、買います。(C'est cher. Mais, je l'achète.)",
+      "options": ["でも", "だから", "そして", "それから"],
+      "correctAnswer": "でも",
+      "meaning_en": "but",
+      "meaning_fr": "mais"
+    },
+    {
+      "id": "q7",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "朝ごはんを食べました。＿＿、学校に行きました。(I ate breakfast. And then, I went to school.)",
+      "sentence_fr": "朝ごはんを食べました。＿＿、学校に行きました。(J'ai pris le petit-déjeuner. Et puis, je suis allé à l'école.)",
+      "options": ["それから", "でも", "だから", "しかし"],
+      "correctAnswer": "それから",
+      "meaning_en": "and then / after that",
+      "meaning_fr": "et puis / après cela"
+    }
+  ],
+  "translation": {
+    "en": "This lesson covers common conjunctions: そして, でも, それから, and だから.",
+    "fr": "Cette leçon couvre les conjonctions courantes : そして, でも, それから et だから."
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "id": "d001",
+  "title": "Morning Greeting",
+  "expectedText": "おはようございます",
+  "audioUrl": "/api/dictation/beginner/d001/audio",
+  "difficulty": 0.1,
+  "hint": "A polite morning greeting"
+}

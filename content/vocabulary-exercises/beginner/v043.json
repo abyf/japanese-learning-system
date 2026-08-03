@@ -1,0 +1,94 @@
+{
+  "id": "v043",
+  "title": "Communication Verbs",
+  "titleEn": "Communication Verbs",
+  "titleFr": "Verbes de communication",
+  "level": "beginner",
+  "difficulty": 0.4,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of this kanji?",
+      "prompt_fr": "Quelle est la lecture de ce kanji ?",
+      "kanji": "言",
+      "options": ["い(う)", "はな(す)", "き(く)", "こた(える)"],
+      "correctAnswer": "い(う)",
+      "meaning_en": "to say",
+      "meaning_fr": "dire"
+    },
+    {
+      "id": "q2",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of this kanji?",
+      "prompt_fr": "Quelle est la lecture de ce kanji ?",
+      "kanji": "話",
+      "options": ["はな(す)", "い(う)", "き(く)", "よ(む)"],
+      "correctAnswer": "はな(す)",
+      "meaning_en": "to speak / to talk",
+      "meaning_fr": "parler"
+    },
+    {
+      "id": "q3",
+      "type": "word_match",
+      "prompt": "What does 聞く mean?",
+      "prompt_fr": "Que signifie 聞く ?",
+      "word": "聞く",
+      "options": ["To listen / To ask", "To speak", "To say", "To read"],
+      "options_fr": ["Écouter / Demander", "Parler", "Dire", "Lire"],
+      "correctAnswer": "To listen / To ask",
+      "meaning_fr": "Écouter / Demander"
+    },
+    {
+      "id": "q4",
+      "type": "word_match",
+      "prompt": "What does 答える mean?",
+      "prompt_fr": "Que signifie 答える ?",
+      "word": "答える",
+      "options": ["To answer / To reply", "To ask", "To speak", "To write"],
+      "options_fr": ["Répondre", "Demander", "Parler", "Écrire"],
+      "correctAnswer": "To answer / To reply",
+      "meaning_fr": "Répondre"
+    },
+    {
+      "id": "q5",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "日本語を＿＿ます。(I speak Japanese)",
+      "sentence_fr": "日本語を＿＿ます。(Je parle japonais)",
+      "options": ["話し", "言い", "聞き", "答え"],
+      "correctAnswer": "話し",
+      "meaning_en": "to speak",
+      "meaning_fr": "parler"
+    },
+    {
+      "id": "q6",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "先生の質問に＿＿てください。(Please answer the teacher's question)",
+      "sentence_fr": "先生の質問に＿＿てください。(Veuillez répondre à la question du professeur)",
+      "options": ["答え", "聞い", "話し", "言っ"],
+      "correctAnswer": "答え",
+      "meaning_en": "to answer",
+      "meaning_fr": "répondre"
+    },
+    {
+      "id": "q7",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "音楽を＿＿ます。(I listen to music)",
+      "sentence_fr": "音楽を＿＿ます。(J'écoute de la musique)",
+      "options": ["聞き", "話し", "言い", "答え"],
+      "correctAnswer": "聞き",
+      "meaning_en": "to listen",
+      "meaning_fr": "écouter"
+    }
+  ],
+  "translation": {
+    "en": "This lesson covers communication verbs: say, speak, listen, and answer.",
+    "fr": "Cette leçon couvre les verbes de communication : dire, parler, écouter et répondre."
+  }
+}

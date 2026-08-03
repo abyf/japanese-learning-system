@@ -1,0 +1,10 @@
+{
+  "id": "d012",
+  "title": "Plans",
+  "titleFr": "Projets",
+  "expectedText": "明日友達と映画を見に行きます",
+  "audioUrl": "/api/dictation/beginner/d012/audio",
+  "difficulty": 0.4,
+  "hint": "Talking about plans to go somewhere with a friend tomorrow",
+  "hintFr": "Parler de projets pour aller quelque part avec un ami demain"
+}

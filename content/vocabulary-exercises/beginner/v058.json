@@ -1,0 +1,104 @@
+{
+  "id": "v058",
+  "title": "Post Office & Mail",
+  "titleEn": "Post Office & Mail",
+  "titleFr": "Bureau de poste et courrier",
+  "level": "beginner",
+  "difficulty": 0.4,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of 手紙?",
+      "prompt_fr": "Quelle est la lecture de 手紙 ?",
+      "kanji": "手紙",
+      "options": ["てがみ", "きって", "ふうとう", "おくる"],
+      "correctAnswer": "てがみ",
+      "meaning_en": "letter",
+      "meaning_fr": "lettre"
+    },
+    {
+      "id": "q2",
+      "type": "word_match",
+      "prompt": "What does 切手 mean?",
+      "prompt_fr": "Que signifie 切手 ?",
+      "word": "切手",
+      "options": ["Stamp", "Envelope", "Postcard", "Package"],
+      "options_fr": ["Timbre", "Enveloppe", "Carte postale", "Colis"],
+      "correctAnswer": "Stamp",
+      "meaning_fr": "Timbre"
+    },
+    {
+      "id": "q3",
+      "type": "word_match",
+      "prompt": "What does 封筒 mean?",
+      "prompt_fr": "Que signifie 封筒 ?",
+      "word": "封筒",
+      "options": ["Envelope", "Stamp", "Letter", "Address"],
+      "options_fr": ["Enveloppe", "Timbre", "Lettre", "Adresse"],
+      "correctAnswer": "Envelope",
+      "meaning_fr": "Enveloppe"
+    },
+    {
+      "id": "q4",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of 送る?",
+      "prompt_fr": "Quelle est la lecture de 送る ?",
+      "kanji": "送る",
+      "options": ["おくる", "とどく", "もらう", "だす"],
+      "correctAnswer": "おくる",
+      "meaning_en": "to send",
+      "meaning_fr": "envoyer"
+    },
+    {
+      "id": "q5",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "日本に＿＿を送りたいです。(I want to send a letter to Japan.)",
+      "sentence_fr": "日本に＿＿を送りたいです。(Je veux envoyer une lettre au Japon.)",
+      "options": ["手紙", "切手", "封筒", "住所"],
+      "correctAnswer": "手紙",
+      "meaning_en": "letter",
+      "meaning_fr": "lettre"
+    },
+    {
+      "id": "q6",
+      "type": "word_match",
+      "prompt": "What does 荷物 mean?",
+      "prompt_fr": "Que signifie 荷物 ?",
+      "word": "荷物",
+      "options": ["Package / Luggage", "Letter", "Stamp", "Address"],
+      "options_fr": ["Colis / Bagage", "Lettre", "Timbre", "Adresse"],
+      "correctAnswer": "Package / Luggage",
+      "meaning_fr": "Colis / Bagage"
+    },
+    {
+      "id": "q7",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "＿＿を三枚ください。(Three stamps, please.)",
+      "sentence_fr": "＿＿を三枚ください。(Trois timbres, s'il vous plaît.)",
+      "options": ["切手", "封筒", "手紙", "はがき"],
+      "correctAnswer": "切手",
+      "meaning_en": "stamps",
+      "meaning_fr": "timbres"
+    },
+    {
+      "id": "q8",
+      "type": "word_match",
+      "prompt": "What does はがき mean?",
+      "prompt_fr": "Que signifie はがき ?",
+      "word": "はがき",
+      "options": ["Postcard", "Letter", "Envelope", "Stamp"],
+      "options_fr": ["Carte postale", "Lettre", "Enveloppe", "Timbre"],
+      "correctAnswer": "Postcard",
+      "meaning_fr": "Carte postale"
+    }
+  ],
+  "translation": {
+    "en": "This lesson covers vocabulary related to the post office and mailing items.",
+    "fr": "Cette leçon couvre le vocabulaire lié au bureau de poste et à l'envoi de courrier."
+  }
+}

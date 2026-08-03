@@ -1,0 +1,62 @@
+{
+  "id": "r044",
+  "title": "日本語の勉強法",
+  "titleEn": "How to Study Japanese",
+  "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>三年前<rt>さんねんまえ</rt></ruby>から<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>勉強<rt>べんきょう</rt></ruby>しています。<ruby>毎日<rt>まいにち</rt></ruby><ruby>漢字<rt>かんじ</rt></ruby>を<ruby>五<rt>いつ</rt></ruby>つ<ruby>覚<rt>おぼ</rt></ruby>えます。アプリで<ruby>単語<rt>たんご</rt></ruby>を<ruby>練習<rt>れんしゅう</rt></ruby>します。<ruby>日本<rt>にほん</rt></ruby>のドラマを<ruby>見<rt>み</rt></ruby>て、リスニングの<ruby>練習<rt>れんしゅう</rt></ruby>をします。<ruby>週<rt>しゅう</rt></ruby>に<ruby>一回<rt>いっかい</rt></ruby>、<ruby>日本人<rt>にほんじん</rt></ruby>の<ruby>友達<rt>ともだち</rt></ruby>と<ruby>話<rt>はな</rt></ruby>す<ruby>練習<rt>れんしゅう</rt></ruby>をします。<ruby>文法<rt>ぶんぽう</rt></ruby>は<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>勉強<rt>べんきょう</rt></ruby>します。<ruby>間違<rt>まちが</rt></ruby>えても<ruby>大丈夫<rt>だいじょうぶ</rt></ruby>です。<ruby>大切<rt>たいせつ</rt></ruby>なのは<ruby>毎日<rt>まいにち</rt></ruby><ruby>続<rt>つづ</rt></ruby>けることです。<ruby>来年<rt>らいねん</rt></ruby>、JLPTのN3を<ruby>受<rt>う</rt></ruby>けたいです。",
+  "difficulty": 0.48,
+  "level": "beginner",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "How long has the speaker been studying Japanese?",
+      "options": ["一年", "二年", "三年", "四年"],
+      "correctAnswer": "三年"
+    },
+    {
+      "id": "q2",
+      "question": "How many kanji does the speaker learn daily?",
+      "options": ["三つ", "五つ", "十", "二十"],
+      "correctAnswer": "五つ"
+    },
+    {
+      "id": "q3",
+      "question": "How does the speaker practice listening?",
+      "options": ["ラジオを聞く", "日本のドラマを見る", "音楽を聞く", "ポッドキャストを聞く"],
+      "correctAnswer": "日本のドラマを見る"
+    },
+    {
+      "id": "q4",
+      "question": "How often does the speaker practice speaking?",
+      "options": ["毎日", "週に一回", "月に二回", "週に三回"],
+      "correctAnswer": "週に一回"
+    },
+    {
+      "id": "q5",
+      "question": "How does the speaker study grammar?",
+      "options": ["アプリで", "教科書で", "先生に聞く", "動画で"],
+      "correctAnswer": "教科書で"
+    },
+    {
+      "id": "q6",
+      "question": "What is the most important thing according to the speaker?",
+      "options": ["たくさん書くこと", "毎日続けること", "先生に習うこと", "日本に住むこと"],
+      "correctAnswer": "毎日続けること"
+    },
+    {
+      "id": "q7",
+      "question": "What JLPT level does the speaker want to take?",
+      "options": ["N5", "N4", "N3", "N2"],
+      "correctAnswer": "N3"
+    },
+    {
+      "id": "q8",
+      "question": "How does the speaker practice vocabulary?",
+      "options": ["教科書で", "アプリで", "カードで", "ノートに書いて"],
+      "correctAnswer": "アプリで"
+    }
+  ],
+  "translation": {
+    "en": "I have been studying Japanese for three years. I learn five kanji every day. I practice vocabulary with an app. I watch Japanese dramas to practice listening. Once a week, I practice speaking with a Japanese friend. I study grammar with a textbook. It's okay to make mistakes. The important thing is to continue every day. Next year, I want to take the JLPT N3.",
+    "fr": "J'étudie le japonais depuis trois ans. J'apprends cinq kanji chaque jour. Je pratique le vocabulaire avec une application. Je regarde des dramas japonais pour pratiquer l'écoute. Une fois par semaine, je pratique la conversation avec un(e) ami(e) japonais(e). J'étudie la grammaire avec un manuel. Ce n'est pas grave de faire des erreurs. L'important, c'est de continuer chaque jour. L'année prochaine, je veux passer le JLPT N3."
+  }
+}

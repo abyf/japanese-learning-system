@@ -1,0 +1,105 @@
+{
+  "id": "v042",
+  "title": "Health & Body",
+  "titleEn": "Health & Body",
+  "titleFr": "Santé et corps",
+  "level": "beginner",
+  "difficulty": 0.35,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of this kanji?",
+      "prompt_fr": "Quelle est la lecture de ce kanji ?",
+      "kanji": "病気",
+      "options": ["びょうき", "げんき", "くすり", "いたい"],
+      "correctAnswer": "びょうき",
+      "meaning_en": "illness / sick",
+      "meaning_fr": "maladie / malade"
+    },
+    {
+      "id": "q2",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of this kanji?",
+      "prompt_fr": "Quelle est la lecture de ce kanji ?",
+      "kanji": "薬",
+      "options": ["くすり", "びょういん", "いしゃ", "からだ"],
+      "correctAnswer": "くすり",
+      "meaning_en": "medicine",
+      "meaning_fr": "médicament"
+    },
+    {
+      "id": "q3",
+      "type": "word_match",
+      "prompt": "What does 元気 mean?",
+      "prompt_fr": "Que signifie 元気 ?",
+      "word": "元気",
+      "options": ["Healthy / Energetic", "Sick", "Tired", "Sleepy"],
+      "options_fr": ["En bonne santé / Énergique", "Malade", "Fatigué", "Somnolent"],
+      "correctAnswer": "Healthy / Energetic",
+      "meaning_fr": "En bonne santé / Énergique"
+    },
+    {
+      "id": "q4",
+      "type": "word_match",
+      "prompt": "What does 痛い mean?",
+      "prompt_fr": "Que signifie 痛い ?",
+      "word": "痛い",
+      "options": ["Painful / It hurts", "Healthy", "Cold", "Hot"],
+      "options_fr": ["Douloureux / Ça fait mal", "En bonne santé", "Froid", "Chaud"],
+      "correctAnswer": "Painful / It hurts",
+      "meaning_fr": "Douloureux / Ça fait mal"
+    },
+    {
+      "id": "q5",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "頭が＿＿です。(My head hurts)",
+      "sentence_fr": "頭が＿＿です。(J'ai mal à la tête)",
+      "options": ["痛い", "元気", "病気", "大丈夫"],
+      "correctAnswer": "痛い",
+      "meaning_en": "painful",
+      "meaning_fr": "douloureux"
+    },
+    {
+      "id": "q6",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "＿＿を飲んでください。(Please take medicine)",
+      "sentence_fr": "＿＿を飲んでください。(Veuillez prendre un médicament)",
+      "options": ["薬", "水", "お茶", "ジュース"],
+      "correctAnswer": "薬",
+      "meaning_en": "medicine",
+      "meaning_fr": "médicament"
+    },
+    {
+      "id": "q7",
+      "type": "word_match",
+      "prompt": "What does 病院 mean?",
+      "prompt_fr": "Que signifie 病院 ?",
+      "word": "病院",
+      "options": ["Hospital", "Pharmacy", "Clinic", "School"],
+      "options_fr": ["Hôpital", "Pharmacie", "Clinique", "École"],
+      "correctAnswer": "Hospital",
+      "meaning_fr": "Hôpital"
+    },
+    {
+      "id": "q8",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "お＿＿ですか。(Are you well? — greeting)",
+      "sentence_fr": "お＿＿ですか。(Vous allez bien ? — salutation)",
+      "options": ["元気", "病気", "痛い", "薬"],
+      "correctAnswer": "元気",
+      "meaning_en": "healthy / well",
+      "meaning_fr": "en forme / bien"
+    }
+  ],
+  "translation": {
+    "en": "This lesson covers health and body-related vocabulary.",
+    "fr": "Cette leçon couvre le vocabulaire lié à la santé et au corps."
+  }
+}

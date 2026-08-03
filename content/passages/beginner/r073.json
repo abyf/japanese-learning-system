@@ -1,0 +1,50 @@
+{
+  "id": "r073",
+  "title": "子供の日",
+  "titleEn": "Children's Day",
+  "text": "<ruby>子供<rt>こども</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>は<ruby>五月五日<rt>ごがついつか</rt></ruby>です。もともとは「<ruby>端午<rt>たんご</rt></ruby>の<ruby>節句<rt>せっく</rt></ruby>」で<ruby>男<rt>おとこ</rt></ruby>の<ruby>子<rt>こ</rt></ruby>のお<ruby>祭<rt>まつ</rt></ruby>りでした。<ruby>今<rt>いま</rt></ruby>は<ruby>全<rt>すべ</rt></ruby>ての<ruby>子供<rt>こども</rt></ruby>のための<ruby>祝日<rt>しゅくじつ</rt></ruby>です。<ruby>鯉<rt>こい</rt></ruby>のぼりを<ruby>飾<rt>かざ</rt></ruby>ります。<ruby>兜<rt>かぶと</rt></ruby>や<ruby>鎧<rt>よろい</rt></ruby>の<ruby>飾<rt>かざ</rt></ruby>りを<ruby>家<rt>いえ</rt></ruby>に<ruby>飾<rt>かざ</rt></ruby>ります。<ruby>柏餅<rt>かしわもち</rt></ruby>やちまきを<ruby>食<rt>た</rt></ruby>べます。<ruby>子供<rt>こども</rt></ruby>の<ruby>健<rt>すこ</rt></ruby>やかな<ruby>成長<rt>せいちょう</rt></ruby>を<ruby>願<rt>ねが</rt></ruby>う<ruby>日<rt>ひ</rt></ruby>です。",
+  "difficulty": 0.63,
+  "level": "beginner",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "When is Children's Day?",
+      "options": ["三月三日", "五月五日", "七月七日", "九月九日"],
+      "correctAnswer": "五月五日"
+    },
+    {
+      "id": "q2",
+      "question": "What was it originally called?",
+      "options": ["子供の日", "端午の節句", "桃の節句", "七五三"],
+      "correctAnswer": "端午の節句"
+    },
+    {
+      "id": "q3",
+      "question": "Who is it for now?",
+      "options": ["男の子だけ", "女の子だけ", "全ての子供", "大人"],
+      "correctAnswer": "全ての子供"
+    },
+    {
+      "id": "q4",
+      "question": "What is displayed outside?",
+      "options": ["ひな人形", "鯉のぼり", "七夕飾り", "提灯"],
+      "correctAnswer": "鯉のぼり"
+    },
+    {
+      "id": "q5",
+      "question": "What is eaten?",
+      "options": ["おせち", "柏餅やちまき", "お雑煮", "ケーキ"],
+      "correctAnswer": "柏餅やちまき"
+    },
+    {
+      "id": "q6",
+      "question": "What is wished for on this day?",
+      "options": ["成績が良くなる", "子供の健やかな成長", "お金持ちになる", "友達ができる"],
+      "correctAnswer": "子供の健やかな成長"
+    }
+  ],
+  "translation": {
+    "en": "Children's Day is on May 5th. Originally, it was 'Tango no Sekku,' a festival for boys. Now it is a holiday for all children. Koinobori (carp streamers) are displayed. Kabuto helmets and armor decorations are displayed at home. People eat kashiwamochi and chimaki. It is a day to wish for the healthy growth of children.",
+    "fr": "La Journée des enfants est le 5 mai. À l'origine, c'était 'Tango no Sekku', une fête pour les garçons. Maintenant, c'est un jour férié pour tous les enfants. On affiche des koinobori (banderoles en forme de carpes). Des décorations de casques kabuto et d'armures sont exposées à la maison. On mange du kashiwamochi et des chimaki. C'est un jour pour souhaiter la croissance saine des enfants."
+  }
+}

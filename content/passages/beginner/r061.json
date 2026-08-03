@@ -1,0 +1,50 @@
+{
+  "id": "r061",
+  "title": "漫画とアニメ",
+  "titleEn": "Manga and Anime",
+  "text": "<ruby>漫画<rt>まんが</rt></ruby>とアニメは<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>を<ruby>代表<rt>だいひょう</rt></ruby>するものです。<ruby>子供<rt>こども</rt></ruby>から<ruby>大人<rt>おとな</rt></ruby>まで<ruby>楽<rt>たの</rt></ruby>しんでいます。<ruby>少年<rt>しょうねん</rt></ruby><ruby>漫画<rt>まんが</rt></ruby>、<ruby>少女<rt>しょうじょ</rt></ruby><ruby>漫画<rt>まんが</rt></ruby>、<ruby>青年<rt>せいねん</rt></ruby><ruby>漫画<rt>まんが</rt></ruby>などいろいろなジャンルがあります。<ruby>秋葉原<rt>あきはばら</rt></ruby>はアニメやマンガの<ruby>聖地<rt>せいち</rt></ruby>として<ruby>有名<rt>ゆうめい</rt></ruby>です。<ruby>毎年<rt>まいとし</rt></ruby>コミケというイベントに<ruby>何十万人<rt>なんじゅうまんにん</rt></ruby>もの<ruby>人<rt>ひと</rt></ruby>が<ruby>集<rt>あつ</rt></ruby>まります。アニメや<ruby>漫画<rt>まんが</rt></ruby>がきっかけで<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>勉強<rt>べんきょう</rt></ruby>し<ruby>始<rt>はじ</rt></ruby>める<ruby>外国人<rt>がいこくじん</rt></ruby>も<ruby>多<rt>おお</rt></ruby>いです。",
+  "difficulty": 0.58,
+  "level": "beginner",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What do manga and anime represent?",
+      "options": ["日本の経済", "日本の文化", "日本の技術", "日本の教育"],
+      "correctAnswer": "日本の文化"
+    },
+    {
+      "id": "q2",
+      "question": "Who enjoys manga and anime?",
+      "options": ["子供だけ", "大人だけ", "子供から大人まで", "外国人だけ"],
+      "correctAnswer": "子供から大人まで"
+    },
+    {
+      "id": "q3",
+      "question": "What is Akihabara famous for?",
+      "options": ["食べ物", "アニメやマンガの聖地", "お寺", "自然"],
+      "correctAnswer": "アニメやマンガの聖地"
+    },
+    {
+      "id": "q4",
+      "question": "How many people gather at Comiket?",
+      "options": ["何千人", "何万人", "何十万人", "何百万人"],
+      "correctAnswer": "何十万人"
+    },
+    {
+      "id": "q5",
+      "question": "Why do many foreigners start studying Japanese?",
+      "options": ["仕事のため", "アニメや漫画がきっかけ", "旅行のため", "試験のため"],
+      "correctAnswer": "アニメや漫画がきっかけ"
+    },
+    {
+      "id": "q6",
+      "question": "Which is NOT mentioned as a manga genre?",
+      "options": ["少年漫画", "少女漫画", "青年漫画", "歴史漫画"],
+      "correctAnswer": "歴史漫画"
+    }
+  ],
+  "translation": {
+    "en": "Manga and anime are representative of Japanese culture. People from children to adults enjoy them. There are various genres such as shonen manga, shojo manga, and seinen manga. Akihabara is famous as a holy land for anime and manga. Every year, hundreds of thousands of people gather at the event called Comiket. Many foreigners start studying Japanese because of anime and manga.",
+    "fr": "Le manga et l'anime sont représentatifs de la culture japonaise. Des enfants aux adultes, tout le monde les apprécie. Il existe différents genres comme le shonen manga, le shojo manga et le seinen manga. Akihabara est célèbre comme lieu sacré de l'anime et du manga. Chaque année, des centaines de milliers de personnes se rassemblent à l'événement appelé Comiket. Beaucoup d'étrangers commencent à étudier le japonais grâce à l'anime et au manga."
+  }
+}

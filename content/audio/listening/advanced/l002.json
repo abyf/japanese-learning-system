@@ -1,0 +1,30 @@
+{
+  "id": "l002",
+  "title": "Academic Lecture - Linguistics",
+  "type": "multiple_choice",
+  "audioUrl": "/api/listening/advanced/l002/audio",
+  "transcript": "本日の講義では、言語の普遍性と多様性について考えてみたいと思います。チョムスキーの生成文法理論によれば、人間の言語能力は生得的なものであり、すべての言語に共通する普遍文法が存在するとされています。しかし、近年の類型論的研究は、言語間の差異が従来考えられていたよりも大きいことを示唆しています。例えば、語順一つとっても、主語-動詞-目的語の語順は世界の言語の約四十パーセントにしか見られません。日本語のような主語-目的語-動詞の語順も同程度の割合を占めています。このことは、言語の多様性を過小評価すべきではないことを示しています。",
+  "questions": [
+    {
+      "question": "What theory is discussed in the lecture?",
+      "options": ["Behavioral linguistics", "Chomsky's generative grammar", "Cognitive semantics", "Historical linguistics"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "What percentage of languages use SVO word order?",
+      "options": ["About 20%", "About 40%", "About 60%", "About 80%"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "What word order does Japanese use?",
+      "options": ["SVO", "SOV", "VSO", "VOS"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "What do recent typological studies suggest?",
+      "options": ["All languages are the same", "Language differences are greater than thought", "Universal grammar is proven", "Languages are becoming simpler"],
+      "correctAnswer": 1
+    }
+  ],
+  "difficulty": 0.85
+}

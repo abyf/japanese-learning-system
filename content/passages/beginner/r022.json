@@ -1,0 +1,50 @@
+{
+  "id": "r022",
+  "title": "コンビニ",
+  "titleEn": "Convenience Store",
+  "text": "<ruby>昼<rt>ひる</rt></ruby>ごはんを<ruby>買<rt>か</rt></ruby>いにコンビニに<ruby>行<rt>い</rt></ruby>きました。おにぎりとお<ruby>茶<rt>ちゃ</rt></ruby>を<ruby>選<rt>えら</rt></ruby>びました。おにぎりは<ruby>百五十円<rt>ひゃくごじゅうえん</rt></ruby>で、お<ruby>茶<rt>ちゃ</rt></ruby>は<ruby>百三十円<rt>ひゃくさんじゅうえん</rt></ruby>です。レジで<ruby>店員<rt>てんいん</rt></ruby>さんが「お<ruby>箸<rt>はし</rt></ruby>はいりますか」と<ruby>聞<rt>き</rt></ruby>きました。「はい、お<ruby>願<rt>ねが</rt></ruby>いします」と<ruby>答<rt>こた</rt></ruby>えました。ポイントカードも<ruby>見<rt>み</rt></ruby>せました。<ruby>全部<rt>ぜんぶ</rt></ruby>で<ruby>二百八十円<rt>にひゃくはちじゅうえん</rt></ruby>でした。コンビニは<ruby>便利<rt>べんり</rt></ruby>です。",
+  "difficulty": 0.26,
+  "level": "beginner",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Why did the speaker go to the convenience store?",
+      "options": ["朝ごはんを買うため", "昼ごはんを買うため", "晩ごはんを買うため", "おやつを買うため"],
+      "correctAnswer": "昼ごはんを買うため"
+    },
+    {
+      "id": "q2",
+      "question": "What did the speaker buy?",
+      "options": ["サンドイッチとジュース", "おにぎりとお茶", "パンと牛乳", "弁当とお茶"],
+      "correctAnswer": "おにぎりとお茶"
+    },
+    {
+      "id": "q3",
+      "question": "How much was the onigiri?",
+      "options": ["百円", "百三十円", "百五十円", "二百円"],
+      "correctAnswer": "百五十円"
+    },
+    {
+      "id": "q4",
+      "question": "What did the store clerk ask?",
+      "options": ["袋はいりますか", "お箸はいりますか", "温めますか", "ポイントカードはありますか"],
+      "correctAnswer": "お箸はいりますか"
+    },
+    {
+      "id": "q5",
+      "question": "How much was the total?",
+      "options": ["二百五十円", "二百八十円", "三百円", "三百五十円"],
+      "correctAnswer": "二百八十円"
+    },
+    {
+      "id": "q6",
+      "question": "What did the speaker show at the register?",
+      "options": ["学生証", "ポイントカード", "クーポン", "免許証"],
+      "correctAnswer": "ポイントカード"
+    }
+  ],
+  "translation": {
+    "en": "I went to the convenience store to buy lunch. I chose an onigiri and tea. The onigiri was 150 yen and the tea was 130 yen. At the register, the clerk asked, 'Do you need chopsticks?' I answered, 'Yes, please.' I also showed my point card. The total was 280 yen. Convenience stores are convenient.",
+    "fr": "Je suis allé(e) au konbini pour acheter le déjeuner. J'ai choisi un onigiri et du thé. L'onigiri coûtait 150 yens et le thé 130 yens. À la caisse, l'employé(e) a demandé : « Avez-vous besoin de baguettes ? » J'ai répondu : « Oui, s'il vous plaît. » J'ai aussi montré ma carte de points. Le total était de 280 yens. Les konbinis sont pratiques."
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "id": "v077",
+  "title": "Can/Ability",
+  "titleEn": "Can/Ability",
+  "titleFr": "Pouvoir/Capacité",
+  "level": "beginner",
+  "difficulty": 0.6,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "word_match",
+      "prompt": "What does ことができる mean?",
+      "prompt_fr": "Que signifie ことができる ?",
+      "word": "ことができる",
+      "options": ["Can / Be able to", "Must do", "Want to", "Should do"],
+      "options_fr": ["Pouvoir / Être capable de", "Devoir faire", "Vouloir", "Devrait faire"],
+      "correctAnswer": "Can / Be able to",
+      "meaning_fr": "Pouvoir / Être capable de"
+    },
+    {
+      "id": "q2",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "日本語を話す＿＿ができます。(I can speak Japanese.)",
+      "sentence_fr": "日本語を話す＿＿ができます。(Je peux parler japonais.)",
+      "options": ["こと", "もの", "ため", "ほう"],
+      "correctAnswer": "こと",
+      "meaning_en": "can (ability)",
+      "meaning_fr": "pouvoir (capacité)"
+    },
+    {
+      "id": "q3",
+      "type": "word_match",
+      "prompt": "What does 泳げる mean?",
+      "prompt_fr": "Que signifie 泳げる ?",
+      "word": "泳げる",
+      "options": ["Can swim", "Swimming", "Swam", "Will swim"],
+      "options_fr": ["Peut nager", "En train de nager", "A nagé", "Nagera"],
+      "correctAnswer": "Can swim",
+      "meaning_fr": "Peut nager"
+    },
+    {
+      "id": "q4",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "漢字を読む＿＿ができません。(I cannot read kanji.)",
+      "sentence_fr": "漢字を読む＿＿ができません。(Je ne peux pas lire les kanji.)",
+      "options": ["こと", "もの", "ため", "よう"],
+      "correctAnswer": "こと",
+      "meaning_en": "cannot (ability)",
+      "meaning_fr": "ne peut pas (capacité)"
+    },
+    {
+      "id": "q5",
+      "type": "word_match",
+      "prompt": "What does 食べられる mean?",
+      "prompt_fr": "Que signifie 食べられる ?",
+      "word": "食べられる",
+      "options": ["Can eat", "Want to eat", "Must eat", "Will eat"],
+      "options_fr": ["Peut manger", "Veut manger", "Doit manger", "Mangera"],
+      "correctAnswer": "Can eat",
+      "meaning_fr": "Peut manger"
+    },
+    {
+      "id": "q6",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "車を運転する＿＿ができますか。(Can you drive a car?)",
+      "sentence_fr": "車を運転する＿＿ができますか。(Pouvez-vous conduire une voiture ?)",
+      "options": ["こと", "もの", "ため", "ところ"],
+      "correctAnswer": "こと",
+      "meaning_en": "can (question)",
+      "meaning_fr": "pouvoir (question)"
+    },
+    {
+      "id": "q7",
+      "type": "word_match",
+      "prompt": "What does 見える mean?",
+      "prompt_fr": "Que signifie 見える ?",
+      "word": "見える",
+      "options": ["Can see / Is visible", "Want to see", "Will see", "Must see"],
+      "options_fr": ["Peut voir / Est visible", "Veut voir", "Verra", "Doit voir"],
+      "correctAnswer": "Can see / Is visible",
+      "meaning_fr": "Peut voir / Est visible"
+    }
+  ],
+  "translation": {
+    "en": "This lesson covers expressing ability using ことができる and potential forms.",
+    "fr": "Cette leçon couvre l'expression de la capacité avec ことができる et les formes potentielles."
+  }
+}

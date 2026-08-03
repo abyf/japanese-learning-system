@@ -1,0 +1,56 @@
+{
+  "id": "r023",
+  "title": "公園で遊ぶ",
+  "titleEn": "Playing at the Park",
+  "text": "<ruby>日曜日<rt>にちようび</rt></ruby>に<ruby>友達<rt>ともだち</rt></ruby>と<ruby>公園<rt>こうえん</rt></ruby>に<ruby>行<rt>い</rt></ruby>きました。<ruby>天気<rt>てんき</rt></ruby>がよかったので、<ruby>子供<rt>こども</rt></ruby>たちがたくさんいました。<ruby>私<rt>わたし</rt></ruby>たちはサッカーをしました。<ruby>友達<rt>ともだち</rt></ruby>のたけしさんはサッカーが<ruby>上手<rt>じょうず</rt></ruby>です。<ruby>二時間<rt>にじかん</rt></ruby>くらい<ruby>遊<rt>あそ</rt></ruby>びました。そのあと、ベンチで<ruby>休<rt>やす</rt></ruby>みました。<ruby>自動販売機<rt>じどうはんばいき</rt></ruby>でジュースを<ruby>買<rt>か</rt></ruby>いました。とても<ruby>楽<rt>たの</rt></ruby>しい<ruby>一日<rt>いちにち</rt></ruby>でした。",
+  "difficulty": 0.27,
+  "level": "beginner",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "When did they go to the park?",
+      "options": ["土曜日", "日曜日", "月曜日", "金曜日"],
+      "correctAnswer": "日曜日"
+    },
+    {
+      "id": "q2",
+      "question": "How was the weather?",
+      "options": ["雨だった", "曇りだった", "よかった", "寒かった"],
+      "correctAnswer": "よかった"
+    },
+    {
+      "id": "q3",
+      "question": "What sport did they play?",
+      "options": ["野球", "テニス", "バスケットボール", "サッカー"],
+      "correctAnswer": "サッカー"
+    },
+    {
+      "id": "q4",
+      "question": "Who is good at soccer?",
+      "options": ["私", "たけしさん", "子供たち", "先生"],
+      "correctAnswer": "たけしさん"
+    },
+    {
+      "id": "q5",
+      "question": "How long did they play?",
+      "options": ["一時間", "二時間", "三時間", "四時間"],
+      "correctAnswer": "二時間"
+    },
+    {
+      "id": "q6",
+      "question": "What did they buy from the vending machine?",
+      "options": ["お茶", "水", "ジュース", "コーヒー"],
+      "correctAnswer": "ジュース"
+    },
+    {
+      "id": "q7",
+      "question": "Where did they rest?",
+      "options": ["木の下", "ベンチ", "家", "レストラン"],
+      "correctAnswer": "ベンチ"
+    }
+  ],
+  "translation": {
+    "en": "I went to the park with my friend on Sunday. The weather was nice, so there were many children. We played soccer. My friend Takeshi is good at soccer. We played for about two hours. After that, we rested on a bench. I bought juice from a vending machine. It was a very fun day.",
+    "fr": "Dimanche, je suis allé(e) au parc avec mon ami(e). Il faisait beau, donc il y avait beaucoup d'enfants. Nous avons joué au football. Mon ami Takeshi est bon au football. Nous avons joué pendant environ deux heures. Après cela, nous nous sommes reposés sur un banc. J'ai acheté du jus à un distributeur automatique. C'était une journée très amusante."
+  }
+}

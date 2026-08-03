@@ -1,0 +1,83 @@
+{
+  "id": "v035",
+  "title": "Verbs of Existence",
+  "titleEn": "Verbs of Existence",
+  "titleFr": "Verbes d'existence",
+  "level": "beginner",
+  "difficulty": 0.35,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "word_match",
+      "prompt": "What does いる mean?",
+      "prompt_fr": "Que signifie いる ?",
+      "word": "いる",
+      "options": ["To exist (animate)", "To exist (inanimate)", "To become", "To go"],
+      "options_fr": ["Exister (animé)", "Exister (inanimé)", "Devenir", "Aller"],
+      "correctAnswer": "To exist (animate)",
+      "meaning_fr": "Exister (animé)"
+    },
+    {
+      "id": "q2",
+      "type": "word_match",
+      "prompt": "What does ある mean?",
+      "prompt_fr": "Que signifie ある ?",
+      "word": "ある",
+      "options": ["To exist (inanimate)", "To exist (animate)", "To become", "To have"],
+      "options_fr": ["Exister (inanimé)", "Exister (animé)", "Devenir", "Avoir"],
+      "correctAnswer": "To exist (inanimate)",
+      "meaning_fr": "Exister (inanimé)"
+    },
+    {
+      "id": "q3",
+      "type": "word_match",
+      "prompt": "What does なる mean?",
+      "prompt_fr": "Que signifie なる ?",
+      "word": "なる",
+      "options": ["To become", "To exist", "To go", "To do"],
+      "options_fr": ["Devenir", "Exister", "Aller", "Faire"],
+      "correctAnswer": "To become",
+      "meaning_fr": "Devenir"
+    },
+    {
+      "id": "q4",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "猫が＿＿。(There is a cat — animate)",
+      "sentence_fr": "猫が＿＿。(Il y a un chat — animé)",
+      "options": ["いる", "ある", "なる", "する"],
+      "correctAnswer": "いる",
+      "meaning_en": "to exist (animate)",
+      "meaning_fr": "exister (animé)"
+    },
+    {
+      "id": "q5",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "机の上に本が＿＿。(There is a book on the desk — inanimate)",
+      "sentence_fr": "机の上に本が＿＿。(Il y a un livre sur le bureau — inanimé)",
+      "options": ["ある", "いる", "なる", "する"],
+      "correctAnswer": "ある",
+      "meaning_en": "to exist (inanimate)",
+      "meaning_fr": "exister (inanimé)"
+    },
+    {
+      "id": "q6",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "先生に＿＿たいです。(I want to become a teacher)",
+      "sentence_fr": "先生に＿＿たいです。(Je veux devenir professeur)",
+      "options": ["なり", "あり", "い", "し"],
+      "correctAnswer": "なり",
+      "meaning_en": "to become",
+      "meaning_fr": "devenir"
+    }
+  ],
+  "translation": {
+    "en": "This lesson covers verbs of existence: いる (animate), ある (inanimate), and なる (to become).",
+    "fr": "Cette leçon couvre les verbes d'existence : いる (animé), ある (inanimé) et なる (devenir)."
+  }
+}

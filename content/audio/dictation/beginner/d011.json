@@ -1,0 +1,10 @@
+{
+  "id": "d011",
+  "title": "Description",
+  "titleFr": "Description",
+  "expectedText": "この本はとても面白いです",
+  "audioUrl": "/api/dictation/beginner/d011/audio",
+  "difficulty": 0.35,
+  "hint": "Describing a book with an adjective",
+  "hintFr": "Décrire un livre avec un adjectif"
+}

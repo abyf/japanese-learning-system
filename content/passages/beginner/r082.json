@@ -1,0 +1,50 @@
+{
+  "id": "r082",
+  "title": "日本の桜",
+  "titleEn": "Cherry Blossoms in Detail",
+  "text": "<ruby>桜<rt>さくら</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>の<ruby>国花<rt>こっか</rt></ruby>です。<ruby>三月<rt>さんがつ</rt></ruby><ruby>末<rt>まつ</rt></ruby>から<ruby>四月<rt>しがつ</rt></ruby>に<ruby>咲<rt>さ</rt></ruby>きます。<ruby>開花予報<rt>かいかよほう</rt></ruby>は「<ruby>桜前線<rt>さくらぜんせん</rt></ruby>」と<ruby>呼<rt>よ</rt></ruby>ばれます。<ruby>南<rt>みなみ</rt></ruby>から<ruby>北<rt>きた</rt></ruby>へ<ruby>順番<rt>じゅんばん</rt></ruby>に<ruby>咲<rt>さ</rt></ruby>きます。お<ruby>花見<rt>はなみ</rt></ruby>は<ruby>桜<rt>さくら</rt></ruby>の<ruby>下<rt>した</rt></ruby>で<ruby>食<rt>た</rt></ruby>べたり<ruby>飲<rt>の</rt></ruby>んだりすることです。<ruby>夜<rt>よる</rt></ruby>のライトアップされた<ruby>桜<rt>さくら</rt></ruby>は「<ruby>夜桜<rt>よざくら</rt></ruby>」と<ruby>言<rt>い</rt></ruby>います。<ruby>桜<rt>さくら</rt></ruby>は<ruby>約<rt>やく</rt></ruby><ruby>一週間<rt>いっしゅうかん</rt></ruby>しか<ruby>咲<rt>さ</rt></ruby>きません。だから<ruby>日本人<rt>にほんじん</rt></ruby>は<ruby>桜<rt>さくら</rt></ruby>をとても<ruby>大切<rt>たいせつ</rt></ruby>にします。",
+  "difficulty": 0.7,
+  "level": "beginner",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What is the cherry blossom's status?",
+      "options": ["県の花", "日本の国花", "世界の花", "東京の花"],
+      "correctAnswer": "日本の国花"
+    },
+    {
+      "id": "q2",
+      "question": "When do cherry blossoms bloom?",
+      "options": ["二月", "三月末から四月", "五月", "六月"],
+      "correctAnswer": "三月末から四月"
+    },
+    {
+      "id": "q3",
+      "question": "What is the blooming forecast called?",
+      "options": ["天気予報", "桜前線", "開花情報", "春の予報"],
+      "correctAnswer": "桜前線"
+    },
+    {
+      "id": "q4",
+      "question": "In what direction do they bloom?",
+      "options": ["北から南へ", "南から北へ", "東から西へ", "西から東へ"],
+      "correctAnswer": "南から北へ"
+    },
+    {
+      "id": "q5",
+      "question": "What is yozakura?",
+      "options": ["朝の桜", "夜のライトアップされた桜", "散った桜", "白い桜"],
+      "correctAnswer": "夜のライトアップされた桜"
+    },
+    {
+      "id": "q6",
+      "question": "How long do cherry blossoms bloom?",
+      "options": ["約一日", "約一週間", "約一ヶ月", "約三ヶ月"],
+      "correctAnswer": "約一週間"
+    }
+  ],
+  "translation": {
+    "en": "Cherry blossoms are Japan's national flower. They bloom from late March to April. The bloom forecast is called the 'sakura front.' They bloom in order from south to north. Hanami is eating and drinking under cherry trees. Lit-up cherry blossoms at night are called 'yozakura.' Cherry blossoms only bloom for about one week. That's why Japanese people cherish them so much.",
+    "fr": "Les cerisiers en fleurs sont la fleur nationale du Japon. Ils fleurissent de fin mars à avril. La prévision de floraison est appelée 'front des cerisiers'. Ils fleurissent dans l'ordre du sud au nord. Le hanami consiste à manger et boire sous les cerisiers. Les cerisiers illuminés la nuit sont appelés 'yozakura'. Les cerisiers ne fleurissent que pendant environ une semaine. C'est pourquoi les Japonais les chérissent tant."
+  }
+}

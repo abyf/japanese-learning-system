@@ -1,0 +1,38 @@
+{
+  "id": "r010",
+  "title": "日本の電車",
+  "titleEn": "Japanese Trains",
+  "text": "<ruby>日本<rt>にほん</rt></ruby>の<ruby>電車<rt>でんしゃ</rt></ruby>はとても<ruby>便利<rt>べんり</rt></ruby>です。<ruby>毎日<rt>まいにち</rt></ruby>たくさんの<ruby>人<rt>ひと</rt></ruby>が<ruby>電車<rt>でんしゃ</rt></ruby>に<ruby>乗<rt>の</rt></ruby>ります。<ruby>電車<rt>でんしゃ</rt></ruby>はいつも<ruby>時間<rt>じかん</rt></ruby>どおりに<ruby>来<rt>き</rt></ruby>ます。<ruby>朝<rt>あさ</rt></ruby>は<ruby>電車<rt>でんしゃ</rt></ruby>がとても<ruby>混<rt>こ</rt></ruby>んでいます。<ruby>切符<rt>きっぷ</rt></ruby>は<ruby>駅<rt>えき</rt></ruby>の<ruby>機械<rt>きかい</rt></ruby>で<ruby>買<rt>か</rt></ruby>えます。ICカードも<ruby>使<rt>つか</rt></ruby>えます。<ruby>車内<rt>しゃない</rt></ruby>では<ruby>静<rt>しず</rt></ruby>かにしなければなりません。<ruby>電話<rt>でんわ</rt></ruby>で<ruby>話<rt>はな</rt></ruby>してはいけません。",
+  "difficulty": 0.28,
+  "level": "beginner",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What is a characteristic of Japanese trains?",
+      "options": ["安い", "便利", "遅い", "少ない"],
+      "correctAnswer": "便利"
+    },
+    {
+      "id": "q2",
+      "question": "When are the trains very crowded?",
+      "options": ["昼", "朝", "夜", "夕方"],
+      "correctAnswer": "朝"
+    },
+    {
+      "id": "q3",
+      "question": "Where can you buy tickets?",
+      "options": ["コンビニ", "バス", "駅の機械", "電車の中"],
+      "correctAnswer": "駅の機械"
+    },
+    {
+      "id": "q4",
+      "question": "What must you NOT do inside the train?",
+      "options": ["本を読む", "音楽を聞く", "電話で話す", "寝る"],
+      "correctAnswer": "電話で話す"
+    }
+  ],
+  "translation": {
+    "en": "Japanese trains are very convenient. Many people ride trains every day. Trains always come on time. In the morning, trains are very crowded. You can buy tickets at machines in the station. You can also use IC cards. You must be quiet inside the train. You must not talk on the phone.",
+    "fr": "Les trains japonais sont très pratiques. Beaucoup de gens prennent le train tous les jours. Les trains arrivent toujours à l'heure. Le matin, les trains sont très bondés. On peut acheter des billets aux machines dans la gare. On peut aussi utiliser des cartes IC. Il faut rester silencieux dans le train. Il est interdit de parler au téléphone."
+  }
+}

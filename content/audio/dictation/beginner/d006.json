@@ -1,0 +1,10 @@
+{
+  "id": "d006",
+  "title": "Simple Question",
+  "titleFr": "Question simple",
+  "expectedText": "何時ですか？",
+  "audioUrl": "/api/dictation/beginner/d006/audio",
+  "difficulty": 0.2,
+  "hint": "Asking what time it is",
+  "hintFr": "Demander quelle heure il est"
+}

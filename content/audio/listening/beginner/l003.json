@@ -1,0 +1,25 @@
+{
+  "id": "l003",
+  "title": "Shopping",
+  "type": "multiple_choice",
+  "audioUrl": "/api/listening/beginner/l003/audio",
+  "transcript": "いらっしゃいませ。 このりんごはいくらですか。 一つ百五十円です。 じゃ、三つください。 四百五十円になります。 はい、五百円。 五十円のおつりです。ありがとうございました。",
+  "questions": [
+    {
+      "question": "How much is one apple?",
+      "options": ["100 yen", "120 yen", "150 yen", "200 yen"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "How many apples does the customer buy?",
+      "options": ["1", "2", "3", "4"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "How much change does the customer receive?",
+      "options": ["50 yen", "100 yen", "150 yen", "200 yen"],
+      "correctAnswer": 0
+    }
+  ],
+  "difficulty": 0.3
+}

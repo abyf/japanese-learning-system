@@ -1,0 +1,95 @@
+{
+  "id": "v061",
+  "title": "Verbs with を",
+  "titleEn": "Verbs with を",
+  "titleFr": "Verbes avec を",
+  "level": "beginner",
+  "difficulty": 0.4,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "本＿＿読みます。(I read a book.)",
+      "sentence_fr": "本＿＿読みます。(Je lis un livre.)",
+      "options": ["を", "に", "で", "が"],
+      "correctAnswer": "を",
+      "meaning_en": "object marker particle",
+      "meaning_fr": "particule d'objet direct"
+    },
+    {
+      "id": "q2",
+      "type": "word_match",
+      "prompt": "What does 音楽を聞く mean?",
+      "prompt_fr": "Que signifie 音楽を聞く ?",
+      "word": "音楽を聞く",
+      "options": ["To listen to music", "To play music", "To write music", "To sing"],
+      "options_fr": ["Écouter de la musique", "Jouer de la musique", "Écrire de la musique", "Chanter"],
+      "correctAnswer": "To listen to music",
+      "meaning_fr": "Écouter de la musique"
+    },
+    {
+      "id": "q3",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "映画＿＿見ます。(I watch a movie.)",
+      "sentence_fr": "映画＿＿見ます。(Je regarde un film.)",
+      "options": ["を", "が", "に", "は"],
+      "correctAnswer": "を",
+      "meaning_en": "object marker",
+      "meaning_fr": "particule d'objet"
+    },
+    {
+      "id": "q4",
+      "type": "word_match",
+      "prompt": "What does 手紙を書く mean?",
+      "prompt_fr": "Que signifie 手紙を書く ?",
+      "word": "手紙を書く",
+      "options": ["To write a letter", "To read a letter", "To send a letter", "To receive a letter"],
+      "options_fr": ["Écrire une lettre", "Lire une lettre", "Envoyer une lettre", "Recevoir une lettre"],
+      "correctAnswer": "To write a letter",
+      "meaning_fr": "Écrire une lettre"
+    },
+    {
+      "id": "q5",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "水＿＿飲みます。(I drink water.)",
+      "sentence_fr": "水＿＿飲みます。(Je bois de l'eau.)",
+      "options": ["を", "が", "で", "に"],
+      "correctAnswer": "を",
+      "meaning_en": "object marker",
+      "meaning_fr": "particule d'objet"
+    },
+    {
+      "id": "q6",
+      "type": "word_match",
+      "prompt": "What does テレビを見る mean?",
+      "prompt_fr": "Que signifie テレビを見る ?",
+      "word": "テレビを見る",
+      "options": ["To watch TV", "To turn on TV", "To buy a TV", "To fix a TV"],
+      "options_fr": ["Regarder la télé", "Allumer la télé", "Acheter une télé", "Réparer une télé"],
+      "correctAnswer": "To watch TV",
+      "meaning_fr": "Regarder la télé"
+    },
+    {
+      "id": "q7",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "日本語＿＿勉強します。(I study Japanese.)",
+      "sentence_fr": "日本語＿＿勉強します。(J'étudie le japonais.)",
+      "options": ["を", "が", "に", "で"],
+      "correctAnswer": "を",
+      "meaning_en": "object marker",
+      "meaning_fr": "particule d'objet"
+    }
+  ],
+  "translation": {
+    "en": "This lesson practices the direct object particle を with common verbs.",
+    "fr": "Cette leçon pratique la particule d'objet direct を avec des verbes courants."
+  }
+}

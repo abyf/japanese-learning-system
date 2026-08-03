@@ -1,0 +1,50 @@
+{
+  "id": "r067",
+  "title": "日本の大学",
+  "titleEn": "Japanese Universities",
+  "text": "<ruby>日本<rt>にほん</rt></ruby>には<ruby>多<rt>おお</rt></ruby>くの<ruby>大学<rt>だいがく</rt></ruby>があります。<ruby>国立<rt>こくりつ</rt></ruby>、<ruby>公立<rt>こうりつ</rt></ruby>、<ruby>私立<rt>しりつ</rt></ruby>の<ruby>三種類<rt>さんしゅるい</rt></ruby>があります。<ruby>入学試験<rt>にゅうがくしけん</rt></ruby>はとても<ruby>難<rt>むずか</rt></ruby>しいです。<ruby>大学生<rt>だいがくせい</rt></ruby>は<ruby>四年間<rt>よねんかん</rt></ruby><ruby>勉強<rt>べんきょう</rt></ruby>します。サークルやアルバイトも<ruby>大学生活<rt>だいがくせいかつ</rt></ruby>の<ruby>一部<rt>いちぶ</rt></ruby>です。<ruby>就職活動<rt>しゅうしょくかつどう</rt></ruby>は<ruby>三年生<rt>さんねんせい</rt></ruby>の<ruby>時<rt>とき</rt></ruby>から<ruby>始<rt>はじ</rt></ruby>まります。<ruby>東京大学<rt>とうきょうだいがく</rt></ruby>や<ruby>京都大学<rt>きょうとだいがく</rt></ruby>が<ruby>有名<rt>ゆうめい</rt></ruby>です。",
+  "difficulty": 0.63,
+  "level": "beginner",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What three types of universities exist?",
+      "options": ["大・中・小", "国立・公立・私立", "文系・理系・芸術系", "男子・女子・共学"],
+      "correctAnswer": "国立・公立・私立"
+    },
+    {
+      "id": "q2",
+      "question": "What is said about entrance exams?",
+      "options": ["簡単", "とても難しい", "ない", "易しい"],
+      "correctAnswer": "とても難しい"
+    },
+    {
+      "id": "q3",
+      "question": "How long do university students study?",
+      "options": ["二年間", "三年間", "四年間", "五年間"],
+      "correctAnswer": "四年間"
+    },
+    {
+      "id": "q4",
+      "question": "What is part of university life?",
+      "options": ["制服", "サークルやアルバイト", "寮生活だけ", "スポーツだけ"],
+      "correctAnswer": "サークルやアルバイト"
+    },
+    {
+      "id": "q5",
+      "question": "When does job hunting start?",
+      "options": ["一年生", "二年生", "三年生", "四年生"],
+      "correctAnswer": "三年生"
+    },
+    {
+      "id": "q6",
+      "question": "Which universities are mentioned as famous?",
+      "options": ["早稲田と慶應", "東京大学と京都大学", "大阪大学と名古屋大学", "北海道大学と九州大学"],
+      "correctAnswer": "東京大学と京都大学"
+    }
+  ],
+  "translation": {
+    "en": "Japan has many universities. There are three types: national, public, and private. Entrance exams are very difficult. University students study for four years. Clubs and part-time jobs are also part of university life. Job hunting starts from the third year. Tokyo University and Kyoto University are famous.",
+    "fr": "Le Japon a de nombreuses universités. Il en existe trois types : nationales, publiques et privées. Les examens d'entrée sont très difficiles. Les étudiants universitaires étudient pendant quatre ans. Les clubs et les emplois à temps partiel font aussi partie de la vie universitaire. La recherche d'emploi commence dès la troisième année. L'Université de Tokyo et l'Université de Kyoto sont célèbres."
+  }
+}

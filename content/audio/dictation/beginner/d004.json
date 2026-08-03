@@ -1,0 +1,8 @@
+{
+  "id": "d004",
+  "title": "Simple Self-Introduction",
+  "expectedText": "わたしはがくせいです",
+  "audioUrl": "/api/dictation/beginner/d004/audio",
+  "difficulty": 0.25,
+  "hint": "Saying 'I am a student'"
+}

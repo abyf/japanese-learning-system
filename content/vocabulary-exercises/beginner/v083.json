@@ -1,0 +1,108 @@
+{
+  "id": "v083",
+  "title": "JLPT N5 Grammar Points",
+  "titleEn": "JLPT N5 Grammar Points",
+  "titleFr": "Points de grammaire JLPT N5",
+  "level": "beginner",
+  "difficulty": 0.65,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "私＿＿学生です。(I am a student.)",
+      "sentence_fr": "私＿＿学生です。(Je suis étudiant.)",
+      "options": ["は", "が", "を", "に"],
+      "correctAnswer": "は",
+      "meaning_en": "topic marker",
+      "meaning_fr": "marqueur de thème"
+    },
+    {
+      "id": "q2",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "猫＿＿います。(There is a cat.)",
+      "sentence_fr": "猫＿＿います。(Il y a un chat.)",
+      "options": ["が", "は", "を", "で"],
+      "correctAnswer": "が",
+      "meaning_en": "subject marker",
+      "meaning_fr": "marqueur de sujet"
+    },
+    {
+      "id": "q3",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "りんご＿＿食べます。(I eat an apple.)",
+      "sentence_fr": "りんご＿＿食べます。(Je mange une pomme.)",
+      "options": ["を", "が", "に", "は"],
+      "correctAnswer": "を",
+      "meaning_en": "object marker",
+      "meaning_fr": "marqueur d'objet"
+    },
+    {
+      "id": "q4",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "学校＿＿行きます。(I go to school.)",
+      "sentence_fr": "学校＿＿行きます。(Je vais à l'école.)",
+      "options": ["に", "を", "が", "で"],
+      "correctAnswer": "に",
+      "meaning_en": "direction/destination",
+      "meaning_fr": "direction/destination"
+    },
+    {
+      "id": "q5",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "電車＿＿来ました。(I came by train.)",
+      "sentence_fr": "電車＿＿来ました。(Je suis venu en train.)",
+      "options": ["で", "に", "を", "が"],
+      "correctAnswer": "で",
+      "meaning_en": "means/method",
+      "meaning_fr": "moyen/méthode"
+    },
+    {
+      "id": "q6",
+      "type": "word_match",
+      "prompt": "What is the function of は?",
+      "prompt_fr": "Quelle est la fonction de は ?",
+      "word": "は",
+      "options": ["Topic marker", "Subject marker", "Object marker", "Direction marker"],
+      "options_fr": ["Marqueur de thème", "Marqueur de sujet", "Marqueur d'objet", "Marqueur de direction"],
+      "correctAnswer": "Topic marker",
+      "meaning_fr": "Marqueur de thème"
+    },
+    {
+      "id": "q7",
+      "type": "word_match",
+      "prompt": "What is the function of が?",
+      "prompt_fr": "Quelle est la fonction de が ?",
+      "word": "が",
+      "options": ["Subject marker", "Topic marker", "Object marker", "Time marker"],
+      "options_fr": ["Marqueur de sujet", "Marqueur de thème", "Marqueur d'objet", "Marqueur de temps"],
+      "correctAnswer": "Subject marker",
+      "meaning_fr": "Marqueur de sujet"
+    },
+    {
+      "id": "q8",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "図書館＿＿勉強します。(I study at the library.)",
+      "sentence_fr": "図書館＿＿勉強します。(J'étudie à la bibliothèque.)",
+      "options": ["で", "に", "を", "は"],
+      "correctAnswer": "で",
+      "meaning_en": "location of action",
+      "meaning_fr": "lieu de l'action"
+    }
+  ],
+  "translation": {
+    "en": "This lesson reviews the five essential particles: は, が, を, に, and で.",
+    "fr": "Cette leçon révise les cinq particules essentielles : は, が, を, に et で."
+  }
+}

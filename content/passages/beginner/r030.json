@@ -1,0 +1,62 @@
+{
+  "id": "r030",
+  "title": "日本の交通",
+  "titleEn": "Japanese Transportation",
+  "text": "<ruby>日本<rt>にほん</rt></ruby>の<ruby>交通<rt>こうつう</rt></ruby>はとても<ruby>便利<rt>べんり</rt></ruby>です。<ruby>電車<rt>でんしゃ</rt></ruby>はいつも<ruby>時間通<rt>じかんどお</rt></ruby>りに<ruby>来<rt>き</rt></ruby>ます。<ruby>東京<rt>とうきょう</rt></ruby>では<ruby>地下鉄<rt>ちかてつ</rt></ruby>がたくさんあります。バスも<ruby>便利<rt>べんり</rt></ruby>です。ICカードがあれば、<ruby>電車<rt>でんしゃ</rt></ruby>もバスも<ruby>乗<rt>の</rt></ruby>れます。タクシーは<ruby>少<rt>すこ</rt></ruby>し<ruby>高<rt>たか</rt></ruby>いですが、<ruby>夜<rt>よる</rt></ruby><ruby>遅<rt>おそ</rt></ruby>い<ruby>時<rt>とき</rt></ruby>に<ruby>使<rt>つか</rt></ruby>います。<ruby>新幹線<rt>しんかんせん</rt></ruby>は<ruby>速<rt>はや</rt></ruby>くて、<ruby>東京<rt>とうきょう</rt></ruby>から<ruby>大阪<rt>おおさか</rt></ruby>まで<ruby>二時間半<rt>にじかんはん</rt></ruby>です。<ruby>日本<rt>にほん</rt></ruby>の<ruby>電車<rt>でんしゃ</rt></ruby>はきれいで<ruby>安全<rt>あんぜん</rt></ruby>です。",
+  "difficulty": 0.34,
+  "level": "beginner",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "How is Japanese transportation described?",
+      "options": ["高い", "不便", "便利", "遅い"],
+      "correctAnswer": "便利"
+    },
+    {
+      "id": "q2",
+      "question": "Do Japanese trains come on time?",
+      "options": ["いつも遅れる", "時々遅れる", "いつも時間通り", "よく遅れる"],
+      "correctAnswer": "いつも時間通り"
+    },
+    {
+      "id": "q3",
+      "question": "What can you ride with an IC card?",
+      "options": ["電車だけ", "バスだけ", "電車とバス", "タクシーと電車"],
+      "correctAnswer": "電車とバス"
+    },
+    {
+      "id": "q4",
+      "question": "When do people use taxis?",
+      "options": ["朝早い時", "夜遅い時", "雨の日", "毎日"],
+      "correctAnswer": "夜遅い時"
+    },
+    {
+      "id": "q5",
+      "question": "How long does the Shinkansen take from Tokyo to Osaka?",
+      "options": ["一時間", "一時間半", "二時間", "二時間半"],
+      "correctAnswer": "二時間半"
+    },
+    {
+      "id": "q6",
+      "question": "How are Japanese trains described?",
+      "options": ["古くて遅い", "きれいで安全", "小さくて混む", "大きくて速い"],
+      "correctAnswer": "きれいで安全"
+    },
+    {
+      "id": "q7",
+      "question": "What is a problem with taxis?",
+      "options": ["遅い", "危ない", "少し高い", "汚い"],
+      "correctAnswer": "少し高い"
+    },
+    {
+      "id": "q8",
+      "question": "What city has many subway lines?",
+      "options": ["大阪", "京都", "東京", "名古屋"],
+      "correctAnswer": "東京"
+    }
+  ],
+  "translation": {
+    "en": "Japanese transportation is very convenient. Trains always come on time. In Tokyo, there are many subway lines. Buses are also convenient. If you have an IC card, you can ride both trains and buses. Taxis are a little expensive, but people use them late at night. The Shinkansen (bullet train) is fast, taking two and a half hours from Tokyo to Osaka. Japanese trains are clean and safe.",
+    "fr": "Les transports japonais sont très pratiques. Les trains arrivent toujours à l'heure. À Tokyo, il y a beaucoup de lignes de métro. Les bus sont aussi pratiques. Si vous avez une carte IC, vous pouvez prendre le train et le bus. Les taxis sont un peu chers, mais on les utilise tard le soir. Le Shinkansen (train à grande vitesse) est rapide, mettant deux heures et demie de Tokyo à Osaka. Les trains japonais sont propres et sûrs."
+  }
+}

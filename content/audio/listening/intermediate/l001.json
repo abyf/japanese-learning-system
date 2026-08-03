@@ -1,0 +1,25 @@
+{
+  "id": "l001",
+  "title": "At the Office",
+  "type": "multiple_choice",
+  "audioUrl": "/api/listening/intermediate/l001/audio",
+  "transcript": "鈴木さん、来週の会議の資料、もう準備できましたか。 すみません、まだ途中です。金曜日までに完成させます。 分かりました。それから、田中部長にも一部コピーを渡してください。 はい、承知しました。会議は月曜日の午前十時からでしたよね。 はい、第三会議室です。プロジェクターの準備もお願いします。",
+  "questions": [
+    {
+      "question": "When will Suzuki finish the materials?",
+      "options": ["Wednesday", "Thursday", "Friday", "Monday"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "When is the meeting?",
+      "options": ["Friday at 10am", "Monday at 10am", "Monday at 2pm", "Tuesday at 10am"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "What else is Suzuki asked to prepare?",
+      "options": ["Lunch", "A projector", "Coffee", "A whiteboard"],
+      "correctAnswer": 1
+    }
+  ],
+  "difficulty": 0.5
+}

@@ -1,0 +1,93 @@
+{
+  "id": "v029",
+  "title": "Fruits & Vegetables",
+  "titleEn": "Fruits & Vegetables",
+  "titleFr": "Fruits et légumes",
+  "level": "beginner",
+  "difficulty": 0.2,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "word_match",
+      "prompt": "What does りんご mean?",
+      "prompt_fr": "Que signifie りんご ?",
+      "word": "りんご",
+      "options": ["Apple", "Orange", "Banana", "Grape"],
+      "options_fr": ["Pomme", "Orange", "Banane", "Raisin"],
+      "correctAnswer": "Apple",
+      "meaning_fr": "Pomme"
+    },
+    {
+      "id": "q2",
+      "type": "word_match",
+      "prompt": "What does みかん mean?",
+      "prompt_fr": "Que signifie みかん ?",
+      "word": "みかん",
+      "options": ["Mandarin orange", "Apple", "Strawberry", "Melon"],
+      "options_fr": ["Mandarine", "Pomme", "Fraise", "Melon"],
+      "correctAnswer": "Mandarin orange",
+      "meaning_fr": "Mandarine"
+    },
+    {
+      "id": "q3",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of this kanji?",
+      "prompt_fr": "Quelle est la lecture de ce kanji ?",
+      "kanji": "野菜",
+      "options": ["やさい", "くだもの", "にく", "さかな"],
+      "correctAnswer": "やさい",
+      "meaning_en": "vegetables",
+      "meaning_fr": "légumes"
+    },
+    {
+      "id": "q4",
+      "type": "word_match",
+      "prompt": "What does トマト mean?",
+      "prompt_fr": "Que signifie トマト ?",
+      "word": "トマト",
+      "options": ["Tomato", "Potato", "Carrot", "Onion"],
+      "options_fr": ["Tomate", "Pomme de terre", "Carotte", "Oignon"],
+      "correctAnswer": "Tomato",
+      "meaning_fr": "Tomate"
+    },
+    {
+      "id": "q5",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "＿＿が好きです。(I like apples)",
+      "sentence_fr": "＿＿が好きです。(J'aime les pommes)",
+      "options": ["りんご", "みかん", "トマト", "野菜"],
+      "correctAnswer": "りんご",
+      "meaning_en": "apple",
+      "meaning_fr": "pomme"
+    },
+    {
+      "id": "q6",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "＿＿をたくさん食べてください。(Please eat lots of vegetables)",
+      "sentence_fr": "＿＿をたくさん食べてください。(Veuillez manger beaucoup de légumes)",
+      "options": ["野菜", "りんご", "トマト", "みかん"],
+      "correctAnswer": "野菜",
+      "meaning_en": "vegetables",
+      "meaning_fr": "légumes"
+    },
+    {
+      "id": "q7",
+      "type": "word_match",
+      "prompt": "What does バナナ mean?",
+      "prompt_fr": "Que signifie バナナ ?",
+      "word": "バナナ",
+      "options": ["Banana", "Pineapple", "Peach", "Watermelon"],
+      "options_fr": ["Banane", "Ananas", "Pêche", "Pastèque"],
+      "correctAnswer": "Banana",
+      "meaning_fr": "Banane"
+    }
+  ],
+  "translation": {
+    "en": "This lesson covers common fruits and vegetables vocabulary.",
+    "fr": "Cette leçon couvre le vocabulaire des fruits et légumes courants."
+  }
+}

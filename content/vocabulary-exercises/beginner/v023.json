@@ -1,0 +1,93 @@
+{
+  "id": "v023",
+  "title": "Rooms in a House",
+  "titleEn": "Rooms in a House",
+  "titleFr": "Les pièces de la maison",
+  "level": "beginner",
+  "difficulty": 0.25,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of this kanji?",
+      "prompt_fr": "Quelle est la lecture de ce kanji ?",
+      "kanji": "部屋",
+      "options": ["へや", "いえ", "うち", "にわ"],
+      "correctAnswer": "へや",
+      "meaning_en": "room",
+      "meaning_fr": "chambre / pièce"
+    },
+    {
+      "id": "q2",
+      "type": "word_match",
+      "prompt": "What does 台所 mean?",
+      "prompt_fr": "Que signifie 台所 ?",
+      "word": "台所",
+      "options": ["Kitchen", "Bathroom", "Living room", "Bedroom"],
+      "options_fr": ["Cuisine", "Salle de bain", "Salon", "Chambre"],
+      "correctAnswer": "Kitchen",
+      "meaning_fr": "Cuisine"
+    },
+    {
+      "id": "q3",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of this kanji?",
+      "prompt_fr": "Quelle est la lecture de ce kanji ?",
+      "kanji": "寝室",
+      "options": ["しんしつ", "きょしつ", "わしつ", "ようしつ"],
+      "correctAnswer": "しんしつ",
+      "meaning_en": "bedroom",
+      "meaning_fr": "chambre à coucher"
+    },
+    {
+      "id": "q4",
+      "type": "word_match",
+      "prompt": "What does お風呂 mean?",
+      "prompt_fr": "Que signifie お風呂 ?",
+      "word": "お風呂",
+      "options": ["Bath / Bathroom", "Kitchen", "Garden", "Entrance"],
+      "options_fr": ["Bain / Salle de bain", "Cuisine", "Jardin", "Entrée"],
+      "correctAnswer": "Bath / Bathroom",
+      "meaning_fr": "Bain / Salle de bain"
+    },
+    {
+      "id": "q5",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "＿＿で料理をします。(I cook in the kitchen)",
+      "sentence_fr": "＿＿で料理をします。(Je cuisine dans la cuisine)",
+      "options": ["台所", "寝室", "部屋", "庭"],
+      "correctAnswer": "台所",
+      "meaning_en": "kitchen",
+      "meaning_fr": "cuisine"
+    },
+    {
+      "id": "q6",
+      "type": "word_match",
+      "prompt": "What does 玄関 mean?",
+      "prompt_fr": "Que signifie 玄関 ?",
+      "word": "玄関",
+      "options": ["Entrance / Hallway", "Living room", "Balcony", "Stairs"],
+      "options_fr": ["Entrée / Hall", "Salon", "Balcon", "Escalier"],
+      "correctAnswer": "Entrance / Hallway",
+      "meaning_fr": "Entrée / Hall"
+    },
+    {
+      "id": "q7",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "＿＿に入ってください。(Please enter the room)",
+      "sentence_fr": "＿＿に入ってください。(Veuillez entrer dans la pièce)",
+      "options": ["部屋", "台所", "風呂", "庭"],
+      "correctAnswer": "部屋",
+      "meaning_en": "room",
+      "meaning_fr": "pièce"
+    }
+  ],
+  "translation": {
+    "en": "This lesson covers rooms and areas in a Japanese house.",
+    "fr": "Cette leçon couvre les pièces et espaces dans une maison japonaise."
+  }
+}

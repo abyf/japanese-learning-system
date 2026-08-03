@@ -1,0 +1,50 @@
+{
+  "id": "r059",
+  "title": "お弁当",
+  "titleEn": "Bento Boxes",
+  "text": "お<ruby>弁当<rt>べんとう</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>の<ruby>食文化<rt>しょくぶんか</rt></ruby>のひとつです。<ruby>学校<rt>がっこう</rt></ruby>や<ruby>会社<rt>かいしゃ</rt></ruby>に<ruby>持<rt>も</rt></ruby>って<ruby>行<rt>い</rt></ruby>きます。<ruby>母<rt>はは</rt></ruby>が<ruby>子供<rt>こども</rt></ruby>のために<ruby>作<rt>つく</rt></ruby>る<ruby>手作<rt>てづく</rt></ruby>りのお<ruby>弁当<rt>べんとう</rt></ruby>は<ruby>愛情<rt>あいじょう</rt></ruby>がこもっています。キャラ<ruby>弁<rt>べん</rt></ruby>はアニメのキャラクターの<ruby>形<rt>かたち</rt></ruby>に<ruby>作<rt>つく</rt></ruby>ったお<ruby>弁当<rt>べんとう</rt></ruby>です。コンビニのお<ruby>弁当<rt>べんとう</rt></ruby>も<ruby>種類<rt>しゅるい</rt></ruby>が<ruby>多<rt>おお</rt></ruby>くて<ruby>美味<rt>おい</rt></ruby>しいです。<ruby>駅弁<rt>えきべん</rt></ruby>は<ruby>駅<rt>えき</rt></ruby>で<ruby>売<rt>う</rt></ruby>っている<ruby>特別<rt>とくべつ</rt></ruby>なお<ruby>弁当<rt>べんとう</rt></ruby>で、<ruby>地方<rt>ちほう</rt></ruby>の<ruby>名物<rt>めいぶつ</rt></ruby>が<ruby>入<rt>はい</rt></ruby>っています。",
+  "difficulty": 0.55,
+  "level": "beginner",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What is obento?",
+      "options": ["レストランの食事", "日本の食文化のひとつ", "外国の料理", "お菓子"],
+      "correctAnswer": "日本の食文化のひとつ"
+    },
+    {
+      "id": "q2",
+      "question": "Where do people take bento?",
+      "options": ["公園だけ", "学校や会社", "病院", "レストラン"],
+      "correctAnswer": "学校や会社"
+    },
+    {
+      "id": "q3",
+      "question": "What is a charaben?",
+      "options": ["大きいお弁当", "アニメキャラクターの形のお弁当", "辛いお弁当", "冷たいお弁当"],
+      "correctAnswer": "アニメキャラクターの形のお弁当"
+    },
+    {
+      "id": "q4",
+      "question": "What is said about convenience store bento?",
+      "options": ["高い", "種類が少ない", "種類が多くて美味しい", "まずい"],
+      "correctAnswer": "種類が多くて美味しい"
+    },
+    {
+      "id": "q5",
+      "question": "What is ekiben?",
+      "options": ["家で作るお弁当", "駅で売っている特別なお弁当", "会社のお弁当", "学校のお弁当"],
+      "correctAnswer": "駅で売っている特別なお弁当"
+    },
+    {
+      "id": "q6",
+      "question": "What is in a homemade bento?",
+      "options": ["高い食材", "愛情", "外国の料理", "お菓子"],
+      "correctAnswer": "愛情"
+    }
+  ],
+  "translation": {
+    "en": "Bento is part of Japanese food culture. People take them to school and work. Homemade bento made by mothers for their children are filled with love. Charaben are bento made in the shape of anime characters. Convenience store bento also come in many varieties and are delicious. Ekiben are special bento sold at train stations that contain local specialties.",
+    "fr": "Le bento fait partie de la culture alimentaire japonaise. Les gens les emportent à l'école et au travail. Les bento faits maison par les mères pour leurs enfants sont remplis d'amour. Les charaben sont des bento en forme de personnages d'anime. Les bento de konbini sont aussi variés et délicieux. Les ekiben sont des bento spéciaux vendus dans les gares qui contiennent des spécialités locales."
+  }
+}

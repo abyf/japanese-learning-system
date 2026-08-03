@@ -1,0 +1,25 @@
+{
+  "id": "l005",
+  "title": "Asking for Directions",
+  "type": "multiple_choice",
+  "audioUrl": "/api/listening/intermediate/l005/audio",
+  "transcript": "すみません、この辺に郵便局はありますか。 郵便局ですか。ここからだと少し遠いですね。この道をまっすぐ行って、大きな交差点を左に曲がってください。そして、コンビニの隣にあります。歩いて十分くらいです。 バスで行けますか。 はい、あそこのバス停から三番のバスに乗って、二つ目で降りてください。バスなら三分くらいです。 ありがとうございます。バスにします。",
+  "questions": [
+    {
+      "question": "How far is the post office on foot?",
+      "options": ["3 minutes", "5 minutes", "10 minutes", "15 minutes"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "What bus number should they take?",
+      "options": ["Bus #1", "Bus #2", "Bus #3", "Bus #5"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "What landmark is next to the post office?",
+      "options": ["A bank", "A convenience store", "A school", "A park"],
+      "correctAnswer": 1
+    }
+  ],
+  "difficulty": 0.5
+}

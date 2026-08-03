@@ -1,0 +1,93 @@
+{
+  "id": "v025",
+  "title": "Basic Verbs 4",
+  "titleEn": "Basic Verbs 4",
+  "titleFr": "Verbes de base 4",
+  "level": "beginner",
+  "difficulty": 0.3,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of this kanji?",
+      "prompt_fr": "Quelle est la lecture de ce kanji ?",
+      "kanji": "寝",
+      "options": ["ね(る)", "お(きる)", "すわ(る)", "た(つ)"],
+      "correctAnswer": "ね(る)",
+      "meaning_en": "to sleep / to go to bed",
+      "meaning_fr": "dormir / se coucher"
+    },
+    {
+      "id": "q2",
+      "type": "word_match",
+      "prompt": "What does 起きる mean?",
+      "prompt_fr": "Que signifie 起きる ?",
+      "word": "起きる",
+      "options": ["To wake up / get up", "To sleep", "To sit down", "To stand up"],
+      "options_fr": ["Se réveiller / se lever", "Dormir", "S'asseoir", "Se lever (debout)"],
+      "correctAnswer": "To wake up / get up",
+      "meaning_fr": "Se réveiller / se lever"
+    },
+    {
+      "id": "q3",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of this kanji?",
+      "prompt_fr": "Quelle est la lecture de ce kanji ?",
+      "kanji": "座",
+      "options": ["すわ(る)", "た(つ)", "ね(る)", "お(きる)"],
+      "correctAnswer": "すわ(る)",
+      "meaning_en": "to sit down",
+      "meaning_fr": "s'asseoir"
+    },
+    {
+      "id": "q4",
+      "type": "word_match",
+      "prompt": "What does 立つ mean?",
+      "prompt_fr": "Que signifie 立つ ?",
+      "word": "立つ",
+      "options": ["To stand up", "To sit down", "To lie down", "To walk"],
+      "options_fr": ["Se lever (debout)", "S'asseoir", "S'allonger", "Marcher"],
+      "correctAnswer": "To stand up",
+      "meaning_fr": "Se lever (debout)"
+    },
+    {
+      "id": "q5",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "毎朝六時に＿＿ます。(I wake up at 6 every morning)",
+      "sentence_fr": "毎朝六時に＿＿ます。(Je me réveille à 6h chaque matin)",
+      "options": ["起き", "寝", "座り", "立ち"],
+      "correctAnswer": "起き",
+      "meaning_en": "to wake up",
+      "meaning_fr": "se réveiller"
+    },
+    {
+      "id": "q6",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "椅子に＿＿てください。(Please sit down on the chair)",
+      "sentence_fr": "椅子に＿＿てください。(Veuillez vous asseoir sur la chaise)",
+      "options": ["座っ", "立っ", "寝", "起き"],
+      "correctAnswer": "座っ",
+      "meaning_en": "to sit down",
+      "meaning_fr": "s'asseoir"
+    },
+    {
+      "id": "q7",
+      "type": "word_match",
+      "prompt": "What does 寝る mean?",
+      "prompt_fr": "Que signifie 寝る ?",
+      "word": "寝る",
+      "options": ["To sleep / go to bed", "To wake up", "To stand", "To sit"],
+      "options_fr": ["Dormir / se coucher", "Se réveiller", "Se lever", "S'asseoir"],
+      "correctAnswer": "To sleep / go to bed",
+      "meaning_fr": "Dormir / se coucher"
+    }
+  ],
+  "translation": {
+    "en": "This lesson covers daily action verbs: sleeping, waking up, sitting, and standing.",
+    "fr": "Cette leçon couvre les verbes d'actions quotidiennes : dormir, se réveiller, s'asseoir et se lever."
+  }
+}

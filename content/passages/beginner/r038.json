@@ -1,0 +1,56 @@
+{
+  "id": "r038",
+  "title": "自己紹介",
+  "titleEn": "Self Introduction Speech",
+  "text": "<ruby>来週<rt>らいしゅう</rt></ruby>、クラスで<ruby>自己紹介<rt>じこしょうかい</rt></ruby>のスピーチをします。<ruby>名前<rt>なまえ</rt></ruby>と<ruby>出身<rt>しゅっしん</rt></ruby>と<ruby>趣味<rt>しゅみ</rt></ruby>を<ruby>話<rt>はな</rt></ruby>します。<ruby>私<rt>わたし</rt></ruby>の<ruby>名前<rt>なまえ</rt></ruby>はたなかゆきです。<ruby>大阪<rt>おおさか</rt></ruby><ruby>出身<rt>しゅっしん</rt></ruby>です。<ruby>趣味<rt>しゅみ</rt></ruby>は<ruby>読書<rt>どくしょ</rt></ruby>と<ruby>写真<rt>しゃしん</rt></ruby>を<ruby>撮<rt>と</rt></ruby>ることです。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>先生<rt>せんせい</rt></ruby>になりたいです。<ruby>緊張<rt>きんちょう</rt></ruby>しますが、がんばります。<ruby>練習<rt>れんしゅう</rt></ruby>を<ruby>毎日<rt>まいにち</rt></ruby>しています。<ruby>友達<rt>ともだち</rt></ruby>にも<ruby>聞<rt>き</rt></ruby>いてもらっています。",
+  "difficulty": 0.42,
+  "level": "beginner",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "When is the speech?",
+      "options": ["今日", "明日", "来週", "来月"],
+      "correctAnswer": "来週"
+    },
+    {
+      "id": "q2",
+      "question": "What will the speaker talk about?",
+      "options": ["旅行の話", "名前と出身と趣味", "家族のこと", "学校のこと"],
+      "correctAnswer": "名前と出身と趣味"
+    },
+    {
+      "id": "q3",
+      "question": "Where is the speaker from?",
+      "options": ["東京", "大阪", "京都", "名古屋"],
+      "correctAnswer": "大阪"
+    },
+    {
+      "id": "q4",
+      "question": "What are the speaker's hobbies?",
+      "options": ["スポーツと音楽", "読書と写真を撮ること", "料理と旅行", "ゲームと映画"],
+      "correctAnswer": "読書と写真を撮ること"
+    },
+    {
+      "id": "q5",
+      "question": "What does the speaker want to be in the future?",
+      "options": ["医者", "先生", "エンジニア", "作家"],
+      "correctAnswer": "先生"
+    },
+    {
+      "id": "q6",
+      "question": "How does the speaker feel about the speech?",
+      "options": ["楽しみ", "緊張する", "退屈", "怒っている"],
+      "correctAnswer": "緊張する"
+    },
+    {
+      "id": "q7",
+      "question": "How often does the speaker practice?",
+      "options": ["時々", "週に一回", "毎日", "練習しない"],
+      "correctAnswer": "毎日"
+    }
+  ],
+  "translation": {
+    "en": "Next week, I will give a self-introduction speech in class. I will talk about my name, hometown, and hobbies. My name is Tanaka Yuki. I'm from Osaka. My hobbies are reading and taking photos. In the future, I want to become a teacher. I'm nervous, but I'll do my best. I practice every day. I also have my friends listen to it.",
+    "fr": "La semaine prochaine, je ferai un discours de présentation en classe. Je parlerai de mon nom, ma ville d'origine et mes loisirs. Mon nom est Tanaka Yuki. Je viens d'Osaka. Mes loisirs sont la lecture et la photographie. À l'avenir, je veux devenir professeur(e). Je suis nerveux(se), mais je vais faire de mon mieux. Je m'entraîne tous les jours. Je demande aussi à mes amis d'écouter."
+  }
+}

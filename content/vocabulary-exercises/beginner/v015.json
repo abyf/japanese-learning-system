@@ -1,0 +1,58 @@
+{
+  "id": "v015",
+  "title": "Directions & Places",
+  "titleEn": "Directions & Places",
+  "level": "beginner",
+  "difficulty": 0.3,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "kanji_recognition",
+      "prompt": "What is the reading of this kanji?",
+      "prompt_fr": "Quelle est la lecture de ce kanji ?",
+      "kanji": "駅",
+      "options": ["えき", "みせ", "まち", "みち"],
+      "correctAnswer": "えき",
+      "meaning_en": "station",
+      "meaning_fr": "gare"
+    },
+    {
+      "id": "q2",
+      "type": "word_match",
+      "prompt": "What does 病院 mean?",
+      "prompt_fr": "Que signifie 病院 ?",
+      "word": "病院",
+      "options": ["Hospital", "School", "Police station", "Library"],
+      "options_fr": ["Hôpital", "École", "Commissariat", "Bibliothèque"],
+      "correctAnswer": "Hospital",
+      "meaning_fr": "Hôpital"
+    },
+    {
+      "id": "q3",
+      "type": "sentence_completion",
+      "prompt": "Complete the sentence:",
+      "prompt_fr": "Complétez la phrase :",
+      "sentence": "銀行は＿＿にあります。(The bank is on the right)",
+      "sentence_fr": "銀行は＿＿にあります。(La banque est à droite)",
+      "options": ["右", "左", "上", "下"],
+      "correctAnswer": "右",
+      "meaning_en": "right",
+      "meaning_fr": "droite"
+    },
+    {
+      "id": "q4",
+      "type": "word_match",
+      "prompt": "What does 左 mean?",
+      "prompt_fr": "Que signifie 左 ?",
+      "word": "左",
+      "options": ["Left", "Right", "Straight", "Behind"],
+      "options_fr": ["Gauche", "Droite", "Tout droit", "Derrière"],
+      "correctAnswer": "Left",
+      "meaning_fr": "Gauche"
+    }
+  ],
+  "translation": {
+    "en": "This lesson covers directions and places vocabulary.",
+    "fr": "Cette leçon couvre le vocabulaire des directions et des lieux."
+  }
+}

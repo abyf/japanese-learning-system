@@ -1,0 +1,50 @@
+{
+  "id": "r065",
+  "title": "新幹線",
+  "titleEn": "Shinkansen",
+  "text": "<ruby>新幹線<rt>しんかんせん</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>の<ruby>高速鉄道<rt>こうそくてつどう</rt></ruby>です。<ruby>千九百六十四年<rt>せんきゅうひゃくろくじゅうよねん</rt></ruby>に<ruby>東京<rt>とうきょう</rt></ruby>オリンピックの<ruby>時<rt>とき</rt></ruby>に<ruby>開業<rt>かいぎょう</rt></ruby>しました。<ruby>最高速度<rt>さいこうそくど</rt></ruby>は<ruby>時速<rt>じそく</rt></ruby><ruby>三百二十<rt>さんびゃくにじゅう</rt></ruby>キロメートルです。<ruby>東京<rt>とうきょう</rt></ruby>から<ruby>大阪<rt>おおさか</rt></ruby>まで<ruby>約<rt>やく</rt></ruby><ruby>二時間半<rt>にじかんはん</rt></ruby>で<ruby>着<rt>つ</rt></ruby>きます。<ruby>新幹線<rt>しんかんせん</rt></ruby>はほとんど<ruby>遅<rt>おく</rt></ruby>れません。<ruby>車内<rt>しゃない</rt></ruby>は<ruby>静<rt>しず</rt></ruby>かで<ruby>快適<rt>かいてき</rt></ruby>です。お<ruby>弁当<rt>べんとう</rt></ruby>を<ruby>食<rt>た</rt></ruby>べながら<ruby>旅行<rt>りょこう</rt></ruby>するのが<ruby>楽<rt>たの</rt></ruby>しいです。",
+  "difficulty": 0.6,
+  "level": "beginner",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What is the Shinkansen?",
+      "options": ["飛行機", "高速鉄道", "バス", "船"],
+      "correctAnswer": "高速鉄道"
+    },
+    {
+      "id": "q2",
+      "question": "When did it start operating?",
+      "options": ["1954年", "1964年", "1974年", "1984年"],
+      "correctAnswer": "1964年"
+    },
+    {
+      "id": "q3",
+      "question": "What is its maximum speed?",
+      "options": ["時速220キロ", "時速280キロ", "時速320キロ", "時速400キロ"],
+      "correctAnswer": "時速320キロ"
+    },
+    {
+      "id": "q4",
+      "question": "How long from Tokyo to Osaka?",
+      "options": ["約一時間", "約二時間半", "約四時間", "約五時間"],
+      "correctAnswer": "約二時間半"
+    },
+    {
+      "id": "q5",
+      "question": "What is said about delays?",
+      "options": ["よく遅れる", "ほとんど遅れない", "いつも遅れる", "時々遅れる"],
+      "correctAnswer": "ほとんど遅れない"
+    },
+    {
+      "id": "q6",
+      "question": "What is enjoyable on the Shinkansen?",
+      "options": ["映画を見る", "お弁当を食べながら旅行する", "寝る", "仕事する"],
+      "correctAnswer": "お弁当を食べながら旅行する"
+    }
+  ],
+  "translation": {
+    "en": "The Shinkansen is Japan's high-speed railway. It started operating in 1964 during the Tokyo Olympics. Its maximum speed is 320 kilometers per hour. It takes about two and a half hours from Tokyo to Osaka. The Shinkansen is almost never late. The interior is quiet and comfortable. It's enjoyable to travel while eating a bento.",
+    "fr": "Le Shinkansen est le train à grande vitesse du Japon. Il a commencé à fonctionner en 1964 lors des Jeux olympiques de Tokyo. Sa vitesse maximale est de 320 kilomètres par heure. Il faut environ deux heures et demie de Tokyo à Osaka. Le Shinkansen n'est presque jamais en retard. L'intérieur est calme et confortable. C'est agréable de voyager en mangeant un bento."
+  }
+}
