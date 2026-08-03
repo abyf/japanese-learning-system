@@ -2,7 +2,7 @@
   "name": "japanese-learning-system",
   "version": "1.0.0",
   "description": "A fully offline desktop application for learning Japanese across three progressive levels",
-  "main": "main.js",
+  "main": "start.js",
   "scripts": {
     "start": "node start.js",
     "start:electron": "electron .",
@@ -23,9 +23,11 @@
     "sql.js": "^1.14.1"
   },
   "devDependencies": {
-    "electron": "^33.2.0",
-    "electron-builder": "^25.1.8",
     "fast-check": "^3.23.1"
+  },
+  "optionalDependencies": {
+    "electron": "^33.2.0",
+    "electron-builder": "^25.1.8"
   },
   "build": {
     "appId": "com.japanese-learning-system.app",
