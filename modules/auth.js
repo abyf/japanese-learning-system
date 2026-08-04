@@ -56,7 +56,7 @@ function verifyToken(token) {
  * @returns {Promise<{ userId: number, token: string }>} The new user ID and JWT token
  * @throws {Error} If validation fails or username is taken
  */
-async function register(db, username, password) {
+async function register(db, username, password, email) {
   // Validate inputs
   if (!username || typeof username !== 'string' || username.trim().length === 0) {
     throw new Error('Username is required');
@@ -78,9 +78,9 @@ async function register(db, username, password) {
   const passwordHash = await hashPassword(password);
 
   const insertUser = db.prepare(
-    'INSERT INTO users (username, password_hash) VALUES (?, ?)'
+    'INSERT INTO users (username, password_hash, email) VALUES (?, ?, ?)'
   );
-  const result = insertUser.run(trimmedUsername, passwordHash);
+  const result = insertUser.run(trimmedUsername, passwordHash, email || '');
   const userId = result.lastInsertRowid;
 
   // Create default settings record for the new user

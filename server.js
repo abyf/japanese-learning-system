@@ -10,6 +10,7 @@ const planRoutes = require('./routes/plan.routes');
 const contentRoutes = require('./routes/content.routes');
 const settingsRoutes = require('./routes/settings.routes');
 const curriculumRoutes = require('./routes/curriculum.routes');
+const adminRoutes = require('./routes/admin.routes');
 const { authMiddleware } = require('./middleware/auth.middleware');
 
 /**
@@ -67,6 +68,9 @@ async function createServer(options = {}) {
 
   // Auth routes (public - no middleware required)
   app.use('/api/auth', authRoutes);
+
+  // Admin routes (protected by admin key, not user auth)
+  app.use('/api/admin', adminRoutes);
 
   // Protect all other /api/ routes with auth middleware
   app.use('/api', authMiddleware);

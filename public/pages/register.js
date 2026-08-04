@@ -17,6 +17,10 @@
               '<input class="form__input" type="text" id="username" name="username" autocomplete="username" required>' +
             '</div>' +
             '<div class="form__group">' +
+              '<label class="form__label" for="email">Email</label>' +
+              '<input class="form__input" type="email" id="email" name="email" autocomplete="email" required placeholder="your@email.com">' +
+            '</div>' +
+            '<div class="form__group">' +
               '<label class="form__label" for="password">Password</label>' +
               '<input class="form__input" type="password" id="password" name="password" autocomplete="new-password" required>' +
               '<span class="form__hint">Minimum 4 characters</span>' +
@@ -40,6 +44,7 @@
   function handleSubmit(e) {
     e.preventDefault();
     var username = document.getElementById('username').value.trim();
+    var email = document.getElementById('email').value.trim();
     var password = document.getElementById('password').value;
     var confirmPassword = document.getElementById('confirm-password').value;
     var errorEl = document.getElementById('register-error');
@@ -65,7 +70,7 @@
       return;
     }
 
-    window.API.post('/auth/register', { username: username, password: password })
+    window.API.post('/auth/register', { username: username, email: email, password: password })
       .then(function() {
         window.location.hash = '#/dashboard';
       })

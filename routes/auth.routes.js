@@ -13,10 +13,10 @@ const router = express.Router();
  */
 router.post('/register', async (req, res) => {
   try {
-    const { username, password } = req.body;
+    const { username, password, email } = req.body;
     const db = req.app.locals.db;
 
-    const { userId, token } = await register(db, username, password);
+    const { userId, token } = await register(db, username, password, email);
 
     // Set JWT as httpOnly cookie
     res.cookie('token', token, {

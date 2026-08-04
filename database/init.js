@@ -6,7 +6,7 @@ const config = require('../config');
 /**
  * Current schema version. Increment when adding migrations.
  */
-const CURRENT_SCHEMA_VERSION = 4;
+const CURRENT_SCHEMA_VERSION = 5;
 
 /**
  * Full schema for initial database creation (version 1).
@@ -17,6 +17,7 @@ CREATE TABLE IF NOT EXISTS users (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     username TEXT UNIQUE NOT NULL,
     password_hash TEXT NOT NULL,
+    email TEXT DEFAULT '',
     current_level TEXT NOT NULL DEFAULT 'beginner',
     theme TEXT NOT NULL DEFAULT 'light',
     created_at TEXT NOT NULL DEFAULT (datetime('now')),
@@ -142,7 +143,8 @@ CREATE INDEX IF NOT EXISTS idx_curriculum_progress_user ON curriculum_progress(u
 const MIGRATIONS = [
   { version: 2, sql: "ALTER TABLE settings ADD COLUMN language TEXT NOT NULL DEFAULT 'en';" },
   { version: 3, sql: "CREATE TABLE IF NOT EXISTS curriculum_progress (id INTEGER PRIMARY KEY AUTOINCREMENT, user_id INTEGER NOT NULL REFERENCES users(id), week INTEGER NOT NULL, day INTEGER NOT NULL, completed INTEGER NOT NULL DEFAULT 0, completed_at TEXT, UNIQUE(user_id, week, day)); CREATE INDEX IF NOT EXISTS idx_curriculum_progress_user ON curriculum_progress(user_id, week, day);" },
-  { version: 4, sql: "CREATE TABLE IF NOT EXISTS external_activity_done (id INTEGER PRIMARY KEY AUTOINCREMENT, user_id INTEGER NOT NULL REFERENCES users(id), week INTEGER NOT NULL, day INTEGER NOT NULL, activity_index INTEGER NOT NULL, completed_at TEXT NOT NULL DEFAULT (datetime('now')), UNIQUE(user_id, week, day, activity_index));" }
+  { version: 4, sql: "CREATE TABLE IF NOT EXISTS external_activity_done (id INTEGER PRIMARY KEY AUTOINCREMENT, user_id INTEGER NOT NULL REFERENCES users(id), week INTEGER NOT NULL, day INTEGER NOT NULL, activity_index INTEGER NOT NULL, completed_at TEXT NOT NULL DEFAULT (datetime('now')), UNIQUE(user_id, week, day, activity_index));" },
+  { version: 5, sql: "ALTER TABLE users ADD COLUMN email TEXT DEFAULT '';" }
 ];
 
 /**
