@@ -1934,3 +1934,24 @@ textarea.input {
 .activity-card--done .activity-card__title {
   text-decoration: line-through;
 }
+
+
+/* ===== Tester Banner ===== */
+.tester-banner {
+  background: linear-gradient(135deg, rgba(124, 58, 237, 0.1), rgba(37, 99, 235, 0.1));
+  border: 1px solid rgba(124, 58, 237, 0.3);
+  border-radius: var(--radius);
+  padding: 1rem 1.5rem;
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.tester-banner p {
+  flex: 1;
+  min-width: 200px;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}

@@ -125,6 +125,17 @@
     }
 
     page.innerHTML =
+      // Tester banner
+      '<div class="tester-banner">' +
+        '<p>🙏 ' + t(
+          'Thank you for testing this Japanese learning system for beginners! Please spend at least 15 minutes exploring the app, then share your feedback:',
+          'Merci de tester ce système d\'apprentissage du japonais pour débutants ! Veuillez passer au moins 15 minutes à explorer l\'application, puis partagez vos retours :'
+        ) + '</p>' +
+        '<a href="https://forms.gle/36fpxtbzF25ntj6Y8" target="_blank" rel="noopener" class="btn btn--sm btn--accent">' +
+          t('Give Feedback ↗', 'Donner un retour ↗') +
+        '</a>' +
+      '</div>' +
+
       // Welcome
       '<div class="dashboard__welcome">' +
         '<h1>' + t('Welcome, ', 'Bienvenue, ') + escapeHtml(username) + '! 🎓</h1>' +
