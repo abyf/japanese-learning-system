@@ -26,6 +26,20 @@ router.post('/register', async (req, res) => {
     });
 
     res.status(201).json({ userId, username: username.trim() });
+
+    // Log registration to Google Sheet (fire and forget)
+    const sheetUrl = process.env.GOOGLE_SHEET_WEBHOOK;
+    if (sheetUrl) {
+      fetch(sheetUrl, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          date: new Date().toISOString(),
+          username: username.trim(),
+          email: email || ''
+        })
+      }).catch(() => {}); // Silently ignore errors
+    }
   } catch (err) {
     // Determine appropriate status code
     const message = err.message;
