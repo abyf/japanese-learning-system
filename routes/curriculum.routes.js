@@ -60,6 +60,13 @@ router.get('/week/:week', (req, res) => {
       return res.status(404).json({ error: 'Week not found' });
     }
 
+    // Inject Portuguese theme from translation file if available
+    const { loadTranslationFile } = require('../modules/translations');
+    const ptTranslations = loadTranslationFile('pt');
+    if (ptTranslations && ptTranslations.curriculum && ptTranslations.curriculum.weeks) {
+      weekData.themePt = ptTranslations.curriculum.weeks[String(weekNum)] || weekData.theme;
+    }
+
     res.json(weekData);
   } catch (err) {
     res.status(500).json({ error: 'Failed to retrieve week data' });
@@ -80,6 +87,13 @@ router.get('/today', (req, res) => {
 
     if (!dayData) {
       return res.status(404).json({ error: 'No activities found for current day' });
+    }
+
+    // Inject Portuguese theme from translation file
+    const { loadTranslationFile } = require('../modules/translations');
+    const ptTranslations = loadTranslationFile('pt');
+    if (ptTranslations && ptTranslations.curriculum && ptTranslations.curriculum.weeks) {
+      dayData.themePt = ptTranslations.curriculum.weeks[String(progress.currentWeek)] || dayData.theme;
     }
 
     res.json({

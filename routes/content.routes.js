@@ -20,6 +20,7 @@ const {
 const { recordCompletion } = require('../modules/progress');
 const { updateDifficultyScore } = require('../modules/adaptive');
 const { compareDictation } = require('../modules/dictation-compare');
+const { getTranslation, getAvailableLanguages } = require('../modules/translations');
 
 const router = express.Router();
 
@@ -54,6 +55,7 @@ router.get('/reading/:level', (req, res) => {
 /**
  * GET /api/reading/:level/:id
  * Get a specific reading passage with text, furigana data, and questions.
+ * Injects translations from language files when available.
  */
 router.get('/reading/:level/:id', (req, res) => {
   const { level, id } = req.params;
@@ -62,6 +64,20 @@ router.get('/reading/:level/:id', (req, res) => {
   if (passage.error) {
     return res.status(404).json(passage);
   }
+
+  // Inject translations from language files into passage.translation
+  const translations = require('../modules/translations');
+  const availableLangs = translations.getAvailableLanguages();
+  if (!passage.translation) passage.translation = {};
+  
+  availableLangs.forEach(lang => {
+    if (!passage.translation[lang]) {
+      const langData = translations.loadTranslationFile(lang);
+      if (langData && langData.passages && langData.passages[id] && langData.passages[id].translation) {
+        passage.translation[lang] = langData.passages[id].translation;
+      }
+    }
+  });
 
   res.json(passage);
 });
@@ -476,9 +492,11 @@ router.get('/vocabulary/:level/:id/audio', (req, res) => {
 /**
  * GET /api/vocab-exercises/:level
  * List all vocabulary exercises for a level with completion status.
+ * Supports ?lang= query param for translated titles.
  */
 router.get('/vocab-exercises/:level', (req, res) => {
   const { level } = req.params;
+  const lang = req.query.lang || 'en';
   const db = req.app.locals.db;
   const userId = req.user.userId;
   const exercises = listVocabularyExercises(level);
@@ -488,10 +506,29 @@ router.get('/vocab-exercises/:level', (req, res) => {
   ).all(userId, level);
   const completedSet = new Set(completedExercises.map(r => r.exercise_id));
 
-  const exercisesWithStatus = exercises.map(e => ({
-    ...e,
-    completed: completedSet.has(e.id)
-  }));
+  // Load translations for requested language
+  const translations = require('../modules/translations');
+  const langTranslations = translations.loadTranslationFile(lang);
+
+  const exercisesWithStatus = exercises.map(e => {
+    var title = e.title;
+    // Use translated title if available (check titles.vocabulary first, then vocabulary for backward compat)
+    if (lang !== 'en' && langTranslations) {
+      if (langTranslations.titles && langTranslations.titles.vocabulary && langTranslations.titles.vocabulary[e.id]) {
+        title = langTranslations.titles.vocabulary[e.id];
+      } else if (langTranslations.vocabulary && langTranslations.vocabulary[e.id] && langTranslations.vocabulary[e.id].title) {
+        title = langTranslations.vocabulary[e.id].title;
+      }
+    }
+    if (lang === 'fr' && title === e.title && e.titleFr) {
+      title = e.titleFr;
+    }
+    return {
+      ...e,
+      title: title,
+      completed: completedSet.has(e.id)
+    };
+  });
 
   res.json({ level, exercises: exercisesWithStatus });
 });
@@ -499,13 +536,47 @@ router.get('/vocab-exercises/:level', (req, res) => {
 /**
  * GET /api/vocab-exercises/:level/:id
  * Get a specific vocabulary exercise.
+ * Supports ?lang= query param for translated title and prompts.
  */
 router.get('/vocab-exercises/:level/:id', (req, res) => {
   const { level, id } = req.params;
+  const lang = req.query.lang || 'en';
   const exercise = getVocabularyExercise(level, id);
 
   if (exercise.error) {
     return res.status(404).json(exercise);
+  }
+
+  // Apply translated title and questions if available
+  if (lang !== 'en') {
+    const translations = require('../modules/translations');
+    const langTranslations = translations.loadTranslationFile(lang);
+    if (langTranslations) {
+      // Translate title
+      if (langTranslations.titles && langTranslations.titles.vocabulary && langTranslations.titles.vocabulary[id]) {
+        exercise.title = langTranslations.titles.vocabulary[id];
+      } else if (langTranslations.vocabulary && langTranslations.vocabulary[id] && langTranslations.vocabulary[id].title) {
+        exercise.title = langTranslations.vocabulary[id].title;
+      }
+      // Translate question prompts/options/sentences from translation file
+      if (langTranslations.vocabulary && langTranslations.vocabulary[id] && langTranslations.vocabulary[id].questions) {
+        const qTranslations = langTranslations.vocabulary[id].questions;
+        if (exercise.questions) {
+          exercise.questions.forEach((q, idx) => {
+            const qKey = q.id || ('q' + (idx + 1));
+            const qt = qTranslations[qKey];
+            if (qt) {
+              if (qt.prompt) q['prompt_' + lang] = qt.prompt;
+              if (qt.sentence) q['sentence_' + lang] = qt.sentence;
+              if (qt.options) q['options_' + lang] = qt.options;
+            }
+          });
+        }
+      }
+    }
+    if (lang === 'fr' && exercise.titleFr) {
+      exercise.title = exercise.titleFr;
+    }
   }
 
   res.json(exercise);
@@ -583,6 +654,54 @@ router.post('/vocab-exercises/:level/:id/submit', (req, res) => {
     correctAnswers: results.map(r => r.correctAnswer),
     completed: isCompleted
   });
+});
+
+// ─────────────────────────────────────────────────────────────────────────────
+// Translation Endpoints
+// ─────────────────────────────────────────────────────────────────────────────
+
+/**
+ * GET /api/translation/:lang/:type/:id
+ * Get translated content for a specific exercise in the requested language.
+ * 
+ * :lang - Language code (e.g., 'pt', 'fr')
+ * :type - Content type: 'passage' or 'vocabulary'
+ * :id   - Content identifier (e.g., 'r001', 'v005')
+ * 
+ * Returns the translation object or 404 if not available.
+ */
+router.get('/translation/:lang/:type/:id', (req, res) => {
+  const { lang, type, id } = req.params;
+
+  // Validate type parameter
+  const validTypes = ['passage', 'vocabulary'];
+  if (!validTypes.includes(type)) {
+    return res.status(400).json({ error: `Invalid type: ${type}. Must be one of: ${validTypes.join(', ')}` });
+  }
+
+  const translation = getTranslation(lang, type, id);
+
+  if (!translation) {
+    return res.status(404).json({
+      error: `Translation not found for ${type}/${id} in language: ${lang}`
+    });
+  }
+
+  res.json({
+    language: lang,
+    type: type,
+    id: id,
+    translation: translation
+  });
+});
+
+/**
+ * GET /api/translation/languages
+ * Get list of available content translation languages.
+ */
+router.get('/translation/languages', (req, res) => {
+  const languages = getAvailableLanguages();
+  res.json({ languages });
 });
 
 module.exports = router;

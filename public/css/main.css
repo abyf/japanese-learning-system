@@ -1955,3 +1955,20 @@ textarea.input {
   font-size: 0.95rem;
   line-height: 1.5;
 }
+
+
+/* ===== Language Selector in Navbar ===== */
+.navbar__lang-select {
+  padding: 0.3rem 0.5rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background-color: var(--bg);
+  color: var(--text);
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.navbar__lang-select:focus {
+  outline: none;
+  border-color: var(--primary);
+}

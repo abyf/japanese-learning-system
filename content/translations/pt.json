@@ -1,0 +1,510 @@
+{
+  "language": "pt",
+  "languageName": "Português",
+  "curriculum": {
+    "title": "Japonês para Iniciantes - Programa de 1 Ano",
+    "description": "Um programa cuidadosamente estruturado de 52 semanas seguindo a progressão natural de aprendizado do japonês: Hiragana → Katakana → Vocabulário básico → Gramática → Leitura → Conversação → Preparação JLPT.",
+    "weeks": {
+      "1": "Hiragana あ行-な行 + Cumprimentos Básicos",
+      "2": "Hiragana は行-ん + Números 1-10",
+      "3": "Revisão Hiragana + Cores e Primeira Leitura",
+      "4": "Katakana ア行-ナ行 + Dias da Semana",
+      "5": "Katakana ハ行-ン + Expressões Comuns",
+      "6": "Revisão Katakana + Primeira Escuta e Ditado",
+      "7": "Semana de Revisão - Todos os Hiragana/Katakana",
+      "8": "Avaliação de Base",
+      "9": "Partículas は/が + Membros da Família",
+      "10": "Partículas を/に/で + Verbos Básicos",
+      "11": "Forma ます + Mais Verbos",
+      "12": "Adjetivos い + Tempo e Calendário",
+      "13": "Adjetivos な + Vocabulário Escolar",
+      "14": "Palavras Interrogativas + Calendário/Meses",
+      "15": "Semana de Revisão - Consolidação Gramatical",
+      "16": "Avaliação da Fase 2",
+      "17": "Vocabulário de Comida e Bebida",
+      "18": "Clima e Natureza",
+      "19": "Direções e Transporte",
+      "20": "Compras e Dinheiro",
+      "21": "Casa e Palavras de Posição",
+      "22": "Corpo e Saúde",
+      "23": "Animais e Natureza",
+      "24": "Roupas e Contadores",
+      "25": "Semana de Revisão - Vocabulário do Cotidiano",
+      "26": "Avaliação da Fase 3",
+      "27": "Forma て + Verbos de Existência",
+      "28": "Mais Verbos + Hobbies e Interesses",
+      "29": "Advérbios + Sentimentos e Emoções",
+      "30": "Comunicação + Profissões",
+      "31": "Dar/Receber + Permissão e Obrigação",
+      "32": "Comparativo e Razões",
+      "33": "Rotinas Diárias + Planos e Revisão das Estações",
+      "34": "Semana de Revisão - Expansão Gramatical",
+      "35": "Tempo Passado + Negativos",
+      "36": "Querer/Poder + Opiniões",
+      "37": "Kanji Básico 1",
+      "38": "Kanji Básico 2",
+      "39": "Kanji Básico 3",
+      "40": "Kanji + Leitura Estendida",
+      "41": "Conjunções + Frases Complexas",
+      "42": "Semana de Revisão - Habilidades Aplicadas",
+      "43": "Onomatopeias + Viagem",
+      "44": "Tecnologia + Noções de Negócios",
+      "45": "Formas Polidas + Noções de Keigo",
+      "46": "Revisão Gramatical JLPT N5",
+      "47": "Revisão de Vocabulário JLPT N5",
+      "48": "Semana de Revisão - Preparação JLPT",
+      "49": "Prática JLPT N5",
+      "50": "Simulado JLPT N5 + Prévia N4",
+      "51": "Revisão Final",
+      "52": "Celebração + Próximos Passos"
+    }
+  },
+  "titles": {
+    "vocabulary": {
+      "v001": "Cumprimentos Básicos",
+      "v002": "Números 1-10",
+      "v003": "Dias da Semana",
+      "v004": "Membros da Família",
+      "v005": "Verbos Básicos 1",
+      "v006": "Verbos Básicos 2",
+      "v007": "Cores",
+      "v008": "Partes do Corpo",
+      "v009": "Tempo e Calendário",
+      "v010": "Palavras da Escola",
+      "v011": "Comida e Bebida",
+      "v012": "Clima",
+      "v013": "Adjetivos 1",
+      "v014": "Adjetivos 2",
+      "v015": "Direções e Lugares",
+      "v016": "Compras",
+      "v017": "Transporte",
+      "v018": "Natureza",
+      "v019": "Expressões Comuns",
+      "v020": "Partículas",
+      "v021": "Meses do Ano",
+      "v022": "Objetos da Sala de Aula",
+      "v023": "Cômodos da Casa",
+      "v024": "Verbos Básicos 3",
+      "v025": "Verbos Básicos 4",
+      "v026": "Roupas",
+      "v027": "Animais 1",
+      "v028": "Animais 2",
+      "v029": "Frutas e Legumes",
+      "v030": "Bebidas",
+      "v031": "Contadores Básicos",
+      "v032": "Palavras de Posição",
+      "v033": "Advérbios Comuns",
+      "v034": "Palavras Interrogativas",
+      "v035": "Verbos de Existência",
+      "v036": "Verbos na forma て",
+      "v037": "Hobbies e Interesses",
+      "v038": "Profissões",
+      "v039": "Estações e Meses (Revisão)",
+      "v040": "Dinheiro e Preços",
+      "v041": "Sentimentos e Emoções",
+      "v042": "Saúde e Corpo",
+      "v043": "Verbos de Comunicação",
+      "v044": "Dar e Receber",
+      "v045": "Permissão e Obrigação",
+      "v046": "Adjetivos い (Revisão)",
+      "v047": "Adjetivos な",
+      "v048": "Expressões Comparativas",
+      "v049": "Expressões de Tempo 2",
+      "v050": "Advérbios de Frequência",
+      "v051": "Locais na Cidade 2",
+      "v052": "Verbos de Movimento",
+      "v053": "Verbos de Culinária",
+      "v054": "Verbos do Cotidiano",
+      "v055": "Expressões sobre o Clima",
+      "v056": "Família (Formas Polidas)",
+      "v057": "Expressões Telefônicas",
+      "v058": "Correios",
+      "v059": "Vocabulário Hospitalar",
+      "v060": "Matérias Escolares",
+      "v061": "Verbos com を",
+      "v062": "Verbos com に",
+      "v063": "Verbos com で",
+      "v064": "Pedidos Polidos",
+      "v065": "Contando Pessoas e Coisas",
+      "v066": "Kanji: Números 1-10",
+      "v067": "Kanji: Dias da Semana",
+      "v068": "Kanji: Natureza",
+      "v069": "Kanji: Pessoas",
+      "v070": "Kanji: Lugares",
+      "v071": "Kanji: Ações",
+      "v072": "Kanji: Descritivo",
+      "v073": "Kanji: Tempo",
+      "v074": "Tempo Passado",
+      "v075": "Formas Negativas",
+      "v076": "Querer/Desejo",
+      "v077": "Poder/Habilidade",
+      "v078": "Dar Razões",
+      "v079": "Conjunções",
+      "v080": "Onomatopeias Básicas",
+      "v081": "Vocabulário de Viagem",
+      "v082": "Tecnologia Básica",
+      "v083": "Pontos Gramaticais JLPT N5",
+      "v084": "Frases Essenciais JLPT N5",
+      "v085": "Revisão Final JLPT N5"
+    }
+  },
+  "passages": {
+    "r001": {
+      "translation": "Minha família tem cinco pessoas. Pai, mãe, irmão mais velho, irmã mais nova e eu. Meu pai é funcionário de empresa. Ele vai à empresa de trem todos os dias. Minha mãe é enfermeira. Ela trabalha no hospital. Meu irmão mais velho é estudante universitário. Ele estuda engenharia. Minha irmã mais nova é aluna do ensino fundamental. Ela é boa em piano. Eu sou estudante do ensino médio. Todos os dias, nossa família janta junto. Aos domingos, vamos juntos ao parque. Eu amo minha família."
+    },
+    "r002": {
+      "translation": "Eu acordo às seis horas toda manhã. Lavo o rosto e tomo café da manhã. O café da manhã é sempre pão, ovos e café. Saio de casa às sete e meia. Caminho dez minutos até a estação. Vou à escola de trem. A escola começa às oito e meia. De manhã, há quatro aulas. Almoço com amigos na cantina. À tarde, há duas aulas. A escola termina às três. Depois da escola, treino no clube de tênis. Volto para casa às seis. Depois do jantar, faço lição de casa. Durmo às onze."
+    },
+    "r003": {
+      "translation": "Minha cidade fica perto de Tóquio. É uma cidade pequena, mas muito conveniente. Há um supermercado e uma loja de conveniência em frente à estação. Ao lado da estação, há um grande parque. O parque tem muitas cerejeiras. A primavera é muito bonita. A cidade também tem uma biblioteca. Vou à biblioteca toda semana. O hospital e o correio ficam a cinco minutos da estação. Também há muitos restaurantes. Há três restaurantes japoneses e um restaurante italiano. Eu gosto desta cidade."
+    },
+    "r004": {
+      "translation": "A comida japonesa é muito deliciosa. Há muitos pratos famosos. O sushi é o mais popular. É feito com peixe fresco e arroz. O ramen também é popular. A sopa quente e os macarrões são deliciosos. O tempurá é um prato de legumes e camarões fritos em óleo. No inverno, pratos de panela quente são populares. Comemos juntos com família e amigos. No verão, as pessoas comem somen frio. Os japoneses valorizam os alimentos da estação. Eu adoro a culinária japonesa."
+    },
+    "r005": {
+      "translation": "Meu hobby é tirar fotos. Todo fim de semana, saio com minha câmera. Gosto de fotos de flores e animais. Na primavera, tiro muitas fotos de cerejeiras em flor. O hobby do meu amigo Tanaka é cozinhar. Ele prepara novos pratos todos os dias. O hobby do Yamada é música. Ele toca guitarra. Às vezes, nós três saímos juntos. Eu tiro fotos, Tanaka prepara um bentô, e Yamada toca guitarra. É muito divertido."
+    },
+    "r006": {
+      "translation": "Minha escola é grande. Vou à escola às oito horas toda manhã. Minha sala de aula fica no terceiro andar. Há trinta alunos na minha turma. Estudo matemática, inglês e japonês. No intervalo do almoço, como meu bentô com meus amigos. Depois da escola, treino no clube de futebol. Eu gosto da escola."
+    },
+    "r007": {
+      "translation": "O Japão tem quatro estações. A primavera é quente. As cerejeiras florescem lindamente. O verão é muito quente. A temperatura chega a cerca de 35 graus todos os dias. O outono é fresco e as folhas de outono são bonitas. O inverno é frio. Nas regiões do norte, cai muita neve. Eu gosto mais da primavera."
+    },
+    "r008": {
+      "translation": "No sábado, fui ao supermercado com minha mãe. Compramos legumes, frutas e carne. As maçãs custavam 100 ienes cada. Também compramos leite. O total foi 2000 ienes. Há uma padaria ao lado do supermercado. Compramos três pães deliciosos. As compras foram divertidas."
+    },
+    "r009": {
+      "translation": "Meu quarto fica no segundo andar. O quarto não é muito espaçoso, mas eu gosto dele. Há uma mesa perto da janela. Na mesa, há um computador e livros. A cama fica ao lado da parede. Há muitos mangás na estante. Há três pôsteres na parede. Limpo meu quarto todos os dias."
+    },
+    "r010": {
+      "translation": "Os trens japoneses são muito convenientes. Muitas pessoas andam de trem todos os dias. Os trens sempre chegam no horário. De manhã, os trens estão muito lotados. Você pode comprar bilhetes nas máquinas da estação. Também pode usar cartões IC. É preciso ficar em silêncio dentro do trem. Não se pode falar ao telefone."
+    },
+    "r011": {
+      "translation": "Entrei no restaurante. A garçonete disse 'Bem-vindo!'. Sentei em uma mesa perto da janela. Li o cardápio. Pedi ramen e gyoza. A comida chegou em dez minutos. O ramen estava muito quente e delicioso. Depois de comer, paguei no caixa. O total foi 1200 ienes. Voltarei aqui."
+    },
+    "r012": {
+      "translation": "Este fim de semana tenho muitos planos. No sábado de manhã, vou à academia. À tarde, encontro amigos no café. Vamos estudar japonês juntos. À noite, assisto um filme em casa. No domingo, vou às compras com minha mãe. Depois, cozinho o jantar. É um fim de semana ocupado mas divertido."
+    },
+    "r013": {
+      "translation": "O Japão tem quatro estações distintas. Na primavera, as cerejeiras florescem e muitas pessoas fazem hanami. O verão é quente e úmido, com festivais de fogos de artifício. No outono, as folhas ficam vermelhas e amarelas. É a melhor estação para viajar. O inverno é frio, especialmente no norte. Muitas pessoas vão esquiar. Cada estação tem sua beleza especial."
+    },
+    "r014": {
+      "translation": "Hoje brinquei com meu amigo Kenji. Nos encontramos na estação às dez horas. Primeiro, fomos a uma loja de jogos. Kenji comprou um novo jogo. Depois, almoçamos em um restaurante de hambúrguer. À tarde, jogamos futebol no parque. Estávamos cansados, então tomamos sorvete. Voltei para casa às cinco. Foi um dia muito divertido."
+    },
+    "r015": {
+      "translation": "Meu animal de estimação é um gato chamado Tama. Tama tem três anos. Tem pelos brancos e olhos azuis. Gosta de dormir na minha cama. De manhã, sempre me acorda. Gosta de brincar com bolinhas. Às vezes derruba coisas da mesa. É travesso, mas muito fofo. Eu amo o Tama."
+    },
+    "r016": {
+      "translation": "O Japão tem muitos feriados. O Dia da Maioridade é em janeiro. Jovens de 20 anos usam quimonos bonitos. Em maio, há a Golden Week. Muitas pessoas viajam. Em novembro, há o Shichi-Go-San. Crianças de 3, 5 e 7 anos visitam santuários. O Ano Novo é o feriado mais importante. As famílias se reúnem e comem osechi."
+    },
+    "r017": {
+      "translation": "Acordo às seis e meia. Primeiro, lavo o rosto e escovo os dentes. Depois, me visto com o uniforme escolar. Tomo café da manhã com minha família. Hoje comi arroz, sopa de missô e peixe grelhado. Verifico minha mochila. Livros, cadernos, estojo — tudo pronto. Saio de casa às sete e quinze. Caminho até a estação em dez minutos."
+    },
+    "r018": {
+      "translation": "A biblioteca fica perto da minha casa. Vou lá toda semana. É um lugar silencioso e agradável. Há muitos livros e revistas. Também há computadores para usar a internet. Você pode pegar até cinco livros emprestados por duas semanas. Hoje peguei dois livros — um romance e um livro de culinária. Estudei na sala de leitura por duas horas. A biblioteca fecha às oito da noite."
+    },
+    "r019": {
+      "translation": "Gosto de esportes. Jogo futebol no clube da escola. Treinamos toda terça e quinta-feira. Nosso time tem quinze jogadores. O treinador é muito rígido, mas simpático. No fim de semana passado, tivemos um jogo. Ganhamos 3 a 1. Fiquei muito feliz. Meu amigo Yuki pratica natação. Ele nada 1000 metros todos os dias. Esportes são ótimos para a saúde."
+    },
+    "r020": {
+      "translation": "Hoje escrevi uma carta para minha avó. Minha avó mora em Osaka. Está longe, então não posso visitá-la com frequência. Na carta, escrevi sobre a escola, meus amigos e meu novo hobby. Também desenhei uma foto de Tama. Coloquei a carta em um envelope, colei o selo e fui ao correio. Espero que ela fique feliz ao recebê-la."
+    },
+    "r021": {
+      "translation": "A estação de trem é muito movimentada de manhã. Muitas pessoas vão trabalhar e estudar. Primeiro, compro um bilhete na máquina. Também posso usar o cartão Suica. Espero na plataforma. O trem chega pontualmente. Dentro do trem está lotado. Seguro na alça. Depois de três estações, desço. A estação tem muitas lojas e restaurantes."
+    },
+    "r022": {
+      "translation": "A loja de conveniência japonesa é muito prática. Está aberta 24 horas. Você pode comprar comida, bebidas, revistas e produtos do dia a dia. Também pode pagar contas e enviar encomendas. Há muitos onigiri e bentôs deliciosos. O café é barato e gostoso. O banheiro é limpo. Vou à loja de conveniência quase todos os dias."
+    },
+    "r023": {
+      "translation": "Hoje fui ao parque com minha irmã mais nova. O parque tem um playground, um lago e muitas árvores. Minha irmã brincou no balanço. Eu li um livro embaixo de uma árvore. Depois, fizemos um piquenique. Comemos sanduíches e suco. Vimos patos no lago. Também encontramos um cachorro amigável. O parque é um lugar relaxante."
+    },
+    "r024": {
+      "translation": "No sábado, fui ao cinema com amigos. O filme começava às duas da tarde. Chegamos trinta minutos antes e compramos ingressos. Também compramos pipoca e refrigerante. O filme era de ação. Foi muito emocionante. Depois do filme, conversamos sobre ele no café. Todos gostaram do filme. Quero ir ao cinema novamente mês que vem."
+    },
+    "r025": {
+      "translation": "Na semana passada, fui ao hospital porque estava com dor de garganta. A sala de espera estava lotada. Esperei trinta minutos. O médico examinou minha garganta. Disse que era um resfriado. Recebi remédio na farmácia do hospital. Precisei tomar o remédio três vezes ao dia. Depois de três dias, melhorei. É importante descansar quando está doente."
+    },
+    "r026": {
+      "translation": "O Ano Novo é o evento mais importante no Japão. As pessoas limpam a casa no final de dezembro. No dia 31, comem macarrão soba. Na noite de Ano Novo, os sinos dos templos tocam 108 vezes. No dia 1º de janeiro, visitam santuários. As crianças recebem otoshidama (dinheiro de presente). A família come osechi e mochi juntos. É uma época muito especial."
+    },
+    "r027": {
+      "translation": "O dia na escola começa às oito e trinta. Primeiro, há o horário de orientação. O professor verifica a presença. Depois, começam as aulas. Cada aula dura cinquenta minutos. Há um intervalo de dez minutos entre as aulas. O intervalo do almoço é às doze e trinta. Comemos na sala de aula. Depois do almoço, há o tempo de limpeza. Todos limpam a escola juntos."
+    },
+    "r028": {
+      "translation": "Hoje liguei para meu amigo no telefone. Primeiro, disquei o número. Meu amigo atendeu depois de três toques. Disse 'Alô, aqui é o Tanaka'. Conversamos sobre o dever de casa. Ele me explicou o problema de matemática. Falamos por vinte minutos. Antes de desligar, combinamos de nos encontrar amanhã. Telefonar é útil para falar com amigos."
+    },
+    "r029": {
+      "translation": "Minha família se mudou para uma nova casa no mês passado. A nova casa é maior que a antiga. Tem três quartos, uma sala, uma cozinha e dois banheiros. Meu quarto fica no segundo andar. Da janela, posso ver um parque. Ainda há muitas caixas para desembalar. Os vizinhos são simpáticos. Gosto da nossa nova casa."
+    },
+    "r030": {
+      "translation": "O transporte no Japão é muito desenvolvido. Há trens, metrôs, ônibus e táxis. O shinkansen (trem-bala) é muito rápido. Vai de Tóquio a Osaka em duas horas e meia. Os trens são sempre pontuais. Os ônibus são baratos e práticos. Os táxis são caros, mas confortáveis. Muitas pessoas usam bicicletas para percursos curtos."
+    },
+    "r031": {
+      "translation": "Recebi uma carta da minha amiga que mora na América. Ela escreveu em japonês. O japonês dela melhorou muito. Na carta, ela contou sobre sua escola e sua cidade. Também enviou fotos. A cidade dela parece bonita. Quero visitá-la algum dia. Vou escrever uma resposta amanhã. Ter uma amiga pen pal é muito legal."
+    },
+    "r032": {
+      "translation": "Comecei um trabalho de meio período em um café. Trabalho toda quarta e sexta depois da escola. Meu trabalho é servir bebidas e lavar louça. O salário é 1000 ienes por hora. Os colegas são gentis e me ensinam muitas coisas. Às vezes cometo erros, mas estou melhorando. Com o dinheiro que ganho, quero comprar um presente para minha mãe."
+    },
+    "r033": {
+      "translation": "Nas férias de verão, quero viajar para Kyoto. Kyoto tem muitos templos e santuários famosos. O Kinkaku-ji (Templo Dourado) é especialmente bonito. Também quero experimentar comida de Kyoto. Preciso pesquisar hotéis e transporte. A viagem de shinkansen de Tóquio a Kyoto leva cerca de duas horas. Vou com meus amigos. Estou muito animado."
+    },
+    "r034": {
+      "translation": "Os matsuri (festivais) japoneses são muito divertidos. No verão, há muitos festivais por todo o Japão. As pessoas usam yukata (quimono de verão). Há muitas barracas de comida — takoyaki, yakisoba e algodão-doce. À noite, há fogos de artifício. O som dos tambores taiko é emocionante. Dançamos o bon-odori juntos. É uma tradição importante."
+    },
+    "r035": {
+      "translation": "Hoje vou cozinhar curry japonês. Primeiro, corto a cebola, a cenoura e a batata. Depois, corto a carne em pedaços pequenos. Frito a carne na panela. Adiciono os legumes e água. Depois de ferver por vinte minutos, adiciono o roux de curry. Mexo bem e cozinho por mais dez minutos. Sirvo com arroz. O curry caseiro é delicioso."
+    },
+    "r036": {
+      "translation": "A biblioteca tem muitas regras. Precisa ficar em silêncio. Não pode comer nem beber. Precisa devolver os livros na data certa. Se atrasar, não pode pegar novos livros emprestados. Para fazer o cartão da biblioteca, precisa de um documento com foto. O cartão é gratuito. Os computadores podem ser usados por uma hora. A biblioteca é um recurso importante da comunidade."
+    },
+    "r037": {
+      "translation": "Hoje verifiquei a previsão do tempo. Amanhã vai chover de manhã, mas à tarde vai fazer sol. A temperatura será de 20 graus. Na quarta-feira, vai estar nublado. No fim de semana, vai fazer bom tempo. A temperatura vai subir para 25 graus. Preciso levar guarda-chuva amanhã. É importante verificar a previsão do tempo todos os dias."
+    },
+    "r038": {
+      "translation": "Olá, meu nome é Sato Yuki. Sou estudante do ensino médio. Tenho dezesseis anos. Moro em Yokohama com minha família. Gosto de ler livros e assistir anime. Estudo japonês, matemática e inglês. Minha matéria favorita é inglês. No futuro, quero estudar no exterior. Prazer em conhecê-lo."
+    },
+    "r039": {
+      "translation": "Na primavera, os japoneses fazem hanami (observar as cerejeiras). As cerejeiras florescem em março e abril. As pessoas colocam uma lona azul debaixo das árvores. Comem bentôs e bebem juntos. Alguns lugares famosos para hanami são o Parque Ueno e o Meguro River em Tóquio. À noite, as árvores são iluminadas. É muito bonito. O hanami é uma tradição importante no Japão."
+    },
+    "r040": {
+      "translation": "O Japão tem muitos terremotos. É importante estar preparado. Cada casa deve ter um kit de emergência. O kit contém água, comida, lanterna e rádio. Também é importante saber para onde evacuar. As escolas fazem simulações de terremoto regularmente. Quando um terremoto acontece, proteja a cabeça e esconda-se debaixo de uma mesa. Depois, desligue o gás e abra as portas."
+    },
+    "r041": {
+      "translation": "O Japão tem muitas regras de etiqueta. Tire os sapatos ao entrar em uma casa. Diga 'itadakimasu' antes de comer e 'gochisousama' depois. Não fale ao telefone no trem. Faça fila e espere sua vez. Não dê gorjeta em restaurantes. Ao dar um cartão de visita, use as duas mãos. Essas regras mostram respeito pelos outros."
+    },
+    "r042": {
+      "translation": "O onsen (fonte termal) é uma tradição importante no Japão. Existem muitos onsens por todo o país. A água quente é boa para a saúde e o relaxamento. Antes de entrar, precisa lavar o corpo. Não se pode usar roupa de banho. As toalhas não podem entrar na água. Há onsens ao ar livre também. No inverno, é especialmente agradável. Muitas pessoas vão ao onsen nas férias."
+    },
+    "r043": {
+      "translation": "Dentro do trem japonês, há várias regras. Precisa ficar em silêncio. Não se pode falar ao telefone. Coloque o celular no modo silencioso. Nos assentos prioritários, desligue o celular. Não coma comidas com cheiro forte. Deixe as pessoas saírem antes de entrar. Nos horários de pico, os trens ficam muito lotados. Tenha cuidado com suas coisas."
+    },
+    "r044": {
+      "translation": "Existem muitas formas de estudar japonês. Ouvir música japonesa ajuda com a pronúncia. Assistir anime com legendas em japonês é divertido e educativo. Escrever um diário em japonês todos os dias melhora a escrita. Flashcards são bons para memorizar kanji. Conversar com japoneses nativos é a melhor prática. Use vários métodos juntos para progredir mais rápido."
+    },
+    "r045": {
+      "translation": "Comprei presentes (omiyage) para minha família. Em Kyoto, comprei doces tradicionais para minha mãe. Para meu pai, comprei chá verde famoso. Para minha irmã, comprei um chaveiro bonito. No Japão, é costume comprar presentes quando viaja. As lojas de presentes nas estações e aeroportos têm muitas opções. É importante escolher algo especial de cada região."
+    },
+    "r046": {
+      "translation": "No Japão, há cumprimentos sazonais. Na primavera, dizemos 'A primavera chegou'. No verão, dizemos 'Faz muito calor, não é?'. No outono, 'O ar ficou fresco'. No inverno, 'Faz muito frio'. Nos cartões de Ano Novo, escrevemos 'Feliz Ano Novo'. No verão, enviamos cartões postais chamados 'shochu mimai'. Essas expressões mostram a conexão japonesa com as estações."
+    },
+    "r047": {
+      "translation": "A vida escolar no Japão é diferente de outros países. Os alunos limpam a escola todos os dias. Há atividades de clube depois das aulas. Os clubs incluem esportes, música, arte e ciências. Há festivais escolares onde os alunos fazem apresentações e vendem comida. O uniforme escolar é obrigatório na maioria das escolas. Os alunos também participam de viagens escolares."
+    },
+    "r048": {
+      "translation": "Hoje fui a uma loja de departamentos pela primeira vez. A loja é muito grande e tem muitos andares. No subsolo, há o setor de alimentos. O primeiro andar tem cosméticos e bolsas. O segundo e terceiro andares têm roupas. Os andares de cima têm restaurantes. Os funcionários são muito educados. Comprei um cachecol para minha amiga. A loja de departamentos é um lugar divertido."
+    },
+    "r049": {
+      "translation": "As férias de verão no Japão são de julho a agosto. As crianças recebem muita lição de casa. Precisam fazer um diário de observações e um projeto de pesquisa livre. Muitas famílias viajam para o campo ou para o mar. As crianças participam do rádio taiso (exercícios matinais). O último dia de férias é agitado — todos tentam terminar a lição. As férias de verão são a melhor época do ano."
+    },
+    "r050": {
+      "translation": "Estou fazendo um homestay na casa de uma família japonesa. A família Suzuki tem quatro pessoas. São muito gentis e me ensinam japonês todos os dias. Comemos juntos e conversamos. A mãe cozinha comida deliciosa. O filho me ensina palavras gírias. Visitamos templos e santuários nos fins de semana. Essa experiência é incrível. Meu japonês está melhorando muito."
+    },
+    "r051": {
+      "translation": "O café da manhã japonês tradicional é diferente do ocidental. Geralmente inclui arroz, sopa de missô, peixe grelhado, vegetais em conserva e tamagoyaki (omelete japonesa). Algumas pessoas preferem o estilo ocidental — pão, ovos e café. As crianças às vezes comem cereal. Os japoneses dizem que o café da manhã é a refeição mais importante. Comer bem de manhã dá energia para o dia."
+    },
+    "r052": {
+      "translation": "Hoje andei de ônibus pela primeira vez. A parada de ônibus fica em frente à estação. Entrei pela porta traseira e peguei um bilhete numerado. O ônibus fez muitas paradas. Apertei o botão quando minha parada apareceu no painel. Paguei na frente ao descer. O preço foi 210 ienes. O ônibus é mais lento que o trem, mas vai a lugares que o trem não vai."
+    },
+    "r053": {
+      "translation": "Muitas escolas japonesas têm uniforme. Os meninos geralmente usam calça preta e camisa branca. As meninas usam saia e blusa. No inverno, há um blazer ou suéter. No verão, o uniforme é mais leve. Alguns alunos gostam do uniforme porque não precisam escolher roupas. Outros preferem roupas normais. De qualquer forma, o uniforme é parte da cultura escolar japonesa."
+    },
+    "r054": {
+      "translation": "O celular é muito importante na vida japonesa. Quase todos têm um smartphone. As pessoas usam para ligar, enviar mensagens, tirar fotos e usar aplicativos. O LINE é o aplicativo de mensagens mais popular no Japão. Os japoneses também usam o celular para pagar em lojas. No trem, colocam o celular no modo silencioso. É descortês falar ao telefone em lugares públicos lotados."
+    },
+    "r055": {
+      "translation": "O Japão é famoso por suas quatro estações distintas. Cada estação tem flores, comidas e eventos especiais. A primavera traz as cerejeiras. O verão traz os girassóis e festivais. O outono traz as folhas coloridas e frutas. O inverno traz a neve e iluminações de Natal. Os japoneses apreciam a mudança das estações. Essa sensibilidade à natureza é parte importante da cultura."
+    },
+    "r056": {
+      "translation": "A separação de lixo no Japão é muito detalhada. Há categorias para lixo combustível, não-combustível, reciclável e lixo grande. O plástico, vidro, latas e papel são separados. Cada cidade tem regras diferentes e dias de coleta específicos. Garrafas PET devem ter a tampa e o rótulo removidos. É complicado no início, mas ajuda o meio ambiente. Todos cooperam para manter a cidade limpa."
+    },
+    "r057": {
+      "translation": "Os endereços japoneses são diferentes dos ocidentais. Começam com a área maior (prefeitura) e terminam com o número do edifício. Uma prefeitura tem cidades. As cidades têm distritos. Os distritos têm números de quadra e de edifício. Por exemplo: Tóquio, cidade de Shibuya, distrito de Jingumae 1-2-3. Às vezes é difícil encontrar um endereço, mesmo para japoneses."
+    },
+    "r058": {
+      "translation": "Os cartões de Ano Novo (nengajou) são uma tradição importante. Os japoneses enviam nengajou para amigos, família e colegas. Escrevem cumprimentos como 'Feliz Ano Novo' e 'Obrigado pelo ano passado'. Muitos decoram com o animal do zodíaco daquele ano. Os cartões devem chegar no dia 1º de janeiro. O correio guarda os cartões e os entrega todos no Ano Novo. Muitas pessoas recebem dezenas de cartões."
+    },
+    "r059": {
+      "translation": "O bentô é uma marmita japonesa. As mães japonesas fazem bentôs bonitos para seus filhos. Um bentô típico tem arroz, carne ou peixe, legumes e frutas. Alguns bentôs são muito artísticos — chamados 'kyaraben' (character bentô). Você também pode comprar bentôs em lojas de conveniência e estações de trem. Os bentôs de estação (ekiben) são famosos. Cada região tem seu ekiben especial."
+    },
+    "r060": {
+      "translation": "A música japonesa é diversa. J-Pop é o gênero mais popular. Bandas como AKB48 e artistas como Kenshi Yonezu são famosos. O enka é música tradicional japonesa, popular entre pessoas mais velhas. Instrumentos tradicionais incluem o shamisen, koto e shakuhachi. Os jovens também ouvem K-Pop e música ocidental. Karaokê é um hobby muito popular no Japão."
+    },
+    "r061": {
+      "translation": "Mangá e anime são parte importante da cultura japonesa. Muitos japoneses leem mangá — crianças e adultos. Há vários gêneros: aventura, romance, esportes e ficção científica. Mangás famosos como One Piece e Naruto são conhecidos mundialmente. O anime é a versão animada do mangá. Há lojas especializadas em Akihabara, Tóquio. Muitos turistas visitam o Japão por causa do anime e mangá."
+    },
+    "r062": {
+      "translation": "A história do Japão é muito longa. O período Jomon começou há mais de 10.000 anos. No período Nara, a capital era em Nara. No período Heian, era em Kyoto. Os samurais governaram durante o período Kamakura. O período Edo foi um tempo de paz por 260 anos. A era moderna começou em 1868 com a Restauração Meiji. Hoje, o Japão é um país moderno com tradições antigas."
+    },
+    "r063": {
+      "translation": "O Monte Fuji é a montanha mais alta do Japão, com 3.776 metros. É um símbolo do Japão. Muitas pessoas escalam o Monte Fuji no verão. A temporada de escalada é de julho a setembro. A escalada leva cerca de 5-7 horas. Muitas pessoas começam à noite para ver o nascer do sol no topo. O Monte Fuji é Patrimônio Mundial da UNESCO. É um vulcão, mas não entra em erupção desde 1707."
+    },
+    "r064": {
+      "translation": "A Torre de Tóquio foi construída em 1958. Tem 333 metros de altura. É vermelha e branca. Há dois observatórios — a plataforma principal (150m) e a plataforma superior (250m). De lá, pode-se ver toda Tóquio. À noite, a torre é iluminada. No inverno, a iluminação é laranja quente. No verão, é branca fria. A Torre de Tóquio ainda é um ponto turístico popular."
+    },
+    "r065": {
+      "translation": "O Shinkansen (trem-bala) é orgulho do Japão. Começou a funcionar em 1964, para as Olimpíadas de Tóquio. Pode atingir 320 km/h. Conecta as principais cidades do Japão. De Tóquio a Osaka, leva apenas 2 horas e meia. O Shinkansen é muito seguro — nunca houve um acidente fatal. Os trens são limpos e pontuais. É a melhor forma de viajar pelo Japão."
+    },
+    "r066": {
+      "translation": "Há dois tipos principais de comida no Japão: washoku (comida japonesa) e yoshoku (comida ocidental adaptada). Washoku inclui sushi, tempurá, soba e comida kaiseki. Yoshoku inclui curry japonês, hambúrguer hamburg steak, e omurice (omeleta com arroz). Os japoneses comem os dois tipos no dia a dia. Washoku foi declarado Patrimônio Cultural Imaterial pela UNESCO em 2013."
+    },
+    "r067": {
+      "translation": "As universidades japonesas são muito diferentes das escolas. Os alunos escolhem sua área de estudo (senmon). As aulas são maiores e mais independentes. Muitos estudantes moram sozinhos pela primeira vez. A vida universitária inclui clubes, trabalhos de meio período e estudo. As férias são longas — primavera e verão. Muitos estudantes procuram emprego no terceiro ano. A universidade é considerada o período mais livre da vida."
+    },
+    "r068": {
+      "translation": "A busca por emprego (shukatsu) no Japão é um processo longo. Começa no terceiro ano da universidade. Os estudantes participam de feiras de emprego e sessões de informação. Usam terno preto e camisa branca. Há muitas entrevistas e testes. O processo pode durar um ano. A maioria das empresas contrata em abril. Começar a trabalhar em uma empresa grande é o objetivo de muitos estudantes."
+    },
+    "r069": {
+      "translation": "O Japão é famoso por sua tecnologia. Empresas como Toyota, Sony e Nintendo são conhecidas mundialmente. Os banheiros japoneses têm funções avançadas. Os trens são extremamente pontuais graças à tecnologia. Os robôs são usados em fábricas e até em hotéis. O Japão também lidera em tecnologia de jogos. No entanto, muitas pessoas ainda usam fax e selos. É uma mistura interessante de antigo e moderno."
+    },
+    "r070": {
+      "translation": "O Obon é um festival budista em agosto. Acredita-se que os espíritos dos ancestrais voltam ao mundo dos vivos. As famílias se reúnem nas cidades natais. Visitam túmulos e fazem oferendas. Há danças tradicionais (bon-odori). Lanternas são acesas para guiar os espíritos. No final, as lanternas são colocadas nos rios. É um período de férias para muitas empresas."
+    },
+    "r071": {
+      "translation": "Tanabata é o festival das estrelas, celebrado em 7 de julho. A lenda conta a história de dois amantes — Orihime e Hikoboshi — que só podem se encontrar uma vez por ano. As pessoas escrevem desejos em papéis coloridos (tanzaku) e os penduram em bambus. Há decorações grandes nas ruas. O Tanabata de Sendai em agosto é especialmente famoso. É um festival romântico e bonito."
+    },
+    "r072": {
+      "translation": "O Hina Matsuri (Festival das Bonecas) é em 3 de março. É um dia para desejar saúde e felicidade às meninas. As famílias exibem bonecas decorativas em uma plataforma com vários níveis. As bonecas representam o imperador, a imperatriz e a corte. As meninas bebem amazake (bebida doce de arroz) e comem hina-arare (biscoitos coloridos). Depois de 3 de março, as bonecas devem ser guardadas rapidamente."
+    },
+    "r073": {
+      "translation": "O Dia das Crianças é em 5 de maio. É um feriado para desejar saúde e crescimento às crianças, especialmente meninos. As famílias penduram koinobori (bandeiras de carpa) do lado de fora. As carpas representam força e coragem. Dentro de casa, há capacetes e bonecas de samurai. As crianças comem kashiwa-mochi (bolo de arroz) e chimaki. É parte da Golden Week."
+    },
+    "r074": {
+      "translation": "O Natal no Japão é diferente dos países ocidentais. Não é feriado oficial. Os japoneses comem frango frito (geralmente KFC) e bolo de morango na véspera de Natal. É considerado um dia romântico para casais. As cidades têm belas iluminações de inverno. Papai Noel é conhecido como 'Santa-san'. As crianças recebem presentes. Não há tradição religiosa forte — é mais uma celebração comercial e social."
+    },
+    "r075": {
+      "translation": "O cinema japonês tem uma história rica. Diretores como Kurosawa Akira são famosos mundialmente. Seus filmes como 'Os Sete Samurais' influenciaram o cinema global. O Studio Ghibli faz filmes de animação premiados. 'A Viagem de Chihiro' ganhou o Oscar. Filmes de terror japonês como 'O Chamado' são populares internacionalmente. Hoje, filmes de anime como 'Demon Slayer' e 'Your Name' fazem sucesso enorme."
+    },
+    "r076": {
+      "translation": "O karaokê é um hobby muito popular no Japão. Há salas de karaokê (karaoke box) por toda parte. Grupos de amigos, famílias e até pessoas sozinhas usam. As salas são privadas e têm tela, microfone e sistema de som. Você pode escolher músicas de um catálogo enorme. Há bebidas e lanches disponíveis. Muitas pessoas vão depois do trabalho. Algumas salas ficam abertas a noite toda."
+    },
+    "r077": {
+      "translation": "A cultura do banho no Japão é especial. Os japoneses tomam banho na banheira (ofuro) toda noite. Primeiro, lavam o corpo fora da banheira. Depois, entram na água quente para relaxar. A água é compartilhada pela família. Os onsens (fontes termais) são versões públicas. Há regras importantes — lavar antes de entrar, não usar roupas, e não colocar toalha na água. O banho é um momento de relaxamento."
+    },
+    "r078": {
+      "translation": "A linguagem honorífica (keigo) é importante no japonês. Há três tipos: sonkeigo (respeitoso), kenjougo (humilde) e teineigo (polido). Usamos keigo com superiores, clientes e desconhecidos. Por exemplo, 'comer' tem formas diferentes: taberu (casual), tabemasu (polido), meshiagaru (respeitoso), itadaku (humilde). É difícil, mas importante para a comunicação profissional. Mesmo japoneses às vezes erram."
+    },
+    "r079": {
+      "translation": "A cultura de presentes (omiyage) é muito forte no Japão. Quando viaja, é esperado comprar presentes para colegas, amigos e família. Cada região tem suas especialidades — doces, biscoitos, artesanato. No trabalho, as pessoas trazem omiyage e os colocam na área comum. É importante dar presentes bonitos e bem embalados. A embalagem é quase tão importante quanto o conteúdo."
+    },
+    "r080": {
+      "translation": "O Japão tem máquinas de venda automática por toda parte — nas ruas, estações, escolas e até montanhas. Há mais de 5 milhões no país. Vendem bebidas quentes e frias, lanches, cigarros e até guarda-chuvas. Algumas vendem itens incomuns como bananas, flores ou sorvete. As bebidas custam entre 100 e 160 ienes. As máquinas funcionam 24 horas e são raramente vandalizadas. São parte do cotidiano japonês."
+    },
+    "r081": {
+      "translation": "Os cafés de gatos são populares no Japão. Você paga por tempo e pode brincar com os gatos. É relaxante e terapêutico. Muitas pessoas que moram em apartamentos não podem ter animais, então visitam esses cafés. Os gatos são bem cuidados e têm espaço para descansar. Há regras — não perseguir os gatos, não acordá-los. Também existem cafés de coelhos, corujas e até ouriços."
+    },
+    "r082": {
+      "translation": "As cerejeiras (sakura) são o símbolo mais famoso do Japão. Florescem entre março e abril, de sul a norte. A floração dura apenas uma a duas semanas. Isso representa a beleza efêmera na cultura japonesa. As pessoas fazem previsões de floração (sakura zensen). O hanami (observação das flores) é uma tradição de séculos. Há mais de 200 variedades de cerejeiras no Japão. A mais comum é a Yoshino."
+    },
+    "r083": {
+      "translation": "O JLPT (Japanese Language Proficiency Test) é o exame de proficiência em japonês mais conhecido. Tem cinco níveis: N5 (mais fácil) a N1 (mais difícil). O N5 exige conhecimento de hiragana, katakana, cerca de 100 kanji e vocabulário básico. O exame é aplicado duas vezes por ano, em julho e dezembro. Tem seções de vocabulário, gramática, leitura e compreensão auditiva. Estudar para o JLPT ajuda a ter metas claras."
+    },
+    "r084": {
+      "translation": "A gramática japonesa é diferente do português. O verbo sempre vem no final da frase. Há partículas que indicam a função das palavras. O sujeito é frequentemente omitido. Não há artigos (o, a, um). Os adjetivos se conjugam. Há dois sistemas de escrita fonética (hiragana e katakana) mais kanji. A ordem das palavras é SOV (sujeito-objeto-verbo). Com prática constante, a gramática se torna natural."
+    },
+    "r085": {
+      "translation": "Parabéns! Você completou um ano de estudo de japonês. Olhe para trás e veja quanto progrediu. Agora pode ler hiragana e katakana. Conhece kanji básicos. Pode se apresentar, fazer compras, pedir comida e entender conversas simples. Conhece a cultura japonesa — estações, festivais, etiqueta. O próximo passo é o nível intermediário. Continue estudando todos os dias. Japonês é difícil, mas vale a pena. Ganbatte (Boa sorte)!"
+    }
+  },
+  "vocabulary": {
+    "v001": {
+      "title": "Cumprimentos Básicos",
+      "translation": "Esta lição cobre cumprimentos básicos e expressões comuns do dia a dia.",
+      "questions": {
+        "q1": { "prompt": "Qual é a leitura deste kanji?", "meaning": "dia / sol" },
+        "q2": { "prompt": "O que significa おはよう?", "options": ["Bom dia", "Boa noite", "Obrigado", "Tchau"], "meaning": "Bom dia" },
+        "q3": { "prompt": "Complete a frase:", "sentence": "＿＿ ございます。(Bom dia - formal)", "meaning": "bom dia" },
+        "q4": { "prompt": "O que significa さようなら?", "options": ["Tchau", "Olá", "Boa noite", "Até mais"], "meaning": "Tchau" }
+      }
+    },
+    "v002": {
+      "title": "Números 1-10",
+      "translation": "Esta lição cobre os números de 1 a 10 em japonês.",
+      "questions": {
+        "q1": { "prompt": "Qual é a leitura deste kanji?", "meaning": "três" },
+        "q2": { "prompt": "Qual número é 七 (なな)?", "options": ["7", "4", "9", "6"], "meaning": "sete" },
+        "q3": { "prompt": "Complete a frase:", "sentence": "りんごが＿＿つあります。(Há 5 maçãs)", "meaning": "cinco (contador)" },
+        "q4": { "prompt": "O que significa este kanji?", "options": ["Dez", "Mil", "Cem", "Um"], "meaning": "Dez" }
+      }
+    },
+    "v003": {
+      "title": "Dias da Semana",
+      "translation": "Esta lição cobre os dias da semana em japonês.",
+      "questions": {
+        "q1": { "prompt": "Qual é a leitura deste kanji?", "meaning": "lua / segunda-feira" },
+        "q2": { "prompt": "Qual dia é 水曜日?", "options": ["Quarta-feira", "Quinta-feira", "Terça-feira", "Sexta-feira"], "meaning": "Quarta-feira" },
+        "q3": { "prompt": "Complete a frase:", "sentence": "今日は＿＿曜日です。(Hoje é sexta-feira)", "meaning": "Sexta-feira (ouro/metal)" },
+        "q4": { "prompt": "O que significa 日曜日?", "options": ["Domingo", "Sábado", "Segunda-feira", "Feriado"], "meaning": "Domingo" }
+      }
+    },
+    "v004": {
+      "title": "Membros da Família",
+      "translation": "Esta lição cobre o vocabulário de membros da família em japonês.",
+      "questions": {
+        "q1": { "prompt": "Qual é a leitura deste kanji?", "meaning": "mãe" },
+        "q2": { "prompt": "Complete a frase:", "sentence": "私の＿＿は会社員です。(Meu pai é funcionário de escritório)", "meaning": "pai" },
+        "q3": { "prompt": "O que significa 妹?", "options": ["Irmã mais nova", "Irmã mais velha", "Irmão mais novo", "Mãe"], "meaning": "Irmã mais nova" },
+        "q4": { "prompt": "O que significa este kanji?", "options": ["Irmão mais velho", "Irmão mais novo", "Pai", "Tio"], "meaning": "Irmão mais velho" }
+      }
+    },
+    "v005": {
+      "title": "Verbos Básicos 1",
+      "translation": "Esta lição cobre verbos básicos: comer, beber, ir e vir.",
+      "questions": {
+        "q1": { "prompt": "O que significa 食べる?", "options": ["Comer", "Beber", "Ir", "Vir"], "meaning": "Comer" },
+        "q2": { "prompt": "Qual é a leitura deste kanji?", "meaning": "beber" },
+        "q3": { "prompt": "Complete a frase:", "sentence": "学校に＿＿きます。(Eu vou à escola)", "meaning": "ir" },
+        "q4": { "prompt": "O que significa 来る?", "options": ["Vir", "Ir", "Voltar", "Sair"], "meaning": "Vir" }
+      }
+    },
+    "v006": {
+      "title": "Verbos Básicos 2",
+      "translation": "Esta lição cobre verbos de percepção e comunicação: ver, ouvir, ler, escrever.",
+      "questions": {
+        "q1": { "prompt": "Qual é a leitura deste kanji?", "meaning": "ler" },
+        "q2": { "prompt": "Complete a frase:", "sentence": "音楽を＿＿きます。(Eu ouço música)", "meaning": "ouvir" },
+        "q3": { "prompt": "O que significa 見る?", "options": ["Ver / Assistir", "Ouvir", "Ler", "Escrever"], "meaning": "Ver / Assistir" },
+        "q4": { "prompt": "O que significa este kanji?", "options": ["Escrever", "Ler", "Falar", "Desenhar"], "meaning": "Escrever" }
+      }
+    },
+    "v007": {
+      "title": "Cores",
+      "translation": "Esta lição cobre o vocabulário básico de cores em japonês.",
+      "questions": {
+        "q1": { "prompt": "O que significa este kanji?", "options": ["Vermelho", "Azul", "Branco", "Preto"], "meaning": "Vermelho" },
+        "q2": { "prompt": "O que significa 青い?", "options": ["Azul", "Verde", "Amarelo", "Vermelho"], "meaning": "Azul" },
+        "q3": { "prompt": "Complete a frase:", "sentence": "雪は＿＿いです。(A neve é branca)", "meaning": "branco" },
+        "q4": { "prompt": "O que significa 緑?", "options": ["Verde", "Amarelo", "Roxo", "Laranja"], "meaning": "Verde" }
+      }
+    },
+    "v008": {
+      "title": "Partes do Corpo",
+      "translation": "Esta lição cobre o vocabulário de partes do corpo em japonês.",
+      "questions": {
+        "q1": { "prompt": "Qual é a leitura deste kanji?", "meaning": "olho" },
+        "q2": { "prompt": "O que significa 耳?", "options": ["Orelha", "Olho", "Nariz", "Boca"], "meaning": "Orelha" },
+        "q3": { "prompt": "Complete a frase:", "sentence": "＿＿が痛いです。(Minha cabeça dói)", "meaning": "cabeça" },
+        "q4": { "prompt": "O que significa este kanji?", "options": ["Mão", "Pé", "Dedo", "Braço"], "meaning": "Mão" }
+      }
+    },
+    "v009": {
+      "title": "Tempo e Calendário",
+      "translation": "Esta lição cobre expressões de tempo e calendário em japonês.",
+      "questions": {
+        "q1": { "prompt": "O que significa 今日?", "options": ["Hoje", "Amanhã", "Ontem", "Esta semana"], "meaning": "Hoje" },
+        "q2": { "prompt": "Qual é a leitura deste kanji?", "meaning": "claro / próximo (dia)" },
+        "q3": { "prompt": "Complete a frase:", "sentence": "＿＿は雨でした。(Ontem choveu)", "meaning": "ontem" },
+        "q4": { "prompt": "O que significa 今週?", "options": ["Esta semana", "Semana passada", "Próxima semana", "Este mês"], "meaning": "Esta semana" }
+      }
+    },
+    "v010": {
+      "title": "Palavras da Escola",
+      "translation": "Esta lição cobre o vocabulário relacionado à escola em japonês.",
+      "questions": {
+        "q1": { "prompt": "Qual é a leitura deste kanji?", "meaning": "aprender / estudar" },
+        "q2": { "prompt": "Complete a frase:", "sentence": "＿＿で日本語を勉強します。(Eu estudo japonês na escola)", "meaning": "escola" },
+        "q3": { "prompt": "O que significa 先生?", "options": ["Professor", "Aluno", "Diretor", "Amigo"], "meaning": "Professor" },
+        "q4": { "prompt": "O que significa este kanji?", "options": ["Livro", "Mesa", "Caneta", "Papel"], "meaning": "Livro" }
+      }
+    }
+  }
+}

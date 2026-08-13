@@ -11,7 +11,17 @@
   }
 
   function t(en, fr) {
-    return window.App.getLanguage() === 'fr' ? fr : en;
+    var lang = window.App.getLanguage();
+    if (lang === 'fr') return fr || en;
+    if (lang === 'en') return en;
+    if (window.i18n) {
+      var allKeys = window.i18n.getAll(lang);
+      var enAll = window.i18n.getAll('en');
+      for (var key in enAll) {
+        if (enAll[key] === en && allKeys[key]) return allKeys[key];
+      }
+    }
+    return en;
   }
 
   function escapeHtml(str) {
@@ -54,7 +64,7 @@
     var container = document.querySelector('.curriculum__loading');
     if (!container) return;
 
-    var isFr = window.App.getLanguage() === 'fr';
+    var lang = window.App.getLanguage();
     var currentWeek = progress.currentWeek || 1;
     var currentDay = progress.currentDay || 1;
 
@@ -132,14 +142,14 @@
     var container = document.querySelector('.curriculum-week__loading');
     if (!container) return;
 
-    var isFr = window.App.getLanguage() === 'fr';
-    var theme = isFr ? weekData.themeFr : weekData.theme;
+    var lang = window.App.getLanguage();
+    var theme = lang === 'fr' ? weekData.themeFr : (lang === 'pt' ? (weekData.themePt || weekData.theme) : weekData.theme);
 
     var html = '<p class="curriculum-week__theme">🎯 ' + escapeHtml(theme) + '</p>';
     html += '<div class="curriculum-week__days">';
 
     weekData.days.forEach(function(day) {
-      var dayTitle = isFr ? day.titleFr : day.title;
+      var dayTitle = lang === 'fr' ? day.titleFr : (lang === 'pt' ? (day.titlePt || day.title) : day.title);
       var statusIcon = day.completed ? '✅' : (day.current ? '🟡' : (day.locked ? '🔒' : '⬜'));
       var dayClass = 'day-card';
       if (day.completed) dayClass += ' day-card--completed';
@@ -155,7 +165,7 @@
         '<div class="day-card__activities">';
 
       day.activities.forEach(function(a) {
-        var actTitle = isFr ? (a.titleFr || a.title) : a.title;
+        var actTitle = lang === 'fr' ? (a.titleFr || a.title) : (lang === 'pt' ? (a.titlePt || a.title) : a.title);
         var icon = getActivityIcon(a.type);
         var duration = a.duration ? ' (' + a.duration + 'min)' : '';
         var sourceTag = (a.type === 'external' || a.source === 'external')
@@ -217,9 +227,9 @@
     var container = document.querySelector('.curriculum-day__loading');
     if (!container) return;
 
-    var isFr = window.App.getLanguage() === 'fr';
-    var dayTitle = isFr ? dayData.titleFr : dayData.title;
-    var theme = isFr ? weekData.themeFr : weekData.theme;
+    var lang = window.App.getLanguage();
+    var dayTitle = lang === 'fr' ? dayData.titleFr : (lang === 'pt' ? (dayData.titlePt || dayData.title) : dayData.title);
+    var theme = lang === 'fr' ? weekData.themeFr : (lang === 'pt' ? (weekData.themePt || weekData.theme) : weekData.theme);
     var totalMinutes = dayData.activities.reduce(function(sum, a) { return sum + (a.duration || 0); }, 0);
 
     var html = '<div class="curriculum-day__info">' +
@@ -234,8 +244,8 @@
     html += '<h3>' + t('Activities', 'Activités') + '</h3>';
 
     dayData.activities.forEach(function(a, idx) {
-      var actTitle = isFr ? (a.titleFr || a.title) : a.title;
-      var actDesc = isFr ? (a.descriptionFr || a.description || '') : (a.description || '');
+      var actTitle = lang === 'fr' ? (a.titleFr || a.title) : (lang === 'pt' ? (a.titlePt || a.title) : a.title);
+      var actDesc = lang === 'fr' ? (a.descriptionFr || a.description || '') : (lang === 'pt' ? (a.descriptionPt || a.description || '') : (a.description || ''));
       var icon = getActivityIcon(a.type);
       var duration = a.duration ? a.duration + ' min' : '';
 

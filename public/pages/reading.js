@@ -50,8 +50,8 @@
       '<div class="reading__header">' +
         '<h1>' + escapeHtml(title) + '</h1>' +
         '<div class="reading__controls">' +
-          '<button class="btn btn--small" id="furigana-toggle">Furigana: ON</button>' +
-          '<button class="btn btn--small" id="meaning-toggle">Meaning: OFF</button>' +
+          '<button class="btn btn--small" id="furigana-toggle">' + window.i18n('reading.furiganaOn') + '</button>' +
+          '<button class="btn btn--small" id="meaning-toggle">' + window.i18n('reading.meaningOff') + '</button>' +
         '</div>' +
       '</div>' +
       '<div class="reading__passage' + (showFurigana ? ' reading__passage--furigana' : '') + '" id="reading-text">' +
@@ -62,7 +62,7 @@
       '</div>' +
       '<div id="dictionary-popup" class="dictionary-popup" hidden></div>' +
       '<div class="reading__questions">' +
-        '<h2>Comprehension Questions</h2>' +
+        '<h2>' + window.i18n('reading.comprehension') + '</h2>' +
         '<form id="reading-form">' +
           questions.map(function(q, i) {
             return '<div class="question">' +
@@ -76,8 +76,8 @@
             '</div>';
           }).join('') +
           '<div class="form__actions mt-3">' +
-            '<button class="btn btn--primary" type="submit">Submit Answers</button>' +
-            ' <a href="#/level/' + level + '/reading" class="btn btn--secondary">← Back</a>' +
+            '<button class="btn btn--primary" type="submit">' + window.i18n('activity.submit') + '</button>' +
+            ' <a href="#/level/' + level + '/reading" class="btn btn--secondary">' + window.i18n('activity.back') + '</a>' +
           '</div>' +
         '</form>' +
       '</div>' +
@@ -108,7 +108,7 @@
       textEl.classList.toggle('reading__passage--furigana', showFurigana);
     }
     if (btn) {
-      btn.textContent = 'Furigana: ' + (showFurigana ? 'ON' : 'OFF');
+      btn.textContent = showFurigana ? window.i18n('reading.furiganaOn') : window.i18n('reading.furiganaOff');
     }
   }
 
@@ -119,7 +119,7 @@
     var content = document.getElementById('meaning-content');
 
     if (btn) {
-      btn.textContent = 'Meaning: ' + (showMeaning ? 'ON' : 'OFF');
+      btn.textContent = showMeaning ? window.i18n('reading.meaningOn') : window.i18n('reading.meaningOff');
     }
     if (box) {
       box.hidden = !showMeaning;
@@ -224,19 +224,19 @@
     if (isCompleted) {
       statusHtml = '<div class="result-banner result-banner--success">' +
         '<span class="result-banner__icon">🎉</span>' +
-        '<span class="result-banner__text">Exercise Completed!</span>' +
+        '<span class="result-banner__text">' + window.i18n('result.completed') + '</span>' +
       '</div>';
     } else {
       statusHtml = '<div class="result-banner result-banner--retry">' +
         '<span class="result-banner__icon">📝</span>' +
-        '<span class="result-banner__text">Not quite — try again to complete this exercise</span>' +
+        '<span class="result-banner__text">' + window.i18n('result.notQuite') + '</span>' +
       '</div>';
     }
 
     resultsEl.innerHTML =
       statusHtml +
-      '<h2>Results</h2>' +
-      '<p class="reading__score ' + (pct >= 80 ? 'text-success' : '') + '">Score: ' + correctCount + ' / ' + total + ' (' + pct + '%)</p>' +
+      '<h2>' + window.i18n('result.score') + '</h2>' +
+      '<p class="reading__score ' + (pct >= 80 ? 'text-success' : '') + '">' + window.i18n('result.score') + ': ' + correctCount + ' / ' + total + ' (' + pct + '%)</p>' +
       '<ul class="reading__answers">' +
         correctAnswers.map(function(ans, i) {
           var userResult = (result.results && result.results[i]) || {};
@@ -247,8 +247,8 @@
       '</ul>' +
       '<div class="reading__actions mt-3">' +
         (isCompleted
-          ? '<a href="#/level/' + passage.level + '/reading" class="btn">Next Exercise →</a>'
-          : '<button class="btn btn--primary" id="retry-btn">Retry</button>') +
+          ? '<a href="#/level/' + passage.level + '/reading" class="btn">' + window.i18n('activity.nextExercise') + '</a>'
+          : '<button class="btn btn--primary" id="retry-btn">' + window.i18n('activity.retry') + '</button>') +
         ' <a href="' + getBackUrl() + '" class="btn btn--secondary">' + getBackLabel() + '</a>' +
       '</div>';
 
@@ -288,8 +288,8 @@
 
   function getBackLabel() {
     var hash = window.location.hash || '';
-    if (hash.indexOf('from=curriculum') !== -1) return 'Back to Curriculum';
-    return 'Dashboard';
+    if (hash.indexOf('from=curriculum') !== -1) return window.i18n('activity.backToCurriculum');
+    return window.i18n('nav.dashboard');
   }
 
   function escapeHtml(str) {

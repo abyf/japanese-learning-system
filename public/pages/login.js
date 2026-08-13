@@ -13,18 +13,18 @@
           '<p class="auth-card__subtitle">Japanese Learning System</p>' +
           '<form id="login-form" class="form" novalidate>' +
             '<div class="form__group">' +
-              '<label class="form__label" for="username">Username</label>' +
+              '<label class="form__label" for="username">' + window.i18n('auth.username') + '</label>' +
               '<input class="form__input" type="text" id="username" name="username" autocomplete="username" required>' +
             '</div>' +
             '<div class="form__group">' +
-              '<label class="form__label" for="password">Password</label>' +
+              '<label class="form__label" for="password">' + window.i18n('auth.password') + '</label>' +
               '<input class="form__input" type="password" id="password" name="password" autocomplete="current-password" required>' +
             '</div>' +
             '<div id="login-error" class="form__error" role="alert" hidden></div>' +
-            '<button class="btn btn--primary btn--block" type="submit">Login</button>' +
+            '<button class="btn btn--primary btn--block" type="submit">' + window.i18n('auth.login') + '</button>' +
           '</form>' +
           '<p class="auth-card__footer">' +
-            'Don\'t have an account? <a href="#/register">Register</a>' +
+            window.i18n('auth.noAccount') + ' <a href="#/register">' + window.i18n('auth.register') + '</a>' +
           '</p>' +
         '</div>' +
       '</div>';
@@ -52,7 +52,7 @@
         window.location.hash = '#/dashboard';
       })
       .catch(function() {
-        errorEl.textContent = 'Invalid username or password';
+        errorEl.textContent = window.i18n('auth.invalidCredentials');
         errorEl.hidden = false;
       });
   }

@@ -69,10 +69,10 @@
 
   function renderActivities(level) {
     var activities = [
-      { key: 'reading', name: 'Reading', icon: '📖' },
-      { key: 'listening', name: 'Listening', icon: '🎧' },
-      { key: 'dictation', name: 'Dictation', icon: '✍️' },
-      { key: 'vocabulary', name: 'Vocabulary', icon: '📝' }
+      { key: 'reading', name: window.i18n('activity.reading'), icon: '📖' },
+      { key: 'listening', name: window.i18n('activity.listening'), icon: '🎧' },
+      { key: 'dictation', name: window.i18n('activity.dictation'), icon: '✍️' },
+      { key: 'vocabulary', name: window.i18n('activity.vocabulary'), icon: '📝' }
     ];
 
     return '<div class="level-card__activities">' +
@@ -115,15 +115,15 @@
     var levelName = levelNames[level] || level;
 
     var activities = [
-      { key: 'reading', name: 'Reading', icon: '📖', route: '#/level/' + level + '/reading' },
-      { key: 'listening', name: 'Listening', icon: '🎧', route: '#/level/' + level + '/listening' },
-      { key: 'dictation', name: 'Dictation', icon: '✍️', route: '#/level/' + level + '/dictation' },
-      { key: 'vocabulary', name: 'Vocabulary', icon: '📝', route: '#/level/' + level + '/vocabulary' }
+      { key: 'reading', name: window.i18n('activity.reading'), icon: '📖', route: '#/level/' + level + '/reading' },
+      { key: 'listening', name: window.i18n('activity.listening'), icon: '🎧', route: '#/level/' + level + '/listening' },
+      { key: 'dictation', name: window.i18n('activity.dictation'), icon: '✍️', route: '#/level/' + level + '/dictation' },
+      { key: 'vocabulary', name: window.i18n('activity.vocabulary'), icon: '📝', route: '#/level/' + level + '/vocabulary' }
     ];
 
     page.innerHTML =
       '<div class="level-detail__header">' +
-        '<a href="#/levels" class="btn btn--small">← Back to Levels</a>' +
+        '<a href="#/levels" class="btn btn--small">' + window.i18n('activity.back') + '</a>' +
         '<h1>' + levelName + '</h1>' +
       '</div>' +
       '<div class="level-detail__activities">' +
@@ -146,10 +146,10 @@
     var app = document.getElementById('app');
 
     var activityNames = {
-      reading: 'Reading 📖',
-      listening: 'Listening 🎧',
-      dictation: 'Dictation ✍️',
-      vocabulary: 'Vocabulary 📝'
+      reading: window.i18n('activity.reading') + ' 📖',
+      listening: window.i18n('activity.listening') + ' 🎧',
+      dictation: window.i18n('activity.dictation') + ' ✍️',
+      vocabulary: window.i18n('activity.vocabulary') + ' 📝'
     };
 
     var activityName = activityNames[activity] || activity;
@@ -163,10 +163,10 @@
     app.innerHTML = renderNav('levels') +
       '<div class="page page--activity-list">' +
         '<div class="activity-list__header">' +
-          '<a href="#/level/' + level + '" class="btn btn--sm btn--secondary">← Back</a>' +
+          '<a href="#/level/' + level + '" class="btn btn--sm btn--secondary">' + window.i18n('activity.back') + '</a>' +
           '<h1>' + activityName + ' — ' + level.charAt(0).toUpperCase() + level.slice(1) + '</h1>' +
         '</div>' +
-        '<div class="activity-list__loading">Loading exercises...</div>' +
+        '<div class="activity-list__loading">' + window.i18n('general.loading') + '</div>' +
       '</div>';
 
     // Fetch exercise list from API
@@ -203,7 +203,7 @@
 
     loadingEl.innerHTML = 
       '<div class="exercise-list__summary mb-2">' +
-        '<span class="text-secondary">' + completedCount + ' / ' + exercises.length + ' completed</span>' +
+        '<span class="text-secondary">' + completedCount + ' / ' + exercises.length + ' ' + window.i18n('curriculum.completed') + '</span>' +
       '</div>' +
       '<div class="exercise-grid">' +
       exercises.map(function(ex, idx) {
@@ -216,7 +216,7 @@
         return '<a href="' + routePrefix + id + '" class="' + cardClass + '">' +
           '<span class="exercise-card__number' + (completed ? ' exercise-card__number--done' : '') + '">' + icon + '</span>' +
           '<span class="exercise-card__title">' + title + '</span>' +
-          (completed ? '<span class="exercise-card__badge">✓ Done</span>' : '') +
+          (completed ? '<span class="exercise-card__badge">✓ ' + window.i18n('activity.done') + '</span>' : '') +
         '</a>';
       }).join('') +
     '</div>';

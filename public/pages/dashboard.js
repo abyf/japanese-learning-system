@@ -10,7 +10,20 @@
   }
 
   function t(en, fr) {
-    return window.App.getLanguage() === 'fr' ? fr : en;
+    var lang = window.App.getLanguage();
+    if (lang === 'fr') return fr || en;
+    if (lang === 'en') return en;
+    // For other languages, try i18n key lookup by matching the English text
+    // This is a bridge: pages still call t('English','French') but we check i18n for other languages
+    if (window.i18n) {
+      var allKeys = window.i18n.getAll(lang);
+      // Search for a key whose English value matches
+      var enAll = window.i18n.getAll('en');
+      for (var key in enAll) {
+        if (enAll[key] === en && allKeys[key]) return allKeys[key];
+      }
+    }
+    return en; // fallback to English
   }
 
   function render() {
@@ -66,19 +79,33 @@
 
     var username = (user && user.username) || '';
     var lang = window.App.getLanguage();
-    var isFr = lang === 'fr';
 
     var currentWeek = (progress && progress.currentWeek) || 1;
     var currentDay = (progress && progress.currentDay) || 1;
     var percentComplete = (progress && progress.percentComplete) || 0;
     var totalWeeks = (progress && progress.totalWeeks) || 52;
 
-    var programTitle = isFr ? (progress && progress.titleFr) : (progress && progress.title);
-    var programDesc = isFr ? (progress && progress.descriptionFr) : (progress && progress.description);
+    var programTitle = progress && progress.title;
+    var programDesc = progress && progress.description;
+    if (lang === 'fr') {
+      programTitle = (progress && progress.titleFr) || programTitle;
+      programDesc = (progress && progress.descriptionFr) || programDesc;
+    } else if (lang !== 'en') {
+      // For other languages (pt, etc.), use i18n key lookup
+      programTitle = window.i18n('general.programTitle');
+      programDesc = window.i18n('general.programDesc');
+    }
 
     // Today's data
-    var todayTitle = today ? (isFr ? today.titleFr : today.title) : '';
-    var todayTheme = today ? (isFr ? today.themeFr : today.theme) : '';
+    var todayTitle = today ? today.title : '';
+    var todayTheme = today ? today.theme : '';
+    if (lang === 'fr' && today) {
+      todayTitle = today.titleFr || todayTitle;
+      todayTheme = today.themeFr || todayTheme;
+    } else if (lang === 'pt' && today) {
+      todayTitle = today.titlePt || todayTitle;
+      todayTheme = today.themePt || todayTheme;
+    }
     var activities = (today && today.activities) || [];
 
     // Progress bar
@@ -87,7 +114,9 @@
 
     // Activities list
     var activitiesHtml = activities.map(function(a, idx) {
-      var actTitle = isFr ? (a.titleFr || a.title) : a.title;
+      var actTitle = a.title;
+      if (lang === 'fr') actTitle = a.titleFr || actTitle;
+      else if (lang === 'pt') actTitle = a.titlePt || actTitle;
       var icon = getActivityIcon(a.type);
       var sourceTag = a.source === 'external' 
         ? ' <span class="tag tag--external">' + t('External', 'Externe') + '</span>' 
@@ -112,14 +141,17 @@
     // Week days status
     var weekDaysHtml = '';
     if (weekData && weekData.days) {
-      var dayNames = isFr 
+      var dayNames = lang === 'fr' 
         ? ['Lun', 'Mar', 'Mer', 'Jeu', 'Ven', 'Sam', 'Dim']
+        : lang === 'pt'
+        ? ['Seg', 'Ter', 'Qua', 'Qui', 'Sex', 'Sáb', 'Dom']
         : ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
       
       weekDaysHtml = weekData.days.map(function(d, i) {
         var status = d.completed ? '✓' : (d.current ? '●' : '○');
         var cls = d.completed ? 'day--done' : (d.current ? 'day--current' : (d.locked ? 'day--locked' : 'day--available'));
-        return '<span class="week-day ' + cls + '" title="' + (isFr ? d.titleFr : d.title) + '">' + 
+        var dayLabel = lang === 'fr' ? d.titleFr : (lang === 'pt' ? (d.titlePt || d.title) : d.title);
+        return '<span class="week-day ' + cls + '" title="' + dayLabel + '">' + 
           dayNames[i] + ' ' + status + '</span>';
       }).join(' ');
     }

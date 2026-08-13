@@ -13,7 +13,7 @@
 
     /**
      * Get the current language preference.
-     * @returns {string} 'en' or 'fr'
+     * @returns {string} Language code (e.g., 'en', 'fr', 'pt')
      */
     getLanguage: function() {
       return localStorage.getItem('jls-language') || 'en';
@@ -21,10 +21,13 @@
 
     /**
      * Set the language preference.
-     * @param {string} lang - 'en' or 'fr'
+     * @param {string} lang - Language code (e.g., 'en', 'fr', 'pt')
      */
     setLanguage: function(lang) {
-      var valid = (lang === 'fr') ? 'fr' : 'en';
+      var supportedLangs = window.i18n && window.i18n.languages
+        ? window.i18n.languages.map(function(l) { return l.code; })
+        : ['en', 'fr'];
+      var valid = supportedLangs.indexOf(lang) !== -1 ? lang : 'en';
       localStorage.setItem('jls-language', valid);
     },
 
@@ -42,12 +45,21 @@
       return '<nav class="navbar">' +
         '<div class="navbar__brand">日本語学習</div>' +
         '<div class="navbar__links">' +
-          '<a href="#/dashboard" class="navbar__link' + (active === 'dashboard' ? ' navbar__link--active' : '') + '">Dashboard</a>' +
-          '<a href="#/curriculum" class="navbar__link' + (active === 'curriculum' ? ' navbar__link--active' : '') + '">Curriculum</a>' +
-          '<a href="#/progress" class="navbar__link' + (active === 'progress' ? ' navbar__link--active' : '') + '">Progress</a>' +
-          '<a href="#/settings" class="navbar__link' + (active === 'settings' ? ' navbar__link--active' : '') + '">Settings</a>' +
+          '<a href="#/dashboard" class="navbar__link' + (active === 'dashboard' ? ' navbar__link--active' : '') + '">' + window.i18n('nav.dashboard') + '</a>' +
+          '<a href="#/curriculum" class="navbar__link' + (active === 'curriculum' ? ' navbar__link--active' : '') + '">' + window.i18n('nav.curriculum') + '</a>' +
+          '<a href="#/progress" class="navbar__link' + (active === 'progress' ? ' navbar__link--active' : '') + '">' + window.i18n('nav.progress') + '</a>' +
+          '<a href="#/settings" class="navbar__link' + (active === 'settings' ? ' navbar__link--active' : '') + '">' + window.i18n('nav.settings') + '</a>' +
         '</div>' +
-        (userHtml ? '<div class="navbar__right">' + userHtml + '</div>' : '') +
+        '<div class="navbar__right">' +
+          '<select class="navbar__lang-select" id="nav-lang-select" onchange="window.App.setLanguage(this.value); window.location.reload();">' +
+            (window.i18n && window.i18n.languages
+              ? window.i18n.languages.map(function(l) {
+                  return '<option value="' + l.code + '"' + (window.App.getLanguage() === l.code ? ' selected' : '') + '>' + l.flag + ' ' + l.code.toUpperCase() + '</option>';
+                }).join('')
+              : '<option value="en" selected>🇬🇧 EN</option>') +
+          '</select>' +
+          (userHtml ? ' ' + userHtml : '') +
+        '</div>' +
       '</nav>';
     }
   };

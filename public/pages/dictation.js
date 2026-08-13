@@ -53,11 +53,11 @@
         '</div>' +
       '</div>' +
       '<form id="dictation-form" class="dictation__form">' +
-        '<label class="form__label" for="dictation-input">Type what you hear:</label>' +
+        '<label class="form__label" for="dictation-input">' + window.i18n('dictation.typeHear') + '</label>' +
         '<textarea class="form__textarea dictation__input" id="dictation-input" name="text" rows="6" placeholder="日本語で入力してください..."></textarea>' +
         '<div class="form__actions mt-3">' +
-          '<button class="btn btn--primary" type="submit">Submit</button>' +
-          ' <a href="#/level/' + level + '/dictation" class="btn btn--secondary">← Back</a>' +
+          '<button class="btn btn--primary" type="submit">' + window.i18n('activity.submit') + '</button>' +
+          ' <a href="#/level/' + level + '/dictation" class="btn btn--secondary">' + window.i18n('activity.back') + '</a>' +
         '</div>' +
       '</form>' +
       '<div id="dictation-results" class="dictation__results" hidden></div>';
@@ -131,20 +131,20 @@
     if (isCompleted) {
       statusHtml = '<div class="result-banner result-banner--success">' +
         '<span class="result-banner__icon">🎉</span>' +
-        '<span class="result-banner__text">Exercise Completed!</span>' +
+        '<span class="result-banner__text">' + window.i18n('result.completed') + '</span>' +
       '</div>';
     } else {
       statusHtml = '<div class="result-banner result-banner--retry">' +
         '<span class="result-banner__icon">📝</span>' +
-        '<span class="result-banner__text">Not quite — try again to complete this exercise</span>' +
+        '<span class="result-banner__text">' + window.i18n('result.notQuite') + '</span>' +
       '</div>';
     }
 
     resultsEl.hidden = false;
     resultsEl.innerHTML =
       statusHtml +
-      '<h2>Results</h2>' +
-      '<p class="dictation__accuracy ' + cls + '">Accuracy: <strong>' + pct + '%</strong></p>' +
+      '<h2>' + window.i18n('result.score') + '</h2>' +
+      '<p class="dictation__accuracy ' + cls + '">' + window.i18n('result.accuracy') + ': <strong>' + pct + '%</strong></p>' +
       '<div class="dictation__diff">' +
         '<h3>Character Comparison</h3>' +
         '<div class="diff-display">' + renderDiff(diff) + '</div>' +
@@ -152,9 +152,9 @@
       (expected ? '<div class="dictation__expected mt-2"><h3>Expected Text</h3><p class="dictation__expected-text">' + escapeHtml(expected) + '</p></div>' : '') +
       '<div class="reading__actions mt-3">' +
         (isCompleted
-          ? '<a href="#/level/' + (exercise ? exercise.level : 'beginner') + '/dictation" class="btn">Next Exercise →</a>'
-          : '<button class="btn btn--primary" id="retry-btn">Retry</button>') +
-        ' <a href="#/dashboard" class="btn btn--secondary">Dashboard</a>' +
+          ? '<a href="#/level/' + (exercise ? exercise.level : 'beginner') + '/dictation" class="btn">' + window.i18n('activity.nextExercise') + '</a>'
+          : '<button class="btn btn--primary" id="retry-btn">' + window.i18n('activity.retry') + '</button>') +
+        ' <a href="#/dashboard" class="btn btn--secondary">' + window.i18n('nav.dashboard') + '</a>' +
       '</div>';
 
     // Hide the form

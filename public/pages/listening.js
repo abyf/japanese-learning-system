@@ -64,8 +64,8 @@
       '<form id="listening-form" class="listening__questions">' +
         renderQuestions(questions, type) +
         '<div class="form__actions mt-3">' +
-          '<button class="btn btn--primary" type="submit">Submit Answers</button>' +
-          ' <a href="#/level/' + level + '/listening" class="btn btn--secondary">← Back</a>' +
+          '<button class="btn btn--primary" type="submit">' + window.i18n('activity.submit') + '</button>' +
+          ' <a href="#/level/' + level + '/listening" class="btn btn--secondary">' + window.i18n('activity.back') + '</a>' +
         '</div>' +
       '</form>' +
       '<div id="listening-results" class="listening__results" hidden></div>';
@@ -211,20 +211,20 @@
     if (isCompleted) {
       statusHtml = '<div class="result-banner result-banner--success">' +
         '<span class="result-banner__icon">🎉</span>' +
-        '<span class="result-banner__text">Exercise Completed!</span>' +
+        '<span class="result-banner__text">' + window.i18n('result.completed') + '</span>' +
       '</div>';
     } else {
       statusHtml = '<div class="result-banner result-banner--retry">' +
         '<span class="result-banner__icon">📝</span>' +
-        '<span class="result-banner__text">Not quite — try again to complete this exercise</span>' +
+        '<span class="result-banner__text">' + window.i18n('result.notQuite') + '</span>' +
       '</div>';
     }
 
     resultsEl.hidden = false;
     resultsEl.innerHTML =
       statusHtml +
-      '<h2>Results</h2>' +
-      '<p class="listening__score ' + cls + '">Score: ' + correctCount + ' / ' + total + ' (' + pct + '%)</p>' +
+      '<h2>' + window.i18n('result.score') + '</h2>' +
+      '<p class="listening__score ' + cls + '">' + window.i18n('result.score') + ': ' + correctCount + ' / ' + total + ' (' + pct + '%)</p>' +
       '<ul class="listening__answers">' +
         results.map(function(r, i) {
           var icon = r.correct ? '✓' : '✗';
@@ -235,9 +235,9 @@
       (transcript ? '<div class="listening__transcript mt-2"><h3>Transcript</h3><p>' + escapeHtml(transcript) + '</p></div>' : '') +
       '<div class="reading__actions mt-3">' +
         (isCompleted
-          ? '<a href="#/level/' + exercise.level + '/listening" class="btn">Next Exercise →</a>'
-          : '<button class="btn btn--primary" id="retry-btn">Retry</button>') +
-        ' <a href="#/dashboard" class="btn btn--secondary">Dashboard</a>' +
+          ? '<a href="#/level/' + exercise.level + '/listening" class="btn">' + window.i18n('activity.nextExercise') + '</a>'
+          : '<button class="btn btn--primary" id="retry-btn">' + window.i18n('activity.retry') + '</button>') +
+        ' <a href="#/dashboard" class="btn btn--secondary">' + window.i18n('nav.dashboard') + '</a>' +
       '</div>';
 
     // Retry handler

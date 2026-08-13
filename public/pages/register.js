@@ -10,30 +10,30 @@
       '<div class="page page--auth">' +
         '<div class="auth-card">' +
           '<h1 class="auth-card__title">新規登録</h1>' +
-          '<p class="auth-card__subtitle">Create your account</p>' +
+          '<p class="auth-card__subtitle">' + window.i18n('auth.register') + '</p>' +
           '<form id="register-form" class="form" novalidate>' +
             '<div class="form__group">' +
-              '<label class="form__label" for="username">Username</label>' +
+              '<label class="form__label" for="username">' + window.i18n('auth.username') + '</label>' +
               '<input class="form__input" type="text" id="username" name="username" autocomplete="username" required>' +
             '</div>' +
             '<div class="form__group">' +
-              '<label class="form__label" for="email">Email</label>' +
+              '<label class="form__label" for="email">' + window.i18n('auth.email') + '</label>' +
               '<input class="form__input" type="email" id="email" name="email" autocomplete="email" required placeholder="your@email.com">' +
             '</div>' +
             '<div class="form__group">' +
-              '<label class="form__label" for="password">Password</label>' +
+              '<label class="form__label" for="password">' + window.i18n('auth.password') + '</label>' +
               '<input class="form__input" type="password" id="password" name="password" autocomplete="new-password" required>' +
-              '<span class="form__hint">Minimum 4 characters</span>' +
+              '<span class="form__hint">' + window.i18n('auth.minChars') + '</span>' +
             '</div>' +
             '<div class="form__group">' +
-              '<label class="form__label" for="confirm-password">Confirm Password</label>' +
+              '<label class="form__label" for="confirm-password">' + window.i18n('auth.confirmPassword') + '</label>' +
               '<input class="form__input" type="password" id="confirm-password" name="confirm-password" autocomplete="new-password" required>' +
             '</div>' +
             '<div id="register-error" class="form__error" role="alert" hidden></div>' +
-            '<button class="btn btn--primary btn--block" type="submit">Register</button>' +
+            '<button class="btn btn--primary btn--block" type="submit">' + window.i18n('auth.register') + '</button>' +
           '</form>' +
           '<p class="auth-card__footer">' +
-            'Already have an account? <a href="#/login">Login</a>' +
+            window.i18n('auth.hasAccount') + ' <a href="#/login">' + window.i18n('auth.login') + '</a>' +
           '</p>' +
         '</div>' +
       '</div>';

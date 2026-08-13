@@ -12,7 +12,7 @@
     var app = document.getElementById('app');
     app.innerHTML = renderNav('progress') +
       '<div class="page page--progress">' +
-        '<div class="progress__loading">Loading statistics...</div>' +
+        '<div class="progress__loading">' + window.i18n('general.loading') + '</div>' +
       '</div>';
 
     window.API.get('/progress')
@@ -44,45 +44,45 @@
     var streakCalendar = data.streakCalendar || [];
 
     page.innerHTML =
-      '<h1>Progress & Statistics</h1>' +
+      '<h1>' + window.i18n('progress.title') + '</h1>' +
 
       '<section class="progress__section">' +
-        '<h2>Completion by Level & Activity</h2>' +
+        '<h2>' + window.i18n('progress.completion') + '</h2>' +
         renderLevelProgress(levels) +
       '</section>' +
 
       '<section class="progress__section">' +
-        '<h2>Accuracy</h2>' +
+        '<h2>' + window.i18n('progress.accuracy') + '</h2>' +
         '<div class="accuracy-grid">' +
-          renderAccuracyItem('Reading', accuracy.reading) +
-          renderAccuracyItem('Listening', accuracy.listening) +
-          renderAccuracyItem('Dictation', accuracy.dictation) +
-          renderAccuracyItem('Vocabulary', accuracy.vocabulary) +
+          renderAccuracyItem(window.i18n('activity.reading'), accuracy.reading) +
+          renderAccuracyItem(window.i18n('activity.listening'), accuracy.listening) +
+          renderAccuracyItem(window.i18n('activity.dictation'), accuracy.dictation) +
+          renderAccuracyItem(window.i18n('activity.vocabulary'), accuracy.vocabulary) +
         '</div>' +
       '</section>' +
 
       '<section class="progress__section">' +
-        '<h2>Study Time</h2>' +
+        '<h2>' + window.i18n('progress.studyTime') + '</h2>' +
         '<div class="study-time-grid">' +
           '<div class="study-time__item">' +
-            '<span class="study-time__label">Today</span>' +
+            '<span class="study-time__label">' + window.i18n('progress.today') + '</span>' +
             '<span class="study-time__value">' + (studyTime.today || 0) + ' min</span>' +
           '</div>' +
           '<div class="study-time__item">' +
-            '<span class="study-time__label">This Week</span>' +
+            '<span class="study-time__label">' + window.i18n('progress.thisWeek') + '</span>' +
             '<span class="study-time__value">' + (studyTime.week || 0) + ' min</span>' +
           '</div>' +
           '<div class="study-time__item">' +
-            '<span class="study-time__label">This Month</span>' +
+            '<span class="study-time__label">' + window.i18n('progress.thisMonth') + '</span>' +
             '<span class="study-time__value">' + (studyTime.month || 0) + ' min</span>' +
           '</div>' +
         '</div>' +
       '</section>' +
 
       '<section class="progress__section">' +
-        '<h2>Streak</h2>' +
+        '<h2>' + window.i18n('progress.streak') + '</h2>' +
         '<div class="streak-display">' +
-          '<span class="streak-display__count">🔥 ' + streak + ' days</span>' +
+          '<span class="streak-display__count">\ud83d\udd25 ' + streak + ' ' + window.i18n('progress.days') + '</span>' +
           '<div class="streak-calendar">' + renderStreakCalendar(streakCalendar) + '</div>' +
         '</div>' +
       '</section>';
@@ -91,6 +91,12 @@
   function renderLevelProgress(levels) {
     var levelNames = ['beginner', 'intermediate', 'advanced'];
     var activities = ['reading', 'listening', 'dictation', 'vocabulary'];
+    var activityLabels = {
+      reading: window.i18n('activity.reading'),
+      listening: window.i18n('activity.listening'),
+      dictation: window.i18n('activity.dictation'),
+      vocabulary: window.i18n('activity.vocabulary')
+    };
 
     var html = '<div class="level-progress">';
     levelNames.forEach(function(level) {
@@ -101,7 +107,7 @@
       activities.forEach(function(activity) {
         var pct = (levelData[activity] && levelData[activity].completion) || levelData[activity] || 0;
         html += '<div class="progress-bar-row">' +
-          '<span class="progress-bar-row__label">' + activity.charAt(0).toUpperCase() + activity.slice(1) + '</span>' +
+          '<span class="progress-bar-row__label">' + activityLabels[activity] + '</span>' +
           '<div class="progress-bar">' +
             '<div class="progress-bar__fill" style="width: ' + Math.round(pct) + '%"></div>' +
           '</div>' +

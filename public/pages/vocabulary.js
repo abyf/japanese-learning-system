@@ -38,13 +38,13 @@
     app.innerHTML = renderNav('levels') +
       '<div class="page page--activity-list">' +
         '<div class="activity-list__header">' +
-          '<a href="#/level/' + level + '" class="btn btn--sm btn--secondary">← Back</a>' +
-          '<h1>Vocabulary 📝 — ' + level.charAt(0).toUpperCase() + level.slice(1) + '</h1>' +
+          '<a href="#/level/' + level + '" class="btn btn--sm btn--secondary">' + window.i18n('activity.back') + '</a>' +
+          '<h1>' + window.i18n('activity.vocabulary') + ' 📝 — ' + level.charAt(0).toUpperCase() + level.slice(1) + '</h1>' +
         '</div>' +
-        '<div class="activity-list__loading">Loading exercises...</div>' +
+        '<div class="activity-list__loading">' + window.i18n('general.loading') + '</div>' +
       '</div>';
 
-    window.API.get('/vocab-exercises/' + encodeURIComponent(level))
+    window.API.get('/vocab-exercises/' + encodeURIComponent(level) + '?lang=' + encodeURIComponent(window.App.getLanguage()))
       .then(function(data) {
         renderExerciseList(level, data);
       })
@@ -76,7 +76,7 @@
 
     loadingEl.innerHTML =
       '<div class="exercise-list__summary mb-2">' +
-        '<span class="text-secondary">' + completedCount + ' / ' + exercises.length + ' completed</span>' +
+        '<span class="text-secondary">' + completedCount + ' / ' + exercises.length + ' ' + window.i18n('curriculum.completed') + '</span>' +
       '</div>' +
       '<div class="exercise-grid">' +
       exercises.map(function(ex, idx) {
@@ -89,7 +89,7 @@
         return '<a href="' + routePrefix + id + '" class="' + cardClass + '">' +
           '<span class="exercise-card__number' + (completed ? ' exercise-card__number--done' : '') + '">' + icon + '</span>' +
           '<span class="exercise-card__title">' + title + '</span>' +
-          (completed ? '<span class="exercise-card__badge">✓ Done</span>' : '') +
+          (completed ? '<span class="exercise-card__badge">✓ ' + window.i18n('activity.done') + '</span>' : '') +
         '</a>';
       }).join('') +
     '</div>';
@@ -116,7 +116,7 @@
         '<div class="vocab-exercise__loading">Loading exercise...</div>' +
       '</div>';
 
-    window.API.get('/vocab-exercises/' + encodeURIComponent(level) + '/' + encodeURIComponent(id))
+    window.API.get('/vocab-exercises/' + encodeURIComponent(level) + '/' + encodeURIComponent(id) + '?lang=' + encodeURIComponent(window.App.getLanguage()))
       .then(function(data) {
         exerciseData = data;
         selectedAnswers = new Array(data.questions.length).fill(null);
@@ -139,7 +139,7 @@
 
     var html =
       '<div class="vocab-exercise__header">' +
-        '<a href="#/level/' + level + '/vocabulary" class="btn btn--sm btn--secondary">← Back</a>' +
+        '<a href="#/level/' + level + '/vocabulary" class="btn btn--sm btn--secondary">' + window.i18n('activity.back') + '</a>' +
         '<h1>' + (exerciseData.title || exerciseData.titleEn || 'Vocabulary Exercise') + '</h1>' +
       '</div>' +
       '<div class="vocab-exercise__questions">';
@@ -150,7 +150,7 @@
 
     html += '</div>' +
       '<div class="vocab-exercise__actions">' +
-        '<button class="btn btn--primary" id="submit-vocab-btn">Submit Answers</button>' +
+        '<button class="btn btn--primary" id="submit-vocab-btn">' + window.i18n('activity.submit') + '</button>' +
       '</div>';
 
     page.innerHTML = html;
@@ -179,8 +179,18 @@
   function renderQuestion(question, idx) {
     var type = question.type || 'word_match';
     var lang = window.App.getLanguage();
-    var prompt = (lang === 'fr' && question.prompt_fr) ? question.prompt_fr : question.prompt;
-    var sentence = (lang === 'fr' && question.sentence_fr) ? question.sentence_fr : question.sentence;
+    var prompt = question.prompt;
+    var sentence = question.sentence;
+    
+    // Use translated prompt/sentence based on language
+    if (lang === 'fr') {
+      prompt = question.prompt_fr || prompt;
+      sentence = question.sentence_fr || sentence;
+    } else if (lang === 'pt') {
+      prompt = question.prompt_pt || prompt;
+      sentence = question.sentence_pt || sentence;
+    }
+    
     var html = '<div class="vocab-question" data-question-idx="' + idx + '">';
 
     html += '<div class="vocab-question__header">' +
@@ -212,9 +222,13 @@
       '</div>';
     }
 
-    // Options (all types use multiple choice) — use French options if available and language is French
-    var lang = window.App.getLanguage();
-    var options = (lang === 'fr' && question.options_fr) ? question.options_fr : (question.options || []);
+    // Options (all types use multiple choice) — use translated options if available
+    var options = question.options || [];
+    if (lang === 'fr' && question.options_fr) {
+      options = question.options_fr;
+    } else if (lang === 'pt' && question.options_pt) {
+      options = question.options_pt;
+    }
     html += '<div class="vocab-question__options">';
     options.forEach(function(opt, oIdx) {
       html += '<button class="vocab-option" data-question="' + idx + '" data-option="' + oIdx + '">' +
@@ -288,21 +302,21 @@
 
     var html =
       '<div class="vocab-exercise__header">' +
-        '<a href="#/level/' + level + '/vocabulary" class="btn btn--sm btn--secondary">← Back</a>' +
+        '<a href="#/level/' + level + '/vocabulary" class="btn btn--sm btn--secondary">' + window.i18n('activity.back') + '</a>' +
         '<h1>' + (exerciseData.title || 'Vocabulary Exercise') + '</h1>' +
       '</div>';
 
     // Completion banner
     if (isCompleted) {
       html += '<div class="vocab-exercise__banner vocab-exercise__banner--success">' +
-        '🎉 Exercise Completed! Perfect score!' +
+        '🎉 ' + window.i18n('result.completed') +
       '</div>';
     }
 
     // Score summary
     html += '<div class="vocab-exercise__score">' +
       '<span class="vocab-exercise__score-value">' + result.correct + ' / ' + result.total + '</span>' +
-      '<span class="vocab-exercise__score-label"> correct (' + Math.round(score * 100) + '%)</span>' +
+      '<span class="vocab-exercise__score-label"> ' + window.i18n('result.correct') + ' (' + Math.round(score * 100) + '%)</span>' +
     '</div>';
 
     // Results per question
@@ -326,7 +340,7 @@
     // Actions
     html += '<div class="vocab-exercise__actions">';
     if (!isCompleted) {
-      html += '<button class="btn btn--primary" id="retry-vocab-btn">Retry</button>';
+      html += '<button class="btn btn--primary" id="retry-vocab-btn">' + window.i18n('activity.retry') + '</button>';
     }
     // Check if user came from curriculum (via URL params)
     var backUrl = '#/level/' + level + '/vocabulary';
@@ -340,7 +354,7 @@
         backUrl = '#/curriculum';
       }
     }
-    html += '<a href="' + backUrl + '" class="btn btn--secondary">' + (hashParams.indexOf('from=curriculum') !== -1 ? 'Back to Curriculum' : 'Back to List') + '</a>';
+    html += '<a href="' + backUrl + '" class="btn btn--secondary">' + (hashParams.indexOf('from=curriculum') !== -1 ? window.i18n('activity.backToCurriculum') : window.i18n('activity.back')) + '</a>';
     html += '</div>';
 
     page.innerHTML = html;

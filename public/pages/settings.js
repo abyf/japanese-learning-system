@@ -12,51 +12,54 @@
     var app = document.getElementById('app');
     app.innerHTML = renderNav('settings') +
       '<div class="page page--settings">' +
-        '<h1>Settings</h1>' +
+        '<h1>' + window.i18n('settings.title') + '</h1>' +
         '<div class="settings__grid">' +
           '<section class="settings__section">' +
-            '<h2>Appearance</h2>' +
+            '<h2>' + window.i18n('settings.theme') + '</h2>' +
             '<div class="form__group form__group--inline">' +
-              '<label class="form__label" for="theme-toggle">Dark Theme</label>' +
-              '<button class="btn btn--small" id="theme-toggle">Toggle Theme</button>' +
+              '<label class="form__label" for="theme-toggle">' + window.i18n('settings.theme') + '</label>' +
+              '<button class="btn btn--small" id="theme-toggle">' + window.i18n('settings.toggleTheme') + '</button>' +
             '</div>' +
           '</section>' +
 
           '<section class="settings__section">' +
-            '<h2>Language</h2>' +
+            '<h2>' + window.i18n('settings.language') + '</h2>' +
             '<div class="form__group">' +
-              '<label class="form__label" for="language-select">Interface Language</label>' +
+              '<label class="form__label" for="language-select">' + window.i18n('settings.language') + '</label>' +
               '<select class="form__input form__input--small" id="language-select">' +
-                '<option value="en">English</option>' +
-                '<option value="fr">Français</option>' +
+                (window.i18n && window.i18n.languages
+                  ? window.i18n.languages.map(function(l) {
+                      return '<option value="' + l.code + '">' + l.flag + ' ' + l.name + '</option>';
+                    }).join('')
+                  : '<option value="en">🇬🇧 English</option><option value="fr">🇫🇷 Français</option>') +
               '</select>' +
             '</div>' +
           '</section>' +
 
           '<section class="settings__section">' +
-            '<h2>Study Preferences</h2>' +
+            '<h2>' + window.i18n('settings.cardsPerDay') + '</h2>' +
             '<div class="form__group">' +
-              '<label class="form__label" for="cards-per-day">New Cards Per Day</label>' +
+              '<label class="form__label" for="cards-per-day">' + window.i18n('settings.cardsPerDay') + '</label>' +
               '<input class="form__input form__input--small" type="number" id="cards-per-day" min="1" max="50" value="10">' +
             '</div>' +
             '<div class="form__group">' +
-              '<label class="form__label" for="session-duration">Session Duration (minutes)</label>' +
+              '<label class="form__label" for="session-duration">' + window.i18n('settings.sessionDuration') + '</label>' +
               '<input class="form__input form__input--small" type="number" id="session-duration" min="5" max="120" value="30">' +
             '</div>' +
             '<div class="form__group form__group--inline">' +
-              '<label class="form__label" for="furigana-default">Show Furigana by Default</label>' +
+              '<label class="form__label" for="furigana-default">' + window.i18n('settings.furigana') + '</label>' +
               '<input type="checkbox" id="furigana-default" checked>' +
             '</div>' +
-            '<button class="btn btn--primary" id="save-settings-btn">Save Settings</button>' +
-            '<span id="settings-saved" class="text-success" hidden>Settings saved!</span>' +
+            '<button class="btn btn--primary" id="save-settings-btn">' + window.i18n('settings.save') + '</button>' +
+            '<span id="settings-saved" class="text-success" hidden>✓</span>' +
           '</section>' +
 
           '<section class="settings__section">' +
             '<h2>Data</h2>' +
             '<div class="settings__actions">' +
-              '<button class="btn btn--secondary" id="export-btn">Export Data (JSON)</button>' +
+              '<button class="btn btn--secondary" id="export-btn">' + window.i18n('settings.export') + '</button>' +
               '<div class="form__group">' +
-                '<label class="btn btn--secondary" for="import-file">Import Data (JSON)</label>' +
+                '<label class="btn btn--secondary" for="import-file">' + window.i18n('settings.import') + '</label>' +
                 '<input type="file" id="import-file" accept=".json" hidden>' +
               '</div>' +
             '</div>' +
@@ -64,8 +67,7 @@
           '</section>' +
 
           '<section class="settings__section">' +
-            '<h2>Account</h2>' +
-            '<button class="btn btn--danger" id="logout-btn">Logout</button>' +
+            '<button class="btn btn--danger" id="logout-btn">' + window.i18n('settings.logout') + '</button>' +
           '</section>' +
         '</div>' +
       '</div>';
