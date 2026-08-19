@@ -39,7 +39,7 @@
       '<div class="page page--activity-list">' +
         '<div class="activity-list__header">' +
           '<a href="#/level/' + level + '" class="btn btn--sm btn--secondary">' + window.i18n('activity.back') + '</a>' +
-          '<h1>' + window.i18n('activity.vocabulary') + ' 📝 — ' + level.charAt(0).toUpperCase() + level.slice(1) + '</h1>' +
+          '<h1>' + window.i18n('activity.vocabulary') + ' — ' + level.charAt(0).toUpperCase() + level.slice(1) + '</h1>' +
         '</div>' +
         '<div class="activity-list__loading">' + window.i18n('general.loading') + '</div>' +
       '</div>';
@@ -300,6 +300,8 @@
     var score = result.score;
     var isCompleted = result.completed;
 
+    if (window.Feedback) { isCompleted ? window.Feedback.celebrate() : window.Feedback.incorrect(); }
+
     var html =
       '<div class="vocab-exercise__header">' +
         '<a href="#/level/' + level + '/vocabulary" class="btn btn--sm btn--secondary">' + window.i18n('activity.back') + '</a>' +
@@ -309,7 +311,8 @@
     // Completion banner
     if (isCompleted) {
       html += '<div class="vocab-exercise__banner vocab-exercise__banner--success">' +
-        '🎉 ' + window.i18n('result.completed') +
+        (window.Icons ? window.Icons.celebrate(36) : '') +
+        '<span>' + window.i18n('result.completed') + '</span>' +
       '</div>';
     }
 
@@ -327,8 +330,14 @@
       var icon = isCorrect ? '✓' : '✗';
       var cssClass = isCorrect ? 'vocab-result--correct' : 'vocab-result--wrong';
 
+      var art = window.VocabArt
+        ? window.VocabArt.for(q.word, q.kanji, q.front, r.correctAnswer, q.prompt)
+        : null;
+      var artHtml = art ? window.VocabArt.render(art, 44) : '';
+
       html += '<div class="vocab-result ' + cssClass + '">' +
         '<span class="vocab-result__icon">' + icon + '</span>' +
+        artHtml +
         '<div class="vocab-result__detail">' +
           '<span class="vocab-result__question">Q' + (idx + 1) + ': ' + escapeHtml(q.prompt) + '</span>' +
           (!isCorrect ? '<span class="vocab-result__correct">Correct: ' + escapeHtml(r.correctAnswer || '') + '</span>' : '') +
@@ -338,26 +347,31 @@
     html += '</div>';
 
     // Actions
+    var hashParams = window.location.hash.split('?')[1] || '';
+    var fromCurriculum = hashParams.indexOf('from=curriculum') !== -1;
     html += '<div class="vocab-exercise__actions">';
     if (!isCompleted) {
       html += '<button class="btn btn--primary" id="retry-vocab-btn">' + window.i18n('activity.retry') + '</button>';
     }
-    // Check if user came from curriculum (via URL params)
-    var backUrl = '#/level/' + level + '/vocabulary';
-    var hashParams = window.location.hash.split('?')[1] || '';
-    if (hashParams.indexOf('from=curriculum') !== -1) {
-      var weekMatch = hashParams.match(/week=(\d+)/);
-      var dayMatch = hashParams.match(/day=(\d+)/);
-      if (weekMatch && dayMatch) {
-        backUrl = '#/curriculum/' + weekMatch[1] + '/' + dayMatch[1];
-      } else {
-        backUrl = '#/curriculum';
+    if (isCompleted && fromCurriculum) {
+      // Guide the learner to the next step in the guided plan
+      html += '<div id="curriculum-next"></div>';
+    } else {
+      var backUrl = '#/level/' + level + '/vocabulary';
+      if (fromCurriculum) {
+        var weekMatch = hashParams.match(/week=(\d+)/);
+        var dayMatch = hashParams.match(/day=(\d+)/);
+        backUrl = (weekMatch && dayMatch) ? '#/curriculum/' + weekMatch[1] + '/' + dayMatch[1] : '#/curriculum';
       }
+      html += '<a href="' + backUrl + '" class="btn btn--secondary">' + (fromCurriculum ? window.i18n('activity.backToCurriculum') : window.i18n('activity.back')) + '</a>';
     }
-    html += '<a href="' + backUrl + '" class="btn btn--secondary">' + (hashParams.indexOf('from=curriculum') !== -1 ? window.i18n('activity.backToCurriculum') : window.i18n('activity.back')) + '</a>';
     html += '</div>';
 
     page.innerHTML = html;
+
+    if (isCompleted && fromCurriculum && window.CurriculumNav) {
+      window.CurriculumNav.renderInto('curriculum-next');
+    }
 
     // Bind retry
     var retryBtn = document.getElementById('retry-vocab-btn');

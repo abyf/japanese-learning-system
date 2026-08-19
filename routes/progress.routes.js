@@ -48,6 +48,28 @@ router.get('/', (req, res) => {
       monthly: getStudyTime(db, userId, 'month')
     };
 
+    // Study-day history for the calendar heatmap (chronological)
+    const studyDays = db.prepare(
+      'SELECT study_date, total_seconds FROM study_days WHERE user_id = ? ORDER BY study_date ASC'
+    ).all(userId);
+
+    // Earned achievements
+    const achievements = db.prepare(
+      'SELECT achievement_key, earned_at FROM achievements WHERE user_id = ? ORDER BY earned_at DESC'
+    ).all(userId);
+
+    // Experience points derived from existing activity (no schema change needed):
+    //   completed exercises + spaced-repetition reviews + achievement bonuses.
+    const completionCount = db.prepare(
+      'SELECT COUNT(*) AS c FROM progress WHERE user_id = ?'
+    ).get(userId).c;
+    const reviewCount = db.prepare(
+      'SELECT COALESCE(SUM(times_reviewed), 0) AS c FROM srs_state WHERE user_id = ?'
+    ).get(userId).c;
+    const xp = completionCount * 10 + reviewCount * 2 + achievements.length * 50;
+    const xpLevel = Math.floor(xp / 500) + 1;
+    const xpIntoLevel = xp % 500;
+
     res.json({
       currentLevel,
       overallAccuracy,
@@ -55,6 +77,12 @@ router.get('/', (req, res) => {
       canAdvance,
       streak,
       studyTime,
+      studyDays,
+      achievements,
+      xp,
+      xpLevel,
+      xpIntoLevel,
+      xpForNextLevel: 500,
       completionByLevel: getCompletionByLevel(db, userId)
     });
   } catch (err) {

@@ -39,7 +39,7 @@
     app.innerHTML = renderNav('curriculum') +
       '<div class="page page--curriculum">' +
         '<div class="curriculum__header">' +
-          '<h1>📅 ' + t('Curriculum', 'Programme') + '</h1>' +
+          '<h1>' + t('Curriculum', 'Programme') + '</h1>' +
           '<p class="text-secondary">' + t(
             'Beginner Japanese - 52 Week Program',
             'Japonais Débutant - Programme de 52 semaines'
@@ -95,7 +95,7 @@
         weekStatus = '●';
         weekClass += ' week-card--current';
       } else {
-        weekStatus = '🔒';
+        weekStatus = '';
         weekClass += ' week-card--locked';
       }
 
@@ -145,12 +145,12 @@
     var lang = window.App.getLanguage();
     var theme = lang === 'fr' ? weekData.themeFr : (lang === 'pt' ? (weekData.themePt || weekData.theme) : weekData.theme);
 
-    var html = '<p class="curriculum-week__theme">🎯 ' + escapeHtml(theme) + '</p>';
+    var html = '<p class="curriculum-week__theme">' + escapeHtml(theme) + '</p>';
     html += '<div class="curriculum-week__days">';
 
     weekData.days.forEach(function(day) {
       var dayTitle = lang === 'fr' ? day.titleFr : (lang === 'pt' ? (day.titlePt || day.title) : day.title);
-      var statusIcon = day.completed ? '✅' : (day.current ? '🟡' : (day.locked ? '🔒' : '⬜'));
+      var statusIcon = day.completed ? '✓' : (day.current ? '●' : (day.locked ? '' : '○'));
       var dayClass = 'day-card';
       if (day.completed) dayClass += ' day-card--completed';
       else if (day.current) dayClass += ' day-card--current';
@@ -166,13 +166,13 @@
 
       day.activities.forEach(function(a) {
         var actTitle = lang === 'fr' ? (a.titleFr || a.title) : (lang === 'pt' ? (a.titlePt || a.title) : a.title);
-        var icon = getActivityIcon(a.type);
+        var icon = getActivityIcon(a.type, a.route);
         var duration = a.duration ? ' (' + a.duration + 'min)' : '';
         var sourceTag = (a.type === 'external' || a.source === 'external')
           ? ' <span class="tag tag--external-sm">' + t('ext', 'ext') + '</span>' 
           : '';
         html += '<div class="day-card__activity' + (a.completed ? ' day-card__activity--done' : '') + '">' + 
-          (a.completed ? '✅ ' : '⬜ ') + icon + ' ' + escapeHtml(actTitle) + duration + sourceTag + '</div>';
+          (a.completed ? '✓ ' : '○ ') + icon + ' ' + escapeHtml(actTitle) + duration + sourceTag + '</div>';
       });
 
       html += '</div>';
@@ -189,7 +189,25 @@
     });
 
     html += '</div>';
+
+    // Weekly further-reading resources
+    html += renderResources(weekData.resources);
+
     container.outerHTML = html;
+  }
+
+  function renderResources(resources) {
+    if (!resources || !resources.length) return '';
+    var lang = window.App.getLanguage();
+    var items = resources.map(function(r) {
+      var title = lang === 'fr' ? (r.titleFr || r.title) : (lang === 'pt' ? (r.titlePt || r.title) : r.title);
+      return '<li class="week-resources__item"><a href="' + escapeHtml(r.url) + '" target="_blank" rel="noopener">' + escapeHtml(title) + ' ↗</a></li>';
+    }).join('');
+    return '<div class="week-resources">' +
+      '<h3 class="week-resources__title">' + (window.i18n ? window.i18n('resources.title') : 'Further Reading') + '</h3>' +
+      '<p class="week-resources__subtitle">' + (window.i18n ? window.i18n('resources.subtitle') : '') + '</p>' +
+      '<ul class="week-resources__list">' + items + '</ul>' +
+    '</div>';
   }
 
   // ─────────────────────────────────────────────────────────────────────────
@@ -237,21 +255,29 @@
       '<p class="text-secondary">' + escapeHtml(theme) + '</p>' +
       '<p class="curriculum-day__duration">⏱ ' + totalMinutes + ' ' + t('minutes total', 'minutes au total') + '</p>' +
       (dayData.review ? '<p class="tag tag--review">' + t('Review Day', 'Jour de révision') + '</p>' : '') +
-      (dayData.completed ? '<p class="curriculum-day__status status--done">✅ ' + t('Completed', 'Terminé') + '</p>' : '') +
+      (dayData.completed ? '<p class="curriculum-day__status status--done">✓ ' + t('Completed', 'Terminé') + '</p>' : '') +
     '</div>';
 
     html += '<div class="curriculum-day__activities">';
     html += '<h3>' + t('Activities', 'Activités') + '</h3>';
 
+    // First not-yet-completed activity; everything after it is locked.
+    var firstIncomplete = -1;
+    for (var fi = 0; fi < dayData.activities.length; fi++) {
+      if (!dayData.activities[fi].completed) { firstIncomplete = fi; break; }
+    }
+    if (firstIncomplete === -1) firstIncomplete = dayData.activities.length;
+
     dayData.activities.forEach(function(a, idx) {
       var actTitle = lang === 'fr' ? (a.titleFr || a.title) : (lang === 'pt' ? (a.titlePt || a.title) : a.title);
       var actDesc = lang === 'fr' ? (a.descriptionFr || a.description || '') : (lang === 'pt' ? (a.descriptionPt || a.description || '') : (a.description || ''));
-      var icon = getActivityIcon(a.type);
+      var icon = getActivityIcon(a.type, a.route);
       var duration = a.duration ? a.duration + ' min' : '';
+      var locked = idx > firstIncomplete;
 
-      html += '<div class="activity-card' + (a.completed ? ' activity-card--done' : '') + '">' +
+      html += '<div class="activity-card' + (a.completed ? ' activity-card--done' : '') + (locked ? ' activity-card--locked' : '') + '">' +
         '<div class="activity-card__header">' +
-          '<span class="activity-card__icon">' + (a.completed ? '✅' : icon) + '</span>' +
+          '<span class="activity-card__icon">' + (a.completed ? '✓' : (locked ? '\u25CB' : icon)) + '</span>' +
           '<span class="activity-card__title">' + escapeHtml(actTitle) + '</span>' +
           '<span class="activity-card__duration">' + duration + '</span>' +
         '</div>';
@@ -260,9 +286,15 @@
         html += '<p class="activity-card__desc">' + escapeHtml(actDesc) + '</p>';
       }
 
+      if (locked) {
+        html += '<p class="activity-card__locked-hint">' + window.i18n('curriculum.lockedHint') + '</p></div>';
+        return;
+      }
+
       // Action button - check both old format (a.source) and new format (a.type)
       var isInternal = (a.source === 'internal' || a.type === 'internal') && a.exerciseId;
-      var isExternal = (a.source === 'external' || a.type === 'external') && a.url;
+      var isLesson = (a.type === 'lesson' || a.type === 'deepdive' || a.source === 'lesson') && a.route;
+      var isExternal = !isInternal && !isLesson && (a.source === 'external' || a.type === 'external') && a.url;
 
       if (isInternal) {
         var route = getInternalRoute(a.type, a.exerciseId);
@@ -274,8 +306,19 @@
           route = getInternalRoute(actType, a.exerciseId);
         }
         if (route) {
-          html += '<a href="' + route + '?from=curriculum&week=' + weekNum + '&day=' + dayNum + '" class="btn btn--sm ' + (a.completed ? 'btn--secondary' : 'btn--primary') + '">' + 
+          html += '<a href="' + route + '?from=curriculum&week=' + weekNum + '&day=' + dayNum + '&idx=' + idx + '" class="btn btn--sm ' + (a.completed ? 'btn--secondary' : 'btn--primary') + '">' + 
             (a.completed ? t('Review Again', 'Revoir') : t('Start Exercise', 'Commencer')) + '</a>';
+        }
+      } else if (isLesson) {
+        // In-app lesson (kana, kanji, grammar, deep dive) — same-tab internal link
+        var sep = a.route.indexOf('?') !== -1 ? '&' : '?';
+        html += '<a href="' + escapeHtml(a.route) + sep + 'from=curriculum&week=' + weekNum + '&day=' + dayNum + '&idx=' + idx + '" class="btn btn--sm ' + (a.completed ? 'btn--secondary' : 'btn--primary') + '">' +
+          (a.completed ? t('Review Again', 'Revoir') : t('Start Exercise', 'Commencer')) + '</a>';
+        if (!a.completed) {
+          html += ' <button class="btn btn--sm btn--outline mark-external-done" data-idx="' + idx + '" data-week="' + weekNum + '" data-day="' + dayNum + '">' +
+            t('Mark as Done', 'Marquer fait') + '</button>';
+        } else {
+          html += ' <span class="btn btn--sm btn--success" disabled>✓ ' + t('Done', 'Fait') + '</span>';
         }
       } else if (isExternal) {
         html += '<a href="' + escapeHtml(a.url) + '" target="_blank" rel="noopener" class="btn btn--sm btn--secondary">' + 
@@ -293,14 +336,23 @@
 
     html += '</div>';
 
-    // Complete day button
+    // Complete day button — only enabled once every activity is done
     if (!dayData.completed) {
+      var acts = dayData.activities || [];
+      var doneCount = acts.filter(function(a) { return a.completed; }).length;
+      var allDone = acts.length > 0 && doneCount === acts.length;
       html += '<div class="curriculum-day__complete">' +
-        '<button id="complete-day-btn" class="btn btn--success btn--lg">' + 
-          t('✓ Mark Day as Complete', '✓ Marquer le jour terminé') + '</button>' +
-        '<p class="text-secondary text-sm mt-1">' + 
-          t('Mark this day complete when you\'ve finished all internal activities.',
-            'Marquez ce jour terminé quand vous avez fini toutes les activités internes.') + '</p>' +
+        '<div class="curriculum-day__progress">' +
+          '<div class="progress-bar"><div class="progress-bar__fill" style="width:' + Math.round((doneCount / Math.max(1, acts.length)) * 100) + '%"></div></div>' +
+          '<span class="curriculum-day__progress-text">' + doneCount + ' / ' + acts.length + ' ' + t('completed', 'terminé(s)') + '</span>' +
+        '</div>' +
+        '<button id="complete-day-btn" class="btn btn--success btn--lg"' + (allDone ? '' : ' disabled') + '>' +
+          t('Mark Day as Complete', 'Marquer le jour terminé') + '</button>' +
+        '<p class="text-secondary text-sm mt-1">' +
+          (allDone
+            ? t('Great job! You can mark this day complete.', 'Bravo ! Vous pouvez marquer ce jour terminé.')
+            : t('Finish every activity above to complete the day.', 'Terminez toutes les activités ci-dessus pour compléter le jour.')) +
+        '</p>' +
       '</div>';
     }
 
@@ -352,14 +404,26 @@
     });
   }
 
-  function getActivityIcon(type) {
+  function getActivityIcon(type, route) {
+    if (route) {
+      if (route.indexOf('/grammar/') !== -1) return '文';
+      if (route.indexOf('/deepdive/') !== -1) return '深';
+      if (route.indexOf('/guide/') !== -1) return '数';
+      if (route.indexOf('/drill/') !== -1) return '組';
+      if (route.indexOf('/shadow/') !== -1) return '声';
+      if (route.indexOf('/review') !== -1) return '復';
+      if (route.indexOf('/exam/') !== -1) return '試';
+      if (route.indexOf('/kana/') !== -1) return '字';
+    }
     switch (type) {
-      case 'vocabulary': return '📝';
-      case 'reading': return '📖';
-      case 'listening': return '🎧';
-      case 'dictation': return '✍️';
-      case 'writing': return '✏️';
-      default: return '📚';
+      case 'vocabulary': return '語';
+      case 'reading': return '読';
+      case 'listening': return '聞';
+      case 'dictation': return '書';
+      case 'writing': return '書';
+      case 'deepdive': return '深';
+      case 'lesson': return '字';
+      default: return '本';
     }
   }
 

@@ -1,0 +1,90 @@
+{
+  "id": "numbers",
+  "title": { "en": "Numbers, Counters, Time & Money", "fr": "Nombres, compteurs, heure & argent", "pt": "Números, contadores, horas & dinheiro" },
+  "intro": {
+    "en": "Numbers are the backbone of daily Japanese — telling time, prices, dates, and counting things. Tap any item to hear it. Japanese counts different objects with different counter words, so learn the common ones as sets.",
+    "fr": "Les nombres sont essentiels au japonais quotidien — l'heure, les prix, les dates et compter les objets. Touchez un élément pour l'entendre. Le japonais compte différents objets avec différents compteurs ; apprenez les plus courants ensemble.",
+    "pt": "Os números são a base do japonês do dia a dia — horas, preços, datas e contar coisas. Toque em qualquer item para ouvi-lo. O japonês conta objetos diferentes com contadores diferentes; aprenda os mais comuns em conjunto."
+  },
+  "sections": [
+    {
+      "heading": { "en": "Numbers 1–10", "fr": "Nombres 1–10", "pt": "Números 1–10" },
+      "items": [
+        { "jp": "一", "reading": "いち", "meaning": { "en": "1", "fr": "1", "pt": "1" } },
+        { "jp": "二", "reading": "に", "meaning": { "en": "2", "fr": "2", "pt": "2" } },
+        { "jp": "三", "reading": "さん", "meaning": { "en": "3", "fr": "3", "pt": "3" } },
+        { "jp": "四", "reading": "し / よん", "meaning": { "en": "4", "fr": "4", "pt": "4" } },
+        { "jp": "五", "reading": "ご", "meaning": { "en": "5", "fr": "5", "pt": "5" } },
+        { "jp": "六", "reading": "ろく", "meaning": { "en": "6", "fr": "6", "pt": "6" } },
+        { "jp": "七", "reading": "しち / なな", "meaning": { "en": "7", "fr": "7", "pt": "7" } },
+        { "jp": "八", "reading": "はち", "meaning": { "en": "8", "fr": "8", "pt": "8" } },
+        { "jp": "九", "reading": "きゅう / く", "meaning": { "en": "9", "fr": "9", "pt": "9" } },
+        { "jp": "十", "reading": "じゅう", "meaning": { "en": "10", "fr": "10", "pt": "10" } }
+      ]
+    },
+    {
+      "heading": { "en": "Tens, Hundreds & Big Numbers", "fr": "Dizaines, centaines & grands nombres", "pt": "Dezenas, centenas & números grandes" },
+      "items": [
+        { "jp": "二十", "reading": "にじゅう", "meaning": { "en": "20", "fr": "20", "pt": "20" } },
+        { "jp": "百", "reading": "ひゃく", "meaning": { "en": "100", "fr": "100", "pt": "100" } },
+        { "jp": "三百", "reading": "さんびゃく", "meaning": { "en": "300 (sound change!)", "fr": "300 (changement de son !)", "pt": "300 (mudança de som!)" } },
+        { "jp": "六百", "reading": "ろっぴゃく", "meaning": { "en": "600 (sound change!)", "fr": "600 (changement de son !)", "pt": "600 (mudança de som!)" } },
+        { "jp": "千", "reading": "せん", "meaning": { "en": "1,000", "fr": "1 000", "pt": "1.000" } },
+        { "jp": "一万", "reading": "いちまん", "meaning": { "en": "10,000", "fr": "10 000", "pt": "10.000" } }
+      ]
+    },
+    {
+      "heading": { "en": "Counting things (〜つ)", "fr": "Compter les objets (〜つ)", "pt": "Contar coisas (〜つ)" },
+      "items": [
+        { "jp": "一つ", "reading": "ひとつ", "meaning": { "en": "1 thing", "fr": "1 chose", "pt": "1 coisa" } },
+        { "jp": "二つ", "reading": "ふたつ", "meaning": { "en": "2 things", "fr": "2 choses", "pt": "2 coisas" } },
+        { "jp": "三つ", "reading": "みっつ", "meaning": { "en": "3 things", "fr": "3 choses", "pt": "3 coisas" } },
+        { "jp": "四つ", "reading": "よっつ", "meaning": { "en": "4 things", "fr": "4 choses", "pt": "4 coisas" } },
+        { "jp": "五つ", "reading": "いつつ", "meaning": { "en": "5 things", "fr": "5 choses", "pt": "5 coisas" } },
+        { "jp": "いくつ", "reading": "いくつ", "meaning": { "en": "how many?", "fr": "combien ?", "pt": "quantos?" } }
+      ]
+    },
+    {
+      "heading": { "en": "Counting people (〜人)", "fr": "Compter les personnes (〜人)", "pt": "Contar pessoas (〜人)" },
+      "items": [
+        { "jp": "一人", "reading": "ひとり", "meaning": { "en": "1 person (irregular)", "fr": "1 personne (irrégulier)", "pt": "1 pessoa (irregular)" } },
+        { "jp": "二人", "reading": "ふたり", "meaning": { "en": "2 people (irregular)", "fr": "2 personnes (irrégulier)", "pt": "2 pessoas (irregular)" } },
+        { "jp": "三人", "reading": "さんにん", "meaning": { "en": "3 people", "fr": "3 personnes", "pt": "3 pessoas" } },
+        { "jp": "四人", "reading": "よにん", "meaning": { "en": "4 people", "fr": "4 personnes", "pt": "4 pessoas" } },
+        { "jp": "何人", "reading": "なんにん", "meaning": { "en": "how many people?", "fr": "combien de personnes ?", "pt": "quantas pessoas?" } }
+      ]
+    },
+    {
+      "heading": { "en": "Telling time (〜時 / 〜分)", "fr": "L'heure (〜時 / 〜分)", "pt": "Horas (〜時 / 〜分)" },
+      "items": [
+        { "jp": "一時", "reading": "いちじ", "meaning": { "en": "1 o'clock", "fr": "1 heure", "pt": "1 hora" } },
+        { "jp": "四時", "reading": "よじ", "meaning": { "en": "4 o'clock (irregular)", "fr": "4 heures (irrégulier)", "pt": "4 horas (irregular)" } },
+        { "jp": "七時", "reading": "しちじ", "meaning": { "en": "7 o'clock", "fr": "7 heures", "pt": "7 horas" } },
+        { "jp": "九時", "reading": "くじ", "meaning": { "en": "9 o'clock (irregular)", "fr": "9 heures (irrégulier)", "pt": "9 horas (irregular)" } },
+        { "jp": "五分", "reading": "ごふん", "meaning": { "en": "5 minutes", "fr": "5 minutes", "pt": "5 minutos" } },
+        { "jp": "十分", "reading": "じゅっぷん", "meaning": { "en": "10 minutes", "fr": "10 minutes", "pt": "10 minutos" } },
+        { "jp": "半", "reading": "はん", "meaning": { "en": "half past", "fr": "et demie", "pt": "e meia" } }
+      ]
+    },
+    {
+      "heading": { "en": "Days of the month", "fr": "Jours du mois", "pt": "Dias do mês" },
+      "items": [
+        { "jp": "一日", "reading": "ついたち", "meaning": { "en": "1st (irregular)", "fr": "le 1er (irrégulier)", "pt": "dia 1 (irregular)" } },
+        { "jp": "二日", "reading": "ふつか", "meaning": { "en": "2nd", "fr": "le 2", "pt": "dia 2" } },
+        { "jp": "三日", "reading": "みっか", "meaning": { "en": "3rd", "fr": "le 3", "pt": "dia 3" } },
+        { "jp": "十日", "reading": "とおか", "meaning": { "en": "10th", "fr": "le 10", "pt": "dia 10" } },
+        { "jp": "二十日", "reading": "はつか", "meaning": { "en": "20th (irregular)", "fr": "le 20 (irrégulier)", "pt": "dia 20 (irregular)" } },
+        { "jp": "何日", "reading": "なんにち", "meaning": { "en": "what day?", "fr": "quel jour ?", "pt": "que dia?" } }
+      ]
+    },
+    {
+      "heading": { "en": "Money (〜円)", "fr": "Argent (〜円)", "pt": "Dinheiro (〜円)" },
+      "items": [
+        { "jp": "百円", "reading": "ひゃくえん", "meaning": { "en": "100 yen", "fr": "100 yens", "pt": "100 ienes" } },
+        { "jp": "五百円", "reading": "ごひゃくえん", "meaning": { "en": "500 yen", "fr": "500 yens", "pt": "500 ienes" } },
+        { "jp": "千円", "reading": "せんえん", "meaning": { "en": "1,000 yen", "fr": "1 000 yens", "pt": "1.000 ienes" } },
+        { "jp": "いくらですか", "reading": "いくらですか", "meaning": { "en": "How much is it?", "fr": "C'est combien ?", "pt": "Quanto custa?" } }
+      ]
+    }
+  ]
+}

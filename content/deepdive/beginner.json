@@ -1,0 +1,151 @@
+{
+  "level": "beginner",
+  "topics": {
+    "greetings": {
+      "title": { "en": "Greeting Set-Phrases", "fr": "Expressions de salutation", "pt": "Expressões de saudação" },
+      "kind": { "en": "Common expressions", "fr": "Expressions courantes", "pt": "Expressões comuns" },
+      "intro": { "en": "Japanese has fixed phrases for daily situations. Say them naturally, as whole chunks.", "fr": "Le japonais a des expressions figées pour les situations quotidiennes. Dites-les naturellement, comme des blocs entiers.", "pt": "O japonês tem frases fixas para situações do dia a dia. Diga-as naturalmente, como blocos inteiros." },
+      "items": [
+        { "jp": "よろしくお願いします", "reading": "よろしくおねがいします", "meaning": { "en": "Nice to meet you / please treat me well", "fr": "Enchanté / merci d'avance", "pt": "Prazer / conto com você" }, "note": { "en": "Said when meeting someone or asking a favor.", "fr": "Se dit en rencontrant quelqu'un ou en demandant un service.", "pt": "Dito ao conhecer alguém ou pedir um favor." } },
+        { "jp": "おつかれさま", "reading": "おつかれさま", "meaning": { "en": "Good work / thanks for your effort", "fr": "Bon travail / merci de votre effort", "pt": "Bom trabalho / obrigado pelo esforço" }, "note": { "en": "Said to colleagues after work or a task.", "fr": "Se dit aux collègues après le travail.", "pt": "Dito a colegas após o trabalho." } },
+        { "jp": "いただきます", "reading": "いただきます", "meaning": { "en": "Let's eat (before a meal)", "fr": "Bon appétit (avant le repas)", "pt": "Vou comer (antes da refeição)" }, "note": { "en": "A thank-you for the food, said before eating.", "fr": "Un remerciement pour le repas, avant de manger.", "pt": "Um agradecimento pela comida, antes de comer." } },
+        { "jp": "ごちそうさま", "reading": "ごちそうさま", "meaning": { "en": "Thanks for the meal (after eating)", "fr": "Merci pour le repas (après manger)", "pt": "Obrigado pela refeição (depois de comer)" }, "note": { "en": "Said after finishing a meal.", "fr": "Se dit après avoir fini de manger.", "pt": "Dito após terminar a refeição." } },
+        { "jp": "おはようございます", "reading": "おはようございます", "meaning": { "en": "Good morning (polite)", "fr": "Bonjour (le matin, poli)", "pt": "Bom dia (formal)" }, "note": { "en": "Drop ございます with friends: おはよう.", "fr": "Sans ございます entre amis : おはよう.", "pt": "Sem ございます entre amigos: おはよう." } },
+        { "jp": "おやすみなさい", "reading": "おやすみなさい", "meaning": { "en": "Good night", "fr": "Bonne nuit", "pt": "Boa noite (ao dormir)" }, "note": { "en": "Said before sleeping.", "fr": "Se dit avant de dormir.", "pt": "Dito antes de dormir." } }
+      ]
+    },
+    "onomatopoeia": {
+      "title": { "en": "Everyday Onomatopoeia", "fr": "Onomatopées du quotidien", "pt": "Onomatopeias do dia a dia" },
+      "kind": { "en": "Onomatopoeia (giongo/gitaigo)", "fr": "Onomatopées (giongo/gitaigo)", "pt": "Onomatopeias (giongo/gitaigo)" },
+      "intro": { "en": "Japanese uses sound-words to describe feelings and states. They make speech lively and natural.", "fr": "Le japonais utilise des mots-sons pour décrire sensations et états. Ils rendent le discours vivant.", "pt": "O japonês usa palavras-som para descrever sensações e estados. Elas deixam a fala viva e natural." },
+      "items": [
+        { "jp": "わくわく", "reading": "わくわく", "meaning": { "en": "excited / thrilled", "fr": "excité / impatient", "pt": "animado / empolgado" }, "note": { "en": "The feeling before something fun.", "fr": "Le sentiment avant quelque chose d'amusant.", "pt": "A sensação antes de algo divertido." } },
+        { "jp": "どきどき", "reading": "どきどき", "meaning": { "en": "heart pounding (nervous/excited)", "fr": "cœur qui bat (nerveux)", "pt": "coração batendo (nervoso)" }, "note": { "en": "From nerves or excitement.", "fr": "Par nervosité ou excitation.", "pt": "De nervosismo ou empolgação." } },
+        { "jp": "ぺらぺら", "reading": "ぺらぺら", "meaning": { "en": "fluent (speaking)", "fr": "couramment (parler)", "pt": "fluente (falar)" }, "note": { "en": "日本語がぺらぺら = fluent in Japanese.", "fr": "日本語がぺらぺら = parle couramment japonais.", "pt": "日本語がぺらぺら = fala japonês fluente." } },
+        { "jp": "にこにこ", "reading": "にこにこ", "meaning": { "en": "smiling warmly", "fr": "souriant chaleureusement", "pt": "sorrindo calorosamente" }, "note": { "en": "A gentle, happy smile.", "fr": "Un sourire doux et heureux.", "pt": "Um sorriso gentil e feliz." } },
+        { "jp": "ぴかぴか", "reading": "ぴかぴか", "meaning": { "en": "sparkling / shiny", "fr": "étincelant / brillant", "pt": "brilhante / reluzente" }, "note": { "en": "Clean and shiny, like new shoes.", "fr": "Propre et brillant, comme des chaussures neuves.", "pt": "Limpo e brilhante, como sapatos novos." } },
+        { "jp": "ぐっすり", "reading": "ぐっすり", "meaning": { "en": "sleeping soundly", "fr": "dormir profondément", "pt": "dormir profundamente" }, "note": { "en": "ぐっすり寝る = to sleep deeply.", "fr": "ぐっすり寝る = dormir profondément.", "pt": "ぐっすり寝る = dormir profundamente." } }
+      ]
+    },
+    "animal-sounds": {
+      "title": { "en": "Animal Sounds", "fr": "Cris d'animaux", "pt": "Sons de animais" },
+      "kind": { "en": "Onomatopoeia", "fr": "Onomatopées", "pt": "Onomatopeias" },
+      "intro": { "en": "Animals 'speak' differently in Japanese! These sound-words are used even by adults.", "fr": "Les animaux « parlent » différemment en japonais ! Ces mots-sons sont utilisés même par les adultes.", "pt": "Os animais 'falam' diferente em japonês! Essas palavras-som são usadas até por adultos." },
+      "items": [
+        { "jp": "わんわん", "reading": "わんわん", "meaning": { "en": "woof (dog)", "fr": "ouaf (chien)", "pt": "au-au (cachorro)" }, "note": { "en": "犬 (いぬ) = dog", "fr": "犬 (いぬ) = chien", "pt": "犬 (いぬ) = cachorro" } },
+        { "jp": "にゃーにゃー", "reading": "にゃーにゃー", "meaning": { "en": "meow (cat)", "fr": "miaou (chat)", "pt": "miau (gato)" }, "note": { "en": "猫 (ねこ) = cat", "fr": "猫 (ねこ) = chat", "pt": "猫 (ねこ) = gato" } },
+        { "jp": "モーモー", "reading": "モーモー", "meaning": { "en": "moo (cow)", "fr": "meuh (vache)", "pt": "muu (vaca)" }, "note": { "en": "牛 (うし) = cow", "fr": "牛 (うし) = vache", "pt": "牛 (うし) = vaca" } },
+        { "jp": "コケコッコー", "reading": "コケコッコー", "meaning": { "en": "cock-a-doodle-doo (rooster)", "fr": "cocorico (coq)", "pt": "có-có-ró-có (galo)" }, "note": { "en": "Written in katakana for the sound.", "fr": "Écrit en katakana pour le son.", "pt": "Escrito em katakana para o som." } },
+        { "jp": "ケロケロ", "reading": "ケロケロ", "meaning": { "en": "ribbit (frog)", "fr": "coâ (grenouille)", "pt": "coaxar (sapo)" }, "note": { "en": "かえる = frog", "fr": "かえる = grenouille", "pt": "かえる = sapo" } }
+      ]
+    },
+    "food-collocations": {
+      "title": { "en": "Food & Drink Collocations", "fr": "Collocations nourriture & boisson", "pt": "Combinações de comida & bebida" },
+      "kind": { "en": "Word pairings", "fr": "Associations de mots", "pt": "Combinações de palavras" },
+      "intro": { "en": "Verbs pair with specific nouns. Learn these natural pairings as a set.", "fr": "Les verbes s'associent à des noms précis. Apprenez ces paires naturelles ensemble.", "pt": "Verbos combinam com substantivos específicos. Aprenda essas combinações naturais juntas." },
+      "items": [
+        { "jp": "ご飯を食べる", "reading": "ごはんをたべる", "meaning": { "en": "to eat a meal / rice", "fr": "manger un repas / du riz", "pt": "comer uma refeição / arroz" }, "note": { "en": "を marks the object.", "fr": "を marque l'objet.", "pt": "を marca o objeto." } },
+        { "jp": "お茶を飲む", "reading": "おちゃをのむ", "meaning": { "en": "to drink tea", "fr": "boire du thé", "pt": "beber chá" }, "note": { "en": "飲む is used for all drinks (and soup!).", "fr": "飲む s'utilise pour toutes les boissons (et la soupe !).", "pt": "飲む serve para todas as bebidas (e sopa!)." } },
+        { "jp": "料理を作る", "reading": "りょうりをつくる", "meaning": { "en": "to cook / make food", "fr": "cuisiner / préparer un plat", "pt": "cozinhar / preparar comida" }, "note": { "en": "作る = to make.", "fr": "作る = fabriquer.", "pt": "作る = fazer." } },
+        { "jp": "お腹がすいた", "reading": "おなかがすいた", "meaning": { "en": "I'm hungry", "fr": "j'ai faim", "pt": "estou com fome" }, "note": { "en": "Literally 'the stomach emptied'.", "fr": "Littéralement « le ventre s'est vidé ».", "pt": "Literalmente 'o estômago esvaziou'." } },
+        { "jp": "のどが渇いた", "reading": "のどがかわいた", "meaning": { "en": "I'm thirsty", "fr": "j'ai soif", "pt": "estou com sede" }, "note": { "en": "Literally 'the throat dried'.", "fr": "Littéralement « la gorge a séché ».", "pt": "Literalmente 'a garganta secou'." } }
+      ]
+    },
+    "weather-expressions": {
+      "title": { "en": "Weather Expressions", "fr": "Expressions météo", "pt": "Expressões de clima" },
+      "kind": { "en": "Word pairings", "fr": "Associations de mots", "pt": "Combinações de palavras" },
+      "intro": { "en": "Talking about the weather is everyday small talk. These pairings sound natural.", "fr": "Parler de la météo est une conversation quotidienne. Ces associations sonnent naturelles.", "pt": "Falar sobre o clima é uma conversa diária. Estas combinações soam naturais." },
+      "items": [
+        { "jp": "雨が降る", "reading": "あめがふる", "meaning": { "en": "it rains", "fr": "il pleut", "pt": "chove" }, "note": { "en": "降る (ふる) = to fall (rain/snow).", "fr": "降る (ふる) = tomber (pluie/neige).", "pt": "降る (ふる) = cair (chuva/neve)." } },
+        { "jp": "晴れている", "reading": "はれている", "meaning": { "en": "it's sunny / clear", "fr": "il fait beau / clair", "pt": "está ensolarado / limpo" }, "note": { "en": "晴れ = clear weather.", "fr": "晴れ = temps clair.", "pt": "晴れ = tempo limpo." } },
+        { "jp": "風が強い", "reading": "かぜがつよい", "meaning": { "en": "the wind is strong", "fr": "le vent est fort", "pt": "o vento está forte" }, "note": { "en": "強い = strong.", "fr": "強い = fort.", "pt": "強い = forte." } },
+        { "jp": "暑くなる", "reading": "あつくなる", "meaning": { "en": "to get hot", "fr": "devenir chaud", "pt": "ficar quente" }, "note": { "en": "い-adj + なる = to become.", "fr": "adj い + なる = devenir.", "pt": "adj い + なる = tornar-se." } },
+        { "jp": "雪が積もる", "reading": "ゆきがつもる", "meaning": { "en": "snow piles up", "fr": "la neige s'accumule", "pt": "a neve se acumula" }, "note": { "en": "積もる = to accumulate.", "fr": "積もる = s'accumuler.", "pt": "積もる = acumular-se." } }
+      ]
+    },
+    "feelings-idioms": {
+      "title": { "en": "Feelings & Body Idioms", "fr": "Émotions & idiomes du corps", "pt": "Sentimentos & expressões do corpo" },
+      "kind": { "en": "Idioms", "fr": "Expressions idiomatiques", "pt": "Expressões idiomáticas" },
+      "intro": { "en": "Many Japanese idioms use body parts to describe feelings and traits.", "fr": "Beaucoup d'idiomes japonais utilisent des parties du corps pour décrire sentiments et traits.", "pt": "Muitas expressões japonesas usam partes do corpo para descrever sentimentos e traços." },
+      "items": [
+        { "jp": "頭がいい", "reading": "あたまがいい", "meaning": { "en": "smart (lit. 'good head')", "fr": "intelligent (litt. « bonne tête »)", "pt": "inteligente (lit. 'boa cabeça')" }, "note": { "en": "頭 = head.", "fr": "頭 = tête.", "pt": "頭 = cabeça." } },
+        { "jp": "元気", "reading": "げんき", "meaning": { "en": "healthy / energetic / lively", "fr": "en forme / énergique", "pt": "saudável / animado" }, "note": { "en": "元気ですか = How are you?", "fr": "元気ですか = Comment allez-vous ?", "pt": "元気ですか = Como você está?" } },
+        { "jp": "気をつけて", "reading": "きをつけて", "meaning": { "en": "take care / be careful", "fr": "fais attention / prends soin de toi", "pt": "cuidado / se cuida" }, "note": { "en": "Said when someone leaves.", "fr": "Se dit quand quelqu'un part.", "pt": "Dito quando alguém sai." } },
+        { "jp": "楽しみにしている", "reading": "たのしみにしている", "meaning": { "en": "I'm looking forward to it", "fr": "j'ai hâte", "pt": "estou ansioso por isso" }, "note": { "en": "楽しみ = a pleasure/anticipation.", "fr": "楽しみ = plaisir/anticipation.", "pt": "楽しみ = prazer/expectativa." } },
+        { "jp": "びっくりした", "reading": "びっくりした", "meaning": { "en": "I was surprised", "fr": "j'ai été surpris", "pt": "fiquei surpreso" }, "note": { "en": "びっくり = surprise (onomatopoeia).", "fr": "びっくり = surprise (onomatopée).", "pt": "びっくり = surpresa (onomatopeia)." } }
+      ]
+    },
+    "daily-verbs": {
+      "title": { "en": "Daily Routine Collocations", "fr": "Collocations de la routine", "pt": "Combinações da rotina diária" },
+      "kind": { "en": "Word pairings", "fr": "Associations de mots", "pt": "Combinações de palavras" },
+      "intro": { "en": "These verb + noun pairings describe your everyday routine.", "fr": "Ces associations verbe + nom décrivent votre routine quotidienne.", "pt": "Estas combinações verbo + substantivo descrevem sua rotina diária." },
+      "items": [
+        { "jp": "顔を洗う", "reading": "かおをあらう", "meaning": { "en": "to wash one's face", "fr": "se laver le visage", "pt": "lavar o rosto" }, "note": { "en": "洗う = to wash.", "fr": "洗う = laver.", "pt": "洗う = lavar." } },
+        { "jp": "歯を磨く", "reading": "はをみがく", "meaning": { "en": "to brush teeth", "fr": "se brosser les dents", "pt": "escovar os dentes" }, "note": { "en": "磨く = to polish/brush.", "fr": "磨く = polir/brosser.", "pt": "磨く = polir/escovar." } },
+        { "jp": "電車に乗る", "reading": "でんしゃにのる", "meaning": { "en": "to get on the train", "fr": "monter dans le train", "pt": "pegar o trem" }, "note": { "en": "乗る takes に, not を.", "fr": "乗る prend に, pas を.", "pt": "乗る usa に, não を." } },
+        { "jp": "シャワーを浴びる", "reading": "シャワーをあびる", "meaning": { "en": "to take a shower", "fr": "prendre une douche", "pt": "tomar banho de chuveiro" }, "note": { "en": "浴びる = to bathe in.", "fr": "浴びる = se baigner dans.", "pt": "浴びる = banhar-se em." } },
+        { "jp": "宿題をする", "reading": "しゅくだいをする", "meaning": { "en": "to do homework", "fr": "faire ses devoirs", "pt": "fazer a lição de casa" }, "note": { "en": "する = to do.", "fr": "する = faire.", "pt": "する = fazer." } }
+      ]
+    },
+    "counting": {
+      "title": { "en": "Counters in Action", "fr": "Compteurs en action", "pt": "Contadores em ação" },
+      "kind": { "en": "Word pairings", "fr": "Associations de mots", "pt": "Combinações de palavras" },
+      "intro": { "en": "Japanese counts different things with different counter words. Here are the most common.", "fr": "Le japonais compte différentes choses avec différents compteurs. Voici les plus courants.", "pt": "O japonês conta coisas diferentes com contadores diferentes. Aqui estão os mais comuns." },
+      "items": [
+        { "jp": "一人", "reading": "ひとり", "meaning": { "en": "one person", "fr": "une personne", "pt": "uma pessoa" }, "note": { "en": "人 counts people (irregular for 1,2).", "fr": "人 compte les personnes (irrégulier 1,2).", "pt": "人 conta pessoas (irregular 1,2)." } },
+        { "jp": "二匹", "reading": "にひき", "meaning": { "en": "two small animals", "fr": "deux petits animaux", "pt": "dois animais pequenos" }, "note": { "en": "匹 counts small animals.", "fr": "匹 compte les petits animaux.", "pt": "匹 conta animais pequenos." } },
+        { "jp": "三枚", "reading": "さんまい", "meaning": { "en": "three flat objects", "fr": "trois objets plats", "pt": "três objetos planos" }, "note": { "en": "枚 = paper, plates, shirts.", "fr": "枚 = papier, assiettes, chemises.", "pt": "枚 = papel, pratos, camisas." } },
+        { "jp": "四本", "reading": "よんほん", "meaning": { "en": "four long objects", "fr": "quatre objets longs", "pt": "quatro objetos longos" }, "note": { "en": "本 = pens, bottles, trees.", "fr": "本 = stylos, bouteilles, arbres.", "pt": "本 = canetas, garrafas, árvores." } },
+        { "jp": "五冊", "reading": "ごさつ", "meaning": { "en": "five books", "fr": "cinq livres", "pt": "cinco livros" }, "note": { "en": "冊 counts books/magazines.", "fr": "冊 compte livres/magazines.", "pt": "冊 conta livros/revistas." } }
+      ]
+    },
+    "shopping-phrases": {
+      "title": { "en": "Shopping Phrases", "fr": "Phrases de shopping", "pt": "Frases de compras" },
+      "kind": { "en": "Set phrases", "fr": "Expressions figées", "pt": "Frases fixas" },
+      "intro": { "en": "Useful fixed phrases you'll hear and use in shops.", "fr": "Expressions figées utiles à entendre et utiliser en magasin.", "pt": "Frases fixas úteis que você ouvirá e usará em lojas." },
+      "items": [
+        { "jp": "いらっしゃいませ", "reading": "いらっしゃいませ", "meaning": { "en": "Welcome (to a shop)", "fr": "Bienvenue (en magasin)", "pt": "Bem-vindo (à loja)" }, "note": { "en": "Staff say this; no reply needed.", "fr": "Le personnel le dit ; pas de réponse nécessaire.", "pt": "Os funcionários dizem isso; não precisa responder." } },
+        { "jp": "いくらですか", "reading": "いくらですか", "meaning": { "en": "How much is it?", "fr": "C'est combien ?", "pt": "Quanto custa?" }, "note": { "en": "いくら = how much.", "fr": "いくら = combien.", "pt": "いくら = quanto." } },
+        { "jp": "これをください", "reading": "これをください", "meaning": { "en": "I'll take this, please", "fr": "Je prends ceci, s'il vous plaît", "pt": "Vou levar este, por favor" }, "note": { "en": "ください = please give me.", "fr": "ください = donnez-moi svp.", "pt": "ください = por favor me dê." } },
+        { "jp": "カードで払います", "reading": "カードではらいます", "meaning": { "en": "I'll pay by card", "fr": "Je paie par carte", "pt": "Vou pagar com cartão" }, "note": { "en": "払う = to pay; で = by means of.", "fr": "払う = payer ; で = au moyen de.", "pt": "払う = pagar; で = por meio de." } },
+        { "jp": "袋をください", "reading": "ふくろをください", "meaning": { "en": "A bag, please", "fr": "Un sac, s'il vous plaît", "pt": "Uma sacola, por favor" }, "note": { "en": "袋 = bag.", "fr": "袋 = sac.", "pt": "袋 = sacola." } }
+      ]
+    },
+    "time-collocations": {
+      "title": { "en": "Time Expressions", "fr": "Expressions de temps", "pt": "Expressões de tempo" },
+      "kind": { "en": "Word pairings", "fr": "Associations de mots", "pt": "Combinações de palavras" },
+      "intro": { "en": "Natural ways to talk about time and schedules.", "fr": "Façons naturelles de parler du temps et des horaires.", "pt": "Formas naturais de falar sobre tempo e horários." },
+      "items": [
+        { "jp": "時間がある", "reading": "じかんがある", "meaning": { "en": "to have time", "fr": "avoir du temps", "pt": "ter tempo" }, "note": { "en": "ある = to exist (things).", "fr": "ある = exister (choses).", "pt": "ある = existir (coisas)." } },
+        { "jp": "遅れる", "reading": "おくれる", "meaning": { "en": "to be late", "fr": "être en retard", "pt": "estar atrasado" }, "note": { "en": "電車が遅れる = the train is late.", "fr": "電車が遅れる = le train est en retard.", "pt": "電車が遅れる = o trem está atrasado." } },
+        { "jp": "間に合う", "reading": "まにあう", "meaning": { "en": "to be on time / make it", "fr": "arriver à temps", "pt": "chegar a tempo" }, "note": { "en": "A very common set phrase.", "fr": "Une expression figée très courante.", "pt": "Uma frase fixa muito comum." } },
+        { "jp": "予定がある", "reading": "よていがある", "meaning": { "en": "to have plans", "fr": "avoir des projets", "pt": "ter planos" }, "note": { "en": "予定 = schedule/plan.", "fr": "予定 = programme/projet.", "pt": "予定 = agenda/plano." } },
+        { "jp": "毎日", "reading": "まいにち", "meaning": { "en": "every day", "fr": "chaque jour", "pt": "todos os dias" }, "note": { "en": "毎 = every: 毎週, 毎月, 毎年.", "fr": "毎 = chaque : 毎週, 毎月, 毎年.", "pt": "毎 = cada: 毎週, 毎月, 毎年." } }
+      ]
+    },
+    "travel-phrases": {
+      "title": { "en": "Travel & Directions", "fr": "Voyage & directions", "pt": "Viagem & direções" },
+      "kind": { "en": "Set phrases", "fr": "Expressions figées", "pt": "Frases fixas" },
+      "intro": { "en": "Phrases to get around Japan by train and on foot.", "fr": "Phrases pour se déplacer au Japon en train et à pied.", "pt": "Frases para se locomover pelo Japão de trem e a pé." },
+      "items": [
+        { "jp": "駅はどこですか", "reading": "えきはどこですか", "meaning": { "en": "Where is the station?", "fr": "Où est la gare ?", "pt": "Onde fica a estação?" }, "note": { "en": "どこ = where.", "fr": "どこ = où.", "pt": "どこ = onde." } },
+        { "jp": "まっすぐ行く", "reading": "まっすぐいく", "meaning": { "en": "to go straight", "fr": "aller tout droit", "pt": "ir em frente" }, "note": { "en": "まっすぐ = straight.", "fr": "まっすぐ = tout droit.", "pt": "まっすぐ = reto." } },
+        { "jp": "右に曲がる", "reading": "みぎにまがる", "meaning": { "en": "to turn right", "fr": "tourner à droite", "pt": "virar à direita" }, "note": { "en": "曲がる = to turn; 左 = left.", "fr": "曲がる = tourner ; 左 = gauche.", "pt": "曲がる = virar; 左 = esquerda." } },
+        { "jp": "切符を買う", "reading": "きっぷをかう", "meaning": { "en": "to buy a ticket", "fr": "acheter un billet", "pt": "comprar um bilhete" }, "note": { "en": "切符 = ticket.", "fr": "切符 = billet.", "pt": "切符 = bilhete." } },
+        { "jp": "乗り換える", "reading": "のりかえる", "meaning": { "en": "to transfer (trains)", "fr": "changer (de train)", "pt": "baldear (trens)" }, "note": { "en": "乗り換え = a transfer.", "fr": "乗り換え = correspondance.", "pt": "乗り換え = baldeação." } }
+      ]
+    },
+    "polite-requests": {
+      "title": { "en": "Polite Requests", "fr": "Demandes polies", "pt": "Pedidos educados" },
+      "kind": { "en": "Set phrases", "fr": "Expressions figées", "pt": "Frases fixas" },
+      "intro": { "en": "Softening language makes requests polite and natural.", "fr": "Adoucir le langage rend les demandes polies et naturelles.", "pt": "Suavizar a linguagem torna os pedidos educados e naturais." },
+      "items": [
+        { "jp": "すみません", "reading": "すみません", "meaning": { "en": "Excuse me / sorry", "fr": "Excusez-moi / pardon", "pt": "Com licença / desculpe" }, "note": { "en": "Also used to call staff.", "fr": "Sert aussi à appeler le personnel.", "pt": "Também usado para chamar funcionários." } },
+        { "jp": "〜てください", "reading": "〜てください", "meaning": { "en": "please do ~", "fr": "veuillez faire ~", "pt": "por favor faça ~" }, "note": { "en": "見てください = please look.", "fr": "見てください = veuillez regarder.", "pt": "見てください = por favor olhe." } },
+        { "jp": "お願いします", "reading": "おねがいします", "meaning": { "en": "please (I request)", "fr": "s'il vous plaît (je demande)", "pt": "por favor (eu peço)" }, "note": { "en": "Very common all-purpose request.", "fr": "Demande passe-partout très courante.", "pt": "Pedido comum para tudo." } },
+        { "jp": "もう一度", "reading": "もういちど", "meaning": { "en": "one more time", "fr": "encore une fois", "pt": "mais uma vez" }, "note": { "en": "もう一度お願いします = again, please.", "fr": "もう一度お願いします = encore, svp.", "pt": "もう一度お願いします = de novo, por favor." } },
+        { "jp": "ちょっと待ってください", "reading": "ちょっとまってください", "meaning": { "en": "please wait a moment", "fr": "attendez un instant svp", "pt": "espere um momento, por favor" }, "note": { "en": "ちょっと = a little/moment.", "fr": "ちょっと = un peu/un instant.", "pt": "ちょっと = um pouco/momento." } }
+      ]
+    }
+  }
+}

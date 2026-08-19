@@ -15,7 +15,8 @@ const {
   lookupWord,
   getKanjiStrokes,
   getVocabulary, getVocabularyItem, getVocabularyAudioPath,
-  listVocabularyExercises, getVocabularyExercise
+  listVocabularyExercises, getVocabularyExercise,
+  getKana, getDeepDive, getGrammar, getGuide, getDrill, getShadowing, getExam
 } = require('../modules/content');
 const { recordCompletion } = require('../modules/progress');
 const { updateDifficultyScore } = require('../modules/adaptive');
@@ -23,6 +24,103 @@ const { compareDictation } = require('../modules/dictation-compare');
 const { getTranslation, getAvailableLanguages } = require('../modules/translations');
 
 const router = express.Router();
+
+// ─────────────────────────────────────────────────────────────────────────────
+// Kana Endpoints (in-app Hiragana / Katakana learning)
+// ─────────────────────────────────────────────────────────────────────────────
+
+/**
+ * GET /api/kana/:script
+ * Returns hiragana or katakana learning data (chart, mnemonics, examples).
+ */
+router.get('/kana/:script', (req, res) => {
+  const { script } = req.params;
+  const data = getKana(script);
+  if (!data) {
+    return res.status(404).json({ error: `Kana script not found: ${script}` });
+  }
+  res.json(data);
+});
+
+/**
+ * GET /api/deepdive/:topic
+ * Returns a single deep-dive topic (onomatopoeia, collocations, idioms).
+ */
+router.get('/deepdive/:topic', (req, res) => {
+  const { topic } = req.params;
+  const data = getDeepDive(topic);
+  if (!data) {
+    return res.status(404).json({ error: `Deep-dive topic not found: ${topic}` });
+  }
+  res.json(data);
+});
+
+/**
+ * GET /api/grammar/:level        → all grammar points for a level
+ * GET /api/grammar/:level/:id     → a single grammar point
+ */
+router.get('/grammar/:level/:id', (req, res) => {
+  const { level, id } = req.params;
+  const data = getGrammar(level, id);
+  if (!data) return res.status(404).json({ error: `Grammar point not found: ${level}/${id}` });
+  res.json(data);
+});
+
+router.get('/grammar/:level', (req, res) => {
+  const { level } = req.params;
+  const data = getGrammar(level);
+  if (!data) return res.status(404).json({ error: `Grammar not found for level: ${level}` });
+  res.json({ level, points: data });
+});
+
+/**
+ * GET /api/guide/:id
+ * Returns a reference guide (e.g., 'numbers') with sections.
+ */
+router.get('/guide/:id', (req, res) => {
+  const data = getGuide(req.params.id);
+  if (!data) return res.status(404).json({ error: `Guide not found: ${req.params.id}` });
+  res.json(data);
+});
+
+/**
+ * GET /api/drill/:topic
+ * Returns a sentence-building / conjugation drill topic.
+ */
+router.get('/drill/:topic', (req, res) => {
+  const data = getDrill(req.params.topic);
+  if (!data) return res.status(404).json({ error: `Drill not found: ${req.params.topic}` });
+  // Attach the list of sibling topics for in-page navigation
+  const all = getDrill();
+  if (all && all.topics) {
+    data.topics = Object.keys(all.topics).map(function(k) { return { id: k, title: all.topics[k].title }; });
+  }
+  res.json(data);
+});
+
+/**
+ * GET /api/shadowing/:topic
+ * Returns a shadowing (speaking practice) topic with sibling list.
+ */
+router.get('/shadowing/:topic', (req, res) => {
+  const data = getShadowing(req.params.topic);
+  if (!data) return res.status(404).json({ error: `Shadowing topic not found: ${req.params.topic}` });
+  const all = getShadowing();
+  if (all && all.topics) {
+    data.topics = Object.keys(all.topics).map(function(k) { return { id: k, title: all.topics[k].title }; });
+  }
+  res.json(data);
+});
+
+/**
+ * GET /api/exam/:id
+ * Returns an exam ('placement' or 'n5-mock').
+ */
+router.get('/exam/:id', (req, res) => {
+  const data = getExam(req.params.id);
+  if (!data) return res.status(404).json({ error: `Exam not found: ${req.params.id}` });
+  res.json(data);
+});
 
 // ─────────────────────────────────────────────────────────────────────────────
 // Reading Endpoints

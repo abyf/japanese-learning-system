@@ -1,118 +1,127 @@
 /**
  * Japanese Learning System - Text-to-Speech Module
- * 
+ *
  * Uses the browser's Web Speech API to speak Japanese text.
- * Falls back gracefully if TTS is unavailable.
+ * Robustly handles asynchronous voice loading, selects a Japanese voice,
+ * and exposes an audio-readiness status so the UI can guide the user when
+ * no Japanese voice is installed.
  */
 (function() {
   'use strict';
 
-  var currentUtterance = null;
   var speaking = false;
   var rate = 1.0;
+  var voices = [];
+  var jaVoice = null;
+  var ready = false;
+  var readyCbs = [];
+
+  var supported = !!(window.speechSynthesis && window.SpeechSynthesisUtterance);
+
+  function pickJaVoice(list) {
+    if (!list || !list.length) return null;
+    // Prefer an explicit ja-JP voice, then any ja*, then a voice whose name mentions Japanese
+    return list.find(function(v) { return v.lang === 'ja-JP'; })
+        || list.find(function(v) { return (v.lang || '').toLowerCase().indexOf('ja') === 0; })
+        || list.find(function(v) { return /japan|日本/i.test(v.name || ''); })
+        || null;
+  }
+
+  function loadVoices() {
+    if (!supported) { markReady(); return; }
+    var list = window.speechSynthesis.getVoices();
+    if (list && list.length) {
+      voices = list;
+      jaVoice = pickJaVoice(list);
+      markReady();
+    }
+  }
+
+  function markReady() {
+    if (ready) return;
+    ready = true;
+    var cbs = readyCbs.slice();
+    readyCbs = [];
+    cbs.forEach(function(cb) { try { cb(getAudioStatus()); } catch (e) {} });
+  }
 
   /**
-   * Speak Japanese text using the browser's TTS engine.
-   * @param {string} text - Japanese text to speak
-   * @param {object} [options] - Options
-   * @param {number} [options.rate] - Speech rate (0.5-2.0, default 1.0)
-   * @param {function} [options.onEnd] - Callback when speech ends
+   * 'ok' (Japanese voice available), 'no-voice' (TTS works but no JP voice),
+   * or 'unsupported' (no speech synthesis at all).
    */
-  function speak(text, options) {
-    if (!window.speechSynthesis) {
-      console.warn('TTS not supported in this browser');
-      if (options && options.onEnd) options.onEnd();
-      return;
-    }
+  function getAudioStatus() {
+    if (!supported) return 'unsupported';
+    return jaVoice ? 'ok' : 'no-voice';
+  }
 
-    // Cancel any ongoing speech
+  /**
+   * Register a callback fired once voice status is known (or after a timeout).
+   */
+  function onReady(cb) {
+    if (ready) { cb(getAudioStatus()); return; }
+    readyCbs.push(cb);
+  }
+
+  function speak(text, options) {
+    var opts = options || {};
+    if (!supported) { if (opts.onEnd) opts.onEnd(); return; }
+
     stop();
 
-    var opts = options || {};
-    var utterance = new SpeechSynthesisUtterance(text);
-    utterance.lang = 'ja-JP';
-    utterance.rate = opts.rate || rate;
-    utterance.pitch = 1.0;
-
-    // Try to find a Japanese voice
-    var voices = window.speechSynthesis.getVoices();
-    var japaneseVoice = voices.find(function(v) {
-      return v.lang === 'ja-JP' || v.lang === 'ja';
-    });
-    if (japaneseVoice) {
-      utterance.voice = japaneseVoice;
+    function doSpeak() {
+      var u = new SpeechSynthesisUtterance(text);
+      u.lang = 'ja-JP';
+      u.rate = opts.rate || rate;
+      u.pitch = 1.0;
+      if (!jaVoice) { jaVoice = pickJaVoice(window.speechSynthesis.getVoices()); }
+      if (jaVoice) u.voice = jaVoice;
+      u.onstart = function() { speaking = true; };
+      u.onend = function() { speaking = false; if (opts.onEnd) opts.onEnd(); };
+      u.onerror = function() { speaking = false; if (opts.onEnd) opts.onEnd(); };
+      window.speechSynthesis.speak(u);
     }
 
-    utterance.onstart = function() {
-      speaking = true;
-    };
-
-    utterance.onend = function() {
-      speaking = false;
-      currentUtterance = null;
-      if (opts.onEnd) opts.onEnd();
-    };
-
-    utterance.onerror = function() {
-      speaking = false;
-      currentUtterance = null;
-      if (opts.onEnd) opts.onEnd();
-    };
-
-    currentUtterance = utterance;
-    window.speechSynthesis.speak(utterance);
+    // If voices aren't loaded yet, wait briefly then speak
+    if (!window.speechSynthesis.getVoices().length) {
+      loadVoices();
+      setTimeout(doSpeak, 180);
+    } else {
+      doSpeak();
+    }
   }
 
-  /**
-   * Stop any ongoing speech.
-   */
   function stop() {
-    if (window.speechSynthesis) {
-      window.speechSynthesis.cancel();
-    }
+    if (window.speechSynthesis) window.speechSynthesis.cancel();
     speaking = false;
-    currentUtterance = null;
   }
 
-  /**
-   * Set the speech rate.
-   * @param {number} newRate - 0.5 to 2.0
-   */
-  function setRate(newRate) {
-    rate = Math.max(0.5, Math.min(2.0, newRate));
+  function setRate(newRate) { rate = Math.max(0.5, Math.min(2.0, newRate)); }
+  function isSpeaking() { return speaking; }
+  function getRate() { return rate; }
+  function hasJapaneseVoice() { return !!jaVoice; }
+  function isSupported() { return supported; }
+
+  // Initialise voice loading
+  if (supported) {
+    loadVoices();
+    window.speechSynthesis.onvoiceschanged = loadVoices;
+    // Some engines never fire onvoiceschanged; retry then give up gracefully
+    setTimeout(loadVoices, 400);
+    setTimeout(loadVoices, 1200);
+    setTimeout(markReady, 1800);
+  } else {
+    markReady();
   }
 
-  /**
-   * Check if currently speaking.
-   * @returns {boolean}
-   */
-  function isSpeaking() {
-    return speaking;
-  }
-
-  /**
-   * Get current rate.
-   * @returns {number}
-   */
-  function getRate() {
-    return rate;
-  }
-
-  // Preload voices (some browsers need this)
-  if (window.speechSynthesis) {
-    window.speechSynthesis.getVoices();
-    window.speechSynthesis.onvoiceschanged = function() {
-      window.speechSynthesis.getVoices();
-    };
-  }
-
-  // Export to global namespace
   window.TTS = {
     speak: speak,
     stop: stop,
     setRate: setRate,
     isSpeaking: isSpeaking,
-    getRate: getRate
+    getRate: getRate,
+    hasJapaneseVoice: hasJapaneseVoice,
+    isSupported: isSupported,
+    getAudioStatus: getAudioStatus,
+    onReady: onReady
   };
-
 })();

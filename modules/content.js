@@ -493,10 +493,231 @@ function getVocabularyExercise(level, exerciseId) {
   return exercise;
 }
 
+/**
+ * In-memory cache for kana data.
+ */
+const kanaCache = {};
+
+/**
+ * Maps a kana/kanji script key to its content filename (without extension).
+ */
+const KANA_FILES = {
+  hiragana: 'hiragana',
+  katakana: 'katakana',
+  kanji: 'kanji-n5',
+  'kanji-n5': 'kanji-n5'
+};
+
+/**
+ * Loads kana/kanji (hiragana, katakana, or N5 kanji) learning data.
+ * @param {string} script - 'hiragana', 'katakana', 'kanji' (N5), or 'kanji-n5'
+ * @returns {object|null} Parsed data or null if not found
+ */
+function getKana(script) {
+  const fileName = KANA_FILES[script];
+  if (!fileName) {
+    return null;
+  }
+  if (kanaCache[fileName]) {
+    return kanaCache[fileName];
+  }
+  const filePath = path.join(config.contentPath, 'kana', `${fileName}.json`);
+  if (!fs.existsSync(filePath)) {
+    return null;
+  }
+  try {
+    const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+    kanaCache[fileName] = data;
+    return data;
+  } catch (err) {
+    console.error(`Error loading kana file for ${script}:`, err.message);
+    return null;
+  }
+}
+
+/**
+ * In-memory cache for deep-dive content.
+ */
+let deepDiveCache = null;
+
+/**
+ * Loads all deep-dive content (onomatopoeia, collocations, idioms) for beginners.
+ * @returns {object|null} Parsed deep-dive data (topics keyed by id) or null
+ */
+function getDeepDive(topicId) {
+  if (!deepDiveCache) {
+    const filePath = path.join(config.contentPath, 'deepdive', 'beginner.json');
+    if (!fs.existsSync(filePath)) return null;
+    try {
+      deepDiveCache = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+    } catch (err) {
+      console.error('Error loading deep-dive content:', err.message);
+      return null;
+    }
+  }
+  if (topicId) {
+    if (!deepDiveCache.topics || !deepDiveCache.topics[topicId]) return null;
+    return Object.assign({ id: topicId }, deepDiveCache.topics[topicId]);
+  }
+  return deepDiveCache;
+}
+
+/**
+ * In-memory cache for grammar content per level.
+ */
+const grammarCache = {};
+
+/**
+ * Loads grammar points for a level, or a single grammar point by id.
+ * @param {string} level - beginner, intermediate, advanced
+ * @param {string} [id] - optional grammar id (e.g., 'g001')
+ * @returns {object|Array|null}
+ */
+function getGrammar(level, id) {
+  if (!isValidLevel(level)) return null;
+  if (!grammarCache[level]) {
+    const filePath = path.join(config.contentPath, 'grammar', `${level}.json`);
+    if (!fs.existsSync(filePath)) return null;
+    try {
+      grammarCache[level] = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+    } catch (err) {
+      console.error(`Error loading grammar for ${level}:`, err.message);
+      return null;
+    }
+  }
+  const list = grammarCache[level];
+  if (id) {
+    return list.find(g => g.id === id) || null;
+  }
+  return list;
+}
+
+/**
+ * In-memory cache for reference guides (numbers, etc.).
+ */
+const guideCache = {};
+
+/**
+ * Loads a reference guide (e.g., 'numbers') from content/guides/{id}.json.
+ * @param {string} id - guide identifier
+ * @returns {object|null}
+ */
+function getGuide(id) {
+  if (!/^[a-z0-9_-]+$/i.test(id || '')) return null;
+  if (guideCache[id]) return guideCache[id];
+  const filePath = path.join(config.contentPath, 'guides', `${id}.json`);
+  if (!fs.existsSync(filePath)) return null;
+  try {
+    guideCache[id] = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+    return guideCache[id];
+  } catch (err) {
+    console.error(`Error loading guide ${id}:`, err.message);
+    return null;
+  }
+}
+
+/**
+ * In-memory cache for drill content.
+ */
+let drillCache = null;
+
+/**
+ * Loads a drill topic (sentence-building / conjugation) by id.
+ * @param {string} topicId
+ * @returns {object|null}
+ */
+function getDrill(topicId) {
+  if (!drillCache) {
+    const filePath = path.join(config.contentPath, 'drills', 'beginner.json');
+    if (!fs.existsSync(filePath)) return null;
+    try {
+      drillCache = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+    } catch (err) {
+      console.error('Error loading drills:', err.message);
+      return null;
+    }
+  }
+  if (topicId) {
+    if (!drillCache.topics || !drillCache.topics[topicId]) return null;
+    return Object.assign({ id: topicId }, drillCache.topics[topicId]);
+  }
+  return drillCache;
+}
+
+/**
+ * In-memory cache for shadowing (speaking) content.
+ */
+let shadowingCache = null;
+
+/**
+ * Loads a shadowing topic by id (or the whole set if no id).
+ * @param {string} [topicId]
+ * @returns {object|null}
+ */
+function getShadowing(topicId) {
+  if (!shadowingCache) {
+    const filePath = path.join(config.contentPath, 'shadowing', 'beginner.json');
+    if (!fs.existsSync(filePath)) return null;
+    try {
+      shadowingCache = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+    } catch (err) {
+      console.error('Error loading shadowing content:', err.message);
+      return null;
+    }
+  }
+  if (topicId) {
+    if (!shadowingCache.topics || !shadowingCache.topics[topicId]) return null;
+    return Object.assign({ id: topicId }, shadowingCache.topics[topicId]);
+  }
+  return shadowingCache;
+}
+
+/**
+ * In-memory cache for exams (placement, mock).
+ */
+let examCache = null;
+
+/**
+ * Loads an exam by id ('placement' or 'n5-mock').
+ * @param {string} examId
+ * @returns {object|null}
+ */
+function getExam(examId) {
+  if (!examCache) {
+    const filePath = path.join(config.contentPath, 'exams', 'beginner.json');
+    if (!fs.existsSync(filePath)) return null;
+    try {
+      examCache = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+    } catch (err) {
+      console.error('Error loading exams:', err.message);
+      return null;
+    }
+  }
+  if (examId) {
+    if (!examCache.exams || !examCache.exams[examId]) return null;
+    return Object.assign({ id: examId }, examCache.exams[examId]);
+  }
+  return examCache;
+}
+
 module.exports = {
   // Reading
   getPassage,
   listPassages,
+  // Kana / Kanji
+  getKana,
+  // Deep Dive
+  getDeepDive,
+  // Grammar
+  getGrammar,
+  // Reference guides
+  getGuide,
+  // Drills
+  getDrill,
+  // Shadowing
+  getShadowing,
+  // Exams
+  getExam,
   // Listening
   getListeningExercise,
   listListeningExercises,

@@ -1,0 +1,41 @@
+{
+  "level": "beginner",
+  "topics": {
+    "greetings": {
+      "title": { "en": "Shadowing: Greetings", "fr": "Shadowing : salutations", "pt": "Shadowing: saudações" },
+      "intro": { "en": "Listen to the model, then record yourself saying it the same way. Compare and repeat until it sounds natural.", "fr": "Écoutez le modèle, puis enregistrez-vous en le répétant de la même façon. Comparez et répétez jusqu'à ce que ce soit naturel.", "pt": "Ouça o modelo, depois grave-se dizendo da mesma forma. Compare e repita até soar natural." },
+      "items": [
+        { "jp": "おはようございます。", "reading": "ohayō gozaimasu", "meaning": { "en": "Good morning.", "fr": "Bonjour (le matin).", "pt": "Bom dia." } },
+        { "jp": "こんにちは。", "reading": "konnichiwa", "meaning": { "en": "Hello / Good afternoon.", "fr": "Bonjour.", "pt": "Olá / Boa tarde." } },
+        { "jp": "はじめまして。", "reading": "hajimemashite", "meaning": { "en": "Nice to meet you.", "fr": "Enchanté.", "pt": "Prazer em conhecê-lo." } },
+        { "jp": "よろしくお願いします。", "reading": "yoroshiku onegaishimasu", "meaning": { "en": "Please treat me well.", "fr": "Je compte sur vous.", "pt": "Conto com você." } },
+        { "jp": "ありがとうございます。", "reading": "arigatō gozaimasu", "meaning": { "en": "Thank you.", "fr": "Merci.", "pt": "Obrigado." } },
+        { "jp": "さようなら。", "reading": "sayōnara", "meaning": { "en": "Goodbye.", "fr": "Au revoir.", "pt": "Adeus." } }
+      ]
+    },
+    "self-intro": {
+      "title": { "en": "Shadowing: Self-introduction", "fr": "Shadowing : se présenter", "pt": "Shadowing: apresentar-se" },
+      "intro": { "en": "Practice introducing yourself. Record each line and match the rhythm of the model.", "fr": "Entraînez-vous à vous présenter. Enregistrez chaque phrase et calquez le rythme du modèle.", "pt": "Pratique se apresentar. Grave cada frase e acompanhe o ritmo do modelo." },
+      "items": [
+        { "jp": "はじめまして。", "reading": "hajimemashite", "meaning": { "en": "Nice to meet you.", "fr": "Enchanté.", "pt": "Prazer." } },
+        { "jp": "わたしはマリアです。", "reading": "watashi wa Maria desu", "meaning": { "en": "I am Maria.", "fr": "Je suis Maria.", "pt": "Eu sou a Maria." } },
+        { "jp": "ブラジルから来ました。", "reading": "Burajiru kara kimashita", "meaning": { "en": "I came from Brazil.", "fr": "Je viens du Brésil.", "pt": "Vim do Brasil." } },
+        { "jp": "学生です。", "reading": "gakusei desu", "meaning": { "en": "I am a student.", "fr": "Je suis étudiant(e).", "pt": "Sou estudante." } },
+        { "jp": "日本語を勉強しています。", "reading": "nihongo o benkyō shite imasu", "meaning": { "en": "I am studying Japanese.", "fr": "J'étudie le japonais.", "pt": "Estou estudando japonês." } },
+        { "jp": "どうぞよろしくお願いします。", "reading": "dōzo yoroshiku onegaishimasu", "meaning": { "en": "Pleased to meet you.", "fr": "Enchanté de faire votre connaissance.", "pt": "Muito prazer." } }
+      ]
+    },
+    "daily": {
+      "title": { "en": "Shadowing: Daily phrases", "fr": "Shadowing : phrases du quotidien", "pt": "Shadowing: frases do dia a dia" },
+      "intro": { "en": "Useful everyday sentences. Focus on smooth, connected pronunciation.", "fr": "Phrases utiles du quotidien. Concentrez-vous sur une prononciation fluide et liée.", "pt": "Frases úteis do dia a dia. Foque numa pronúncia fluida e conectada." },
+      "items": [
+        { "jp": "いただきます。", "reading": "itadakimasu", "meaning": { "en": "Let's eat. (before a meal)", "fr": "Bon appétit.", "pt": "Vou comer." } },
+        { "jp": "いってきます。", "reading": "ittekimasu", "meaning": { "en": "I'm off (and will be back).", "fr": "J'y vais (et je reviens).", "pt": "Estou saindo (e volto)." } },
+        { "jp": "ただいま。", "reading": "tadaima", "meaning": { "en": "I'm home.", "fr": "Je suis rentré.", "pt": "Cheguei." } },
+        { "jp": "おつかれさまです。", "reading": "otsukaresama desu", "meaning": { "en": "Thanks for your hard work.", "fr": "Bon courage / merci pour votre travail.", "pt": "Obrigado pelo esforço." } },
+        { "jp": "すみません、これをください。", "reading": "sumimasen, kore o kudasai", "meaning": { "en": "Excuse me, I'll take this.", "fr": "Excusez-moi, je prends ceci.", "pt": "Com licença, vou levar este." } },
+        { "jp": "おやすみなさい。", "reading": "oyasuminasai", "meaning": { "en": "Good night.", "fr": "Bonne nuit.", "pt": "Boa noite." } }
+      ]
+    }
+  }
+}

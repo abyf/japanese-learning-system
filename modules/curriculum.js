@@ -112,15 +112,28 @@ function getDayActivities(level, week, day) {
   const dayData = weekData.days.find(d => d.day === day);
   if (!dayData) return null;
 
+  // Resolve titles for internal exercises so every activity has a display title.
+  const activities = (dayData.activities || []).map(a => {
+    const isInternal = (a.source === 'internal' || a.type === 'internal') && a.exerciseId;
+    if (isInternal && !a.title) {
+      const info = resolveExerciseTitle(a.exerciseId);
+      return Object.assign({}, a, { title: info.en, titleFr: info.fr, titlePt: info.pt });
+    }
+    return a;
+  });
+
   return {
     week: weekData.week,
     theme: weekData.theme,
     themeFr: weekData.themeFr,
+    themePt: weekData.themePt,
     day: dayData.day,
     title: dayData.title,
     titleFr: dayData.titleFr,
+    titlePt: dayData.titlePt,
     review: dayData.review || false,
-    activities: dayData.activities
+    activities: activities,
+    resources: weekData.resources || []
   };
 }
 
@@ -222,8 +235,8 @@ function isExerciseUnlocked(db, userId, exerciseId) {
 const titleCache = {};
 function resolveExerciseTitle(exerciseId) {
   if (titleCache[exerciseId]) return titleCache[exerciseId];
-  
-  let result = { en: exerciseId, fr: exerciseId };
+
+  let result = { en: exerciseId, fr: exerciseId, pt: exerciseId };
   try {
     const prefix = exerciseId.charAt(0);
     let data = null;
@@ -237,7 +250,20 @@ function resolveExerciseTitle(exerciseId) {
       data = getDictationExercise('beginner', exerciseId);
     }
     if (data && !data.error) {
-      result = { en: data.titleEn || data.title || exerciseId, fr: data.titleFr || data.title || exerciseId };
+      const en = data.titleEn || data.title || exerciseId;
+      const fr = data.titleFr || data.title || exerciseId;
+      let pt = en;
+      // Portuguese titles live in the centralized translation file
+      try {
+        const { loadTranslationFile } = require('./translations');
+        const ptT = loadTranslationFile('pt');
+        if (ptT && ptT.titles) {
+          if (prefix === 'v' && ptT.titles.vocabulary && ptT.titles.vocabulary[exerciseId]) {
+            pt = ptT.titles.vocabulary[exerciseId];
+          }
+        }
+      } catch (e) { /* ignore */ }
+      result = { en, fr, pt };
     }
   } catch (e) {
     // Fallback to ID
@@ -271,6 +297,7 @@ function getWeekData(db, userId, level, weekNum) {
       day: day.day,
       title: day.title,
       titleFr: day.titleFr,
+      titlePt: day.titlePt,
       review: day.review || false,
       completed: isCompleted,
       current: isCurrent,
@@ -279,16 +306,19 @@ function getWeekData(db, userId, level, weekNum) {
       activities: day.activities.map((a, actIdx) => {
         let activityCompleted = false;
         const isInternalActivity = (a.source === 'internal' || a.type === 'internal') && a.exerciseId;
-        const isExternalActivity = (a.source === 'external' || a.type === 'external');
-        
+        // Lesson/deepdive activities link to in-app pages (kana, kanji, deep dive) via a route
+        const isLessonActivity = (a.type === 'lesson' || a.type === 'deepdive') && a.route;
+        const isExternalActivity = !isInternalActivity && !isLessonActivity &&
+          (a.source === 'external' || a.type === 'external');
+
         if (isInternalActivity) {
           // Check if this exercise has been completed (score = 1.0)
           const result = db.prepare(
             'SELECT 1 FROM progress WHERE user_id = ? AND exercise_id = ? AND score = 1.0'
           ).get(userId, a.exerciseId);
           activityCompleted = !!result;
-        } else if (isExternalActivity) {
-          // Check if this external activity was marked as done
+        } else {
+          // Lesson & external activities are marked done via external_activity_done
           const result = db.prepare(
             'SELECT 1 FROM external_activity_done WHERE user_id = ? AND week = ? AND day = ? AND activity_index = ?'
           ).get(userId, weekNum, day.day, actIdx);
@@ -298,13 +328,16 @@ function getWeekData(db, userId, level, weekNum) {
         // Resolve title for internal exercises if not already set
         let title = a.title || '';
         let titleFr = a.titleFr || '';
+        let titlePt = a.titlePt || '';
         if (isInternalActivity && !title) {
           const exerciseData = resolveExerciseTitle(a.exerciseId);
           title = exerciseData.en || a.exerciseId;
           titleFr = exerciseData.fr || a.exerciseId;
+          titlePt = exerciseData.pt || exerciseData.en || a.exerciseId;
         }
 
-        return { ...a, title, titleFr, completed: activityCompleted, source: isInternalActivity ? 'internal' : 'external', activityIndex: actIdx };
+        const source = isInternalActivity ? 'internal' : (isLessonActivity ? 'lesson' : 'external');
+        return { ...a, title, titleFr, titlePt, completed: activityCompleted, source, activityIndex: actIdx };
       })
     };
   });
@@ -313,6 +346,8 @@ function getWeekData(db, userId, level, weekNum) {
     week: weekData.week,
     theme: weekData.theme,
     themeFr: weekData.themeFr,
+    themePt: weekData.themePt,
+    resources: weekData.resources || [],
     days
   };
 }

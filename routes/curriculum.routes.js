@@ -60,11 +60,13 @@ router.get('/week/:week', (req, res) => {
       return res.status(404).json({ error: 'Week not found' });
     }
 
-    // Inject Portuguese theme from translation file if available
-    const { loadTranslationFile } = require('../modules/translations');
-    const ptTranslations = loadTranslationFile('pt');
-    if (ptTranslations && ptTranslations.curriculum && ptTranslations.curriculum.weeks) {
-      weekData.themePt = ptTranslations.curriculum.weeks[String(weekNum)] || weekData.theme;
+    // Fall back to the translation file only if the curriculum has no embedded Portuguese theme
+    if (!weekData.themePt) {
+      const { loadTranslationFile } = require('../modules/translations');
+      const ptTranslations = loadTranslationFile('pt');
+      if (ptTranslations && ptTranslations.curriculum && ptTranslations.curriculum.weeks) {
+        weekData.themePt = ptTranslations.curriculum.weeks[String(weekNum)] || weekData.theme;
+      }
     }
 
     res.json(weekData);
@@ -89,11 +91,34 @@ router.get('/today', (req, res) => {
       return res.status(404).json({ error: 'No activities found for current day' });
     }
 
-    // Inject Portuguese theme from translation file
-    const { loadTranslationFile } = require('../modules/translations');
-    const ptTranslations = loadTranslationFile('pt');
-    if (ptTranslations && ptTranslations.curriculum && ptTranslations.curriculum.weeks) {
-      dayData.themePt = ptTranslations.curriculum.weeks[String(progress.currentWeek)] || dayData.theme;
+    // Compute per-activity completion so the UI can gate "Mark Day Complete".
+    const week = progress.currentWeek;
+    const day = progress.currentDay;
+    dayData.activities = (dayData.activities || []).map((a, idx) => {
+      let completed = false;
+      const isInternal = (a.source === 'internal' || a.type === 'internal') && a.exerciseId;
+      if (isInternal) {
+        const r = db.prepare(
+          'SELECT 1 FROM progress WHERE user_id = ? AND exercise_id = ? AND score = 1.0'
+        ).get(userId, a.exerciseId);
+        completed = !!r;
+      } else {
+        const r = db.prepare(
+          'SELECT 1 FROM external_activity_done WHERE user_id = ? AND week = ? AND day = ? AND activity_index = ?'
+        ).get(userId, week, day, idx);
+        completed = !!r;
+      }
+      return Object.assign({}, a, { completed: completed, activityIndex: idx });
+    });
+    dayData.allComplete = dayData.activities.length > 0 && dayData.activities.every(a => a.completed);
+
+    // Fall back to the translation file only if the curriculum has no embedded Portuguese theme
+    if (!dayData.themePt) {
+      const { loadTranslationFile } = require('../modules/translations');
+      const ptTranslations = loadTranslationFile('pt');
+      if (ptTranslations && ptTranslations.curriculum && ptTranslations.curriculum.weeks) {
+        dayData.themePt = ptTranslations.curriculum.weeks[String(progress.currentWeek)] || dayData.theme;
+      }
     }
 
     res.json({

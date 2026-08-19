@@ -1,0 +1,125 @@
+{
+  "script": "hiragana",
+  "displayName": { "en": "Hiragana", "fr": "Hiragana", "pt": "Hiragana" },
+  "intro": {
+    "en": "Hiragana is the basic Japanese phonetic alphabet. Each character represents one syllable sound. Master these 46 basic characters first — they are the foundation of reading and writing Japanese.",
+    "fr": "Le hiragana est l'alphabet phonétique japonais de base. Chaque caractère représente un son syllabique. Maîtrisez d'abord ces 46 caractères de base — ils sont le fondement de la lecture et de l'écriture du japonais.",
+    "pt": "O hiragana é o alfabeto fonético básico japonês. Cada caractere representa um som silábico. Domine primeiro estes 46 caracteres básicos — eles são a base da leitura e escrita do japonês."
+  },
+  "history": {
+    "title": { "en": "A little history", "fr": "Un peu d'histoire", "pt": "Um pouco de história" },
+    "body": {
+      "en": "Hiragana grew out of man'yōgana — Chinese characters (kanji) borrowed only for their sound. Over the Heian period (794–1185), scribes simplified the flowing, cursive forms of these kanji into the rounded shapes we use today. Because women of the court were often not taught formal Chinese, hiragana became the script of personal letters and literature — it was even nicknamed onna-de ('women's hand'). Masterpieces like The Tale of Genji were written in it. That soft, curvy look you see is the echo of centuries of brush calligraphy.",
+      "fr": "Le hiragana est né du man'yōgana — des kanji chinois empruntés uniquement pour leur son. Durant l'époque de Heian (794–1185), les scribes ont simplifié les formes cursives et fluides de ces kanji pour obtenir les formes arrondies d'aujourd'hui. Comme les femmes de la cour n'apprenaient souvent pas le chinois formel, le hiragana est devenu l'écriture des lettres personnelles et de la littérature — on le surnommait même onna-de (« la main des femmes »). Des chefs-d'œuvre comme Le Dit du Genji ont été écrits ainsi. Cet aspect doux et arrondi est l'écho de siècles de calligraphie au pinceau.",
+      "pt": "O hiragana surgiu do man'yōgana — kanji chineses emprestados apenas pelo som. Durante o período Heian (794–1185), os escribas simplificaram as formas cursivas e fluidas desses kanji nas formas arredondadas que usamos hoje. Como as mulheres da corte muitas vezes não aprendiam o chinês formal, o hiragana tornou-se a escrita das cartas pessoais e da literatura — chegou a ser apelidado de onna-de ('a mão das mulheres'). Obras-primas como O Conto de Genji foram escritas nele. Esse visual suave e curvo é o eco de séculos de caligrafia com pincel."
+    }
+  },
+  "groups": [
+    {
+      "id": "vowels",
+      "name": { "en": "Vowels (あ行)", "fr": "Voyelles (あ行)", "pt": "Vogais (あ行)" },
+      "characters": [
+        { "kana": "あ", "romaji": "a", "strokes": 3, "mnemonic": { "en": "Looks like an 'A' with a curl — say 'ah'.", "fr": "Ressemble à un 'A' avec une boucle — dites 'ah'.", "pt": "Parece um 'A' com um laço — diga 'ah'." }, "example": { "word": "あめ", "reading": "ame", "meaning": { "en": "rain", "fr": "pluie", "pt": "chuva" } } },
+        { "kana": "い", "romaji": "i", "strokes": 2, "mnemonic": { "en": "Two 'ii' strokes standing side by side.", "fr": "Deux traits 'ii' côte à côte.", "pt": "Dois traços 'ii' lado a lado." }, "example": { "word": "いぬ", "reading": "inu", "meaning": { "en": "dog", "fr": "chien", "pt": "cachorro" } } },
+        { "kana": "う", "romaji": "u", "strokes": 2, "mnemonic": { "en": "Looks like a person doing a U-turn.", "fr": "Ressemble à une personne faisant demi-tour (U-turn).", "pt": "Parece uma pessoa fazendo um retorno em 'U'." }, "example": { "word": "うみ", "reading": "umi", "meaning": { "en": "sea", "fr": "mer", "pt": "mar" } } },
+        { "kana": "え", "romaji": "e", "strokes": 2, "mnemonic": { "en": "An exotic bird — 'e' for energetic.", "fr": "Un oiseau exotique — 'e' comme énergique.", "pt": "Um pássaro exótico — 'e' de enérgico." }, "example": { "word": "えき", "reading": "eki", "meaning": { "en": "station", "fr": "gare", "pt": "estação" } } },
+        { "kana": "お", "romaji": "o", "strokes": 3, "mnemonic": { "en": "Looks like 'お' with a tail — say 'oh'.", "fr": "Ressemble à 'お' avec une queue — dites 'oh'.", "pt": "Parece 'お' com uma cauda — diga 'oh'." }, "example": { "word": "おちゃ", "reading": "ocha", "meaning": { "en": "tea", "fr": "thé", "pt": "chá" } } }
+      ]
+    },
+    {
+      "id": "k-row",
+      "name": { "en": "K-row (か行)", "fr": "Ligne K (か行)", "pt": "Linha K (か行)" },
+      "characters": [
+        { "kana": "か", "romaji": "ka", "strokes": 3, "mnemonic": { "en": "A mosquito ('ka' in Japanese) buzzing.", "fr": "Un moustique ('ka' en japonais) qui bourdonne.", "pt": "Um mosquito ('ka' em japonês) zumbindo." }, "example": { "word": "かさ", "reading": "kasa", "meaning": { "en": "umbrella", "fr": "parapluie", "pt": "guarda-chuva" } } },
+        { "kana": "き", "romaji": "ki", "strokes": 4, "mnemonic": { "en": "A key ('ki') with two teeth.", "fr": "Une clé ('ki') à deux dents.", "pt": "Uma chave ('ki') com dois dentes." }, "example": { "word": "き", "reading": "ki", "meaning": { "en": "tree", "fr": "arbre", "pt": "árvore" } } },
+        { "kana": "く", "romaji": "ku", "strokes": 1, "mnemonic": { "en": "A bird's beak saying 'ku'.", "fr": "Le bec d'un oiseau disant 'ku'.", "pt": "O bico de um pássaro dizendo 'ku'." }, "example": { "word": "くつ", "reading": "kutsu", "meaning": { "en": "shoes", "fr": "chaussures", "pt": "sapatos" } } },
+        { "kana": "け", "romaji": "ke", "strokes": 3, "mnemonic": { "en": "A keg lying on its side.", "fr": "Un tonneau (keg) couché.", "pt": "Um barril (keg) deitado." }, "example": { "word": "けさ", "reading": "kesa", "meaning": { "en": "this morning", "fr": "ce matin", "pt": "esta manhã" } } },
+        { "kana": "こ", "romaji": "ko", "strokes": 2, "mnemonic": { "en": "Two curvy lines like a cord.", "fr": "Deux lignes courbes comme un cordon.", "pt": "Duas linhas curvas como um cordão." }, "example": { "word": "ここ", "reading": "koko", "meaning": { "en": "here", "fr": "ici", "pt": "aqui" } } }
+      ]
+    },
+    {
+      "id": "s-row",
+      "name": { "en": "S-row (さ行)", "fr": "Ligne S (さ行)", "pt": "Linha S (さ行)" },
+      "characters": [
+        { "kana": "さ", "romaji": "sa", "strokes": 3, "mnemonic": { "en": "Looks a bit like 'き' — 'sa' as in salsa.", "fr": "Ressemble un peu à 'き' — 'sa' comme salsa.", "pt": "Parece um pouco com 'き' — 'sa' como em salsa." }, "example": { "word": "さかな", "reading": "sakana", "meaning": { "en": "fish", "fr": "poisson", "pt": "peixe" } } },
+        { "kana": "し", "romaji": "shi", "strokes": 1, "mnemonic": { "en": "A single hook — 'she' has a fishing hook.", "fr": "Un seul crochet — 'shi' comme un hameçon.", "pt": "Um único gancho — 'shi' como um anzol." }, "example": { "word": "しろ", "reading": "shiro", "meaning": { "en": "white", "fr": "blanc", "pt": "branco" } } },
+        { "kana": "す", "romaji": "su", "strokes": 2, "mnemonic": { "en": "A swirl or spiral — 'su'.", "fr": "Une spirale — 'su'.", "pt": "Um espiral — 'su'." }, "example": { "word": "すし", "reading": "sushi", "meaning": { "en": "sushi", "fr": "sushi", "pt": "sushi" } } },
+        { "kana": "せ", "romaji": "se", "strokes": 3, "mnemonic": { "en": "A mouth saying 'se' loudly.", "fr": "Une bouche disant 'se' fort.", "pt": "Uma boca dizendo 'se' alto." }, "example": { "word": "せかい", "reading": "sekai", "meaning": { "en": "world", "fr": "monde", "pt": "mundo" } } },
+        { "kana": "そ", "romaji": "so", "strokes": 1, "mnemonic": { "en": "A zigzag sewing thread — 'so'.", "fr": "Un fil de couture en zigzag — 'so'.", "pt": "Uma linha de costura em ziguezague — 'so'." }, "example": { "word": "そら", "reading": "sora", "meaning": { "en": "sky", "fr": "ciel", "pt": "céu" } } }
+      ]
+    },
+    {
+      "id": "t-row",
+      "name": { "en": "T-row (た行)", "fr": "Ligne T (た行)", "pt": "Linha T (た行)" },
+      "characters": [
+        { "kana": "た", "romaji": "ta", "strokes": 4, "mnemonic": { "en": "Looks like 'ta' — a person and a cross.", "fr": "Ressemble à 'ta' — une personne et une croix.", "pt": "Parece 'ta' — uma pessoa e uma cruz." }, "example": { "word": "たべる", "reading": "taberu", "meaning": { "en": "to eat", "fr": "manger", "pt": "comer" } } },
+        { "kana": "ち", "romaji": "chi", "strokes": 2, "mnemonic": { "en": "A cheerleader — 'chi'.", "fr": "Une pom-pom girl — 'chi'.", "pt": "Uma líder de torcida — 'chi'." }, "example": { "word": "ちち", "reading": "chichi", "meaning": { "en": "father", "fr": "père", "pt": "pai" } } },
+        { "kana": "つ", "romaji": "tsu", "strokes": 1, "mnemonic": { "en": "A wave — 'tsu' like a tsunami.", "fr": "Une vague — 'tsu' comme tsunami.", "pt": "Uma onda — 'tsu' como tsunami." }, "example": { "word": "つき", "reading": "tsuki", "meaning": { "en": "moon", "fr": "lune", "pt": "lua" } } },
+        { "kana": "て", "romaji": "te", "strokes": 1, "mnemonic": { "en": "A hand ('te' means hand) writing.", "fr": "Une main ('te' signifie main) qui écrit.", "pt": "Uma mão ('te' significa mão) escrevendo." }, "example": { "word": "て", "reading": "te", "meaning": { "en": "hand", "fr": "main", "pt": "mão" } } },
+        { "kana": "と", "romaji": "to", "strokes": 2, "mnemonic": { "en": "A toe with a nail — 'to'.", "fr": "Un orteil avec un ongle — 'to'.", "pt": "Um dedo do pé com unha — 'to'." }, "example": { "word": "とり", "reading": "tori", "meaning": { "en": "bird", "fr": "oiseau", "pt": "pássaro" } } }
+      ]
+    },
+    {
+      "id": "n-row",
+      "name": { "en": "N-row (な行)", "fr": "Ligne N (な行)", "pt": "Linha N (な行)" },
+      "characters": [
+        { "kana": "な", "romaji": "na", "strokes": 4, "mnemonic": { "en": "A nun praying — 'na'.", "fr": "Une nonne qui prie — 'na'.", "pt": "Uma freira rezando — 'na'." }, "example": { "word": "なつ", "reading": "natsu", "meaning": { "en": "summer", "fr": "été", "pt": "verão" } } },
+        { "kana": "に", "romaji": "ni", "strokes": 3, "mnemonic": { "en": "A needle and thread — 'ni'.", "fr": "Une aiguille et du fil — 'ni'.", "pt": "Uma agulha e linha — 'ni'." }, "example": { "word": "にく", "reading": "niku", "meaning": { "en": "meat", "fr": "viande", "pt": "carne" } } },
+        { "kana": "ぬ", "romaji": "nu", "strokes": 2, "mnemonic": { "en": "Noodles twirled — 'nu'.", "fr": "Des nouilles enroulées — 'nu'.", "pt": "Macarrão enrolado — 'nu'." }, "example": { "word": "いぬ", "reading": "inu", "meaning": { "en": "dog", "fr": "chien", "pt": "cachorro" } } },
+        { "kana": "ね", "romaji": "ne", "strokes": 2, "mnemonic": { "en": "A cat's tail curling — 'ne'.", "fr": "La queue d'un chat qui s'enroule — 'ne'.", "pt": "O rabo de um gato enrolando — 'ne'." }, "example": { "word": "ねこ", "reading": "neko", "meaning": { "en": "cat", "fr": "chat", "pt": "gato" } } },
+        { "kana": "の", "romaji": "no", "strokes": 1, "mnemonic": { "en": "A 'no entry' swirl — 'no'.", "fr": "Un tourbillon 'sens interdit' — 'no'.", "pt": "Um espiral de 'proibido' — 'no'." }, "example": { "word": "のむ", "reading": "nomu", "meaning": { "en": "to drink", "fr": "boire", "pt": "beber" } } }
+      ]
+    },
+    {
+      "id": "h-row",
+      "name": { "en": "H-row (は行)", "fr": "Ligne H (は行)", "pt": "Linha H (は行)" },
+      "characters": [
+        { "kana": "は", "romaji": "ha", "strokes": 3, "mnemonic": { "en": "A person laughing 'ha ha'.", "fr": "Une personne qui rit 'ha ha'.", "pt": "Uma pessoa rindo 'ha ha'." }, "example": { "word": "はな", "reading": "hana", "meaning": { "en": "flower/nose", "fr": "fleur/nez", "pt": "flor/nariz" } } },
+        { "kana": "ひ", "romaji": "hi", "strokes": 1, "mnemonic": { "en": "A smiling mouth — 'hee'.", "fr": "Une bouche souriante — 'hi'.", "pt": "Uma boca sorrindo — 'hi'." }, "example": { "word": "ひ", "reading": "hi", "meaning": { "en": "fire/day", "fr": "feu/jour", "pt": "fogo/dia" } } },
+        { "kana": "ふ", "romaji": "fu", "strokes": 4, "mnemonic": { "en": "Mount Fuji ('fu') shape.", "fr": "La forme du mont Fuji ('fu').", "pt": "A forma do monte Fuji ('fu')." }, "example": { "word": "ふゆ", "reading": "fuyu", "meaning": { "en": "winter", "fr": "hiver", "pt": "inverno" } } },
+        { "kana": "へ", "romaji": "he", "strokes": 1, "mnemonic": { "en": "A mountain slope — 'he'.", "fr": "Une pente de montagne — 'he'.", "pt": "Uma encosta de montanha — 'he'." }, "example": { "word": "へや", "reading": "heya", "meaning": { "en": "room", "fr": "chambre", "pt": "quarto" } } },
+        { "kana": "ほ", "romaji": "ho", "strokes": 4, "mnemonic": { "en": "Like 'は' but with an extra line — 'ho'.", "fr": "Comme 'は' mais avec une ligne en plus — 'ho'.", "pt": "Como 'は' mas com uma linha extra — 'ho'." }, "example": { "word": "ほし", "reading": "hoshi", "meaning": { "en": "star", "fr": "étoile", "pt": "estrela" } } }
+      ]
+    },
+    {
+      "id": "m-row",
+      "name": { "en": "M-row (ま行)", "fr": "Ligne M (ま行)", "pt": "Linha M (ま行)" },
+      "characters": [
+        { "kana": "ま", "romaji": "ma", "strokes": 3, "mnemonic": { "en": "Mom ('ma') tying her hair.", "fr": "Maman ('ma') qui attache ses cheveux.", "pt": "Mamãe ('ma') prendendo o cabelo." }, "example": { "word": "まど", "reading": "mado", "meaning": { "en": "window", "fr": "fenêtre", "pt": "janela" } } },
+        { "kana": "み", "romaji": "mi", "strokes": 2, "mnemonic": { "en": "Looks like the number 21 — 'mi'.", "fr": "Ressemble au nombre 21 — 'mi'.", "pt": "Parece o número 21 — 'mi'." }, "example": { "word": "みみ", "reading": "mimi", "meaning": { "en": "ear", "fr": "oreille", "pt": "orelha" } } },
+        { "kana": "む", "romaji": "mu", "strokes": 3, "mnemonic": { "en": "A cow saying 'muu'.", "fr": "Une vache disant 'muu'.", "pt": "Uma vaca dizendo 'muu'." }, "example": { "word": "むし", "reading": "mushi", "meaning": { "en": "insect", "fr": "insecte", "pt": "inseto" } } },
+        { "kana": "め", "romaji": "me", "strokes": 2, "mnemonic": { "en": "An eye ('me' means eye) with lashes.", "fr": "Un œil ('me' signifie œil) avec des cils.", "pt": "Um olho ('me' significa olho) com cílios." }, "example": { "word": "め", "reading": "me", "meaning": { "en": "eye", "fr": "œil", "pt": "olho" } } },
+        { "kana": "も", "romaji": "mo", "strokes": 3, "mnemonic": { "en": "A fish hook with two worms — 'mo'.", "fr": "Un hameçon avec deux vers — 'mo'.", "pt": "Um anzol com duas minhocas — 'mo'." }, "example": { "word": "もり", "reading": "mori", "meaning": { "en": "forest", "fr": "forêt", "pt": "floresta" } } }
+      ]
+    },
+    {
+      "id": "y-row",
+      "name": { "en": "Y-row (や行)", "fr": "Ligne Y (や行)", "pt": "Linha Y (や行)" },
+      "characters": [
+        { "kana": "や", "romaji": "ya", "strokes": 3, "mnemonic": { "en": "A yacht ('ya') sailing.", "fr": "Un yacht ('ya') qui navigue.", "pt": "Um iate ('ya') navegando." }, "example": { "word": "やま", "reading": "yama", "meaning": { "en": "mountain", "fr": "montagne", "pt": "montanha" } } },
+        { "kana": "ゆ", "romaji": "yu", "strokes": 2, "mnemonic": { "en": "A fish — 'yu' like a unique shape.", "fr": "Un poisson — 'yu', une forme unique.", "pt": "Um peixe — 'yu', uma forma única." }, "example": { "word": "ゆき", "reading": "yuki", "meaning": { "en": "snow", "fr": "neige", "pt": "neve" } } },
+        { "kana": "よ", "romaji": "yo", "strokes": 2, "mnemonic": { "en": "A yo-yo on a string — 'yo'.", "fr": "Un yo-yo sur une ficelle — 'yo'.", "pt": "Um ioiô numa corda — 'yo'." }, "example": { "word": "よる", "reading": "yoru", "meaning": { "en": "night", "fr": "nuit", "pt": "noite" } } }
+      ]
+    },
+    {
+      "id": "r-row",
+      "name": { "en": "R-row (ら行)", "fr": "Ligne R (ら行)", "pt": "Linha R (ら行)" },
+      "characters": [
+        { "kana": "ら", "romaji": "ra", "strokes": 2, "mnemonic": { "en": "A rabbit ('ra') sitting up.", "fr": "Un lapin ('ra') assis.", "pt": "Um coelho ('ra') sentado." }, "example": { "word": "さくら", "reading": "sakura", "meaning": { "en": "cherry blossom", "fr": "fleur de cerisier", "pt": "flor de cerejeira" } } },
+        { "kana": "り", "romaji": "ri", "strokes": 2, "mnemonic": { "en": "Two reeds standing — 'ri'.", "fr": "Deux roseaux debout — 'ri'.", "pt": "Dois juncos em pé — 'ri'." }, "example": { "word": "りんご", "reading": "ringo", "meaning": { "en": "apple", "fr": "pomme", "pt": "maçã" } } },
+        { "kana": "る", "romaji": "ru", "strokes": 1, "mnemonic": { "en": "A loop at the bottom — 'ru'.", "fr": "Une boucle en bas — 'ru'.", "pt": "Um laço na parte de baixo — 'ru'." }, "example": { "word": "はる", "reading": "haru", "meaning": { "en": "spring", "fr": "printemps", "pt": "primavera" } } },
+        { "kana": "れ", "romaji": "re", "strokes": 1, "mnemonic": { "en": "Like 'ね' but no loop — 're'.", "fr": "Comme 'ね' mais sans boucle — 're'.", "pt": "Como 'ね' mas sem laço — 're'." }, "example": { "word": "れきし", "reading": "rekishi", "meaning": { "en": "history", "fr": "histoire", "pt": "história" } } },
+        { "kana": "ろ", "romaji": "ro", "strokes": 1, "mnemonic": { "en": "Like 'る' but no loop — 'ro'.", "fr": "Comme 'る' mais sans boucle — 'ro'.", "pt": "Como 'る' mas sem laço — 'ro'." }, "example": { "word": "ろく", "reading": "roku", "meaning": { "en": "six", "fr": "six", "pt": "seis" } } }
+      ]
+    },
+    {
+      "id": "w-n-row",
+      "name": { "en": "W-row & ん (わ行)", "fr": "Ligne W & ん (わ行)", "pt": "Linha W & ん (わ行)" },
+      "characters": [
+        { "kana": "わ", "romaji": "wa", "strokes": 2, "mnemonic": { "en": "Like 'れ' — 'wa' as in wonderful.", "fr": "Comme 'れ' — 'wa' comme wonderful.", "pt": "Como 'れ' — 'wa' como wonderful." }, "example": { "word": "わたし", "reading": "watashi", "meaning": { "en": "I/me", "fr": "je/moi", "pt": "eu" } } },
+        { "kana": "を", "romaji": "wo", "strokes": 3, "mnemonic": { "en": "Object marker — pronounced 'o'.", "fr": "Marqueur d'objet — prononcé 'o'.", "pt": "Marcador de objeto — pronunciado 'o'." }, "example": { "word": "を", "reading": "wo", "meaning": { "en": "(object particle)", "fr": "(particule d'objet)", "pt": "(partícula de objeto)" } } },
+        { "kana": "ん", "romaji": "n", "strokes": 1, "mnemonic": { "en": "The only single consonant — 'n'.", "fr": "La seule consonne seule — 'n'.", "pt": "A única consoante sozinha — 'n'." }, "example": { "word": "ほん", "reading": "hon", "meaning": { "en": "book", "fr": "livre", "pt": "livro" } } }
+      ]
+    }
+  ]
+}

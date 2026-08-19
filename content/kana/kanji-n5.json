@@ -1,0 +1,341 @@
+{
+  "script": "kanji",
+  "level": "beginner",
+  "displayName": { "en": "Beginner Kanji", "fr": "Kanji Débutant", "pt": "Kanji Iniciante" },
+  "intro": {
+    "en": "200 essential beginner kanji (JLPT N5 + core N4) — the foundation for reading Japanese. Each kanji has a meaning, readings (on'yomi in カタカナ, kun'yomi in ひらがな), and an example word. Tap any kanji to hear it and see details.",
+    "fr": "200 kanji essentiels pour débutants (JLPT N5 + N4 de base) — la base pour lire le japonais. Chaque kanji a une signification, des lectures (on'yomi en カタカナ, kun'yomi en ひらがな) et un mot d'exemple. Touchez un kanji pour l'entendre et voir les détails.",
+    "pt": "200 kanji essenciais para iniciantes (JLPT N5 + N4 básico) — a base para ler japonês. Cada kanji tem um significado, leituras (on'yomi em カタカナ, kun'yomi em ひらがな) e uma palavra de exemplo. Toque em qualquer kanji para ouvi-lo e ver detalhes."
+  },
+  "history": {
+    "title": { "en": "A little history", "fr": "Un peu d'histoire", "pt": "Um pouco de história" },
+    "body": {
+      "en": "Kanji began in China more than 3,000 years ago as pictures carved on bones and shells. They arrived in Japan around the 5th century through Buddhist texts. Japan kept the characters and their meanings, but added its own twist: most kanji have two kinds of reading — on'yomi, an imitation of the original Chinese sound, and kun'yomi, the native Japanese word for the same idea. That is why 水 can be read sui (on) or mizu (kun). Many kanji are still tiny pictures at heart: 山 is a mountain, 川 is a flowing river, 木 is a tree. Learning to 'see' those pictures makes memorizing far easier.",
+      "fr": "Les kanji sont apparus en Chine il y a plus de 3 000 ans, sous forme de dessins gravés sur des os et des carapaces. Ils sont arrivés au Japon vers le Ve siècle via des textes bouddhistes. Le Japon a conservé les caractères et leurs sens, mais a ajouté sa touche : la plupart des kanji ont deux types de lecture — on'yomi, une imitation du son chinois d'origine, et kun'yomi, le mot japonais natif pour la même idée. C'est pourquoi 水 peut se lire sui (on) ou mizu (kun). Beaucoup de kanji restent de petits dessins : 山 est une montagne, 川 une rivière qui coule, 木 un arbre. Apprendre à « voir » ces images facilite grandement la mémorisation.",
+      "pt": "Os kanji começaram na China há mais de 3.000 anos, como desenhos gravados em ossos e conchas. Chegaram ao Japão por volta do século V através de textos budistas. O Japão manteve os caracteres e seus significados, mas acrescentou sua marca: a maioria dos kanji tem dois tipos de leitura — on'yomi, uma imitação do som chinês original, e kun'yomi, a palavra japonesa nativa para a mesma ideia. É por isso que 水 pode ser lido sui (on) ou mizu (kun). Muitos kanji ainda são, no fundo, pequenos desenhos: 山 é uma montanha, 川 um rio corrente, 木 uma árvore. Aprender a 'ver' essas imagens torna a memorização muito mais fácil."
+    }
+  },
+  "groups": [
+    {
+      "id": "numbers",
+      "name": { "en": "Numbers", "fr": "Nombres", "pt": "Números" },
+      "characters": [
+        { "kana": "一", "romaji": "ichi", "meaning": { "en": "one", "fr": "un", "pt": "um" }, "onyomi": "イチ", "kunyomi": "ひと(つ)", "strokes": 1, "example": { "word": "一つ", "reading": "ひとつ", "meaning": { "en": "one (thing)", "fr": "une (chose)", "pt": "uma (coisa)" } } },
+        { "kana": "二", "romaji": "ni", "meaning": { "en": "two", "fr": "deux", "pt": "dois" }, "onyomi": "ニ", "kunyomi": "ふた(つ)", "strokes": 2, "example": { "word": "二人", "reading": "ふたり", "meaning": { "en": "two people", "fr": "deux personnes", "pt": "duas pessoas" } } },
+        { "kana": "三", "romaji": "san", "meaning": { "en": "three", "fr": "trois", "pt": "três" }, "onyomi": "サン", "kunyomi": "み(っつ)", "strokes": 3, "example": { "word": "三月", "reading": "さんがつ", "meaning": { "en": "March", "fr": "mars", "pt": "março" } } },
+        { "kana": "四", "romaji": "shi", "meaning": { "en": "four", "fr": "quatre", "pt": "quatro" }, "onyomi": "シ", "kunyomi": "よん / よ(っつ)", "strokes": 5, "example": { "word": "四月", "reading": "しがつ", "meaning": { "en": "April", "fr": "avril", "pt": "abril" } } },
+        { "kana": "五", "romaji": "go", "meaning": { "en": "five", "fr": "cinq", "pt": "cinco" }, "onyomi": "ゴ", "kunyomi": "いつ(つ)", "strokes": 4, "example": { "word": "五つ", "reading": "いつつ", "meaning": { "en": "five (things)", "fr": "cinq (choses)", "pt": "cinco (coisas)" } } },
+        { "kana": "六", "romaji": "roku", "meaning": { "en": "six", "fr": "six", "pt": "seis" }, "onyomi": "ロク", "kunyomi": "む(っつ)", "strokes": 4, "example": { "word": "六月", "reading": "ろくがつ", "meaning": { "en": "June", "fr": "juin", "pt": "junho" } } },
+        { "kana": "七", "romaji": "shichi", "meaning": { "en": "seven", "fr": "sept", "pt": "sete" }, "onyomi": "シチ", "kunyomi": "なな(つ)", "strokes": 2, "example": { "word": "七時", "reading": "しちじ", "meaning": { "en": "7 o'clock", "fr": "7 heures", "pt": "7 horas" } } },
+        { "kana": "八", "romaji": "hachi", "meaning": { "en": "eight", "fr": "huit", "pt": "oito" }, "onyomi": "ハチ", "kunyomi": "や(っつ)", "strokes": 2, "example": { "word": "八日", "reading": "ようか", "meaning": { "en": "8th day", "fr": "8e jour", "pt": "dia 8" } } },
+        { "kana": "九", "romaji": "kyuu", "meaning": { "en": "nine", "fr": "neuf", "pt": "nove" }, "onyomi": "キュウ / ク", "kunyomi": "ここの(つ)", "strokes": 2, "example": { "word": "九月", "reading": "くがつ", "meaning": { "en": "September", "fr": "septembre", "pt": "setembro" } } },
+        { "kana": "十", "romaji": "juu", "meaning": { "en": "ten", "fr": "dix", "pt": "dez" }, "onyomi": "ジュウ", "kunyomi": "とお", "strokes": 2, "example": { "word": "十日", "reading": "とおか", "meaning": { "en": "10th day", "fr": "10e jour", "pt": "dia 10" } } },
+        { "kana": "百", "romaji": "hyaku", "meaning": { "en": "hundred", "fr": "cent", "pt": "cem" }, "onyomi": "ヒャク", "kunyomi": "—", "strokes": 6, "example": { "word": "三百", "reading": "さんびゃく", "meaning": { "en": "three hundred", "fr": "trois cents", "pt": "trezentos" } } },
+        { "kana": "千", "romaji": "sen", "meaning": { "en": "thousand", "fr": "mille", "pt": "mil" }, "onyomi": "セン", "kunyomi": "ち", "strokes": 3, "example": { "word": "千円", "reading": "せんえん", "meaning": { "en": "1000 yen", "fr": "1000 yens", "pt": "1000 ienes" } } },
+        { "kana": "万", "romaji": "man", "meaning": { "en": "ten thousand", "fr": "dix mille", "pt": "dez mil" }, "onyomi": "マン / バン", "kunyomi": "—", "strokes": 3, "example": { "word": "一万", "reading": "いちまん", "meaning": { "en": "ten thousand", "fr": "dix mille", "pt": "dez mil" } } },
+        { "kana": "円", "romaji": "en", "meaning": { "en": "yen / circle", "fr": "yen / cercle", "pt": "iene / círculo" }, "onyomi": "エン", "kunyomi": "まる(い)", "strokes": 4, "example": { "word": "百円", "reading": "ひゃくえん", "meaning": { "en": "100 yen", "fr": "100 yens", "pt": "100 ienes" } } }
+      ]
+    },
+    {
+      "id": "time",
+      "name": { "en": "Time & Days", "fr": "Temps & Jours", "pt": "Tempo & Dias" },
+      "characters": [
+        { "kana": "日", "romaji": "nichi", "meaning": { "en": "day / sun", "fr": "jour / soleil", "pt": "dia / sol" }, "onyomi": "ニチ / ジツ", "kunyomi": "ひ / か", "strokes": 4, "example": { "word": "日曜日", "reading": "にちようび", "meaning": { "en": "Sunday", "fr": "dimanche", "pt": "domingo" } } },
+        { "kana": "月", "romaji": "getsu", "meaning": { "en": "month / moon", "fr": "mois / lune", "pt": "mês / lua" }, "onyomi": "ゲツ / ガツ", "kunyomi": "つき", "strokes": 4, "example": { "word": "月曜日", "reading": "げつようび", "meaning": { "en": "Monday", "fr": "lundi", "pt": "segunda-feira" } } },
+        { "kana": "火", "romaji": "ka", "meaning": { "en": "fire", "fr": "feu", "pt": "fogo" }, "onyomi": "カ", "kunyomi": "ひ", "strokes": 4, "example": { "word": "火曜日", "reading": "かようび", "meaning": { "en": "Tuesday", "fr": "mardi", "pt": "terça-feira" } } },
+        { "kana": "水", "romaji": "sui", "meaning": { "en": "water", "fr": "eau", "pt": "água" }, "onyomi": "スイ", "kunyomi": "みず", "strokes": 4, "example": { "word": "水曜日", "reading": "すいようび", "meaning": { "en": "Wednesday", "fr": "mercredi", "pt": "quarta-feira" } } },
+        { "kana": "木", "romaji": "moku", "meaning": { "en": "tree / wood", "fr": "arbre / bois", "pt": "árvore / madeira" }, "onyomi": "モク / ボク", "kunyomi": "き", "strokes": 4, "example": { "word": "木曜日", "reading": "もくようび", "meaning": { "en": "Thursday", "fr": "jeudi", "pt": "quinta-feira" } } },
+        { "kana": "金", "romaji": "kin", "meaning": { "en": "gold / money", "fr": "or / argent", "pt": "ouro / dinheiro" }, "onyomi": "キン / コン", "kunyomi": "かね", "strokes": 8, "example": { "word": "金曜日", "reading": "きんようび", "meaning": { "en": "Friday", "fr": "vendredi", "pt": "sexta-feira" } } },
+        { "kana": "土", "romaji": "do", "meaning": { "en": "earth / soil", "fr": "terre / sol", "pt": "terra / solo" }, "onyomi": "ド / ト", "kunyomi": "つち", "strokes": 3, "example": { "word": "土曜日", "reading": "どようび", "meaning": { "en": "Saturday", "fr": "samedi", "pt": "sábado" } } },
+        { "kana": "年", "romaji": "nen", "meaning": { "en": "year", "fr": "année", "pt": "ano" }, "onyomi": "ネン", "kunyomi": "とし", "strokes": 6, "example": { "word": "今年", "reading": "ことし", "meaning": { "en": "this year", "fr": "cette année", "pt": "este ano" } } },
+        { "kana": "時", "romaji": "ji", "meaning": { "en": "time / hour", "fr": "heure / temps", "pt": "hora / tempo" }, "onyomi": "ジ", "kunyomi": "とき", "strokes": 10, "example": { "word": "時間", "reading": "じかん", "meaning": { "en": "time / hours", "fr": "temps / heures", "pt": "tempo / horas" } } },
+        { "kana": "分", "romaji": "fun", "meaning": { "en": "minute / part", "fr": "minute / partie", "pt": "minuto / parte" }, "onyomi": "ブン / フン", "kunyomi": "わ(ける)", "strokes": 4, "example": { "word": "五分", "reading": "ごふん", "meaning": { "en": "five minutes", "fr": "cinq minutes", "pt": "cinco minutos" } } },
+        { "kana": "半", "romaji": "han", "meaning": { "en": "half", "fr": "demi", "pt": "meio" }, "onyomi": "ハン", "kunyomi": "なか(ば)", "strokes": 5, "example": { "word": "半分", "reading": "はんぶん", "meaning": { "en": "half", "fr": "moitié", "pt": "metade" } } }
+      ]
+    },
+    {
+      "id": "people",
+      "name": { "en": "People & Family", "fr": "Personnes & Famille", "pt": "Pessoas & Família" },
+      "characters": [
+        { "kana": "人", "romaji": "hito", "meaning": { "en": "person", "fr": "personne", "pt": "pessoa" }, "onyomi": "ジン / ニン", "kunyomi": "ひと", "strokes": 2, "example": { "word": "日本人", "reading": "にほんじん", "meaning": { "en": "Japanese person", "fr": "Japonais(e)", "pt": "japonês(a)" } } },
+        { "kana": "男", "romaji": "otoko", "meaning": { "en": "man / male", "fr": "homme", "pt": "homem" }, "onyomi": "ダン / ナン", "kunyomi": "おとこ", "strokes": 7, "example": { "word": "男の人", "reading": "おとこのひと", "meaning": { "en": "man", "fr": "un homme", "pt": "um homem" } } },
+        { "kana": "女", "romaji": "onna", "meaning": { "en": "woman / female", "fr": "femme", "pt": "mulher" }, "onyomi": "ジョ", "kunyomi": "おんな", "strokes": 3, "example": { "word": "女の子", "reading": "おんなのこ", "meaning": { "en": "girl", "fr": "fille", "pt": "menina" } } },
+        { "kana": "子", "romaji": "ko", "meaning": { "en": "child", "fr": "enfant", "pt": "criança" }, "onyomi": "シ", "kunyomi": "こ", "strokes": 3, "example": { "word": "子供", "reading": "こども", "meaning": { "en": "child", "fr": "enfant", "pt": "criança" } } },
+        { "kana": "父", "romaji": "chichi", "meaning": { "en": "father", "fr": "père", "pt": "pai" }, "onyomi": "フ", "kunyomi": "ちち", "strokes": 4, "example": { "word": "お父さん", "reading": "おとうさん", "meaning": { "en": "father (polite)", "fr": "père (poli)", "pt": "pai (polido)" } } },
+        { "kana": "母", "romaji": "haha", "meaning": { "en": "mother", "fr": "mère", "pt": "mãe" }, "onyomi": "ボ", "kunyomi": "はは", "strokes": 5, "example": { "word": "お母さん", "reading": "おかあさん", "meaning": { "en": "mother (polite)", "fr": "mère (poli)", "pt": "mãe (polido)" } } },
+        { "kana": "兄", "romaji": "ani", "meaning": { "en": "older brother", "fr": "grand frère", "pt": "irmão mais velho" }, "onyomi": "ケイ / キョウ", "kunyomi": "あに", "strokes": 5, "example": { "word": "お兄さん", "reading": "おにいさん", "meaning": { "en": "older brother", "fr": "grand frère", "pt": "irmão mais velho" } } },
+        { "kana": "弟", "romaji": "otouto", "meaning": { "en": "younger brother", "fr": "petit frère", "pt": "irmão mais novo" }, "onyomi": "テイ / ダイ", "kunyomi": "おとうと", "strokes": 7, "example": { "word": "弟", "reading": "おとうと", "meaning": { "en": "younger brother", "fr": "petit frère", "pt": "irmão mais novo" } } },
+        { "kana": "友", "romaji": "tomo", "meaning": { "en": "friend", "fr": "ami", "pt": "amigo" }, "onyomi": "ユウ", "kunyomi": "とも", "strokes": 4, "example": { "word": "友達", "reading": "ともだち", "meaning": { "en": "friend", "fr": "ami(e)", "pt": "amigo(a)" } } },
+        { "kana": "先", "romaji": "sen", "meaning": { "en": "ahead / previous", "fr": "avant / précédent", "pt": "antes / anterior" }, "onyomi": "セン", "kunyomi": "さき", "strokes": 6, "example": { "word": "先生", "reading": "せんせい", "meaning": { "en": "teacher", "fr": "professeur", "pt": "professor" } } },
+        { "kana": "生", "romaji": "sei", "meaning": { "en": "life / birth", "fr": "vie / naissance", "pt": "vida / nascimento" }, "onyomi": "セイ / ショウ", "kunyomi": "い(きる) / う(まれる)", "strokes": 5, "example": { "word": "学生", "reading": "がくせい", "meaning": { "en": "student", "fr": "étudiant", "pt": "estudante" } } }
+      ]
+    },
+    {
+      "id": "nature",
+      "name": { "en": "Nature", "fr": "Nature", "pt": "Natureza" },
+      "characters": [
+        { "kana": "山", "romaji": "yama", "meaning": { "en": "mountain", "fr": "montagne", "pt": "montanha" }, "onyomi": "サン", "kunyomi": "やま", "strokes": 3, "example": { "word": "富士山", "reading": "ふじさん", "meaning": { "en": "Mt. Fuji", "fr": "mont Fuji", "pt": "monte Fuji" } } },
+        { "kana": "川", "romaji": "kawa", "meaning": { "en": "river", "fr": "rivière", "pt": "rio" }, "onyomi": "セン", "kunyomi": "かわ", "strokes": 3, "example": { "word": "川", "reading": "かわ", "meaning": { "en": "river", "fr": "rivière", "pt": "rio" } } },
+        { "kana": "田", "romaji": "ta", "meaning": { "en": "rice field", "fr": "rizière", "pt": "arrozal" }, "onyomi": "デン", "kunyomi": "た", "strokes": 5, "example": { "word": "田中", "reading": "たなか", "meaning": { "en": "Tanaka (name)", "fr": "Tanaka (nom)", "pt": "Tanaka (nome)" } } },
+        { "kana": "花", "romaji": "hana", "meaning": { "en": "flower", "fr": "fleur", "pt": "flor" }, "onyomi": "カ", "kunyomi": "はな", "strokes": 7, "example": { "word": "花見", "reading": "はなみ", "meaning": { "en": "flower viewing", "fr": "contemplation des fleurs", "pt": "contemplação das flores" } } },
+        { "kana": "天", "romaji": "ten", "meaning": { "en": "heaven / sky", "fr": "ciel", "pt": "céu" }, "onyomi": "テン", "kunyomi": "あめ", "strokes": 4, "example": { "word": "天気", "reading": "てんき", "meaning": { "en": "weather", "fr": "météo", "pt": "tempo (clima)" } } },
+        { "kana": "空", "romaji": "sora", "meaning": { "en": "sky / empty", "fr": "ciel / vide", "pt": "céu / vazio" }, "onyomi": "クウ", "kunyomi": "そら / あ(く)", "strokes": 8, "example": { "word": "空気", "reading": "くうき", "meaning": { "en": "air", "fr": "air", "pt": "ar" } } },
+        { "kana": "気", "romaji": "ki", "meaning": { "en": "spirit / energy", "fr": "esprit / énergie", "pt": "espírito / energia" }, "onyomi": "キ / ケ", "kunyomi": "—", "strokes": 6, "example": { "word": "元気", "reading": "げんき", "meaning": { "en": "healthy / energetic", "fr": "en forme", "pt": "saudável / animado" } } },
+        { "kana": "雨", "romaji": "ame", "meaning": { "en": "rain", "fr": "pluie", "pt": "chuva" }, "onyomi": "ウ", "kunyomi": "あめ", "strokes": 8, "example": { "word": "雨", "reading": "あめ", "meaning": { "en": "rain", "fr": "pluie", "pt": "chuva" } } }
+      ]
+    },
+    {
+      "id": "position",
+      "name": { "en": "Position & Direction", "fr": "Position & Direction", "pt": "Posição & Direção" },
+      "characters": [
+        { "kana": "上", "romaji": "ue", "meaning": { "en": "up / above", "fr": "haut / au-dessus", "pt": "cima / acima" }, "onyomi": "ジョウ", "kunyomi": "うえ / あ(がる)", "strokes": 3, "example": { "word": "上", "reading": "うえ", "meaning": { "en": "above / top", "fr": "au-dessus", "pt": "acima" } } },
+        { "kana": "下", "romaji": "shita", "meaning": { "en": "down / below", "fr": "bas / en dessous", "pt": "baixo / abaixo" }, "onyomi": "カ / ゲ", "kunyomi": "した / さ(がる)", "strokes": 3, "example": { "word": "下", "reading": "した", "meaning": { "en": "below / under", "fr": "en dessous", "pt": "abaixo" } } },
+        { "kana": "中", "romaji": "naka", "meaning": { "en": "middle / inside", "fr": "milieu / dedans", "pt": "meio / dentro" }, "onyomi": "チュウ", "kunyomi": "なか", "strokes": 4, "example": { "word": "中", "reading": "なか", "meaning": { "en": "inside", "fr": "dedans", "pt": "dentro" } } },
+        { "kana": "外", "romaji": "soto", "meaning": { "en": "outside", "fr": "dehors", "pt": "fora" }, "onyomi": "ガイ", "kunyomi": "そと", "strokes": 5, "example": { "word": "外国", "reading": "がいこく", "meaning": { "en": "foreign country", "fr": "pays étranger", "pt": "país estrangeiro" } } },
+        { "kana": "前", "romaji": "mae", "meaning": { "en": "front / before", "fr": "devant / avant", "pt": "frente / antes" }, "onyomi": "ゼン", "kunyomi": "まえ", "strokes": 9, "example": { "word": "前", "reading": "まえ", "meaning": { "en": "front / before", "fr": "devant", "pt": "frente" } } },
+        { "kana": "後", "romaji": "ushiro", "meaning": { "en": "after / behind", "fr": "après / derrière", "pt": "depois / atrás" }, "onyomi": "ゴ / コウ", "kunyomi": "あと / うし(ろ)", "strokes": 9, "example": { "word": "午後", "reading": "ごご", "meaning": { "en": "afternoon / p.m.", "fr": "après-midi", "pt": "tarde / p.m." } } },
+        { "kana": "左", "romaji": "hidari", "meaning": { "en": "left", "fr": "gauche", "pt": "esquerda" }, "onyomi": "サ", "kunyomi": "ひだり", "strokes": 5, "example": { "word": "左", "reading": "ひだり", "meaning": { "en": "left", "fr": "gauche", "pt": "esquerda" } } },
+        { "kana": "右", "romaji": "migi", "meaning": { "en": "right", "fr": "droite", "pt": "direita" }, "onyomi": "ウ / ユウ", "kunyomi": "みぎ", "strokes": 5, "example": { "word": "右", "reading": "みぎ", "meaning": { "en": "right", "fr": "droite", "pt": "direita" } } },
+        { "kana": "東", "romaji": "higashi", "meaning": { "en": "east", "fr": "est", "pt": "leste" }, "onyomi": "トウ", "kunyomi": "ひがし", "strokes": 8, "example": { "word": "東京", "reading": "とうきょう", "meaning": { "en": "Tokyo", "fr": "Tokyo", "pt": "Tóquio" } } },
+        { "kana": "西", "romaji": "nishi", "meaning": { "en": "west", "fr": "ouest", "pt": "oeste" }, "onyomi": "セイ / サイ", "kunyomi": "にし", "strokes": 6, "example": { "word": "西", "reading": "にし", "meaning": { "en": "west", "fr": "ouest", "pt": "oeste" } } },
+        { "kana": "南", "romaji": "minami", "meaning": { "en": "south", "fr": "sud", "pt": "sul" }, "onyomi": "ナン", "kunyomi": "みなみ", "strokes": 9, "example": { "word": "南", "reading": "みなみ", "meaning": { "en": "south", "fr": "sud", "pt": "sul" } } },
+        { "kana": "北", "romaji": "kita", "meaning": { "en": "north", "fr": "nord", "pt": "norte" }, "onyomi": "ホク", "kunyomi": "きた", "strokes": 5, "example": { "word": "北", "reading": "きた", "meaning": { "en": "north", "fr": "nord", "pt": "norte" } } }
+      ]
+    },
+    {
+      "id": "adjectives",
+      "name": { "en": "Adjectives & Size", "fr": "Adjectifs & Taille", "pt": "Adjetivos & Tamanho" },
+      "characters": [
+        { "kana": "大", "romaji": "oo", "meaning": { "en": "big / large", "fr": "grand", "pt": "grande" }, "onyomi": "ダイ / タイ", "kunyomi": "おお(きい)", "strokes": 3, "example": { "word": "大きい", "reading": "おおきい", "meaning": { "en": "big", "fr": "grand", "pt": "grande" } } },
+        { "kana": "小", "romaji": "chii", "meaning": { "en": "small", "fr": "petit", "pt": "pequeno" }, "onyomi": "ショウ", "kunyomi": "ちい(さい) / こ", "strokes": 3, "example": { "word": "小さい", "reading": "ちいさい", "meaning": { "en": "small", "fr": "petit", "pt": "pequeno" } } },
+        { "kana": "高", "romaji": "taka", "meaning": { "en": "tall / expensive", "fr": "haut / cher", "pt": "alto / caro" }, "onyomi": "コウ", "kunyomi": "たか(い)", "strokes": 10, "example": { "word": "高い", "reading": "たかい", "meaning": { "en": "expensive / tall", "fr": "cher / haut", "pt": "caro / alto" } } },
+        { "kana": "安", "romaji": "yasu", "meaning": { "en": "cheap / safe", "fr": "bon marché / sûr", "pt": "barato / seguro" }, "onyomi": "アン", "kunyomi": "やす(い)", "strokes": 6, "example": { "word": "安い", "reading": "やすい", "meaning": { "en": "cheap", "fr": "bon marché", "pt": "barato" } } },
+        { "kana": "新", "romaji": "shin", "meaning": { "en": "new", "fr": "nouveau", "pt": "novo" }, "onyomi": "シン", "kunyomi": "あたら(しい)", "strokes": 13, "example": { "word": "新しい", "reading": "あたらしい", "meaning": { "en": "new", "fr": "nouveau", "pt": "novo" } } },
+        { "kana": "古", "romaji": "furu", "meaning": { "en": "old (things)", "fr": "vieux (objets)", "pt": "velho (coisas)" }, "onyomi": "コ", "kunyomi": "ふる(い)", "strokes": 5, "example": { "word": "古い", "reading": "ふるい", "meaning": { "en": "old", "fr": "vieux", "pt": "velho" } } },
+        { "kana": "長", "romaji": "naga", "meaning": { "en": "long / chief", "fr": "long / chef", "pt": "longo / chefe" }, "onyomi": "チョウ", "kunyomi": "なが(い)", "strokes": 8, "example": { "word": "長い", "reading": "ながい", "meaning": { "en": "long", "fr": "long", "pt": "longo" } } },
+        { "kana": "多", "romaji": "oo", "meaning": { "en": "many", "fr": "beaucoup", "pt": "muitos" }, "onyomi": "タ", "kunyomi": "おお(い)", "strokes": 6, "example": { "word": "多い", "reading": "おおい", "meaning": { "en": "many / a lot", "fr": "nombreux", "pt": "muitos" } } },
+        { "kana": "少", "romaji": "suko", "meaning": { "en": "few / little", "fr": "peu", "pt": "pouco" }, "onyomi": "ショウ", "kunyomi": "すく(ない) / すこ(し)", "strokes": 4, "example": { "word": "少し", "reading": "すこし", "meaning": { "en": "a little", "fr": "un peu", "pt": "um pouco" } } },
+        { "kana": "白", "romaji": "shiro", "meaning": { "en": "white", "fr": "blanc", "pt": "branco" }, "onyomi": "ハク", "kunyomi": "しろ(い)", "strokes": 5, "example": { "word": "白い", "reading": "しろい", "meaning": { "en": "white", "fr": "blanc", "pt": "branco" } } }
+      ]
+    },
+    {
+      "id": "verbs",
+      "name": { "en": "Verbs & Actions", "fr": "Verbes & Actions", "pt": "Verbos & Ações" },
+      "characters": [
+        { "kana": "行", "romaji": "i", "meaning": { "en": "to go", "fr": "aller", "pt": "ir" }, "onyomi": "コウ / ギョウ", "kunyomi": "い(く)", "strokes": 6, "example": { "word": "行きます", "reading": "いきます", "meaning": { "en": "to go", "fr": "aller", "pt": "ir" } } },
+        { "kana": "来", "romaji": "ku", "meaning": { "en": "to come", "fr": "venir", "pt": "vir" }, "onyomi": "ライ", "kunyomi": "く(る)", "strokes": 7, "example": { "word": "来ます", "reading": "きます", "meaning": { "en": "to come", "fr": "venir", "pt": "vir" } } },
+        { "kana": "見", "romaji": "mi", "meaning": { "en": "to see", "fr": "voir", "pt": "ver" }, "onyomi": "ケン", "kunyomi": "み(る)", "strokes": 7, "example": { "word": "見ます", "reading": "みます", "meaning": { "en": "to see / watch", "fr": "voir / regarder", "pt": "ver / assistir" } } },
+        { "kana": "聞", "romaji": "ki", "meaning": { "en": "to hear / ask", "fr": "entendre / demander", "pt": "ouvir / perguntar" }, "onyomi": "ブン / モン", "kunyomi": "き(く)", "strokes": 14, "example": { "word": "聞きます", "reading": "ききます", "meaning": { "en": "to listen / ask", "fr": "écouter / demander", "pt": "ouvir / perguntar" } } },
+        { "kana": "書", "romaji": "ka", "meaning": { "en": "to write", "fr": "écrire", "pt": "escrever" }, "onyomi": "ショ", "kunyomi": "か(く)", "strokes": 10, "example": { "word": "書きます", "reading": "かきます", "meaning": { "en": "to write", "fr": "écrire", "pt": "escrever" } } },
+        { "kana": "読", "romaji": "yo", "meaning": { "en": "to read", "fr": "lire", "pt": "ler" }, "onyomi": "ドク", "kunyomi": "よ(む)", "strokes": 14, "example": { "word": "読みます", "reading": "よみます", "meaning": { "en": "to read", "fr": "lire", "pt": "ler" } } },
+        { "kana": "話", "romaji": "hana", "meaning": { "en": "to speak / story", "fr": "parler / histoire", "pt": "falar / história" }, "onyomi": "ワ", "kunyomi": "はな(す) / はなし", "strokes": 13, "example": { "word": "話します", "reading": "はなします", "meaning": { "en": "to speak", "fr": "parler", "pt": "falar" } } },
+        { "kana": "食", "romaji": "ta", "meaning": { "en": "to eat / food", "fr": "manger / nourriture", "pt": "comer / comida" }, "onyomi": "ショク", "kunyomi": "た(べる)", "strokes": 9, "example": { "word": "食べます", "reading": "たべます", "meaning": { "en": "to eat", "fr": "manger", "pt": "comer" } } },
+        { "kana": "飲", "romaji": "no", "meaning": { "en": "to drink", "fr": "boire", "pt": "beber" }, "onyomi": "イン", "kunyomi": "の(む)", "strokes": 12, "example": { "word": "飲みます", "reading": "のみます", "meaning": { "en": "to drink", "fr": "boire", "pt": "beber" } } },
+        { "kana": "買", "romaji": "ka", "meaning": { "en": "to buy", "fr": "acheter", "pt": "comprar" }, "onyomi": "バイ", "kunyomi": "か(う)", "strokes": 12, "example": { "word": "買います", "reading": "かいます", "meaning": { "en": "to buy", "fr": "acheter", "pt": "comprar" } } },
+        { "kana": "出", "romaji": "de", "meaning": { "en": "to exit / go out", "fr": "sortir", "pt": "sair" }, "onyomi": "シュツ", "kunyomi": "で(る) / だ(す)", "strokes": 5, "example": { "word": "出ます", "reading": "でます", "meaning": { "en": "to go out / leave", "fr": "sortir", "pt": "sair" } } },
+        { "kana": "入", "romaji": "hai", "meaning": { "en": "to enter", "fr": "entrer", "pt": "entrar" }, "onyomi": "ニュウ", "kunyomi": "はい(る) / い(れる)", "strokes": 2, "example": { "word": "入ります", "reading": "はいります", "meaning": { "en": "to enter", "fr": "entrer", "pt": "entrar" } } }
+      ]
+    },
+    {
+      "id": "places",
+      "name": { "en": "Places & Things", "fr": "Lieux & Objets", "pt": "Lugares & Objetos" },
+      "characters": [
+        { "kana": "学", "romaji": "gaku", "meaning": { "en": "study / learning", "fr": "étude", "pt": "estudo" }, "onyomi": "ガク", "kunyomi": "まな(ぶ)", "strokes": 8, "example": { "word": "学校", "reading": "がっこう", "meaning": { "en": "school", "fr": "école", "pt": "escola" } } },
+        { "kana": "校", "romaji": "kou", "meaning": { "en": "school", "fr": "école", "pt": "escola" }, "onyomi": "コウ", "kunyomi": "—", "strokes": 10, "example": { "word": "高校", "reading": "こうこう", "meaning": { "en": "high school", "fr": "lycée", "pt": "ensino médio" } } },
+        { "kana": "国", "romaji": "kuni", "meaning": { "en": "country", "fr": "pays", "pt": "país" }, "onyomi": "コク", "kunyomi": "くに", "strokes": 8, "example": { "word": "国", "reading": "くに", "meaning": { "en": "country", "fr": "pays", "pt": "país" } } },
+        { "kana": "語", "romaji": "go", "meaning": { "en": "language / word", "fr": "langue / mot", "pt": "língua / palavra" }, "onyomi": "ゴ", "kunyomi": "かた(る)", "strokes": 14, "example": { "word": "日本語", "reading": "にほんご", "meaning": { "en": "Japanese language", "fr": "langue japonaise", "pt": "língua japonesa" } } },
+        { "kana": "名", "romaji": "na", "meaning": { "en": "name", "fr": "nom", "pt": "nome" }, "onyomi": "メイ / ミョウ", "kunyomi": "な", "strokes": 6, "example": { "word": "名前", "reading": "なまえ", "meaning": { "en": "name", "fr": "nom", "pt": "nome" } } },
+        { "kana": "車", "romaji": "kuruma", "meaning": { "en": "car / vehicle", "fr": "voiture", "pt": "carro" }, "onyomi": "シャ", "kunyomi": "くるま", "strokes": 7, "example": { "word": "電車", "reading": "でんしゃ", "meaning": { "en": "train", "fr": "train", "pt": "trem" } } },
+        { "kana": "電", "romaji": "den", "meaning": { "en": "electricity", "fr": "électricité", "pt": "eletricidade" }, "onyomi": "デン", "kunyomi": "—", "strokes": 13, "example": { "word": "電話", "reading": "でんわ", "meaning": { "en": "telephone", "fr": "téléphone", "pt": "telefone" } } },
+        { "kana": "店", "romaji": "mise", "meaning": { "en": "shop / store", "fr": "magasin", "pt": "loja" }, "onyomi": "テン", "kunyomi": "みせ", "strokes": 8, "example": { "word": "店", "reading": "みせ", "meaning": { "en": "shop", "fr": "magasin", "pt": "loja" } } },
+        { "kana": "駅", "romaji": "eki", "meaning": { "en": "station", "fr": "gare", "pt": "estação" }, "onyomi": "エキ", "kunyomi": "—", "strokes": 14, "example": { "word": "駅", "reading": "えき", "meaning": { "en": "(train) station", "fr": "gare", "pt": "estação" } } },
+        { "kana": "本", "romaji": "hon", "meaning": { "en": "book / origin", "fr": "livre / origine", "pt": "livro / origem" }, "onyomi": "ホン", "kunyomi": "もと", "strokes": 5, "example": { "word": "本", "reading": "ほん", "meaning": { "en": "book", "fr": "livre", "pt": "livro" } } }
+      ]
+    },
+    {
+      "id": "body",
+      "name": { "en": "Body", "fr": "Corps", "pt": "Corpo" },
+      "characters": [
+        { "kana": "口", "romaji": "kuchi", "meaning": { "en": "mouth", "fr": "bouche", "pt": "boca" }, "onyomi": "コウ", "kunyomi": "くち", "strokes": 3, "example": { "word": "口", "reading": "くち", "meaning": { "en": "mouth", "fr": "bouche", "pt": "boca" } } },
+        { "kana": "目", "romaji": "me", "meaning": { "en": "eye", "fr": "œil", "pt": "olho" }, "onyomi": "モク", "kunyomi": "め", "strokes": 5, "example": { "word": "目", "reading": "め", "meaning": { "en": "eye", "fr": "œil", "pt": "olho" } } },
+        { "kana": "耳", "romaji": "mimi", "meaning": { "en": "ear", "fr": "oreille", "pt": "orelha" }, "onyomi": "ジ", "kunyomi": "みみ", "strokes": 6, "example": { "word": "耳", "reading": "みみ", "meaning": { "en": "ear", "fr": "oreille", "pt": "orelha" } } },
+        { "kana": "手", "romaji": "te", "meaning": { "en": "hand", "fr": "main", "pt": "mão" }, "onyomi": "シュ", "kunyomi": "て", "strokes": 4, "example": { "word": "手", "reading": "て", "meaning": { "en": "hand", "fr": "main", "pt": "mão" } } },
+        { "kana": "足", "romaji": "ashi", "meaning": { "en": "foot / leg", "fr": "pied / jambe", "pt": "pé / perna" }, "onyomi": "ソク", "kunyomi": "あし / た(りる)", "strokes": 7, "example": { "word": "足", "reading": "あし", "meaning": { "en": "foot / leg", "fr": "pied / jambe", "pt": "pé / perna" } } }
+      ]
+    },
+    {
+      "id": "common",
+      "name": { "en": "Common Kanji", "fr": "Kanji courants", "pt": "Kanji comuns" },
+      "characters": [
+        { "kana": "何", "romaji": "nani", "meaning": { "en": "what", "fr": "quoi", "pt": "o quê" }, "onyomi": "カ", "kunyomi": "なに / なん", "strokes": 7, "example": { "word": "何", "reading": "なに", "meaning": { "en": "what", "fr": "quoi", "pt": "o quê" } } },
+        { "kana": "毎", "romaji": "mai", "meaning": { "en": "every", "fr": "chaque", "pt": "cada" }, "onyomi": "マイ", "kunyomi": "—", "strokes": 6, "example": { "word": "毎日", "reading": "まいにち", "meaning": { "en": "every day", "fr": "chaque jour", "pt": "todos os dias" } } },
+        { "kana": "週", "romaji": "shuu", "meaning": { "en": "week", "fr": "semaine", "pt": "semana" }, "onyomi": "シュウ", "kunyomi": "—", "strokes": 11, "example": { "word": "今週", "reading": "こんしゅう", "meaning": { "en": "this week", "fr": "cette semaine", "pt": "esta semana" } } },
+        { "kana": "間", "romaji": "aida", "meaning": { "en": "interval / between", "fr": "intervalle / entre", "pt": "intervalo / entre" }, "onyomi": "カン / ケン", "kunyomi": "あいだ", "strokes": 12, "example": { "word": "時間", "reading": "じかん", "meaning": { "en": "time / hour", "fr": "temps / heure", "pt": "tempo / hora" } } },
+        { "kana": "今", "romaji": "ima", "meaning": { "en": "now", "fr": "maintenant", "pt": "agora" }, "onyomi": "コン / キン", "kunyomi": "いま", "strokes": 4, "example": { "word": "今日", "reading": "きょう", "meaning": { "en": "today", "fr": "aujourd'hui", "pt": "hoje" } } },
+        { "kana": "文", "romaji": "bun", "meaning": { "en": "sentence / writing", "fr": "phrase / écrit", "pt": "frase / escrita" }, "onyomi": "ブン / モン", "kunyomi": "ふみ", "strokes": 4, "example": { "word": "文", "reading": "ぶん", "meaning": { "en": "sentence", "fr": "phrase", "pt": "frase" } } },
+        { "kana": "字", "romaji": "ji", "meaning": { "en": "character / letter", "fr": "caractère / lettre", "pt": "caractere / letra" }, "onyomi": "ジ", "kunyomi": "あざ", "strokes": 6, "example": { "word": "漢字", "reading": "かんじ", "meaning": { "en": "kanji", "fr": "kanji", "pt": "kanji" } } }
+      ]
+    },
+    {
+      "id": "verbs-n4-a",
+      "name": { "en": "Verbs (N4) A", "fr": "Verbes (N4) A", "pt": "Verbos (N4) A" },
+      "characters": [
+        { "kana": "使", "romaji": "tsuka", "meaning": { "en": "to use", "fr": "utiliser", "pt": "usar" }, "onyomi": "シ", "kunyomi": "つか(う)", "strokes": 8, "example": { "word": "使う", "reading": "つかう", "meaning": { "en": "to use", "fr": "utiliser", "pt": "usar" } } },
+        { "kana": "待", "romaji": "ma", "meaning": { "en": "to wait", "fr": "attendre", "pt": "esperar" }, "onyomi": "タイ", "kunyomi": "ま(つ)", "strokes": 9, "example": { "word": "待つ", "reading": "まつ", "meaning": { "en": "to wait", "fr": "attendre", "pt": "esperar" } } },
+        { "kana": "持", "romaji": "mo", "meaning": { "en": "to hold / have", "fr": "tenir / avoir", "pt": "segurar / ter" }, "onyomi": "ジ", "kunyomi": "も(つ)", "strokes": 9, "example": { "word": "持つ", "reading": "もつ", "meaning": { "en": "to hold", "fr": "tenir", "pt": "segurar" } } },
+        { "kana": "起", "romaji": "o", "meaning": { "en": "to get up / wake", "fr": "se lever", "pt": "levantar-se" }, "onyomi": "キ", "kunyomi": "お(きる)", "strokes": 10, "example": { "word": "起きる", "reading": "おきる", "meaning": { "en": "to wake up", "fr": "se réveiller", "pt": "acordar" } } },
+        { "kana": "働", "romaji": "hatara", "meaning": { "en": "to work", "fr": "travailler", "pt": "trabalhar" }, "onyomi": "ドウ", "kunyomi": "はたら(く)", "strokes": 13, "example": { "word": "働く", "reading": "はたらく", "meaning": { "en": "to work", "fr": "travailler", "pt": "trabalhar" } } },
+        { "kana": "住", "romaji": "su", "meaning": { "en": "to live / reside", "fr": "habiter", "pt": "morar" }, "onyomi": "ジュウ", "kunyomi": "す(む)", "strokes": 7, "example": { "word": "住む", "reading": "すむ", "meaning": { "en": "to live / reside", "fr": "habiter", "pt": "morar" } } },
+        { "kana": "会", "romaji": "a", "meaning": { "en": "to meet / association", "fr": "rencontrer", "pt": "encontrar" }, "onyomi": "カイ", "kunyomi": "あ(う)", "strokes": 6, "example": { "word": "会社", "reading": "かいしゃ", "meaning": { "en": "company", "fr": "entreprise", "pt": "empresa" } } },
+        { "kana": "言", "romaji": "i", "meaning": { "en": "to say / word", "fr": "dire / mot", "pt": "dizer / palavra" }, "onyomi": "ゲン", "kunyomi": "い(う)", "strokes": 7, "example": { "word": "言う", "reading": "いう", "meaning": { "en": "to say", "fr": "dire", "pt": "dizer" } } },
+        { "kana": "思", "romaji": "omo", "meaning": { "en": "to think", "fr": "penser", "pt": "pensar" }, "onyomi": "シ", "kunyomi": "おも(う)", "strokes": 9, "example": { "word": "思う", "reading": "おもう", "meaning": { "en": "to think", "fr": "penser", "pt": "pensar" } } },
+        { "kana": "知", "romaji": "shi", "meaning": { "en": "to know", "fr": "savoir", "pt": "saber" }, "onyomi": "チ", "kunyomi": "し(る)", "strokes": 8, "example": { "word": "知る", "reading": "しる", "meaning": { "en": "to know", "fr": "savoir", "pt": "saber" } } },
+        { "kana": "作", "romaji": "tsuku", "meaning": { "en": "to make", "fr": "fabriquer", "pt": "fazer" }, "onyomi": "サク", "kunyomi": "つく(る)", "strokes": 7, "example": { "word": "作る", "reading": "つくる", "meaning": { "en": "to make", "fr": "faire", "pt": "fazer" } } },
+        { "kana": "教", "romaji": "oshi", "meaning": { "en": "to teach", "fr": "enseigner", "pt": "ensinar" }, "onyomi": "キョウ", "kunyomi": "おし(える)", "strokes": 11, "example": { "word": "教える", "reading": "おしえる", "meaning": { "en": "to teach", "fr": "enseigner", "pt": "ensinar" } } }
+      ]
+    },
+    {
+      "id": "verbs-n4-b",
+      "name": { "en": "Verbs (N4) B", "fr": "Verbes (N4) B", "pt": "Verbos (N4) B" },
+      "characters": [
+        { "kana": "習", "romaji": "nara", "meaning": { "en": "to learn", "fr": "apprendre", "pt": "aprender" }, "onyomi": "シュウ", "kunyomi": "なら(う)", "strokes": 11, "example": { "word": "習う", "reading": "ならう", "meaning": { "en": "to learn", "fr": "apprendre", "pt": "aprender" } } },
+        { "kana": "借", "romaji": "ka", "meaning": { "en": "to borrow", "fr": "emprunter", "pt": "pedir emprestado" }, "onyomi": "シャク", "kunyomi": "か(りる)", "strokes": 10, "example": { "word": "借りる", "reading": "かりる", "meaning": { "en": "to borrow", "fr": "emprunter", "pt": "pedir emprestado" } } },
+        { "kana": "貸", "romaji": "ka", "meaning": { "en": "to lend", "fr": "prêter", "pt": "emprestar" }, "onyomi": "タイ", "kunyomi": "か(す)", "strokes": 12, "example": { "word": "貸す", "reading": "かす", "meaning": { "en": "to lend", "fr": "prêter", "pt": "emprestar" } } },
+        { "kana": "返", "romaji": "kae", "meaning": { "en": "to return (something)", "fr": "rendre", "pt": "devolver" }, "onyomi": "ヘン", "kunyomi": "かえ(す)", "strokes": 7, "example": { "word": "返す", "reading": "かえす", "meaning": { "en": "to return / give back", "fr": "rendre", "pt": "devolver" } } },
+        { "kana": "送", "romaji": "oku", "meaning": { "en": "to send", "fr": "envoyer", "pt": "enviar" }, "onyomi": "ソウ", "kunyomi": "おく(る)", "strokes": 9, "example": { "word": "送る", "reading": "おくる", "meaning": { "en": "to send", "fr": "envoyer", "pt": "enviar" } } },
+        { "kana": "洗", "romaji": "ara", "meaning": { "en": "to wash", "fr": "laver", "pt": "lavar" }, "onyomi": "セン", "kunyomi": "あら(う)", "strokes": 9, "example": { "word": "洗う", "reading": "あらう", "meaning": { "en": "to wash", "fr": "laver", "pt": "lavar" } } },
+        { "kana": "開", "romaji": "a", "meaning": { "en": "to open", "fr": "ouvrir", "pt": "abrir" }, "onyomi": "カイ", "kunyomi": "あ(ける) / ひら(く)", "strokes": 12, "example": { "word": "開ける", "reading": "あける", "meaning": { "en": "to open", "fr": "ouvrir", "pt": "abrir" } } },
+        { "kana": "閉", "romaji": "shi", "meaning": { "en": "to close", "fr": "fermer", "pt": "fechar" }, "onyomi": "ヘイ", "kunyomi": "し(める) / と(じる)", "strokes": 11, "example": { "word": "閉める", "reading": "しめる", "meaning": { "en": "to close", "fr": "fermer", "pt": "fechar" } } },
+        { "kana": "始", "romaji": "haji", "meaning": { "en": "to begin", "fr": "commencer", "pt": "começar" }, "onyomi": "シ", "kunyomi": "はじ(める)", "strokes": 8, "example": { "word": "始める", "reading": "はじめる", "meaning": { "en": "to begin", "fr": "commencer", "pt": "começar" } } },
+        { "kana": "終", "romaji": "o", "meaning": { "en": "to end / finish", "fr": "finir", "pt": "terminar" }, "onyomi": "シュウ", "kunyomi": "お(わる)", "strokes": 11, "example": { "word": "終わる", "reading": "おわる", "meaning": { "en": "to end", "fr": "finir", "pt": "terminar" } } },
+        { "kana": "急", "romaji": "iso", "meaning": { "en": "to hurry / urgent", "fr": "se dépêcher", "pt": "apressar-se" }, "onyomi": "キュウ", "kunyomi": "いそ(ぐ)", "strokes": 9, "example": { "word": "急ぐ", "reading": "いそぐ", "meaning": { "en": "to hurry", "fr": "se dépêcher", "pt": "apressar-se" } } },
+        { "kana": "乗", "romaji": "no", "meaning": { "en": "to ride / board", "fr": "monter (dans)", "pt": "embarcar" }, "onyomi": "ジョウ", "kunyomi": "の(る)", "strokes": 9, "example": { "word": "乗る", "reading": "のる", "meaning": { "en": "to ride / board", "fr": "monter (dans)", "pt": "embarcar" } } },
+        { "kana": "止", "romaji": "to", "meaning": { "en": "to stop", "fr": "arrêter", "pt": "parar" }, "onyomi": "シ", "kunyomi": "と(まる)", "strokes": 4, "example": { "word": "止まる", "reading": "とまる", "meaning": { "en": "to stop", "fr": "s'arrêter", "pt": "parar" } } }
+      ]
+    },
+    {
+      "id": "time-n4",
+      "name": { "en": "Time & Seasons (N4)", "fr": "Temps & Saisons (N4)", "pt": "Tempo & Estações (N4)" },
+      "characters": [
+        { "kana": "午", "romaji": "go", "meaning": { "en": "noon", "fr": "midi", "pt": "meio-dia" }, "onyomi": "ゴ", "kunyomi": "—", "strokes": 4, "example": { "word": "午前", "reading": "ごぜん", "meaning": { "en": "morning / a.m.", "fr": "matin", "pt": "manhã / a.m." } } },
+        { "kana": "春", "romaji": "haru", "meaning": { "en": "spring", "fr": "printemps", "pt": "primavera" }, "onyomi": "シュン", "kunyomi": "はる", "strokes": 9, "example": { "word": "春", "reading": "はる", "meaning": { "en": "spring", "fr": "printemps", "pt": "primavera" } } },
+        { "kana": "夏", "romaji": "natsu", "meaning": { "en": "summer", "fr": "été", "pt": "verão" }, "onyomi": "カ", "kunyomi": "なつ", "strokes": 10, "example": { "word": "夏", "reading": "なつ", "meaning": { "en": "summer", "fr": "été", "pt": "verão" } } },
+        { "kana": "秋", "romaji": "aki", "meaning": { "en": "autumn", "fr": "automne", "pt": "outono" }, "onyomi": "シュウ", "kunyomi": "あき", "strokes": 9, "example": { "word": "秋", "reading": "あき", "meaning": { "en": "autumn", "fr": "automne", "pt": "outono" } } },
+        { "kana": "冬", "romaji": "fuyu", "meaning": { "en": "winter", "fr": "hiver", "pt": "inverno" }, "onyomi": "トウ", "kunyomi": "ふゆ", "strokes": 5, "example": { "word": "冬", "reading": "ふゆ", "meaning": { "en": "winter", "fr": "hiver", "pt": "inverno" } } },
+        { "kana": "朝", "romaji": "asa", "meaning": { "en": "morning", "fr": "matin", "pt": "manhã" }, "onyomi": "チョウ", "kunyomi": "あさ", "strokes": 12, "example": { "word": "朝", "reading": "あさ", "meaning": { "en": "morning", "fr": "matin", "pt": "manhã" } } },
+        { "kana": "昼", "romaji": "hiru", "meaning": { "en": "noon / daytime", "fr": "midi / journée", "pt": "meio-dia / dia" }, "onyomi": "チュウ", "kunyomi": "ひる", "strokes": 9, "example": { "word": "昼", "reading": "ひる", "meaning": { "en": "noon / lunch", "fr": "midi", "pt": "meio-dia" } } },
+        { "kana": "夜", "romaji": "yoru", "meaning": { "en": "night", "fr": "nuit", "pt": "noite" }, "onyomi": "ヤ", "kunyomi": "よる", "strokes": 8, "example": { "word": "夜", "reading": "よる", "meaning": { "en": "night", "fr": "nuit", "pt": "noite" } } },
+        { "kana": "晩", "romaji": "ban", "meaning": { "en": "evening", "fr": "soir", "pt": "noite (fim de tarde)" }, "onyomi": "バン", "kunyomi": "—", "strokes": 12, "example": { "word": "今晩", "reading": "こんばん", "meaning": { "en": "tonight", "fr": "ce soir", "pt": "esta noite" } } },
+        { "kana": "曜", "romaji": "you", "meaning": { "en": "weekday", "fr": "jour de la semaine", "pt": "dia da semana" }, "onyomi": "ヨウ", "kunyomi": "—", "strokes": 18, "example": { "word": "何曜日", "reading": "なんようび", "meaning": { "en": "what day of the week", "fr": "quel jour", "pt": "que dia da semana" } } }
+      ]
+    },
+    {
+      "id": "people-n4",
+      "name": { "en": "People & Society (N4)", "fr": "Personnes & Société (N4)", "pt": "Pessoas & Sociedade (N4)" },
+      "characters": [
+        { "kana": "家", "romaji": "ie", "meaning": { "en": "house / home", "fr": "maison", "pt": "casa" }, "onyomi": "カ", "kunyomi": "いえ", "strokes": 10, "example": { "word": "家", "reading": "いえ", "meaning": { "en": "house / home", "fr": "maison", "pt": "casa" } } },
+        { "kana": "族", "romaji": "zoku", "meaning": { "en": "family / tribe", "fr": "famille / tribu", "pt": "família / tribo" }, "onyomi": "ゾク", "kunyomi": "—", "strokes": 11, "example": { "word": "家族", "reading": "かぞく", "meaning": { "en": "family", "fr": "famille", "pt": "família" } } },
+        { "kana": "親", "romaji": "oya", "meaning": { "en": "parent", "fr": "parent", "pt": "pai/mãe" }, "onyomi": "シン", "kunyomi": "おや", "strokes": 16, "example": { "word": "両親", "reading": "りょうしん", "meaning": { "en": "parents", "fr": "parents", "pt": "pais" } } },
+        { "kana": "員", "romaji": "in", "meaning": { "en": "member / staff", "fr": "membre / personnel", "pt": "membro / funcionário" }, "onyomi": "イン", "kunyomi": "—", "strokes": 10, "example": { "word": "会社員", "reading": "かいしゃいん", "meaning": { "en": "office worker", "fr": "employé de bureau", "pt": "funcionário de escritório" } } },
+        { "kana": "者", "romaji": "mono", "meaning": { "en": "person", "fr": "personne", "pt": "pessoa" }, "onyomi": "シャ", "kunyomi": "もの", "strokes": 8, "example": { "word": "医者", "reading": "いしゃ", "meaning": { "en": "doctor", "fr": "médecin", "pt": "médico" } } },
+        { "kana": "主", "romaji": "nushi", "meaning": { "en": "master / main", "fr": "maître / principal", "pt": "mestre / principal" }, "onyomi": "シュ", "kunyomi": "ぬし", "strokes": 5, "example": { "word": "主人", "reading": "しゅじん", "meaning": { "en": "husband / master", "fr": "mari / maître", "pt": "marido / mestre" } } },
+        { "kana": "客", "romaji": "kyaku", "meaning": { "en": "guest / customer", "fr": "client / invité", "pt": "cliente / convidado" }, "onyomi": "キャク", "kunyomi": "—", "strokes": 9, "example": { "word": "お客さん", "reading": "おきゃくさん", "meaning": { "en": "guest / customer", "fr": "client", "pt": "cliente" } } },
+        { "kana": "民", "romaji": "min", "meaning": { "en": "people / nation", "fr": "peuple / nation", "pt": "povo / nação" }, "onyomi": "ミン", "kunyomi": "たみ", "strokes": 5, "example": { "word": "国民", "reading": "こくみん", "meaning": { "en": "citizen / nation", "fr": "citoyen", "pt": "cidadão" } } },
+        { "kana": "私", "romaji": "watashi", "meaning": { "en": "I / private", "fr": "je / privé", "pt": "eu / privado" }, "onyomi": "シ", "kunyomi": "わたし", "strokes": 7, "example": { "word": "私", "reading": "わたし", "meaning": { "en": "I / me", "fr": "je / moi", "pt": "eu" } } },
+        { "kana": "好", "romaji": "su", "meaning": { "en": "to like / fond", "fr": "aimer", "pt": "gostar" }, "onyomi": "コウ", "kunyomi": "す(き)", "strokes": 6, "example": { "word": "好き", "reading": "すき", "meaning": { "en": "to like", "fr": "aimer", "pt": "gostar" } } }
+      ]
+    },
+    {
+      "id": "adjectives-n4",
+      "name": { "en": "Adjectives (N4)", "fr": "Adjectifs (N4)", "pt": "Adjetivos (N4)" },
+      "characters": [
+        { "kana": "早", "romaji": "haya", "meaning": { "en": "early", "fr": "tôt", "pt": "cedo" }, "onyomi": "ソウ", "kunyomi": "はや(い)", "strokes": 6, "example": { "word": "早い", "reading": "はやい", "meaning": { "en": "early", "fr": "tôt", "pt": "cedo" } } },
+        { "kana": "明", "romaji": "aka", "meaning": { "en": "bright / clear", "fr": "clair / lumineux", "pt": "claro / brilhante" }, "onyomi": "メイ", "kunyomi": "あか(るい)", "strokes": 8, "example": { "word": "明るい", "reading": "あかるい", "meaning": { "en": "bright", "fr": "lumineux", "pt": "brilhante" } } },
+        { "kana": "暗", "romaji": "kura", "meaning": { "en": "dark", "fr": "sombre", "pt": "escuro" }, "onyomi": "アン", "kunyomi": "くら(い)", "strokes": 13, "example": { "word": "暗い", "reading": "くらい", "meaning": { "en": "dark", "fr": "sombre", "pt": "escuro" } } },
+        { "kana": "強", "romaji": "tsuyo", "meaning": { "en": "strong", "fr": "fort", "pt": "forte" }, "onyomi": "キョウ", "kunyomi": "つよ(い)", "strokes": 11, "example": { "word": "強い", "reading": "つよい", "meaning": { "en": "strong", "fr": "fort", "pt": "forte" } } },
+        { "kana": "弱", "romaji": "yowa", "meaning": { "en": "weak", "fr": "faible", "pt": "fraco" }, "onyomi": "ジャク", "kunyomi": "よわ(い)", "strokes": 10, "example": { "word": "弱い", "reading": "よわい", "meaning": { "en": "weak", "fr": "faible", "pt": "fraco" } } },
+        { "kana": "重", "romaji": "omo", "meaning": { "en": "heavy", "fr": "lourd", "pt": "pesado" }, "onyomi": "ジュウ", "kunyomi": "おも(い)", "strokes": 9, "example": { "word": "重い", "reading": "おもい", "meaning": { "en": "heavy", "fr": "lourd", "pt": "pesado" } } },
+        { "kana": "軽", "romaji": "karu", "meaning": { "en": "light (weight)", "fr": "léger", "pt": "leve" }, "onyomi": "ケイ", "kunyomi": "かる(い)", "strokes": 12, "example": { "word": "軽い", "reading": "かるい", "meaning": { "en": "light", "fr": "léger", "pt": "leve" } } },
+        { "kana": "近", "romaji": "chika", "meaning": { "en": "near", "fr": "proche", "pt": "perto" }, "onyomi": "キン", "kunyomi": "ちか(い)", "strokes": 7, "example": { "word": "近い", "reading": "ちかい", "meaning": { "en": "near", "fr": "proche", "pt": "perto" } } },
+        { "kana": "遠", "romaji": "too", "meaning": { "en": "far", "fr": "loin", "pt": "longe" }, "onyomi": "エン", "kunyomi": "とお(い)", "strokes": 13, "example": { "word": "遠い", "reading": "とおい", "meaning": { "en": "far", "fr": "loin", "pt": "longe" } } },
+        { "kana": "太", "romaji": "futo", "meaning": { "en": "thick / fat", "fr": "épais / gros", "pt": "grosso / gordo" }, "onyomi": "タイ", "kunyomi": "ふと(い)", "strokes": 4, "example": { "word": "太い", "reading": "ふとい", "meaning": { "en": "thick", "fr": "épais", "pt": "grosso" } } },
+        { "kana": "忙", "romaji": "isoga", "meaning": { "en": "busy", "fr": "occupé", "pt": "ocupado" }, "onyomi": "ボウ", "kunyomi": "いそが(しい)", "strokes": 6, "example": { "word": "忙しい", "reading": "いそがしい", "meaning": { "en": "busy", "fr": "occupé", "pt": "ocupado" } } },
+        { "kana": "楽", "romaji": "tano", "meaning": { "en": "fun / comfort", "fr": "amusant / confort", "pt": "divertido / conforto" }, "onyomi": "ガク / ラク", "kunyomi": "たの(しい)", "strokes": 13, "example": { "word": "楽しい", "reading": "たのしい", "meaning": { "en": "fun / enjoyable", "fr": "amusant", "pt": "divertido" } } }
+      ]
+    },
+    {
+      "id": "places-n4",
+      "name": { "en": "Nature & Places (N4)", "fr": "Nature & Lieux (N4)", "pt": "Natureza & Lugares (N4)" },
+      "characters": [
+        { "kana": "海", "romaji": "umi", "meaning": { "en": "sea / ocean", "fr": "mer", "pt": "mar" }, "onyomi": "カイ", "kunyomi": "うみ", "strokes": 9, "example": { "word": "海", "reading": "うみ", "meaning": { "en": "sea", "fr": "mer", "pt": "mar" } } },
+        { "kana": "森", "romaji": "mori", "meaning": { "en": "forest", "fr": "forêt", "pt": "floresta" }, "onyomi": "シン", "kunyomi": "もり", "strokes": 12, "example": { "word": "森", "reading": "もり", "meaning": { "en": "forest", "fr": "forêt", "pt": "floresta" } } },
+        { "kana": "石", "romaji": "ishi", "meaning": { "en": "stone", "fr": "pierre", "pt": "pedra" }, "onyomi": "セキ", "kunyomi": "いし", "strokes": 5, "example": { "word": "石", "reading": "いし", "meaning": { "en": "stone", "fr": "pierre", "pt": "pedra" } } },
+        { "kana": "池", "romaji": "ike", "meaning": { "en": "pond", "fr": "étang", "pt": "lago (pequeno)" }, "onyomi": "チ", "kunyomi": "いけ", "strokes": 6, "example": { "word": "池", "reading": "いけ", "meaning": { "en": "pond", "fr": "étang", "pt": "lago pequeno" } } },
+        { "kana": "島", "romaji": "shima", "meaning": { "en": "island", "fr": "île", "pt": "ilha" }, "onyomi": "トウ", "kunyomi": "しま", "strokes": 10, "example": { "word": "島", "reading": "しま", "meaning": { "en": "island", "fr": "île", "pt": "ilha" } } },
+        { "kana": "野", "romaji": "no", "meaning": { "en": "field / plain", "fr": "champ / plaine", "pt": "campo" }, "onyomi": "ヤ", "kunyomi": "の", "strokes": 11, "example": { "word": "野菜", "reading": "やさい", "meaning": { "en": "vegetables", "fr": "légumes", "pt": "legumes" } } },
+        { "kana": "道", "romaji": "michi", "meaning": { "en": "road / way", "fr": "route / chemin", "pt": "estrada / caminho" }, "onyomi": "ドウ", "kunyomi": "みち", "strokes": 12, "example": { "word": "道", "reading": "みち", "meaning": { "en": "road / way", "fr": "chemin", "pt": "caminho" } } },
+        { "kana": "町", "romaji": "machi", "meaning": { "en": "town", "fr": "ville / quartier", "pt": "cidade (pequena)" }, "onyomi": "チョウ", "kunyomi": "まち", "strokes": 7, "example": { "word": "町", "reading": "まち", "meaning": { "en": "town", "fr": "ville", "pt": "cidade" } } },
+        { "kana": "村", "romaji": "mura", "meaning": { "en": "village", "fr": "village", "pt": "vila" }, "onyomi": "ソン", "kunyomi": "むら", "strokes": 7, "example": { "word": "村", "reading": "むら", "meaning": { "en": "village", "fr": "village", "pt": "vila" } } },
+        { "kana": "市", "romaji": "shi", "meaning": { "en": "city / market", "fr": "ville / marché", "pt": "cidade / mercado" }, "onyomi": "シ", "kunyomi": "いち", "strokes": 5, "example": { "word": "市", "reading": "し", "meaning": { "en": "city", "fr": "ville", "pt": "cidade" } } },
+        { "kana": "京", "romaji": "kyou", "meaning": { "en": "capital", "fr": "capitale", "pt": "capital" }, "onyomi": "キョウ", "kunyomi": "—", "strokes": 8, "example": { "word": "東京", "reading": "とうきょう", "meaning": { "en": "Tokyo", "fr": "Tokyo", "pt": "Tóquio" } } },
+        { "kana": "地", "romaji": "chi", "meaning": { "en": "ground / earth", "fr": "terre / sol", "pt": "terra / solo" }, "onyomi": "チ / ジ", "kunyomi": "—", "strokes": 6, "example": { "word": "地図", "reading": "ちず", "meaning": { "en": "map", "fr": "carte", "pt": "mapa" } } }
+      ]
+    },
+    {
+      "id": "body-n4",
+      "name": { "en": "Body & Health (N4)", "fr": "Corps & Santé (N4)", "pt": "Corpo & Saúde (N4)" },
+      "characters": [
+        { "kana": "体", "romaji": "karada", "meaning": { "en": "body", "fr": "corps", "pt": "corpo" }, "onyomi": "タイ", "kunyomi": "からだ", "strokes": 7, "example": { "word": "体", "reading": "からだ", "meaning": { "en": "body", "fr": "corps", "pt": "corpo" } } },
+        { "kana": "病", "romaji": "byou", "meaning": { "en": "illness", "fr": "maladie", "pt": "doença" }, "onyomi": "ビョウ", "kunyomi": "や(む)", "strokes": 10, "example": { "word": "病気", "reading": "びょうき", "meaning": { "en": "illness / sick", "fr": "maladie", "pt": "doença" } } },
+        { "kana": "医", "romaji": "i", "meaning": { "en": "medicine / doctor", "fr": "médecine", "pt": "medicina" }, "onyomi": "イ", "kunyomi": "—", "strokes": 7, "example": { "word": "医者", "reading": "いしゃ", "meaning": { "en": "doctor", "fr": "médecin", "pt": "médico" } } },
+        { "kana": "頭", "romaji": "atama", "meaning": { "en": "head", "fr": "tête", "pt": "cabeça" }, "onyomi": "トウ", "kunyomi": "あたま", "strokes": 16, "example": { "word": "頭", "reading": "あたま", "meaning": { "en": "head", "fr": "tête", "pt": "cabeça" } } },
+        { "kana": "顔", "romaji": "kao", "meaning": { "en": "face", "fr": "visage", "pt": "rosto" }, "onyomi": "ガン", "kunyomi": "かお", "strokes": 18, "example": { "word": "顔", "reading": "かお", "meaning": { "en": "face", "fr": "visage", "pt": "rosto" } } },
+        { "kana": "薬", "romaji": "kusuri", "meaning": { "en": "medicine / drug", "fr": "médicament", "pt": "remédio" }, "onyomi": "ヤク", "kunyomi": "くすり", "strokes": 16, "example": { "word": "薬", "reading": "くすり", "meaning": { "en": "medicine", "fr": "médicament", "pt": "remédio" } } },
+        { "kana": "死", "romaji": "shi", "meaning": { "en": "death / to die", "fr": "mort / mourir", "pt": "morte / morrer" }, "onyomi": "シ", "kunyomi": "し(ぬ)", "strokes": 6, "example": { "word": "死ぬ", "reading": "しぬ", "meaning": { "en": "to die", "fr": "mourir", "pt": "morrer" } } },
+        { "kana": "血", "romaji": "chi", "meaning": { "en": "blood", "fr": "sang", "pt": "sangue" }, "onyomi": "ケツ", "kunyomi": "ち", "strokes": 6, "example": { "word": "血", "reading": "ち", "meaning": { "en": "blood", "fr": "sang", "pt": "sangue" } } }
+      ]
+    },
+    {
+      "id": "mind-n4",
+      "name": { "en": "Mind & Abstract (N4)", "fr": "Esprit & Abstrait (N4)", "pt": "Mente & Abstrato (N4)" },
+      "characters": [
+        { "kana": "心", "romaji": "kokoro", "meaning": { "en": "heart / mind", "fr": "cœur / esprit", "pt": "coração / mente" }, "onyomi": "シン", "kunyomi": "こころ", "strokes": 4, "example": { "word": "心", "reading": "こころ", "meaning": { "en": "heart / mind", "fr": "cœur", "pt": "coração" } } },
+        { "kana": "意", "romaji": "i", "meaning": { "en": "mind / intention", "fr": "intention / sens", "pt": "intenção / sentido" }, "onyomi": "イ", "kunyomi": "—", "strokes": 13, "example": { "word": "意味", "reading": "いみ", "meaning": { "en": "meaning", "fr": "sens", "pt": "significado" } } },
+        { "kana": "味", "romaji": "aji", "meaning": { "en": "taste / flavor", "fr": "goût", "pt": "sabor" }, "onyomi": "ミ", "kunyomi": "あじ", "strokes": 8, "example": { "word": "味", "reading": "あじ", "meaning": { "en": "taste", "fr": "goût", "pt": "sabor" } } },
+        { "kana": "音", "romaji": "oto", "meaning": { "en": "sound", "fr": "son", "pt": "som" }, "onyomi": "オン", "kunyomi": "おと", "strokes": 9, "example": { "word": "音楽", "reading": "おんがく", "meaning": { "en": "music", "fr": "musique", "pt": "música" } } },
+        { "kana": "色", "romaji": "iro", "meaning": { "en": "color", "fr": "couleur", "pt": "cor" }, "onyomi": "ショク", "kunyomi": "いろ", "strokes": 6, "example": { "word": "色", "reading": "いろ", "meaning": { "en": "color", "fr": "couleur", "pt": "cor" } } },
+        { "kana": "力", "romaji": "chikara", "meaning": { "en": "power / strength", "fr": "force", "pt": "força" }, "onyomi": "リョク / リキ", "kunyomi": "ちから", "strokes": 2, "example": { "word": "力", "reading": "ちから", "meaning": { "en": "power / strength", "fr": "force", "pt": "força" } } },
+        { "kana": "有", "romaji": "a", "meaning": { "en": "to exist / have", "fr": "exister / avoir", "pt": "existir / ter" }, "onyomi": "ユウ", "kunyomi": "あ(る)", "strokes": 6, "example": { "word": "有名", "reading": "ゆうめい", "meaning": { "en": "famous", "fr": "célèbre", "pt": "famoso" } } },
+        { "kana": "用", "romaji": "you", "meaning": { "en": "use / business", "fr": "usage / affaire", "pt": "uso / assunto" }, "onyomi": "ヨウ", "kunyomi": "もち(いる)", "strokes": 5, "example": { "word": "用事", "reading": "ようじ", "meaning": { "en": "errand / task", "fr": "course / tâche", "pt": "tarefa / recado" } } }
+      ]
+    },
+    {
+      "id": "study-n4",
+      "name": { "en": "Study & Work (N4)", "fr": "Étude & Travail (N4)", "pt": "Estudo & Trabalho (N4)" },
+      "characters": [
+        { "kana": "業", "romaji": "gyou", "meaning": { "en": "business / vocation", "fr": "métier / cours", "pt": "negócio / aula" }, "onyomi": "ギョウ", "kunyomi": "わざ", "strokes": 13, "example": { "word": "授業", "reading": "じゅぎょう", "meaning": { "en": "class / lesson", "fr": "cours", "pt": "aula" } } },
+        { "kana": "究", "romaji": "kyuu", "meaning": { "en": "research / investigate", "fr": "recherche", "pt": "pesquisa" }, "onyomi": "キュウ", "kunyomi": "きわ(める)", "strokes": 7, "example": { "word": "研究", "reading": "けんきゅう", "meaning": { "en": "research", "fr": "recherche", "pt": "pesquisa" } } },
+        { "kana": "問", "romaji": "mon", "meaning": { "en": "question", "fr": "question", "pt": "pergunta" }, "onyomi": "モン", "kunyomi": "と(う)", "strokes": 11, "example": { "word": "質問", "reading": "しつもん", "meaning": { "en": "question", "fr": "question", "pt": "pergunta" } } },
+        { "kana": "答", "romaji": "kota", "meaning": { "en": "answer", "fr": "réponse", "pt": "resposta" }, "onyomi": "トウ", "kunyomi": "こた(える)", "strokes": 12, "example": { "word": "答える", "reading": "こたえる", "meaning": { "en": "to answer", "fr": "répondre", "pt": "responder" } } },
+        { "kana": "試", "romaji": "kokoro", "meaning": { "en": "test / try", "fr": "essai / test", "pt": "teste / tentar" }, "onyomi": "シ", "kunyomi": "こころ(みる)", "strokes": 13, "example": { "word": "試験", "reading": "しけん", "meaning": { "en": "exam / test", "fr": "examen", "pt": "exame" } } },
+        { "kana": "験", "romaji": "ken", "meaning": { "en": "test / verify", "fr": "vérification", "pt": "verificação" }, "onyomi": "ケン", "kunyomi": "—", "strokes": 18, "example": { "word": "経験", "reading": "けいけん", "meaning": { "en": "experience", "fr": "expérience", "pt": "experiência" } } },
+        { "kana": "題", "romaji": "dai", "meaning": { "en": "topic / title", "fr": "sujet / titre", "pt": "tema / título" }, "onyomi": "ダイ", "kunyomi": "—", "strokes": 18, "example": { "word": "問題", "reading": "もんだい", "meaning": { "en": "problem / question", "fr": "problème", "pt": "problema" } } },
+        { "kana": "研", "romaji": "ken", "meaning": { "en": "to polish / research", "fr": "polir / recherche", "pt": "polir / pesquisa" }, "onyomi": "ケン", "kunyomi": "と(ぐ)", "strokes": 9, "example": { "word": "研究", "reading": "けんきゅう", "meaning": { "en": "research", "fr": "recherche", "pt": "pesquisa" } } }
+      ]
+    },
+    {
+      "id": "food-n4",
+      "name": { "en": "Food & Objects (N4)", "fr": "Nourriture & Objets (N4)", "pt": "Comida & Objetos (N4)" },
+      "characters": [
+        { "kana": "肉", "romaji": "niku", "meaning": { "en": "meat", "fr": "viande", "pt": "carne" }, "onyomi": "ニク", "kunyomi": "—", "strokes": 6, "example": { "word": "肉", "reading": "にく", "meaning": { "en": "meat", "fr": "viande", "pt": "carne" } } },
+        { "kana": "魚", "romaji": "sakana", "meaning": { "en": "fish", "fr": "poisson", "pt": "peixe" }, "onyomi": "ギョ", "kunyomi": "さかな", "strokes": 11, "example": { "word": "魚", "reading": "さかな", "meaning": { "en": "fish", "fr": "poisson", "pt": "peixe" } } },
+        { "kana": "茶", "romaji": "cha", "meaning": { "en": "tea", "fr": "thé", "pt": "chá" }, "onyomi": "チャ / サ", "kunyomi": "—", "strokes": 9, "example": { "word": "お茶", "reading": "おちゃ", "meaning": { "en": "tea", "fr": "thé", "pt": "chá" } } },
+        { "kana": "米", "romaji": "kome", "meaning": { "en": "rice (uncooked)", "fr": "riz", "pt": "arroz" }, "onyomi": "ベイ / マイ", "kunyomi": "こめ", "strokes": 6, "example": { "word": "米", "reading": "こめ", "meaning": { "en": "rice", "fr": "riz", "pt": "arroz" } } },
+        { "kana": "売", "romaji": "u", "meaning": { "en": "to sell", "fr": "vendre", "pt": "vender" }, "onyomi": "バイ", "kunyomi": "う(る)", "strokes": 7, "example": { "word": "売る", "reading": "うる", "meaning": { "en": "to sell", "fr": "vendre", "pt": "vender" } } },
+        { "kana": "品", "romaji": "shina", "meaning": { "en": "goods / article", "fr": "marchandise", "pt": "mercadoria" }, "onyomi": "ヒン", "kunyomi": "しな", "strokes": 9, "example": { "word": "品物", "reading": "しなもの", "meaning": { "en": "goods", "fr": "marchandise", "pt": "mercadoria" } } },
+        { "kana": "物", "romaji": "mono", "meaning": { "en": "thing / object", "fr": "chose / objet", "pt": "coisa / objeto" }, "onyomi": "ブツ / モツ", "kunyomi": "もの", "strokes": 8, "example": { "word": "物", "reading": "もの", "meaning": { "en": "thing", "fr": "chose", "pt": "coisa" } } },
+        { "kana": "料", "romaji": "ryou", "meaning": { "en": "fee / materials", "fr": "frais / matières", "pt": "taxa / materiais" }, "onyomi": "リョウ", "kunyomi": "—", "strokes": 10, "example": { "word": "料理", "reading": "りょうり", "meaning": { "en": "cooking / cuisine", "fr": "cuisine", "pt": "culinária" } } }
+      ]
+    }
+  ]
+}

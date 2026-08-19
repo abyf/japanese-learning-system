@@ -29,9 +29,9 @@
               '<select class="form__input form__input--small" id="language-select">' +
                 (window.i18n && window.i18n.languages
                   ? window.i18n.languages.map(function(l) {
-                      return '<option value="' + l.code + '">' + l.flag + ' ' + l.name + '</option>';
+                      return '<option value="' + l.code + '">' + l.name + '</option>';
                     }).join('')
-                  : '<option value="en">🇬🇧 English</option><option value="fr">🇫🇷 Français</option>') +
+                  : '<option value="en">English</option><option value="fr">Français</option>') +
               '</select>' +
             '</div>' +
           '</section>' +
@@ -49,6 +49,10 @@
             '<div class="form__group form__group--inline">' +
               '<label class="form__label" for="furigana-default">' + window.i18n('settings.furigana') + '</label>' +
               '<input type="checkbox" id="furigana-default" checked>' +
+            '</div>' +
+            '<div class="form__group form__group--inline">' +
+              '<label class="form__label" for="sound-toggle">' + window.i18n('settings.sound') + '</label>' +
+              '<input type="checkbox" id="sound-toggle" checked>' +
             '</div>' +
             '<button class="btn btn--primary" id="save-settings-btn">' + window.i18n('settings.save') + '</button>' +
             '<span id="settings-saved" class="text-success" hidden>✓</span>' +
@@ -88,6 +92,9 @@
 
     var langSelect = document.getElementById('language-select');
     if (langSelect) langSelect.value = language;
+
+    var soundToggle = document.getElementById('sound-toggle');
+    if (soundToggle && window.Feedback) soundToggle.checked = !window.Feedback.isMuted();
   }
 
   function attachEventListeners() {
@@ -97,6 +104,17 @@
         window.Theme.toggleTheme();
       }
     });
+
+    // Sound effects toggle
+    var soundToggle = document.getElementById('sound-toggle');
+    if (soundToggle) {
+      soundToggle.addEventListener('change', function(e) {
+        if (!window.Feedback) return;
+        var enabled = e.target.checked;
+        window.Feedback.setMuted(!enabled);
+        if (enabled) window.Feedback.correct(); // brief preview when turning on
+      });
+    }
 
     // Language selector
     document.getElementById('language-select').addEventListener('change', function(e) {

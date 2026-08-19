@@ -6,11 +6,12 @@
 /* Accent #a78bfa on #1a1a2e = ~6.2:1 contrast */
 
 [data-theme="dark"] {
-  --bg: #1a1a2e;
+  --bg: #16161f;
   --text: #e0e0e0;
   --primary: #60a5fa;
   --accent: #a78bfa;
-  --surface: #25253e;
+  --surface: #23233a;
+  --card-bg: #1f1f33;
   --border: #3d3d5c;
 
   --text-secondary: #a1a1b5;
@@ -20,8 +21,33 @@
   --error: #f87171;
   --warning: #fbbf24;
 
-  --shadow: 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px 2px rgba(0, 0, 0, 0.2);
-  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.3), 0 2px 4px rgba(0, 0, 0, 0.2);
+  /* Accent palette lightened slightly for contrast on dark surfaces */
+  --vermilion: #ff7a5c;
+  --indigo: #7c8dff;
+  --sakura: #f7a1c4;
+  --gold: #f4b942;
+  --matcha: #4fc3b3;
+
+  --shadow: 0 1px 3px rgba(0, 0, 0, 0.4), 0 1px 2px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 10px rgba(0, 0, 0, 0.45), 0 2px 6px rgba(0, 0, 0, 0.3);
+  --shadow-lg: 0 12px 28px rgba(0, 0, 0, 0.5), 0 4px 10px rgba(0, 0, 0, 0.35);
+}
+
+/* New-page surfaces and gamification adapt to dark mode */
+[data-theme="dark"] .heatmap__cell { background: #2c2c46; }
+[data-theme="dark"] .heatmap__cell--l1 { background: rgba(124, 141, 255, 0.35); }
+[data-theme="dark"] .heatmap__cell--l2 { background: rgba(124, 141, 255, 0.55); }
+[data-theme="dark"] .heatmap__cell--l3 { background: rgba(124, 141, 255, 0.78); }
+[data-theme="dark"] .heatmap__cell--l4 { background: rgba(124, 141, 255, 1); }
+[data-theme="dark"] .vocab-art { background: rgba(255, 255, 255, 0.05); }
+[data-theme="dark"] .audio-notice { background: rgba(234, 179, 8, 0.10); }
+
+/* Keep the brand logo (dark ink) legible on the dark footer */
+[data-theme="dark"] .app-footer { background: var(--card-bg); }
+[data-theme="dark"] .app-footer__logo {
+  background: #f5f6f8;
+  border-radius: 10px;
+  padding: 6px 12px;
 }
 
 /* Dark mode specific adjustments */

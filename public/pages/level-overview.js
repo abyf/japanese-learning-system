@@ -53,7 +53,7 @@
           return '<div class="level-card' + (unlocked ? '' : ' level-card--locked') + '">' +
             '<div class="level-card__header">' +
               '<h2>' + level.name + ' <span class="level-card__ja">' + level.nameJa + '</span></h2>' +
-              (unlocked ? '' : '<span class="level-card__lock">🔒</span>') +
+              (unlocked ? '' : '<span class="level-card__lock"></span>') +
             '</div>' +
             '<div class="level-card__progress">' +
               '<div class="progress-bar">' +
@@ -69,10 +69,10 @@
 
   function renderActivities(level) {
     var activities = [
-      { key: 'reading', name: window.i18n('activity.reading'), icon: '📖' },
-      { key: 'listening', name: window.i18n('activity.listening'), icon: '🎧' },
-      { key: 'dictation', name: window.i18n('activity.dictation'), icon: '✍️' },
-      { key: 'vocabulary', name: window.i18n('activity.vocabulary'), icon: '📝' }
+      { key: 'reading', name: window.i18n('activity.reading'), icon: '' },
+      { key: 'listening', name: window.i18n('activity.listening'), icon: '' },
+      { key: 'dictation', name: window.i18n('activity.dictation'), icon: '' },
+      { key: 'vocabulary', name: window.i18n('activity.vocabulary'), icon: '' }
     ];
 
     return '<div class="level-card__activities">' +
@@ -115,10 +115,10 @@
     var levelName = levelNames[level] || level;
 
     var activities = [
-      { key: 'reading', name: window.i18n('activity.reading'), icon: '📖', route: '#/level/' + level + '/reading' },
-      { key: 'listening', name: window.i18n('activity.listening'), icon: '🎧', route: '#/level/' + level + '/listening' },
-      { key: 'dictation', name: window.i18n('activity.dictation'), icon: '✍️', route: '#/level/' + level + '/dictation' },
-      { key: 'vocabulary', name: window.i18n('activity.vocabulary'), icon: '📝', route: '#/level/' + level + '/vocabulary' }
+      { key: 'reading', name: window.i18n('activity.reading'), icon: '', route: '#/level/' + level + '/reading' },
+      { key: 'listening', name: window.i18n('activity.listening'), icon: '', route: '#/level/' + level + '/listening' },
+      { key: 'dictation', name: window.i18n('activity.dictation'), icon: '', route: '#/level/' + level + '/dictation' },
+      { key: 'vocabulary', name: window.i18n('activity.vocabulary'), icon: '', route: '#/level/' + level + '/vocabulary' }
     ];
 
     page.innerHTML =
@@ -146,10 +146,10 @@
     var app = document.getElementById('app');
 
     var activityNames = {
-      reading: window.i18n('activity.reading') + ' 📖',
-      listening: window.i18n('activity.listening') + ' 🎧',
-      dictation: window.i18n('activity.dictation') + ' ✍️',
-      vocabulary: window.i18n('activity.vocabulary') + ' 📝'
+      reading: window.i18n('activity.reading') + '',
+      listening: window.i18n('activity.listening') + '',
+      dictation: window.i18n('activity.dictation') + '',
+      vocabulary: window.i18n('activity.vocabulary') + ''
     };
 
     var activityName = activityNames[activity] || activity;

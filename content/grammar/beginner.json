@@ -3,110 +3,487 @@
     "id": "g001",
     "title": "は (topic marker)",
     "explanation": "The particle は (pronounced 'wa') marks the topic of a sentence — what you are talking about. It often translates to 'as for...' and sets the scene for what follows.",
+    "explanationFr": "La particule は (prononcée « wa ») marque le thème de la phrase — ce dont vous parlez. Elle se traduit souvent par « quant à… » et pose le décor de ce qui suit.",
+    "explanationPt": "A partícula は (pronunciada 'wa') marca o tópico da frase — aquilo sobre o que você fala. Costuma equivaler a 'quanto a...' e prepara o cenário para o que vem a seguir.",
     "pattern": "[Topic] は [Comment]",
     "examples": [
-      { "japanese": "私は学生です。", "translation": "I am a student." },
-      { "japanese": "東京は大きい町です。", "translation": "Tokyo is a big city." },
-      { "japanese": "今日は暑いですね。", "translation": "It's hot today, isn't it?" }
+      { "japanese": "私は学生です。", "translation": "I am a student.", "translationFr": "Je suis étudiant.", "translationPt": "Eu sou estudante." },
+      { "japanese": "東京は大きい町です。", "translation": "Tokyo is a big city.", "translationFr": "Tokyo est une grande ville.", "translationPt": "Tóquio é uma cidade grande." },
+      { "japanese": "今日は暑いですね。", "translation": "It's hot today, isn't it?", "translationFr": "Il fait chaud aujourd'hui, n'est-ce pas ?", "translationPt": "Está quente hoje, não é?" }
     ]
   },
   {
     "id": "g002",
     "title": "が (subject marker)",
     "explanation": "The particle が marks the grammatical subject, especially when introducing new information, expressing likes/dislikes, or describing abilities. It emphasizes WHAT or WHO does something.",
+    "explanationFr": "La particule が marque le sujet grammatical, surtout pour introduire une information nouvelle, exprimer goûts/dégoûts ou décrire des capacités. Elle met l'accent sur QUI ou QUOI fait l'action.",
+    "explanationPt": "A partícula が marca o sujeito gramatical, especialmente ao introduzir informação nova, expressar gostos/desgostos ou descrever habilidades. Enfatiza O QUE ou QUEM faz algo.",
     "pattern": "[Subject] が [Predicate]",
     "examples": [
-      { "japanese": "猫が好きです。", "translation": "I like cats." },
-      { "japanese": "雨が降っています。", "translation": "It is raining." },
-      { "japanese": "誰が来ましたか。", "translation": "Who came?" }
+      { "japanese": "猫が好きです。", "translation": "I like cats.", "translationFr": "J'aime les chats.", "translationPt": "Eu gosto de gatos." },
+      { "japanese": "雨が降っています。", "translation": "It is raining.", "translationFr": "Il pleut.", "translationPt": "Está chovendo." },
+      { "japanese": "誰が来ましたか。", "translation": "Who came?", "translationFr": "Qui est venu ?", "translationPt": "Quem veio?" }
     ]
   },
   {
     "id": "g003",
     "title": "を (object marker)",
     "explanation": "The particle を (pronounced 'o') marks the direct object of a transitive verb — the thing that receives the action. It can also indicate a point of departure or path of movement.",
+    "explanationFr": "La particule を (prononcée « o ») marque le complément d'objet direct d'un verbe transitif — la chose qui reçoit l'action. Elle peut aussi indiquer un point de départ ou un chemin de mouvement.",
+    "explanationPt": "A partícula を (pronunciada 'o') marca o objeto direto de um verbo transitivo — a coisa que recebe a ação. Também pode indicar um ponto de partida ou o caminho de um movimento.",
     "pattern": "[Object] を [Verb]",
     "examples": [
-      { "japanese": "水を飲みます。", "translation": "I drink water." },
-      { "japanese": "本を読みます。", "translation": "I read a book." },
-      { "japanese": "公園を歩きます。", "translation": "I walk through the park." }
+      { "japanese": "水を飲みます。", "translation": "I drink water.", "translationFr": "Je bois de l'eau.", "translationPt": "Eu bebo água." },
+      { "japanese": "本を読みます。", "translation": "I read a book.", "translationFr": "Je lis un livre.", "translationPt": "Eu leio um livro." },
+      { "japanese": "公園を歩きます。", "translation": "I walk through the park.", "translationFr": "Je marche dans le parc.", "translationPt": "Eu caminho pelo parque." }
     ]
   },
   {
     "id": "g004",
     "title": "に (target/time marker)",
     "explanation": "The particle に indicates a target or destination of movement, the time at which something happens, or the indirect object (recipient). It's one of the most versatile particles.",
+    "explanationFr": "La particule に indique une cible ou une destination de mouvement, le moment où quelque chose se produit, ou le complément d'objet indirect (destinataire). C'est l'une des particules les plus polyvalentes.",
+    "explanationPt": "A partícula に indica um alvo ou destino de movimento, o momento em que algo acontece, ou o objeto indireto (destinatário). É uma das partículas mais versáteis.",
     "pattern": "[Place/Time] に [Verb]",
     "examples": [
-      { "japanese": "学校に行きます。", "translation": "I go to school." },
-      { "japanese": "七時に起きます。", "translation": "I wake up at 7 o'clock." },
-      { "japanese": "友達にプレゼントをあげます。", "translation": "I give a present to my friend." }
+      { "japanese": "学校に行きます。", "translation": "I go to school.", "translationFr": "Je vais à l'école.", "translationPt": "Eu vou à escola." },
+      { "japanese": "七時に起きます。", "translation": "I wake up at 7 o'clock.", "translationFr": "Je me réveille à sept heures.", "translationPt": "Eu acordo às sete horas." },
+      { "japanese": "友達にプレゼントをあげます。", "translation": "I give a present to my friend.", "translationFr": "Je donne un cadeau à mon ami.", "translationPt": "Eu dou um presente ao meu amigo." }
     ]
   },
   {
     "id": "g005",
     "title": "で (location of action/means)",
     "explanation": "The particle で marks the location where an action takes place (not existence), or the means/tool used to do something. Compare: に is for existence, で is for actions.",
+    "explanationFr": "La particule で marque le lieu où une action se déroule (pas l'existence), ou le moyen/outil utilisé. Comparez : に pour l'existence, で pour les actions.",
+    "explanationPt": "A partícula で marca o local onde uma ação acontece (não a existência), ou o meio/ferramenta usado. Compare: に é para existência, で é para ações.",
     "pattern": "[Place/Means] で [Action Verb]",
     "examples": [
-      { "japanese": "図書館で勉強します。", "translation": "I study at the library." },
-      { "japanese": "バスで行きます。", "translation": "I go by bus." },
-      { "japanese": "箸で食べます。", "translation": "I eat with chopsticks." }
+      { "japanese": "図書館で勉強します。", "translation": "I study at the library.", "translationFr": "J'étudie à la bibliothèque.", "translationPt": "Eu estudo na biblioteca." },
+      { "japanese": "バスで行きます。", "translation": "I go by bus.", "translationFr": "J'y vais en bus.", "translationPt": "Eu vou de ônibus." },
+      { "japanese": "箸で食べます。", "translation": "I eat with chopsticks.", "translationFr": "Je mange avec des baguettes.", "translationPt": "Eu como com hashi." }
     ]
   },
   {
     "id": "g006",
     "title": "も (also/too)",
     "explanation": "The particle も replaces は, が, or を to mean 'also' or 'too'. When used with question words and negatives, it means 'nothing/nobody/nowhere'.",
+    "explanationFr": "La particule も remplace は, が ou を pour signifier « aussi ». Avec des mots interrogatifs et des négations, elle signifie « rien/personne/nulle part ».",
+    "explanationPt": "A partícula も substitui は, が ou を para significar 'também'. Com palavras interrogativas e negativas, significa 'nada/ninguém/em lugar nenhum'.",
     "pattern": "[Noun] も [Predicate]",
     "examples": [
-      { "japanese": "私も学生です。", "translation": "I am also a student." },
-      { "japanese": "猫も犬も好きです。", "translation": "I like both cats and dogs." },
-      { "japanese": "何も食べませんでした。", "translation": "I didn't eat anything." }
+      { "japanese": "私も学生です。", "translation": "I am also a student.", "translationFr": "Je suis aussi étudiant.", "translationPt": "Eu também sou estudante." },
+      { "japanese": "猫も犬も好きです。", "translation": "I like both cats and dogs.", "translationFr": "J'aime les chats et les chiens.", "translationPt": "Eu gosto tanto de gatos quanto de cães." },
+      { "japanese": "何も食べませんでした。", "translation": "I didn't eat anything.", "translationFr": "Je n'ai rien mangé.", "translationPt": "Eu não comi nada." }
     ]
   },
   {
     "id": "g007",
     "title": "の (possession/modification)",
     "explanation": "The particle の connects two nouns, showing possession, description, or relationship. It works like 'of' or 's in English. The modified noun comes after の.",
+    "explanationFr": "La particule の relie deux noms, indiquant possession, description ou relation. Elle fonctionne comme « de » en français. Le nom modifié vient après の.",
+    "explanationPt": "A partícula の conecta dois substantivos, mostrando posse, descrição ou relação. Funciona como 'de' em português. O substantivo modificado vem depois de の.",
     "pattern": "[Noun A] の [Noun B]",
     "examples": [
-      { "japanese": "私の本です。", "translation": "It's my book." },
-      { "japanese": "日本語の先生です。", "translation": "They're a Japanese language teacher." },
-      { "japanese": "大学の友達に会いました。", "translation": "I met a friend from university." }
+      { "japanese": "私の本です。", "translation": "It's my book.", "translationFr": "C'est mon livre.", "translationPt": "É o meu livro." },
+      { "japanese": "日本語の先生です。", "translation": "They're a Japanese language teacher.", "translationFr": "C'est un professeur de japonais.", "translationPt": "É um professor de japonês." },
+      { "japanese": "大学の友達に会いました。", "translation": "I met a friend from university.", "translationFr": "J'ai rencontré un ami de l'université.", "translationPt": "Encontrei um amigo da universidade." }
     ]
   },
   {
     "id": "g008",
     "title": "と (and/with/quotation)",
     "explanation": "The particle と has three main uses: connecting nouns (and), indicating a companion (with), and marking quotations (that). It creates an exhaustive list when connecting nouns.",
+    "explanationFr": "La particule と a trois usages principaux : relier des noms (et), indiquer un compagnon (avec), et marquer une citation (que). Elle crée une liste exhaustive en reliant des noms.",
+    "explanationPt": "A partícula と tem três usos principais: conectar substantivos (e), indicar um acompanhante (com) e marcar citações (que). Cria uma lista exaustiva ao conectar substantivos.",
     "pattern": "[Noun] と [Noun] / [Person] と [Verb] / 〜と思います",
     "examples": [
-      { "japanese": "パンと牛乳を買います。", "translation": "I buy bread and milk." },
-      { "japanese": "友達と映画を見ました。", "translation": "I watched a movie with a friend." },
-      { "japanese": "明日は雨だと思います。", "translation": "I think it will rain tomorrow." }
+      { "japanese": "パンと牛乳を買います。", "translation": "I buy bread and milk.", "translationFr": "J'achète du pain et du lait.", "translationPt": "Eu compro pão e leite." },
+      { "japanese": "友達と映画を見ました。", "translation": "I watched a movie with a friend.", "translationFr": "J'ai regardé un film avec un ami.", "translationPt": "Assisti a um filme com um amigo." },
+      { "japanese": "明日は雨だと思います。", "translation": "I think it will rain tomorrow.", "translationFr": "Je pense qu'il pleuvra demain.", "translationPt": "Acho que vai chover amanhã." }
     ]
   },
   {
     "id": "g009",
     "title": "から (from/because)",
     "explanation": "The particle から has two uses: marking a starting point in time or space (from), and connecting clauses to show reason (because/since). Context determines which meaning applies.",
+    "explanationFr": "La particule から a deux usages : marquer un point de départ dans le temps ou l'espace (depuis), et relier des propositions pour indiquer une raison (parce que). Le contexte détermine le sens.",
+    "explanationPt": "A partícula から tem dois usos: marcar um ponto de partida no tempo ou espaço (de/desde) e conectar orações para mostrar razão (porque/já que). O contexto determina o significado.",
     "pattern": "[Time/Place] から / [Reason] から、[Result]",
     "examples": [
-      { "japanese": "九時から五時まで働きます。", "translation": "I work from 9 to 5." },
-      { "japanese": "東京から来ました。", "translation": "I came from Tokyo." },
-      { "japanese": "暑いですから、窓を開けてください。", "translation": "Because it's hot, please open the window." }
+      { "japanese": "九時から五時まで働きます。", "translation": "I work from 9 to 5.", "translationFr": "Je travaille de 9h à 17h.", "translationPt": "Eu trabalho das 9 às 5." },
+      { "japanese": "東京から来ました。", "translation": "I came from Tokyo.", "translationFr": "Je viens de Tokyo.", "translationPt": "Eu vim de Tóquio." },
+      { "japanese": "暑いですから、窓を開けてください。", "translation": "Because it's hot, please open the window.", "translationFr": "Comme il fait chaud, ouvrez la fenêtre svp.", "translationPt": "Como está quente, por favor abra a janela." }
     ]
   },
   {
     "id": "g010",
     "title": "まで (until/to)",
     "explanation": "The particle まで indicates an endpoint in time or space (until/to/as far as). It often pairs with から to show a range. It can also mean 'even' for emphasis.",
+    "explanationFr": "La particule まで indique un point final dans le temps ou l'espace (jusqu'à). Elle s'associe souvent à から pour indiquer une plage. Elle peut aussi signifier « même » pour l'emphase.",
+    "explanationPt": "A partícula まで indica um ponto final no tempo ou espaço (até). Frequentemente combina com から para mostrar um intervalo. Também pode significar 'até mesmo' para ênfase.",
     "pattern": "[Time/Place] まで",
     "examples": [
-      { "japanese": "五時まで待ちます。", "translation": "I'll wait until 5 o'clock." },
-      { "japanese": "駅まで歩きます。", "translation": "I walk to the station." },
-      { "japanese": "子供まで知っています。", "translation": "Even children know it." }
+      { "japanese": "五時まで待ちます。", "translation": "I'll wait until 5 o'clock.", "translationFr": "J'attendrai jusqu'à 17h.", "translationPt": "Vou esperar até as 5 horas." },
+      { "japanese": "駅まで歩きます。", "translation": "I walk to the station.", "translationFr": "Je marche jusqu'à la gare.", "translationPt": "Eu caminho até a estação." },
+      { "japanese": "子供まで知っています。", "translation": "Even children know it.", "translationFr": "Même les enfants le savent.", "translationPt": "Até as crianças sabem disso." }
+    ]
+  },
+  {
+    "id": "g011",
+    "title": "です / でした (to be — polite)",
+    "explanation": "です is the polite way to say 'is/are'. Its past form is でした ('was/were'), and the negative is ではありません (or じゃありません).",
+    "explanationFr": "です est la forme polie de « être ». Son passé est でした (« était »), et la négation est ではありません (ou じゃありません).",
+    "explanationPt": "です é a forma polida de 'ser/estar'. O passado é でした ('era/estava'), e a negativa é ではありません (ou じゃありません).",
+    "pattern": "[Noun] です / でした / ではありません",
+    "examples": [
+      { "japanese": "学生です。", "translation": "I am a student.", "translationFr": "Je suis étudiant.", "translationPt": "Sou estudante." },
+      { "japanese": "昨日は休みでした。", "translation": "Yesterday was a day off.", "translationFr": "Hier était un jour de congé.", "translationPt": "Ontem foi folga." },
+      { "japanese": "先生ではありません。", "translation": "I am not a teacher.", "translationFr": "Je ne suis pas professeur.", "translationPt": "Não sou professor." }
+    ]
+  },
+  {
+    "id": "g012",
+    "title": "ます-form (polite verbs)",
+    "explanation": "The ます-form makes verbs polite. Attach ます to the verb stem for the present/future, and ません for the negative.",
+    "explanationFr": "La forme ます rend les verbes polis. Ajoutez ます au radical pour le présent/futur, et ません pour la négation.",
+    "explanationPt": "A forma ます torna os verbos polidos. Junte ます ao radical para presente/futuro, e ません para a negativa.",
+    "pattern": "[Verb stem] + ます / ません",
+    "examples": [
+      { "japanese": "毎日日本語を勉強します。", "translation": "I study Japanese every day.", "translationFr": "J'étudie le japonais tous les jours.", "translationPt": "Estudo japonês todos os dias." },
+      { "japanese": "肉を食べません。", "translation": "I don't eat meat.", "translationFr": "Je ne mange pas de viande.", "translationPt": "Não como carne." }
+    ]
+  },
+  {
+    "id": "g013",
+    "title": "ました / ませんでした (polite past)",
+    "explanation": "For the polite past, use ました (did). For the polite past negative, use ませんでした (did not).",
+    "explanationFr": "Pour le passé poli, utilisez ました (a fait). Pour le passé négatif poli, utilisez ませんでした (n'a pas fait).",
+    "explanationPt": "Para o passado polido, use ました (fez). Para o passado negativo polido, use ませんでした (não fez).",
+    "pattern": "[Verb stem] + ました / ませんでした",
+    "examples": [
+      { "japanese": "映画を見ました。", "translation": "I watched a movie.", "translationFr": "J'ai regardé un film.", "translationPt": "Assisti a um filme." },
+      { "japanese": "朝ごはんを食べませんでした。", "translation": "I didn't eat breakfast.", "translationFr": "Je n'ai pas pris de petit-déjeuner.", "translationPt": "Não tomei café da manhã." }
+    ]
+  },
+  {
+    "id": "g014",
+    "title": "て-form",
+    "explanation": "The て-form connects clauses, makes requests (てください), and expresses ongoing actions (ています). It is one of the most important conjugations to master.",
+    "explanationFr": "La forme て relie les propositions, formule des demandes (てください) et exprime des actions en cours (ています). C'est l'une des conjugaisons les plus importantes.",
+    "explanationPt": "A forma て conecta orações, faz pedidos (てください) e expressa ações em curso (ています). É uma das conjugações mais importantes.",
+    "pattern": "[Verb て-form] + ...",
+    "examples": [
+      { "japanese": "朝起きて、顔を洗います。", "translation": "I wake up and wash my face.", "translationFr": "Je me réveille et je me lave le visage.", "translationPt": "Acordo e lavo o rosto." },
+      { "japanese": "ちょっと待ってください。", "translation": "Please wait a moment.", "translationFr": "Veuillez patienter un instant.", "translationPt": "Espere um momento, por favor." }
+    ]
+  },
+  {
+    "id": "g015",
+    "title": "ています (ongoing action / state)",
+    "explanation": "て-form + います describes an action in progress ('is doing') or a continuing state ('is married', 'lives in').",
+    "explanationFr": "Forme て + います décrit une action en cours (« est en train de ») ou un état continu (« est marié », « habite à »).",
+    "explanationPt": "Forma て + います descreve uma ação em curso ('está fazendo') ou um estado contínuo ('é casado', 'mora em').",
+    "pattern": "[Verb て-form] + います",
+    "examples": [
+      { "japanese": "今、本を読んでいます。", "translation": "I am reading a book now.", "translationFr": "Je lis un livre en ce moment.", "translationPt": "Estou lendo um livro agora." },
+      { "japanese": "東京に住んでいます。", "translation": "I live in Tokyo.", "translationFr": "J'habite à Tokyo.", "translationPt": "Moro em Tóquio." }
+    ]
+  },
+  {
+    "id": "g016",
+    "title": "Dictionary (plain) form",
+    "explanation": "The dictionary form is the casual, base form of a verb (食べる, 行く). It is used with friends and to build many grammar patterns.",
+    "explanationFr": "La forme du dictionnaire est la forme de base, familière, du verbe (食べる, 行く). Elle s'emploie entre amis et pour former de nombreuses structures.",
+    "explanationPt": "A forma do dicionário é a forma base, informal, do verbo (食べる, 行く). É usada entre amigos e para formar muitas estruturas.",
+    "pattern": "[Dictionary form]",
+    "examples": [
+      { "japanese": "毎日走る。", "translation": "I run every day. (casual)", "translationFr": "Je cours tous les jours. (familier)", "translationPt": "Corro todos os dias. (informal)" },
+      { "japanese": "テレビを見る。", "translation": "I watch TV. (casual)", "translationFr": "Je regarde la télé. (familier)", "translationPt": "Assisto TV. (informal)" }
+    ]
+  },
+  {
+    "id": "g017",
+    "title": "ない-form (plain negative)",
+    "explanation": "The ない-form is the casual negative of a verb ('do not ~'). It also builds patterns like なければならない (must).",
+    "explanationFr": "La forme ない est la négation familière du verbe (« ne pas ~ »). Elle forme aussi des structures comme なければならない (devoir).",
+    "explanationPt": "A forma ない é a negativa informal do verbo ('não ~'). Também forma estruturas como なければならない (dever).",
+    "pattern": "[Verb ない-form]",
+    "examples": [
+      { "japanese": "今日は行かない。", "translation": "I'm not going today. (casual)", "translationFr": "Je n'y vais pas aujourd'hui. (familier)", "translationPt": "Não vou hoje. (informal)" },
+      { "japanese": "お酒を飲まない。", "translation": "I don't drink alcohol. (casual)", "translationFr": "Je ne bois pas d'alcool. (familier)", "translationPt": "Não bebo álcool. (informal)" }
+    ]
+  },
+  {
+    "id": "g018",
+    "title": "た-form (plain past)",
+    "explanation": "The た-form is the casual past ('did'). It shares its conjugation rules with the て-form (just swap て→た, で→だ).",
+    "explanationFr": "La forme た est le passé familier (« a fait »). Elle suit les mêmes règles que la forme て (remplacez て→た, で→だ).",
+    "explanationPt": "A forma た é o passado informal ('fez'). Segue as mesmas regras da forma て (troque て→た, で→だ).",
+    "pattern": "[Verb た-form]",
+    "examples": [
+      { "japanese": "昨日、寿司を食べた。", "translation": "I ate sushi yesterday. (casual)", "translationFr": "Hier, j'ai mangé des sushis. (familier)", "translationPt": "Ontem comi sushi. (informal)" },
+      { "japanese": "映画を見た。", "translation": "I watched a movie. (casual)", "translationFr": "J'ai regardé un film. (familier)", "translationPt": "Assisti a um filme. (informal)" }
+    ]
+  },
+  {
+    "id": "g019",
+    "title": "〜たい (want to do)",
+    "explanation": "Attach たい to the verb stem to say you want to do something. It conjugates like an い-adjective (たい / たくない / たかった).",
+    "explanationFr": "Ajoutez たい au radical du verbe pour dire que vous voulez faire quelque chose. Il se conjugue comme un adjectif en い (たい / たくない / たかった).",
+    "explanationPt": "Junte たい ao radical do verbo para dizer que quer fazer algo. Conjuga-se como um adjetivo em い (たい / たくない / たかった).",
+    "pattern": "[Verb stem] + たいです",
+    "examples": [
+      { "japanese": "日本へ行きたいです。", "translation": "I want to go to Japan.", "translationFr": "Je veux aller au Japon.", "translationPt": "Quero ir ao Japão." },
+      { "japanese": "今日は何も食べたくない。", "translation": "I don't want to eat anything today.", "translationFr": "Je ne veux rien manger aujourd'hui.", "translationPt": "Não quero comer nada hoje." }
+    ]
+  },
+  {
+    "id": "g020",
+    "title": "〜てください (please do)",
+    "explanation": "て-form + ください makes a polite request or instruction ('please do ~').",
+    "explanationFr": "Forme て + ください formule une demande ou une consigne polie (« veuillez ~ »).",
+    "explanationPt": "Forma て + ください faz um pedido ou instrução polida ('por favor, faça ~').",
+    "pattern": "[Verb て-form] + ください",
+    "examples": [
+      { "japanese": "名前を書いてください。", "translation": "Please write your name.", "translationFr": "Veuillez écrire votre nom.", "translationPt": "Por favor, escreva seu nome." },
+      { "japanese": "もう一度言ってください。", "translation": "Please say it once more.", "translationFr": "Répétez, s'il vous plaît.", "translationPt": "Por favor, diga de novo." }
+    ]
+  },
+  {
+    "id": "g021",
+    "title": "〜てもいいです (permission)",
+    "explanation": "て-form + もいいです asks for or gives permission ('may I ~ / it's okay to ~').",
+    "explanationFr": "Forme て + もいいです demande ou donne la permission (« puis-je ~ / on peut ~ »).",
+    "explanationPt": "Forma て + もいいです pede ou dá permissão ('posso ~ / pode ~').",
+    "pattern": "[Verb て-form] + もいいです",
+    "examples": [
+      { "japanese": "ここに座ってもいいですか。", "translation": "May I sit here?", "translationFr": "Puis-je m'asseoir ici ?", "translationPt": "Posso me sentar aqui?" },
+      { "japanese": "写真を撮ってもいいです。", "translation": "You may take photos.", "translationFr": "Vous pouvez prendre des photos.", "translationPt": "Você pode tirar fotos." }
+    ]
+  },
+  {
+    "id": "g022",
+    "title": "〜てはいけません (must not)",
+    "explanation": "て-form + はいけません expresses prohibition ('must not ~ / not allowed to ~').",
+    "explanationFr": "Forme て + はいけません exprime l'interdiction (« il ne faut pas ~ »).",
+    "explanationPt": "Forma て + はいけません expressa proibição ('não pode ~').",
+    "pattern": "[Verb て-form] + はいけません",
+    "examples": [
+      { "japanese": "ここで写真を撮ってはいけません。", "translation": "You must not take photos here.", "translationFr": "Il est interdit de prendre des photos ici.", "translationPt": "Não pode tirar fotos aqui." },
+      { "japanese": "授業中に寝てはいけません。", "translation": "You must not sleep during class.", "translationFr": "Il ne faut pas dormir en cours.", "translationPt": "Não pode dormir durante a aula." }
+    ]
+  },
+  {
+    "id": "g023",
+    "title": "〜なければなりません (must)",
+    "explanation": "ない-form (drop い) + ければなりません expresses obligation ('must ~ / have to ~'). Casual: 〜なきゃ.",
+    "explanationFr": "Forme ない (sans い) + ければなりません exprime l'obligation (« devoir ~ »). Familier : 〜なきゃ.",
+    "explanationPt": "Forma ない (sem o い) + ければなりません expressa obrigação ('ter que ~'). Informal: 〜なきゃ.",
+    "pattern": "[Verb ない-stem] + なければなりません",
+    "examples": [
+      { "japanese": "薬を飲まなければなりません。", "translation": "I have to take medicine.", "translationFr": "Je dois prendre un médicament.", "translationPt": "Tenho que tomar remédio." },
+      { "japanese": "宿題をしなければなりません。", "translation": "I must do my homework.", "translationFr": "Je dois faire mes devoirs.", "translationPt": "Tenho que fazer a lição." }
+    ]
+  },
+  {
+    "id": "g024",
+    "title": "〜ことができる (can / be able to)",
+    "explanation": "Dictionary form + ことができる expresses ability or possibility ('can ~').",
+    "explanationFr": "Forme du dictionnaire + ことができる exprime la capacité ou la possibilité (« pouvoir ~ »).",
+    "explanationPt": "Forma do dicionário + ことができる expressa capacidade ou possibilidade ('poder ~').",
+    "pattern": "[Dictionary form] + ことができます",
+    "examples": [
+      { "japanese": "日本語を話すことができます。", "translation": "I can speak Japanese.", "translationFr": "Je peux parler japonais.", "translationPt": "Consigo falar japonês." },
+      { "japanese": "ここで泳ぐことができますか。", "translation": "Can I swim here?", "translationFr": "Peut-on nager ici ?", "translationPt": "Posso nadar aqui?" }
+    ]
+  },
+  {
+    "id": "g025",
+    "title": "Potential form (〜られる / 〜える)",
+    "explanation": "The potential form means 'can do'. る-verbs: 食べる→食べられる. う-verbs: 飲む→飲める. する→できる, 来る→来られる.",
+    "explanationFr": "La forme potentielle signifie « pouvoir faire ». Verbes en る : 食べる→食べられる. Verbes en う : 飲む→飲める. する→できる, 来る→来られる.",
+    "explanationPt": "A forma potencial significa 'conseguir fazer'. Verbos る: 食べる→食べられる. Verbos う: 飲む→飲める. する→できる, 来る→来られる.",
+    "pattern": "[Potential form]",
+    "examples": [
+      { "japanese": "刺身が食べられますか。", "translation": "Can you eat sashimi?", "translationFr": "Peux-tu manger du sashimi ?", "translationPt": "Você consegue comer sashimi?" },
+      { "japanese": "漢字が少し読めます。", "translation": "I can read a little kanji.", "translationFr": "Je peux lire un peu de kanji.", "translationPt": "Consigo ler um pouco de kanji." }
+    ]
+  },
+  {
+    "id": "g026",
+    "title": "〜ましょう / 〜ましょうか (let's / shall we)",
+    "explanation": "Verb stem + ましょう suggests doing something together ('let's ~'). ましょうか offers or asks ('shall we / shall I?').",
+    "explanationFr": "Radical + ましょう propose de faire ensemble (« faisons ~ »). ましょうか propose ou demande (« on fait ? / je fais ? »).",
+    "explanationPt": "Radical + ましょう sugere fazer junto ('vamos ~'). ましょうか oferece ou pergunta ('vamos? / faço?').",
+    "pattern": "[Verb stem] + ましょう / ましょうか",
+    "examples": [
+      { "japanese": "一緒に昼ごはんを食べましょう。", "translation": "Let's eat lunch together.", "translationFr": "Déjeunons ensemble.", "translationPt": "Vamos almoçar juntos." },
+      { "japanese": "窓を開けましょうか。", "translation": "Shall I open the window?", "translationFr": "Voulez-vous que j'ouvre la fenêtre ?", "translationPt": "Quer que eu abra a janela?" }
+    ]
+  },
+  {
+    "id": "g027",
+    "title": "〜から / 〜ので (because)",
+    "explanation": "から and ので both mean 'because'. ので sounds softer and more polite; から is more direct and can be personal.",
+    "explanationFr": "から et ので signifient « parce que ». ので est plus doux et poli ; から est plus direct.",
+    "explanationPt": "から e ので significam 'porque'. ので soa mais suave e polido; から é mais direto.",
+    "pattern": "[Reason] から / ので、[Result]",
+    "examples": [
+      { "japanese": "寒いから、コートを着ます。", "translation": "Because it's cold, I'll wear a coat.", "translationFr": "Comme il fait froid, je mets un manteau.", "translationPt": "Como está frio, vou usar casaco." },
+      { "japanese": "忙しいので、行けません。", "translation": "Because I'm busy, I can't go.", "translationFr": "Comme je suis occupé, je ne peux pas y aller.", "translationPt": "Como estou ocupado, não posso ir." }
+    ]
+  },
+  {
+    "id": "g028",
+    "title": "〜たり〜たりする (do things like)",
+    "explanation": "た-form + り lists representative actions ('do things like A and B'). Ends with する.",
+    "explanationFr": "Forme た + り énumère des actions représentatives (« faire des choses comme A et B »). Se termine par する.",
+    "explanationPt": "Forma た + り lista ações representativas ('fazer coisas como A e B'). Termina com する.",
+    "pattern": "[V-たり] [V-たり] します",
+    "examples": [
+      { "japanese": "週末は本を読んだり、音楽を聞いたりします。", "translation": "On weekends I do things like read books and listen to music.", "translationFr": "Le week-end, je lis des livres, j'écoute de la musique, etc.", "translationPt": "Nos fins de semana leio livros, ouço música, etc." }
+    ]
+  },
+  {
+    "id": "g029",
+    "title": "〜ながら (while doing)",
+    "explanation": "Verb stem + ながら expresses doing two actions at once ('while ~'). The main action comes second.",
+    "explanationFr": "Radical + ながら exprime deux actions simultanées (« tout en ~ »). L'action principale vient en second.",
+    "explanationPt": "Radical + ながら expressa duas ações ao mesmo tempo ('enquanto ~'). A ação principal vem depois.",
+    "pattern": "[Verb stem] + ながら",
+    "examples": [
+      { "japanese": "音楽を聞きながら勉強します。", "translation": "I study while listening to music.", "translationFr": "J'étudie en écoutant de la musique.", "translationPt": "Estudo enquanto ouço música." }
+    ]
+  },
+  {
+    "id": "g030",
+    "title": "〜前に / 〜後で (before / after)",
+    "explanation": "Dictionary form + 前に means 'before doing'. た-form + 後で means 'after doing'.",
+    "explanationFr": "Forme du dictionnaire + 前に = « avant de ». Forme た + 後で = « après avoir ».",
+    "explanationPt": "Forma do dicionário + 前に = 'antes de'. Forma た + 後で = 'depois de'.",
+    "pattern": "[V-dict] 前に / [V-た] 後で",
+    "examples": [
+      { "japanese": "寝る前に歯を磨きます。", "translation": "I brush my teeth before sleeping.", "translationFr": "Je me brosse les dents avant de dormir.", "translationPt": "Escovo os dentes antes de dormir." },
+      { "japanese": "食べた後で、散歩します。", "translation": "After eating, I take a walk.", "translationFr": "Après avoir mangé, je me promène.", "translationPt": "Depois de comer, faço uma caminhada." }
+    ]
+  },
+  {
+    "id": "g031",
+    "title": "〜時 (when)",
+    "explanation": "とき (時) marks the time when something happens. The tense before 時 shows whether the action is before or after.",
+    "explanationFr": "とき (時) marque le moment où quelque chose se produit. Le temps avant 時 indique l'antériorité.",
+    "explanationPt": "とき (時) marca o momento em que algo acontece. O tempo antes de 時 indica anterioridade.",
+    "pattern": "[Clause] + 時 (とき)",
+    "examples": [
+      { "japanese": "子供の時、よく泣きました。", "translation": "When I was a child, I cried a lot.", "translationFr": "Quand j'étais enfant, je pleurais beaucoup.", "translationPt": "Quando era criança, chorava muito." },
+      { "japanese": "日本へ行く時、カメラを買います。", "translation": "When I go to Japan, I'll buy a camera.", "translationFr": "Quand j'irai au Japon, j'achèterai un appareil photo.", "translationPt": "Quando eu for ao Japão, vou comprar uma câmera." }
+    ]
+  },
+  {
+    "id": "g032",
+    "title": "〜たら (if / when)",
+    "explanation": "た-form + ら sets up a condition ('if / once ~ then'). It's the most versatile conditional in Japanese.",
+    "explanationFr": "Forme た + ら pose une condition (« si / une fois que ~ »). C'est le conditionnel le plus polyvalent.",
+    "explanationPt": "Forma た + ら estabelece uma condição ('se / quando ~'). É o condicional mais versátil.",
+    "pattern": "[V-たら], [Result]",
+    "examples": [
+      { "japanese": "雨が降ったら、行きません。", "translation": "If it rains, I won't go.", "translationFr": "S'il pleut, je n'irai pas.", "translationPt": "Se chover, não vou." },
+      { "japanese": "駅に着いたら、電話します。", "translation": "When I arrive at the station, I'll call.", "translationFr": "Quand j'arriverai à la gare, j'appellerai.", "translationPt": "Quando eu chegar à estação, ligo." }
+    ]
+  },
+  {
+    "id": "g033",
+    "title": "〜と (whenever / if — natural result)",
+    "explanation": "Dictionary form + と links a cause to an inevitable or natural result ('whenever/if X, then Y').",
+    "explanationFr": "Forme du dictionnaire + と relie une cause à un résultat naturel ou inévitable (« quand/si X, alors Y »).",
+    "explanationPt": "Forma do dicionário + と liga uma causa a um resultado natural ou inevitável ('quando/se X, então Y').",
+    "pattern": "[V-dict] + と、[natural result]",
+    "examples": [
+      { "japanese": "春になると、桜が咲きます。", "translation": "When spring comes, the cherry blossoms bloom.", "translationFr": "Quand le printemps arrive, les cerisiers fleurissent.", "translationPt": "Quando chega a primavera, as cerejeiras florescem." },
+      { "japanese": "右に曲がると、駅があります。", "translation": "If you turn right, there's the station.", "translationFr": "Si vous tournez à droite, il y a la gare.", "translationPt": "Se virar à direita, tem a estação." }
+    ]
+  },
+  {
+    "id": "g034",
+    "title": "Comparisons: 〜より / 〜のほうが",
+    "explanation": "AはBより ... = 'A is more ... than B'. BよりAのほうが ... emphasizes A. Use 一番 for 'the most'.",
+    "explanationFr": "AはBより ... = « A est plus ... que B ». BよりAのほうが ... met l'accent sur A. Utilisez 一番 pour « le plus ».",
+    "explanationPt": "AはBより ... = 'A é mais ... que B'. BよりAのほうが ... enfatiza A. Use 一番 para 'o mais'.",
+    "pattern": "A は B より [adj] / A のほうが [adj]",
+    "examples": [
+      { "japanese": "電車はバスより速いです。", "translation": "The train is faster than the bus.", "translationFr": "Le train est plus rapide que le bus.", "translationPt": "O trem é mais rápido que o ônibus." },
+      { "japanese": "夏より冬のほうが好きです。", "translation": "I like winter more than summer.", "translationFr": "J'aime l'hiver plus que l'été.", "translationPt": "Gosto mais do inverno do que do verão." }
+    ]
+  },
+  {
+    "id": "g035",
+    "title": "〜が好き / 上手 / 下手 (like / good at / bad at)",
+    "explanation": "With 好き (like), 上手 (good at), 下手 (bad at), the thing is marked by が, not を.",
+    "explanationFr": "Avec 好き (aimer), 上手 (doué), 下手 (mauvais), l'objet est marqué par が, pas を.",
+    "explanationPt": "Com 好き (gostar), 上手 (bom em), 下手 (ruim em), o objeto é marcado por が, não を.",
+    "pattern": "[Noun] が 好き / 上手 / 下手 です",
+    "examples": [
+      { "japanese": "音楽が好きです。", "translation": "I like music.", "translationFr": "J'aime la musique.", "translationPt": "Gosto de música." },
+      { "japanese": "彼は料理が上手です。", "translation": "He is good at cooking.", "translationFr": "Il est doué pour la cuisine.", "translationPt": "Ele é bom em cozinhar." }
+    ]
+  },
+  {
+    "id": "g036",
+    "title": "Giving & receiving: あげる / くれる / もらう",
+    "explanation": "あげる = give (to others). くれる = give (to me/my group). もらう = receive. The direction of the gift decides which verb to use.",
+    "explanationFr": "あげる = donner (à autrui). くれる = donner (à moi). もらう = recevoir. La direction du cadeau détermine le verbe.",
+    "explanationPt": "あげる = dar (a outros). くれる = dar (a mim). もらう = receber. A direção do presente decide o verbo.",
+    "pattern": "[Person] に [thing] を あげる / くれる / もらう",
+    "examples": [
+      { "japanese": "友達にプレゼントをあげました。", "translation": "I gave my friend a present.", "translationFr": "J'ai offert un cadeau à mon ami.", "translationPt": "Dei um presente ao meu amigo." },
+      { "japanese": "母がケーキをくれました。", "translation": "My mother gave me a cake.", "translationFr": "Ma mère m'a donné un gâteau.", "translationPt": "Minha mãe me deu um bolo." }
+    ]
+  },
+  {
+    "id": "g037",
+    "title": "〜つもり (intend to)",
+    "explanation": "Dictionary form + つもり expresses intention or a plan ('intend to ~').",
+    "explanationFr": "Forme du dictionnaire + つもり exprime une intention ou un projet (« avoir l'intention de ~ »).",
+    "explanationPt": "Forma do dicionário + つもり expressa intenção ou plano ('pretender ~').",
+    "pattern": "[V-dict] + つもりです",
+    "examples": [
+      { "japanese": "来年、日本へ行くつもりです。", "translation": "I intend to go to Japan next year.", "translationFr": "J'ai l'intention d'aller au Japon l'an prochain.", "translationPt": "Pretendo ir ao Japão no ano que vem." }
+    ]
+  },
+  {
+    "id": "g038",
+    "title": "〜でしょう / 〜だろう (probably)",
+    "explanation": "でしょう (polite) / だろう (casual) expresses probability or a guess ('probably / I suppose'). With rising tone it seeks agreement.",
+    "explanationFr": "でしょう (poli) / だろう (familier) exprime la probabilité (« probablement »). Avec une intonation montante, cela cherche l'accord.",
+    "explanationPt": "でしょう (polido) / だろう (informal) expressa probabilidade ('provavelmente'). Com entonação ascendente, busca concordância.",
+    "pattern": "[Clause] + でしょう",
+    "examples": [
+      { "japanese": "明日は晴れるでしょう。", "translation": "It will probably be sunny tomorrow.", "translationFr": "Il fera probablement beau demain.", "translationPt": "Amanhã provavelmente fará sol." }
+    ]
+  },
+  {
+    "id": "g039",
+    "title": "い-adjective conjugation",
+    "explanation": "い-adjectives change form: present 高い, negative 高くない, past 高かった, past neg. 高くなかった. Drop the final い to conjugate.",
+    "explanationFr": "Les adjectifs en い se conjuguent : présent 高い, négatif 高くない, passé 高かった, passé nég. 高くなかった. On enlève le い final.",
+    "explanationPt": "Adjetivos em い se conjugam: presente 高い, negativo 高くない, passado 高かった, passado neg. 高くなかった. Retire o い final.",
+    "pattern": "[Adj-い] → くない / かった / くなかった",
+    "examples": [
+      { "japanese": "この店は安くないです。", "translation": "This shop is not cheap.", "translationFr": "Ce magasin n'est pas bon marché.", "translationPt": "Esta loja não é barata." },
+      { "japanese": "映画は面白かったです。", "translation": "The movie was interesting.", "translationFr": "Le film était intéressant.", "translationPt": "O filme foi interessante." }
+    ]
+  },
+  {
+    "id": "g040",
+    "title": "な-adjective conjugation",
+    "explanation": "な-adjectives use です forms: present 元気です, negative 元気ではありません, past 元気でした. Before a noun, add な (元気な人).",
+    "explanationFr": "Les adjectifs en な utilisent です : présent 元気です, négatif 元気ではありません, passé 元気でした. Devant un nom, ajoutez な (元気な人).",
+    "explanationPt": "Adjetivos em な usam です: presente 元気です, negativo 元気ではありません, passado 元気でした. Antes de um substantivo, adicione な (元気な人).",
+    "pattern": "[Adj-な] + です / ではありません / な + [Noun]",
+    "examples": [
+      { "japanese": "この町は静かです。", "translation": "This town is quiet.", "translationFr": "Cette ville est calme.", "translationPt": "Esta cidade é tranquila." },
+      { "japanese": "彼は有名な歌手です。", "translation": "He is a famous singer.", "translationFr": "C'est un chanteur célèbre.", "translationPt": "Ele é um cantor famoso." }
     ]
   }
 ]

@@ -1,0 +1,42 @@
+{
+  "level": "beginner",
+  "exams": {
+    "placement": {
+      "title": { "en": "Placement Test", "fr": "Test de placement", "pt": "Teste de nivelamento" },
+      "intro": { "en": "A short quiz to find where you should start. Answer honestly — there's no penalty for a low score, it just helps us place you.", "fr": "Un court test pour trouver votre point de départ. Répondez honnêtement — un score faible n'est pas pénalisant, il nous aide à vous situer.", "pt": "Um teste curto para descobrir onde começar. Responda com sinceridade — uma nota baixa não penaliza, apenas ajuda a posicioná-lo." },
+      "recommend": true,
+      "questions": [
+        { "jp": "あ", "question": { "en": "Which sound is this hiragana?", "fr": "Quel son est ce hiragana ?", "pt": "Que som é este hiragana?" }, "options": ["a", "i", "u", "e"], "answer": "a" },
+        { "jp": "ね", "question": { "en": "Which sound is this hiragana?", "fr": "Quel son est ce hiragana ?", "pt": "Que som é este hiragana?" }, "options": ["ne", "re", "wa", "me"], "answer": "ne" },
+        { "jp": "カ", "question": { "en": "Which sound is this katakana?", "fr": "Quel son est ce katakana ?", "pt": "Que som é este katakana?" }, "options": ["ka", "ke", "ku", "ko"], "answer": "ka" },
+        { "jp": "水", "question": { "en": "What does this kanji mean?", "fr": "Que signifie ce kanji ?", "pt": "O que significa este kanji?" }, "options": ["water", "fire", "tree", "gold"], "answer": "water" },
+        { "question": { "en": "What does おはよう mean?", "fr": "Que signifie おはよう ?", "pt": "O que significa おはよう?" }, "options": ["Good morning", "Good night", "Thank you", "Goodbye"], "answer": "Good morning" },
+        { "jp": "学校（　）行きます。", "question": { "en": "Which particle fits?", "fr": "Quelle particule convient ?", "pt": "Qual partícula se encaixa?" }, "options": ["に", "を", "で", "も"], "answer": "に" },
+        { "question": { "en": "Polite ます-form of 食べる?", "fr": "Forme polie ます de 食べる ?", "pt": "Forma polida ます de 食べる?" }, "options": ["食べます", "食べります", "食みます", "食べました"], "answer": "食べます" },
+        { "jp": "日本語（　）勉強します。", "question": { "en": "Which particle marks the object?", "fr": "Quelle particule marque l'objet ?", "pt": "Qual partícula marca o objeto?" }, "options": ["を", "が", "に", "へ"], "answer": "を" }
+      ]
+    },
+    "n5-mock": {
+      "title": { "en": "JLPT N5 Mock Exam", "fr": "Examen blanc JLPT N5", "pt": "Simulado JLPT N5" },
+      "intro": { "en": "A practice test in the style of JLPT N5, mixing vocabulary, kanji, and grammar. Aim for ~60% to be on track for N5.", "fr": "Un examen d'entraînement dans le style du JLPT N5, mêlant vocabulaire, kanji et grammaire. Visez ~60 % pour être prêt pour le N5.", "pt": "Um teste no estilo JLPT N5, misturando vocabulário, kanji e gramática. Busque ~60% para estar no caminho do N5." },
+      "passMark": 0.6,
+      "questions": [
+        { "jp": "山", "question": { "en": "Reading of this kanji?", "fr": "Lecture de ce kanji ?", "pt": "Leitura deste kanji?" }, "options": ["やま", "かわ", "た", "き"], "answer": "やま" },
+        { "jp": "川", "question": { "en": "Meaning of this kanji?", "fr": "Sens de ce kanji ?", "pt": "Significado deste kanji?" }, "options": ["river", "mountain", "rice field", "sky"], "answer": "river" },
+        { "jp": "先生", "question": { "en": "Reading of this word?", "fr": "Lecture de ce mot ?", "pt": "Leitura desta palavra?" }, "options": ["せんせい", "がくせい", "せんぱい", "せいと"], "answer": "せんせい" },
+        { "question": { "en": "What does ありがとう mean?", "fr": "Que signifie ありがとう ?", "pt": "O que significa ありがとう?" }, "options": ["Thank you", "Sorry", "Please", "Welcome"], "answer": "Thank you" },
+        { "jp": "友達（　）映画を見ます。", "question": { "en": "Which particle means 'with'?", "fr": "Quelle particule signifie « avec » ?", "pt": "Qual partícula significa 'com'?" }, "options": ["と", "を", "に", "が"], "answer": "と" },
+        { "jp": "図書館（　）勉強します。", "question": { "en": "Which particle marks the place of action?", "fr": "Quelle particule marque le lieu de l'action ?", "pt": "Qual partícula marca o lugar da ação?" }, "options": ["で", "に", "を", "へ"], "answer": "で" },
+        { "question": { "en": "て-form of 飲む?", "fr": "Forme て de 飲む ?", "pt": "Forma て de 飲む?" }, "options": ["飲んで", "飲みて", "飲むて", "飲いて"], "answer": "飲んで" },
+        { "question": { "en": "Negative of 高い (expensive)?", "fr": "Négatif de 高い (cher) ?", "pt": "Negativo de 高い (caro)?" }, "options": ["高くない", "高いじゃない", "高くじゃない", "高ない"], "answer": "高くない" },
+        { "question": { "en": "Which means 'I want to eat'?", "fr": "Lequel signifie « je veux manger » ?", "pt": "Qual significa 'quero comer'?" }, "options": ["食べたいです", "食べます", "食べてください", "食べました"], "answer": "食べたいです" },
+        { "jp": "七", "question": { "en": "Which number is this?", "fr": "Quel nombre est-ce ?", "pt": "Que número é este?" }, "options": ["7", "9", "4", "10"], "answer": "7" },
+        { "question": { "en": "How do you say '3 people'?", "fr": "Comment dit-on « 3 personnes » ?", "pt": "Como se diz '3 pessoas'?" }, "options": ["さんにん", "さんこ", "みっつ", "さんまい"], "answer": "さんにん" },
+        { "question": { "en": "What time is 九時?", "fr": "Quelle heure est 九時 ?", "pt": "Que horas são 九時?" }, "options": ["9 o'clock", "4 o'clock", "1 o'clock", "7 o'clock"], "answer": "9 o'clock" },
+        { "jp": "毎日", "question": { "en": "Reading of this word?", "fr": "Lecture de ce mot ?", "pt": "Leitura desta palavra?" }, "options": ["まいにち", "まいしゅう", "きょう", "まいあさ"], "answer": "まいにち" },
+        { "question": { "en": "Which means 'because it's cold'?", "fr": "Lequel signifie « parce qu'il fait froid » ?", "pt": "Qual significa 'porque está frio'?" }, "options": ["寒いから", "寒くて", "寒いのに", "寒ければ"], "answer": "寒いから" },
+        { "question": { "en": "Polite past of 行く (to go)?", "fr": "Passé poli de 行く (aller) ?", "pt": "Passado polido de 行く (ir)?" }, "options": ["行きました", "行きます", "行って", "行った"], "answer": "行きました" }
+      ]
+    }
+  }
+}

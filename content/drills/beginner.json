@@ -1,0 +1,51 @@
+{
+  "level": "beginner",
+  "topics": {
+    "sentence-basic": {
+      "title": { "en": "Sentence Building: X は Y です", "fr": "Construction : X は Y です", "pt": "Construção: X は Y です" },
+      "kind": { "en": "Sentence building", "fr": "Construction de phrases", "pt": "Construção de frases" },
+      "intro": { "en": "Tap the words in the right order to build each sentence. Japanese word order is Subject–Object–Verb, and です comes at the end.", "fr": "Touchez les mots dans le bon ordre pour construire chaque phrase. L'ordre est Sujet–Objet–Verbe, et です vient à la fin.", "pt": "Toque nas palavras na ordem certa para montar cada frase. A ordem é Sujeito–Objeto–Verbo, e です vem no fim." },
+      "questions": [
+        { "type": "order", "tokens": ["私", "は", "学生", "です"], "translation": { "en": "I am a student.", "fr": "Je suis étudiant.", "pt": "Eu sou estudante." } },
+        { "type": "order", "tokens": ["これ", "は", "本", "です"], "translation": { "en": "This is a book.", "fr": "Ceci est un livre.", "pt": "Isto é um livro." } },
+        { "type": "order", "tokens": ["田中さん", "は", "先生", "です"], "translation": { "en": "Mr. Tanaka is a teacher.", "fr": "M. Tanaka est professeur.", "pt": "O Sr. Tanaka é professor." } },
+        { "type": "order", "tokens": ["今日", "は", "月曜日", "です"], "translation": { "en": "Today is Monday.", "fr": "Aujourd'hui, c'est lundi.", "pt": "Hoje é segunda-feira." } }
+      ]
+    },
+    "sentence-particles": {
+      "title": { "en": "Sentence Building: Particles を・に・で", "fr": "Construction : particules を・に・で", "pt": "Construção: partículas を・に・で" },
+      "kind": { "en": "Sentence building", "fr": "Construction de phrases", "pt": "Construção de frases" },
+      "intro": { "en": "Build sentences using particles. Remember: を marks the object, に the destination/time, で the place of action.", "fr": "Construisez des phrases avec les particules. を marque l'objet, に la destination/le temps, で le lieu de l'action.", "pt": "Monte frases usando partículas. を marca o objeto, に o destino/tempo, で o lugar da ação." },
+      "questions": [
+        { "type": "order", "tokens": ["私", "は", "パン", "を", "食べます"], "translation": { "en": "I eat bread.", "fr": "Je mange du pain.", "pt": "Eu como pão." } },
+        { "type": "order", "tokens": ["学校", "に", "行きます"], "translation": { "en": "I go to school.", "fr": "Je vais à l'école.", "pt": "Eu vou à escola." } },
+        { "type": "order", "tokens": ["図書館", "で", "勉強します"], "translation": { "en": "I study at the library.", "fr": "J'étudie à la bibliothèque.", "pt": "Eu estudo na biblioteca." } },
+        { "type": "order", "tokens": ["七時", "に", "起きます"], "translation": { "en": "I wake up at seven.", "fr": "Je me lève à sept heures.", "pt": "Eu acordo às sete." } }
+      ]
+    },
+    "conjugation-masu": {
+      "title": { "en": "Conjugation Drill: ます-form", "fr": "Conjugaison : forme ます", "pt": "Conjugação: forma ます" },
+      "kind": { "en": "Conjugation drill", "fr": "Exercice de conjugaison", "pt": "Exercício de conjugação" },
+      "intro": { "en": "Choose the correct polite ます-form for each dictionary-form verb.", "fr": "Choisissez la forme polie ます correcte pour chaque verbe au dictionnaire.", "pt": "Escolha a forma polida ます correta para cada verbo no dicionário." },
+      "questions": [
+        { "type": "conjugate", "base": "食べる", "options": ["食べます", "食べります", "食みます", "食べました"], "answer": "食べます" },
+        { "type": "conjugate", "base": "飲む", "options": ["飲みます", "飲むます", "飲まます", "飲みました"], "answer": "飲みます" },
+        { "type": "conjugate", "base": "行く", "options": ["行きます", "行くます", "行かます", "行けます"], "answer": "行きます" },
+        { "type": "conjugate", "base": "見る", "options": ["見ます", "見ります", "見るます", "見えます"], "answer": "見ます" },
+        { "type": "conjugate", "base": "する", "options": ["します", "すます", "しります", "されます"], "answer": "します" }
+      ]
+    },
+    "conjugation-te": {
+      "title": { "en": "Conjugation Drill: て-form", "fr": "Conjugaison : forme て", "pt": "Conjugação: forma て" },
+      "kind": { "en": "Conjugation drill", "fr": "Exercice de conjugaison", "pt": "Exercício de conjugação" },
+      "intro": { "en": "Choose the correct て-form. Watch the ending: む/ぶ/ぬ→んで, く→いて, ぐ→いで, す→して, つ/る/う→って.", "fr": "Choisissez la forme て correcte. Attention à la terminaison : む/ぶ/ぬ→んで, く→いて, ぐ→いで, す→して, つ/る/う→って.", "pt": "Escolha a forma て correta. Observe a terminação: む/ぶ/ぬ→んで, く→いて, ぐ→いで, す→して, つ/る/う→って." },
+      "questions": [
+        { "type": "conjugate", "base": "食べる", "options": ["食べて", "食べって", "食べで", "食べいて"], "answer": "食べて" },
+        { "type": "conjugate", "base": "飲む", "options": ["飲んで", "飲みて", "飲むて", "飲いて"], "answer": "飲んで" },
+        { "type": "conjugate", "base": "行く", "options": ["行って", "行いて", "行きて", "行くて"], "answer": "行って" },
+        { "type": "conjugate", "base": "書く", "options": ["書いて", "書って", "書きて", "書くて"], "answer": "書いて" },
+        { "type": "conjugate", "base": "話す", "options": ["話して", "話いて", "話って", "話すて"], "answer": "話して" }
+      ]
+    }
+  }
+}

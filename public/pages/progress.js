@@ -41,10 +41,28 @@
       month: Math.round((rawStudyTime.monthly || rawStudyTime.month || 0) / 60)
     };
     var streak = data.streak || 0;
-    var streakCalendar = data.streakCalendar || [];
+    var studyDays = data.studyDays || [];
+    var achievements = (data.achievements || []).map(function(a) { return a.achievement_key; });
+    var xp = data.xp || 0;
+    var xpLevel = data.xpLevel || 1;
+    var xpIntoLevel = data.xpIntoLevel || 0;
+    var xpForNext = data.xpForNextLevel || 500;
 
     page.innerHTML =
       '<h1>' + window.i18n('progress.title') + '</h1>' +
+
+      renderGamifyHero(streak, xp, xpLevel, xpIntoLevel, xpForNext) +
+
+      '<section class="progress__section">' +
+        '<h2>' + window.i18n('gamify.heatmap') + '</h2>' +
+        renderHeatmap(studyDays) +
+      '</section>' +
+
+      '<section class="progress__section">' +
+        '<h2>' + window.i18n('gamify.badges') + ' (' + achievements.length + '/' +
+          (window.AchievementsCatalog ? window.AchievementsCatalog.all.length : achievements.length) + ')</h2>' +
+        renderBadges(achievements) +
+      '</section>' +
 
       '<section class="progress__section">' +
         '<h2>' + window.i18n('progress.completion') + '</h2>' +
@@ -77,16 +95,100 @@
             '<span class="study-time__value">' + (studyTime.month || 0) + ' min</span>' +
           '</div>' +
         '</div>' +
-      '</section>' +
-
-      '<section class="progress__section">' +
-        '<h2>' + window.i18n('progress.streak') + '</h2>' +
-        '<div class="streak-display">' +
-          '<span class="streak-display__count">\ud83d\udd25 ' + streak + ' ' + window.i18n('progress.days') + '</span>' +
-          '<div class="streak-calendar">' + renderStreakCalendar(streakCalendar) + '</div>' +
-        '</div>' +
       '</section>';
   }
+
+  function renderGamifyHero(streak, xp, xpLevel, xpIntoLevel, xpForNext) {
+    var pct = Math.round((xpIntoLevel / Math.max(1, xpForNext)) * 100);
+    return '<div class="gamify-hero">' +
+      '<div class="gamify-stat gamify-stat--streak">' +
+        '<span class="gamify-stat__mark">\u708e</span>' +
+        '<span class="gamify-stat__value">' + streak + '</span>' +
+        '<span class="gamify-stat__label">' + window.i18n('gamify.streakDays') + '</span>' +
+      '</div>' +
+      '<div class="gamify-stat gamify-stat--xp">' +
+        '<div class="gamify-xp__top">' +
+          '<span class="gamify-xp__level">' + window.i18n('gamify.level') + ' ' + xpLevel + '</span>' +
+          '<span class="gamify-xp__total">' + xp + ' ' + window.i18n('gamify.xp') + '</span>' +
+        '</div>' +
+        '<div class="progress-bar"><div class="progress-bar__fill" style="width:' + pct + '%"></div></div>' +
+        '<span class="gamify-xp__next">' + xpIntoLevel + ' / ' + xpForNext + ' ' + window.i18n('gamify.toNext') + '</span>' +
+      '</div>' +
+    '</div>';
+  }
+
+  function renderBadges(earnedKeys) {
+    if (!window.AchievementsCatalog) return '';
+    var lang = window.App.getLanguage();
+    var earned = {};
+    earnedKeys.forEach(function(k) { earned[k] = true; });
+    return '<div class="badges-grid">' +
+      window.AchievementsCatalog.all.map(function(d) {
+        var got = !!earned[d.key];
+        return '<div class="badge' + (got ? ' badge--earned' : ' badge--locked') + '" title="' +
+            escapeAttr(window.AchievementsCatalog.nameFor(d.key, lang)) + '">' +
+          '<span class="badge__mark">' + d.mark + '</span>' +
+          '<span class="badge__name">' + escapeHtml(window.AchievementsCatalog.nameFor(d.key, lang)) + '</span>' +
+        '</div>';
+      }).join('') +
+    '</div>';
+  }
+
+  /**
+   * GitHub-style contribution heatmap of study days (most recent ~18 weeks).
+   */
+  function renderHeatmap(studyDays) {
+    var byDate = {};
+    (studyDays || []).forEach(function(d) { byDate[d.study_date] = d.total_seconds || 0; });
+
+    var WEEKS = 18;
+    var days = WEEKS * 7;
+    var today = new Date();
+    // Align the grid so the last column ends on today.
+    var cells = [];
+    var maxSeconds = 1;
+    for (var i = days - 1; i >= 0; i--) {
+      var dt = new Date(today.getFullYear(), today.getMonth(), today.getDate() - i);
+      var iso = dt.toISOString().split('T')[0];
+      var secs = byDate[iso] || 0;
+      if (secs > maxSeconds) maxSeconds = secs;
+      cells.push({ date: iso, secs: secs });
+    }
+    if (!studyDays || !studyDays.length) {
+      return '<p class="text-secondary">' + window.i18n('gamify.noData') + '</p>' + heatmapGrid(cells, maxSeconds);
+    }
+    return heatmapGrid(cells, maxSeconds);
+  }
+
+  function heatmapGrid(cells, maxSeconds) {
+    // Organise into columns of 7 (week columns).
+    var cols = [];
+    for (var i = 0; i < cells.length; i += 7) {
+      cols.push(cells.slice(i, i + 7));
+    }
+    return '<div class="heatmap">' +
+      cols.map(function(week) {
+        return '<div class="heatmap__col">' +
+          week.map(function(c) {
+            var level = 0;
+            if (c.secs > 0) {
+              var ratio = c.secs / maxSeconds;
+              level = ratio > 0.66 ? 4 : ratio > 0.33 ? 3 : ratio > 0.1 ? 2 : 1;
+            }
+            return '<span class="heatmap__cell heatmap__cell--l' + level + '" title="' + c.date +
+              (c.secs ? ' (' + Math.round(c.secs / 60) + ' min)' : '') + '"></span>';
+          }).join('') +
+        '</div>';
+      }).join('') +
+    '</div>';
+  }
+
+  function escapeHtml(str) {
+    var div = document.createElement('div');
+    div.appendChild(document.createTextNode(str == null ? '' : String(str)));
+    return div.innerHTML;
+  }
+  function escapeAttr(str) { return escapeHtml(str).replace(/"/g, '&quot;'); }
 
   function renderLevelProgress(levels) {
     var levelNames = ['beginner', 'intermediate', 'advanced'];
@@ -126,17 +228,6 @@
     return '<div class="accuracy-item">' +
       '<span class="accuracy-item__label">' + label + '</span>' +
       '<span class="accuracy-item__value">' + pct + '%</span>' +
-    '</div>';
-  }
-
-  function renderStreakCalendar(calendar) {
-    if (!calendar || !calendar.length) return '<span class="text-secondary">No streak data yet</span>';
-
-    return '<div class="streak-calendar__grid">' +
-      calendar.map(function(day) {
-        var cls = day.active ? 'streak-calendar__day--active' : 'streak-calendar__day--inactive';
-        return '<span class="streak-calendar__day ' + cls + '" title="' + (day.date || '') + '"></span>';
-      }).join('') +
     '</div>';
   }
 

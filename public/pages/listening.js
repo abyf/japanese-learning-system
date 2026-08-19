@@ -207,16 +207,18 @@
     var isCompleted = result.completed || (pct === 100);
     var cls = pct >= 80 ? 'text-success' : (pct >= 50 ? '' : 'text-danger');
 
+    if (window.Feedback) { isCompleted ? window.Feedback.celebrate() : window.Feedback.incorrect(); }
+
     var statusHtml = '';
     if (isCompleted) {
       statusHtml = '<div class="result-banner result-banner--success">' +
-        '<span class="result-banner__icon">🎉</span>' +
-        '<span class="result-banner__text">' + window.i18n('result.completed') + '</span>' +
+        '<span class="result-banner__icon"></span>' +
+        (window.Icons ? window.Icons.celebrate(38) : '') + '<span class="result-banner__text">' + window.i18n('result.completed') + '</span>' +
       '</div>';
     } else {
       statusHtml = '<div class="result-banner result-banner--retry">' +
-        '<span class="result-banner__icon">📝</span>' +
-        '<span class="result-banner__text">' + window.i18n('result.notQuite') + '</span>' +
+        '<span class="result-banner__icon"></span>' +
+        (window.Icons ? window.Icons.tryagain(34) : '') + '<span class="result-banner__text">' + window.i18n('result.notQuite') + '</span>' +
       '</div>';
     }
 
@@ -235,10 +237,15 @@
       (transcript ? '<div class="listening__transcript mt-2"><h3>Transcript</h3><p>' + escapeHtml(transcript) + '</p></div>' : '') +
       '<div class="reading__actions mt-3">' +
         (isCompleted
-          ? '<a href="#/level/' + exercise.level + '/listening" class="btn">' + window.i18n('activity.nextExercise') + '</a>'
-          : '<button class="btn btn--primary" id="retry-btn">' + window.i18n('activity.retry') + '</button>') +
-        ' <a href="#/dashboard" class="btn btn--secondary">' + window.i18n('nav.dashboard') + '</a>' +
+          ? (isFromCurriculum()
+              ? '<div id="curriculum-next"></div>'
+              : '<a href="#/level/' + exercise.level + '/listening" class="btn">' + window.i18n('activity.nextExercise') + '</a> <a href="#/dashboard" class="btn btn--secondary">' + window.i18n('nav.dashboard') + '</a>')
+          : '<button class="btn btn--primary" id="retry-btn">' + window.i18n('activity.retry') + '</button> <a href="#/dashboard" class="btn btn--secondary">' + window.i18n('nav.dashboard') + '</a>') +
       '</div>';
+
+    if (isCompleted && isFromCurriculum() && window.CurriculumNav) {
+      window.CurriculumNav.renderInto('curriculum-next');
+    }
 
     // Retry handler
     if (!isCompleted) {
@@ -256,6 +263,10 @@
       var btn = form.querySelector('button[type="submit"]');
       if (btn) btn.hidden = true;
     }
+  }
+
+  function isFromCurriculum() {
+    return (window.location.hash || '').indexOf('from=curriculum') !== -1;
   }
 
   function escapeHtml(str) {
