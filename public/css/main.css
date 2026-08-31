@@ -2152,13 +2152,28 @@ textarea.input {
 
 /* Detail panel */
 .kana-detail {
-  position: relative;
-  background: linear-gradient(135deg, rgba(37, 99, 235, 0.08), rgba(124, 58, 237, 0.08));
+  /* Sticks just below the sticky navbar so the tapped character stays visible
+     without the page jumping. z-index stays under the navbar (100). */
+  position: sticky;
+  top: 4.75rem;
+  z-index: 30;
+  background-color: var(--card-bg, #fff);
+  background-image: linear-gradient(135deg, rgba(67, 97, 238, 0.07), rgba(228, 87, 46, 0.06));
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  padding: 1.5rem 1.75rem;
-  margin: 1.5rem 0;
-  box-shadow: var(--shadow-md);
+  padding: 1.25rem 1.5rem;
+  margin: 0 0 1.25rem;
+  box-shadow: var(--shadow-lg);
+  max-height: calc(100vh - 6rem);
+  overflow-y: auto;
+}
+
+@media (max-width: 600px) {
+  .kana-detail {
+    top: 4rem;
+    padding: 1rem 1.1rem;
+    max-height: 70vh;
+  }
 }
 
 .kana-detail__close {
@@ -3269,4 +3284,127 @@ body::before {
 @media (max-width: 560px) {
   .app-footer__logo { height: 60px; }
   .app-footer__copy { font-size: 0.76rem; }
+}
+
+/* ===== Stroke Order Viewer ===== */
+.kana-detail__stroke-order {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+}
+
+.kana-detail__section-title {
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin-bottom: 0.6rem;
+}
+
+.strokes {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.6rem;
+}
+
+.strokes__stage {
+  width: 160px;
+  height: 160px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--card-bg, #fff);
+}
+
+.strokes--compact .strokes__stage { width: 150px; height: 150px; }
+
+.strokes__svg { width: 100%; height: 100%; display: block; }
+
+.strokes__grid {
+  stroke: rgba(127, 127, 127, 0.28);
+  stroke-width: 1;
+  stroke-dasharray: 5 5;
+}
+
+.strokes__stroke {
+  stroke: var(--text);
+  stroke-width: 3.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.strokes__ghost {
+  stroke: rgba(127, 127, 127, 0.22);
+  stroke-width: 3.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.strokes__stroke--anim { stroke: var(--vermilion); }
+
+.strokes__dot { fill: var(--vermilion); }
+
+.strokes__num {
+  fill: var(--indigo);
+  font-size: 8px;
+  font-weight: 700;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  text-anchor: middle;
+}
+
+.strokes__controls {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.strokes__status {
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+}
+
+.strokes__none {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+}
+
+/* Tracer: stroke-order guide layered behind the drawing canvas */
+.tracer__stage {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.tracer__guide {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  opacity: 0.9;
+}
+
+.tracer__guide .strokes { align-items: center; }
+.tracer__guide .strokes__stage {
+  width: 300px;
+  height: 300px;
+  border: none;
+  background: transparent;
+}
+
+.tracer__guide .strokes__controls {
+  position: absolute;
+  bottom: -2.4rem;
+  left: 0;
+  right: 0;
+  justify-content: center;
+  pointer-events: auto;
+}
+
+.tracer__canvas { position: relative; z-index: 1; }
+
+.kana-detail__credit {
+  font-size: 0.72rem;
+  color: var(--text-secondary);
+  margin-top: 0.4rem;
 }

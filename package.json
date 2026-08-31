@@ -13,7 +13,9 @@
     "build:win": "electron-builder --win",
     "build:mac": "electron-builder --mac",
     "build:linux": "electron-builder --linux",
-    "build:all": "electron-builder --win --mac --linux"
+    "build:all": "electron-builder --win --mac --linux",
+    "build:strokes": "node scripts/build-strokes.js",
+    "build:audio": "node scripts/build-audio.js"
   },
   "dependencies": {
     "bcryptjs": "^3.0.3",

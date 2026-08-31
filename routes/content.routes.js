@@ -16,7 +16,8 @@ const {
   getKanjiStrokes,
   getVocabulary, getVocabularyItem, getVocabularyAudioPath,
   listVocabularyExercises, getVocabularyExercise,
-  getKana, getDeepDive, getGrammar, getGuide, getDrill, getShadowing, getExam
+  getKana, getStrokes, getTtsManifest, getTtsAudioPath,
+  getDeepDive, getGrammar, getGuide, getDrill, getShadowing, getExam
 } = require('../modules/content');
 const { recordCompletion } = require('../modules/progress');
 const { updateDifficultyScore } = require('../modules/adaptive');
@@ -40,6 +41,48 @@ router.get('/kana/:script', (req, res) => {
     return res.status(404).json({ error: `Kana script not found: ${script}` });
   }
   res.json(data);
+});
+
+/**
+ * GET /api/kana-strokes
+ * Returns the full offline stroke-order dataset (KanjiVG-derived, CC-BY-SA 3.0):
+ * { viewBox, characters: { "<char>": ["<path d>", ...] } }.
+ * The whole set is ~150 KB and cached client-side, so one request covers
+ * hiragana, katakana and kanji.
+ */
+router.get('/kana-strokes', (req, res) => {
+  const data = getStrokes();
+  if (!data) {
+    return res.status(404).json({ error: 'Stroke data not available' });
+  }
+  res.json(data);
+});
+
+// ─────────────────────────────────────────────────────────────────────────────
+// Pronunciation audio (human-quality Amazon Polly neural voices, bundled)
+// ─────────────────────────────────────────────────────────────────────────────
+
+/**
+ * GET /api/audio/manifest
+ * Returns { "<japanese text>": { file, voice }, ... }. The client uses this to
+ * map any text it wants to speak to a bundled MP3, falling back to browser TTS
+ * only when a clip is missing. The manifest is small and cached client-side.
+ */
+router.get('/audio/manifest', (req, res) => {
+  res.json(getTtsManifest());
+});
+
+/**
+ * GET /api/audio/tts/:file
+ * Streams a bundled pronunciation clip (long-cached — content is immutable).
+ */
+router.get('/audio/tts/:file', (req, res) => {
+  const abs = getTtsAudioPath(req.params.file);
+  if (!abs) {
+    return res.status(404).json({ error: 'Audio clip not found' });
+  }
+  res.setHeader('Cache-Control', 'public, max-age=31536000, immutable');
+  res.sendFile(abs);
 });
 
 /**

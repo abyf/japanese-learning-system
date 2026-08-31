@@ -42,6 +42,10 @@
 [data-theme="dark"] .vocab-art { background: rgba(255, 255, 255, 0.05); }
 [data-theme="dark"] .audio-notice { background: rgba(234, 179, 8, 0.10); }
 
+/* Stroke-order viewer surfaces on dark */
+[data-theme="dark"] .strokes__stage { background: var(--card-bg); }
+[data-theme="dark"] .strokes__grid { stroke: rgba(200, 200, 220, 0.22); }
+
 /* Keep the brand logo (dark ink) legible on the dark footer */
 [data-theme="dark"] .app-footer { background: var(--card-bg); }
 [data-theme="dark"] .app-footer__logo {

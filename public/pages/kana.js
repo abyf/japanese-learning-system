@@ -56,6 +56,9 @@
         '<div class="kana__loading">' + window.i18n('general.loading') + '</div>' +
       '</div>';
 
+    // Preload stroke-order data so the first character tap is instant
+    if (window.StrokeOrder) { window.StrokeOrder.load(); }
+
     window.API.get('/kana/' + encodeURIComponent(currentScript))
       .then(function(data) {
         kanaData = data;
@@ -114,6 +117,11 @@
         '<p class="kana__hint">' + window.i18n('kana.tapHint') + '</p>' +
       '</div>';
 
+    // Detail panel (hidden until a character is tapped).
+    // Placed ABOVE the chart and made sticky so tapping any character updates
+    // it in place — no page jump, no scrolling back up.
+    html += '<div id="kana-detail" class="kana-detail" hidden></div>';
+
     // Chart grouped by row/theme
     html += '<div class="kana__chart' + (kanjiMode ? ' kana__chart--kanji' : '') + '">';
     (kanaData.groups || []).forEach(function(group) {
@@ -130,9 +138,6 @@
       html += '</div></div>';
     });
     html += '</div>';
-
-    // Detail panel (hidden until a character is tapped)
-    html += '<div id="kana-detail" class="kana-detail" hidden></div>';
 
     // Quiz launcher
     html += '<div class="kana__actions">' +
@@ -238,7 +243,18 @@
             '<span class="kana-detail__example-meaning">' + escapeHtml(L(c.example.meaning)) + '</span>' +
           '</div>' : '') +
         '</div>' +
+      '</div>' +
+      '<div class="kana-detail__stroke-order">' +
+        '<h3 class="kana-detail__section-title">' + window.i18n('kana.strokeOrder') + '</h3>' +
+        '<div id="kana-stroke-viewer"></div>' +
+        '<p class="kana-detail__credit">Stroke data: <a href="https://kanjivg.tagaini.net/" target="_blank" rel="noopener">KanjiVG</a> (CC BY-SA 3.0)</p>' +
       '</div>';
+
+    // Render the stroke-order viewer (numbered diagram + animation)
+    var strokeViewer = document.getElementById('kana-stroke-viewer');
+    if (strokeViewer && window.StrokeOrder) {
+      window.StrokeOrder.renderInto(strokeViewer, c.kana, { compact: true });
+    }
 
     // Auto-play the sound on open
     speakKana(c);
@@ -264,8 +280,13 @@
     var closeBtn = document.getElementById('kana-detail-close');
     if (closeBtn) closeBtn.addEventListener('click', function() { panel.hidden = true; });
 
-    // Scroll into view
-    panel.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    // The panel is sticky at the top of the chart, so it's already visible.
+    // Only nudge into view if it happens to be scrolled above the viewport
+    // (e.g. the learner scrolled far down the chart before tapping).
+    var rect = panel.getBoundingClientRect();
+    if (rect.bottom < 0 || rect.top > (window.innerHeight || document.documentElement.clientHeight)) {
+      panel.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }
   }
 
   function speakKana(c) {
@@ -286,14 +307,36 @@
     overlay.className = 'tracer-overlay';
     overlay.innerHTML =
       '<div class="tracer">' +
-        '<canvas id="tracer-canvas" width="300" height="300" class="tracer__canvas"></canvas>' +
+        '<div class="tracer__stage">' +
+          '<div id="tracer-guide" class="tracer__guide"></div>' +
+          '<canvas id="tracer-canvas" width="300" height="300" class="tracer__canvas"></canvas>' +
+        '</div>' +
         '<p class="tracer__hint">' + window.i18n('kana.traceHint') + '</p>' +
         '<div class="tracer__actions">' +
+          '<button class="btn btn--sm btn--secondary" id="tracer-guide-toggle">' + window.i18n('kana.playStrokes') + '</button>' +
           '<button class="btn btn--sm btn--secondary" id="tracer-clear">' + window.i18n('kana.clear') + '</button>' +
           '<button class="btn btn--sm btn--primary" id="tracer-close">' + window.i18n('general.close') + '</button>' +
         '</div>' +
       '</div>';
     document.body.appendChild(overlay);
+
+    // Stroke-order guide behind the canvas (numbered diagram + animation)
+    var guideEl = document.getElementById('tracer-guide');
+    var guideBtn = document.getElementById('tracer-guide-toggle');
+    if (guideEl && guideBtn && window.StrokeOrder) {
+      window.StrokeOrder.load().then(function() {
+        if (!window.StrokeOrder.has(char)) {
+          guideBtn.style.display = 'none';
+          return;
+        }
+        guideBtn.addEventListener('click', function() {
+          // Re-render (and thus replay) the stroke order as a light guide
+          window.StrokeOrder.renderInto(guideEl, char, { compact: true });
+        });
+      });
+    } else if (guideBtn) {
+      guideBtn.style.display = 'none';
+    }
 
     var canvas = document.getElementById('tracer-canvas');
     var ctx = canvas.getContext('2d');
