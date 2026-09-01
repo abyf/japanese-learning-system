@@ -54,6 +54,13 @@
               '<label class="form__label" for="sound-toggle">' + window.i18n('settings.sound') + '</label>' +
               '<input type="checkbox" id="sound-toggle" checked>' +
             '</div>' +
+            '<div class="form__group">' +
+              '<label class="form__label" for="voice-select">' + window.i18n('settings.voice') + '</label>' +
+              '<select class="form__input form__input--small" id="voice-select">' +
+                '<option value="m">' + window.i18n('settings.voiceMale') + '</option>' +
+                '<option value="f">' + window.i18n('settings.voiceFemale') + '</option>' +
+              '</select>' +
+            '</div>' +
             '<button class="btn btn--primary" id="save-settings-btn">' + window.i18n('settings.save') + '</button>' +
             '<span id="settings-saved" class="text-success" hidden>✓</span>' +
           '</section>' +
@@ -95,6 +102,9 @@
 
     var soundToggle = document.getElementById('sound-toggle');
     if (soundToggle && window.Feedback) soundToggle.checked = !window.Feedback.isMuted();
+
+    var voiceSelect = document.getElementById('voice-select');
+    if (voiceSelect && window.TTS && window.TTS.getVoicePref) voiceSelect.value = window.TTS.getVoicePref();
   }
 
   function attachEventListeners() {
@@ -113,6 +123,18 @@
         var enabled = e.target.checked;
         window.Feedback.setMuted(!enabled);
         if (enabled) window.Feedback.correct(); // brief preview when turning on
+      });
+    }
+
+    // Pronunciation voice (male/female) with a spoken preview
+    var voiceSelect = document.getElementById('voice-select');
+    if (voiceSelect) {
+      voiceSelect.addEventListener('change', function(e) {
+        if (window.TTS && window.TTS.setVoicePref) {
+          window.TTS.setVoicePref(e.target.value);
+          // Preview the chosen voice (this phrase has bundled clips in both voices)
+          window.TTS.speak('\u304a\u306f\u3088\u3046\u3054\u3056\u3044\u307e\u3059', {}); // おはようございます
+        }
       });
     }
 

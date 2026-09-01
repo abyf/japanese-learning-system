@@ -6,9 +6,13 @@
  * Amazon Polly NEURAL voices (Takumi male, Kazuha female). Runs ONCE at build
  * time; the app then serves the bundled MP3s locally — zero runtime AWS cost.
  *
+ * Every string is generated in BOTH a male (Takumi) and female (Kazuha) neural
+ * voice so the learner can pick their preferred voice in Settings.
+ *
  * Output:
- *   content/audio/tts/<sha1(text)>.mp3     one file per unique Japanese string
- *   content/audio/manifest.json            { text -> { file, voice } } index
+ *   content/audio/tts/<sha1(text)>-m.mp3   male (Takumi)   clip
+ *   content/audio/tts/<sha1(text)>-f.mp3   female (Kazuha) clip
+ *   content/audio/manifest.json            { text -> { m, f } } index
  *
  * Requirements:
  *   - AWS credentials configured (profile "default" or env), region us-east-1.
@@ -18,7 +22,7 @@
  * Usage:
  *   node scripts/build-audio.js            generate any missing clips
  *   node scripts/build-audio.js --force    regenerate everything
- *   node scripts/build-audio.js --voice Kazuha
+ *   node scripts/build-audio.js --only m   generate only male (or 'f' for female)
  *
  * Re-run any time content changes; existing clips are skipped unless --force.
  */
@@ -39,8 +43,14 @@ const MANIFEST = path.join(CONTENT, 'audio', 'manifest.json');
 
 const REGION = process.env.AWS_REGION || 'us-east-1';
 const FORCE = process.argv.includes('--force');
-const voiceArgIdx = process.argv.indexOf('--voice');
-const DEFAULT_VOICE = voiceArgIdx !== -1 ? process.argv[voiceArgIdx + 1] : 'Takumi';
+const onlyArgIdx = process.argv.indexOf('--only');
+const ONLY = onlyArgIdx !== -1 ? process.argv[onlyArgIdx + 1] : null; // 'm' | 'f' | null(both)
+
+// The two neural voices offered to learners.
+const VOICES = {
+  m: 'Takumi',  // male
+  f: 'Kazuha'   // female
+};
 
 // Locate the AWS CLI (PATH, or the standard Windows install location).
 function awsBin() {
@@ -103,7 +113,8 @@ function walkDir(dir, cb) {
 function collectTexts() {
   const map = new Map(); // text -> { voice }
 
-  function add(text, voice, opts) {
+  // Voice arg is ignored now (we generate both), kept for call-site compatibility.
+  function add(text, _voice, opts) {
     text = (text || '').trim();
     if (!text || !hasJapanese(text)) return;
     var allowLong = opts && opts.allowLong;
@@ -112,7 +123,7 @@ function collectTexts() {
     // (they are played whole) up to Polly's neural request limit.
     if (!allowLong && len > 120) return;
     if (len > 2900) return; // Polly neural per-request character limit safeguard
-    if (!map.has(text)) map.set(text, { voice: voice || DEFAULT_VOICE });
+    if (!map.has(text)) map.set(text, true);
   }
 
   // Kana / kanji: character + example word (male voice).
@@ -182,34 +193,38 @@ function main() {
   fs.mkdirSync(OUT_DIR, { recursive: true });
 
   const texts = collectTexts();
-  console.log('Unique clips to ensure:', texts.size, '(voice default ' + DEFAULT_VOICE + ')');
+  const genKeys = ONLY ? [ONLY] : ['m', 'f'];
+  console.log('Unique texts:', texts.size, '| voices:', genKeys.map(function(k){return VOICES[k];}).join(', '));
 
   const manifest = {};
   let made = 0, skipped = 0, failed = 0;
   const failures = [];
 
-  let i = 0;
-  for (const [text, meta] of texts) {
-    i++;
+  for (const [text] of texts) {
     const id = sha1(text);
-    const rel = 'tts/' + id + '.mp3';
-    const abs = path.join(OUT_DIR, id + '.mp3');
-    manifest[text] = { file: rel, voice: meta.voice };
+    const entry = {};
+    genKeys.forEach(function(k) {
+      const rel = 'tts/' + id + '-' + k + '.mp3';
+      const abs = path.join(OUT_DIR, id + '-' + k + '.mp3');
+      entry[k] = rel;
 
-    if (!FORCE && fs.existsSync(abs) && fs.statSync(abs).size > 0) {
-      skipped++;
-      continue;
-    }
-    try {
-      synthesize(text, meta.voice, abs);
-      made++;
-      if (made % 50 === 0) console.log('  generated', made, '/', texts.size);
-    } catch (err) {
-      failed++;
-      failures.push(text);
-      const msg = (err.stderr && err.stderr.toString()) || err.message;
-      console.warn('  FAIL', text, '-', msg.split('\n')[0]);
-    }
+      if (!FORCE && fs.existsSync(abs) && fs.statSync(abs).size > 0) {
+        skipped++;
+        return;
+      }
+      try {
+        synthesize(text, VOICES[k], abs);
+        made++;
+        if (made % 50 === 0) console.log('  generated', made, 'clips...');
+      } catch (err) {
+        failed++;
+        if (failures.length < 30) failures.push(text);
+        const msg = (err.stderr && err.stderr.toString()) || err.message;
+        console.warn('  FAIL', text, '(' + k + ') -', (msg || '').split('\n')[0]);
+      }
+    });
+    // Preserve any pre-existing voice files not regenerated this run.
+    manifest[text] = Object.assign(manifest[text] || {}, entry);
   }
 
   fs.writeFileSync(MANIFEST, JSON.stringify(manifest));
@@ -217,8 +232,8 @@ function main() {
     return sum + fs.statSync(path.join(OUT_DIR, f)).size;
   }, 0);
   console.log('\nDone. new ' + made + ', skipped ' + skipped + ', failed ' + failed +
-    '. Bundle ' + Math.round(bytes / 1024) + ' KB across ' + Object.keys(manifest).length + ' clips.');
-  if (failures.length) console.log('Failed texts:', failures.slice(0, 20).join('  '));
+    '. Bundle ' + Math.round(bytes / 1024) + ' KB, ' + Object.keys(manifest).length + ' texts.');
+  if (failures.length) console.log('Failed (sample):', failures.slice(0, 20).join('  '));
 }
 
 main();

@@ -27,7 +27,7 @@
 
   // Bump this key whenever the audio bundle is regenerated so clients pick up
   // newly added clips instead of a stale cached manifest.
-  var MANIFEST_CACHE_KEY = 'jls-audio-manifest-v2';
+  var MANIFEST_CACHE_KEY = 'jls-audio-manifest-v3';
 
   function loadManifest() {
     if (manifestLoaded) return;
@@ -54,6 +54,27 @@
     return manifest[text] || null;
   }
 
+  // Learner's preferred voice: 'm' (male) or 'f' (female). Default male.
+  function getVoicePref() {
+    try {
+      var v = localStorage.getItem('jls-voice');
+      return (v === 'f') ? 'f' : 'm';
+    } catch (e) { return 'm'; }
+  }
+
+  function setVoicePref(v) {
+    try { localStorage.setItem('jls-voice', v === 'f' ? 'f' : 'm'); } catch (e) {}
+  }
+
+  // Resolve the clip file for an entry honoring the preferred voice, with a
+  // graceful fallback to the other voice or the legacy single-file field.
+  function fileForEntry(entry) {
+    if (!entry) return null;
+    var pref = getVoicePref();
+    var other = pref === 'm' ? 'f' : 'm';
+    return entry[pref] || entry[other] || entry.file || null;
+  }
+
   function stopAudio() {
     if (currentAudio) {
       try { currentAudio.pause(); currentAudio.currentTime = 0; } catch (e) {}
@@ -64,9 +85,10 @@
   // Try to play a bundled clip. Returns true if playback was started.
   function playBundled(text, opts) {
     var entry = bundledEntry(text);
-    if (!entry || !entry.file) return false;
+    var file = fileForEntry(entry);
+    if (!file) return false;
     stopAudio();
-    var audio = new Audio('/api/audio/' + entry.file);
+    var audio = new Audio('/api/audio/' + file);
     currentAudio = audio;
     if (opts && opts.rate) {
       // Keep pitch natural; only slow slightly for learners if asked.
@@ -230,6 +252,8 @@
     hasBundledAudio: hasBundledAudio,
     isSupported: isSupported,
     getAudioStatus: getAudioStatus,
-    onReady: onReady
+    onReady: onReady,
+    getVoicePref: getVoicePref,
+    setVoicePref: setVoicePref
   };
 })();

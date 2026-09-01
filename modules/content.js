@@ -569,7 +569,8 @@ function getTtsManifest() {
  * @returns {string|null}
  */
 function getTtsAudioPath(fileId) {
-  if (!/^[a-f0-9]{40}\.mp3$/.test(String(fileId || ''))) {
+  // Accept "<sha1>.mp3" (legacy) and "<sha1>-m.mp3" / "<sha1>-f.mp3" (dual voice).
+  if (!/^[a-f0-9]{40}(-[mf])?\.mp3$/.test(String(fileId || ''))) {
     return null;
   }
   const abs = path.join(config.contentPath, 'audio', 'tts', fileId);

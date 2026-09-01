@@ -19,16 +19,19 @@ under the same license.
 ## Pronunciation audio — Amazon Polly
 
 The Japanese pronunciation clips in `content/audio/` are generated with
-**Amazon Polly** neural voices (Takumi, Kazuha) by `scripts/build-audio.js`,
-run once at build time. The app serves these bundled MP3s locally at runtime
-(no network calls, no per-user cost). Audio synthesized with Amazon Polly may
-be used and stored in accordance with the AWS Service Terms, including in
-commercial products.
+**Amazon Polly** neural voices by `scripts/build-audio.js`, run once at build
+time. Each spoken string is generated in BOTH a male voice (**Takumi**,
+`<id>-m.mp3`) and a female voice (**Kazuha**, `<id>-f.mp3`); the learner picks
+their preferred voice in Settings. The app serves these bundled MP3s locally at
+runtime (no network calls, no per-user cost). Audio synthesized with Amazon
+Polly may be used and stored in accordance with the AWS Service Terms,
+including in commercial products.
 
 Regenerate/extend with:
 
-    node scripts/build-audio.js            # generate missing clips
+    node scripts/build-audio.js            # generate missing clips (both voices)
     node scripts/build-audio.js --force    # regenerate everything
+    node scripts/build-audio.js --only f   # only the female voice (or 'm')
 
 If any character or word has no bundled clip, the app falls back to the
 browser's built-in speech synthesizer automatically.
