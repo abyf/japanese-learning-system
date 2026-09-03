@@ -41,21 +41,24 @@
 
     return initP.then(function() {
       var token = window.PlatformAuth && window.PlatformAuth.getAccessToken();
+      console.log('[guard] token present:', !!token);
       if (!token) {
-        // Genuinely not signed in -> course landing (taster + subscribe/sign-in).
+        console.log('[guard] no token -> redirect to course landing');
         window.location.hash = '#/course/' + encodeURIComponent(courseId);
         return false;
       }
 
       // Fresh cache?
       if (Date.now() - cache.at < CACHE_MS) {
-        if (cache.active) return true;
+        if (cache.active) { console.log('[guard] cache says active'); return true; }
       }
 
       return fetch('/api/platform/me/entitlements', { headers: { 'Authorization': 'Bearer ' + token } })
-        .then(function(r) { return r.json(); })
+        .then(function(r) { console.log('[guard] entitlements status:', r.status); return r.json(); })
         .then(function(data) {
+          console.log('[guard] entitlements payload:', JSON.stringify(data));
           var active = isEntitled(data && data.entitlements, courseId);
+          console.log('[guard] isEntitled ->', active);
           cache = { at: Date.now(), active: active };
           if (!active) {
             window.location.hash = '#/course/' + encodeURIComponent(courseId);
@@ -63,8 +66,8 @@
           }
           return true;
         })
-        .catch(function() {
-          // On error, be safe: send to the landing rather than exposing content.
+        .catch(function(err) {
+          console.log('[guard] entitlements fetch error:', err && err.message);
           window.location.hash = '#/course/' + encodeURIComponent(courseId);
           return false;
         });
