@@ -24,15 +24,19 @@
   var currentSession = null;
   var ready = false;
   var authChangeCbs = [];
+  var initPromise = null;   // shared in-flight init so concurrent callers await the same one
 
   /**
    * Initialize: fetch public config, load the Supabase CDN script, create client.
-   * Called once on app boot. Safe to call multiple times (idempotent).
+   * Idempotent: concurrent/repeat calls share one initialization promise, and it
+   * only resolves AFTER the initial session has been loaded (so getSession() is
+   * reliable immediately after init() resolves).
    */
   function init() {
     if (ready && supabase) return Promise.resolve();
+    if (initPromise) return initPromise;   // a call is already in flight — await it
 
-    return fetch('/api/platform/config')
+    initPromise = fetch('/api/platform/config')
       .then(function(r) { return r.json(); })
       .then(function(cfg) {
         if (!cfg.supabaseUrl || !cfg.supabaseAnonKey) {
@@ -63,7 +67,11 @@
       })
       .catch(function(err) {
         console.warn('[platform-auth] Init failed:', err.message || err);
+        // Allow a later retry rather than being stuck on a failed attempt.
+        initPromise = null;
       });
+
+    return initPromise;
   }
 
   /**

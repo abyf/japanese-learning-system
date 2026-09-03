@@ -219,14 +219,24 @@
         transactionId: checkout.transactionId
       };
       window.Paddle.Checkout.open(opts);
-      // After the overlay closes, poll for the new entitlement (webhook-driven).
+      // Begin polling for the webhook-created entitlement right away; it will
+      // succeed shortly after payment completes (webhook latency is seconds).
       pollEntitlement(courseId);
     });
+  }
+
+  function goToCourse(courseId) {
+    // Clear any cached "no access" decision so the course re-checks entitlement.
+    if (window.EntitlementGuard && window.EntitlementGuard.invalidate) {
+      window.EntitlementGuard.invalidate();
+    }
+    window.location.hash = '#/dashboard';
   }
 
   function pollEntitlement(courseId) {
     var token = window.PlatformAuth && window.PlatformAuth.getAccessToken();
     if (!token) return;
+    var msg = document.getElementById('checkout-msg');
     var tries = 0;
     var timer = setInterval(function() {
       tries++;
@@ -235,14 +245,32 @@
         .then(function(data) {
           var ents = (data && data.entitlements) || [];
           var active = ents.some(function(e) {
-            return (e.all_access || e.course_id === courseId) && e.status === 'active';
+            return (e.all_access || e.course_id === courseId) &&
+              (e.status === 'active' || e.status === 'canceled' || e.status === 'past_due');
           });
           if (active) {
             clearInterval(timer);
-            window.location.hash = '#/dashboard';
+            if (msg) {
+              msg.hidden = false;
+              msg.className = 'pricing__msg text-success';
+              msg.innerHTML = 'Payment confirmed \u2014 your access is ready! ' +
+                '<a href="#/dashboard" class="btn btn--sm btn--primary" id="go-course-btn">Start learning \u2192</a>';
+              var b = document.getElementById('go-course-btn');
+              if (b) b.addEventListener('click', function(e){ e.preventDefault(); goToCourse(courseId); });
+            }
+            // Also auto-navigate after a short beat (with cache cleared).
+            setTimeout(function(){ goToCourse(courseId); }, 1200);
           }
         }).catch(function() {});
-      if (tries > 20) clearInterval(timer); // ~1 min then stop
+      if (tries > 40) { // ~2 min then stop, show a friendly fallback
+        clearInterval(timer);
+        if (msg) {
+          msg.hidden = false;
+          msg.className = 'pricing__msg';
+          msg.innerHTML = 'If you\u2019ve completed payment, your access may take a moment. ' +
+            '<a href="#/account">Check your account</a> or refresh.';
+        }
+      }
     }, 3000);
   }
 

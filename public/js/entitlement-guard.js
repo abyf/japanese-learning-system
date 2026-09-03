@@ -40,9 +40,9 @@
       ? window.PlatformAuth.init() : Promise.resolve();
 
     return initP.then(function() {
-      var session = window.PlatformAuth && window.PlatformAuth.getSession();
-      if (!session) {
-        // Not signed in -> go to the course landing (which offers taster + subscribe/sign-in).
+      var token = window.PlatformAuth && window.PlatformAuth.getAccessToken();
+      if (!token) {
+        // Genuinely not signed in -> course landing (taster + subscribe/sign-in).
         window.location.hash = '#/course/' + encodeURIComponent(courseId);
         return false;
       }
@@ -52,7 +52,6 @@
         if (cache.active) return true;
       }
 
-      var token = window.PlatformAuth.getAccessToken();
       return fetch('/api/platform/me/entitlements', { headers: { 'Authorization': 'Bearer ' + token } })
         .then(function(r) { return r.json(); })
         .then(function(data) {
