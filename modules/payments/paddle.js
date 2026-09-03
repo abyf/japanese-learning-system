@@ -50,12 +50,11 @@ async function createCheckout(args) {
     }
   };
 
-  // Only pass a per-transaction checkout return URL when it's an approved,
-  // public HTTPS domain. For localhost/dev, omit it so Paddle uses the
-  // account's Default Payment Link (which must be configured in the dashboard).
-  if (args.successUrl && /^https:\/\//i.test(args.successUrl) && !/localhost|127\.0\.0\.1/i.test(args.successUrl)) {
-    body.checkout = { url: args.successUrl };
-  }
+  // We intentionally do NOT set a per-transaction `checkout.url`. Paddle uses
+  // the account's Default Payment Link (configured in the dashboard) for the
+  // checkout/return, which avoids the per-transaction domain-approval
+  // requirement that otherwise fails checkout creation. The overlay is opened
+  // client-side via Paddle.js using the returned transaction id.
 
   // Attach customer email if we have it (helps prefill + matching).
   if (args.email) {
