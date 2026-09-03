@@ -95,12 +95,24 @@
       email: opts.email,
       password: opts.password,
       options: {
-        data: { display_name: opts.displayName || opts.email.split('@')[0] }
+        data: {
+          display_name: opts.displayName || opts.email.split('@')[0],
+          alias: opts.alias || (opts.email ? opts.email.split('@')[0] : '')
+        }
       }
     }).then(function(res) {
       if (res.error) throw res.error;
       return res.data;
     });
+  }
+
+  /**
+   * Get the display name (or alias/email) of the signed-in user, for UI.
+   */
+  function getDisplayName() {
+    if (!currentSession || !currentSession.user) return null;
+    var m = currentSession.user.user_metadata || {};
+    return m.display_name || m.alias || (currentSession.user.email ? currentSession.user.email.split('@')[0] : 'Learner');
   }
 
   function signIn(opts) {
@@ -158,6 +170,7 @@
     resetPassword: resetPassword,
     getSession: getSession,
     getAccessToken: getAccessToken,
+    getDisplayName: getDisplayName,
     onAuthChange: onAuthChange,
     isReady: isReady
   };

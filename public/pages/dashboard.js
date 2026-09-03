@@ -98,7 +98,8 @@
     var page = document.querySelector('.page--dashboard');
     if (!page) return;
 
-    var username = (user && user.username) || '';
+    var displayName = (window.PlatformAuth && window.PlatformAuth.getDisplayName && window.PlatformAuth.getDisplayName()) || null;
+    var username = displayName || (user && user.username) || '';
     var lang = window.App.getLanguage();
 
     var currentWeek = (progress && progress.currentWeek) || 1;

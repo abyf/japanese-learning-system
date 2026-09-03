@@ -66,8 +66,14 @@
      * @returns {string} HTML string for the navbar
      */
     renderNav: function(active) {
-      var username = (window.App.user && window.App.user.username) || '';
-      var userHtml = username
+      // Prefer the Supabase display name so ANY signed-in learner (paid or not)
+      // sees their name + a logout control on every page. Fall back to the
+      // legacy course username only when there is no platform session.
+      var platformName = (window.PlatformAuth && window.PlatformAuth.getDisplayName && window.PlatformAuth.getDisplayName()) || null;
+      var hasPlatformSession = !!(window.PlatformAuth && window.PlatformAuth.getSession && window.PlatformAuth.getSession());
+      var username = platformName || (window.App.user && window.App.user.username) || '';
+      var signedIn = hasPlatformSession || !!(window.App.user);
+      var userHtml = (signedIn && username)
         ? '<div class="navbar__user-menu">' +
             '<button type="button" class="navbar__user" onclick="window.App.toggleUserMenu(event)">' +
               escapeHtmlNav(username) + ' &#9662;' +
@@ -118,19 +124,48 @@
     },
 
     /**
-     * Log the user out and return to the login screen.
+     * Log the user out of BOTH the platform (Supabase) and the legacy course
+     * session, then return to the public catalog.
      */
     logout: function() {
       window.App.closeUserMenu();
-      window.API.post('/auth/logout', {})
-        .then(function() {
-          window.App.user = null;
-          window.location.hash = '#/login';
-        })
-        .catch(function() {
-          window.App.user = null;
-          window.location.hash = '#/login';
-        });
+
+      function finish() {
+        window.App.user = null;
+        window.App.refreshNav();
+        window.location.hash = '#/catalog';
+      }
+
+      // Sign out of the legacy course cookie session (best-effort).
+      var legacy = (window.API && window.API.post)
+        ? window.API.post('/auth/logout', {}).catch(function() {})
+        : Promise.resolve();
+
+      // Sign out of the Supabase platform session (best-effort).
+      var platform = (window.PlatformAuth && window.PlatformAuth.signOut)
+        ? window.PlatformAuth.signOut().catch(function() {})
+        : Promise.resolve();
+
+      Promise.all([legacy, platform]).then(finish).catch(finish);
+    },
+
+    /**
+     * Re-render the navbar in place (used after auth changes so the signed-in
+     * user + logout control appear/disappear without a full reload).
+     */
+    refreshNav: function() {
+      var navEl = document.querySelector('.navbar');
+      if (!navEl) return;
+      var activeLink = navEl.querySelector('.navbar__link--active');
+      var active = '';
+      if (activeLink) {
+        var href = activeLink.getAttribute('href') || '';
+        active = href.replace('#/', '');
+      }
+      var wrapper = document.createElement('div');
+      wrapper.innerHTML = window.App.renderNav(active);
+      var fresh = wrapper.firstChild;
+      if (fresh) navEl.parentNode.replaceChild(fresh, navEl);
     }
   };
 
@@ -186,7 +221,20 @@
     // If the learner is signed in, establish the legacy course-session cookie so
     // the existing course backend works on direct navigation to any course page.
     if (window.PlatformAuth && window.PlatformAuth.init) {
+      // Keep the navbar in sync with the platform session on any auth change
+      // (sign-in, sign-out, token refresh) so the signed-in name + logout
+      // control appear on every page regardless of subscription.
+      if (window.PlatformAuth.onAuthChange) {
+        window.PlatformAuth.onAuthChange(function() {
+          window.App.refreshNav();
+        });
+      }
+
       window.PlatformAuth.init().then(function() {
+        // The page may have rendered its navbar before the session loaded;
+        // refresh it now that we know who (if anyone) is signed in.
+        window.App.refreshNav();
+
         var token = window.PlatformAuth.getAccessToken && window.PlatformAuth.getAccessToken();
         if (token) {
           fetch('/api/platform/course-session', {

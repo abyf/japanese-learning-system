@@ -40,39 +40,145 @@
     });
   }
 
+  // ── Plan / status formatting helpers ────────────────────────────────────
+  var PLAN_LABELS = {
+    monthly:  'Monthly subscription',
+    annual:   'Annual subscription',
+    yearly:   'Annual subscription',
+    lifetime: 'Lifetime access'
+  };
+  var STATUS_LABELS = {
+    active:   'Active',
+    canceled: 'Canceling',
+    past_due: 'Payment due',
+    expired:  'Expired',
+    refunded: 'Refunded'
+  };
+
+  function planLabel(e) {
+    if (e.plan_type && PLAN_LABELS[e.plan_type]) return PLAN_LABELS[e.plan_type];
+    if (e.plan_type) return e.plan_type.charAt(0).toUpperCase() + e.plan_type.slice(1);
+    return 'Course access';
+  }
+  function statusLabel(status) {
+    return STATUS_LABELS[status] || (status ? status.charAt(0).toUpperCase() + status.slice(1) : 'Unknown');
+  }
+  function formatDate(iso) {
+    if (!iso) return null;
+    var d = new Date(iso);
+    if (isNaN(d.getTime())) return null;
+    try {
+      return d.toLocaleDateString(undefined, { year: 'numeric', month: 'long', day: 'numeric' });
+    } catch (e) { return d.toISOString().slice(0, 10); }
+  }
+  // What to show for the "renews / expires" row, given plan + status.
+  function renewalRow(e) {
+    if (e.plan_type === 'lifetime') return { label: 'Expires', value: 'Never — lifetime access' };
+    var when = formatDate(e.current_period_end);
+    if (e.status === 'canceled') {
+      return { label: 'Access until', value: when || 'End of current period' };
+    }
+    if (e.status === 'expired' || e.status === 'refunded') {
+      return { label: 'Ended', value: when || '—' };
+    }
+    // active / past_due recurring
+    return { label: 'Renews on', value: when || 'Next billing date' };
+  }
+
+  // A single row in the details grid.
+  function detailRow(label, value) {
+    if (value == null || value === '') return '';
+    return '<div class="sub-detail">' +
+      '<span class="sub-detail__label">' + escapeHtml(label) + '</span>' +
+      '<span class="sub-detail__value">' + escapeHtml(value) + '</span>' +
+    '</div>';
+  }
+
+  // Render one subscription/entitlement as a professional card.
+  function subscriptionCard(e) {
+    var scope = e.all_access ? 'All courses' : (e.course_id || 'Course');
+    var renew = renewalRow(e);
+    var provider = e.provider ? (e.provider.charAt(0).toUpperCase() + e.provider.slice(1)) : null;
+    return '<div class="sub-card">' +
+      '<div class="sub-card__head">' +
+        '<div>' +
+          '<h3 class="sub-card__plan">' + escapeHtml(planLabel(e)) + '</h3>' +
+          '<p class="sub-card__scope">' + escapeHtml(scope) + '</p>' +
+        '</div>' +
+        '<span class="ent-list__status ent-list__status--' + escapeHtml(e.status) + '">' + escapeHtml(statusLabel(e.status)) + '</span>' +
+      '</div>' +
+      '<div class="sub-card__grid">' +
+        detailRow('Plan', planLabel(e)) +
+        detailRow('Status', statusLabel(e.status)) +
+        detailRow('Access', scope) +
+        detailRow(renew.label, renew.value) +
+        detailRow('Member since', formatDate(e.created_at)) +
+        detailRow('Billing', provider) +
+      '</div>' +
+      (e.status === 'canceled'
+        ? '<p class="sub-card__note">Your subscription is set to cancel. You keep access until the date above.</p>'
+        : '') +
+      (e.status === 'past_due'
+        ? '<p class="sub-card__note sub-card__note--warn">A payment is due. Please update your billing details to keep access.</p>'
+        : '') +
+    '</div>';
+  }
+
   // ── Signed-in view ──────────────────────────────────────────────────────
   function renderSignedIn(session) {
     var page = document.querySelector('.page--account');
     var email = session.user && session.user.email;
+    var displayName = (window.PlatformAuth && window.PlatformAuth.getDisplayName && window.PlatformAuth.getDisplayName()) || null;
+
     page.innerHTML =
       '<h1>Your account</h1>' +
       '<div class="account-card">' +
+        (displayName ? '<p class="account-card__name"><strong>' + escapeHtml(displayName) + '</strong></p>' : '') +
         '<p class="account-card__email">Signed in as <strong>' + escapeHtml(email) + '</strong></p>' +
-        '<div id="account-entitlements" class="account-card__ents">Loading your courses…</div>' +
+        '<h2 class="account-card__section-title">Subscription</h2>' +
+        '<div id="account-entitlements" class="account-card__ents">Loading your subscription…</div>' +
         '<div class="account-card__actions">' +
-          '<a href="#/catalog" class="btn btn--primary">Browse courses</a>' +
+          '<a href="#/dashboard" class="btn btn--primary">Go to course</a>' +
           '<button id="account-portal" class="btn btn--secondary">Manage billing</button>' +
           '<button id="account-logout" class="btn btn--danger">Log out</button>' +
         '</div>' +
       '</div>';
 
-    // Load entitlements
+    // Load entitlements → render subscription cards (or an empty state).
     var token = window.PlatformAuth.getAccessToken();
     fetch('/api/platform/me/entitlements', { headers: { 'Authorization': 'Bearer ' + token } })
       .then(function(r) { return r.json(); })
       .then(function(data) {
         var el = document.getElementById('account-entitlements');
         var ents = (data && data.entitlements) || [];
-        if (!ents.length) { el.innerHTML = '<p class="text-secondary">No active courses yet. Browse the catalog to subscribe.</p>'; return; }
-        el.innerHTML = '<ul class="ent-list">' + ents.map(function(e) {
-          var label = e.all_access ? 'All courses' : e.course_id;
-          return '<li class="ent-list__item"><span>' + escapeHtml(label) + '</span>' +
-            '<span class="ent-list__status ent-list__status--' + escapeHtml(e.status) + '">' + escapeHtml(e.status) + (e.plan_type ? ' · ' + escapeHtml(e.plan_type) : '') + '</span></li>';
-        }).join('') + '</ul>';
-      }).catch(function() {});
+        // Only surface entitlements that actually grant/granted access.
+        ents = ents.filter(function(e) { return e && e.status; });
+        if (!ents.length) {
+          el.innerHTML =
+            '<div class="sub-empty">' +
+              '<p class="sub-empty__title">No active subscription</p>' +
+              '<p class="text-secondary">You have an account but haven\'t subscribed yet. Browse the catalog to unlock the full course.</p>' +
+              '<a href="#/catalog" class="btn btn--primary btn--sm">Browse courses</a>' +
+            '</div>';
+          // Hide the "Go to course" primary action for non-subscribers.
+          var goBtn = page.querySelector('.account-card__actions .btn--primary');
+          if (goBtn) goBtn.setAttribute('href', '#/catalog');
+          return;
+        }
+        el.innerHTML = ents.map(subscriptionCard).join('');
+      })
+      .catch(function() {
+        var el = document.getElementById('account-entitlements');
+        if (el) el.innerHTML = '<p class="text-secondary">Could not load your subscription right now.</p>';
+      });
 
     document.getElementById('account-logout').addEventListener('click', function() {
-      window.PlatformAuth.signOut().then(function() { window.location.hash = '#/catalog'; render(); });
+      window.PlatformAuth.signOut().then(function() {
+        if (window.App) window.App.user = null;
+        if (window.App && window.App.refreshNav) window.App.refreshNav();
+        window.location.hash = '#/catalog';
+        render();
+      });
     });
     document.getElementById('account-portal').addEventListener('click', function() {
       var t = window.PlatformAuth.getAccessToken();
@@ -98,6 +204,8 @@
     var form;
     if (mode === 'register') {
       form =
+        '<input class="form__input" id="auth-name" type="text" placeholder="Your name" autocomplete="name">' +
+        '<input class="form__input" id="auth-alias" type="text" placeholder="Username / alias" autocomplete="username">' +
         '<input class="form__input" id="auth-email" type="email" placeholder="Email" autocomplete="email">' +
         '<input class="form__input" id="auth-password" type="password" placeholder="Password (min 6 chars)" autocomplete="new-password">' +
         '<button class="btn btn--primary auth__submit" id="auth-submit">Create account</button>';
@@ -151,9 +259,13 @@
     if (!window.PlatformAuth) { show('Auth not available.', true); return; }
 
     if (mode === 'register') {
+      var name = (document.getElementById('auth-name') || {}).value;
+      var alias = (document.getElementById('auth-alias') || {}).value;
+      if (!name || !name.trim()) { show('Please enter your name.', true); return; }
+      if (!alias || !alias.trim()) { show('Please choose a username / alias.', true); return; }
       if (!email || !password || password.length < 6) { show('Enter a valid email and a password of at least 6 characters.', true); return; }
       show('Creating your account…', false);
-      window.PlatformAuth.signUp({ email: email, password: password })
+      window.PlatformAuth.signUp({ email: email, password: password, displayName: name.trim(), alias: alias.trim() })
         .then(function() {
           show('Account created. Please check your email to confirm your address, then log in.', false);
           setTimeout(function() { renderAuthForms('login'); }, 2500);
