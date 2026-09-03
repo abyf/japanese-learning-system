@@ -162,11 +162,18 @@ function parseEvent(rawBody, headers) {
   }
 
   switch (eventName) {
-    // One-time purchase (lifetime) completes as a transaction.
+    // A transaction completed. This fires for BOTH one-time (lifetime) purchases
+    // AND the initial charge of a subscription. Only treat it as a lifetime grant
+    // when it is NOT tied to a subscription; otherwise the subscription.* events
+    // are authoritative and we must not clobber the recurring entitlement.
     case 'transaction.completed':
+      if (data.subscription_id || mapped.planType === 'monthly' || mapped.planType === 'annual') {
+        // Part of a subscription — let subscription.* events own the entitlement.
+        mapped.action = 'none';
+        break;
+      }
       mapped.action = 'grant';
       mapped.status = 'active';
-      // lifetime => no period end
       if (!mapped.planType) mapped.planType = 'lifetime';
       mapped.providerSubscriptionId = mapped.providerSubscriptionId || null;
       mapped.currentPeriodEnd = null;

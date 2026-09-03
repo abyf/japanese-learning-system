@@ -63,10 +63,15 @@ async function hasActiveAccess(userId, courseId) {
     // Lifetime = non-expiring
     if (e.plan_type === 'lifetime') return true;
 
-    // Recurring: current_period_end must be in the future
-    if (e.current_period_end && new Date(e.current_period_end) > new Date(now)) return true;
+    // Recurring with a known period end: must be in the future.
+    if (e.current_period_end) {
+      return new Date(e.current_period_end) > new Date(now);
+    }
 
-    return false;
+    // Active/canceled/past_due with NO period end recorded (e.g., the webhook
+    // didn't include current_billing_period): treat an 'active' subscription as
+    // valid so a paying subscriber is never wrongly locked out.
+    return e.status === 'active';
   });
 }
 
