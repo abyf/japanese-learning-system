@@ -26,9 +26,11 @@ const express = require('express');
 const { platformAuth } = require('../middleware/platform-auth.middleware');
 const { getAdminClient } = require('../lib/supabase');
 const platformConfig = require('../config.platform');
-const { getEntitlements } = require('../modules/entitlements');
+const { getEntitlements, hasActiveAccess } = require('../modules/entitlements');
 const { listCatalog, getPreview, getCourseContent } = require('../modules/catalog');
 const { getAdapter } = require('../modules/payments');
+const { issueToken, hashPassword } = require('../modules/auth');
+const legacyConfig = require('../config');
 
 const router = express.Router();
 
@@ -287,6 +289,62 @@ router.get('/billing/portal', platformAuth, async (req, res) => {
   } catch (err) {
     console.error('GET /billing/portal error:', err.message);
     res.status(500).json({ error: 'Failed to get billing portal' });
+  }
+});
+
+// ─── Course session bridge (Supabase → legacy) ──────────────────────────────
+
+/**
+ * POST /api/platform/course-session
+ *
+ * Bridges platform (Supabase) auth to the existing course backend, which uses
+ * legacy cookie auth + SQLite users. For an entitled learner, this finds-or-
+ * creates a legacy SQLite user keyed to their Supabase account and sets the
+ * legacy `token` cookie. After this, all existing /api/* course endpoints
+ * (curriculum, progress, srs, /api/auth/me) work for that user.
+ *
+ * Requires an active entitlement for the requested course.
+ */
+router.post('/course-session', platformAuth, async (req, res) => {
+  try {
+    const courseId = (req.body && req.body.courseId) || 'japanese-beginner';
+
+    // Must be entitled to bridge into the paid course.
+    const ok = await hasActiveAccess(req.user.id, courseId);
+    if (!ok) {
+      return res.status(402).json({ error: 'subscription_required' });
+    }
+
+    const db = req.app.locals.db;
+    // Deterministic legacy username derived from the Supabase account.
+    // Use the email (unique) so the same Supabase user always maps to the same
+    // legacy row. Store the Supabase UUID in the email column for traceability.
+    const username = 'sb_' + req.user.id.slice(0, 12); // stable, unique-ish handle
+    const emailVal = req.user.email || (req.user.id + '@supabase.local');
+
+    let user = db.prepare('SELECT id FROM users WHERE username = ?').get(username);
+    if (!user) {
+      // Create a legacy user with an unusable random password (login only via bridge).
+      const randomPw = await hashPassword('sb-' + req.user.id + '-' + Date.now());
+      const ins = db.prepare('INSERT INTO users (username, password_hash, email) VALUES (?, ?, ?)');
+      const result = ins.run(username, randomPw, emailVal);
+      const newId = Number(result.lastInsertRowid);
+      db.prepare('INSERT OR IGNORE INTO settings (user_id) VALUES (?)').run(newId);
+      user = { id: newId };
+    }
+
+    const token = issueToken(user.id);
+    res.cookie('token', token, {
+      httpOnly: true,
+      sameSite: 'lax',
+      secure: (platformConfig.publicBaseUrl || '').indexOf('https') === 0,
+      maxAge: legacyConfig.cookieMaxAge
+    });
+
+    res.json({ ok: true, legacyUserId: user.id });
+  } catch (err) {
+    console.error('POST /course-session error:', err.message);
+    res.status(500).json({ error: 'Failed to establish course session' });
   }
 });
 

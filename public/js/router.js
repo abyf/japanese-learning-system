@@ -99,6 +99,26 @@
       if (clean.indexOf(PUBLIC_PREFIXES[j]) === 0) return true;
     }
     if (isPreviewRoute(path)) return true;
+    if (isPlatformGuardedRoute(path)) return true; // platform entitlement guard handles these, not legacy auth
+    return false;
+  }
+
+  // In-app course routes. The router does NOT apply the legacy cookie auth to
+  // these — they render and rely on the platform EntitlementGuard (Supabase +
+  // entitlement), which also establishes the legacy course-session cookie so
+  // the existing course backend works. Non-entitled users are redirected to the
+  // paywall by the guard (dashboard) or bounced by a 401 on their data call.
+  var PLATFORM_GUARDED_PREFIXES = [
+    '/dashboard', '/plan', '/explore', '/curriculum', '/kana', '/vocab',
+    '/reading', '/listening', '/dictation', '/grammar', '/guide', '/drill',
+    '/review', '/shadow', '/exam', '/deepdive', '/level', '/progress', '/settings'
+  ];
+  function isPlatformGuardedRoute(path) {
+    var clean = path.split('?')[0];
+    for (var i = 0; i < PLATFORM_GUARDED_PREFIXES.length; i++) {
+      var p = PLATFORM_GUARDED_PREFIXES[i];
+      if (clean === p || clean.indexOf(p + '/') === 0) return true;
+    }
     return false;
   }
 

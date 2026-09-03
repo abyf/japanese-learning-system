@@ -41,33 +41,40 @@
 
     return initP.then(function() {
       var token = window.PlatformAuth && window.PlatformAuth.getAccessToken();
-      console.log('[guard] token present:', !!token);
       if (!token) {
-        console.log('[guard] no token -> redirect to course landing');
         window.location.hash = '#/course/' + encodeURIComponent(courseId);
         return false;
       }
 
       // Fresh cache?
       if (Date.now() - cache.at < CACHE_MS) {
-        if (cache.active) { console.log('[guard] cache says active'); return true; }
+        if (cache.active) return true;
       }
 
       return fetch('/api/platform/me/entitlements', { headers: { 'Authorization': 'Bearer ' + token } })
-        .then(function(r) { console.log('[guard] entitlements status:', r.status); return r.json(); })
+        .then(function(r) { return r.json(); })
         .then(function(data) {
-          console.log('[guard] entitlements payload:', JSON.stringify(data));
           var active = isEntitled(data && data.entitlements, courseId);
-          console.log('[guard] isEntitled ->', active);
           cache = { at: Date.now(), active: active };
           if (!active) {
             window.location.hash = '#/course/' + encodeURIComponent(courseId);
             return false;
           }
-          return true;
+          // Entitled: establish a legacy course session (cookie) so the existing
+          // course backend (/api/auth/me, /api/curriculum/*, progress, srs) works
+          // for this Supabase user. Must complete BEFORE the course page loads.
+          return fetch('/api/platform/course-session', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json', 'Authorization': 'Bearer ' + token },
+            credentials: 'same-origin',
+            body: JSON.stringify({ courseId: courseId })
+          }).then(function(sr) {
+            return true; // proceed regardless; the cookie is set on success
+          }).catch(function() {
+            return true;
+          });
         })
-        .catch(function(err) {
-          console.log('[guard] entitlements fetch error:', err && err.message);
+        .catch(function() {
           window.location.hash = '#/course/' + encodeURIComponent(courseId);
           return false;
         });

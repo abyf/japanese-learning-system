@@ -183,8 +183,20 @@
 
     // Initialize the Supabase-backed platform auth (async, non-blocking).
     // Once ready, PlatformAuth.getAccessToken() provides the JWT for API calls.
+    // If the learner is signed in, establish the legacy course-session cookie so
+    // the existing course backend works on direct navigation to any course page.
     if (window.PlatformAuth && window.PlatformAuth.init) {
-      window.PlatformAuth.init().catch(function() { /* graceful if unconfigured */ });
+      window.PlatformAuth.init().then(function() {
+        var token = window.PlatformAuth.getAccessToken && window.PlatformAuth.getAccessToken();
+        if (token) {
+          fetch('/api/platform/course-session', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json', 'Authorization': 'Bearer ' + token },
+            credentials: 'same-origin',
+            body: JSON.stringify({ courseId: 'japanese-beginner' })
+          }).catch(function() {});
+        }
+      }).catch(function() { /* graceful if unconfigured */ });
     }
 
     // Persistent site footer with brand logo + copyright
