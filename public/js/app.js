@@ -157,6 +157,12 @@
   function onHashChange() {
     var hash = window.location.hash || '#/';
     var path = hash.replace(/^#/, '') || '/';
+    // Platform front door: the bare root and the legacy auth pages all go to
+    // the public catalog. Sign-in now happens on the Supabase-backed #/account.
+    if (path === '/' || path === '' || path === '/login' || path === '/register') {
+      window.location.hash = '#/catalog';
+      return;
+    }
     window.Router.navigate(path);
   }
 
@@ -174,6 +180,12 @@
 
     // Initialize theme (loads user preference)
     window.Theme.initTheme();
+
+    // Initialize the Supabase-backed platform auth (async, non-blocking).
+    // Once ready, PlatformAuth.getAccessToken() provides the JWT for API calls.
+    if (window.PlatformAuth && window.PlatformAuth.init) {
+      window.PlatformAuth.init().catch(function() { /* graceful if unconfigured */ });
+    }
 
     // Persistent site footer with brand logo + copyright
     renderFooter();
@@ -197,6 +209,13 @@
     footer.className = 'app-footer';
     footer.innerHTML =
       '<img class="app-footer__logo" src="/assets/nipponmboa-logo.svg" alt="NipponMboa Consulting" width="150" height="89">' +
+      '<nav class="app-footer__links">' +
+        '<a href="#/pricing">Pricing</a>' +
+        '<a href="#/terms">Terms</a>' +
+        '<a href="#/privacy">Privacy</a>' +
+        '<a href="#/refunds">Refunds</a>' +
+        '<a href="#/contact">Contact</a>' +
+      '</nav>' +
       '<p class="app-footer__copy">\u00A9 ' + year + ' NipponMboa Consulting. ' + escapeHtmlNav(rights) + '</p>';
     document.body.appendChild(footer);
   }

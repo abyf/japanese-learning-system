@@ -18,8 +18,10 @@
     "build:audio": "node scripts/build-audio.js"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.112.4",
     "bcryptjs": "^3.0.3",
     "cookie-parser": "^1.4.7",
+    "dotenv": "^17.4.2",
     "express": "^4.21.1",
     "jsonwebtoken": "^9.0.2",
     "sql.js": "^1.14.1"

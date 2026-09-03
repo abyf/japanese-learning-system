@@ -12,6 +12,10 @@ const settingsRoutes = require('./routes/settings.routes');
 const curriculumRoutes = require('./routes/curriculum.routes');
 const adminRoutes = require('./routes/admin.routes');
 const { authMiddleware } = require('./middleware/auth.middleware');
+const platformRoutes = require('./routes/platform.routes');
+const webhookRoutes = require('./routes/webhooks.routes');
+const previewRoutes = require('./routes/preview.routes');
+const platformConfig = require('./config.platform');
 
 /**
  * Module-level database reference.
@@ -44,6 +48,13 @@ async function createServer(options = {}) {
   // Make db accessible via app.locals for route handlers
   app.locals.db = db;
 
+  // Payment webhooks MUST be mounted before express.json(), because signature
+  // verification needs the exact raw request body. This router uses its own
+  // express.raw() parser and is public (verified by provider signature).
+  if (platformConfig.isConfigured()) {
+    app.use('/api/webhooks', webhookRoutes);
+  }
+
   // Middleware
   app.use(express.json());
   app.use(cookieParser());
@@ -72,7 +83,22 @@ async function createServer(options = {}) {
   // Admin routes (protected by admin key, not user auth)
   app.use('/api/admin', adminRoutes);
 
-  // Protect all other /api/ routes with auth middleware
+  // Platform routes (Supabase Auth; public + protected, mounted before the
+  // legacy auth gate so they use their own middleware).
+  if (platformConfig.isConfigured()) {
+    app.use('/api/platform', platformRoutes);
+    console.log('[platform] Supabase-backed platform routes mounted at /api/platform');
+  } else {
+    platformConfig.reportMissing();
+    console.log('[platform] Platform routes NOT mounted (missing config). Legacy-only mode.');
+  }
+
+  // Public "Test before paying" preview routes: serve ONLY the allowlisted
+  // free-sample content without auth. Mounted BEFORE the legacy auth gate;
+  // non-preview items fall through (next()) to the authed routes below.
+  app.use('/api', previewRoutes);
+
+  // Protect all other /api/ routes with legacy auth middleware
   app.use('/api', authMiddleware);
 
   // Protected API routes

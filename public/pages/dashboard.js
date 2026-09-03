@@ -38,10 +38,23 @@
     loadData();
   }
 
-  // Route handlers set the view, then load + render.
-  function renderHome() { currentView = 'home'; render(); }
-  function renderPlan() { currentView = 'plan'; render(); }
-  function renderExplore() { currentView = 'explore'; render(); }
+  // Route handlers set the view, then load + render — but only after the
+  // entitlement guard confirms the learner has paid access. Non-subscribers
+  // are routed to the course landing/paywall.
+  function guarded(view) {
+    return function() {
+      if (window.EntitlementGuard && window.EntitlementGuard.require) {
+        window.EntitlementGuard.require('japanese-beginner').then(function(ok) {
+          if (ok) { currentView = view; render(); }
+        });
+      } else {
+        currentView = view; render();
+      }
+    };
+  }
+  function renderHome() { guarded('home')(); }
+  function renderPlan() { guarded('plan')(); }
+  function renderExplore() { guarded('explore')(); }
 
   function loadData() {
     Promise.all([

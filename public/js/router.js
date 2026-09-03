@@ -8,8 +8,28 @@
   var routes = [];
   var currentRoute = null;
 
-  // Routes that don't require authentication
-  var PUBLIC_ROUTES = ['/login', '/register'];
+  // Routes that don't require authentication (exact match)
+  var PUBLIC_ROUTES = ['/login', '/register', '/catalog', '/account',
+    '/pricing', '/terms', '/privacy', '/refunds', '/contact'];
+  // Public route prefixes (e.g., course landing pages are browsable by anyone)
+  var PUBLIC_PREFIXES = ['/course/'];
+  // "Test before paying" free-sample routes: openable by anyone (shown with a
+  // preview banner). These mirror the is_preview rows seeded for the course.
+  var PREVIEW_ROUTES = [
+    '/kana/hiragana', '/kana/katakana', '/kana/kanji',
+    '/vocab/beginner/v001', '/reading/beginner/r001',
+    '/listening/beginner/l001', '/dictation/beginner/d001',
+    '/grammar/beginner/g001'
+  ];
+
+  function isPreviewRoute(path) {
+    // Compare against the path without query string.
+    var clean = path.split('?')[0];
+    for (var i = 0; i < PREVIEW_ROUTES.length; i++) {
+      if (clean === PREVIEW_ROUTES[i]) return true;
+    }
+    return false;
+  }
 
   /**
    * Register a route with a path pattern and handler.
@@ -36,9 +56,12 @@
    * Returns { route, params } or null if no match.
    */
   function matchRoute(path) {
+    // Match against the path WITHOUT its query string. Pages that need query
+    // params read them from window.location.hash themselves.
+    var clean = path.split('?')[0];
     for (var i = 0; i < routes.length; i++) {
       var route = routes[i];
-      var match = path.match(route.regex);
+      var match = clean.match(route.regex);
       if (match) {
         var params = {};
         for (var j = 0; j < route.paramNames.length; j++) {
@@ -68,9 +91,14 @@
    * Determine if a path is public (no auth required).
    */
   function isPublicRoute(path) {
+    var clean = path.split('?')[0];
     for (var i = 0; i < PUBLIC_ROUTES.length; i++) {
-      if (path === PUBLIC_ROUTES[i]) return true;
+      if (clean === PUBLIC_ROUTES[i]) return true;
     }
+    for (var j = 0; j < PUBLIC_PREFIXES.length; j++) {
+      if (clean.indexOf(PUBLIC_PREFIXES[j]) === 0) return true;
+    }
+    if (isPreviewRoute(path)) return true;
     return false;
   }
 
@@ -97,7 +125,9 @@
     if (!isPublicRoute(path)) {
       checkAuth().then(function(authenticated) {
         if (!authenticated) {
-          window.location.hash = '#/login';
+          // Unauthenticated users go to the public catalog (platform front door),
+          // not the legacy login. From the catalog they can preview and sign in.
+          window.location.hash = '#/catalog';
           return;
         }
         resolveRoute(path);
@@ -147,7 +177,8 @@
     navigate: navigate,
     registerRoute: registerRoute,
     getCurrentRoute: getCurrentRoute,
-    matchRoute: matchRoute
+    matchRoute: matchRoute,
+    isPreviewRoute: isPreviewRoute
   };
 
 })();

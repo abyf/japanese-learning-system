@@ -1,13 +1,41 @@
+# Render deployment config (Task 13)
+#
+# Documents the nihongo-beginner web service. The service already exists on
+# Render connected to this GitHub repo; this file records its intended config.
+#
+# IMPORTANT: secrets (SUPABASE_*, PADDLE_*) are NOT stored here. Set them in the
+# Render dashboard → Environment. Only non-secret defaults live in this file.
 services:
   - type: web
-    name: japanese-learning-system
+    name: nihongo-beginner
     runtime: node
+    region: oregon
+    plan: starter                # always-on ($7/mo) — required for reliable webhooks
+    branch: main
     buildCommand: npm install
     startCommand: node start.js
+    healthCheckPath: /api/health
+    autoDeploy: true
     envVars:
       - key: NODE_ENV
         value: production
-      - key: JWT_SECRET
-        generateValue: true
-      - key: PORT
-        value: 10000
+      # The following are SECRET — set their values in the Render dashboard,
+      # not here. Listed so you know exactly what to add.
+      - key: SUPABASE_URL
+        sync: false
+      - key: SUPABASE_ANON_KEY
+        sync: false
+      - key: SUPABASE_SERVICE_ROLE_KEY
+        sync: false
+      - key: PAYMENT_PROVIDER
+        value: paddle
+      - key: PADDLE_ENV
+        value: sandbox           # switch to 'production' at go-live (Task 14)
+      - key: PADDLE_API_KEY
+        sync: false
+      - key: PADDLE_WEBHOOK_SECRET
+        sync: false
+      - key: PADDLE_CLIENT_TOKEN
+        sync: false
+      - key: PUBLIC_BASE_URL
+        value: https://nihongo-beginner.onrender.com

@@ -73,9 +73,9 @@
       .then(function(res) {
         hideLoading();
 
-        // Handle 401 - redirect to login
+        // Handle 401 - send to the public catalog (platform front door).
         if (res.status === 401) {
-          window.location.hash = '#/login';
+          window.location.hash = '#/catalog';
           return Promise.reject(new Error('Unauthorized'));
         }
 
